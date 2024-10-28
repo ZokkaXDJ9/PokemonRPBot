@@ -31,7 +31,8 @@ class ParsedRollQuery:
         return cls(amount, sides, flat_addition)
 
     def as_button_callback_query_string(self) -> str:
-        return f"roll-dice_{self.amount}d{self.sides}+{self.flat_addition}"
+        """Returns a query string that can be reused for the button callback."""
+        return f"{self.amount}d{self.sides}+{self.flat_addition}" if self.flat_addition > 0 else f"{self.amount}d{self.sides}"
 
     def execute(self) -> str:
         # Determine if we should display successes based on dice count and type
@@ -51,7 +52,7 @@ class ParsedRollQuery:
                 if value == CRIT:
                     six_count += 1
 
-        # Format results to apply bold for 4, 5 and bold + underscore for 6
+        # Format results to apply bold for 4, 5, and bold + underscore for 6
         result_list = ", ".join(
             f"**__{x}__**" if x == CRIT else f"**{x}**" if x > FAIL_THRESHOLD else str(x)
             for x in results
@@ -72,7 +73,7 @@ class ParsedRollQuery:
 
         return text
 
-# Load moves from a JSON file
+# Load a specific move from a JSON file
 def load_move(move_name):
     """Load a move from a JSON file based on the move name."""
     # Construct the file path
@@ -85,10 +86,9 @@ def load_move(move_name):
     except FileNotFoundError:
         return None  # Return None if the file does not exist
 
-
-# Retrieve a move by name
+# Retrieve a move by name (if loading multiple moves at once)
 def get_move(move_name):
-    moves = load_moves()
+    moves = load_move()  # This function might need to load multiple moves at once, not just one.
     for move in moves:
         if move["Name"].lower() == move_name.lower():  # Case-insensitive search
             return move

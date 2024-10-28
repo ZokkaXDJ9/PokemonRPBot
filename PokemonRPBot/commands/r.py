@@ -6,8 +6,18 @@ from helpers import ParsedRollQuery
 class RollView(discord.ui.View):
     def __init__(self, query_string: str):
         super().__init__()
-        # Add the "Roll again" button to the view
-        self.add_item(discord.ui.Button(label="Roll again!", style=discord.ButtonStyle.primary, custom_id=query_string))
+        self.query_string = query_string  # Store the query for reuse
+
+    @discord.ui.button(label="Roll again!", style=discord.ButtonStyle.primary)
+    async def roll_again_button(self, interaction: discord.Interaction, button: discord.ui.Button):
+        # Parse the query string to retrieve the roll parameters
+        parsed_query = ParsedRollQuery.from_query(self.query_string)
+
+        # Execute the roll again and get the result text
+        result_text = parsed_query.execute()
+
+        # Send a new message with the roll result, without the button
+        await interaction.response.send_message(content=result_text, ephemeral=False)
 
 class RollCommand(commands.Cog):
     def __init__(self, bot):
@@ -19,10 +29,10 @@ class RollCommand(commands.Cog):
         result_text = parsed_query.execute()
         query_string = parsed_query.as_button_callback_query_string()
         
-        # Use RollView to add the button
+        # Send the initial roll message with the button for rerolling
         await interaction.response.send_message(
             content=result_text,
-            view=RollView(query_string)  # Use 'view' instead of 'components'
+            view=RollView(query_string)  # Includes "Roll again!" button
         )
 
 async def setup(bot):
