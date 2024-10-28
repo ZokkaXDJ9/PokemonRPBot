@@ -4,4 +4,5 @@
 COMMANDS = [
     "commands.r",
     "commands.roll",
+    "commands.move",
 ]

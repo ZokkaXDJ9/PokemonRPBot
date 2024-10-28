@@ -7,7 +7,7 @@ class RollView(discord.ui.View):
     def __init__(self, query_string: str):
         super().__init__()
         # Add the "Roll again" button to the view
-        self.add_item(discord.ui.Button(label="Roll again!", custom_id=query_string))
+        self.add_item(discord.ui.Button(label="Roll again!", style=discord.ButtonStyle.primary, custom_id=query_string))
 
 class RollCommand(commands.Cog):
     def __init__(self, bot):

@@ -2,6 +2,11 @@ import discord_token
 import discord
 from discord.ext import commands
 import config
+import sys
+import os
+
+# Add the root directory to sys.path
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 # Set up intents, including message content intent
 intents = discord.Intents.default()
