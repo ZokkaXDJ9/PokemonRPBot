@@ -1,31 +1,21 @@
+# button_handler.py
 import discord
-from helpers import ParsedRollQuery  # Ensure ParsedRollQuery is defined or imported in helpers
+from helpers import ParsedRollQuery  # Import ParsedRollQuery for rolling logic
 
 class RollView(discord.ui.View):
     def __init__(self, query_string: str):
         super().__init__(timeout=180)  # Timeout for button inactivity
-        self.query_string = query_string  # Store query string to reuse it in the callback
+        self.query_string = query_string  # Store the query string to reuse in the callback
 
-        # Add the "Roll again" button
-        self.add_item(
-            discord.ui.Button(
-                label="Roll again!",
-                style=discord.ButtonStyle.primary,
-                custom_id="roll_again"
-            )
-        )
-
-    @discord.ui.button(label="Roll again!", style=discord.ButtonStyle.primary, custom_id="roll_again")
+    @discord.ui.button(label="Roll again!", style=discord.ButtonStyle.primary)
     async def roll_again_button(self, interaction: discord.Interaction, button: discord.ui.Button):
-        # Parse the query string to retrieve the previous roll parameters
-        parsed_query = ParsedRollQuery.from_query_string(self.query_string)
-
-        # Execute the roll again and get the result text
+        # Parse the query string and execute the roll
+        parsed_query = ParsedRollQuery.from_query(self.query_string)
         result_text = parsed_query.execute()
 
-        # Update the interaction with the new roll result
-        await interaction.response.edit_message(content=result_text, view=self)
+        # Send a new message with the roll result without the button (ephemeral=False for visibility)
+        await interaction.response.send_message(content=result_text, ephemeral=False)
 
-# Function to get a RollView instance based on a query string
+# Function to provide an instance of RollView, which can be imported in other files
 def get_roll_view(query_string: str) -> RollView:
     return RollView(query_string)

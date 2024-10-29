@@ -81,7 +81,7 @@ def load_move(move_name):
     
     # Try to load the JSON file
     try:
-        with open(file_path, "r") as f:
+        with open(file_path, "r", encoding="utf-8") as f:
             return json.load(f)
     except FileNotFoundError:
         return None  # Return None if the file does not exist
@@ -93,3 +93,43 @@ def get_move(move_name):
         if move["Name"].lower() == move_name.lower():  # Case-insensitive search
             return move
     return None
+
+def load_ability(ability_name):
+    """Load an ability from a JSON file based on the ability name."""
+    file_path = os.path.join(os.path.dirname(__file__), "Data", "abilities", f"{ability_name}.json")
+    
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return None  # Return None if the file does not exist
+    
+def load_rule(rule_name):
+    """Load a rule from a JSON file based on the rule name."""
+    file_path = os.path.join(os.path.dirname(__file__), "Data", "rules", f"{rule_name}.json")
+    
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return None  # Return None if the file does not exist
+
+def load_status(status_name):
+    """Load a status from a JSON file based on the status name."""
+    file_path = os.path.join(os.path.dirname(__file__), "Data", "status", f"{status_name}.json")
+    
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return None  # Return None if the file does not exist
+
+def load_weather(weather_name):
+    """Load a weather effect from a JSON file based on the weather name."""
+    file_path = os.path.join(os.path.dirname(__file__), "Data", "weather", f"{weather_name}.json")
+    
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:  # Ensure UTF-8 encoding for special characters
+            return json.load(f)
+    except FileNotFoundError:
+        return None  # Return None if the file does not exist

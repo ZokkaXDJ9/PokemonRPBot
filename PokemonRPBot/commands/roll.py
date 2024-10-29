@@ -1,7 +1,9 @@
+# roll.py
 import discord
 from discord import app_commands
 from discord.ext import commands
 from helpers import ParsedRollQuery
+from button_handler import get_roll_view  # Import RollView handler
 
 class RollManualCommand(commands.Cog):
     def __init__(self, bot):
@@ -21,7 +23,7 @@ class RollManualCommand(commands.Cog):
         
         await interaction.response.send_message(
             content=result_text,
-            components=[discord.ui.Button(label="Roll again!", custom_id=query_string)]
+            view=get_roll_view(query_string)  # Use the view with the button for rerolling
         )
 
 # Setup function to register the Cog

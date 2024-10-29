@@ -49,8 +49,13 @@ class MoveCommand(commands.Cog):
 *{move['Description']}*
 **Type**: {type_icon} {move['Type']} — **{category_icon} {move['Category']}**
 **Target**: {move["Target"]}
-**Damage Dice**: {move["Damage1"]} + {move["Power"]}
-**Accuracy Dice**: {move["Accuracy1"]} + Rank
+"""
+        # Add Damage Dice line if "Damage1" is not empty
+        if move["Damage1"]:
+            response += f"**Damage Dice**: {move['Damage1']} + {move['Power']}\n"
+        
+        # Add Accuracy Dice and Effect lines
+        response += f"""**Accuracy Dice**: {move["Accuracy1"]} + Rank
 **Effect**: {move["Effect"]}
 """
 
