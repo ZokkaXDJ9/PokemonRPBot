@@ -9,5 +9,6 @@ COMMANDS = [
     "commands.status",
     "commands.move",
     "commands.weather",
-    "commands.suggest"
+    "commands.suggest",
+    "commands.stats",
 ]

@@ -1,0 +1,18 @@
+{
+  "number": 902,
+  "api_id": 902,
+  "name": "Basculegion (Male)",
+  "base_hp": 7,
+  "strength": "3/7",
+  "dexterity": "2/5",
+  "vitality": "2/4",
+  "special": "2/5",
+  "insight": "2/5",
+  "moves": {
+    "bronze": ["Shadow Ball", "Phantom Force", "Water Gun", "Tail Whip", "Tackle", "Flail"],
+    "silver": ["Aqua Jet", "Bite", "Scary Face", "Headbutt", "Soak", "Crunch", "Take Down"],
+    "gold": ["Uproar", "Wave Crash", "Thrash", "Double-Edge", "Head Smash"],
+    "platinum": ["Endeavor", "Last Respects"],
+    "diamond": []
+  }
+}

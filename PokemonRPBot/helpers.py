@@ -2,7 +2,9 @@ import random
 import json
 import os
 import json
+from database import Database
 
+CHARACTERS_DIR = "Characters"
 CRIT = 6
 FAIL_THRESHOLD = 3
 

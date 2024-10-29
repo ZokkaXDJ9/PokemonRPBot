@@ -1,0 +1,17 @@
+{
+  "number": 994,
+  "name": "Iron Moth",
+  "base_hp": 5,
+  "strength": "2/4",
+  "dexterity": "3/7",
+  "vitality": "2/4",
+  "special": "4/8",
+  "insight": "3/7",
+  "moves": {
+    "bronze": [],
+    "silver": [],
+    "gold": ["Gust", "Whirlwind", "Ember", "Acid Spray", "Elect=ic Terrain", "Struggle Bug", "Fire Spin", "Take Down", "Lunge", "Screech", "Discharge", "Sludge Wave", "Fiery Dance", "Metal Sound", "Morning Sun", "Hurricane", "Bug Buzz", "Overheat"],
+    "platinum": [],
+    "diamond": []
+  }
+}
