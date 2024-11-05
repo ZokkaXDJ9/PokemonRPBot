@@ -1,0 +1,19 @@
+{
+    "quest_givers": [
+        {
+            "name": "King Claw",
+            "role": "King",
+            "description": "self proclaimed King of Krabby Beach. King Claw is a very jovial and lewd Kingler looking out for his subjects."
+        },
+        {
+            "name": "John",
+            "role": "Special Operations",
+            "description": "also known as Solid Cat, this Meowth is always about covert operations that are behind enemy lines."
+        },
+        {
+            "name": "ILU",
+            "role": "transcontinental being of the 4th dimension",
+            "description": "Brother of The Administrator, this Rotom is stuck between the realms and worlds as an transcendental Traveler that perceives the 4th dimension. ILU loves Dance Battles, and explaining the universe to those around him. ILU is also a lover of Dance and his quests revolve around his realm more than any other, seeming to want players to unlock the universe with him. ILU is very eccentric and enjoys to have fun in a Multiverse way."
+        }
+    ]
+}

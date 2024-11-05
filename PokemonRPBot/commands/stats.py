@@ -55,10 +55,10 @@ class StatsCommand(commands.Cog):
 
         # Format data as specified
         title = f"### {data['name']} [#{data['number']}]"
-        size = f"{data['height_m']}m / {data['height_ft']}ft   |   {data['weight_kg']}kg / {data['weight_lb']}lbs"
+        size = f"{data['height_m']:.2f}m / {data['height_ft']:.2f}ft   |   {data['weight_kg']}kg / {data['weight_lb']}lbs"
         
-        # Type with emojis
-        type_display = " ".join([f"{get_type_emoji(t)} {t}" for t in data["type"] if t])
+        # Type with emojis, separated by " / " if there are multiple types
+        type_display = " / ".join([f"{get_type_emoji(t)} {t}" for t in data["type"] if t])
         
         # Base HP
         base_hp = f"**Base HP**: {data['base_hp']}"
@@ -70,7 +70,7 @@ class StatsCommand(commands.Cog):
         special = f"**Special**: {format_stat(data['special'])}"
         insight = f"**Insight**: {format_stat(data['insight'])}"
         
-        # Abilities formatted with hidden ability in parentheses
+        # Abilities formatted with " / " separator
         abilities = " / ".join(filter(None, data["abilities"][:2]))  # Primary and Secondary
         hidden_ability = data["abilities"][2] if len(data["abilities"]) > 2 else None
         abilities_display = f"**Ability**: {abilities}" + (f" ({hidden_ability})" if hidden_ability else "")

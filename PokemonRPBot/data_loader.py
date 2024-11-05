@@ -1,11 +1,16 @@
 import os
 import json
+import csv
 
-# Define paths to Pokémon data folders
+# Define paths to data folders and CSV files
 POKEMON_NEW_FOLDER = "Data/pokemon_new"
 POKEMON_OLD_FOLDER = "Data/pokemon_old"
+MOVES_CSV = os.path.join("Data/csv", "moves.csv")
+POKEMON_CSV = os.path.join("Data/csv", "pokemon.csv")
+POKEMON_MOVES_CSV = os.path.join("Data/csv", "pokemon_moves.csv")
+POKEMON_MOVE_METHODS_CSV = os.path.join("Data/csv", "pokemon_move_methods.csv")
 
-# Define mappings for rank conversions
+# Rank mapping dictionary
 RANK_MAPPING = {
     "Starter": "Bronze",
     "Beginner": "Bronze",
@@ -16,51 +21,103 @@ RANK_MAPPING = {
     "Champion": "Diamond"
 }
 
+# Data storage dictionaries
+moves_data = {}
+pokemon_moves_data = {}
+pokemon_move_methods_data = {}
+pokemon_base_data = {}
+
+def load_csv_data():
+    """Load data from CSV files into dictionaries."""
+    # Load moves.csv
+    with open(MOVES_CSV, mode="r", encoding="utf-8") as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            moves_data[row["id"]] = row["identifier"].replace('-', ' ').title()
+
+    # Load pokemon.csv
+    with open(POKEMON_CSV, mode="r", encoding="utf-8") as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            pokemon_base_data[row["id"]] = {
+                "name": row["identifier"].replace('-', ' ').title(),
+                "species_id": row["species_id"],
+                "height": float(row["height"]) / 10,  # Convert to meters
+                "weight": float(row["weight"]) / 10   # Convert to kg
+            }
+
+    # Load pokemon_moves.csv
+    with open(POKEMON_MOVES_CSV, mode="r", encoding="utf-8") as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            pokemon_id = row["pokemon_id"]
+            if pokemon_id not in pokemon_moves_data:
+                pokemon_moves_data[pokemon_id] = []
+            pokemon_moves_data[pokemon_id].append({
+                "move_id": row["move_id"],
+                "method_id": row["pokemon_move_method_id"],
+                "level": row.get("level")
+            })
+
+    # Load pokemon_move_methods.csv
+    with open(POKEMON_MOVE_METHODS_CSV, mode="r", encoding="utf-8") as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            pokemon_move_methods_data[row["id"]] = row["identifier"].replace('-', ' ').title()
+
+# Load all CSV data on import
+load_csv_data()
+
 def load_pokemon_data(pokemon_name):
-    """Loads Pokémon data, prioritizing the new format if available."""
+    """Loads Pokémon data from JSON files or base CSV, then adds moves."""
+    # Find Pokémon ID from base data
+    pokemon_id = None
+    for pid, pdata in pokemon_base_data.items():
+        if pdata["name"].lower() == pokemon_name.lower():
+            pokemon_id = pid
+            break
+
+    if pokemon_id is None:
+        return None  # Return if Pokémon ID not found in CSV
+
     # Define file paths for new and old formats using the exact Pokémon name
     new_file_path = os.path.join(POKEMON_NEW_FOLDER, f"{pokemon_name}.json")
     old_file_path = os.path.join(POKEMON_OLD_FOLDER, f"{pokemon_name}.json")
 
-    # Check for new data file first
+    # Load JSON data if available
+    new_data = None
+    old_data = None
     if os.path.exists(new_file_path):
         with open(new_file_path, "r") as file:
             new_data = json.load(file)
-    else:
-        new_data = None
-
-    # Check for old data file if new data is not available or partial
     if os.path.exists(old_file_path):
         with open(old_file_path, "r") as file:
             old_data = json.load(file)
-    else:
-        old_data = None
 
-    # If neither file exists, return None
-    if new_data is None and old_data is None:
-        return None
+    # Combine JSON data with base data from CSV
+    combined_data = combine_pokemon_data(new_data, old_data, pokemon_id)
 
-    # Combine data: prioritize new_data, supplement with old_data if necessary
-    combined_data = combine_pokemon_data(new_data, old_data)
+    # Add learnable moves by ID from JSON
+    combined_data["learnable_moves"] = get_rank_based_moves(combined_data)
     return combined_data
 
-def combine_pokemon_data(new_data, old_data):
-    """Combine new and old Pokémon data, prioritizing new data where available."""
+def combine_pokemon_data(new_data, old_data, pokemon_id):
+    """Combine new/old Pokémon JSON data with base CSV data."""
+    # Use base data as the starting point
+    base_data = pokemon_base_data.get(pokemon_id, {})
+
     if new_data and not old_data:
-        return format_new_data(new_data)
+        return {**base_data, **format_new_data(new_data)}
     if old_data and not new_data:
-        return format_old_data(old_data)
+        return {**base_data, **format_old_data(old_data)}
 
-    # Format both data formats
-    formatted_new_data = format_new_data(new_data)
-    formatted_old_data = format_old_data(old_data)
-
-    # Merge with new_data taking priority
-    combined_data = {**formatted_old_data, **formatted_new_data}
-    return combined_data
+    # Merge all, prioritizing new_data, then old_data, then base_data
+    formatted_new_data = format_new_data(new_data) if new_data else {}
+    formatted_old_data = format_old_data(old_data) if old_data else {}
+    return {**base_data, **formatted_old_data, **formatted_new_data}
 
 def format_new_data(data):
-    """Format new data to a consistent structure."""
+    """Format new JSON data to match our expected structure."""
     return {
         "number": data.get("number"),
         "name": data.get("name"),
@@ -72,7 +129,7 @@ def format_new_data(data):
         "insight": parse_stat_range(data.get("insight", "0/0")),
         "moves": parse_moves_new(data.get("moves", {})),
         "abilities": data.get("abilities", []),
-        "type": data.get("type", ["Electric"]),  # Example if only one type
+        "type": data.get("type", ["Electric"]),  # Default example type
         "height_m": data.get("height_m", 0),
         "height_ft": data.get("height_ft", 0),
         "weight_kg": data.get("weight_kg", 0),
@@ -81,7 +138,7 @@ def format_new_data(data):
     }
 
 def format_old_data(data):
-    """Format old data to a consistent structure, applying rank mappings."""
+    """Format old JSON data to match our expected structure, with rank mappings."""
     return {
         "number": data.get("Number"),
         "name": data.get("Name"),
@@ -101,13 +158,43 @@ def format_old_data(data):
         "evolutions": data.get("Evolutions", [])
     }
 
+def get_rank_based_moves(combined_data):
+    """Retrieve moves by rank from JSON data."""
+    return combined_data.get("moves", {})
+
+# Additional helper functions
+def get_additional_moves_from_csv(pokemon_id):
+    """Retrieve TM, Egg, and Tutor moves from CSV data for a given Pokémon ID."""
+    moves = {
+        "TM Moves": [],
+        "Egg Moves": [],
+        "Tutor": [],
+        "Other": []
+    }
+
+    move_entries = pokemon_moves_data.get(pokemon_id, [])
+    for entry in move_entries:
+        move_name = moves_data.get(entry["move_id"], "Unknown Move")
+        method = pokemon_move_methods_data.get(entry["method_id"], "Other")
+
+        if method == "Machine":
+            moves["TM Moves"].append(move_name)
+        elif method == "Egg":
+            moves["Egg Moves"].append(move_name)
+        elif method == "Tutor":
+            moves["Tutor"].append(move_name)
+        else:
+            moves["Other"].append(move_name)
+
+    return moves
+
 def parse_stat_range(stat_range):
     """Parse stat range from 'min/max' format in new data."""
     min_stat, max_stat = map(int, stat_range.split("/"))
-    return (min_stat, max_stat)
+    return min_stat, max_stat
 
 def parse_moves_new(moves):
-    """Parse moves in the new data format, which are already structured by rank."""
+    """Parse moves from the new JSON format."""
     return {rank: moves[rank] for rank in moves}
 
 def parse_moves_old(moves):
@@ -118,3 +205,7 @@ def parse_moves_old(moves):
         new_rank = RANK_MAPPING.get(old_rank, "Bronze")  # Default to Bronze if not in mapping
         parsed_moves[new_rank].append(move.get("Name"))
     return parsed_moves
+
+def get_pokemon_base_data():
+    """Return the base Pokémon data loaded from pokemon.csv."""
+    return pokemon_base_data

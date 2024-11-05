@@ -1,0 +1,14 @@
+{
+    "quest_givers": [
+        {
+            "name": "Dusk",
+            "role": "Cartographer/Scout",
+            "description": "A male noivern that is an adventurer of the guild and shop owner of a map shop"
+        },
+        {
+            "name": "Hardy",
+            "role": "Manufacturing Lead of the Factory",
+            "description": "A male Klinklang and old adventurer and accountant from the past days, now a manufacturing lead of the factory that makes Z-Crystals."
+        }
+    ]
+}

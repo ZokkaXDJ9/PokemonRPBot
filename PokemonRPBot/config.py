@@ -11,4 +11,10 @@ COMMANDS = [
     "commands.weather",
     "commands.suggest",
     "commands.stats",
+    "commands.learns",
+    "commands.bonk",
+    "commands.setup_questgiver",
+    "commands.edit_questgiver",
+    "commands.crit",
+
 ]
