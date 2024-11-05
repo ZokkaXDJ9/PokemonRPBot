@@ -32,26 +32,46 @@ evolution_chains = {}
 
 # Manual override for evolution chain specific to Sneasler and Hisuian Sneasel
 EVOLUTION_OVERRIDE = {
-    "903": ["10235"],  # Sneasler inherits from Hisuian Sneasel
-    "10230": ["10229"],  # Hisuian Arcanine inherits from Hisuian Growlithe
-    "10232": ["10231"],  # Hisuian Electrode inherits from Hisuian Voltorb
-    "10233": ["157"],    # Hisuian Typhlosion inherits from base Quilava
-    "10236": ["503"],    # Hisuian Samurott inherits from base Dewott
-    "10237": ["548"],    # Hisuian Lilligant inherits from base Petilil
-    "10239": ["10238"],  # Hisuian Zoroark inherits from Hisuian Zorua
-    "10242": ["10241"],  # Hisuian Goodra inherits from Hisuian Sliggoo
-    "10244": ["724"],    # Hisuian Decidueye inherits from base Dartrix
-    
-    # Alolan Forms
-    "10100": ["25"],  # Alolan Raichu inherits from base Pikachu
-    "10102": ["27"],  # Alolan Sandslash inherits from base Sandshrew
-    "10111": ["74"],  # Alolan Golem inherits from base Geodude
+    # Hisuian Forms with Listed Pre-Evolutions
+    "903": ["10235"],          # Sneasler inherits from Hisuian Sneasel
+    "10230": ["10229"],        # Hisuian Arcanine inherits from Hisuian Growlithe
+    "10232": ["10231"],        # Hisuian Electrode inherits from Hisuian Voltorb
+    "10233": ["157"],          # Hisuian Typhlosion inherits from original Quilava
+    "10236": ["503"],          # Hisuian Samurott inherits from original Dewott
+    "10237": ["548"],          # Hisuian Lilligant inherits from original Petilil
+    "10239": ["10238"],        # Hisuian Zoroark inherits from Hisuian Zorua
+    "10242": ["10241"],        # Hisuian Goodra inherits from Hisuian Sliggoo
+    "10241": ["705"],          # Hisuian Sliggoo inherits from original Goomy
+    "10243": ["712"],          # Hisuian Avalugg inherits from original Bergmite
+    "10244": ["724"],          # Hisuian Decidueye inherits from original Dartrix
+    "904": ["10234"],          # Overqwil inherits from Hisuian Qwilfish
 
-    # Paldean Forms
-    "10250": ["128"],  # Paldean Tauros inherits from base Tauros
-    "10253": ["194"],  # Paldean Wooper inherits from base Wooper
-    "10254": ["916"],  # Female Oinkologne inherits from base Lechonk
+    # Alolan Forms with Listed Pre-Evolutions
+    "10092": ["10091"],        # Alolan Raticate inherits from Alolan Rattata
+    "10100": ["25"],           # Alolan Raichu inherits from original Pikachu
+    "10102": ["10101"],        # Alolan Sandslash inherits from Alolan Sandshrew
+    "10104": ["10103"],        # Alolan Ninetales inherits from Alolan Vulpix
+    "10106": ["10105"],        # Alolan Dugtrio inherits from Alolan Diglett
+    "10108": ["10107"],        # Alolan Persian inherits from Alolan Meowth
+    "10111": ["10110"],        # Alolan Golem inherits from Alolan Graveler
+    "10113": ["10112"],        # Alolan Muk inherits from Alolan Grimer
+    "10114": ["102"],          # Alolan Exeggutor inherits from original Exeggcute
+    "10115": ["104"],          # Alolan Marowak inherits from original Cubone
+    "10110": ["10109"],        # Alolan Graveler inherits from Alolan Geodude
+
+    # Galarian Forms with Listed Pre-Evolutions
+    "10163": ["10162"],        # Galarian Rapidash inherits from Galarian Ponyta
+    "10165": ["10164"],        # Galarian Slowbro inherits from Galarian Slowpoke
+    "10167": ["109"],          # Galarian Weezing inherits from original Koffing
+    "10172": ["10164"],        # Galarian Slowking inherits from Galarian Slowpoke
+    "10175": ["10174"],        # Galarian Linoone inherits from Galarian Zigzagoon
+    "862": ["10175"],          # Obstagoon inherits from Galarian Linoone
+    "863": ["10161"],          # Perrserker inherits from Galarian Meowth
+    "867": ["10179"],          # Runerigus inherits from Galarian Yamask
+    "10177": ["10176"],        # Galarian Darmanitan (Standard) inherits from Galarian Darumaka
+    "10178": ["10176"],        # Galarian Darmanitan (Zen) inherits from Galarian Darumaka
 }
+
 
 
 def load_csv_data():
