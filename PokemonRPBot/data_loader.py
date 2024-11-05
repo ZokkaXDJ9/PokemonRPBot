@@ -29,21 +29,29 @@ pokemon_base_data = {}
 
 def load_csv_data():
     """Load data from CSV files into dictionaries."""
-    # Load moves.csv
-    with open(MOVES_CSV, mode="r", encoding="utf-8") as file:
-        reader = csv.DictReader(file)
-        for row in reader:
-            moves_data[row["id"]] = row["identifier"].replace('-', ' ').title()
-
     # Load pokemon.csv
     with open(POKEMON_CSV, mode="r", encoding="utf-8") as file:
         reader = csv.DictReader(file)
         for row in reader:
+            name = row["identifier"].replace('-', ' ').title()
             pokemon_base_data[row["id"]] = {
-                "name": row["identifier"].replace('-', ' ').title(),
+                "name": name,
                 "species_id": row["species_id"],
                 "height": float(row["height"]) / 10,  # Convert to meters
-                "weight": float(row["weight"]) / 10   # Convert to kg
+                "weight": float(row["weight"]) / 10,  # Convert to kg
+                "number": row["id"]
+            }
+
+    # Load moves.csv
+    with open(MOVES_CSV, mode="r", encoding="utf-8") as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            moves_data[row["id"]] = {
+                "name": row["identifier"].replace('-', ' ').title(),
+                "type_id": row["type_id"],
+                "power": row["power"],
+                "pp": row["pp"],
+                "accuracy": row["accuracy"]
             }
 
     # Load pokemon_moves.csv
@@ -72,9 +80,11 @@ def load_pokemon_data(pokemon_name):
     """Loads Pokémon data from JSON files or base CSV, then adds moves."""
     # Find Pokémon ID from base data
     pokemon_id = None
+    base_pokemon_data = None
     for pid, pdata in pokemon_base_data.items():
         if pdata["name"].lower() == pokemon_name.lower():
             pokemon_id = pid
+            base_pokemon_data = pdata
             break
 
     if pokemon_id is None:
@@ -95,17 +105,15 @@ def load_pokemon_data(pokemon_name):
             old_data = json.load(file)
 
     # Combine JSON data with base data from CSV
-    combined_data = combine_pokemon_data(new_data, old_data, pokemon_id)
+    combined_data = combine_pokemon_data(new_data, old_data, base_pokemon_data)
 
-    # Add learnable moves by ID from JSON
-    combined_data["learnable_moves"] = get_rank_based_moves(combined_data)
+    # Add learnable moves by rank from CSV data
+    combined_data["learnable_moves"] = get_rank_based_moves(pokemon_id)
     return combined_data
 
-def combine_pokemon_data(new_data, old_data, pokemon_id):
+def combine_pokemon_data(new_data, old_data, base_data):
     """Combine new/old Pokémon JSON data with base CSV data."""
     # Use base data as the starting point
-    base_data = pokemon_base_data.get(pokemon_id, {})
-
     if new_data and not old_data:
         return {**base_data, **format_new_data(new_data)}
     if old_data and not new_data:
@@ -158,9 +166,23 @@ def format_old_data(data):
         "evolutions": data.get("Evolutions", [])
     }
 
-def get_rank_based_moves(combined_data):
-    """Retrieve moves by rank from JSON data."""
-    return combined_data.get("moves", {})
+def get_rank_based_moves(pokemon_id):
+    """Retrieve moves by rank from CSV data using the provided Pokémon ID."""
+    parsed_moves = {rank: [] for rank in RANK_MAPPING.values()}
+    parsed_moves["Other"] = []  # Ensure "Other" key is always present
+
+    move_entries = pokemon_moves_data.get(pokemon_id, [])
+    for entry in move_entries:
+        move_name = moves_data.get(entry["move_id"], {}).get("name", "Unknown Move")
+        method = pokemon_move_methods_data.get(entry["method_id"], "Other")
+
+        if method in RANK_MAPPING:
+            rank = RANK_MAPPING[method]
+            parsed_moves[rank].append(move_name)
+        else:
+            parsed_moves["Other"].append(move_name)
+
+    return parsed_moves
 
 # Additional helper functions
 def get_additional_moves_from_csv(pokemon_id):
@@ -174,7 +196,7 @@ def get_additional_moves_from_csv(pokemon_id):
 
     move_entries = pokemon_moves_data.get(pokemon_id, [])
     for entry in move_entries:
-        move_name = moves_data.get(entry["move_id"], "Unknown Move")
+        move_name = moves_data.get(entry["move_id"], {}).get("name", "Unknown Move")
         method = pokemon_move_methods_data.get(entry["method_id"], "Other")
 
         if method == "Machine":
@@ -187,6 +209,95 @@ def get_additional_moves_from_csv(pokemon_id):
             moves["Other"].append(move_name)
 
     return moves
+
+def get_pokemon_moves(pokemon_name):
+    """Retrieve and format moves for a Pokémon categorized by method, including missing level-up moves."""
+    # Find Pokémon ID based on name
+    pokemon_id = None
+    for pid, pdata in pokemon_base_data.items():
+        if pdata["name"].lower() == pokemon_name.lower():
+            pokemon_id = pid
+            break
+
+    if pokemon_id is None:
+        return f"Pokémon '{pokemon_name}' not found in pokemon.csv."
+
+    # Retrieve moves for this Pokémon from CSV
+    move_entries = pokemon_moves_data.get(pokemon_id, [])
+    if not move_entries:
+        return f"No move entries found for Pokémon '{pokemon_name}'."
+
+    # Load moves from JSON data for this Pokémon
+    pokemon_data = load_pokemon_data(pokemon_name)
+    json_moves = {move for rank_moves in pokemon_data.get("moves", {}).values() for move in rank_moves}
+
+    # Prepare sets for each relevant move category to avoid duplicates within each category
+    moves = {
+        "TM Moves": set(),
+        "Egg Moves": set(),
+        "Tutor Moves": set()
+    }
+    missing_level_up_moves = set()
+
+    # Sort moves into categories and track missing level-up moves
+    for entry in move_entries:
+        move_name = moves_data.get(entry["move_id"], {}).get("name", "Unknown Move")
+        method_name = pokemon_move_methods_data.get(entry["method_id"], "Other")
+
+        # Categorize moves by method
+        if method_name == "Machine":
+            moves["TM Moves"].add(move_name)
+        elif method_name == "Egg":
+            moves["Egg Moves"].add(move_name)
+        elif method_name == "Tutor":
+            moves["Tutor Moves"].add(move_name)
+        elif method_name == "Level Up" and move_name not in json_moves:
+            # Only include "Level Up" moves missing in JSON
+            missing_level_up_moves.add(move_name)
+
+    # Start building formatted sections and add to message list to avoid splitting categories
+    messages = []
+    current_message = f"### {pokemon_name.title()} [#{pokemon_id}]\n"
+
+    # Add each section with the appropriate emoji and formatted moves, checking for length
+    if moves["TM Moves"]:
+        tm_section = "\n:cd: **TM Moves**\n" + "  |  ".join(sorted(moves["TM Moves"]))
+        if len(current_message) + len(tm_section) > 2000:
+            messages.append(current_message)
+            current_message = tm_section
+        else:
+            current_message += tm_section
+
+    if moves["Egg Moves"]:
+        egg_section = "\n\n:egg: **Egg Moves**\n" + "  |  ".join(sorted(moves["Egg Moves"]))
+        if len(current_message) + len(egg_section) > 2000:
+            messages.append(current_message)
+            current_message = egg_section
+        else:
+            current_message += egg_section
+
+    if moves["Tutor Moves"]:
+        tutor_section = "\n\n:teacher: **Tutor**\n" + "  |  ".join(sorted(moves["Tutor Moves"]))
+        if len(current_message) + len(tutor_section) > 2000:
+            messages.append(current_message)
+            current_message = tutor_section
+        else:
+            current_message += tutor_section
+
+    if missing_level_up_moves:
+        missing_section = "\n\n:question: **Learned in Game through level up, but not here**\n" + "  |  ".join(sorted(missing_level_up_moves))
+        if len(current_message) + len(missing_section) > 2000:
+            messages.append(current_message)
+            current_message = missing_section
+        else:
+            current_message += missing_section
+
+    # Append the last message
+    if current_message:
+        messages.append(current_message)
+
+    return messages
+
 
 def parse_stat_range(stat_range):
     """Parse stat range from 'min/max' format in new data."""
@@ -202,10 +313,9 @@ def parse_moves_old(moves):
     parsed_moves = {"Bronze": [], "Silver": [], "Gold": [], "Platinum": [], "Diamond": []}
     for move in moves:
         old_rank = move.get("Learned", "")
-        new_rank = RANK_MAPPING.get(old_rank, "Bronze")  # Default to Bronze if not in mapping
+        new_rank = RANK_MAPPING.get(old_rank, "Bronze")
         parsed_moves[new_rank].append(move.get("Name"))
     return parsed_moves
 
-def get_pokemon_base_data():
-    """Return the base Pokémon data loaded from pokemon.csv."""
-    return pokemon_base_data
+# Example usage
+print(get_pokemon_moves("Abomasnow"))  # Replace "Abomasnow" with any Pokémon name as needed

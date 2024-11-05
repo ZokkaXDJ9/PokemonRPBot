@@ -2,8 +2,8 @@ import discord
 from discord import app_commands
 from discord.ext import commands
 import os
-from helpers import load_move  # Import the function to load a move JSON file
-from emojis import get_type_emoji, get_category_emoji  # Import emoji functions
+from helpers import load_move
+from emojis import get_type_emoji, get_category_emoji
 
 # Directory where move files are stored
 MOVES_DIRECTORY = os.path.join(os.path.dirname(__file__), "../Data/moves")
