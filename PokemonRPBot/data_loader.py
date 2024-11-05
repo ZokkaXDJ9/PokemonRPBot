@@ -9,6 +9,7 @@ MOVES_CSV = os.path.join("Data/csv", "moves.csv")
 POKEMON_CSV = os.path.join("Data/csv", "pokemon.csv")
 POKEMON_MOVES_CSV = os.path.join("Data/csv", "pokemon_moves.csv")
 POKEMON_MOVE_METHODS_CSV = os.path.join("Data/csv", "pokemon_move_methods.csv")
+POKEMON_SPECIES_CSV = os.path.join("Data/csv", "pokemon_species.csv")
 
 # Rank mapping dictionary
 RANK_MAPPING = {
@@ -26,20 +27,55 @@ moves_data = {}
 pokemon_moves_data = {}
 pokemon_move_methods_data = {}
 pokemon_base_data = {}
+pokemon_name_to_id_map = {}
+evolution_chains = {}
+
+# Manual override for evolution chain specific to Sneasler and Hisuian Sneasel
+EVOLUTION_OVERRIDE = {
+    "903": ["10235"],  # Sneasler inherits from Hisuian Sneasel
+    "10230": ["10229"],  # Hisuian Arcanine inherits from Hisuian Growlithe
+    "10232": ["10231"],  # Hisuian Electrode inherits from Hisuian Voltorb
+    "10233": ["157"],    # Hisuian Typhlosion inherits from base Quilava
+    "10236": ["503"],    # Hisuian Samurott inherits from base Dewott
+    "10237": ["548"],    # Hisuian Lilligant inherits from base Petilil
+    "10239": ["10238"],  # Hisuian Zoroark inherits from Hisuian Zorua
+    "10242": ["10241"],  # Hisuian Goodra inherits from Hisuian Sliggoo
+    "10244": ["724"],    # Hisuian Decidueye inherits from base Dartrix
+    
+    # Alolan Forms
+    "10100": ["25"],  # Alolan Raichu inherits from base Pikachu
+    "10102": ["27"],  # Alolan Sandslash inherits from base Sandshrew
+    "10111": ["74"],  # Alolan Golem inherits from base Geodude
+
+    # Paldean Forms
+    "10250": ["128"],  # Paldean Tauros inherits from base Tauros
+    "10253": ["194"],  # Paldean Wooper inherits from base Wooper
+    "10254": ["916"],  # Female Oinkologne inherits from base Lechonk
+}
+
 
 def load_csv_data():
-    """Load data from CSV files into dictionaries."""
-    # Load pokemon.csv
+    """Load data from CSV files into dictionaries, including alternate forms and evolution chains."""
+    # Load pokemon.csv and map each entry by name to ID
     with open(POKEMON_CSV, mode="r", encoding="utf-8") as file:
         reader = csv.DictReader(file)
         for row in reader:
-            name = row["identifier"].replace('-', ' ').title()
-            pokemon_base_data[row["id"]] = {
+            # Get the identifier and normalize it for different name formats
+            name = row["identifier"].replace('-', ' ').title()  # e.g., "Electrode Hisui"
+            normalized_name = row["identifier"]  # e.g., "electrode-hisui"
+            pokemon_id = row["id"]
+
+            # Map both title-cased and exact CSV name to the Pokémon ID for flexibility
+            pokemon_name_to_id_map[name.lower()] = pokemon_id
+            pokemon_name_to_id_map[normalized_name] = pokemon_id
+
+            # Store Pokémon data
+            pokemon_base_data[pokemon_id] = {
                 "name": name,
                 "species_id": row["species_id"],
                 "height": float(row["height"]) / 10,  # Convert to meters
                 "weight": float(row["weight"]) / 10,  # Convert to kg
-                "number": row["id"]
+                "number": pokemon_id
             }
 
     # Load moves.csv
@@ -73,8 +109,25 @@ def load_csv_data():
         for row in reader:
             pokemon_move_methods_data[row["id"]] = row["identifier"].replace('-', ' ').title()
 
+    # Load pokemon_species.csv for evolution chain data
+    with open(POKEMON_SPECIES_CSV, mode="r", encoding="utf-8") as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            species_id = row["id"]
+            evolves_from = row["evolves_from_species_id"]
+            evolution_chain_id = row["evolution_chain_id"]
+
+            # Build evolution chain mapping
+            if evolution_chain_id not in evolution_chains:
+                evolution_chains[evolution_chain_id] = []
+            evolution_chains[evolution_chain_id].append(species_id)
+
+            # Link species to evolution data
+            pokemon_base_data[species_id]["evolves_from"] = evolves_from
+
 # Load all CSV data on import
 load_csv_data()
+
 
 def load_pokemon_data(pokemon_name):
     """Loads Pokémon data from JSON files or base CSV, then adds moves."""
@@ -184,7 +237,6 @@ def get_rank_based_moves(pokemon_id):
 
     return parsed_moves
 
-# Additional helper functions
 def get_additional_moves_from_csv(pokemon_id):
     """Retrieve TM, Egg, and Tutor moves from CSV data for a given Pokémon ID."""
     moves = {
@@ -210,56 +262,81 @@ def get_additional_moves_from_csv(pokemon_id):
 
     return moves
 
+def get_evolution_chain(pokemon_id):
+    """Retrieve the evolution chain for a given Pokémon ID, with special handling for overrides."""
+    # Use override if available, otherwise use regular evolution chain
+    if pokemon_id in EVOLUTION_OVERRIDE:
+        # Start with overrides for specific evolution chains
+        evolution_chain = EVOLUTION_OVERRIDE[pokemon_id] + [pokemon_id]
+        print(f"Applying evolution override for Pokémon ID {pokemon_id}: {evolution_chain}")  # Debugging
+    else:
+        # Find the evolution chain based on standard species evolution
+        chain_id = next(
+            (evo_chain_id for evo_chain_id, ids in evolution_chains.items() if pokemon_id in ids), None
+        )
+        evolution_chain = evolution_chains.get(chain_id, [])
+        evolution_chain = evolution_chain[:evolution_chain.index(pokemon_id) + 1] if chain_id else []
+    
+    print(f"Evolution chain for Pokémon ID {pokemon_id}: {evolution_chain}")  # Debugging
+    return evolution_chain
+
+
+# Reload mechanism if needed for repeated testing
+def reload_data():
+    global moves_data, pokemon_moves_data, pokemon_move_methods_data, pokemon_base_data, evolution_chains
+    moves_data.clear()
+    pokemon_moves_data.clear()
+    pokemon_move_methods_data.clear()
+    pokemon_base_data.clear()
+    evolution_chains.clear()
+    load_csv_data()
+
 def get_pokemon_moves(pokemon_name):
-    """Retrieve and format moves for a Pokémon categorized by method, including missing level-up moves."""
-    # Find Pokémon ID based on name
-    pokemon_id = None
-    for pid, pdata in pokemon_base_data.items():
-        if pdata["name"].lower() == pokemon_name.lower():
-            pokemon_id = pid
-            break
-
+    """Retrieve and format moves for a Pokémon, prioritizing form-specific moves first."""
+    # Normalize the input name to match format in `pokemon.csv` (e.g., "electrode-hisui")
+    normalized_name = pokemon_name.lower().replace(' ', '-')
+    pokemon_id = pokemon_name_to_id_map.get(normalized_name)
+    
     if pokemon_id is None:
-        return f"Pokémon '{pokemon_name}' not found in pokemon.csv."
+        return [f"Pokémon '{pokemon_name}' not found in pokemon.csv."]
 
-    # Retrieve moves for this Pokémon from CSV
-    move_entries = pokemon_moves_data.get(pokemon_id, [])
-    if not move_entries:
-        return f"No move entries found for Pokémon '{pokemon_name}'."
-
-    # Load moves from JSON data for this Pokémon
-    pokemon_data = load_pokemon_data(pokemon_name)
-    json_moves = {move for rank_moves in pokemon_data.get("moves", {}).values() for move in rank_moves}
-
-    # Prepare sets for each relevant move category to avoid duplicates within each category
-    moves = {
-        "TM Moves": set(),
-        "Egg Moves": set(),
-        "Tutor Moves": set()
-    }
+    # First, retrieve moves specifically for the Pokémon form specified (e.g., Electrode Hisui)
+    specific_moves = load_pokemon_data(pokemon_name).get("moves", {})
+    
+    # Then retrieve evolution chain with fallback to evolution-based moves
+    evolution_chain = get_evolution_chain(pokemon_id)
+    
+    # Initialize move categories for the combined moves
+    moves = {"TM Moves": set(), "Egg Moves": set(), "Tutor Moves": set()}
     missing_level_up_moves = set()
 
-    # Sort moves into categories and track missing level-up moves
-    for entry in move_entries:
-        move_name = moves_data.get(entry["move_id"], {}).get("name", "Unknown Move")
-        method_name = pokemon_move_methods_data.get(entry["method_id"], "Other")
+    # Collect moves across the primary Pokémon form, then add evolution chain moves
+    move_sources = [(pokemon_id, specific_moves)] + [(evo_id, {}) for evo_id in evolution_chain if evo_id != pokemon_id]
+    for evo_id, form_moves in move_sources:
+        print(f"Processing moves for Pokémon ID {evo_id}")  # Debugging line
+        move_entries = pokemon_moves_data.get(evo_id, [])
+        
+        # Collect JSON moves directly tied to the primary form
+        json_moves = {move for rank_moves in form_moves.values() for move in rank_moves}
 
-        # Categorize moves by method
-        if method_name == "Machine":
-            moves["TM Moves"].add(move_name)
-        elif method_name == "Egg":
-            moves["Egg Moves"].add(move_name)
-        elif method_name == "Tutor":
-            moves["Tutor Moves"].add(move_name)
-        elif method_name == "Level Up" and move_name not in json_moves:
-            # Only include "Level Up" moves missing in JSON
-            missing_level_up_moves.add(move_name)
+        for entry in move_entries:
+            move_name = moves_data.get(entry["move_id"], {}).get("name", "Unknown Move")
+            method_name = pokemon_move_methods_data.get(entry["method_id"], "Other")
 
-    # Start building formatted sections and add to message list to avoid splitting categories
+            if method_name == "Machine":
+                moves["TM Moves"].add(move_name)
+            elif method_name == "Egg":
+                moves["Egg Moves"].add(move_name)
+            elif method_name == "Tutor":
+                moves["Tutor Moves"].add(move_name)
+            elif method_name == "Level Up" and move_name not in json_moves:
+                missing_level_up_moves.add(move_name)
+
+    # Build formatted sections for the output message
     messages = []
     current_message = f"### {pokemon_name.title()} [#{pokemon_id}]\n"
 
-    # Add each section with the appropriate emoji and formatted moves, checking for length
+    # Add each section with appropriate emoji and formatted moves
     if moves["TM Moves"]:
         tm_section = "\n:cd: **TM Moves**\n" + "  |  ".join(sorted(moves["TM Moves"]))
         if len(current_message) + len(tm_section) > 2000:
@@ -289,14 +366,14 @@ def get_pokemon_moves(pokemon_name):
         if len(current_message) + len(missing_section) > 2000:
             messages.append(current_message)
             current_message = missing_section
-        else:
-            current_message += missing_section
 
-    # Append the last message
+    # Append the final message
     if current_message:
         messages.append(current_message)
 
     return messages
+
+
 
 
 def parse_stat_range(stat_range):
@@ -318,4 +395,5 @@ def parse_moves_old(moves):
     return parsed_moves
 
 # Example usage
-print(get_pokemon_moves("Abomasnow"))  # Replace "Abomasnow" with any Pokémon name as needed
+reload_data()
+print(get_pokemon_moves("Sneasler"))  # Replace "Sneasler" with any Pokémon name as needed

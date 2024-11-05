@@ -9,7 +9,7 @@ class MoveRanks:
         "Silver": "<:badgesilver:1272533590697185391>",
         "Gold": "<:badgegold:1272532681992962068>",
         "Platinum": "<:badgeplatinum:1272533593750507570>",
-        "Diamond": "**Diamond**"
+        "Diamond": "<:badgediamond:1272532683431481445>"
     }
 
     @classmethod
