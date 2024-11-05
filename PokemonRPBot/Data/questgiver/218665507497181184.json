@@ -1,0 +1,9 @@
+{
+    "quest_givers": [
+        {
+            "name": "wuffl",
+            "role": "Courier",
+            "description": "a nerd"
+        }
+    ]
+}

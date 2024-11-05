@@ -1,7 +1,7 @@
 import discord
 from discord import app_commands
 from discord.ext import commands
-from data_loader import load_pokemon_data, get_pokemon_moves, pokemon_base_data
+from data_loader import load_pokemon_data, get_pokemon_moves, get_additional_moves, pokemon_base_data
 
 class MoveRanks:
     RANKS = {
@@ -61,21 +61,22 @@ class LearnsCommand(commands.Cog):
     def build_moves_by_rank(self, pokemon_name, pokemon_data):
         """Builds the moves text grouped by rank."""
         moves_text = f"### {pokemon_name} [#{pokemon_data['number']}]\n"
+        moves = pokemon_data.get("moves", {})
         for rank, emoji in MoveRanks.RANKS.items():
-            moves = pokemon_data.get("moves", {}).get(rank, [])
-            if moves:
-                moves_text += f"{emoji} **{rank}**\n" + " | ".join(moves) + "\n\n"
+            rank_moves = moves.get(rank, [])
+            if rank_moves:
+                moves_text += f"{emoji} **{rank}**\n" + " | ".join(sorted(rank_moves)) + "\n\n"
         return moves_text
 
     async def show_additional_moves_callback(self, interaction, pokemon_data):
-        """Displays all moves for a Pokémon using `get_pokemon_moves`."""
+        """Displays all moves for a Pokémon using `get_additional_moves`."""
         # Properly defer and handle the follow-up response
         await interaction.response.defer()
-
-        # Use get_pokemon_moves to fetch the full list of moves for this Pokémon
+    
+        # Use get_additional_moves to fetch the full list of moves for this Pokémon
         pokemon_name = pokemon_data["name"]
-        message_parts = get_pokemon_moves(pokemon_name)
-
+        message_parts = get_additional_moves(pokemon_name)
+    
         # Send each part individually if there are multiple messages
         for part in message_parts:
             await interaction.followup.send(content=part)

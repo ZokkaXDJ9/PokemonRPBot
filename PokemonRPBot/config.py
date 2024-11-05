@@ -16,5 +16,5 @@ COMMANDS = [
     "commands.setup_questgiver",
     "commands.edit_questgiver",
     "commands.crit",
-
+    "commands.successive",
 ]

@@ -11,6 +11,8 @@ POKEMON_MOVES_CSV = os.path.join("Data/csv", "pokemon_moves.csv")
 POKEMON_MOVE_METHODS_CSV = os.path.join("Data/csv", "pokemon_move_methods.csv")
 POKEMON_SPECIES_CSV = os.path.join("Data/csv", "pokemon_species.csv")
 
+VALID_RANKS = {"Bronze", "Silver", "Gold", "Platinum", "Diamond"}
+
 # Rank mapping dictionary
 RANK_MAPPING = {
     "Starter": "Bronze",
@@ -22,6 +24,14 @@ RANK_MAPPING = {
     "Champion": "Diamond"
 }
 
+RANK_EMOJIS = {
+    "Bronze": "<:badgebronze:1272532685197152349>",
+    "Silver": "<:badgesilver:1272533590697185391>",
+    "Gold": "<:badgegold:1272532681992962068>",
+    "Platinum": "<:badgeplatinum:1272533593750507570>",
+    "Diamond": "<:badgediamond:1272532683431481445>"
+}
+
 # Data storage dictionaries
 moves_data = {}
 pokemon_moves_data = {}
@@ -30,7 +40,7 @@ pokemon_base_data = {}
 pokemon_name_to_id_map = {}
 evolution_chains = {}
 
-# Manual override for evolution chain specific to Sneasler and Hisuian Sneasel
+# Manual override for evolution chain specific to certain forms
 EVOLUTION_OVERRIDE = {
     # Hisuian Forms with Listed Pre-Evolutions
     "903": ["10235"],          # Sneasler inherits from Hisuian Sneasel
@@ -71,8 +81,6 @@ EVOLUTION_OVERRIDE = {
     "10177": ["10176"],        # Galarian Darmanitan (Standard) inherits from Galarian Darumaka
     "10178": ["10176"],        # Galarian Darmanitan (Zen) inherits from Galarian Darumaka
 }
-
-
 
 def load_csv_data():
     """Load data from CSV files into dictionaries, including alternate forms and evolution chains."""
@@ -143,25 +151,22 @@ def load_csv_data():
             evolution_chains[evolution_chain_id].append(species_id)
 
             # Link species to evolution data
-            pokemon_base_data[species_id]["evolves_from"] = evolves_from
+            if species_id in pokemon_base_data:
+                pokemon_base_data[species_id]["evolves_from"] = evolves_from
 
 # Load all CSV data on import
 load_csv_data()
 
-
 def load_pokemon_data(pokemon_name):
     """Loads Pokémon data from JSON files or base CSV, then adds moves."""
     # Find Pokémon ID from base data
-    pokemon_id = None
-    base_pokemon_data = None
-    for pid, pdata in pokemon_base_data.items():
-        if pdata["name"].lower() == pokemon_name.lower():
-            pokemon_id = pid
-            base_pokemon_data = pdata
-            break
+    normalized_name = pokemon_name.lower().replace(' ', '-')
+    pokemon_id = pokemon_name_to_id_map.get(normalized_name)
 
     if pokemon_id is None:
         return None  # Return if Pokémon ID not found in CSV
+
+    base_pokemon_data = pokemon_base_data.get(pokemon_id)
 
     # Define file paths for new and old formats using the exact Pokémon name
     new_file_path = os.path.join(POKEMON_NEW_FOLDER, f"{pokemon_name}.json")
@@ -171,17 +176,18 @@ def load_pokemon_data(pokemon_name):
     new_data = None
     old_data = None
     if os.path.exists(new_file_path):
-        with open(new_file_path, "r") as file:
+        with open(new_file_path, "r", encoding="utf-8") as file:
             new_data = json.load(file)
     if os.path.exists(old_file_path):
-        with open(old_file_path, "r") as file:
+        with open(old_file_path, "r", encoding="utf-8") as file:
             old_data = json.load(file)
 
     # Combine JSON data with base data from CSV
     combined_data = combine_pokemon_data(new_data, old_data, base_pokemon_data)
 
-    # Add learnable moves by rank from CSV data
-    combined_data["learnable_moves"] = get_rank_based_moves(pokemon_id)
+    # Only add learnable moves from CSV if moves are not present
+    if not combined_data.get("moves"):
+        combined_data["moves"] = get_rank_based_moves(pokemon_id)
     return combined_data
 
 def combine_pokemon_data(new_data, old_data, base_data):
@@ -241,7 +247,7 @@ def format_old_data(data):
 
 def get_rank_based_moves(pokemon_id):
     """Retrieve moves by rank from CSV data using the provided Pokémon ID."""
-    parsed_moves = {rank: [] for rank in RANK_MAPPING.values()}
+    parsed_moves = {rank: [] for rank in VALID_RANKS}
     parsed_moves["Other"] = []  # Ensure "Other" key is always present
 
     move_entries = pokemon_moves_data.get(pokemon_id, [])
@@ -251,36 +257,106 @@ def get_rank_based_moves(pokemon_id):
 
         if method in RANK_MAPPING:
             rank = RANK_MAPPING[method]
-            parsed_moves[rank].append(move_name)
+            if rank in VALID_RANKS:
+                parsed_moves[rank].append(move_name)
+            else:
+                parsed_moves["Other"].append(move_name)
         else:
             parsed_moves["Other"].append(move_name)
 
     return parsed_moves
 
-def get_additional_moves_from_csv(pokemon_id):
-    """Retrieve TM, Egg, and Tutor moves from CSV data for a given Pokémon ID."""
-    moves = {
-        "TM Moves": [],
-        "Egg Moves": [],
-        "Tutor": [],
-        "Other": []
-    }
+def get_additional_moves(pokemon_name):
+    """Retrieve and format additional moves (TM, Egg, Tutor, Other Level Up Moves) for a Pokémon."""
+    # Normalize the input name
+    normalized_name = pokemon_name.lower().replace(' ', '-')
+    pokemon_id = pokemon_name_to_id_map.get(normalized_name)
 
-    move_entries = pokemon_moves_data.get(pokemon_id, [])
-    for entry in move_entries:
-        move_name = moves_data.get(entry["move_id"], {}).get("name", "Unknown Move")
-        method = pokemon_move_methods_data.get(entry["method_id"], "Other")
+    if pokemon_id is None:
+        return [f"Pokémon '{pokemon_name}' not found in pokemon.csv."]
 
-        if method == "Machine":
-            moves["TM Moves"].append(move_name)
-        elif method == "Egg":
-            moves["Egg Moves"].append(move_name)
-        elif method == "Tutor":
-            moves["Tutor"].append(move_name)
+    # Load Pokémon data to get rank-based moves
+    pokemon_data = load_pokemon_data(pokemon_name)
+    specific_moves = pokemon_data.get("moves", {})
+    # Collect all moves from rank-based moves into a set
+    rank_moves_set = set()
+    for rank_moves in specific_moves.values():
+        rank_moves_set.update(rank_moves)
+
+    # Initialize move categories
+    moves = {"TM Moves": set(), "Egg Moves": set(), "Tutor Moves": set()}
+    missing_level_up_moves = set()
+
+    # Collect moves from CSV data
+    evolution_chain = get_evolution_chain(pokemon_id)
+    move_sources = [pokemon_id] + [evo_id for evo_id in evolution_chain if evo_id != pokemon_id]
+    for evo_id in move_sources:
+        move_entries = pokemon_moves_data.get(evo_id, [])
+        for entry in move_entries:
+            move_name = moves_data.get(entry["move_id"], {}).get("name", "Unknown Move")
+            method_id = entry["method_id"]
+            method_name = pokemon_move_methods_data.get(method_id, "other").lower()
+
+            if method_name == "machine":
+                moves["TM Moves"].add(move_name)
+            elif method_name == "egg":
+                moves["Egg Moves"].add(move_name)
+            elif method_name == "tutor":
+                moves["Tutor Moves"].add(move_name)
+            elif method_name == "level up":
+                # Only add level-up moves not in rank_moves_set
+                if move_name not in rank_moves_set:
+                    missing_level_up_moves.add(move_name)
+
+    # Build the message
+    messages = []
+    current_message = f"### {pokemon_name.title()} [#{pokemon_id}]\n"
+
+    # Adjust the formatting to include double spaces
+    separator = "  |  "
+
+    # Add each section with appropriate emoji and formatted moves
+    if moves["TM Moves"]:
+        tm_section = "\n:cd: **TM Moves**\n" + separator.join(sorted(moves["TM Moves"]))
+        if len(current_message) + len(tm_section) > 2000:
+            messages.append(current_message)
+            current_message = tm_section
         else:
-            moves["Other"].append(move_name)
+            current_message += tm_section
 
-    return moves
+    if moves["Egg Moves"]:
+        egg_section = "\n\n:egg: **Egg Moves**\n" + separator.join(sorted(moves["Egg Moves"]))
+        if len(current_message) + len(egg_section) > 2000:
+            messages.append(current_message)
+            current_message = egg_section
+        else:
+            current_message += egg_section
+
+    if moves["Tutor Moves"]:
+        tutor_section = "\n\n:teacher: **Tutor Moves**\n" + separator.join(sorted(moves["Tutor Moves"]))
+        if len(current_message) + len(tutor_section) > 2000:
+            messages.append(current_message)
+            current_message = tutor_section
+        else:
+            current_message += tutor_section
+
+    if missing_level_up_moves:
+        missing_section = "\n\n:question: **Learned in Game through level up, but not here**\n" + separator.join(sorted(missing_level_up_moves))
+        if len(current_message) + len(missing_section) > 2000:
+            messages.append(current_message)
+            current_message = missing_section
+        else:
+            current_message += missing_section
+
+    # Append the final message
+    if current_message:
+        messages.append(current_message)
+
+    return messages
+
+
+
+
 
 def get_evolution_chain(pokemon_id):
     """Retrieve the evolution chain for a given Pokémon ID, with special handling for overrides."""
@@ -295,14 +371,16 @@ def get_evolution_chain(pokemon_id):
             (evo_chain_id for evo_chain_id, ids in evolution_chains.items() if pokemon_id in ids), None
         )
         evolution_chain = evolution_chains.get(chain_id, [])
-        evolution_chain = evolution_chain[:evolution_chain.index(pokemon_id) + 1] if chain_id else []
-    
+        if chain_id and pokemon_id in evolution_chain:
+            evolution_chain = evolution_chain[:evolution_chain.index(pokemon_id) + 1]
+        else:
+            evolution_chain = []
+
     print(f"Evolution chain for Pokémon ID {pokemon_id}: {evolution_chain}")  # Debugging
     return evolution_chain
 
-
-# Reload mechanism if needed for repeated testing
 def reload_data():
+    """Reloads CSV data into memory."""
     global moves_data, pokemon_moves_data, pokemon_move_methods_data, pokemon_base_data, evolution_chains
     moves_data.clear()
     pokemon_moves_data.clear()
@@ -312,80 +390,37 @@ def reload_data():
     load_csv_data()
 
 def get_pokemon_moves(pokemon_name):
-    """Retrieve and format moves for a Pokémon, prioritizing form-specific moves first."""
-    # Normalize the input name to match format in `pokemon.csv` (e.g., "electrode-hisui")
+    """Retrieve and format rank moves for a Pokémon."""
+    # Normalize the input name
     normalized_name = pokemon_name.lower().replace(' ', '-')
     pokemon_id = pokemon_name_to_id_map.get(normalized_name)
-    
+
     if pokemon_id is None:
         return [f"Pokémon '{pokemon_name}' not found in pokemon.csv."]
 
-    # First, retrieve moves specifically for the Pokémon form specified (e.g., Electrode Hisui)
-    specific_moves = load_pokemon_data(pokemon_name).get("moves", {})
-    
-    # Then retrieve evolution chain with fallback to evolution-based moves
-    evolution_chain = get_evolution_chain(pokemon_id)
-    
-    # Initialize move categories for the combined moves
-    moves = {"TM Moves": set(), "Egg Moves": set(), "Tutor Moves": set()}
-    missing_level_up_moves = set()
+    # Load Pokémon data
+    pokemon_data = load_pokemon_data(pokemon_name)
+    specific_moves = pokemon_data.get("moves", {})
 
-    # Collect moves across the primary Pokémon form, then add evolution chain moves
-    move_sources = [(pokemon_id, specific_moves)] + [(evo_id, {}) for evo_id in evolution_chain if evo_id != pokemon_id]
-    for evo_id, form_moves in move_sources:
-        print(f"Processing moves for Pokémon ID {evo_id}")  # Debugging line
-        move_entries = pokemon_moves_data.get(evo_id, [])
-        
-        # Collect JSON moves directly tied to the primary form
-        json_moves = {move for rank_moves in form_moves.values() for move in rank_moves}
-
-        for entry in move_entries:
-            move_name = moves_data.get(entry["move_id"], {}).get("name", "Unknown Move")
-            method_name = pokemon_move_methods_data.get(entry["method_id"], "Other")
-
-            if method_name == "Machine":
-                moves["TM Moves"].add(move_name)
-            elif method_name == "Egg":
-                moves["Egg Moves"].add(move_name)
-            elif method_name == "Tutor":
-                moves["Tutor Moves"].add(move_name)
-            elif method_name == "Level Up" and move_name not in json_moves:
-                missing_level_up_moves.add(move_name)
-
-    # Build formatted sections for the output message
+    # Build the initial message
     messages = []
     current_message = f"### {pokemon_name.title()} [#{pokemon_id}]\n"
 
-    # Add each section with appropriate emoji and formatted moves
-    if moves["TM Moves"]:
-        tm_section = "\n:cd: **TM Moves**\n" + "  |  ".join(sorted(moves["TM Moves"]))
-        if len(current_message) + len(tm_section) > 2000:
-            messages.append(current_message)
-            current_message = tm_section
-        else:
-            current_message += tm_section
-
-    if moves["Egg Moves"]:
-        egg_section = "\n\n:egg: **Egg Moves**\n" + "  |  ".join(sorted(moves["Egg Moves"]))
-        if len(current_message) + len(egg_section) > 2000:
-            messages.append(current_message)
-            current_message = egg_section
-        else:
-            current_message += egg_section
-
-    if moves["Tutor Moves"]:
-        tutor_section = "\n\n:teacher: **Tutor**\n" + "  |  ".join(sorted(moves["Tutor Moves"]))
-        if len(current_message) + len(tutor_section) > 2000:
-            messages.append(current_message)
-            current_message = tutor_section
-        else:
-            current_message += tutor_section
-
-    if missing_level_up_moves:
-        missing_section = "\n\n:question: **Learned in Game through level up, but not here**\n" + "  |  ".join(sorted(missing_level_up_moves))
-        if len(current_message) + len(missing_section) > 2000:
-            messages.append(current_message)
-            current_message = missing_section
+    # Include rank-based moves from new data
+    if specific_moves:
+        for rank in VALID_RANKS:
+            rank_moves = specific_moves.get(rank, [])
+            if rank_moves:
+                emoji = RANK_EMOJIS.get(rank, "")
+                rank_section = f"\n{emoji} **{rank}**\n" + " | ".join(sorted(rank_moves))
+                if len(current_message) + len(rank_section) > 2000:
+                    messages.append(current_message)
+                    current_message = rank_section
+                else:
+                    current_message += rank_section
+    else:
+        # Handle Pokémon without new data format (old data or CSV)
+        current_message += "\nNo rank-based moves available."
 
     # Append the final message
     if current_message:
@@ -393,27 +428,43 @@ def get_pokemon_moves(pokemon_name):
 
     return messages
 
-
-
-
 def parse_stat_range(stat_range):
     """Parse stat range from 'min/max' format in new data."""
     min_stat, max_stat = map(int, stat_range.split("/"))
     return min_stat, max_stat
 
 def parse_moves_new(moves):
-    """Parse moves from the new JSON format."""
-    return {rank: moves[rank] for rank in moves}
+    """Parse moves from the new JSON format and ensure rank names are consistent."""
+    parsed_moves = {}
+    for rank, move_list in moves.items():
+        # Convert rank to title case to standardize (e.g., 'bronze' to 'Bronze')
+        mapped_rank = rank.title()
+        # Map the rank using RANK_MAPPING if necessary
+        mapped_rank = RANK_MAPPING.get(mapped_rank, mapped_rank)
+        # Check if the mapped rank is valid
+        if mapped_rank not in VALID_RANKS:
+            continue  # Skip unknown ranks
+        parsed_moves.setdefault(mapped_rank, []).extend(move_list)
+    return parsed_moves
 
 def parse_moves_old(moves):
     """Parse moves in the old data format, applying rank mapping."""
-    parsed_moves = {"Bronze": [], "Silver": [], "Gold": [], "Platinum": [], "Diamond": []}
+    parsed_moves = {rank: [] for rank in VALID_RANKS}
     for move in moves:
         old_rank = move.get("Learned", "")
         new_rank = RANK_MAPPING.get(old_rank, "Bronze")
-        parsed_moves[new_rank].append(move.get("Name"))
+        if new_rank in VALID_RANKS:
+            parsed_moves[new_rank].append(move.get("Name"))
+        else:
+            parsed_moves["Bronze"].append(move.get("Name"))
     return parsed_moves
 
-# Example usage
-reload_data()
-print(get_pokemon_moves("Sneasler"))  # Replace "Sneasler" with any Pokémon name as needed
+# Example usage (for testing purposes)
+if __name__ == "__main__":
+    reload_data()
+    # Get rank moves
+    rank_moves_messages = get_pokemon_moves("Sneasler")
+    print("\n".join(rank_moves_messages))
+    # Get additional moves
+    additional_moves_messages = get_additional_moves("Sneasler")
+    print("\n".join(additional_moves_messages))
