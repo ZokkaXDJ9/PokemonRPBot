@@ -1,0 +1,37 @@
+{
+    "id": 307627785818603523,
+    "user_id": 307627785818603523,
+    "guild_id": 1300795744810176554,
+    "name": "Dusk",
+    "level": 1,
+    "experience": 0,
+    "experience_to_next_level": 100,
+    "money": 500,
+    "types": [
+        "Flying",
+        "Dragon"
+    ],
+    "gender": "Male",
+    "is_shiny": false,
+    "stats": {
+        "hp": 3,
+        "willpower": 3,
+        "strength": 1,
+        "dexterity": 4,
+        "vitality": 3,
+        "special": 1,
+        "insight": 1,
+        "defense": 1,
+        "special_defense": 1,
+        "active_move_limit": 3
+    },
+    "abilities": [
+        "Frisk",
+        "Infiltrator"
+    ],
+    "statistics": {
+        "backpack_slots": 6,
+        "completed_quests": 0,
+        "sparring_sessions": 0
+    }
+}

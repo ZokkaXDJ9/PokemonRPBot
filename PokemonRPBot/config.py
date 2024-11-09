@@ -2,6 +2,7 @@
 COMMANDS = [
     "commands.ability",
     "commands.bonk",
+    "commands.create_character",
     "commands.crit",
     "commands.edit_questgiver",
     "commands.learns",
