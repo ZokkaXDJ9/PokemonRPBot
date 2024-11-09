@@ -1,19 +1,19 @@
 # List of commands to load (use the full path to each command module)
 COMMANDS = [
     "commands.ability",
+    "commands.bonk",
+    "commands.crit",
+    "commands.edit_questgiver",
+    "commands.learns",
+    "commands.move",
     "commands.r",
+    "commands.remind",
     "commands.roll",
     "commands.rule",
-    "commands.status",
-    "commands.move",
-    "commands.weather",
-    "commands.suggest",
-    "commands.stats",
-    "commands.learns",
-    "commands.bonk",
     "commands.setup_questgiver",
-    "commands.edit_questgiver",
-    "commands.crit",
+    "commands.stats",
+    "commands.status",
     "commands.successive",
-    "commands.remind"
-]
+    "commands.suggest",
+    "commands.weather",
+    ]
