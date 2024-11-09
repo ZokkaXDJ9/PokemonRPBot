@@ -5,6 +5,7 @@ COMMANDS = [
     "commands.crit",
     "commands.edit_questgiver",
     "commands.learns",
+    "commands.metronome",
     "commands.move",
     "commands.r",
     "commands.remind",
