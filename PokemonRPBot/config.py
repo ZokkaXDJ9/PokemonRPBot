@@ -17,4 +17,5 @@ COMMANDS = [
     "commands.edit_questgiver",
     "commands.crit",
     "commands.successive",
+    "commands.remind"
 ]
