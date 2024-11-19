@@ -46,14 +46,14 @@ EVOLUTION_OVERRIDE = {
     "903": ["10235"],          # Sneasler inherits from Hisuian Sneasel
     "10230": ["10229"],        # Hisuian Arcanine inherits from Hisuian Growlithe
     "10232": ["10231"],        # Hisuian Electrode inherits from Hisuian Voltorb
-    "10233": ["157"],          # Hisuian Typhlosion inherits from original Quilava
-    "10236": ["503"],          # Hisuian Samurott inherits from original Dewott
+    "10233": ["155", "156"],   # Hisuian Typhlosion inherits from Cyndaquil and Quilava
+    "10236": ["501", "502"],   # Hisuian Samurott inherits from Oshawott and Dewott
     "10237": ["548"],          # Hisuian Lilligant inherits from original Petilil
     "10239": ["10238"],        # Hisuian Zoroark inherits from Hisuian Zorua
-    "10242": ["10241"],        # Hisuian Goodra inherits from Hisuian Sliggoo
+    "10242": ["705", "706"],   # Hisuian Goodra inherits from Goomy and Hisuian Sliggoo
     "10241": ["705"],          # Hisuian Sliggoo inherits from original Goomy
     "10243": ["712"],          # Hisuian Avalugg inherits from original Bergmite
-    "10244": ["724"],          # Hisuian Decidueye inherits from original Dartrix
+    "10244": ["722", "723"],   # Hisuian Decidueye inherits from Rowlet and Dartrix
     "904": ["10234"],          # Overqwil inherits from Hisuian Qwilfish
 
     # Alolan Forms with Listed Pre-Evolutions
@@ -267,7 +267,7 @@ def get_rank_based_moves(pokemon_id):
     return parsed_moves
 
 def get_additional_moves(pokemon_name):
-    """Retrieve and format additional moves (TM, Egg, Tutor, Other Level Up Moves) for a Pokémon."""
+    """Retrieve and format additional moves (TM, Egg, Tutor, and level-up moves) for a Pokémon."""
     # Normalize the input name
     normalized_name = pokemon_name.lower().replace(' ', '-')
     pokemon_id = pokemon_name_to_id_map.get(normalized_name)
@@ -289,8 +289,9 @@ def get_additional_moves(pokemon_name):
 
     # Collect moves from CSV data
     evolution_chain = get_evolution_chain(pokemon_id)
-    move_sources = [pokemon_id] + [evo_id for evo_id in evolution_chain if evo_id != pokemon_id]
-    for evo_id in move_sources:
+
+    # Aggregate moves from all species in the evolution chain
+    for evo_id in evolution_chain:
         move_entries = pokemon_moves_data.get(evo_id, [])
         for entry in move_entries:
             move_name = moves_data.get(entry["move_id"], {}).get("name", "Unknown Move")
@@ -358,26 +359,28 @@ def get_additional_moves(pokemon_name):
 
 
 
+
 def get_evolution_chain(pokemon_id):
     """Retrieve the evolution chain for a given Pokémon ID, with special handling for overrides."""
-    # Use override if available, otherwise use regular evolution chain
     if pokemon_id in EVOLUTION_OVERRIDE:
-        # Start with overrides for specific evolution chains
+        # Use the override chain directly
         evolution_chain = EVOLUTION_OVERRIDE[pokemon_id] + [pokemon_id]
         print(f"Applying evolution override for Pokémon ID {pokemon_id}: {evolution_chain}")  # Debugging
     else:
-        # Find the evolution chain based on standard species evolution
+        # Use the standard evolution chain
         chain_id = next(
             (evo_chain_id for evo_chain_id, ids in evolution_chains.items() if pokemon_id in ids), None
         )
         evolution_chain = evolution_chains.get(chain_id, [])
         if chain_id and pokemon_id in evolution_chain:
+            # Get all pre-evolutions up to the current Pokémon
             evolution_chain = evolution_chain[:evolution_chain.index(pokemon_id) + 1]
         else:
             evolution_chain = []
 
     print(f"Evolution chain for Pokémon ID {pokemon_id}: {evolution_chain}")  # Debugging
     return evolution_chain
+
 
 def reload_data():
     """Reloads CSV data into memory."""
@@ -458,13 +461,3 @@ def parse_moves_old(moves):
         else:
             parsed_moves["Bronze"].append(move.get("Name"))
     return parsed_moves
-
-# Example usage (for testing purposes)
-if __name__ == "__main__":
-    reload_data()
-    # Get rank moves
-    rank_moves_messages = get_pokemon_moves("Sneasler")
-    print("\n".join(rank_moves_messages))
-    # Get additional moves
-    additional_moves_messages = get_additional_moves("Sneasler")
-    print("\n".join(additional_moves_messages))
