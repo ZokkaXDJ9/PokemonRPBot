@@ -40,19 +40,22 @@ class CritCommand(commands.Cog):
         # Apply generic bonus
         total_damage += bonus  # Add any additional bonuses
 
-        # Apply critical multiplier
-        total_damage = math.ceil(total_damage * 1.5)  # Multiply by 1.5 and round up
-
-        # Apply effectiveness modifier AFTER critical multiplier
+        # Apply additive effectiveness modifiers BEFORE critical multiplier
         if effective == "super_effective":
             total_damage += 1  # Add 1 for super effective
         elif effective == "double_effective":
             total_damage += 2  # Add 2 for double effective
-        elif effective == "not_effective":
+        # Do not handle subtractive effectiveness here
+
+        # Apply critical multiplier
+        total_damage = math.ceil(total_damage * 1.5)  # Multiply by 1.5 and round up
+
+        # Apply subtractive effectiveness modifiers AFTER critical multiplier
+        if effective == "not_effective":
             total_damage -= 1  # Subtract 1 for not very effective
         elif effective == "double_not_effective":
             total_damage -= 2  # Subtract 2 for double not effective
-        # Neutral effectiveness doesn't change damage
+        # "neutral", "super_effective", and "double_effective" do not subtract damage
 
         # Ensure that damage doesn't drop below zero
         total_damage = max(total_damage, 0)

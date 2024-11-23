@@ -1,5 +1,3 @@
-# successive.py
-
 import discord
 from discord import app_commands
 from discord.ext import commands
@@ -15,20 +13,21 @@ handler.setFormatter(logging.Formatter('%(asctime)s:%(levelname)s:%(name)s: %(me
 logger.addHandler(handler)
 
 class SuccessiveRollView(discord.ui.View):
-    def __init__(self, bot, query, required_successes, total_successes, total_rolls, has_rerolled=False):
+    def __init__(self, bot, query, required_successes, total_successes, total_rolls, accuracy=0, has_rerolled=False):
         super().__init__(timeout=None)
         self.bot = bot
         self.query = query
         self.required_successes = required_successes
         self.total_successes = total_successes
         self.total_rolls = total_rolls
+        self.accuracy = accuracy
         self.has_rerolled = has_rerolled
 
     @discord.ui.button(label="Reroll Last Failed Roll", style=discord.ButtonStyle.primary)
     async def reroll_button(self, interaction: discord.Interaction, button: discord.ui.Button):
         if self.has_rerolled:
             await interaction.response.send_message(
-                "You have already rerolled the last failed roll.", 
+                "You have already rerolled the last failed roll.",
                 ephemeral=True
             )
             return
@@ -55,6 +54,7 @@ class SuccessiveRollView(discord.ui.View):
 
         successes = sum(1 for die in rolls if die >= 4)
         crits = sum(1 for die in rolls if die == 6)
+        adjusted_successes = successes + self.accuracy
 
         # Format the roll results with critical marking
         formatted_rolls = []
@@ -73,17 +73,18 @@ class SuccessiveRollView(discord.ui.View):
         # Prepare the reroll output
         reroll_output = f"**Reroll of Last Failed Roll:**\n"
         reroll_output += f"{self.query} — {roll_text}\n"
-        reroll_output += f"**Successes:** {successes} / **Required:** {self.required_successes}{crit_text}\n\n"
+        reroll_output += f"**Successes:** {adjusted_successes} / **Required:** {self.required_successes}{crit_text}\n\n"
 
-        if successes >= self.required_successes:
+        if adjusted_successes >= self.required_successes:
             reroll_output += "✅ **Success after reroll!**\n\n"
             self.total_successes += 1
             self.required_successes += 2
+            roll_number = 1
             while True:
                 parsed_query = ParsedRollQuery.from_query(self.query)
                 roll_result_text = parsed_query.execute()
 
-                logger.debug(f"Continuing Roll Result Text: {roll_result_text}")
+                logger.debug(f"Continuing Roll {roll_number} Result Text: {roll_result_text}")
 
                 match = re.search(r'[—–-]\s*([^\n\r]*)', roll_result_text)
                 if match:
@@ -93,10 +94,11 @@ class SuccessiveRollView(discord.ui.View):
                 else:
                     rolls = []
 
-                logger.debug(f"Extracted Rolls: {rolls}")
+                logger.debug(f"Extracted Rolls for Roll {roll_number}: {rolls}")
 
                 successes = sum(1 for die in rolls if die >= 4)
                 crits = sum(1 for die in rolls if die == 6)
+                adjusted_successes = successes + self.accuracy
 
                 formatted_rolls = []
                 for die in rolls:
@@ -110,15 +112,16 @@ class SuccessiveRollView(discord.ui.View):
                 crit_text = " **(CRIT!)**" if crits >= 3 else ""
 
                 reroll_output += f"**Roll:** {self.query} — {roll_text}\n"
-                reroll_output += f"**Successes:** {successes} / **Required:** {self.required_successes}{crit_text}\n\n"
+                reroll_output += f"**Successes:** {adjusted_successes} / **Required:** {self.required_successes}{crit_text}\n\n"
 
-                if successes >= self.required_successes:
+                if adjusted_successes >= self.required_successes:
                     reroll_output += "✅ **Success!**\n\n"
                     self.total_successes += 1
                     self.required_successes += 2
                 else:
                     reroll_output += "❌ **Failed!**\n\n"
                     break
+                roll_number += 1
         else:
             reroll_output += "❌ **Failed after reroll!**\n\n"
 
@@ -133,7 +136,11 @@ class SuccessiveCommand(commands.Cog):
         self.bot = bot
 
     @app_commands.command(name="successive", description="Perform successive rolls with increasing difficulty.")
-    async def successive(self, interaction: discord.Interaction, query: str):
+    @app_commands.describe(
+        query='The dice roll query',
+        accuracy='The accuracy modifier (can be positive or negative)'
+    )
+    async def successive(self, interaction: discord.Interaction, query: str, accuracy: int = 0):
         required_successes = 1
         total_successes = 0
         output = ""
@@ -157,6 +164,7 @@ class SuccessiveCommand(commands.Cog):
 
             successes = sum(1 for die in rolls if die >= 4)
             crits = sum(1 for die in rolls if die == 6)
+            adjusted_successes = successes + accuracy
 
             formatted_rolls = []
             for die in rolls:
@@ -170,9 +178,9 @@ class SuccessiveCommand(commands.Cog):
             crit_text = " **(CRIT!)**" if crits >= 3 else ""
 
             output += f"**Roll {roll_number}:** {query} — {roll_text}\n"
-            output += f"**Successes:** {successes} / **Required:** {required_successes}{crit_text}\n\n"
+            output += f"**Successes:** {adjusted_successes} / **Required:** {required_successes}{crit_text}\n\n"
 
-            if successes >= required_successes:
+            if adjusted_successes >= required_successes:
                 total_successes += 1
                 output += "✅ **Success!**\n\n"
                 required_successes += 2
@@ -190,7 +198,8 @@ class SuccessiveCommand(commands.Cog):
                 query=query,
                 required_successes=required_successes,
                 total_successes=total_successes,
-                total_rolls=[]
+                total_rolls=[],
+                accuracy=accuracy
             )
             await interaction.response.send_message(content=output, view=view)
         else:
