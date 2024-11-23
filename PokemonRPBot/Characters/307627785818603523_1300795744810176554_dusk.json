@@ -3,8 +3,8 @@
     "user_id": 307627785818603523,
     "guild_id": 1300795744810176554,
     "name": "Dusk",
-    "level": 1,
-    "experience": 0,
+    "level": 11,
+    "experience": 1000,
     "experience_to_next_level": 100,
     "money": 500,
     "types": [
@@ -14,16 +14,40 @@
     "gender": "Male",
     "is_shiny": false,
     "stats": {
-        "hp": 3,
+        "hp": 5,
         "willpower": 3,
-        "strength": 1,
-        "dexterity": 4,
-        "vitality": 3,
-        "special": 1,
-        "insight": 1,
         "defense": 1,
         "special_defense": 1,
-        "active_move_limit": 3
+        "active_move_limit": 3,
+        "strength": 2,
+        "dexterity": 3,
+        "vitality": 2,
+        "special": 3,
+        "insight": 2,
+        "tough": 1,
+        "cool": 1,
+        "beauty": 1,
+        "cute": 1,
+        "clever": 1
+    },
+    "max_stats": {
+        "strength": 5,
+        "dexterity": 7,
+        "vitality": 5,
+        "special": 6,
+        "insight": 5,
+        "tough": 5,
+        "cool": 5,
+        "beauty": 5,
+        "cute": 5,
+        "clever": 5
+    },
+    "starting_stats": {
+        "strength": 2,
+        "dexterity": 3,
+        "vitality": 2,
+        "special": 3,
+        "insight": 2
     },
     "abilities": [
         "Frisk",
@@ -33,5 +57,11 @@
         "backpack_slots": 6,
         "completed_quests": 0,
         "sparring_sessions": 0
+    },
+    "unallocated_battle_points": 14,
+    "unallocated_social_points": 8,
+    "limit_breaks": {
+        "battle": 0,
+        "social": 0
     }
 }
