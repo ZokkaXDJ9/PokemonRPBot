@@ -6,9 +6,6 @@ COMMANDS = [
     "commands.remind",
     "commands.setup_questgiver",
     "commands.successive",
-    ]
-
-COMMANDS_NOT_LOADED = [
     "commands.suggest",
     "commands.r",    
     "commands.roll",
@@ -20,5 +17,10 @@ COMMANDS_NOT_LOADED = [
     "commands.learns",
     "commands.ability",    
     "commands.move",    
-    "commands.rule",    
+    "commands.rule",
+    "commands.moody",
+    ]
+
+COMMANDS_NOT_LOADED = [
+
 ]

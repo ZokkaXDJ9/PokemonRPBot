@@ -1,0 +1,66 @@
+{
+    "id": 307627785818603523,
+    "user_id": 307627785818603523,
+    "guild_id": 1300795744810176554,
+    "name": "Scizor",
+    "level": 120,
+    "experience": 11900,
+    "experience_to_next_level": 100,
+    "money": 500,
+    "types": [
+        "Bug",
+        "Steel"
+    ],
+    "gender": "Male",
+    "is_shiny": false,
+    "stats": {
+        "hp": 5,
+        "willpower": 3,
+        "defense": 1,
+        "special_defense": 1,
+        "active_move_limit": 3,
+        "strength": 13,
+        "dexterity": 8,
+        "vitality": 9,
+        "special": 4,
+        "insight": 9,
+        "tough": 1,
+        "cool": 1,
+        "beauty": 1,
+        "cute": 1,
+        "clever": 1
+    },
+    "max_stats": {
+        "strength": 8,
+        "dexterity": 5,
+        "vitality": 7,
+        "special": 4,
+        "insight": 6,
+        "tough": 5,
+        "cool": 5,
+        "beauty": 5,
+        "cute": 5,
+        "clever": 5
+    },
+    "starting_stats": {
+        "strength": 4,
+        "dexterity": 2,
+        "vitality": 3,
+        "special": 2,
+        "insight": 3
+    },
+    "abilities": [
+        "Technician"
+    ],
+    "statistics": {
+        "backpack_slots": 6,
+        "completed_quests": 0,
+        "sparring_sessions": 0
+    },
+    "unallocated_battle_points": 3,
+    "unallocated_social_points": 12,
+    "limit_breaks": {
+        "battle": 13,
+        "social": 0
+    }
+}
