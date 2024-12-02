@@ -1,0 +1,66 @@
+{
+    "id": 208464795777761280,
+    "user_id": 208464795777761280,
+    "guild_id": 1291171331005616148,
+    "name": "Testcharacter",
+    "level": 1,
+    "experience": 0,
+    "experience_to_next_level": 100,
+    "money": 500,
+    "types": [
+        "Dark"
+    ],
+    "gender": "Male",
+    "is_shiny": false,
+    "stats": {
+        "hp": 4,
+        "willpower": 3,
+        "defense": 1,
+        "special_defense": 1,
+        "active_move_limit": 3,
+        "strength": 3,
+        "dexterity": 2,
+        "vitality": 2,
+        "special": 2,
+        "insight": 2,
+        "tough": 1,
+        "cool": 1,
+        "beauty": 1,
+        "cute": 1,
+        "clever": 1
+    },
+    "max_stats": {
+        "strength": 7,
+        "dexterity": 5,
+        "vitality": 4,
+        "special": 5,
+        "insight": 4,
+        "tough": 5,
+        "cool": 5,
+        "beauty": 5,
+        "cute": 5,
+        "clever": 5
+    },
+    "starting_stats": {
+        "strength": 3,
+        "dexterity": 2,
+        "vitality": 2,
+        "special": 2,
+        "insight": 2
+    },
+    "abilities": [
+        "Pressure",
+        "Super Luck"
+    ],
+    "statistics": {
+        "backpack_slots": 6,
+        "completed_quests": 0,
+        "sparring_sessions": 0
+    },
+    "unallocated_battle_points": 4,
+    "unallocated_social_points": 4,
+    "limit_breaks": {
+        "battle": 0,
+        "social": 0
+    }
+}
