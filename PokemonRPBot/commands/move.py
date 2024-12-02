@@ -6,7 +6,7 @@ import json
 from helpers import load_move, ParsedRollQuery
 from emojis import get_type_emoji, get_category_emoji
 
-# Directory where move files and character files are stored
+# Directories for move files and character files
 MOVES_DIRECTORY = os.path.join(os.path.dirname(__file__), "../Data/moves")
 CHARACTERS_DIRECTORY = os.path.join(os.path.dirname(__file__), "../Characters")
 
@@ -53,9 +53,6 @@ class MoveCommand(commands.Cog):
             return
 
         user_stats = load_user_stats(interaction.user.id)
-        if user_stats is None:
-            await interaction.response.send_message("User stats not found. Please set up your stats first.", ephemeral=True)
-            return
 
         # Get emojis for the move's type and category
         type_icon = get_type_emoji(move["Type"])
@@ -73,6 +70,11 @@ class MoveCommand(commands.Cog):
         move_description += f"""**Accuracy Dice**: {move["Accuracy1"]} + Rank
 **Effect**: {move["Effect"]}
 """
+
+        # If the user has no stats, only send the move description
+        if user_stats is None:
+            await interaction.response.send_message(move_description)
+            return
 
         # Extract stats needed for rolls
         accuracy_stat = move["Accuracy1"].lower()
@@ -94,7 +96,7 @@ class MoveCommand(commands.Cog):
                 parsed_query = ParsedRollQuery.from_query(accuracy_query)
                 accuracy_result = parsed_query.execute()
 
-                # Send a new message with accuracy roll and reroll button
+                # Send a new message with accuracy roll
                 roll_response = f"""
 ### {move['Name']}
 **Accuracy Roll**: {accuracy_result}
@@ -115,7 +117,7 @@ class MoveCommand(commands.Cog):
                 parsed_query = ParsedRollQuery.from_query(damage_query)
                 damage_result = parsed_query.execute()
 
-                # Send a new message with damage roll and reroll button
+                # Send a new message with damage roll
                 roll_response = f"""
 ### {move['Name']}
 **Damage Roll**: {damage_result}
