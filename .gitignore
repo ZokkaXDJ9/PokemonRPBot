@@ -9,6 +9,9 @@ __pycache__/
 # Token
 discord_token.py
 
+# Bot Command Loader
+config.py
+
 # Distribution / packaging
 .Python
 build/
