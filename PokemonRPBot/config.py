@@ -6,6 +6,7 @@ COMMANDS = [
     "commands.remind",
     "commands.setup_questgiver",
     "commands.successive",
+    "commands.moody",
     ]
 
 COMMANDS_NOT_LOADED = [
@@ -20,5 +21,5 @@ COMMANDS_NOT_LOADED = [
     "commands.learns",
     "commands.ability",    
     "commands.move",    
-    "commands.rule",    
+    "commands.rule",
 ]

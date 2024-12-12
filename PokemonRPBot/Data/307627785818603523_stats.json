@@ -1,0 +1,9 @@
+{
+    "Test": {
+        "Strength": 1,
+        "Dexterity": 2,
+        "Special": 1,
+        "Defense": -1,
+        "Special Defense": 0
+    }
+}
