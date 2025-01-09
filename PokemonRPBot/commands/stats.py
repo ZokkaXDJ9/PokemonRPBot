@@ -55,8 +55,10 @@ class StatsCommand(commands.Cog):
 
         # Format data as specified
         title = f"### {data['name']} [#{data['number']}]"
-        size = f"{data['height_m']:.2f}m / {data['height_ft']:.2f}ft   |   {data['weight_kg']}kg / {data['weight_lb']}lbs"
-        
+        size = (
+            f"{data.get('height_m', 0):.2f}m / {data.get('height_ft', 0):.2f}ft   |   "
+            f"{data.get('weight_kg', 0):.2f}kg / {data.get('weight_lb', 0):.2f}lbs"
+        )        
         # Type with emojis, separated by " / " if there are multiple types
         type_display = " / ".join([f"{get_type_emoji(t)} {t}" for t in data["type"] if t])
         
