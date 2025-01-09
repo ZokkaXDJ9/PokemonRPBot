@@ -1,0 +1,6 @@
+{
+  "name": "Stall",
+  "effect": "This Pokemon always goes last in the the initiative order.",
+  "description": "This Pokemon is indecisive and always lets others act first before making its mind on what action to take.",
+  "_id": "stall"
+}

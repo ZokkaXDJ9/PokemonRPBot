@@ -1,0 +1,6 @@
+{
+  "name": "Sand Spit",
+  "effect": "If this Pokemon is hit with a Non-Ranged Physical attack, it starts the effects of Sandstorm Weather. The effect lasts 4 rounds.",
+  "description": "The Pokemon slithers through the desert sand, eating some of it in the process, if it gets hot (or sneezes) a sandstorm will blow up.",
+  "_id": "sand-spit"
+}

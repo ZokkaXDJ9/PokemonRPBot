@@ -1,0 +1,6 @@
+{
+  "name": "Bulletproof",
+  "effect": "Reduce by 1 all damage from Special and Ranged Physical Attacks done to this Pokemon.",
+  "description": "The armor on this Pokemon's body protects it from projectiles and small explosions.",
+  "_id": "bulletproof"
+}

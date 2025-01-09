@@ -1,0 +1,6 @@
+{
+  "name": "Ice Cleats",
+  "effect": "If Hail Weather is in effect, increase 1 Point to the Dexterity Attibute of this Pokemon.",
+  "description": "",
+  "_id": "ice-cleats"
+}

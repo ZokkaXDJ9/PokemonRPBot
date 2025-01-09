@@ -1,0 +1,6 @@
+{
+  "name": "Illuminate",
+  "effect": "Increases the chance of random Wild Pokemon encounters. If there were enviromental challenges where there is reduced visibility, this Pokemon and it's allies are immune to the effects.",
+  "description": "The Pokemon naturally produces light through its body. Other Pokemon approach curiously when they see this light.",
+  "_id": "illuminate"
+}

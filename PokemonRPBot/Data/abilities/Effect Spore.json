@@ -1,0 +1,6 @@
+{
+  "name": "Effect Spore",
+  "effect": "If hit by a Non-Ranged Physical Attack, the Pokemon rolls 3 Chance Dice to Poison, Paralize or inflict the drowsy condition on the foe at random.",
+  "description": "When stressed, this Pokemon will leak spores through its body that scatter in the air causing severe allergies.",
+  "_id": "effect-spore"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Marvel Scale",
+  "effect": "If this Pokemon has a Status Ailment, Increase 2 points to its Defense Attribute.",
+  "description": "The beautiful scales of this Pokemon will harden when its body is under stress.",
+  "_id": "marvel-scale"
+}

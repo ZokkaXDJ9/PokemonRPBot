@@ -1,0 +1,6 @@
+{
+  "name": "Insomnia",
+  "effect": "This Pokemon is not affected by the Drowsy Status.",
+  "description": "The Pokemon does not need to sleep, it will be awake no matter the hour.",
+  "_id": "insomnia"
+}

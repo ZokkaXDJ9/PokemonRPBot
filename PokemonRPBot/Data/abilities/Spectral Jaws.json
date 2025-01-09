@@ -1,0 +1,6 @@
+{
+  "name": "Spectral Jaws",
+  "effect": "If this Pokemon uses a move with the Keywords: Fang, Bite or Crunch, add 1 Extra Dice to the Damage Pool of that Move. These moves are all converted to Special.",
+  "description": "",
+  "_id": "spectral-jaws"
+}

@@ -1,7 +1,6 @@
 import random
 import json
 import os
-import json
 from database import Database
 
 CHARACTERS_DIR = "Characters"
@@ -37,8 +36,9 @@ class ParsedRollQuery:
         return f"{self.amount}d{self.sides}+{self.flat_addition}" if self.flat_addition > 0 else f"{self.amount}d{self.sides}"
 
     def execute(self) -> str:
-        # Determine if we should display successes based on dice count and type
-        display_successes = self.amount > 1 and self.sides == 6
+        # Determine if we should display successes based on pure `d6` rolls
+        is_pure_d6 = self.sides == 6 and self.flat_addition == 0
+        display_successes = is_pure_d6
 
         results = []
         total = self.flat_addition
@@ -70,7 +70,7 @@ class ParsedRollQuery:
         # Append success and critical information only if display_successes is True
         if display_successes:
             success_string = "Successes." if successes != 1 else "Success."
-            crit_string = " **(CRIT)**" if six_count >= 3 else ""
+            crit_string = " **(CRIT!)**" if six_count >= 3 else ""
             text += f"\n**{successes}** {success_string}{crit_string}"
 
         return text

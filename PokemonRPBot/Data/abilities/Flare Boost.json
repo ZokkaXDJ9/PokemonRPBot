@@ -1,0 +1,6 @@
+{
+  "name": "Flare Boost",
+  "effect": "If this Pokemon gets any Burn condition, Increase 2 points to its Special attribute.",
+  "description": "Pokemon with this ability benefit from the extreme heat produced by fire. It might be somewhat of a pyromaniac.",
+  "_id": "flare-boost"
+}

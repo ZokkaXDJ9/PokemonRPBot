@@ -1,0 +1,6 @@
+{
+  "name": "Skill Link",
+  "effect": "Add 2 Dice to the Accuracy roll of Successive Actions.",
+  "description": "This Pokemon can proficiently chain a flurry of attacks. It also enjoys repitition and sequences.",
+  "_id": "skill-link"
+}
