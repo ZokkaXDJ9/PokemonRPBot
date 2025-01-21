@@ -7,19 +7,19 @@ COMMANDS = [
     "commands.setup_questgiver",
     "commands.successive",
     "commands.moody",
+    "commands.status",
+    "commands.r",    
+    "commands.roll",
+    "commands.rule",
     ]
 
 COMMANDS_NOT_LOADED = [
     "commands.suggest",
-    "commands.r",    
-    "commands.roll",
     "commands.create_character",
     "commands.metronome",
-    "commands.status",
     "commands.stats",
-    "commands.weather",
     "commands.learns",
-    "commands.ability",    
-    "commands.move",    
-    "commands.rule",
+    "commands.move",
+    "commands.weather",
+    "commands.ability",
 ]
