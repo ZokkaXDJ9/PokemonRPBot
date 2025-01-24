@@ -7,21 +7,69 @@ class LootBox(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         
-        # Define multiple lock tables
+        # Define multiple lock tables with optional categories
         self.lock_boxes = {
-            "Berry": [
-                {"item": "Aspear Berry",    "probability": 100},
-                {"item": "Cheri Berry",     "probability": 100},
-                {"item": "Chesto Berry",    "probability": 100},
-                {"item": "Coba Berry",      "probability": 100},
-                {"item": "Colbur Berry",    "probability": 100},
-                {"item": "Drash Berry",     "probability": 100},
-                {"item": "Pecha Berry",     "probability": 100},
-                {"item": "Persim Berry",    "probability": 100},
-                {"item": "Rawst Berry",     "probability": 100},
-                {"item": "Starf Berry",     "probability": 100},
-            ],
-            
+            "Berry": {
+                "Common Berries": {"probability": 350, "items": [
+                    {"item": "2x Aspear Berry", "probability": 25},
+                    {"item": "2x Cheri Berry", "probability": 25},
+                    {"item": "2x Pecha Berry", "probability": 25},
+                    {"item": "2x Rawst Berry", "probability": 25},
+                    {"item": "2x Cheri Berry", "probability": 25},
+                    {"item": "2x Chesto Berry", "probability": 25},
+                    {"item": "2x Coba Berry", "probability": 25},
+                    {"item": "2x Colbur Berry", "probability": 25},
+                    {"item": "2x Drash Berry", "probability": 25},
+                    {"item": "2x Pecha Berry", "probability": 25},
+                    {"item": "2x Persim Berry", "probability": 25},
+                    {"item": "2x Rawst Berry", "probability": 25},
+                    {"item": "2x Starf Berry", "probability": 25},
+                ]},
+                "Uncommon Berries": {"probability": 350, "items": [
+                    {"item": "Bitmel Berry", "probability": 50},
+                    {"item": "Charti Berry", "probability": 50},
+                    {"item": "Petaya Berry", "probability": 50},
+                    {"item": "Chilan Berry", "probability": 50},
+                    {"item": "Roseli Berry", "probability": 50},
+                    {"item": "Babiri Berry", "probability": 50},
+                    {"item": "Chipe Berry", "probability": 50},
+                    {"item": "Chople Berry", "probability": 50},
+                    {"item": "Haban Berry", "probability": 50},
+                    {"item": "Kasib Berry", "probability": 50},
+                    {"item": "Kebia Berry", "probability": 50},
+                    {"item": "Leichi Berry", "probability": 50},
+                    {"item": "Magost Berry", "probability": 50},
+                    {"item": "Nomel Berry", "probability": 50},
+                    {"item": "Occa Berry", "probability": 50},
+                    {"item": "Passho Berry", "probability": 50},
+                    {"item": "Payapa Berry", "probability": 50},
+                    {"item": "Pumkin Berry", "probability": 50},
+                    {"item": "Rindo Berry", "probability": 50},
+                    {"item": "Salac Berry", "probability": 50},
+                    {"item": "Shuca Berry", "probability": 50},
+                    {"item": "Sitrus Berry", "probability": 50},
+                    {"item": "Tanga Berry", "probability": 50},
+                    {"item": "Wacan Berry", "probability": 50},
+                    {"item": "Yache Berry", "probability": 50},
+                    {"item": "Jaboca Berry", "probability": 50},
+                    {"item": "Rowap Berry", "probability": 50},
+                ]},
+                "Rare Berries": {"probability": 200, "items": [
+                    {"item": "Lum Berry", "probability": 50},
+                    {"item": "Apicot Berry", "probability": 50},
+                    {"item": "Ganlon Berry", "probability": 50},
+                    {"item": "Lansat Berry", "probability": 50},
+                    {"item": "Meyt Berry", "probability": 50},
+                ]},
+                "Very Rare Berries": {"probability": 100, "items": [
+                    {"item": "Enigma Berry", "probability": 50},
+                    {"item": "Leppa Berry", "probability": 50},
+                ]},
+                "???": {"probability": 1, "items": [
+                    {"item": "???-Berry", "probability": 1},
+                ]}
+            },
+
             "TM": [
                 {"item": "Play Rough",          "probability": 100},
                 {"item": "Moonblast",           "probability": 100},
@@ -100,7 +148,7 @@ class LootBox(commands.Cog):
                 {"item": "Incantation",         "probability": 100},
                 {"item": "Weather Ball",        "probability": 100},
             ],
-            
+
             "Seed": [
                 {"item": "Blast Seed",      "probability": 100},
                 {"item": "Encourage Seed",  "probability": 66},
@@ -109,7 +157,7 @@ class LootBox(commands.Cog):
                 {"item": "Sleep Seed",      "probability": 100},
                 {"item": "Stun Seed",       "probability": 100},
             ],
-            
+
             "Money": [ # This is assuming that Boxes will cost 100 to open
                 {"item": "200",    "probability": 100},
                 {"item": "300",    "probability": 75},
@@ -119,20 +167,45 @@ class LootBox(commands.Cog):
                 {"item": "2000",   "probability": 5},
                 {"item": "5000",   "probability": 1},
             ],
-            
-            "Orb": [
-                {"item": "",   "probability": 100},
-                {"item": "",   "probability": 100},
-                {"item": "",   "probability": 100},
-                {"item": "",   "probability": 100},
-                {"item": "",   "probability": 100},
-                {"item": "",   "probability": 100},
-                {"item": "",   "probability": 100},
-                {"item": "",   "probability": 100},
-                {"item": "",   "probability": 100},
-                {"item": "",   "probability": 100},
-            ],
-            
+
+            "Orb": {
+                "Common": {"probability": 35, "items": [
+                    {"item": "Hail Orb", "probability": 25},
+                    {"item": "Rainy Orb", "probability":  25},
+                    {"item": "Sandy Orb", "probability":  25},
+                    {"item": "Sunny Orb", "probability":  25},
+                    {"item": "Slow Orb", "probability":  25},
+                ]},
+                "Uncommon": {"probability": 35, "items": [
+                    {"item": "Health Orb", "probability":  25},
+                    {"item": "Memory Orb", "probability":  25},
+                    {"item": "Petrify Orb", "probability":  25},
+                    {"item": "Slumber Orb", "probability":  25},
+                    {"item": "Trapbust Orb", "probability":  25},
+                    {"item": "Trapper Orb", "probability":  25},
+                    {"item": "Weather Orb", "probability":  25},
+                    {"item": "Observer Orb", "probability":  25},
+                ]},
+                "Rare": {"probability": 25, "items": [
+                    {"item": "All-Charge Orb", "probability":  50},
+                    {"item": "All-Power Orb", "probability":  50},
+                    {"item": "Snatch Orb", "probability":  50},
+                    {"item": "Align Orb", "probability":  50},
+                    {"item": "All-Hit Orb", "probability":  50},
+                    {"item": "All-Mach Orb", "probability":  50},
+                    {"item": "Lob Orb", "probability":  50},
+                    {"item": "Totter Orb", "probability":  50},
+                    {"item": "Weather Lock Orb", "probability":  50},
+                    {"item": "All-Dodge Orb", "probability":  50},
+                    {"item": "Evasion Orb", "probability":  50},
+                    {"item": "Nullify Orb", "probability":  50},
+                ]},
+                "Very Rare": {"probability": 5, "items": [
+                    {"item": "Storage Orb", "probability": 25},
+                    {"item": "Reviver Orb", "probability": 25},
+                ]},
+            },
+
             "Common Held Item": [
                 {"item": "Air Balloon",     "probability": 100},
                 {"item": "Destiny Knot",    "probability": 100},
@@ -175,33 +248,75 @@ class LootBox(commands.Cog):
                 {"item": "Spell Tag",       "probability": 100},
                 {"item": "Twisted Spoon",   "probability": 100},
             ],
-            
-#            "Rare": [
-#                {"item": "",   "probability": 100},
-#                {"item": "",   "probability": 100},
-#                {"item": "",   "probability": 100},
-#                {"item": "",   "probability": 100},
-#                {"item": "",   "probability": 100},
-#                {"item": "",   "probability": 100},
-#                {"item": "",   "probability": 100},
-#                {"item": "",   "probability": 100},
-#                {"item": "",   "probability": 100},
-#                {"item": "",   "probability": 100},
-#            ],
-#            
-#            "Shop Voucher": [
-#                {"item": "",   "probability": 100},
-#                {"item": "",   "probability": 100},
-#                {"item": "",   "probability": 100},
-#                {"item": "",   "probability": 100},
-#                {"item": "",   "probability": 100},
-#                {"item": "",   "probability": 100},
-#                {"item": "",   "probability": 100},
-#                {"item": "",   "probability": 100},
-#                {"item": "",   "probability": 100},
-#                {"item": "",   "probability": 100},
-#            ],
-            
+
+            "Rare": {
+                "TM": {"probability": 25, "items": [
+                    {"item": "3000 TM", "probability": 45},
+                    {"item": "4000 TM", "probability": 25},
+                    {"item": "5000 TM", "probability": 15},
+                    {"item": "6000 TM", "probability": 10},
+                    {"item": "Any TM",  "probability": 5},
+                ]},
+                "Rare": {"probability": 67, "items": [
+                    {"item": "Fire Plate", "probability": 100},
+                    {"item": "Normal Plate", "probability": 100},
+                    {"item": "Grass Plate", "probability": 100},
+                    {"item": "Ice Plate", "probability": 100},
+                    {"item": "Fairy Plate", "probability": 100},
+                    {"item": "Dragon Plate", "probability": 100},
+                    {"item": "Ground Plate", "probability": 100},
+                    {"item": "Rock Plate", "probability": 100},
+                    {"item": "Water Plate", "probability": 100},
+                    {"item": "Fighting Plate", "probability": 100},
+                    {"item": "Steel Plate", "probability": 100},
+                    {"item": "Poison Plate", "probability": 100},
+                    {"item": "Psychic Plate", "probability": 100},
+                    {"item": "Flying Plate", "probability": 100},
+                    {"item": "Dark Plate", "probability": 100},
+                    {"item": "Ghost Plate", "probability": 100},
+                    {"item": "Electric Plate", "probability": 100},
+                    {"item": "Bug Plate", "probability": 100},
+                    {"item": "Expert Belt", "probability": 100},
+                    {"item": "King's Rock", "probability": 100},
+                    {"item": "Razor Fang", "probability": 100},
+                    {"item": "Leftovers", "probability": 100},
+                    {"item": "Black Sludge", "probability": 100},
+                    {"item": "Life Orb", "probability": 100},
+                    {"item": "Razor Claw", "probability": 100},
+                    {"item": "Shadow Crystal", "probability": 100},
+                    {"item": "Utility Umbrella", "probability": 100},
+                    {"item": "Zoom Lens", "probability": 100},
+                    {"item": "Binding Band", "probability": 100},
+                    {"item": "Metronome", "probability": 100},
+                    {"item": "Safety Goggles", "probability": 100},
+                    {"item": "Big Root", "probability": 100},
+                    {"item": "Eviolite", "probability": 100},
+                    {"item": "Assault Vest", "probability": 100},
+                    {"item": "White Tea", "probability": 100},
+                    {"item": "Mirror Tea", "probability": 100},
+                ]},
+                "Very Rare": {"probability": 8, "items": [
+                    {"item": "Ability Patch", "probability": 25},
+                    {"item": "Clear Amulet", "probability": 25},
+                    {"item": "Covert Cloak", "probability": 25},
+                    {"item": "Scope Lens", "probability": 25},
+                    {"item": "Shell Bell", "probability": 25},
+                    {"item": "Loaded Dice", "probability": 25},
+                ]},
+            },
+
+            "Shop Voucher": [
+                {"item": "20% in Alexa's Library",                              "probability": 100},
+                {"item": "20% in Vapid's Mystical Studyroom",                   "probability": 100},
+                {"item": "1 free Local Map in Dusks Cartography",               "probability": 100},
+                {"item": "1x not paying Dragapult for bidding",                 "probability": 100},
+                {"item": "10% off your next entire basket in Kecleon Shops",    "probability": 100},
+                {"item": "20% in the Armory",                                   "probability": 100},
+                {"item": "25% off your next potion in Aura Alchemy",            "probability": 100},
+                {"item": "20% off in the Music Shop",                           "probability": 100},
+                {"item": "10% in the Kitten Carpenter's Workshop",              "probability": 100},
+            ],
+
             "Move Card": [
                 {"item": "Raging Storm",   "probability": 8},
                 {"item": "Focused Winds",   "probability": 8},
@@ -211,10 +326,8 @@ class LootBox(commands.Cog):
                 {"item": "Mystery Sting",   "probability": 14},
                 {"item": "Adaptive Blade",   "probability": 11},
                 {"item": "Adaptive Blast",   "probability": 11},
-#                {"item": "",   "probability": 100},
-#                {"item": "",   "probability": 100},
             ],
-#            
+
 #            "RP Item": [
 #                {"item": "",   "probability": 100},
 #                {"item": "",   "probability": 100},
@@ -242,19 +355,30 @@ class LootBox(commands.Cog):
 #            ],
         }
     
-    def roll_lock(self, box_type):
-        if box_type not in self.lock_boxes:
-            raise ValueError(f"Invalid lockbox type: {box_type}. Available types: {', '.join(self.lock_boxes.keys())}")
+    def roll_category(self, box_type):
+        """Rolls a category based on its probability."""
+        if isinstance(self.lock_boxes[box_type], dict):
+            categories = self.lock_boxes[box_type]
+            total_prob = sum(cat["probability"] for cat in categories.values())
+            roll = random.uniform(0, total_prob)
+            
+            cumulative_prob = 0
+            for category, data in categories.items():
+                cumulative_prob += data["probability"]
+                if roll <= cumulative_prob:
+                    return category, data["items"]
+        return None, self.lock_boxes[box_type]
+    
+    def roll_item(self, items):
+        """Rolls an item within a selected category or from a flat list."""
+        total_prob = sum(item["probability"] for item in items)
+        roll = random.uniform(0, total_prob)
         
-        lock_table = self.lock_boxes[box_type]
-        total_probability = sum(lock["probability"] for lock in lock_table)
-        roll = random.uniform(0, total_probability)
-        
-        cumulative_probability = 0
-        for lock in lock_table:
-            cumulative_probability += lock["probability"]
-            if roll <= cumulative_probability:
-                return lock["item"]
+        cumulative_prob = 0
+        for item in items:
+            cumulative_prob += item["probability"]
+            if roll <= cumulative_prob:
+                return item["item"]
     
     async def lockbox_autocomplete(self, interaction: discord.Interaction, current: str):
         """Provides autocomplete suggestions for lockbox types."""
@@ -263,18 +387,29 @@ class LootBox(commands.Cog):
             for box in self.lock_boxes.keys()
             if current.lower() in box.lower()
         ]
-
+    
     @app_commands.command(name="open_box")
     @app_commands.autocomplete(box_type=lockbox_autocomplete)
     async def lockbox(self, interaction: discord.Interaction, box_type: str):
-        """Roll a lockbox of a specified type and get a random item based on probability."""
+        """Roll a lockbox of a specified type, optionally rolling a category first."""
         try:
-            item_won = self.roll_lock(box_type)
-            await interaction.response.send_message(f"You opened a {box_type} box and received: **{item_won}**")
+            if box_type not in self.lock_boxes:
+                raise ValueError(f"Invalid lockbox type: {box_type}.")
+            
+            category, items = self.roll_category(box_type)
+            item_won = self.roll_item(items)
+            
+            if category:
+                await interaction.response.send_message(
+                    f"You opened a {box_type} box and received: **{item_won}**!"
+                )
+            else:
+                await interaction.response.send_message(
+                    f"You opened a {box_type} box and received: **{item_won}**!"
+                )
         except ValueError as e:
             await interaction.response.send_message(f"❌ {interaction.user.mention}, {str(e)}", ephemeral=True)
 
 # Setup function to add the cog
 async def setup(bot):
-    
     await bot.add_cog(LootBox(bot))
