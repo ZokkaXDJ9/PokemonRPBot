@@ -309,7 +309,7 @@ class LootBox(commands.Cog):
                 {"item": "20% in Alexa's Library",                              "probability": 100},
                 {"item": "20% in Vapid's Mystical Studyroom",                   "probability": 100},
                 {"item": "1 free Local Map in Dusks Cartography",               "probability": 100},
-                {"item": "1x not paying Dragapult for bidding",                 "probability": 100},
+                {"item": "1x not having to pay the bidding fee to Dragapult",   "probability": 100},
                 {"item": "10% off your next entire basket in Kecleon Shops",    "probability": 100},
                 {"item": "20% in the Armory",                                   "probability": 100},
                 {"item": "25% off your next potion in Aura Alchemy",            "probability": 100},
