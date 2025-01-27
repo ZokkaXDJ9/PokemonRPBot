@@ -11,6 +11,7 @@ COMMANDS = [
     "commands.r",    
     "commands.roll",
     "commands.rule",
+    "commands.open_box"
     ]
 
 COMMANDS_NOT_LOADED = [
