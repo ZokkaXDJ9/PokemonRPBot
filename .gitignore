@@ -12,6 +12,9 @@ discord_token.py
 # Bot Command Loader
 config.py
 
+# Reminders lol
+PokemonRPBot/reminders.json
+
 # Distribution / packaging
 .Python
 build/
