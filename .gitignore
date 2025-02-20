@@ -13,7 +13,7 @@ discord_token.py
 config.py
 
 # Reminders lol
-PokemonRPBot/reminders.json
+reminders.json
 
 # Distribution / packaging
 .Python
