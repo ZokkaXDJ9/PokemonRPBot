@@ -1,0 +1,69 @@
+{
+    "number": 932,
+    "name": "Nacli",
+    "moves": {
+        "bronze": [
+            "Harden",
+            "Mud Shot",
+            "Rock Throw",
+            "Smack Down",
+            "Tackle"
+        ],
+        "silver": [
+            "Headbutt",
+            "Iron Defense",
+            "Recover",
+            "Rock Polish",
+            "Rock Slide",
+            "Stealth Rock"
+        ],
+        "gold": [
+            "Earthquake",
+            "Heavy Slam",
+            "Stone Edge"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Body Slam",
+            "Bulldoze",
+            "Curse",
+            "Dig",
+            "Earth Power",
+            "Earthquake",
+            "Endure",
+            "Facade",
+            "Flash Cannon",
+            "Heavy Slam",
+            "Helping Hand",
+            "Iron Defense",
+            "Iron Head",
+            "Meteor Beam",
+            "Mud Shot",
+            "Power Gem",
+            "Protect",
+            "Rain Dance",
+            "Rest",
+            "Rock Slide",
+            "Sandstorm",
+            "Sleep Talk",
+            "Smack Down",
+            "Stealth Rock",
+            "Stomping Tantrum",
+            "Stone Edge",
+            "Substitute",
+            "Sunny Day",
+            "Take Down",
+            "Tera Blast",
+            "Zen Headbutt"
+        ],
+        "tutor": [],
+        "egg": [
+            "Ancient Power",
+            "Curse",
+            "Fissure",
+            "Power Gem"
+        ],
+        "level1_g3_7": []
+    }
+}

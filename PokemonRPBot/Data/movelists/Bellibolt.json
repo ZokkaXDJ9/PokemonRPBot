@@ -1,0 +1,71 @@
+{
+    "number": 939,
+    "name": "Bellibolt",
+    "moves": {
+        "bronze": [
+            "Mud-Slap",
+            "Slack Off",
+            "Tackle",
+            "Thunder Shock"
+        ],
+        "silver": [
+            "Charge",
+            "Discharge",
+            "Flail",
+            "Mud Shot",
+            "Spark",
+            "Water Gun"
+        ],
+        "gold": [
+            "Electric Terrain",
+            "Sucker Punch",
+            "Weather Ball",
+            "Zap Cannon"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Acid Spray",
+            "Charge",
+            "Charge Beam",
+            "Chilling Water",
+            "Confuse Ray",
+            "Eerie Impulse",
+            "Electric Terrain",
+            "Electro Ball",
+            "Electroweb",
+            "Endure",
+            "Giga Impact",
+            "Hyper Beam",
+            "Hyper Voice",
+            "Light Screen",
+            "Mud Shot",
+            "Mud-Slap",
+            "Muddy Water",
+            "Protect",
+            "Rain Dance",
+            "Reflect",
+            "Rest",
+            "Sleep Talk",
+            "Substitute",
+            "Supercell Slam",
+            "Swift",
+            "Tera Blast",
+            "Thunder",
+            "Thunder Wave",
+            "Thunderbolt",
+            "Toxic",
+            "Volt Switch",
+            "Water Pulse",
+            "Weather Ball",
+            "Wild Charge"
+        ],
+        "tutor": [],
+        "egg": [
+            "Muddy Water",
+            "Parabolic Charge",
+            "Soak"
+        ],
+        "level1_g3_7": []
+    }
+}

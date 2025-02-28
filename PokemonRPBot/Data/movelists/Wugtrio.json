@@ -1,0 +1,68 @@
+{
+    "number": 961,
+    "name": "Wugtrio",
+    "moves": {
+        "bronze": [
+            "Mud-Slap",
+            "Sand Attack",
+            "Water Gun",
+            "Wrap"
+        ],
+        "silver": [
+            "Aqua Jet",
+            "Headbutt",
+            "Slam",
+            "Triple Dive",
+            "Water Pulse"
+        ],
+        "gold": [
+            "Dig",
+            "Liquidation",
+            "Sucker Punch",
+            "Throat Chop"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Agility",
+            "Blizzard",
+            "Bulldoze",
+            "Chilling Water",
+            "Dig",
+            "Earth Power",
+            "Endure",
+            "Facade",
+            "Foul Play",
+            "Giga Impact",
+            "Helping Hand",
+            "Hydro Pump",
+            "Hyper Beam",
+            "Ice Beam",
+            "Liquidation",
+            "Mud Shot",
+            "Mud-Slap",
+            "Muddy Water",
+            "Pain Split",
+            "Protect",
+            "Rain Dance",
+            "Rest",
+            "Sandstorm",
+            "Sleep Talk",
+            "Stomping Tantrum",
+            "Substitute",
+            "Surf",
+            "Swift",
+            "Take Down",
+            "Tera Blast",
+            "Throat Chop",
+            "Water Pulse",
+            "Whirlpool"
+        ],
+        "tutor": [],
+        "egg": [
+            "Final Gambit",
+            "Memento"
+        ],
+        "level1_g3_7": []
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "number": 803,
+    "name": "Poipole",
+    "moves": {
+        "bronze": [
+            "Acid",
+            "Dragon Pulse",
+            "Fury Attack",
+            "Growl",
+            "Helping Hand",
+            "Peck"
+        ],
+        "silver": [
+            "Charm",
+            "Fell Stinger",
+            "Nasty Plot",
+            "Venom Drench",
+            "Venoshock"
+        ],
+        "gold": [
+            "Gastro Acid",
+            "Poison Jab",
+            "Toxic"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Acid",
+            "Charm",
+            "Dragon Pulse",
+            "Endure",
+            "Facade",
+            "Fell Stinger",
+            "Fury Attack",
+            "Growl",
+            "Gunk Shot",
+            "Helping Hand",
+            "Iron Tail",
+            "Nasty Plot",
+            "Peck",
+            "Pin Missile",
+            "Poison Jab",
+            "Protect",
+            "Rest",
+            "Round",
+            "Sleep Talk",
+            "Sludge Bomb",
+            "Sludge Wave",
+            "Snore",
+            "Substitute",
+            "Toxic",
+            "Toxic Spikes",
+            "Uproar",
+            "Venom Drench",
+            "Venoshock"
+        ],
+        "tutor": [
+            "Acid",
+            "Covet",
+            "Dragon Pulse",
+            "Gastro Acid",
+            "Growl",
+            "Gunk Shot",
+            "Helping Hand",
+            "Iron Tail",
+            "Peck",
+            "Signal Beam",
+            "Snatch",
+            "Snore",
+            "Uproar"
+        ],
+        "egg": [],
+        "level1_g3_7": [
+            "Acid",
+            "Dragon Pulse",
+            "Growl",
+            "Helping Hand",
+            "Peck"
+        ]
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "number": 922,
+    "name": "Pawmo",
+    "moves": {
+        "bronze": [
+            "Charge",
+            "Growl",
+            "Quick Attack",
+            "Scratch",
+            "Thunder Shock"
+        ],
+        "silver": [
+            "Bite",
+            "Dig",
+            "Nuzzle",
+            "Slam",
+            "Spark",
+            "Thunder Wave"
+        ],
+        "gold": [
+            "Agility",
+            "Discharge",
+            "Entrainment",
+            "Wild Charge"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Agility",
+            "Baton Pass",
+            "Charge",
+            "Charge Beam",
+            "Charm",
+            "Coaching",
+            "Crunch",
+            "Dig",
+            "Eerie Impulse",
+            "Electric Terrain",
+            "Electro Ball",
+            "Electroweb",
+            "Encore",
+            "Endure",
+            "Facade",
+            "Fling",
+            "Focus Punch",
+            "Helping Hand",
+            "Knock Off",
+            "Low Kick",
+            "Low Sweep",
+            "Metal Claw",
+            "Play Rough",
+            "Protect",
+            "Rain Dance",
+            "Rest",
+            "Sleep Talk",
+            "Substitute",
+            "Sunny Day",
+            "Super Fang",
+            "Swift",
+            "Take Down",
+            "Tera Blast",
+            "Thief",
+            "Thunder",
+            "Thunder Fang",
+            "Thunder Punch",
+            "Thunder Wave",
+            "Thunderbolt",
+            "Upper Hand",
+            "Volt Switch",
+            "Wild Charge"
+        ],
+        "tutor": [],
+        "egg": [
+            "Fake Out",
+            "Mach Punch",
+            "Sweet Kiss",
+            "Wish"
+        ],
+        "level1_g3_7": []
+    }
+}

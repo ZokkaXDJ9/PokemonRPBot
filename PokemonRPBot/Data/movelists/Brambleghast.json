@@ -1,0 +1,73 @@
+{
+    "number": 947,
+    "name": "Brambleghast",
+    "moves": {
+        "bronze": [
+            "Absorb",
+            "Astonish",
+            "Defense Curl",
+            "Rapid Spin",
+            "Rollout"
+        ],
+        "silver": [
+            "Bullet Seed",
+            "Disable",
+            "Hex",
+            "Infestation",
+            "Mega Drain"
+        ],
+        "gold": [
+            "Curse",
+            "Giga Drain",
+            "Pain Split",
+            "Phantom Force",
+            "Power Whip"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Bullet Seed",
+            "Confuse Ray",
+            "Curse",
+            "Endure",
+            "Energy Ball",
+            "Facade",
+            "Giga Drain",
+            "Giga Impact",
+            "Grass Knot",
+            "Grassy Glide",
+            "Grassy Terrain",
+            "Hex",
+            "Hyper Beam",
+            "Leaf Storm",
+            "Night Shade",
+            "Pain Split",
+            "Phantom Force",
+            "Poltergeist",
+            "Pounce",
+            "Protect",
+            "Rest",
+            "Scary Face",
+            "Seed Bomb",
+            "Shadow Ball",
+            "Skitter Smack",
+            "Sleep Talk",
+            "Solar Beam",
+            "Spikes",
+            "Spite",
+            "Substitute",
+            "Tera Blast",
+            "Thief",
+            "Trailblaze"
+        ],
+        "tutor": [],
+        "egg": [
+            "Beat Up",
+            "Block",
+            "Leech Seed",
+            "Shadow Sneak",
+            "Strength Sap"
+        ],
+        "level1_g3_7": []
+    }
+}

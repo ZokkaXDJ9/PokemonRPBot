@@ -1,0 +1,43 @@
+{
+    "number": 872,
+    "name": "Snom",
+    "moves": {
+        "bronze": [
+            "Powder Snow",
+            "Struggle Bug"
+        ],
+        "silver": [],
+        "gold": [],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Attract",
+            "Bug Bite",
+            "Bug Buzz",
+            "Endure",
+            "Facade",
+            "Icicle Spear",
+            "Icy Wind",
+            "Lunge",
+            "Pounce",
+            "Protect",
+            "Rest",
+            "Round",
+            "Skitter Smack",
+            "Sleep Talk",
+            "Snore",
+            "Struggle Bug",
+            "Substitute",
+            "Tera Blast"
+        ],
+        "tutor": [
+            "Skitter Smack"
+        ],
+        "egg": [
+            "Bug Bite",
+            "Fairy Wind",
+            "Mirror Coat"
+        ],
+        "level1_g3_7": []
+    }
+}

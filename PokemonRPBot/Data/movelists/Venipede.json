@@ -1,0 +1,93 @@
+{
+    "number": 543,
+    "name": "Venipede",
+    "moves": {
+        "bronze": [
+            "Defense Curl",
+            "Poison Sting",
+            "Protect",
+            "Rollout",
+            "Screech"
+        ],
+        "silver": [
+            "Agility",
+            "Bug Bite",
+            "Poison Tail",
+            "Pursuit",
+            "Steamroller",
+            "Take Down",
+            "Venoshock"
+        ],
+        "gold": [
+            "Double-Edge",
+            "Rock Climb",
+            "Toxic",
+            "Venom Drench"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Agility",
+            "Attract",
+            "Confide",
+            "Double Team",
+            "Endure",
+            "Facade",
+            "Frustration",
+            "Gyro Ball",
+            "Hex",
+            "Hidden Power",
+            "Infestation",
+            "Iron Defense",
+            "Payback",
+            "Pin Missile",
+            "Poison Jab",
+            "Protect",
+            "Rest",
+            "Return",
+            "Rock Smash",
+            "Round",
+            "Screech",
+            "Sleep Talk",
+            "Sludge Bomb",
+            "Snore",
+            "Solar Beam",
+            "SolarBeam",
+            "Spikes",
+            "Struggle Bug",
+            "Substitute",
+            "Sunny Day",
+            "Swagger",
+            "Toxic",
+            "Toxic Spikes",
+            "Venom Drench",
+            "Venoshock"
+        ],
+        "tutor": [
+            "Bug Bite",
+            "Defense Curl",
+            "Endeavor",
+            "Iron Defense",
+            "Rollout",
+            "Signal Beam",
+            "Skitter Smack",
+            "Sleep Talk",
+            "Snore",
+            "Steel Roller"
+        ],
+        "egg": [
+            "Bite",
+            "Fury Cutter",
+            "Pin Missile",
+            "Rock Climb",
+            "Spikes",
+            "Take Down",
+            "Toxic Spikes",
+            "Twineedle"
+        ],
+        "level1_g3_7": [
+            "Defense Curl",
+            "Rollout"
+        ]
+    }
+}

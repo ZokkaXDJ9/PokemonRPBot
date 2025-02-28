@@ -1,0 +1,64 @@
+{
+    "number": 912,
+    "name": "Quaxly",
+    "moves": {
+        "bronze": [
+            "Growl",
+            "Pound",
+            "Water Gun",
+            "Wing Attack",
+            "Work Up"
+        ],
+        "silver": [
+            "Acrobatics",
+            "Air Slash",
+            "Aqua Cutter",
+            "Aqua Jet",
+            "Double Hit",
+            "Focus Energy"
+        ],
+        "gold": [
+            "Liquidation"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Acrobatics",
+            "Aerial Ace",
+            "Air Cutter",
+            "Air Slash",
+            "Baton Pass",
+            "Brave Bird",
+            "Chilling Water",
+            "Disarming Voice",
+            "Encore",
+            "Endure",
+            "Facade",
+            "Helping Hand",
+            "Hydro Pump",
+            "Liquidation",
+            "Low Kick",
+            "Misty Terrain",
+            "Protect",
+            "Psych Up",
+            "Rain Dance",
+            "Rest",
+            "Sleep Talk",
+            "Substitute",
+            "Surf",
+            "Swift",
+            "Take Down",
+            "Tera Blast",
+            "Water Pledge",
+            "Whirlpool"
+        ],
+        "tutor": [],
+        "egg": [
+            "Detect",
+            "Last Resort",
+            "Rapid Spin",
+            "Roost"
+        ],
+        "level1_g3_7": []
+    }
+}

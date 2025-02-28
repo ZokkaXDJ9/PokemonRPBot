@@ -1,0 +1,32 @@
+{
+    "number": 374,
+    "name": "Beldum",
+    "moves": {
+        "bronze": [
+            "Tackle"
+        ],
+        "silver": [],
+        "gold": [],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Iron Defense",
+            "Iron Head",
+            "Normal",
+            "Steel Beam",
+            "Take Down",
+            "Tera Blast",
+            "Zen Headbutt"
+        ],
+        "tutor": [
+            "Iron Defense",
+            "Iron Head",
+            "Take Down",
+            "Zen Headbutt"
+        ],
+        "egg": [],
+        "level1_g3_7": [
+            "Take Down"
+        ]
+    }
+}

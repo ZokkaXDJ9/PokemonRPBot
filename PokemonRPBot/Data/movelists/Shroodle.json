@@ -1,0 +1,82 @@
+{
+    "number": 944,
+    "name": "Shroodle",
+    "moves": {
+        "bronze": [
+            "Acid Spray",
+            "Bite",
+            "Fury Swipes",
+            "Leer",
+            "Scratch"
+        ],
+        "silver": [
+            "Flatter",
+            "Poison Fang",
+            "Poison Jab",
+            "Slash",
+            "Switcheroo",
+            "Taunt",
+            "U-turn"
+        ],
+        "gold": [
+            "Gunk Shot",
+            "Knock Off",
+            "Substitute"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Acid Spray",
+            "Acrobatics",
+            "Baton Pass",
+            "Dig",
+            "Double-Edge",
+            "Encore",
+            "Endeavor",
+            "Endure",
+            "Facade",
+            "Fling",
+            "Foul Play",
+            "Gunk Shot",
+            "Helping Hand",
+            "Knock Off",
+            "Metronome",
+            "Mud Shot",
+            "Mud-Slap",
+            "Nasty Plot",
+            "Poison Jab",
+            "Pounce",
+            "Protect",
+            "Psych Up",
+            "Rain Dance",
+            "Rest",
+            "Skitter Smack",
+            "Sleep Talk",
+            "Sludge Bomb",
+            "Sludge Wave",
+            "Substitute",
+            "Sunny Day",
+            "Super Fang",
+            "Swords Dance",
+            "Take Down",
+            "Taunt",
+            "Tera Blast",
+            "Thief",
+            "Throat Chop",
+            "Toxic",
+            "Trailblaze",
+            "U-turn",
+            "Venoshock"
+        ],
+        "tutor": [],
+        "egg": [
+            "Copycat",
+            "Cross Poison",
+            "Parting Shot",
+            "Super Fang",
+            "Swagger",
+            "Toxic"
+        ],
+        "level1_g3_7": []
+    }
+}

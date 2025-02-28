@@ -1,0 +1,82 @@
+{
+    "number": 918,
+    "name": "Spidops",
+    "moves": {
+        "bronze": [
+            "Assurance",
+            "String Shot",
+            "Struggle Bug",
+            "Tackle"
+        ],
+        "silver": [
+            "Block",
+            "Bug Bite",
+            "Counter",
+            "Feint",
+            "Headbutt",
+            "Sticky Web"
+        ],
+        "gold": [
+            "Circle Throw",
+            "Gastro Acid",
+            "Skitter Smack",
+            "Throat Chop"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Aerial Ace",
+            "Body Slam",
+            "Brick Break",
+            "Bug Bite",
+            "Bug Buzz",
+            "Bullet Seed",
+            "Electroweb",
+            "Endure",
+            "Facade",
+            "False Swipe",
+            "Fling",
+            "Giga Drain",
+            "Giga Impact",
+            "Grass Knot",
+            "Knock Off",
+            "Leech Life",
+            "Low Kick",
+            "Lunge",
+            "Pain Split",
+            "Poison Jab",
+            "Pounce",
+            "Protect",
+            "Rain Dance",
+            "Rest",
+            "Reversal",
+            "Rock Tomb",
+            "Scary Face",
+            "Shadow Claw",
+            "Skitter Smack",
+            "Sleep Talk",
+            "Spikes",
+            "Struggle Bug",
+            "Substitute",
+            "Sunny Day",
+            "Take Down",
+            "Taunt",
+            "Tera Blast",
+            "Thief",
+            "Throat Chop",
+            "Toxic Spikes",
+            "Trailblaze",
+            "U-turn",
+            "Upper Hand",
+            "X-Scissor"
+        ],
+        "tutor": [],
+        "egg": [
+            "First Impression",
+            "Lunge",
+            "Memento",
+            "Sucker Punch"
+        ],
+        "level1_g3_7": []
+    }
+}

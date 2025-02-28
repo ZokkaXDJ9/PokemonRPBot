@@ -1,0 +1,72 @@
+{
+    "number": 986,
+    "name": "Brute Bonnet",
+    "moves": {
+        "bronze": [
+            "Absorb",
+            "Astonish",
+            "Growth",
+            "Stun Spore"
+        ],
+        "silver": [
+            "Clear Smog",
+            "Mega Drain",
+            "Synthesis"
+        ],
+        "gold": [
+            "Giga Drain",
+            "Ingrain",
+            "Payback",
+            "Rage Powder",
+            "Solar Beam",
+            "Spore",
+            "Sucker Punch",
+            "Thrash"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Body Press",
+            "Body Slam",
+            "Bullet Seed",
+            "Close Combat",
+            "Confuse Ray",
+            "Crunch",
+            "Dark Pulse",
+            "Double-Edge",
+            "Earth Power",
+            "Endure",
+            "Energy Ball",
+            "Facade",
+            "Giga Drain",
+            "Giga Impact",
+            "Grass Knot",
+            "Grassy Terrain",
+            "Hex",
+            "Hyper Beam",
+            "Lash Out",
+            "Leaf Storm",
+            "Magical Leaf",
+            "Outrage",
+            "Pollen Puff",
+            "Protect",
+            "Rest",
+            "Scary Face",
+            "Seed Bomb",
+            "Sleep Talk",
+            "Solar Beam",
+            "Stomping Tantrum",
+            "Substitute",
+            "Sunny Day",
+            "Taunt",
+            "Tera Blast",
+            "Thief",
+            "Trailblaze",
+            "Venoshock",
+            "Zen Headbutt"
+        ],
+        "tutor": [],
+        "egg": [],
+        "level1_g3_7": []
+    }
+}

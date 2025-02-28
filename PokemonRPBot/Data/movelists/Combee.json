@@ -1,0 +1,54 @@
+{
+    "number": 415,
+    "name": "Combee",
+    "moves": {
+        "bronze": [
+            "Bug Bite",
+            "Gust",
+            "Struggle Bug",
+            "Sweet Scent"
+        ],
+        "silver": [
+            "Bug Buzz"
+        ],
+        "gold": [],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Bug",
+            "Bug Bite",
+            "Bug Buzz",
+            "Endeavor",
+            "Flying",
+            "Ghost",
+            "Ground",
+            "Gust",
+            "Lunge",
+            "Normal",
+            "Skitter Smack",
+            "Sleep Talk",
+            "Snore",
+            "Struggle Bug",
+            "Sweet Scent",
+            "Tera Blast"
+        ],
+        "tutor": [
+            "Air Cutter",
+            "Bug Bite",
+            "Dual Wingbeat",
+            "Endeavor",
+            "Gust",
+            "Mud-Slap",
+            "Ominous Wind",
+            "Snore",
+            "Sweet Scent",
+            "Swift",
+            "Tailwind"
+        ],
+        "egg": [],
+        "level1_g3_7": [
+            "Gust",
+            "Sweet Scent"
+        ]
+    }
+}

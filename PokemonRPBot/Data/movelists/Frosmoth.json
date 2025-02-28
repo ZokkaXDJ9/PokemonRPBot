@@ -1,0 +1,92 @@
+{
+    "number": 873,
+    "name": "Frosmoth",
+    "moves": {
+        "bronze": [
+            "Attract",
+            "Helping Hand",
+            "Icy Wind",
+            "Infestation",
+            "Powder Snow",
+            "Struggle Bug",
+            "Stun Spore"
+        ],
+        "silver": [
+            "Aurora Beam",
+            "Bug Buzz",
+            "Defog",
+            "Feather Dance",
+            "Hail",
+            "Mist",
+            "Snowscape"
+        ],
+        "gold": [
+            "Aurora Veil",
+            "Blizzard",
+            "Quiver Dance",
+            "Tailwind",
+            "Wide Guard"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Acrobatics",
+            "Air Slash",
+            "Attract",
+            "Avalanche",
+            "Blizzard",
+            "Bug Bite",
+            "Bug Buzz",
+            "Calm Mind",
+            "Dazzling Gleam",
+            "Endure",
+            "Facade",
+            "Feather Dance",
+            "Giga Drain",
+            "Giga Impact",
+            "Hail",
+            "Helping Hand",
+            "Hurricane",
+            "Hyper Beam",
+            "Ice Beam",
+            "Ice Spinner",
+            "Icicle Spear",
+            "Icy Wind",
+            "Imprison",
+            "Leech Life",
+            "Light Screen",
+            "Lunge",
+            "Play Rough",
+            "Pounce",
+            "Protect",
+            "Reflect",
+            "Rest",
+            "Round",
+            "Safeguard",
+            "Skitter Smack",
+            "Sleep Talk",
+            "Snore",
+            "Snowscape",
+            "Struggle Bug",
+            "Substitute",
+            "Swift",
+            "Tailwind",
+            "Take Down",
+            "Tera Blast",
+            "Triple Axel",
+            "U-turn",
+            "Weather Ball"
+        ],
+        "tutor": [
+            "Dual Wingbeat",
+            "Skitter Smack",
+            "Triple Axel"
+        ],
+        "egg": [
+            "Bug Bite",
+            "Fairy Wind",
+            "Mirror Coat"
+        ],
+        "level1_g3_7": []
+    }
+}

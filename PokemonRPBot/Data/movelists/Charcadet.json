@@ -1,0 +1,53 @@
+{
+    "number": 935,
+    "name": "Charcadet",
+    "moves": {
+        "bronze": [
+            "Astonish",
+            "Clear Smog",
+            "Ember",
+            "Leer"
+        ],
+        "silver": [
+            "Fire Spin",
+            "Flame Charge",
+            "Incinerate",
+            "Lava Plume",
+            "Night Shade",
+            "Will-O-Wisp"
+        ],
+        "gold": [],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Confuse Ray",
+            "Endure",
+            "Facade",
+            "Fire Blast",
+            "Fire Spin",
+            "Flame Charge",
+            "Flamethrower",
+            "Flare Blitz",
+            "Heat Wave",
+            "Helping Hand",
+            "Night Shade",
+            "Overheat",
+            "Protect",
+            "Rest",
+            "Sleep Talk",
+            "Spite",
+            "Substitute",
+            "Sunny Day",
+            "Take Down",
+            "Tera Blast",
+            "Will-O-Wisp"
+        ],
+        "tutor": [],
+        "egg": [
+            "Destiny Bond",
+            "Disable",
+            "Spite"
+        ],
+        "level1_g3_7": []
+    }
+}

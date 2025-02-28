@@ -1,0 +1,63 @@
+{
+    "number": 835,
+    "name": "Yamper",
+    "moves": {
+        "bronze": [
+            "Bite",
+            "Nuzzle",
+            "Tackle",
+            "Tail Whip"
+        ],
+        "silver": [
+            "Charm",
+            "Crunch",
+            "Roar",
+            "Spark"
+        ],
+        "gold": [
+            "Charge",
+            "Play Rough",
+            "Wild Charge"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Attract",
+            "Charm",
+            "Crunch",
+            "Dig",
+            "Electro Ball",
+            "Endure",
+            "Facade",
+            "Fire Fang",
+            "Helping Hand",
+            "Play Rough",
+            "Protect",
+            "Rest",
+            "Round",
+            "Sleep Talk",
+            "Snarl",
+            "Snore",
+            "Substitute",
+            "Swift",
+            "Thunder",
+            "Thunder Fang",
+            "Thunder Wave",
+            "Thunderbolt",
+            "Uproar",
+            "Volt Switch",
+            "Wild Charge"
+        ],
+        "tutor": [
+            "Rising Voltage"
+        ],
+        "egg": [
+            "Discharge",
+            "Double-Edge",
+            "Flame Charge",
+            "Howl",
+            "Sand Attack"
+        ],
+        "level1_g3_7": []
+    }
+}

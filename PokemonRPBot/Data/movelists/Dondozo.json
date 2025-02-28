@@ -1,0 +1,73 @@
+{
+    "number": 977,
+    "name": "Dondozo",
+    "moves": {
+        "bronze": [
+            "Flail",
+            "Supersonic",
+            "Tackle",
+            "Tickle",
+            "Water Gun"
+        ],
+        "silver": [
+            "Dive",
+            "Noble Roar",
+            "Rest",
+            "Sleep Talk",
+            "Soak"
+        ],
+        "gold": [
+            "Aqua Tail",
+            "Body Slam",
+            "Double-Edge",
+            "Heavy Slam",
+            "Order Up",
+            "Rain Dance",
+            "Wave Crash"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Avalanche",
+            "Body Press",
+            "Body Slam",
+            "Bulldoze",
+            "Chilling Water",
+            "Crunch",
+            "Curse",
+            "Double-Edge",
+            "Earthquake",
+            "Endure",
+            "Facade",
+            "Giga Impact",
+            "Heavy Slam",
+            "Hydro Pump",
+            "Hyper Beam",
+            "Ice Fang",
+            "Liquidation",
+            "Outrage",
+            "Protect",
+            "Rain Dance",
+            "Rest",
+            "Rock Slide",
+            "Scary Face",
+            "Sleep Talk",
+            "Stomping Tantrum",
+            "Substitute",
+            "Surf",
+            "Take Down",
+            "Tera Blast",
+            "Water Pulse",
+            "Waterfall",
+            "Zen Headbutt"
+        ],
+        "tutor": [],
+        "egg": [
+            "Curse",
+            "Fissure",
+            "Thrash",
+            "Yawn"
+        ],
+        "level1_g3_7": []
+    }
+}

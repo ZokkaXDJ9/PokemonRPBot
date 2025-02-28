@@ -1,0 +1,38 @@
+{
+    "number": 665,
+    "name": "Spewpa",
+    "moves": {
+        "bronze": [
+            "Harden",
+            "Protect"
+        ],
+        "silver": [],
+        "gold": [],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Bug Bite",
+            "Iron Defense",
+            "Pounce",
+            "Protect",
+            "Struggle Bug",
+            "Tera Blast"
+        ],
+        "tutor": [
+            "Bug Bite",
+            "Electroweb",
+            "Harden",
+            "Iron Defense",
+            "Protect"
+        ],
+        "egg": [
+            "Poison Powder",
+            "Rage Powder",
+            "Stun Spore"
+        ],
+        "level1_g3_7": [
+            "Harden",
+            "Protect"
+        ]
+    }
+}

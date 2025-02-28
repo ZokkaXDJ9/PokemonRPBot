@@ -1,0 +1,72 @@
+{
+    "number": 906,
+    "name": "Sprigatito",
+    "moves": {
+        "bronze": [
+            "Bite",
+            "Hone Claws",
+            "Leafage",
+            "Scratch",
+            "Tail Whip"
+        ],
+        "silver": [
+            "Energy Ball",
+            "Magical Leaf",
+            "Quick Attack",
+            "Seed Bomb",
+            "Slash",
+            "U-turn",
+            "Worry Seed"
+        ],
+        "gold": [
+            "Play Rough"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Acrobatics",
+            "Agility",
+            "Bullet Seed",
+            "Charm",
+            "Disarming Voice",
+            "Endure",
+            "Energy Ball",
+            "Facade",
+            "Fake Tears",
+            "Giga Drain",
+            "Grass Knot",
+            "Grass Pledge",
+            "Grassy Glide",
+            "Grassy Terrain",
+            "Helping Hand",
+            "Leaf Storm",
+            "Magical Leaf",
+            "Mud-Slap",
+            "Nasty Plot",
+            "Petal Blizzard",
+            "Play Rough",
+            "Protect",
+            "Rest",
+            "Seed Bomb",
+            "Shadow Claw",
+            "Sleep Talk",
+            "Solar Beam",
+            "Substitute",
+            "Swift",
+            "Take Down",
+            "Taunt",
+            "Tera Blast",
+            "Trailblaze",
+            "U-turn"
+        ],
+        "tutor": [],
+        "egg": [
+            "Ally Switch",
+            "Copycat",
+            "Leech Seed",
+            "Petal Blizzard",
+            "Sucker Punch"
+        ],
+        "level1_g3_7": []
+    }
+}

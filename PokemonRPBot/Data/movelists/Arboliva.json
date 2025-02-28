@@ -1,0 +1,78 @@
+{
+    "number": 930,
+    "name": "Arboliva",
+    "moves": {
+        "bronze": [
+            "Absorb",
+            "Growth",
+            "Mirror Coat",
+            "Razor Leaf",
+            "Safeguard",
+            "Sweet Scent",
+            "Tackle"
+        ],
+        "silver": [
+            "Flail",
+            "Grassy Terrain",
+            "Helping Hand",
+            "Mega Drain",
+            "Seed Bomb"
+        ],
+        "gold": [
+            "Energy Ball",
+            "Leech Seed",
+            "Petal Blizzard",
+            "Petal Dance",
+            "Terrain Pulse"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Alluring Voice",
+            "Bullet Seed",
+            "Charm",
+            "Dazzling Gleam",
+            "Earth Power",
+            "Encore",
+            "Endure",
+            "Energy Ball",
+            "Facade",
+            "Fling",
+            "Giga Drain",
+            "Giga Impact",
+            "Grass Knot",
+            "Grassy Terrain",
+            "Helping Hand",
+            "Hyper Beam",
+            "Hyper Voice",
+            "Leaf Storm",
+            "Light Screen",
+            "Magical Leaf",
+            "Metronome",
+            "Petal Blizzard",
+            "Pollen Puff",
+            "Protect",
+            "Psych Up",
+            "Reflect",
+            "Rest",
+            "Seed Bomb",
+            "Sleep Talk",
+            "Solar Beam",
+            "Solar Blade",
+            "Substitute",
+            "Sunny Day",
+            "Swift",
+            "Tera Blast",
+            "Trailblaze",
+            "Weather Ball"
+        ],
+        "tutor": [],
+        "egg": [
+            "Memento",
+            "Strength Sap",
+            "Synthesis",
+            "Weather Ball"
+        ],
+        "level1_g3_7": []
+    }
+}

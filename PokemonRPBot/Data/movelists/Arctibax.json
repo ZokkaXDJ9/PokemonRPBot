@@ -1,0 +1,66 @@
+{
+    "number": 997,
+    "name": "Arctibax",
+    "moves": {
+        "bronze": [
+            "Dragon Tail",
+            "Icy Wind",
+            "Leer",
+            "Tackle"
+        ],
+        "silver": [
+            "Bite",
+            "Dragon Breath",
+            "Focus Energy",
+            "Ice Fang"
+        ],
+        "gold": [
+            "Crunch",
+            "Ice Beam",
+            "Icicle Crash",
+            "Take Down"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Aerial Ace",
+            "Avalanche",
+            "Blizzard",
+            "Body Slam",
+            "Brick Break",
+            "Crunch",
+            "Dig",
+            "Draco Meteor",
+            "Dragon Claw",
+            "Dragon Pulse",
+            "Dragon Tail",
+            "Endure",
+            "Facade",
+            "Helping Hand",
+            "Ice Beam",
+            "Ice Fang",
+            "Icicle Spear",
+            "Icy Wind",
+            "Iron Head",
+            "Outrage",
+            "Protect",
+            "Rain Dance",
+            "Rest",
+            "Scary Face",
+            "Sleep Talk",
+            "Snowscape",
+            "Substitute",
+            "Swords Dance",
+            "Take Down",
+            "Tera Blast"
+        ],
+        "tutor": [],
+        "egg": [
+            "Aqua Tail",
+            "Dragon Rush",
+            "Freeze-Dry",
+            "Icicle Spear"
+        ],
+        "level1_g3_7": []
+    }
+}

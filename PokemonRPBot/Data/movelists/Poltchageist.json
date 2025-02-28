@@ -1,0 +1,62 @@
+{
+    "number": 1012,
+    "name": "Poltchageist",
+    "moves": {
+        "bronze": [
+            "Absorb",
+            "Astonish",
+            "Stun Spore",
+            "Withdraw"
+        ],
+        "silver": [
+            "Foul Play",
+            "Hex",
+            "Life Dew",
+            "Mega Drain"
+        ],
+        "gold": [
+            "Giga Drain",
+            "Leaf Storm",
+            "Memento",
+            "Rage Powder",
+            "Shadow Ball"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Calm Mind",
+            "Curse",
+            "Endure",
+            "Energy Ball",
+            "Foul Play",
+            "Giga Drain",
+            "Grassy Terrain",
+            "Hex",
+            "Imprison",
+            "Iron Defense",
+            "Leaf Storm",
+            "Magical Leaf",
+            "Nasty Plot",
+            "Night Shade",
+            "Pain Split",
+            "Phantom Force",
+            "Poltergeist",
+            "Protect",
+            "Psych Up",
+            "Reflect",
+            "Rest",
+            "Scald",
+            "Shadow Ball",
+            "Sleep Talk",
+            "Solar Beam",
+            "Spite",
+            "Substitute",
+            "Tera Blast",
+            "Trick Room",
+            "Uproar"
+        ],
+        "tutor": [],
+        "egg": [],
+        "level1_g3_7": []
+    }
+}

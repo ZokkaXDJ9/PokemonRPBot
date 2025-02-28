@@ -1,0 +1,79 @@
+{
+    "number": 975,
+    "name": "Cetitan",
+    "moves": {
+        "bronze": [
+            "Echoed Voice",
+            "Growl",
+            "Powder Snow",
+            "Tackle"
+        ],
+        "silver": [
+            "Avalanche",
+            "Bounce",
+            "Flail",
+            "Ice Shard",
+            "Rest",
+            "Take Down"
+        ],
+        "gold": [
+            "Amnesia",
+            "Blizzard",
+            "Body Slam",
+            "Double-Edge",
+            "Ice Spinner"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Amnesia",
+            "Avalanche",
+            "Blizzard",
+            "Body Press",
+            "Body Slam",
+            "Bulldoze",
+            "Charm",
+            "Chilling Water",
+            "Curse",
+            "Double-Edge",
+            "Earthquake",
+            "Endure",
+            "Facade",
+            "Giga Impact",
+            "Hard Press",
+            "Heavy Slam",
+            "Helping Hand",
+            "High Horsepower",
+            "Hyper Beam",
+            "Hyper Voice",
+            "Ice Beam",
+            "Ice Fang",
+            "Ice Punch",
+            "Ice Spinner",
+            "Icicle Spear",
+            "Icy Wind",
+            "Knock Off",
+            "Liquidation",
+            "Play Rough",
+            "Protect",
+            "Rain Dance",
+            "Rest",
+            "Sleep Talk",
+            "Snowscape",
+            "Stomping Tantrum",
+            "Substitute",
+            "Take Down",
+            "Tera Blast",
+            "Water Pulse"
+        ],
+        "tutor": [],
+        "egg": [
+            "Belly Drum",
+            "Entrainment",
+            "Icicle Crash",
+            "Superpower",
+            "Yawn"
+        ],
+        "level1_g3_7": []
+    }
+}

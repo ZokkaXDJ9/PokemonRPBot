@@ -1,0 +1,94 @@
+{
+    "number": 582,
+    "name": "Vanillite",
+    "moves": {
+        "bronze": [
+            "Astonish",
+            "Harden",
+            "Mist",
+            "Taunt",
+            "Uproar"
+        ],
+        "silver": [
+            "Acid Armor",
+            "Avalanche",
+            "Hail",
+            "Icicle Spear",
+            "Icy Wind",
+            "Mirror Shot"
+        ],
+        "gold": [
+            "Blizzard",
+            "Ice Beam",
+            "Mirror Coat",
+            "Sheer Cold"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Ally Switch",
+            "Attract",
+            "Avalanche",
+            "Blizzard",
+            "Confide",
+            "Double Team",
+            "Endure",
+            "Explosion",
+            "Facade",
+            "Flash Cannon",
+            "Frost Breath",
+            "Frustration",
+            "Hail",
+            "Hidden Power",
+            "Hyper Voice",
+            "Ice Beam",
+            "Icicle Spear",
+            "Icy Wind",
+            "Imprison",
+            "Iron Defense",
+            "Light Screen",
+            "Protect",
+            "Rain Dance",
+            "Rest",
+            "Return",
+            "Round",
+            "Self-Destruct",
+            "Sleep Talk",
+            "Snore",
+            "Substitute",
+            "Swagger",
+            "Taunt",
+            "Toxic",
+            "Uproar"
+        ],
+        "tutor": [
+            "Ally Switch",
+            "Icicle Spear",
+            "Icy Wind",
+            "Iron Defense",
+            "Magic Coat",
+            "Magnet Rise",
+            "Signal Beam",
+            "Sleep Talk",
+            "Snore",
+            "Uproar",
+            "Water Pulse"
+        ],
+        "egg": [
+            "Aurora Veil",
+            "Autotomize",
+            "Explosion",
+            "Ice Shard",
+            "Icicle Crash",
+            "Imprison",
+            "Iron Defense",
+            "Magnet Rise",
+            "Natural Gift",
+            "Powder Snow",
+            "Water Pulse"
+        ],
+        "level1_g3_7": [
+            "Icicle Spear"
+        ]
+    }
+}

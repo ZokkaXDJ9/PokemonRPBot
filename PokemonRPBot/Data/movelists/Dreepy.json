@@ -1,0 +1,47 @@
+{
+    "number": 885,
+    "name": "Dreepy",
+    "moves": {
+        "bronze": [
+            "Astonish",
+            "Bite",
+            "Infestation",
+            "Quick Attack"
+        ],
+        "silver": [],
+        "gold": [],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Attract",
+            "Baton Pass",
+            "Confuse Ray",
+            "Curse",
+            "Draco Meteor",
+            "Dragon Tail",
+            "Endure",
+            "Facade",
+            "Helping Hand",
+            "Protect",
+            "Rest",
+            "Round",
+            "Sleep Talk",
+            "Snore",
+            "Substitute",
+            "Swift",
+            "Tera Blast",
+            "Thunder Wave"
+        ],
+        "tutor": [],
+        "egg": [
+            "Confuse Ray",
+            "Curse",
+            "Disable",
+            "Double Team",
+            "Dragon Tail",
+            "Grudge",
+            "Sucker Punch"
+        ],
+        "level1_g3_7": []
+    }
+}

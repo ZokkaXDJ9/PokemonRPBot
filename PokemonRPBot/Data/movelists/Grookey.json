@@ -1,0 +1,85 @@
+{
+    "number": 810,
+    "name": "Grookey",
+    "moves": {
+        "bronze": [
+            "Branch Poke",
+            "Growl",
+            "Scratch",
+            "Taunt"
+        ],
+        "silver": [
+            "Knock Off",
+            "Razor Leaf",
+            "Screech",
+            "Slam",
+            "Uproar",
+            "Wood Hammer"
+        ],
+        "gold": [
+            "Endeavor"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Acrobatics",
+            "Assurance",
+            "Attract",
+            "Body Slam",
+            "Bullet Seed",
+            "Drain Punch",
+            "Endeavor",
+            "Endure",
+            "Energy Ball",
+            "Facade",
+            "False Swipe",
+            "Fling",
+            "Focus Energy",
+            "Giga Drain",
+            "Grass Knot",
+            "Grass Pledge",
+            "Grassy Glide",
+            "Grassy Terrain",
+            "Knock Off",
+            "Leaf Storm",
+            "Low Kick",
+            "Magical Leaf",
+            "Mega Kick",
+            "Mega Punch",
+            "Protect",
+            "Rest",
+            "Round",
+            "Screech",
+            "Seed Bomb",
+            "Sleep Talk",
+            "Snore",
+            "Solar Beam",
+            "Solar Blade",
+            "Substitute",
+            "Sunny Day",
+            "Swift",
+            "Swords Dance",
+            "Take Down",
+            "Taunt",
+            "Tera Blast",
+            "Thief",
+            "Trailblaze",
+            "U-turn",
+            "Uproar",
+            "Work Up"
+        ],
+        "tutor": [
+            "Grassy Glide"
+        ],
+        "egg": [
+            "Fake Out",
+            "Growth",
+            "Hammer Arm",
+            "Leech Seed",
+            "Nature Power",
+            "Strength",
+            "Worry Seed"
+        ],
+        "level1_g3_7": []
+    }
+}

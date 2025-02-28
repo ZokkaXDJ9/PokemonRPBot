@@ -1,0 +1,70 @@
+{
+    "number": 969,
+    "name": "Glimmet",
+    "moves": {
+        "bronze": [
+            "Acid Spray",
+            "Harden",
+            "Rock Throw",
+            "Smack Down"
+        ],
+        "silver": [
+            "Ancient Power",
+            "Rock Polish",
+            "Rock Slide",
+            "Sandstorm",
+            "Self-Destruct",
+            "Stealth Rock",
+            "Venoshock"
+        ],
+        "gold": [
+            "Acid Armor",
+            "Power Gem",
+            "Sludge Wave"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Acid Spray",
+            "Confuse Ray",
+            "Dazzling Gleam",
+            "Endure",
+            "Facade",
+            "Gunk Shot",
+            "Iron Defense",
+            "Light Screen",
+            "Meteor Beam",
+            "Mud Shot",
+            "Power Gem",
+            "Protect",
+            "Rain Dance",
+            "Reflect",
+            "Rest",
+            "Rock Blast",
+            "Rock Slide",
+            "Rock Tomb",
+            "Sand Tomb",
+            "Sandstorm",
+            "Sleep Talk",
+            "Sludge Bomb",
+            "Sludge Wave",
+            "Smack Down",
+            "Spikes",
+            "Stealth Rock",
+            "Stone Edge",
+            "Substitute",
+            "Sunny Day",
+            "Tera Blast",
+            "Toxic",
+            "Toxic Spikes",
+            "Venoshock"
+        ],
+        "tutor": [],
+        "egg": [
+            "Explosion",
+            "Memento",
+            "Toxic"
+        ],
+        "level1_g3_7": []
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "number": 1000,
+    "name": "Gholdengo",
+    "moves": {
+        "bronze": [
+            "Astonish",
+            "Night Shade",
+            "Tackle"
+        ],
+        "silver": [
+            "Confuse Ray",
+            "Metal Sound",
+            "Substitute"
+        ],
+        "gold": [
+            "Make It Rain",
+            "Memento",
+            "Nasty Plot",
+            "Power Gem",
+            "Recover",
+            "Shadow Ball"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Charge Beam",
+            "Confuse Ray",
+            "Dazzling Gleam",
+            "Electro Ball",
+            "Endure",
+            "Flash Cannon",
+            "Fling",
+            "Focus Blast",
+            "Focus Punch",
+            "Giga Impact",
+            "Heavy Slam",
+            "Hex",
+            "Hyper Beam",
+            "Iron Head",
+            "Light Screen",
+            "Low Kick",
+            "Low Sweep",
+            "Metal Sound",
+            "Nasty Plot",
+            "Night Shade",
+            "Poltergeist",
+            "Power Gem",
+            "Protect",
+            "Psychic",
+            "Psyshock",
+            "Reflect",
+            "Rest",
+            "Sandstorm",
+            "Shadow Ball",
+            "Sleep Talk",
+            "Steel Beam",
+            "Substitute",
+            "Take Down",
+            "Tera Blast",
+            "Thief",
+            "Thunder",
+            "Thunder Punch",
+            "Thunder Wave",
+            "Thunderbolt",
+            "Trick"
+        ],
+        "tutor": [],
+        "egg": [],
+        "level1_g3_7": []
+    }
+}

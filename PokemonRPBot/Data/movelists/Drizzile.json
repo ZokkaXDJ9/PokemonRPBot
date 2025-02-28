@@ -1,0 +1,72 @@
+{
+    "number": 817,
+    "name": "Drizzile",
+    "moves": {
+        "bronze": [
+            "Bind",
+            "Growl",
+            "Pound",
+            "Water Gun"
+        ],
+        "silver": [
+            "Sucker Punch",
+            "Tearful Look",
+            "U-turn",
+            "Water Pulse"
+        ],
+        "gold": [
+            "Liquidation",
+            "Rain Dance",
+            "Soak"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Attract",
+            "Baton Pass",
+            "Bounce",
+            "Chilling Water",
+            "Dive",
+            "Endure",
+            "Facade",
+            "Fling",
+            "Haze",
+            "Hydro Pump",
+            "Light Screen",
+            "Liquidation",
+            "Mud Shot",
+            "Muddy Water",
+            "Protect",
+            "Rain Dance",
+            "Reflect",
+            "Rest",
+            "Round",
+            "Safeguard",
+            "Sleep Talk",
+            "Snore",
+            "Substitute",
+            "Surf",
+            "Swift",
+            "Take Down",
+            "Tera Blast",
+            "U-turn",
+            "Water Pledge",
+            "Water Pulse",
+            "Waterfall",
+            "Weather Ball",
+            "Whirlpool",
+            "Work Up"
+        ],
+        "tutor": [],
+        "egg": [
+            "Aqua Jet",
+            "Aqua Ring",
+            "Double Team",
+            "Fell Stinger",
+            "Haze",
+            "Ice Shard",
+            "Mist"
+        ],
+        "level1_g3_7": []
+    }
+}

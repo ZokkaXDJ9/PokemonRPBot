@@ -1,0 +1,68 @@
+{
+    "number": 830,
+    "name": "Eldegoss",
+    "moves": {
+        "bronze": [
+            "Cotton Spore",
+            "Leafage",
+            "Rapid Spin",
+            "Sing",
+            "Sweet Scent"
+        ],
+        "silver": [
+            "Leaf Tornado",
+            "Razor Leaf",
+            "Round",
+            "Synthesis"
+        ],
+        "gold": [
+            "Aromatherapy",
+            "Cotton Guard",
+            "Hyper Voice",
+            "Leaf Storm"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Attract",
+            "Bullet Seed",
+            "Charm",
+            "Endure",
+            "Energy Ball",
+            "Facade",
+            "Giga Drain",
+            "Giga Impact",
+            "Grass Knot",
+            "Grassy Terrain",
+            "Helping Hand",
+            "Hyper Beam",
+            "Hyper Voice",
+            "Leaf Storm",
+            "Light Screen",
+            "Magical Leaf",
+            "Pollen Puff",
+            "Protect",
+            "Rest",
+            "Round",
+            "Seed Bomb",
+            "Sleep Talk",
+            "Snore",
+            "Solar Beam",
+            "Substitute",
+            "Sunny Day",
+            "Weather Ball"
+        ],
+        "tutor": [
+            "Grassy Glide"
+        ],
+        "egg": [
+            "Growth",
+            "Leech Seed",
+            "Poison Powder",
+            "Sleep Powder",
+            "Stun Spore",
+            "Worry Seed"
+        ],
+        "level1_g3_7": []
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "number": 924,
+    "name": "Tandemaus",
+    "moves": {
+        "bronze": [
+            "Baby-Doll Eyes",
+            "Echoed Voice",
+            "Helping Hand",
+            "Pound"
+        ],
+        "silver": [
+            "Bullet Seed",
+            "Charm",
+            "Double Hit",
+            "Encore",
+            "Hyper Voice",
+            "Play Rough",
+            "Super Fang"
+        ],
+        "gold": [
+            "Beat Up",
+            "Copycat",
+            "Population Bomb"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Aerial Ace",
+            "Agility",
+            "Baton Pass",
+            "Bullet Seed",
+            "Charm",
+            "Crunch",
+            "Dig",
+            "Double-Edge",
+            "Encore",
+            "Endure",
+            "Facade",
+            "Fake Tears",
+            "Grass Knot",
+            "Helping Hand",
+            "Hyper Voice",
+            "Low Kick",
+            "Low Sweep",
+            "Mud Shot",
+            "Mud-Slap",
+            "Play Rough",
+            "Protect",
+            "Rain Dance",
+            "Rest",
+            "Seed Bomb",
+            "Shadow Claw",
+            "Sleep Talk",
+            "Substitute",
+            "Sunny Day",
+            "Super Fang",
+            "Swift",
+            "Take Down",
+            "Taunt",
+            "Tera Blast",
+            "Thief",
+            "Thunder Wave",
+            "U-turn",
+            "Water Pulse"
+        ],
+        "tutor": [],
+        "egg": [
+            "After You",
+            "Baton Pass",
+            "Bite",
+            "Feint",
+            "Switcheroo",
+            "Tickle"
+        ],
+        "level1_g3_7": []
+    }
+}

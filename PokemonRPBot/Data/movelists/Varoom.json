@@ -1,0 +1,75 @@
+{
+    "number": 965,
+    "name": "Varoom",
+    "moves": {
+        "bronze": [
+            "Assurance",
+            "Lick",
+            "Poison Gas",
+            "Smog",
+            "Taunt"
+        ],
+        "silver": [
+            "Gyro Ball",
+            "Headbutt",
+            "Iron Head",
+            "Screech",
+            "Sludge",
+            "Swagger"
+        ],
+        "gold": [
+            "Gunk Shot",
+            "Poison Jab",
+            "Spin Out",
+            "Uproar"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Acid Spray",
+            "Body Slam",
+            "Bulldoze",
+            "Curse",
+            "Double-Edge",
+            "Endure",
+            "Facade",
+            "Flash Cannon",
+            "Gunk Shot",
+            "Gyro Ball",
+            "Haze",
+            "Iron Defense",
+            "Iron Head",
+            "Metal Sound",
+            "Poison Jab",
+            "Protect",
+            "Rain Dance",
+            "Rest",
+            "Sandstorm",
+            "Scary Face",
+            "Sleep Talk",
+            "Sludge Bomb",
+            "Sludge Wave",
+            "Steel Beam",
+            "Substitute",
+            "Sunny Day",
+            "Take Down",
+            "Taunt",
+            "Tera Blast",
+            "Thief",
+            "Toxic",
+            "Toxic Spikes",
+            "Uproar",
+            "Venoshock",
+            "Zen Headbutt"
+        ],
+        "tutor": [],
+        "egg": [
+            "Haze",
+            "Parting Shot",
+            "Self-Destruct",
+            "Torment",
+            "Toxic"
+        ],
+        "level1_g3_7": []
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "number": 853,
+    "name": "Grapploct",
+    "moves": {
+        "bronze": [
+            "Bind",
+            "Feint",
+            "Leer",
+            "Octazooka",
+            "Octolock",
+            "Rock Smash"
+        ],
+        "silver": [
+            "Brick Break",
+            "Bulk Up",
+            "Detect",
+            "Submission"
+        ],
+        "gold": [
+            "Reversal",
+            "Superpower",
+            "Taunt",
+            "Topsy-Turvy"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Attract",
+            "Body Slam",
+            "Brick Break",
+            "Brine",
+            "Brutal Swing",
+            "Bulk Up",
+            "Close Combat",
+            "Dig",
+            "Dive",
+            "Drain Punch",
+            "Endure",
+            "Facade",
+            "Focus Blast",
+            "Giga Impact",
+            "Hydro Pump",
+            "Hyper Beam",
+            "Ice Punch",
+            "Liquidation",
+            "Mega Punch",
+            "Mud Shot",
+            "Muddy Water",
+            "Payback",
+            "Protect",
+            "Rest",
+            "Retaliate",
+            "Revenge",
+            "Reversal",
+            "Round",
+            "Scary Face",
+            "Sleep Talk",
+            "Snore",
+            "Stomping Tantrum",
+            "Substitute",
+            "Superpower",
+            "Surf",
+            "Taunt",
+            "Waterfall",
+            "Whirlpool",
+            "Work Up"
+        ],
+        "tutor": [
+            "Coaching",
+            "Skitter Smack"
+        ],
+        "egg": [
+            "Circle Throw",
+            "Pain Split",
+            "Power-Up Punch",
+            "Seismic Toss",
+            "Soak",
+            "Sucker Punch"
+        ],
+        "level1_g3_7": []
+    }
+}

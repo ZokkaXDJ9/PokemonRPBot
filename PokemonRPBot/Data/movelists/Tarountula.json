@@ -1,0 +1,69 @@
+{
+    "number": 917,
+    "name": "Tarountula",
+    "moves": {
+        "bronze": [
+            "Assurance",
+            "String Shot",
+            "Struggle Bug",
+            "Tackle"
+        ],
+        "silver": [
+            "Block",
+            "Bug Bite",
+            "Counter",
+            "Feint",
+            "Gastro Acid",
+            "Headbutt",
+            "Sticky Web"
+        ],
+        "gold": [
+            "Circle Throw",
+            "Skitter Smack",
+            "Throat Chop"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Body Slam",
+            "Bug Bite",
+            "Bug Buzz",
+            "Bullet Seed",
+            "Endure",
+            "Facade",
+            "False Swipe",
+            "Giga Drain",
+            "Grass Knot",
+            "Knock Off",
+            "Leech Life",
+            "Lunge",
+            "Poison Jab",
+            "Pounce",
+            "Protect",
+            "Rain Dance",
+            "Rest",
+            "Shadow Claw",
+            "Skitter Smack",
+            "Sleep Talk",
+            "Spikes",
+            "Struggle Bug",
+            "Substitute",
+            "Sunny Day",
+            "Take Down",
+            "Tera Blast",
+            "Thief",
+            "Throat Chop",
+            "Toxic Spikes",
+            "Trailblaze",
+            "X-Scissor"
+        ],
+        "tutor": [],
+        "egg": [
+            "First Impression",
+            "Lunge",
+            "Memento",
+            "Sucker Punch"
+        ],
+        "level1_g3_7": []
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "number": 265,
+    "name": "Wurmple",
+    "moves": {
+        "bronze": [
+            "Poison Sting",
+            "String Shot",
+            "Tackle"
+        ],
+        "silver": [
+            "Bug Bite"
+        ],
+        "gold": [],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Bug Bite",
+            "Poison Sting",
+            "String Shot",
+            "Tackle"
+        ],
+        "tutor": [
+            "Bug Bite",
+            "Electroweb",
+            "Snore",
+            "String Shot",
+            "Tackle"
+        ],
+        "egg": [],
+        "level1_g3_7": [
+            "String Shot",
+            "Tackle"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "number": 201,
+    "name": "Unown",
+    "moves": {
+        "bronze": [
+            "Hidden Power"
+        ],
+        "silver": [],
+        "gold": [],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Hidden Power"
+        ],
+        "tutor": [
+            "Hidden Power"
+        ],
+        "egg": [],
+        "level1_g3_7": [
+            "Hidden Power"
+        ]
+    }
+}

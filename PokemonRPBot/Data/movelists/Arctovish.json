@@ -1,0 +1,69 @@
+{
+    "number": 883,
+    "name": "Arctovish",
+    "moves": {
+        "bronze": [
+            "Powder Snow",
+            "Protect",
+            "Water Gun"
+        ],
+        "silver": [
+            "Ancient Power",
+            "Bite",
+            "Icy Wind"
+        ],
+        "gold": [
+            "Aurora Veil",
+            "Blizzard",
+            "Crunch",
+            "Fishious Rend",
+            "Freeze-Dry",
+            "Icicle Crash",
+            "Super Fang"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Avalanche",
+            "Blizzard",
+            "Body Slam",
+            "Brine",
+            "Crunch",
+            "Dive",
+            "Endure",
+            "Facade",
+            "Giga Impact",
+            "Hail",
+            "Hydro Pump",
+            "Hyper Beam",
+            "Ice Beam",
+            "Ice Fang",
+            "Icicle Spear",
+            "Icy Wind",
+            "Iron Defense",
+            "Iron Head",
+            "Liquidation",
+            "Protect",
+            "Psychic Fangs",
+            "Rain Dance",
+            "Rest",
+            "Rock Blast",
+            "Rock Slide",
+            "Rock Tomb",
+            "Round",
+            "Sleep Talk",
+            "Snore",
+            "Stone Edge",
+            "Substitute",
+            "Surf",
+            "Waterfall",
+            "Whirlpool",
+            "Zen Headbutt"
+        ],
+        "tutor": [
+            "Meteor Beam"
+        ],
+        "egg": [],
+        "level1_g3_7": []
+    }
+}

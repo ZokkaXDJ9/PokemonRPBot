@@ -1,0 +1,23 @@
+{
+    "number": 235,
+    "name": "Smeargle",
+    "moves": {
+        "bronze": [
+            "Sketch"
+        ],
+        "silver": [],
+        "gold": [],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Sketch"
+        ],
+        "tutor": [
+            "Sketch"
+        ],
+        "egg": [],
+        "level1_g3_7": [
+            "Sketch"
+        ]
+    }
+}

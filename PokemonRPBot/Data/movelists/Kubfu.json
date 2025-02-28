@@ -1,0 +1,77 @@
+{
+    "number": 891,
+    "name": "Kubfu",
+    "moves": {
+        "bronze": [
+            "Endure",
+            "Focus Energy",
+            "Leer",
+            "Rock Smash"
+        ],
+        "silver": [
+            "Aerial Ace",
+            "Brick Break",
+            "Bulk Up",
+            "Detect",
+            "Headbutt",
+            "Scary Face"
+        ],
+        "gold": [
+            "Close Combat",
+            "Counter",
+            "Dynamic Punch",
+            "Focus Punch",
+            "Iron Head"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Acrobatics",
+            "Aerial Ace",
+            "Attract",
+            "Body Slam",
+            "Brick Break",
+            "Bulk Up",
+            "Close Combat",
+            "Dig",
+            "Double-Edge",
+            "Endure",
+            "Facade",
+            "Fire Punch",
+            "Fling",
+            "Focus Energy",
+            "Focus Punch",
+            "Helping Hand",
+            "Ice Punch",
+            "Iron Head",
+            "Low Kick",
+            "Low Sweep",
+            "Mega Kick",
+            "Mega Punch",
+            "Metal Claw",
+            "Protect",
+            "Rest",
+            "Retaliate",
+            "Revenge",
+            "Reversal",
+            "Round",
+            "Scary Face",
+            "Sleep Talk",
+            "Snore",
+            "Substitute",
+            "Superpower",
+            "Swords Dance",
+            "Take Down",
+            "Tera Blast",
+            "Thunder Punch",
+            "U-turn",
+            "Work Up",
+            "Zen Headbutt"
+        ],
+        "tutor": [
+            "Coaching"
+        ],
+        "egg": [],
+        "level1_g3_7": []
+    }
+}

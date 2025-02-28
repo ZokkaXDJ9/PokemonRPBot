@@ -1,0 +1,74 @@
+{
+    "number": 836,
+    "name": "Boltund",
+    "moves": {
+        "bronze": [
+            "Bite",
+            "Electrify",
+            "Nuzzle",
+            "Tackle",
+            "Tail Whip"
+        ],
+        "silver": [
+            "Charm",
+            "Roar",
+            "Spark"
+        ],
+        "gold": [
+            "Charge",
+            "Crunch",
+            "Electric Terrain",
+            "Play Rough",
+            "Wild Charge"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Agility",
+            "Attract",
+            "Bulk Up",
+            "Charm",
+            "Crunch",
+            "Dig",
+            "Eerie Impulse",
+            "Electric Terrain",
+            "Electro Ball",
+            "Endure",
+            "Facade",
+            "Fire Fang",
+            "Focus Energy",
+            "Giga Impact",
+            "Helping Hand",
+            "Hyper Beam",
+            "Hyper Voice",
+            "Play Rough",
+            "Protect",
+            "Psychic Fangs",
+            "Rest",
+            "Round",
+            "Sleep Talk",
+            "Snarl",
+            "Snore",
+            "Substitute",
+            "Swift",
+            "Thunder",
+            "Thunder Fang",
+            "Thunder Wave",
+            "Thunderbolt",
+            "Uproar",
+            "Volt Switch",
+            "Wild Charge"
+        ],
+        "tutor": [
+            "Rising Voltage"
+        ],
+        "egg": [
+            "Discharge",
+            "Double-Edge",
+            "Flame Charge",
+            "Howl",
+            "Sand Attack"
+        ],
+        "level1_g3_7": []
+    }
+}

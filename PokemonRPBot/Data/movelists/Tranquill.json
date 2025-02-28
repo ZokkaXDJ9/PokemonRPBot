@@ -1,0 +1,97 @@
+{
+    "number": 520,
+    "name": "Tranquill",
+    "moves": {
+        "bronze": [
+            "Growl",
+            "Gust",
+            "Leer",
+            "Quick Attack"
+        ],
+        "silver": [
+            "Air Cutter",
+            "Air Slash",
+            "Detect",
+            "Feather Dance",
+            "Roost",
+            "Swagger",
+            "Taunt"
+        ],
+        "gold": [
+            "Facade",
+            "FeatherDance",
+            "Razor Wind",
+            "Sky Attack",
+            "Tailwind"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Aerial Ace",
+            "Agility",
+            "Air Slash",
+            "Attract",
+            "Confide",
+            "Double Team",
+            "Echoed Voice",
+            "Endure",
+            "Facade",
+            "Fly",
+            "Focus Energy",
+            "Frustration",
+            "Heat Wave",
+            "Hidden Power",
+            "Pluck",
+            "Protect",
+            "Rain Dance",
+            "Rest",
+            "Return",
+            "Roost",
+            "Round",
+            "Sleep Talk",
+            "Snore",
+            "Steel Wing",
+            "Substitute",
+            "Sunny Day",
+            "Swagger",
+            "Swift",
+            "Taunt",
+            "Toxic",
+            "U-turn",
+            "Uproar",
+            "Work Up"
+        ],
+        "tutor": [
+            "Defog",
+            "Dual Wingbeat",
+            "Growl",
+            "Gust",
+            "Heat Wave",
+            "Leer",
+            "Quick Attack",
+            "Roost",
+            "Sky Attack",
+            "Sleep Talk",
+            "Snore",
+            "Tailwind",
+            "Uproar"
+        ],
+        "egg": [
+            "Bestow",
+            "Defog",
+            "Hypnosis",
+            "Lucky Chant",
+            "Morning Sun",
+            "Night Slash",
+            "Steel Wing",
+            "Uproar",
+            "Wish"
+        ],
+        "level1_g3_7": [
+            "Growl",
+            "Gust",
+            "Leer",
+            "Quick Attack"
+        ]
+    }
+}

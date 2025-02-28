@@ -1,0 +1,91 @@
+{
+    "number": 524,
+    "name": "Roggenrola",
+    "moves": {
+        "bronze": [
+            "Harden",
+            "Headbutt",
+            "Sand Attack",
+            "Sand-Attack",
+            "Stealth Rock",
+            "Tackle"
+        ],
+        "silver": [
+            "Iron Defense",
+            "Mud-Slap",
+            "Rock Blast",
+            "Rock Slide",
+            "Sandstorm",
+            "Smack Down"
+        ],
+        "gold": [
+            "Explosion",
+            "Stone Edge"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Attract",
+            "Body Press",
+            "Bulldoze",
+            "Confide",
+            "Double Team",
+            "Earth Power",
+            "Earthquake",
+            "Endure",
+            "Explosion",
+            "Facade",
+            "Flash Cannon",
+            "Frustration",
+            "Heavy Slam",
+            "Hidden Power",
+            "Iron Defense",
+            "Nature Power",
+            "Protect",
+            "Rest",
+            "Return",
+            "Rock Blast",
+            "Rock Polish",
+            "Rock Slide",
+            "Rock Smash",
+            "Rock Tomb",
+            "Round",
+            "Sand Tomb",
+            "Sandstorm",
+            "Sleep Talk",
+            "Smack Down",
+            "Snore",
+            "Stealth Rock",
+            "Stone Edge",
+            "Strength",
+            "Substitute",
+            "Swagger",
+            "Toxic"
+        ],
+        "tutor": [
+            "Block",
+            "Earth Power",
+            "Gravity",
+            "Iron Defense",
+            "Meteor Beam",
+            "Sleep Talk",
+            "Snore",
+            "Stealth Rock",
+            "Tackle"
+        ],
+        "egg": [
+            "Autotomize",
+            "Curse",
+            "Gravity",
+            "Heavy Slam",
+            "Lock-On",
+            "Magnitude",
+            "Rock Tomb",
+            "Take Down",
+            "Wide Guard"
+        ],
+        "level1_g3_7": [
+            "Tackle"
+        ]
+    }
+}

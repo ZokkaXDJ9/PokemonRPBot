@@ -1,0 +1,62 @@
+{
+    "number": 827,
+    "name": "Nickit",
+    "moves": {
+        "bronze": [
+            "Beat Up",
+            "Hone Claws",
+            "Quick Attack",
+            "Tail Whip"
+        ],
+        "silver": [
+            "Assurance",
+            "Nasty Plot",
+            "Night Slash",
+            "Snarl",
+            "Sucker Punch",
+            "Tail Slap"
+        ],
+        "gold": [
+            "Foul Play"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Agility",
+            "Assurance",
+            "Attract",
+            "Baton Pass",
+            "Beat Up",
+            "Dig",
+            "Endure",
+            "Facade",
+            "Fake Tears",
+            "Foul Play",
+            "Mud Shot",
+            "Nasty Plot",
+            "Play Rough",
+            "Protect",
+            "Rest",
+            "Round",
+            "Screech",
+            "Sleep Talk",
+            "Snarl",
+            "Snore",
+            "Substitute",
+            "Swift",
+            "Tail Slap",
+            "Taunt",
+            "Thief"
+        ],
+        "tutor": [
+            "Lash Out"
+        ],
+        "egg": [
+            "Howl",
+            "Knock Off",
+            "Quick Guard",
+            "Torment"
+        ],
+        "level1_g3_7": []
+    }
+}

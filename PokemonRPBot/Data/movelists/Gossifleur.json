@@ -1,0 +1,62 @@
+{
+    "number": 829,
+    "name": "Gossifleur",
+    "moves": {
+        "bronze": [
+            "Leafage",
+            "Rapid Spin",
+            "Sing",
+            "Sweet Scent"
+        ],
+        "silver": [
+            "Aromatherapy",
+            "Hyper Voice",
+            "Leaf Tornado",
+            "Razor Leaf",
+            "Round",
+            "Synthesis"
+        ],
+        "gold": [
+            "Leaf Storm"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Attract",
+            "Bullet Seed",
+            "Charm",
+            "Endure",
+            "Energy Ball",
+            "Facade",
+            "Giga Drain",
+            "Grass Knot",
+            "Grassy Terrain",
+            "Helping Hand",
+            "Hyper Voice",
+            "Leaf Storm",
+            "Light Screen",
+            "Magical Leaf",
+            "Pollen Puff",
+            "Protect",
+            "Rest",
+            "Round",
+            "Sleep Talk",
+            "Snore",
+            "Solar Beam",
+            "Substitute",
+            "Sunny Day"
+        ],
+        "tutor": [
+            "Grassy Glide"
+        ],
+        "egg": [
+            "Growth",
+            "Leech Seed",
+            "Poison Powder",
+            "Sleep Powder",
+            "Stun Spore",
+            "Worry Seed"
+        ],
+        "level1_g3_7": []
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "number": 14,
+    "name": "Kakuna",
+    "moves": {
+        "bronze": [
+            "Harden"
+        ],
+        "silver": [],
+        "gold": [],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Harden"
+        ],
+        "tutor": [
+            "Bug Bite",
+            "Electroweb",
+            "Harden",
+            "Iron Defense"
+        ],
+        "egg": [],
+        "level1_g3_7": [
+            "Harden"
+        ]
+    }
+}

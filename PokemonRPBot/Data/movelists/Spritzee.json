@@ -1,0 +1,102 @@
+{
+    "number": 682,
+    "name": "Spritzee",
+    "moves": {
+        "bronze": [
+            "Draining Kiss",
+            "Echoed Voice",
+            "Fairy Wind",
+            "Odor Sleuth",
+            "Sweet Kiss",
+            "Sweet Scent"
+        ],
+        "silver": [
+            "Aromatherapy",
+            "Attract",
+            "Calm Mind",
+            "Charm",
+            "Flail",
+            "Misty Terrain",
+            "Moonblast",
+            "Psychic"
+        ],
+        "gold": [
+            "Disarming Voice",
+            "Skill Swap"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Ally Switch",
+            "Attract",
+            "Calm Mind",
+            "Charge Beam",
+            "Charm",
+            "Confide",
+            "Dazzling Gleam",
+            "Double Team",
+            "Draining Kiss",
+            "Dream Eater",
+            "Echoed Voice",
+            "Encore",
+            "Endure",
+            "Energy Ball",
+            "Facade",
+            "Fake Tears",
+            "Flash",
+            "Flash Cannon",
+            "Frustration",
+            "Gyro Ball",
+            "Helping Hand",
+            "Hidden Power",
+            "Light Screen",
+            "Misty Terrain",
+            "Nasty Plot",
+            "Protect",
+            "Psych Up",
+            "Psychic",
+            "Rain Dance",
+            "Reflect",
+            "Rest",
+            "Return",
+            "Round",
+            "Skill Swap",
+            "Sleep Talk",
+            "Snore",
+            "Substitute",
+            "Sunny Day",
+            "Swagger",
+            "Thunderbolt",
+            "Torment",
+            "Toxic",
+            "Trick Room"
+        ],
+        "tutor": [
+            "After You",
+            "Ally Switch",
+            "Covet",
+            "Endeavor",
+            "Fairy Wind",
+            "Heal Bell",
+            "Helping Hand",
+            "Magic Coat",
+            "Misty Explosion",
+            "Skill Swap",
+            "Snore",
+            "Sweet Scent",
+            "Telekinesis"
+        ],
+        "egg": [
+            "After You",
+            "Captivate",
+            "Disable",
+            "Nasty Plot",
+            "Refresh",
+            "Wish"
+        ],
+        "level1_g3_7": [
+            "Fairy Wind",
+            "Sweet Scent"
+        ]
+    }
+}

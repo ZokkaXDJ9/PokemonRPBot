@@ -1,0 +1,69 @@
+{
+    "number": 963,
+    "name": "Finizen",
+    "moves": {
+        "bronze": [
+            "Astonish",
+            "Focus Energy",
+            "Supersonic",
+            "Water Gun"
+        ],
+        "silver": [
+            "Acrobatics",
+            "Aqua Jet",
+            "Charm",
+            "Dive",
+            "Double Hit"
+        ],
+        "gold": [
+            "Aqua Tail",
+            "Encore",
+            "Hydro Pump",
+            "Mist"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Acrobatics",
+            "Agility",
+            "Blizzard",
+            "Body Slam",
+            "Charm",
+            "Chilling Water",
+            "Disarming Voice",
+            "Draining Kiss",
+            "Encore",
+            "Endure",
+            "Facade",
+            "Fling",
+            "Haze",
+            "Helping Hand",
+            "Hydro Pump",
+            "Ice Beam",
+            "Icy Wind",
+            "Liquidation",
+            "Protect",
+            "Psych Up",
+            "Rain Dance",
+            "Rest",
+            "Sleep Talk",
+            "Substitute",
+            "Surf",
+            "Swift",
+            "Take Down",
+            "Tera Blast",
+            "Water Pulse",
+            "Waterfall",
+            "Zen Headbutt"
+        ],
+        "tutor": [],
+        "egg": [
+            "Boomburst",
+            "Bounce",
+            "Counter",
+            "Haze",
+            "Tickle"
+        ],
+        "level1_g3_7": []
+    }
+}

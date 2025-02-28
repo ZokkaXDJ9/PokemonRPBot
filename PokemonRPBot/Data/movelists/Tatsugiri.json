@@ -1,0 +1,59 @@
+{
+    "number": 978,
+    "name": "Tatsugiri",
+    "moves": {
+        "bronze": [
+            "Harden",
+            "Splash",
+            "Water Gun"
+        ],
+        "silver": [
+            "Helping Hand",
+            "Soak",
+            "Taunt",
+            "Water Pulse"
+        ],
+        "gold": [
+            "Dragon Pulse",
+            "Memento",
+            "Mirror Coat",
+            "Muddy Water",
+            "Nasty Plot"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Baton Pass",
+            "Chilling Water",
+            "Draco Meteor",
+            "Dragon Cheer",
+            "Dragon Dance",
+            "Dragon Pulse",
+            "Endure",
+            "Facade",
+            "Giga Impact",
+            "Helping Hand",
+            "Hydro Pump",
+            "Hyper Beam",
+            "Icy Wind",
+            "Lunge",
+            "Muddy Water",
+            "Nasty Plot",
+            "Outrage",
+            "Protect",
+            "Rain Dance",
+            "Rest",
+            "Sleep Talk",
+            "Substitute",
+            "Surf",
+            "Take Down",
+            "Taunt",
+            "Tera Blast",
+            "Water Pulse",
+            "Whirlpool"
+        ],
+        "tutor": [],
+        "egg": [],
+        "level1_g3_7": []
+    }
+}

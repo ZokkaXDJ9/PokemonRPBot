@@ -1,0 +1,63 @@
+{
+    "number": 996,
+    "name": "Frigibax",
+    "moves": {
+        "bronze": [
+            "Dragon Tail",
+            "Icy Wind",
+            "Leer",
+            "Tackle"
+        ],
+        "silver": [
+            "Bite",
+            "Dragon Breath",
+            "Dragon Claw",
+            "Focus Energy",
+            "Ice Fang"
+        ],
+        "gold": [
+            "Crunch",
+            "Ice Beam",
+            "Icicle Crash",
+            "Take Down"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Avalanche",
+            "Blizzard",
+            "Body Slam",
+            "Crunch",
+            "Dig",
+            "Draco Meteor",
+            "Dragon Claw",
+            "Dragon Pulse",
+            "Dragon Tail",
+            "Endure",
+            "Facade",
+            "Helping Hand",
+            "Ice Beam",
+            "Ice Fang",
+            "Icicle Spear",
+            "Icy Wind",
+            "Outrage",
+            "Protect",
+            "Rain Dance",
+            "Rest",
+            "Sleep Talk",
+            "Snowscape",
+            "Substitute",
+            "Swords Dance",
+            "Take Down",
+            "Tera Blast"
+        ],
+        "tutor": [],
+        "egg": [
+            "Aqua Tail",
+            "Dragon Rush",
+            "Freeze-Dry",
+            "Icicle Spear"
+        ],
+        "level1_g3_7": []
+    }
+}

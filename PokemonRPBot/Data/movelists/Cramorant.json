@@ -1,0 +1,88 @@
+{
+    "number": 845,
+    "name": "Cramorant",
+    "moves": {
+        "bronze": [
+            "Belch",
+            "Peck",
+            "Spit Up",
+            "Stockpile",
+            "Swallow",
+            "Water Gun"
+        ],
+        "silver": [
+            "Dive",
+            "Fury Attack",
+            "Pluck"
+        ],
+        "gold": [
+            "Amnesia",
+            "Drill Peck",
+            "Hydro Pump",
+            "Thrash"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Acrobatics",
+            "Aerial Ace",
+            "Agility",
+            "Air Cutter",
+            "Air Slash",
+            "Amnesia",
+            "Assurance",
+            "Attract",
+            "Blizzard",
+            "Brave Bird",
+            "Chilling Water",
+            "Dive",
+            "Dual Wingbeat",
+            "Endeavor",
+            "Endure",
+            "Facade",
+            "Feather Dance",
+            "Fly",
+            "Giga Impact",
+            "Hurricane",
+            "Hydro Pump",
+            "Hyper Beam",
+            "Ice Beam",
+            "Icy Wind",
+            "Liquidation",
+            "Pounce",
+            "Protect",
+            "Rain Dance",
+            "Rest",
+            "Reversal",
+            "Round",
+            "Scald",
+            "Sleep Talk",
+            "Snore",
+            "Steel Wing",
+            "Substitute",
+            "Superpower",
+            "Surf",
+            "Tailwind",
+            "Take Down",
+            "Tera Blast",
+            "Thief",
+            "Throat Chop",
+            "Uproar",
+            "Water Pulse",
+            "Weather Ball",
+            "Whirlpool"
+        ],
+        "tutor": [
+            "Dual Wingbeat"
+        ],
+        "egg": [
+            "Aerial Ace",
+            "Aqua Cutter",
+            "Aqua Ring",
+            "Defog",
+            "Feather Dance",
+            "Roost"
+        ],
+        "level1_g3_7": []
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "number": 971,
+    "name": "Greavard",
+    "moves": {
+        "bronze": [
+            "Bite",
+            "Growl",
+            "Lick",
+            "Roar",
+            "Tackle",
+            "Tail Whip"
+        ],
+        "silver": [
+            "Crunch",
+            "Dig",
+            "Headbutt",
+            "Play Rough",
+            "Rest"
+        ],
+        "gold": [
+            "Charm",
+            "Double-Edge",
+            "Helping Hand",
+            "Phantom Force"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Bulldoze",
+            "Charm",
+            "Confuse Ray",
+            "Crunch",
+            "Dig",
+            "Double-Edge",
+            "Endeavor",
+            "Endure",
+            "Facade",
+            "Fire Fang",
+            "Helping Hand",
+            "Hex",
+            "Ice Fang",
+            "Mud Shot",
+            "Mud-Slap",
+            "Night Shade",
+            "Pain Split",
+            "Phantom Force",
+            "Play Rough",
+            "Poltergeist",
+            "Protect",
+            "Psychic Fangs",
+            "Rain Dance",
+            "Rest",
+            "Roar",
+            "Sandstorm",
+            "Scary Face",
+            "Shadow Ball",
+            "Sleep Talk",
+            "Snarl",
+            "Stomping Tantrum",
+            "Substitute",
+            "Sunny Day",
+            "Take Down",
+            "Tera Blast",
+            "Thief",
+            "Thunder Fang",
+            "Trick",
+            "Uproar"
+        ],
+        "tutor": [],
+        "egg": [
+            "Ally Switch",
+            "Destiny Bond",
+            "Disable",
+            "Howl",
+            "Memento",
+            "Shadow Sneak",
+            "Yawn"
+        ],
+        "level1_g3_7": []
+    }
+}

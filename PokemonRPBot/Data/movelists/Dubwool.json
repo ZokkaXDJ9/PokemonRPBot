@@ -1,0 +1,64 @@
+{
+    "number": 832,
+    "name": "Dubwool",
+    "moves": {
+        "bronze": [
+            "Copycat",
+            "Defense Curl",
+            "Growl",
+            "Tackle"
+        ],
+        "silver": [
+            "Double Kick",
+            "Guard Split",
+            "Guard Swap",
+            "Headbutt",
+            "Take Down"
+        ],
+        "gold": [
+            "Cotton Guard",
+            "Double-Edge",
+            "Last Resort",
+            "Reversal"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Agility",
+            "Attract",
+            "Baton Pass",
+            "Body Press",
+            "Body Slam",
+            "Bounce",
+            "Electro Ball",
+            "Endure",
+            "Facade",
+            "Giga Impact",
+            "Guard Swap",
+            "Hyper Beam",
+            "Mega Kick",
+            "Payback",
+            "Protect",
+            "Rest",
+            "Retaliate",
+            "Reversal",
+            "Round",
+            "Sleep Talk",
+            "Snore",
+            "Substitute",
+            "Swords Dance",
+            "Thunder Wave",
+            "Wild Charge",
+            "Zen Headbutt"
+        ],
+        "tutor": [
+            "Grassy Glide"
+        ],
+        "egg": [
+            "Counter",
+            "Stomp",
+            "Swagger"
+        ],
+        "level1_g3_7": []
+    }
+}

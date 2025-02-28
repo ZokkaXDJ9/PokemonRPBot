@@ -1,0 +1,33 @@
+{
+    "number": 10,
+    "name": "Caterpie",
+    "moves": {
+        "bronze": [
+            "Bug Bite",
+            "String Shot",
+            "Tackle"
+        ],
+        "silver": [],
+        "gold": [],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Bug Bite",
+            "Electroweb",
+            "String Shot",
+            "Tackle"
+        ],
+        "tutor": [
+            "Bug Bite",
+            "Electroweb",
+            "Snore",
+            "String Shot",
+            "Tackle"
+        ],
+        "egg": [],
+        "level1_g3_7": [
+            "String Shot",
+            "Tackle"
+        ]
+    }
+}

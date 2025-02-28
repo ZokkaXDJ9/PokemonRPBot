@@ -1,0 +1,93 @@
+{
+    "number": 588,
+    "name": "Karrablast",
+    "moves": {
+        "bronze": [
+            "Endure",
+            "Fury Cutter",
+            "Leer",
+            "Peck"
+        ],
+        "silver": [
+            "Acid Spray",
+            "Bug Buzz",
+            "False Swipe",
+            "Flail",
+            "Fury Attack",
+            "Headbutt",
+            "Scary Face",
+            "Slash",
+            "X-Scissor"
+        ],
+        "gold": [
+            "Double-Edge",
+            "Swords Dance",
+            "Take Down"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Aerial Ace",
+            "Attract",
+            "Bug Buzz",
+            "Confide",
+            "Cut",
+            "Double Team",
+            "Drill Run",
+            "Encore",
+            "Endure",
+            "Energy Ball",
+            "Facade",
+            "False Swipe",
+            "Frustration",
+            "Giga Drain",
+            "Hidden Power",
+            "Infestation",
+            "Iron Defense",
+            "Megahorn",
+            "Poison Jab",
+            "Protect",
+            "Rain Dance",
+            "Rest",
+            "Return",
+            "Round",
+            "Scary Face",
+            "Screech",
+            "Sleep Talk",
+            "Snore",
+            "Struggle Bug",
+            "Substitute",
+            "Swagger",
+            "Swords Dance",
+            "Toxic",
+            "X-Scissor"
+        ],
+        "tutor": [
+            "Bug Bite",
+            "Drill Run",
+            "Giga Drain",
+            "Iron Defense",
+            "Knock Off",
+            "Peck",
+            "Signal Beam",
+            "Sleep Talk",
+            "Snore"
+        ],
+        "egg": [
+            "Bug Bite",
+            "Counter",
+            "Drill Run",
+            "Feint Attack",
+            "Horn Attack",
+            "Knock Off",
+            "Megahorn",
+            "Night Slash",
+            "Pursuit",
+            "Screech",
+            "Slash"
+        ],
+        "level1_g3_7": [
+            "Peck"
+        ]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "number": 789,
+    "name": "Cosmog",
+    "moves": {
+        "bronze": [
+            "Splash",
+            "Teleport"
+        ],
+        "silver": [],
+        "gold": [],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Splash",
+            "Teleport"
+        ],
+        "tutor": [
+            "Splash"
+        ],
+        "egg": [],
+        "level1_g3_7": [
+            "Splash"
+        ]
+    }
+}

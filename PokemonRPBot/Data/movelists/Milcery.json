@@ -1,0 +1,52 @@
+{
+    "number": 868,
+    "name": "Milcery",
+    "moves": {
+        "bronze": [
+            "Aromatic Mist",
+            "Sweet Kiss",
+            "Sweet Scent",
+            "Tackle"
+        ],
+        "silver": [
+            "Acid Armor",
+            "Aromatherapy",
+            "Attract",
+            "Charm",
+            "Draining Kiss"
+        ],
+        "gold": [
+            "Dazzling Gleam",
+            "Entrainment",
+            "Misty Terrain",
+            "Recover"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Attract",
+            "Charm",
+            "Dazzling Gleam",
+            "Draining Kiss",
+            "Endure",
+            "Facade",
+            "Fling",
+            "Helping Hand",
+            "Misty Terrain",
+            "Protect",
+            "Rest",
+            "Round",
+            "Sleep Talk",
+            "Snore",
+            "Stored Power",
+            "Substitute",
+            "Tera Blast"
+        ],
+        "tutor": [],
+        "egg": [
+            "Baby-Doll Eyes",
+            "Last Resort"
+        ],
+        "level1_g3_7": []
+    }
+}

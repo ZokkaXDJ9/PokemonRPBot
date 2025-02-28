@@ -1,0 +1,73 @@
+{
+    "number": 854,
+    "name": "Sinistea",
+    "moves": {
+        "bronze": [
+            "Aromatic Mist",
+            "Astonish",
+            "Withdraw"
+        ],
+        "silver": [
+            "Aromatherapy",
+            "Mega Drain",
+            "Protect",
+            "Sucker Punch",
+            "Sweet Scent"
+        ],
+        "gold": [
+            "Giga Drain",
+            "Memento",
+            "Nasty Plot",
+            "Shadow Ball",
+            "Shell Smash"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Ally Switch",
+            "Baton Pass",
+            "Calm Mind",
+            "Confuse Ray",
+            "Curse",
+            "Dark Pulse",
+            "Endure",
+            "Facade",
+            "Foul Play",
+            "Giga Drain",
+            "Hex",
+            "Imprison",
+            "Magical Leaf",
+            "Metronome",
+            "Nasty Plot",
+            "Night Shade",
+            "Payback",
+            "Phantom Force",
+            "Poltergeist",
+            "Protect",
+            "Psybeam",
+            "Psychic",
+            "Psyshock",
+            "Rest",
+            "Round",
+            "Shadow Ball",
+            "Skill Swap",
+            "Sleep Talk",
+            "Snore",
+            "Spite",
+            "Stored Power",
+            "Substitute",
+            "Tera Blast",
+            "Trick",
+            "Trick Room",
+            "Will-O-Wisp",
+            "Wonder Room"
+        ],
+        "tutor": [
+            "Poltergeist"
+        ],
+        "egg": [
+            "Ally Switch"
+        ],
+        "level1_g3_7": []
+    }
+}

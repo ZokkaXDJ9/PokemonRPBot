@@ -1,0 +1,69 @@
+{
+    "number": 833,
+    "name": "Chewtle",
+    "moves": {
+        "bronze": [
+            "Bite",
+            "Tackle",
+            "Water Gun"
+        ],
+        "silver": [
+            "Counter",
+            "Headbutt",
+            "Protect"
+        ],
+        "gold": [
+            "Body Slam",
+            "Jaw Lock",
+            "Liquidation"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Assurance",
+            "Attract",
+            "Body Slam",
+            "Chilling Water",
+            "Crunch",
+            "Dive",
+            "Dragon Tail",
+            "Endure",
+            "Facade",
+            "False Swipe",
+            "Hydro Pump",
+            "Ice Fang",
+            "Liquidation",
+            "Mud Shot",
+            "Payback",
+            "Poison Jab",
+            "Protect",
+            "Rain Dance",
+            "Rest",
+            "Revenge",
+            "Round",
+            "Scary Face",
+            "Skitter Smack",
+            "Sleep Talk",
+            "Snore",
+            "Stomping Tantrum",
+            "Substitute",
+            "Surf",
+            "Take Down",
+            "Tera Blast",
+            "Water Pulse",
+            "Waterfall",
+            "Whirlpool"
+        ],
+        "tutor": [
+            "Scale Shot",
+            "Skitter Smack"
+        ],
+        "egg": [
+            "Dragon Tail",
+            "Gastro Acid",
+            "Shell Smash",
+            "Skull Bash"
+        ],
+        "level1_g3_7": []
+    }
+}

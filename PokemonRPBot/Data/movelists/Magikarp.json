@@ -1,0 +1,31 @@
+{
+    "number": 129,
+    "name": "Magikarp",
+    "moves": {
+        "bronze": [
+            "Splash"
+        ],
+        "silver": [
+            "Flail",
+            "Tackle"
+        ],
+        "gold": [],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Bounce",
+            "Flail",
+            "Hydro Pump",
+            "Splash",
+            "Tackle"
+        ],
+        "tutor": [
+            "Bounce",
+            "Splash"
+        ],
+        "egg": [],
+        "level1_g3_7": [
+            "Splash"
+        ]
+    }
+}

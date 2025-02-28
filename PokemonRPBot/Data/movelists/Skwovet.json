@@ -1,0 +1,71 @@
+{
+    "number": 819,
+    "name": "Skwovet",
+    "moves": {
+        "bronze": [
+            "Bite",
+            "Stuff Cheeks",
+            "Tackle",
+            "Tail Whip"
+        ],
+        "silver": [
+            "Body Slam",
+            "Counter",
+            "Rest",
+            "Spit Up",
+            "Stockpile",
+            "Swallow"
+        ],
+        "gold": [
+            "Belch",
+            "Bullet Seed",
+            "Super Fang"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Amnesia",
+            "Assurance",
+            "Attract",
+            "Body Slam",
+            "Brutal Swing",
+            "Bullet Seed",
+            "Crunch",
+            "Curse",
+            "Dig",
+            "Double-Edge",
+            "Endeavor",
+            "Endure",
+            "Facade",
+            "Fling",
+            "Gyro Ball",
+            "Hyper Voice",
+            "Iron Tail",
+            "Mud Shot",
+            "Mud-Slap",
+            "Payback",
+            "Protect",
+            "Rest",
+            "Round",
+            "Seed Bomb",
+            "Sleep Talk",
+            "Snore",
+            "Substitute",
+            "Super Fang",
+            "Tail Slap",
+            "Take Down",
+            "Tera Blast",
+            "Thief",
+            "Trailblaze",
+            "Uproar"
+        ],
+        "tutor": [],
+        "egg": [
+            "Belly Drum",
+            "Defense Curl",
+            "Last Resort",
+            "Rollout"
+        ],
+        "level1_g3_7": []
+    }
+}

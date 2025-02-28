@@ -1,0 +1,98 @@
+{
+    "number": 731,
+    "name": "Pikipek",
+    "moves": {
+        "bronze": [
+            "Echoed Voice",
+            "Growl",
+            "Peck",
+            "Rock Smash"
+        ],
+        "silver": [
+            "Bullet Seed",
+            "Drill Peck",
+            "Feather Dance",
+            "Fury Attack",
+            "Pluck",
+            "Roost",
+            "Screech",
+            "Supersonic"
+        ],
+        "gold": [
+            "Hyper Voice"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Acrobatics",
+            "Aerial Ace",
+            "Air Cutter",
+            "Air Slash",
+            "Attract",
+            "Brave Bird",
+            "Brick Break",
+            "Bullet Seed",
+            "Confide",
+            "Double Team",
+            "Dual Wingbeat",
+            "Echoed Voice",
+            "Endeavor",
+            "Endure",
+            "Facade",
+            "Feather Dance",
+            "Flame Charge",
+            "Fly",
+            "Frustration",
+            "Gunk Shot",
+            "Heat Wave",
+            "Helping Hand",
+            "Hidden Power",
+            "Hyper Voice",
+            "Knock Off",
+            "Protect",
+            "Rest",
+            "Return",
+            "Roost",
+            "Round",
+            "Sleep Talk",
+            "Smack Down",
+            "Steel Wing",
+            "Substitute",
+            "Sunny Day",
+            "Swagger",
+            "Swords Dance",
+            "Tailwind",
+            "Take Down",
+            "Tera Blast",
+            "Thief",
+            "Toxic",
+            "U-turn",
+            "Uproar",
+            "Work Up"
+        ],
+        "tutor": [
+            "Defog",
+            "Gunk Shot",
+            "Heat Wave",
+            "Hyper Voice",
+            "Knock Off",
+            "Peck",
+            "Sky Attack",
+            "Snore",
+            "Tailwind",
+            "Uproar"
+        ],
+        "egg": [
+            "Boomburst",
+            "Brave Bird",
+            "Gunk Shot",
+            "Mirror Move",
+            "Sky Attack",
+            "Tailwind",
+            "Uproar"
+        ],
+        "level1_g3_7": [
+            "Peck"
+        ]
+    }
+}

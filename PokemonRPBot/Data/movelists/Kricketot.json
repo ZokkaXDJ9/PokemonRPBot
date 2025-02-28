@@ -1,0 +1,45 @@
+{
+    "number": 401,
+    "name": "Kricketot",
+    "moves": {
+        "bronze": [
+            "Growl",
+            "Pound",
+            "Struggle Bug",
+            "Tackle"
+        ],
+        "silver": [
+            "Bug Bite"
+        ],
+        "gold": [],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Bide",
+            "Bug",
+            "Bug Bite",
+            "Endeavor",
+            "Ground",
+            "Growl",
+            "Lunge",
+            "Pound",
+            "Skitter Smack",
+            "Struggle Bug",
+            "Tera Blast"
+        ],
+        "tutor": [
+            "Bide",
+            "Bug Bite",
+            "Endeavor",
+            "Growl",
+            "Mud-Slap",
+            "Snore",
+            "Uproar"
+        ],
+        "egg": [],
+        "level1_g3_7": [
+            "Bide",
+            "Growl"
+        ]
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "number": 865,
+    "name": "Sirfetch'd",
+    "moves": {
+        "bronze": [
+            "First Impression",
+            "Fury Cutter",
+            "Iron Defense",
+            "Leer",
+            "Peck",
+            "Sand Attack"
+        ],
+        "silver": [
+            "Brutal Swing",
+            "Detect",
+            "Knock Off",
+            "Rock Smash"
+        ],
+        "gold": [
+            "Brave Bird",
+            "Brick Break",
+            "Defog",
+            "Final Gambit",
+            "Leaf Blade",
+            "Meteor Assault",
+            "Slam",
+            "Swords Dance"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Assurance",
+            "Attract",
+            "Body Slam",
+            "Brave Bird",
+            "Brick Break",
+            "Brutal Swing",
+            "Close Combat",
+            "Endure",
+            "Facade",
+            "Focus Energy",
+            "Helping Hand",
+            "Iron Defense",
+            "Leaf Blade",
+            "Poison Jab",
+            "Protect",
+            "Rest",
+            "Retaliate",
+            "Revenge",
+            "Round",
+            "Sleep Talk",
+            "Snore",
+            "Solar Blade",
+            "Steel Wing",
+            "Substitute",
+            "Sunny Day",
+            "Superpower",
+            "Swords Dance",
+            "Throat Chop",
+            "Work Up"
+        ],
+        "tutor": [
+            "Coaching",
+            "Dual Wingbeat",
+            "Grassy Glide"
+        ],
+        "egg": [
+            "Counter",
+            "Covet",
+            "Curse",
+            "Double-Edge",
+            "Feint",
+            "Flail",
+            "Night Slash",
+            "Quick Attack",
+            "Quick Guard",
+            "Simple Beam",
+            "Sky Attack"
+        ],
+        "level1_g3_7": []
+    }
+}

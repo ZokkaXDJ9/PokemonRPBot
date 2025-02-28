@@ -1,0 +1,69 @@
+{
+    "number": 915,
+    "name": "Lechonk",
+    "moves": {
+        "bronze": [
+            "Disarming Voice",
+            "Echoed Voice",
+            "Tackle",
+            "Tail Whip"
+        ],
+        "silver": [
+            "Covet",
+            "Dig",
+            "Headbutt",
+            "Mud Shot",
+            "Take Down",
+            "Uproar",
+            "Work Up",
+            "Yawn"
+        ],
+        "gold": [
+            "Double-Edge"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Body Slam",
+            "Bulldoze",
+            "Bullet Seed",
+            "Chilling Water",
+            "Curse",
+            "Dig",
+            "Disarming Voice",
+            "Double-Edge",
+            "Endeavor",
+            "Endure",
+            "Facade",
+            "Helping Hand",
+            "Hyper Voice",
+            "Iron Head",
+            "Mud Shot",
+            "Mud-Slap",
+            "Play Rough",
+            "Protect",
+            "Rain Dance",
+            "Rest",
+            "Seed Bomb",
+            "Sleep Talk",
+            "Substitute",
+            "Sunny Day",
+            "Super Fang",
+            "Take Down",
+            "Tera Blast",
+            "Thief",
+            "Trailblaze",
+            "Uproar",
+            "Zen Headbutt"
+        ],
+        "tutor": [],
+        "egg": [
+            "Endeavor",
+            "Spit Up",
+            "Stockpile",
+            "Stuff Cheeks",
+            "Swallow"
+        ],
+        "level1_g3_7": []
+    }
+}

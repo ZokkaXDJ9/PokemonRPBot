@@ -1,0 +1,92 @@
+{
+    "number": 290,
+    "name": "Nincada",
+    "moves": {
+        "bronze": [
+            "Absorb",
+            "False Swipe",
+            "Harden",
+            "Leech Life",
+            "Sand Attack",
+            "Sand-Attack",
+            "Scratch"
+        ],
+        "silver": [
+            "Bide",
+            "Fury Swipes",
+            "Metal Claw",
+            "Mind Reader",
+            "Mud-Slap"
+        ],
+        "gold": [
+            "Dig"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Aerial Ace",
+            "Bug Buzz",
+            "Confide",
+            "Cut",
+            "Dig",
+            "Double Team",
+            "Endure",
+            "Facade",
+            "False Swipe",
+            "Flash",
+            "Frustration",
+            "Giga Drain",
+            "Hidden Power",
+            "Hone Claws",
+            "Leech Life",
+            "Natural Gift",
+            "Protect",
+            "Rest",
+            "Return",
+            "Round",
+            "Sandstorm",
+            "Secret Power",
+            "Shadow Ball",
+            "Sleep Talk",
+            "Snore",
+            "Solar Beam",
+            "SolarBeam",
+            "Struggle Bug",
+            "Substitute",
+            "Sunny Day",
+            "Swagger",
+            "Toxic",
+            "X-Scissor"
+        ],
+        "tutor": [
+            "Bug Bite",
+            "Double-Edge",
+            "Fury Cutter",
+            "Giga Drain",
+            "Harden",
+            "Mimic",
+            "Mud-Slap",
+            "Scratch",
+            "Skitter Smack",
+            "Sleep Talk",
+            "Snore",
+            "Spite",
+            "Substitute"
+        ],
+        "egg": [
+            "Bug Bite",
+            "Bug Buzz",
+            "Endure",
+            "Feint Attack",
+            "Final Gambit",
+            "Flail",
+            "Gust",
+            "Night Slash",
+            "Silver Wind"
+        ],
+        "level1_g3_7": [
+            "Harden",
+            "Scratch"
+        ]
+    }
+}

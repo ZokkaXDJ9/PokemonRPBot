@@ -1,0 +1,73 @@
+{
+    "number": 851,
+    "name": "Centiskorch",
+    "moves": {
+        "bronze": [
+            "Bite",
+            "Ember",
+            "Inferno",
+            "Smokescreen",
+            "Wrap"
+        ],
+        "silver": [
+            "Bug Bite",
+            "Coil",
+            "Flame Wheel",
+            "Slam"
+        ],
+        "gold": [
+            "Burn Up",
+            "Crunch",
+            "Fire Lash",
+            "Fire Spin",
+            "Lunge"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Attract",
+            "Brutal Swing",
+            "Bug Buzz",
+            "Crunch",
+            "Endure",
+            "Facade",
+            "Fire Blast",
+            "Fire Fang",
+            "Fire Spin",
+            "Flamethrower",
+            "Flare Blitz",
+            "Giga Impact",
+            "Heat Crash",
+            "Heat Wave",
+            "Hyper Beam",
+            "Leech Life",
+            "Mystical Fire",
+            "Overheat",
+            "Power Whip",
+            "Protect",
+            "Rest",
+            "Round",
+            "Scald",
+            "Sleep Talk",
+            "Snore",
+            "Solar Beam",
+            "Substitute",
+            "Sunny Day",
+            "Thunder Fang",
+            "Venoshock",
+            "Will-O-Wisp",
+            "X-Scissor"
+        ],
+        "tutor": [
+            "Scorching Sands",
+            "Skitter Smack"
+        ],
+        "egg": [
+            "Defense Curl",
+            "Knock Off",
+            "Rollout",
+            "Struggle Bug"
+        ],
+        "level1_g3_7": []
+    }
+}

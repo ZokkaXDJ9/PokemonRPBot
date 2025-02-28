@@ -1,0 +1,23 @@
+{
+    "number": 132,
+    "name": "Ditto",
+    "moves": {
+        "bronze": [
+            "Transform"
+        ],
+        "silver": [],
+        "gold": [],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Transform"
+        ],
+        "tutor": [
+            "Transform"
+        ],
+        "egg": [],
+        "level1_g3_7": [
+            "Transform"
+        ]
+    }
+}

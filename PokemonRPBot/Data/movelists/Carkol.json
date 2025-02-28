@@ -1,0 +1,87 @@
+{
+    "number": 838,
+    "name": "Carkol",
+    "moves": {
+        "bronze": [
+            "Flame Charge",
+            "Rapid Spin",
+            "Smack Down",
+            "Smokescreen",
+            "Tackle"
+        ],
+        "silver": [
+            "Ancient Power",
+            "Incinerate",
+            "Rock Polish"
+        ],
+        "gold": [
+            "Burn Up",
+            "Heat Crash",
+            "Rock Blast",
+            "Stealth Rock",
+            "Stone Edge"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Attract",
+            "Body Press",
+            "Body Slam",
+            "Bulldoze",
+            "Curse",
+            "Dig",
+            "Endure",
+            "Facade",
+            "Fire Blast",
+            "Fire Spin",
+            "Flame Charge",
+            "Flamethrower",
+            "Flare Blitz",
+            "Gyro Ball",
+            "Heat Crash",
+            "Heat Wave",
+            "Heavy Slam",
+            "High Horsepower",
+            "Iron Defense",
+            "Iron Head",
+            "Meteor Beam",
+            "Mud-Slap",
+            "Overheat",
+            "Power Gem",
+            "Protect",
+            "Reflect",
+            "Rest",
+            "Rock Blast",
+            "Rock Slide",
+            "Rock Tomb",
+            "Round",
+            "Sand Tomb",
+            "Sandstorm",
+            "Scald",
+            "Scorching Sands",
+            "Self-Destruct",
+            "Sleep Talk",
+            "Smack Down",
+            "Snore",
+            "Spikes",
+            "Stealth Rock",
+            "Stone Edge",
+            "Substitute",
+            "Sunny Day",
+            "Take Down",
+            "Temper Flare",
+            "Tera Blast",
+            "Will-O-Wisp"
+        ],
+        "tutor": [
+            "Meteor Beam",
+            "Scorching Sands"
+        ],
+        "egg": [
+            "Block",
+            "Explosion",
+            "Mud-Slap"
+        ],
+        "level1_g3_7": []
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "number": 813,
+    "name": "Scorbunny",
+    "moves": {
+        "bronze": [
+            "Ember",
+            "Growl",
+            "Quick Attack",
+            "Tackle"
+        ],
+        "silver": [
+            "Agility",
+            "Bounce",
+            "Counter",
+            "Double Kick",
+            "Flame Charge",
+            "Headbutt"
+        ],
+        "gold": [
+            "Double-Edge"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Acrobatics",
+            "Agility",
+            "Ally Switch",
+            "Assurance",
+            "Attract",
+            "Baton Pass",
+            "Blaze Kick",
+            "Bounce",
+            "Burning Jealousy",
+            "Double-Edge",
+            "Electro Ball",
+            "Endure",
+            "Facade",
+            "Fire Blast",
+            "Fire Fang",
+            "Fire Pledge",
+            "Fire Spin",
+            "Flame Charge",
+            "Flamethrower",
+            "Flare Blitz",
+            "Focus Energy",
+            "Gunk Shot",
+            "Heat Wave",
+            "Helping Hand",
+            "Low Kick",
+            "Low Sweep",
+            "Mega Kick",
+            "Mud Shot",
+            "Overheat",
+            "Protect",
+            "Rest",
+            "Reversal",
+            "Round",
+            "Sleep Talk",
+            "Snore",
+            "Substitute",
+            "Sunny Day",
+            "Super Fang",
+            "Swift",
+            "Take Down",
+            "Taunt",
+            "Temper Flare",
+            "Tera Blast",
+            "Trailblaze",
+            "U-turn",
+            "Work Up"
+        ],
+        "tutor": [],
+        "egg": [
+            "High Jump Kick",
+            "Sand Attack",
+            "Sucker Punch",
+            "Super Fang"
+        ],
+        "level1_g3_7": []
+    }
+}

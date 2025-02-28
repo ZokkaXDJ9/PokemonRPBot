@@ -1,0 +1,61 @@
+{
+    "number": 929,
+    "name": "Dolliv",
+    "moves": {
+        "bronze": [
+            "Absorb",
+            "Growth",
+            "Razor Leaf",
+            "Sweet Scent",
+            "Tackle"
+        ],
+        "silver": [
+            "Flail",
+            "Grassy Terrain",
+            "Helping Hand",
+            "Mega Drain",
+            "Seed Bomb"
+        ],
+        "gold": [
+            "Energy Ball",
+            "Leech Seed",
+            "Terrain Pulse"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Bullet Seed",
+            "Charm",
+            "Earth Power",
+            "Endure",
+            "Energy Ball",
+            "Facade",
+            "Giga Drain",
+            "Grass Knot",
+            "Grassy Terrain",
+            "Helping Hand",
+            "Leaf Storm",
+            "Magical Leaf",
+            "Protect",
+            "Rest",
+            "Seed Bomb",
+            "Sleep Talk",
+            "Solar Beam",
+            "Solar Blade",
+            "Substitute",
+            "Sunny Day",
+            "Swift",
+            "Tera Blast",
+            "Trailblaze",
+            "Weather Ball"
+        ],
+        "tutor": [],
+        "egg": [
+            "Memento",
+            "Strength Sap",
+            "Synthesis",
+            "Weather Ball"
+        ],
+        "level1_g3_7": []
+    }
+}

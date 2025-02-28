@@ -1,0 +1,78 @@
+{
+    "number": 880,
+    "name": "Dracozolt",
+    "moves": {
+        "bronze": [
+            "Charge",
+            "Tackle",
+            "Thunder Shock"
+        ],
+        "silver": [
+            "Aerial Ace",
+            "Ancient Power",
+            "Pluck"
+        ],
+        "gold": [
+            "Bolt Beak",
+            "Discharge",
+            "Dragon Pulse",
+            "Dragon Rush",
+            "Dragon Tail",
+            "Slam",
+            "Stomp"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Body Slam",
+            "Breaking Swipe",
+            "Brutal Swing",
+            "Bulldoze",
+            "Dragon Claw",
+            "Dragon Pulse",
+            "Earth Power",
+            "Earthquake",
+            "Electro Ball",
+            "Endure",
+            "Facade",
+            "Fire Blast",
+            "Fire Fang",
+            "Fire Spin",
+            "Flamethrower",
+            "Giga Impact",
+            "High Horsepower",
+            "Hyper Beam",
+            "Iron Tail",
+            "Low Kick",
+            "Mega Kick",
+            "Mega Punch",
+            "Outrage",
+            "Protect",
+            "Rain Dance",
+            "Rest",
+            "Rock Blast",
+            "Rock Slide",
+            "Rock Tomb",
+            "Round",
+            "Sleep Talk",
+            "Snore",
+            "Stomping Tantrum",
+            "Stone Edge",
+            "Substitute",
+            "Sunny Day",
+            "Taunt",
+            "Thunder",
+            "Thunder Fang",
+            "Thunder Punch",
+            "Thunder Wave",
+            "Thunderbolt",
+            "Wild Charge"
+        ],
+        "tutor": [
+            "Meteor Beam",
+            "Rising Voltage"
+        ],
+        "egg": [],
+        "level1_g3_7": []
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "number": 960,
+    "name": "Wiglett",
+    "moves": {
+        "bronze": [
+            "Mud-Slap",
+            "Sand Attack",
+            "Water Gun",
+            "Wrap"
+        ],
+        "silver": [
+            "Aqua Jet",
+            "Dig",
+            "Headbutt",
+            "Slam",
+            "Sucker Punch",
+            "Water Pulse"
+        ],
+        "gold": [
+            "Liquidation",
+            "Throat Chop"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Agility",
+            "Blizzard",
+            "Bulldoze",
+            "Chilling Water",
+            "Dig",
+            "Earth Power",
+            "Endure",
+            "Facade",
+            "Foul Play",
+            "Helping Hand",
+            "Hydro Pump",
+            "Ice Beam",
+            "Liquidation",
+            "Mud Shot",
+            "Mud-Slap",
+            "Muddy Water",
+            "Protect",
+            "Rain Dance",
+            "Rest",
+            "Sandstorm",
+            "Sleep Talk",
+            "Stomping Tantrum",
+            "Substitute",
+            "Surf",
+            "Swift",
+            "Take Down",
+            "Tera Blast",
+            "Throat Chop",
+            "Water Pulse",
+            "Whirlpool"
+        ],
+        "tutor": [],
+        "egg": [
+            "Final Gambit",
+            "Memento"
+        ],
+        "level1_g3_7": []
+    }
+}

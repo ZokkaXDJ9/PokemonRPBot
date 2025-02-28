@@ -1,0 +1,30 @@
+{
+    "number": 840,
+    "name": "Applin",
+    "moves": {
+        "bronze": [
+            "Astonish",
+            "Withdraw"
+        ],
+        "silver": [],
+        "gold": [],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Attract",
+            "BagonCherubiCherrimFoongusAmoongussApplinFlappleAppletun",
+            "Pounce",
+            "Tera Blast"
+        ],
+        "tutor": [
+            "Grassy Glide"
+        ],
+        "egg": [
+            "Defense Curl",
+            "Recycle",
+            "Rollout",
+            "Sucker Punch"
+        ],
+        "level1_g3_7": []
+    }
+}

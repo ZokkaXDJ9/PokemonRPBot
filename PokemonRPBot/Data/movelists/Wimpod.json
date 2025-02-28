@@ -1,0 +1,64 @@
+{
+    "number": 767,
+    "name": "Wimpod",
+    "moves": {
+        "bronze": [
+            "Defense Curl",
+            "Sand Attack",
+            "Struggle Bug"
+        ],
+        "silver": [],
+        "gold": [],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Assurance",
+            "Attract",
+            "Bug Buzz",
+            "Confide",
+            "Double Team",
+            "Endure",
+            "Facade",
+            "Frustration",
+            "Hail",
+            "Hidden Power",
+            "Leech Life",
+            "Mud Shot",
+            "Protect",
+            "Rain Dance",
+            "Rest",
+            "Return",
+            "Round",
+            "Scald",
+            "Screech",
+            "Sleep Talk",
+            "Snore",
+            "Spikes",
+            "Substitute",
+            "Surf",
+            "Swagger",
+            "Swift",
+            "Taunt",
+            "Toxic",
+            "Waterfall"
+        ],
+        "tutor": [
+            "Sand Attack",
+            "Skitter Smack",
+            "Snore",
+            "Struggle Bug"
+        ],
+        "egg": [
+            "Aqua Jet",
+            "Harden",
+            "Metal Claw",
+            "Rollout",
+            "Spikes",
+            "Wide Guard"
+        ],
+        "level1_g3_7": [
+            "Sand Attack",
+            "Struggle Bug"
+        ]
+    }
+}

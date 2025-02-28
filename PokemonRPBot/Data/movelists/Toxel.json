@@ -1,0 +1,37 @@
+{
+    "number": 848,
+    "name": "Toxel",
+    "moves": {
+        "bronze": [
+            "Acid",
+            "Belch",
+            "Flail",
+            "Growl",
+            "Nuzzle",
+            "Tearful Look"
+        ],
+        "silver": [],
+        "gold": [],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Attract",
+            "Charm",
+            "Encore",
+            "Endeavor",
+            "Endure",
+            "Facade",
+            "Metal Sound",
+            "Protect",
+            "Rest",
+            "Round",
+            "Sleep Talk",
+            "Snore",
+            "Substitute",
+            "Tera Blast"
+        ],
+        "tutor": [],
+        "egg": [],
+        "level1_g3_7": []
+    }
+}

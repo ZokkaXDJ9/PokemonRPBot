@@ -1,0 +1,78 @@
+{
+    "number": 920,
+    "name": "Lokix",
+    "moves": {
+        "bronze": [
+            "Assurance",
+            "Astonish",
+            "Detect",
+            "Leer",
+            "Low Kick",
+            "Struggle Bug",
+            "Tackle"
+        ],
+        "silver": [
+            "Agility",
+            "Bug Bite",
+            "Double Kick",
+            "Endure",
+            "Feint",
+            "Screech"
+        ],
+        "gold": [
+            "Axe Kick",
+            "Bounce",
+            "First Impression",
+            "Sucker Punch",
+            "Throat Chop"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Aerial Ace",
+            "Agility",
+            "Brick Break",
+            "Bug Bite",
+            "Bug Buzz",
+            "Dark Pulse",
+            "Double-Edge",
+            "Endure",
+            "Facade",
+            "Fling",
+            "Giga Impact",
+            "Knock Off",
+            "Lash Out",
+            "Leech Life",
+            "Low Kick",
+            "Low Sweep",
+            "Lunge",
+            "Pounce",
+            "Protect",
+            "Rain Dance",
+            "Rest",
+            "Reversal",
+            "Scary Face",
+            "Skitter Smack",
+            "Sleep Talk",
+            "Spite",
+            "Struggle Bug",
+            "Substitute",
+            "Sunny Day",
+            "Swords Dance",
+            "Take Down",
+            "Taunt",
+            "Tera Blast",
+            "Thief",
+            "Throat Chop",
+            "Trailblaze",
+            "U-turn",
+            "X-Scissor"
+        ],
+        "tutor": [],
+        "egg": [
+            "Counter",
+            "Skitter Smack"
+        ],
+        "level1_g3_7": []
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "number": 13,
+    "name": "Weedle",
+    "moves": {
+        "bronze": [
+            "Bug Bite",
+            "Poison Sting",
+            "String Shot"
+        ],
+        "silver": [],
+        "gold": [],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Bug Bite",
+            "Poison Sting",
+            "String Shot"
+        ],
+        "tutor": [
+            "Bug Bite",
+            "Electroweb",
+            "Poison Sting",
+            "String Shot"
+        ],
+        "egg": [],
+        "level1_g3_7": [
+            "Poison Sting",
+            "String Shot"
+        ]
+    }
+}

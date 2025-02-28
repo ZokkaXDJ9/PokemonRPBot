@@ -1,0 +1,100 @@
+{
+    "number": 694,
+    "name": "Helioptile",
+    "moves": {
+        "bronze": [
+            "Mud-Slap",
+            "Pound",
+            "Tail Whip",
+            "Thunder Shock"
+        ],
+        "silver": [
+            "Bulldoze",
+            "Charge",
+            "Parabolic Charge",
+            "Quick Attack",
+            "Razor Wind",
+            "Thunder Wave",
+            "Volt Switch"
+        ],
+        "gold": [
+            "Electrify",
+            "Thunder",
+            "Thunderbolt"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Agility",
+            "Ally Switch",
+            "Attract",
+            "Bulldoze",
+            "Charge Beam",
+            "Confide",
+            "Cut",
+            "Dark Pulse",
+            "Dig",
+            "Double Team",
+            "Dragon Tail",
+            "Electric Terrain",
+            "Electro Ball",
+            "Electroweb",
+            "Endure",
+            "Facade",
+            "Flash",
+            "Frustration",
+            "Grass Knot",
+            "Hidden Power",
+            "Iron Tail",
+            "Light Screen",
+            "Low Sweep",
+            "Protect",
+            "Psych Up",
+            "Rain Dance",
+            "Rest",
+            "Return",
+            "Rock Slide",
+            "Rock Tomb",
+            "Round",
+            "Sandstorm",
+            "Sleep Talk",
+            "Snore",
+            "Substitute",
+            "Surf",
+            "Swagger",
+            "Swift",
+            "Thunder",
+            "Thunder Wave",
+            "Thunderbolt",
+            "Toxic",
+            "U-turn",
+            "Volt Switch",
+            "Wild Charge"
+        ],
+        "tutor": [
+            "Ally Switch",
+            "Electroweb",
+            "Iron Tail",
+            "Magnet Rise",
+            "Pound",
+            "Rising Voltage",
+            "Scale Shot",
+            "Shock Wave",
+            "Signal Beam",
+            "Snore",
+            "Tail Whip"
+        ],
+        "egg": [
+            "Agility",
+            "Camouflage",
+            "Dragon Rush",
+            "Dragon Tail",
+            "Electric Terrain",
+            "Glare"
+        ],
+        "level1_g3_7": [
+            "Pound",
+            "Tail Whip"
+        ]
+    }
+}

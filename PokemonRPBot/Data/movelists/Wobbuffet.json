@@ -1,0 +1,42 @@
+{
+    "number": 202,
+    "name": "Wobbuffet",
+    "moves": {
+        "bronze": [
+            "Amnesia",
+            "Charm",
+            "Counter",
+            "Destiny Bond",
+            "Encore",
+            "Mirror Coat",
+            "Safeguard",
+            "Splash"
+        ],
+        "silver": [],
+        "gold": [],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Amnesia",
+            "Charm",
+            "Counter",
+            "Destiny Bond",
+            "Encore",
+            "Mirror Coat",
+            "Safeguard"
+        ],
+        "tutor": [
+            "Counter",
+            "Destiny Bond",
+            "Mirror Coat",
+            "Safeguard"
+        ],
+        "egg": [],
+        "level1_g3_7": [
+            "Counter",
+            "Destiny Bond",
+            "Mirror Coat",
+            "Safeguard"
+        ]
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "number": 860,
+    "name": "Morgrem",
+    "moves": {
+        "bronze": [
+            "Bite",
+            "Confide",
+            "Fake Out",
+            "False Surrender",
+            "Flatter"
+        ],
+        "silver": [
+            "Assurance",
+            "Fake Tears",
+            "Sucker Punch",
+            "Swagger",
+            "Torment"
+        ],
+        "gold": [
+            "Dark Pulse",
+            "Foul Play",
+            "Nasty Plot",
+            "Play Rough"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Assurance",
+            "Attract",
+            "Burning Jealousy",
+            "Chilling Water",
+            "Dark Pulse",
+            "Dazzling Gleam",
+            "Drain Punch",
+            "Draining Kiss",
+            "Endure",
+            "Facade",
+            "Fake Tears",
+            "Fling",
+            "Foul Play",
+            "Imprison",
+            "Lash Out",
+            "Leech Life",
+            "Light Screen",
+            "Low Kick",
+            "Mega Kick",
+            "Mega Punch",
+            "Metronome",
+            "Misty Terrain",
+            "Nasty Plot",
+            "Play Rough",
+            "Protect",
+            "Reflect",
+            "Rest",
+            "Retaliate",
+            "Revenge",
+            "Round",
+            "Scary Face",
+            "Shadow Claw",
+            "Sleep Talk",
+            "Snore",
+            "Substitute",
+            "Take Down",
+            "Taunt",
+            "Tera Blast",
+            "Thief",
+            "Throat Chop",
+            "Thunder Wave",
+            "Trailblaze",
+            "Trick",
+            "Uproar"
+        ],
+        "tutor": [
+            "Burning Jealousy",
+            "Lash Out"
+        ],
+        "egg": [
+            "Parting Shot"
+        ],
+        "level1_g3_7": []
+    }
+}

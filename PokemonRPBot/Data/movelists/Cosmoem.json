@@ -1,0 +1,27 @@
+{
+    "number": 790,
+    "name": "Cosmoem",
+    "moves": {
+        "bronze": [
+            "Cosmic Power",
+            "Teleport"
+        ],
+        "silver": [],
+        "gold": [],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Cosmic Power",
+            "Teleport"
+        ],
+        "tutor": [
+            "Cosmic Power",
+            "Teleport"
+        ],
+        "egg": [],
+        "level1_g3_7": [
+            "Cosmic Power",
+            "Teleport"
+        ]
+    }
+}

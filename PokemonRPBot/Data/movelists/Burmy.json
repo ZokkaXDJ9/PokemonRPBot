@@ -1,0 +1,36 @@
+{
+    "number": 412,
+    "name": "Burmy",
+    "moves": {
+        "bronze": [
+            "Protect",
+            "Tackle"
+        ],
+        "silver": [
+            "Bug Bite",
+            "Hidden Power",
+            "String Shot"
+        ],
+        "gold": [],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Bug",
+            "Bug Bite",
+            "Hidden Power",
+            "Protect",
+            "String Shot",
+            "Tackle"
+        ],
+        "tutor": [
+            "Bug Bite",
+            "Electroweb",
+            "Protect",
+            "Snore"
+        ],
+        "egg": [],
+        "level1_g3_7": [
+            "Protect"
+        ]
+    }
+}

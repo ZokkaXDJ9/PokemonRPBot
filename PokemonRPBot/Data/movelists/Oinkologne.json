@@ -1,0 +1,73 @@
+{
+    "number": 916,
+    "name": "Oinkologne",
+    "moves": {
+        "bronze": [
+            "Disarming Voice",
+            "Echoed Voice",
+            "Tackle",
+            "Tail Whip"
+        ],
+        "silver": [
+            "Covet",
+            "Dig",
+            "Headbutt",
+            "Mud Shot",
+            "Take Down",
+            "Yawn"
+        ],
+        "gold": [
+            "Belch",
+            "Double-Edge",
+            "Earth Power",
+            "Uproar",
+            "Work Up"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Body Press",
+            "Body Slam",
+            "Bulldoze",
+            "Bullet Seed",
+            "Chilling Water",
+            "Curse",
+            "Dig",
+            "Disarming Voice",
+            "Double-Edge",
+            "Earth Power",
+            "Endeavor",
+            "Endure",
+            "Energy Ball",
+            "Facade",
+            "Giga Impact",
+            "Helping Hand",
+            "High Horsepower",
+            "Hyper Beam",
+            "Hyper Voice",
+            "Iron Head",
+            "Lash Out",
+            "Mud Shot",
+            "Mud-Slap",
+            "Play Rough",
+            "Protect",
+            "Rain Dance",
+            "Rest",
+            "Seed Bomb",
+            "Sleep Talk",
+            "Stomping Tantrum",
+            "Substitute",
+            "Sunny Day",
+            "Super Fang",
+            "Take Down",
+            "Tera Blast",
+            "Thief",
+            "Trailblaze",
+            "Uproar",
+            "Zen Headbutt"
+        ],
+        "tutor": [],
+        "egg": [],
+        "level1_g3_7": []
+    }
+}

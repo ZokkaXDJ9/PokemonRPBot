@@ -1,0 +1,74 @@
+{
+    "number": 846,
+    "name": "Arrokuda",
+    "moves": {
+        "bronze": [
+            "Aqua Jet",
+            "Fury Attack",
+            "Peck"
+        ],
+        "silver": [
+            "Agility",
+            "Bite",
+            "Dive",
+            "Focus Energy",
+            "Laser Focus"
+        ],
+        "gold": [
+            "Crunch",
+            "Double-Edge",
+            "Liquidation"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Agility",
+            "Assurance",
+            "Attract",
+            "Bounce",
+            "Brick Break",
+            "Chilling Water",
+            "Close Combat",
+            "Crunch",
+            "Dive",
+            "Double-Edge",
+            "Drill Run",
+            "Endure",
+            "Facade",
+            "Flip Turn",
+            "Focus Energy",
+            "Hydro Pump",
+            "Ice Fang",
+            "Liquidation",
+            "Poison Jab",
+            "Protect",
+            "Psychic Fangs",
+            "Rain Dance",
+            "Rest",
+            "Round",
+            "Scald",
+            "Scale Shot",
+            "Sleep Talk",
+            "Snore",
+            "Substitute",
+            "Surf",
+            "Swift",
+            "Take Down",
+            "Tera Blast",
+            "Throat Chop",
+            "Water Pulse",
+            "Waterfall",
+            "Whirlpool"
+        ],
+        "tutor": [
+            "Scale Shot"
+        ],
+        "egg": [
+            "Acupressure",
+            "Night Slash",
+            "Slash",
+            "Thrash"
+        ],
+        "level1_g3_7": []
+    }
+}

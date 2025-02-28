@@ -1,0 +1,86 @@
+{
+    "number": 826,
+    "name": "Orbeetle",
+    "moves": {
+        "bronze": [
+            "Confuse Ray",
+            "Confusion",
+            "Light Screen",
+            "Magic Coat",
+            "Reflect",
+            "Struggle Bug"
+        ],
+        "silver": [
+            "Agility",
+            "Ally Switch",
+            "Bug Buzz",
+            "Hypnosis",
+            "Mirror Coat",
+            "Psybeam"
+        ],
+        "gold": [
+            "After You",
+            "Calm Mind",
+            "Psychic",
+            "Psychic Terrain"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Agility",
+            "Ally Switch",
+            "Attract",
+            "Baton Pass",
+            "Body Press",
+            "Bug Buzz",
+            "Calm Mind",
+            "Endure",
+            "Energy Ball",
+            "Facade",
+            "Future Sight",
+            "Giga Drain",
+            "Giga Impact",
+            "Guard Swap",
+            "Helping Hand",
+            "Hyper Beam",
+            "Imprison",
+            "Iron Defense",
+            "Leech Life",
+            "Light Screen",
+            "Magic Room",
+            "Payback",
+            "Power Swap",
+            "Protect",
+            "Psychic",
+            "Psychic Terrain",
+            "Psycho Cut",
+            "Psyshock",
+            "Reflect",
+            "Rest",
+            "Round",
+            "Safeguard",
+            "Shadow Ball",
+            "Skill Swap",
+            "Sleep Talk",
+            "Snore",
+            "Solar Beam",
+            "Stored Power",
+            "Substitute",
+            "Trick",
+            "Trick Room",
+            "U-turn",
+            "Wonder Room",
+            "Zen Headbutt"
+        ],
+        "tutor": [
+            "Expanding Force"
+        ],
+        "egg": [
+            "Infestation",
+            "Recover",
+            "Sticky Web",
+            "Supersonic"
+        ],
+        "level1_g3_7": []
+    }
+}

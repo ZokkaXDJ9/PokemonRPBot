@@ -1,0 +1,68 @@
+{
+    "number": 852,
+    "name": "Clobbopus",
+    "moves": {
+        "bronze": [
+            "Bind",
+            "Feint",
+            "Leer",
+            "Rock Smash"
+        ],
+        "silver": [
+            "Brick Break",
+            "Bulk Up",
+            "Detect",
+            "Submission"
+        ],
+        "gold": [
+            "Reversal",
+            "Superpower",
+            "Taunt"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Attract",
+            "Body Slam",
+            "Brick Break",
+            "Brine",
+            "Bulk Up",
+            "Close Combat",
+            "Dive",
+            "Endure",
+            "Facade",
+            "Focus Blast",
+            "Ice Punch",
+            "Liquidation",
+            "Mega Punch",
+            "Mud Shot",
+            "Muddy Water",
+            "Payback",
+            "Protect",
+            "Rest",
+            "Retaliate",
+            "Revenge",
+            "Reversal",
+            "Round",
+            "Sleep Talk",
+            "Snore",
+            "Substitute",
+            "Superpower",
+            "Taunt",
+            "Waterfall",
+            "Work Up"
+        ],
+        "tutor": [
+            "Coaching"
+        ],
+        "egg": [
+            "Circle Throw",
+            "Pain Split",
+            "Power-Up Punch",
+            "Seismic Toss",
+            "Soak",
+            "Sucker Punch"
+        ],
+        "level1_g3_7": []
+    }
+}

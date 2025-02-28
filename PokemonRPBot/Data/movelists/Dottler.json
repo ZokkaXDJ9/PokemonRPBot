@@ -1,0 +1,65 @@
+{
+    "number": 825,
+    "name": "Dottler",
+    "moves": {
+        "bronze": [
+            "Confusion",
+            "Light Screen",
+            "Reflect",
+            "Struggle Bug"
+        ],
+        "silver": [],
+        "gold": [],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Ally Switch",
+            "Attract",
+            "Body Press",
+            "Bug Buzz",
+            "Calm Mind",
+            "Endure",
+            "Energy Ball",
+            "Facade",
+            "Future Sight",
+            "Guard Swap",
+            "Helping Hand",
+            "Imprison",
+            "Iron Defense",
+            "Leech Life",
+            "Light Screen",
+            "Magic Room",
+            "Payback",
+            "Power Swap",
+            "Protect",
+            "Psychic",
+            "Psychic Terrain",
+            "Psyshock",
+            "Reflect",
+            "Rest",
+            "Round",
+            "Safeguard",
+            "Shadow Ball",
+            "Skill Swap",
+            "Sleep Talk",
+            "Snore",
+            "Solar Beam",
+            "Stored Power",
+            "Substitute",
+            "Trick",
+            "Trick Room",
+            "Wonder Room",
+            "Zen Headbutt"
+        ],
+        "tutor": [
+            "Expanding Force"
+        ],
+        "egg": [
+            "Infestation",
+            "Recover",
+            "Sticky Web",
+            "Supersonic"
+        ],
+        "level1_g3_7": []
+    }
+}

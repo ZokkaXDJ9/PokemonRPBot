@@ -1,0 +1,73 @@
+{
+    "number": 925,
+    "name": "Maushold",
+    "moves": {
+        "bronze": [
+            "Baby-Doll Eyes",
+            "Echoed Voice",
+            "Follow Me",
+            "Helping Hand",
+            "Pound",
+            "Tidy Up"
+        ],
+        "silver": [
+            "Bullet Seed",
+            "Double Hit",
+            "Encore",
+            "Hyper Voice",
+            "Play Rough",
+            "Super Fang"
+        ],
+        "gold": [
+            "Beat Up",
+            "Charm",
+            "Copycat",
+            "Population Bomb"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Aerial Ace",
+            "Agility",
+            "Bullet Seed",
+            "Charm",
+            "Chilling Water",
+            "Crunch",
+            "Dig",
+            "Encore",
+            "Endure",
+            "Facade",
+            "Fake Tears",
+            "Giga Impact",
+            "Grass Knot",
+            "Helping Hand",
+            "Hyper Beam",
+            "Hyper Voice",
+            "Low Kick",
+            "Low Sweep",
+            "Mud Shot",
+            "Mud-Slap",
+            "Play Rough",
+            "Protect",
+            "Rain Dance",
+            "Rest",
+            "Seed Bomb",
+            "Shadow Claw",
+            "Sleep Talk",
+            "Substitute",
+            "Sunny Day",
+            "Swift",
+            "Take Down",
+            "Taunt",
+            "Tera Blast",
+            "Thief",
+            "Thunder Wave",
+            "Trailblaze",
+            "U-turn",
+            "Water Pulse"
+        ],
+        "tutor": [],
+        "egg": [],
+        "level1_g3_7": []
+    }
+}

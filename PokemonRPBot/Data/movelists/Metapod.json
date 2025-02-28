@@ -1,0 +1,28 @@
+{
+    "number": 11,
+    "name": "Metapod",
+    "moves": {
+        "bronze": [
+            "Harden"
+        ],
+        "silver": [],
+        "gold": [],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Electroweb",
+            "Harden",
+            "Iron Defense"
+        ],
+        "tutor": [
+            "Bug Bite",
+            "Electroweb",
+            "Harden",
+            "Iron Defense"
+        ],
+        "egg": [],
+        "level1_g3_7": [
+            "Harden"
+        ]
+    }
+}

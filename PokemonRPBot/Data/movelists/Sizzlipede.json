@@ -1,0 +1,60 @@
+{
+    "number": 850,
+    "name": "Sizzlipede",
+    "moves": {
+        "bronze": [
+            "Bite",
+            "Ember",
+            "Smokescreen",
+            "Wrap"
+        ],
+        "silver": [
+            "Bug Bite",
+            "Coil",
+            "Flame Wheel",
+            "Slam"
+        ],
+        "gold": [
+            "Burn Up",
+            "Crunch",
+            "Fire Lash",
+            "Fire Spin",
+            "Lunge"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Attract",
+            "Brutal Swing",
+            "Bug Buzz",
+            "Crunch",
+            "Endure",
+            "Facade",
+            "Fire Spin",
+            "Heat Crash",
+            "Heat Wave",
+            "Leech Life",
+            "Power Whip",
+            "Protect",
+            "Rest",
+            "Round",
+            "Scald",
+            "Sleep Talk",
+            "Snore",
+            "Substitute",
+            "Sunny Day",
+            "Venoshock"
+        ],
+        "tutor": [
+            "Scorching Sands",
+            "Skitter Smack"
+        ],
+        "egg": [
+            "Defense Curl",
+            "Knock Off",
+            "Rollout",
+            "Struggle Bug"
+        ],
+        "level1_g3_7": []
+    }
+}

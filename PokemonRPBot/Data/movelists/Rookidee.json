@@ -1,0 +1,74 @@
+{
+    "number": 821,
+    "name": "Rookidee",
+    "moves": {
+        "bronze": [
+            "Hone Claws",
+            "Leer",
+            "Peck",
+            "Power Trip"
+        ],
+        "silver": [
+            "Drill Peck",
+            "Fury Attack",
+            "Pluck",
+            "Scary Face",
+            "Swagger",
+            "Taunt"
+        ],
+        "gold": [
+            "Brave Bird"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Aerial Ace",
+            "Agility",
+            "Air Cutter",
+            "Air Slash",
+            "Assurance",
+            "Attract",
+            "Brave Bird",
+            "Dual Wingbeat",
+            "Endure",
+            "Facade",
+            "Fake Tears",
+            "Fly",
+            "Focus Energy",
+            "Nasty Plot",
+            "Payback",
+            "Protect",
+            "Rest",
+            "Retaliate",
+            "Revenge",
+            "Reversal",
+            "Round",
+            "Scary Face",
+            "Sleep Talk",
+            "Snore",
+            "Spite",
+            "Substitute",
+            "Swift",
+            "Tailwind",
+            "Take Down",
+            "Taunt",
+            "Tera Blast",
+            "Thief",
+            "U-turn",
+            "Work Up"
+        ],
+        "tutor": [
+            "Dual Wingbeat"
+        ],
+        "egg": [
+            "Defog",
+            "Rock Smash",
+            "Roost",
+            "Sand Attack",
+            "Sky Attack",
+            "Spite",
+            "Tailwind"
+        ],
+        "level1_g3_7": []
+    }
+}

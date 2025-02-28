@@ -1,0 +1,78 @@
+{
+    "number": 970,
+    "name": "Glimmora",
+    "moves": {
+        "bronze": [
+            "Acid Spray",
+            "Harden",
+            "Rock Throw",
+            "Smack Down",
+            "Spiky Shield",
+            "Toxic Spikes"
+        ],
+        "silver": [
+            "Ancient Power",
+            "Rock Polish",
+            "Rock Slide",
+            "Sandstorm",
+            "Self-Destruct",
+            "Stealth Rock",
+            "Venoshock"
+        ],
+        "gold": [
+            "Acid Armor",
+            "Power Gem",
+            "Sludge Wave"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Acid Spray",
+            "Confuse Ray",
+            "Dazzling Gleam",
+            "Earth Power",
+            "Endure",
+            "Energy Ball",
+            "Facade",
+            "Flash Cannon",
+            "Giga Impact",
+            "Gunk Shot",
+            "Hyper Beam",
+            "Iron Defense",
+            "Light Screen",
+            "Meteor Beam",
+            "Mud Shot",
+            "Power Gem",
+            "Protect",
+            "Rain Dance",
+            "Reflect",
+            "Rest",
+            "Rock Blast",
+            "Rock Slide",
+            "Rock Tomb",
+            "Sand Tomb",
+            "Sandstorm",
+            "Sleep Talk",
+            "Sludge Bomb",
+            "Sludge Wave",
+            "Smack Down",
+            "Solar Beam",
+            "Spikes",
+            "Stealth Rock",
+            "Stone Edge",
+            "Substitute",
+            "Sunny Day",
+            "Tera Blast",
+            "Toxic",
+            "Toxic Spikes",
+            "Venoshock"
+        ],
+        "tutor": [],
+        "egg": [
+            "Explosion",
+            "Memento",
+            "Toxic"
+        ],
+        "level1_g3_7": []
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "number": 855,
+    "name": "Polteageist",
+    "moves": {
+        "bronze": [
+            "Aromatic Mist",
+            "Astonish",
+            "Mega Drain",
+            "Strength Sap",
+            "Teatime",
+            "Withdraw"
+        ],
+        "silver": [
+            "Aromatherapy",
+            "Protect",
+            "Sucker Punch",
+            "Sweet Scent"
+        ],
+        "gold": [
+            "Curse",
+            "Giga Drain",
+            "Memento",
+            "Nasty Plot",
+            "Shadow Ball",
+            "Shell Smash"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Ally Switch",
+            "Baton Pass",
+            "Calm Mind",
+            "Confuse Ray",
+            "Curse",
+            "Dark Pulse",
+            "Endure",
+            "Facade",
+            "Foul Play",
+            "Giga Drain",
+            "Giga Impact",
+            "Hex",
+            "Hyper Beam",
+            "Imprison",
+            "Light Screen",
+            "Magical Leaf",
+            "Metronome",
+            "Nasty Plot",
+            "Night Shade",
+            "Pain Split",
+            "Payback",
+            "Phantom Force",
+            "Poltergeist",
+            "Protect",
+            "Psybeam",
+            "Psychic",
+            "Psyshock",
+            "Reflect",
+            "Rest",
+            "Round",
+            "Self-Destruct",
+            "Shadow Ball",
+            "Skill Swap",
+            "Sleep Talk",
+            "Snore",
+            "Spite",
+            "Stored Power",
+            "Substitute",
+            "Tera Blast",
+            "Trick",
+            "Trick Room",
+            "Will-O-Wisp",
+            "Wonder Room"
+        ],
+        "tutor": [
+            "Poltergeist"
+        ],
+        "egg": [
+            "Ally Switch"
+        ],
+        "level1_g3_7": []
+    }
+}

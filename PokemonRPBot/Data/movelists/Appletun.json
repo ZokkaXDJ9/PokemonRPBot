@@ -1,0 +1,93 @@
+{
+    "number": 842,
+    "name": "Appletun",
+    "moves": {
+        "bronze": [
+            "Astonish",
+            "Curse",
+            "Growth",
+            "Headbutt",
+            "Recycle",
+            "Stomp",
+            "Sweet Scent",
+            "Withdraw"
+        ],
+        "silver": [
+            "Apple Acid",
+            "Body Slam",
+            "Bullet Seed",
+            "Leech Seed",
+            "Protect",
+            "Recover"
+        ],
+        "gold": [
+            "Dragon Pulse",
+            "Energy Ball",
+            "Iron Defense"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Amnesia",
+            "Attract",
+            "Body Press",
+            "Body Slam",
+            "Bulldoze",
+            "Bullet Seed",
+            "Curse",
+            "Draco Meteor",
+            "Dragon Pulse",
+            "Dragon Tail",
+            "Earthquake",
+            "Endure",
+            "Energy Ball",
+            "Facade",
+            "Giga Drain",
+            "Giga Impact",
+            "Grass Knot",
+            "Grassy Glide",
+            "Grassy Terrain",
+            "Gyro Ball",
+            "Heavy Slam",
+            "Helping Hand",
+            "High Horsepower",
+            "Hyper Beam",
+            "Iron Defense",
+            "Iron Head",
+            "Leaf Storm",
+            "Light Screen",
+            "Magical Leaf",
+            "Outrage",
+            "Payback",
+            "Pounce",
+            "Protect",
+            "Rain Dance",
+            "Reflect",
+            "Rest",
+            "Round",
+            "Safeguard",
+            "Seed Bomb",
+            "Sleep Talk",
+            "Snore",
+            "Solar Beam",
+            "Stomping Tantrum",
+            "Substitute",
+            "Sunny Day",
+            "Superpower",
+            "Take Down",
+            "Tera Blast",
+            "Trailblaze",
+            "Zen Headbutt"
+        ],
+        "tutor": [
+            "Grassy Glide"
+        ],
+        "egg": [
+            "Defense Curl",
+            "Recycle",
+            "Rollout",
+            "Sucker Punch"
+        ],
+        "level1_g3_7": []
+    }
+}

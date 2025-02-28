@@ -1,0 +1,85 @@
+{
+    "number": 599,
+    "name": "Klink",
+    "moves": {
+        "bronze": [
+            "Bind",
+            "Charge",
+            "Thunder Shock",
+            "Vise Grip"
+        ],
+        "silver": [
+            "Autotomize",
+            "Charge Beam",
+            "Discharge",
+            "Gear Grind",
+            "Metal Sound",
+            "Screech",
+            "ThunderShock"
+        ],
+        "gold": [
+            "Hyper Beam",
+            "Lock-On",
+            "Mirror Shot",
+            "Shift Gear",
+            "Zap Cannon"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Assurance",
+            "Charge Beam",
+            "Confide",
+            "Double Team",
+            "Endure",
+            "Facade",
+            "Flash Cannon",
+            "Frustration",
+            "Hidden Power",
+            "Hyper Beam",
+            "Iron Defense",
+            "Power Gem",
+            "Protect",
+            "Rest",
+            "Return",
+            "Rock Polish",
+            "Rock Smash",
+            "Round",
+            "Sandstorm",
+            "Screech",
+            "Sleep Talk",
+            "Snore",
+            "Substitute",
+            "Swagger",
+            "Thunder Wave",
+            "Thunderbolt",
+            "Toxic",
+            "Uproar",
+            "Volt Switch",
+            "Wild Charge"
+        ],
+        "tutor": [
+            "Bind",
+            "Gravity",
+            "Iron Defense",
+            "Magic Coat",
+            "Magnet Rise",
+            "Recycle",
+            "Rising Voltage",
+            "Shock Wave",
+            "Signal Beam",
+            "Sleep Talk",
+            "Snore",
+            "Steel Roller",
+            "Telekinesis",
+            "Uproar",
+            "Vice Grip",
+            "ViceGrip"
+        ],
+        "egg": [],
+        "level1_g3_7": [
+            "ViceGrip",
+            "Vice Grip"
+        ]
+    }
+}

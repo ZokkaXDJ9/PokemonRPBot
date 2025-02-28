@@ -1,0 +1,76 @@
+{
+    "number": 822,
+    "name": "Corvisquire",
+    "moves": {
+        "bronze": [
+            "Hone Claws",
+            "Leer",
+            "Peck",
+            "Power Trip"
+        ],
+        "silver": [
+            "Fury Attack",
+            "Pluck",
+            "Scary Face",
+            "Taunt"
+        ],
+        "gold": [
+            "Brave Bird",
+            "Drill Peck",
+            "Swagger"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Aerial Ace",
+            "Agility",
+            "Air Cutter",
+            "Air Slash",
+            "Assurance",
+            "Attract",
+            "Brave Bird",
+            "Dual Wingbeat",
+            "Endure",
+            "Facade",
+            "Fake Tears",
+            "Fly",
+            "Focus Energy",
+            "Hurricane",
+            "Nasty Plot",
+            "Payback",
+            "Protect",
+            "Rest",
+            "Retaliate",
+            "Revenge",
+            "Reversal",
+            "Round",
+            "Scary Face",
+            "Sleep Talk",
+            "Snore",
+            "Spite",
+            "Substitute",
+            "Sunny Day",
+            "Swift",
+            "Tailwind",
+            "Take Down",
+            "Taunt",
+            "Tera Blast",
+            "Thief",
+            "U-turn",
+            "Work Up"
+        ],
+        "tutor": [
+            "Dual Wingbeat"
+        ],
+        "egg": [
+            "Defog",
+            "Rock Smash",
+            "Roost",
+            "Sand Attack",
+            "Sky Attack",
+            "Spite",
+            "Tailwind"
+        ],
+        "level1_g3_7": []
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "number": 828,
+    "name": "Thievul",
+    "moves": {
+        "bronze": [
+            "Beat Up",
+            "Hone Claws",
+            "Quick Attack",
+            "Tail Whip",
+            "Thief"
+        ],
+        "silver": [
+            "Assurance",
+            "Nasty Plot",
+            "Snarl",
+            "Sucker Punch"
+        ],
+        "gold": [
+            "Foul Play",
+            "Night Slash",
+            "Parting Shot",
+            "Tail Slap"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Acrobatics",
+            "Agility",
+            "Assurance",
+            "Attract",
+            "Baton Pass",
+            "Beat Up",
+            "Crunch",
+            "Dark Pulse",
+            "Dig",
+            "Endure",
+            "Facade",
+            "Fake Tears",
+            "Fire Fang",
+            "Foul Play",
+            "Giga Impact",
+            "Grass Knot",
+            "Hyper Beam",
+            "Ice Fang",
+            "Mud Shot",
+            "Nasty Plot",
+            "Play Rough",
+            "Protect",
+            "Psychic",
+            "Rest",
+            "Round",
+            "Screech",
+            "Shadow Ball",
+            "Shadow Claw",
+            "Sleep Talk",
+            "Snarl",
+            "Snore",
+            "Substitute",
+            "Swift",
+            "Tail Slap",
+            "Taunt",
+            "Thief",
+            "Thunder Fang",
+            "U-turn"
+        ],
+        "tutor": [
+            "Burning Jealousy",
+            "Lash Out"
+        ],
+        "egg": [
+            "Howl",
+            "Knock Off",
+            "Quick Guard",
+            "Torment"
+        ],
+        "level1_g3_7": []
+    }
+}

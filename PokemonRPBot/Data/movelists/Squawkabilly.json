@@ -1,0 +1,70 @@
+{
+    "number": 931,
+    "name": "Squawkabilly",
+    "moves": {
+        "bronze": [
+            "Growl",
+            "Mimic",
+            "Peck",
+            "Quick Attack",
+            "Torment"
+        ],
+        "silver": [
+            "Aerial Ace",
+            "Copycat",
+            "Fly",
+            "Fury Attack",
+            "Taunt",
+            "Uproar"
+        ],
+        "gold": [
+            "Brave Bird",
+            "Facade",
+            "Reversal",
+            "Roost",
+            "Swagger"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Aerial Ace",
+            "Air Cutter",
+            "Air Slash",
+            "Brave Bird",
+            "Double-Edge",
+            "Dual Wingbeat",
+            "Endeavor",
+            "Endure",
+            "Facade",
+            "Fake Tears",
+            "Feather Dance",
+            "Fly",
+            "Foul Play",
+            "Giga Impact",
+            "Heat Wave",
+            "Helping Hand",
+            "Hurricane",
+            "Hyper Beam",
+            "Hyper Voice",
+            "Lash Out",
+            "Pounce",
+            "Protect",
+            "Rest",
+            "Reversal",
+            "Scary Face",
+            "Sleep Talk",
+            "Substitute",
+            "Sunny Day",
+            "Tailwind",
+            "Take Down",
+            "Taunt",
+            "Tera Blast",
+            "Thief",
+            "U-turn",
+            "Uproar"
+        ],
+        "tutor": [],
+        "egg": [],
+        "level1_g3_7": []
+    }
+}

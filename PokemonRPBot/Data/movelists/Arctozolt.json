@@ -1,0 +1,76 @@
+{
+    "number": 881,
+    "name": "Arctozolt",
+    "moves": {
+        "bronze": [
+            "Charge",
+            "Powder Snow",
+            "Thunder Shock"
+        ],
+        "silver": [
+            "Ancient Power",
+            "Echoed Voice",
+            "Pluck"
+        ],
+        "gold": [
+            "Avalanche",
+            "Blizzard",
+            "Bolt Beak",
+            "Discharge",
+            "Freeze-Dry",
+            "Icicle Crash",
+            "Slam"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Avalanche",
+            "Blizzard",
+            "Body Slam",
+            "Bulldoze",
+            "Electro Ball",
+            "Endure",
+            "Facade",
+            "Giga Impact",
+            "Hail",
+            "Hydro Pump",
+            "Hyper Beam",
+            "Hyper Voice",
+            "Ice Beam",
+            "Ice Fang",
+            "Icicle Spear",
+            "Icy Wind",
+            "Iron Tail",
+            "Low Kick",
+            "Mega Kick",
+            "Mega Punch",
+            "Payback",
+            "Protect",
+            "Rain Dance",
+            "Rest",
+            "Rock Blast",
+            "Rock Slide",
+            "Rock Tomb",
+            "Round",
+            "Sleep Talk",
+            "Snore",
+            "Stomping Tantrum",
+            "Stone Edge",
+            "Substitute",
+            "Surf",
+            "Taunt",
+            "Thunder",
+            "Thunder Fang",
+            "Thunder Punch",
+            "Thunder Wave",
+            "Thunderbolt",
+            "Wild Charge"
+        ],
+        "tutor": [
+            "Meteor Beam",
+            "Rising Voltage"
+        ],
+        "egg": [],
+        "level1_g3_7": []
+    }
+}

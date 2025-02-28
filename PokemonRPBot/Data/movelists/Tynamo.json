@@ -1,0 +1,39 @@
+{
+    "number": 602,
+    "name": "Tynamo",
+    "moves": {
+        "bronze": [
+            "Charge Beam",
+            "Spark",
+            "Tackle",
+            "Thunder Wave"
+        ],
+        "silver": [],
+        "gold": [],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Charge",
+            "Charge Beam",
+            "Knock Off",
+            "Spark",
+            "Tackle",
+            "Tera Blast",
+            "Thunder Wave"
+        ],
+        "tutor": [
+            "Charge Beam",
+            "Magnet Rise",
+            "Spark",
+            "Tackle",
+            "Thunder Wave"
+        ],
+        "egg": [],
+        "level1_g3_7": [
+            "Charge Beam",
+            "Spark",
+            "Tackle",
+            "Thunder Wave"
+        ]
+    }
+}

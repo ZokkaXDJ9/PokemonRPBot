@@ -1,0 +1,25 @@
+{
+    "number": 824,
+    "name": "Blipbug",
+    "moves": {
+        "bronze": [
+            "Struggle Bug"
+        ],
+        "silver": [],
+        "gold": [],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "DewpiderAraquanidFrosmoth",
+            "ShuckleJoltikGalvantulaDurantBlipbugDottlerOrbeetle"
+        ],
+        "tutor": [],
+        "egg": [
+            "Infestation",
+            "Recover",
+            "Sticky Web",
+            "Supersonic"
+        ],
+        "level1_g3_7": []
+    }
+}

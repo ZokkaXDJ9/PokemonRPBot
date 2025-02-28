@@ -1,0 +1,82 @@
+{
+    "number": 869,
+    "name": "Alcremie",
+    "moves": {
+        "bronze": [
+            "Aromatic Mist",
+            "Decorate",
+            "Sweet Kiss",
+            "Sweet Scent",
+            "Tackle"
+        ],
+        "silver": [
+            "Acid Armor",
+            "Aromatherapy",
+            "Attract",
+            "Charm",
+            "Draining Kiss"
+        ],
+        "gold": [
+            "Dazzling Gleam",
+            "Entrainment",
+            "Misty Terrain",
+            "Recover"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Alluring Voice",
+            "Attract",
+            "Calm Mind",
+            "Charm",
+            "Dazzling Gleam",
+            "Disarming Voice",
+            "Drain Punch",
+            "Draining Kiss",
+            "Encore",
+            "Endeavor",
+            "Endure",
+            "Energy Ball",
+            "Facade",
+            "Fake Tears",
+            "Fling",
+            "Giga Drain",
+            "Giga Impact",
+            "Helping Hand",
+            "Hyper Beam",
+            "Imprison",
+            "Light Screen",
+            "Magic Room",
+            "Magical Leaf",
+            "Metronome",
+            "Misty Explosion",
+            "Misty Terrain",
+            "Mystical Fire",
+            "Pain Split",
+            "Play Rough",
+            "Protect",
+            "Psych Up",
+            "Psychic",
+            "Psyshock",
+            "Rest",
+            "Round",
+            "Safeguard",
+            "Sleep Talk",
+            "Snore",
+            "Solar Beam",
+            "Stored Power",
+            "Substitute",
+            "Tera Blast",
+            "Tri Attack",
+            "Wonder Room"
+        ],
+        "tutor": [
+            "Misty Explosion"
+        ],
+        "egg": [
+            "Baby-Doll Eyes",
+            "Last Resort"
+        ],
+        "level1_g3_7": []
+    }
+}

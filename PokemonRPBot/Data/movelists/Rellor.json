@@ -1,0 +1,60 @@
+{
+    "number": 953,
+    "name": "Rellor",
+    "moves": {
+        "bronze": [
+            "Defense Curl",
+            "Sand Attack",
+            "Struggle Bug",
+            "Tackle"
+        ],
+        "silver": [
+            "Bug Bite",
+            "Dig",
+            "Mud Shot",
+            "Rollout",
+            "Take Down"
+        ],
+        "gold": [
+            "Lunge"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Bug Bite",
+            "Bug Buzz",
+            "Dig",
+            "Endure",
+            "Facade",
+            "Fling",
+            "Gunk Shot",
+            "Iron Defense",
+            "Leech Life",
+            "Lunge",
+            "Mud Shot",
+            "Mud-Slap",
+            "Pounce",
+            "Protect",
+            "Rest",
+            "Rock Tomb",
+            "Skitter Smack",
+            "Sleep Talk",
+            "Sludge Bomb",
+            "Struggle Bug",
+            "Substitute",
+            "Take Down",
+            "Tera Blast",
+            "Thief",
+            "Weather Ball",
+            "X-Scissor"
+        ],
+        "tutor": [],
+        "egg": [
+            "Cosmic Power",
+            "Memento",
+            "Recover",
+            "Weather Ball"
+        ],
+        "level1_g3_7": []
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "number": 882,
+    "name": "Dracovish",
+    "moves": {
+        "bronze": [
+            "Protect",
+            "Tackle",
+            "Water Gun"
+        ],
+        "silver": [
+            "Ancient Power",
+            "Bite",
+            "Brutal Swing"
+        ],
+        "gold": [
+            "Crunch",
+            "Dragon Breath",
+            "Dragon Pulse",
+            "Dragon Rush",
+            "Fishious Rend",
+            "Stomp",
+            "Super Fang"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Body Slam",
+            "Brine",
+            "Brutal Swing",
+            "Bulldoze",
+            "Crunch",
+            "Dive",
+            "Dragon Pulse",
+            "Earth Power",
+            "Earthquake",
+            "Endure",
+            "Facade",
+            "Giga Impact",
+            "Hydro Pump",
+            "Hyper Beam",
+            "Ice Fang",
+            "Iron Head",
+            "Leech Life",
+            "Liquidation",
+            "Low Kick",
+            "Mega Kick",
+            "Outrage",
+            "Protect",
+            "Psychic Fangs",
+            "Rain Dance",
+            "Rest",
+            "Rock Blast",
+            "Rock Slide",
+            "Rock Tomb",
+            "Round",
+            "Scald",
+            "Sleep Talk",
+            "Snore",
+            "Stomping Tantrum",
+            "Stone Edge",
+            "Substitute",
+            "Surf",
+            "Waterfall",
+            "Whirlpool",
+            "Zen Headbutt"
+        ],
+        "tutor": [
+            "Meteor Beam"
+        ],
+        "egg": [],
+        "level1_g3_7": []
+    }
+}

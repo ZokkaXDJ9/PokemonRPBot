@@ -1,0 +1,56 @@
+{
+    "number": 919,
+    "name": "Nymble",
+    "moves": {
+        "bronze": [
+            "Assurance",
+            "Astonish",
+            "Leer",
+            "Struggle Bug",
+            "Tackle"
+        ],
+        "silver": [
+            "Agility",
+            "Bug Bite",
+            "Double Kick",
+            "Endure",
+            "Feint",
+            "Screech"
+        ],
+        "gold": [
+            "First Impression",
+            "Sucker Punch"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Agility",
+            "Bug Bite",
+            "Bug Buzz",
+            "Endure",
+            "Facade",
+            "Leech Life",
+            "Pounce",
+            "Protect",
+            "Rain Dance",
+            "Rest",
+            "Skitter Smack",
+            "Sleep Talk",
+            "Struggle Bug",
+            "Substitute",
+            "Sunny Day",
+            "Take Down",
+            "Tera Blast",
+            "Thief",
+            "Trailblaze",
+            "U-turn",
+            "X-Scissor"
+        ],
+        "tutor": [],
+        "egg": [
+            "Counter",
+            "Skitter Smack"
+        ],
+        "level1_g3_7": []
+    }
+}

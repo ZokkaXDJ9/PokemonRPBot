@@ -1,0 +1,89 @@
+{
+    "number": 884,
+    "name": "Duraludon",
+    "moves": {
+        "bronze": [
+            "Leer",
+            "Metal Claw",
+            "Rock Smash"
+        ],
+        "silver": [
+            "Breaking Swipe",
+            "Dragon Tail",
+            "Hone Claws",
+            "Metal Sound"
+        ],
+        "gold": [
+            "Dragon Claw",
+            "Flash Cannon",
+            "Focus Energy",
+            "Hyper Beam",
+            "Iron Defense",
+            "Laser Focus",
+            "Metal Burst"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Attract",
+            "Body Press",
+            "Body Slam",
+            "Breaking Swipe",
+            "Brick Break",
+            "Dark Pulse",
+            "Double-Edge",
+            "Draco Meteor",
+            "Dragon Cheer",
+            "Dragon Claw",
+            "Dragon Pulse",
+            "Dragon Tail",
+            "Endure",
+            "Facade",
+            "Flash Cannon",
+            "Foul Play",
+            "Giga Impact",
+            "Gyro Ball",
+            "Heavy Slam",
+            "Hyper Beam",
+            "Iron Defense",
+            "Iron Head",
+            "Light Screen",
+            "Metal Claw",
+            "Metal Sound",
+            "Outrage",
+            "Protect",
+            "Reflect",
+            "Rest",
+            "Roar",
+            "Rock Slide",
+            "Rock Tomb",
+            "Round",
+            "Scary Face",
+            "Screech",
+            "Sleep Talk",
+            "Snarl",
+            "Snore",
+            "Solar Beam",
+            "Stealth Rock",
+            "Steel Beam",
+            "Stomping Tantrum",
+            "Stone Edge",
+            "Substitute",
+            "Swords Dance",
+            "Take Down",
+            "Tera Blast",
+            "Thunder",
+            "Thunder Wave",
+            "Thunderbolt"
+        ],
+        "tutor": [
+            "Steel Roller"
+        ],
+        "egg": [
+            "Mirror Coat",
+            "Night Slash",
+            "Slash"
+        ],
+        "level1_g3_7": []
+    }
+}

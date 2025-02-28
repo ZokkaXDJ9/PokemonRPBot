@@ -1,0 +1,101 @@
+{
+    "number": 756,
+    "name": "Shiinotic",
+    "moves": {
+        "bronze": [
+            "Absorb",
+            "Astonish",
+            "Confuse Ray",
+            "Flash",
+            "Ingrain"
+        ],
+        "silver": [
+            "Giga Drain",
+            "Mega Drain",
+            "Moonlight",
+            "Sleep Powder",
+            "Strength Sap"
+        ],
+        "gold": [
+            "Dazzling Gleam",
+            "Dream Eater",
+            "Moonblast",
+            "Spore",
+            "Spotlight"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Amnesia",
+            "Attract",
+            "Charge Beam",
+            "Confide",
+            "Dazzling Gleam",
+            "Double Team",
+            "Drain Punch",
+            "Draining Kiss",
+            "Dream Eater",
+            "Endure",
+            "Energy Ball",
+            "Facade",
+            "Frustration",
+            "Giga Drain",
+            "Giga Impact",
+            "Grass Knot",
+            "Hidden Power",
+            "Hyper Beam",
+            "Light Screen",
+            "Magic Room",
+            "Nature Power",
+            "Pollen Puff",
+            "Protect",
+            "Rain Dance",
+            "Rest",
+            "Return",
+            "Round",
+            "Safeguard",
+            "Seed Bomb",
+            "Sleep Talk",
+            "Sludge Bomb",
+            "Snore",
+            "Solar Beam",
+            "Substitute",
+            "Sunny Day",
+            "Swagger",
+            "Thunder Wave",
+            "Toxic",
+            "Weather Ball",
+            "Wonder Room"
+        ],
+        "tutor": [
+            "Absorb",
+            "After You",
+            "Astonish",
+            "Flash",
+            "Giga Drain",
+            "Ingrain",
+            "Magic Coat",
+            "Magic Room",
+            "Recycle",
+            "Seed Bomb",
+            "Signal Beam",
+            "Snore",
+            "Synthesis",
+            "Wonder Room",
+            "Worry Seed"
+        ],
+        "egg": [
+            "Amnesia",
+            "Growth",
+            "Leech Seed",
+            "Poison Powder",
+            "Stun Spore"
+        ],
+        "level1_g3_7": [
+            "Absorb",
+            "Astonish",
+            "Flash",
+            "Ingrain"
+        ]
+    }
+}

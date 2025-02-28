@@ -1,0 +1,82 @@
+{
+    "number": 857,
+    "name": "Hattrem",
+    "moves": {
+        "bronze": [
+            "Brutal Swing",
+            "Confusion",
+            "Disarming Voice",
+            "Life Dew",
+            "Play Nice"
+        ],
+        "silver": [
+            "Aromatherapy",
+            "Aromatic Mist",
+            "Dazzling Gleam",
+            "Heal Pulse",
+            "Psybeam"
+        ],
+        "gold": [
+            "Calm Mind",
+            "Healing Wish",
+            "Psychic"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Attract",
+            "Baton Pass",
+            "Brutal Swing",
+            "Calm Mind",
+            "Charm",
+            "Dark Pulse",
+            "Dazzling Gleam",
+            "Disarming Voice",
+            "Draining Kiss",
+            "Endure",
+            "Expanding Force",
+            "Facade",
+            "Future Sight",
+            "Giga Drain",
+            "Helping Hand",
+            "Imprison",
+            "Light Screen",
+            "Magical Leaf",
+            "Metronome",
+            "Misty Terrain",
+            "Mystical Fire",
+            "Play Rough",
+            "Protect",
+            "Psybeam",
+            "Psych Up",
+            "Psychic",
+            "Psychic Terrain",
+            "Psyshock",
+            "Reflect",
+            "Rest",
+            "Round",
+            "Safeguard",
+            "Skill Swap",
+            "Sleep Talk",
+            "Snore",
+            "Stored Power",
+            "Substitute",
+            "Swift",
+            "Tera Blast",
+            "Thunder Wave",
+            "Trick",
+            "Trick Room"
+        ],
+        "tutor": [
+            "Expanding Force"
+        ],
+        "egg": [
+            "After You",
+            "Aromatic Mist",
+            "Mystical Fire",
+            "Nuzzle",
+            "Quash"
+        ],
+        "level1_g3_7": []
+    }
+}

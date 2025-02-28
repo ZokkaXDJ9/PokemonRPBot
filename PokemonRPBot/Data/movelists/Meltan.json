@@ -1,0 +1,50 @@
+{
+    "number": 808,
+    "name": "Meltan",
+    "moves": {
+        "bronze": [
+            "Harden",
+            "Tail Whip",
+            "Thunder Shock"
+        ],
+        "silver": [
+            "Acid Armor",
+            "Headbutt",
+            "Thunder Wave"
+        ],
+        "gold": [
+            "Flash Cannon"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Acid Armor",
+            "Endure",
+            "Facade",
+            "Flash Cannon",
+            "Gyro Ball",
+            "Harden",
+            "Headbutt",
+            "Iron Defense",
+            "Protect",
+            "Rest",
+            "Round",
+            "Sleep Talk",
+            "Snore",
+            "Substitute",
+            "Tail Whip",
+            "Thunder Shock",
+            "Thunder Wave",
+            "Thunderbolt"
+        ],
+        "tutor": [
+            "Harden",
+            "Headbutt"
+        ],
+        "egg": [],
+        "level1_g3_7": [
+            "Harden",
+            "Headbutt"
+        ]
+    }
+}

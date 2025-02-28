@@ -1,0 +1,40 @@
+{
+    "number": 664,
+    "name": "Scatterbug",
+    "moves": {
+        "bronze": [
+            "String Shot",
+            "Stun Spore",
+            "Tackle"
+        ],
+        "silver": [
+            "Bug Bite"
+        ],
+        "gold": [],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Bug Bite",
+            "Pounce",
+            "String Shot",
+            "Struggle Bug",
+            "Stun Spore",
+            "Tackle",
+            "Tera Blast"
+        ],
+        "tutor": [
+            "Bug Bite",
+            "String Shot",
+            "Tackle"
+        ],
+        "egg": [
+            "Poison Powder",
+            "Rage Powder",
+            "Stun Spore"
+        ],
+        "level1_g3_7": [
+            "String Shot",
+            "Tackle"
+        ]
+    }
+}

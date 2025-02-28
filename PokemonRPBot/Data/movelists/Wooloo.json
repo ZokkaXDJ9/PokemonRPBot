@@ -1,0 +1,53 @@
+{
+    "number": 831,
+    "name": "Wooloo",
+    "moves": {
+        "bronze": [
+            "Copycat",
+            "Defense Curl",
+            "Growl",
+            "Tackle"
+        ],
+        "silver": [
+            "Double Kick",
+            "Guard Split",
+            "Guard Swap",
+            "Headbutt",
+            "Reversal",
+            "Take Down"
+        ],
+        "gold": [
+            "Cotton Guard",
+            "Double-Edge"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Agility",
+            "Attract",
+            "Electro Ball",
+            "Endure",
+            "Facade",
+            "Guard Swap",
+            "Payback",
+            "Protect",
+            "Rest",
+            "Reversal",
+            "Round",
+            "Sleep Talk",
+            "Snore",
+            "Substitute",
+            "Thunder Wave",
+            "Wild Charge"
+        ],
+        "tutor": [
+            "Grassy Glide"
+        ],
+        "egg": [
+            "Counter",
+            "Stomp",
+            "Swagger"
+        ],
+        "level1_g3_7": []
+    }
+}
