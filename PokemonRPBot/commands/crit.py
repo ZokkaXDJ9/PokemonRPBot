@@ -30,11 +30,8 @@ class CritCommand(commands.Cog):
         ignore_defense: Literal["yes", "no"] = "no"  # Affects critical multiplier
     ):
         """
-        Final Formula (without defense parameter):
-        (Rolled damage + STAB + Super/Double Effective + Items + Weather)
-        * CritMultiplier
-        + StatBoosts
-        - NotVeryEffectiveReduction
+        Final Formula:
+        Base Damage = (Rolled damage + STAB + SE + Items + Weather) x CritMultiplier + StatBoosts - NVE
         """
 
         # 1. Base additive damage
@@ -72,7 +69,7 @@ class CritCommand(commands.Cog):
         # 5. Ensure damage doesn't fall below zero
         total_damage = max(total_damage, 0)
 
-        await interaction.response.send_message(f"Final damage: {total_damage}")
+        await interaction.response.send_message(f"Base damage: {total_damage}")
 
 
 async def setup(bot):
