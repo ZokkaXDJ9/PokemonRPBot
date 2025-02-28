@@ -11,6 +11,7 @@ COMMANDS = [
     "commands.r",    
     "commands.roll",
     "commands.rule",
+    "commands.weather",
     "commands.open_box"
     ]
 
@@ -21,6 +22,5 @@ COMMANDS_NOT_LOADED = [
     "commands.stats",
     "commands.learns",
     "commands.move",
-    "commands.weather",
     "commands.ability",
 ]
