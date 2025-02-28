@@ -15,10 +15,11 @@ class CritCommand(commands.Cog):
     async def crit(
         self,
         interaction: discord.Interaction,
-        damage: int,
-        stab: Literal["yes", "no"] = "no",
-        bonus: int = 0,
-        item_bonus: int = 0,
+        damage: int,  # Rolled damage
+        stab: Literal["yes", "no"] = "no",  # Whether STAB is applied
+        item_bonus: int = 0,               # Items
+        weather: int = 0,                  # Weather effects
+        stat_boosts: int = 0,              # Stat boosts
         effective: Literal[
             "neutral",
             "super_effective",
@@ -26,42 +27,53 @@ class CritCommand(commands.Cog):
             "not_effective",
             "double_not_effective",
         ] = "neutral",
+        ignore_defense: Literal["yes", "no"] = "no"  # Affects critical multiplier
     ):
-        # Base damage calculation
-        total_damage = damage
+        """
+        Final Formula (without defense parameter):
+        (Rolled damage + STAB + Super/Double Effective + Items + Weather)
+        * CritMultiplier
+        + StatBoosts
+        - NotVeryEffectiveReduction
+        """
 
-        # Apply STAB if applicable
+        # 1. Base additive damage
+        base_damage = damage
+
+        # Add STAB if applicable
         if stab == "yes":
-            total_damage += 1  # Add 1 for STAB
+            base_damage += 1
 
-        # Apply item bonus
-        total_damage += item_bonus  # Add item bonus
-
-        # Apply generic bonus
-        total_damage += bonus  # Add any additional bonuses
-
-        # Apply additive effectiveness modifiers BEFORE critical multiplier
+        # Add super/double effective (additive portion)
         if effective == "super_effective":
-            total_damage += 1  # Add 1 for super effective
+            base_damage += 1
         elif effective == "double_effective":
-            total_damage += 2  # Add 2 for double effective
-        # Do not handle subtractive effectiveness here
+            base_damage += 2
 
-        # Apply critical multiplier
-        total_damage = math.ceil(total_damage * 1.5)  # Multiply by 1.5 and round up
+        # Add item bonus
+        base_damage += item_bonus
 
-        # Apply subtractive effectiveness modifiers AFTER critical multiplier
+        # Add weather effects
+        base_damage += weather
+
+        # 2. Critical multiplier
+        crit_multiplier = 1.25 if ignore_defense == "yes" else 1.5
+        total_damage = math.ceil(base_damage * crit_multiplier)
+
+        # 3. Add stat boosts
+        total_damage += stat_boosts
+
+        # 4. Subtract not-very-effective reductions
         if effective == "not_effective":
-            total_damage -= 1  # Subtract 1 for not very effective
+            total_damage -= 1
         elif effective == "double_not_effective":
-            total_damage -= 2  # Subtract 2 for double not effective
-        # "neutral", "super_effective", and "double_effective" do not subtract damage
+            total_damage -= 2
 
-        # Ensure that damage doesn't drop below zero
+        # 5. Ensure damage doesn't fall below zero
         total_damage = max(total_damage, 0)
 
-        # Respond with the final damage
-        await interaction.response.send_message(f"Base damage: {total_damage}")
+        await interaction.response.send_message(f"Final damage: {total_damage}")
+
 
 async def setup(bot):
     await bot.add_cog(CritCommand(bot))
