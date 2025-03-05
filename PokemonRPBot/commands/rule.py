@@ -4,8 +4,51 @@ from discord.ext import commands
 import os
 from helpers import load_rule  # Function to load rule data
 
-# Directory where rule files are stored
 RULES_DIRECTORY = os.path.join(os.path.dirname(__file__), "../Data/rules")
+MAX_DISCORD_MESSAGE_LENGTH = 2000
+
+def chunk_message_preserve_formatting(text: str, limit: int = 2000) -> list[str]:
+    """
+    Splits 'text' into chunks of at most 'limit' characters each,
+    preserving all original spacing/newlines and attempting
+    not to break words. If a single word is longer than 'limit',
+    it will necessarily be broken mid-word.
+    """
+    chunks = []
+    i = 0
+    n = len(text)
+
+    while i < n:
+        # If the remaining text is short enough, just append it
+        if n - i <= limit:
+            chunks.append(text[i:])
+            break
+
+        end_index = i + limit
+
+        candidate_break = end_index
+        if not text[end_index - 1].isspace() and end_index < n and not text[end_index].isspace():
+            whitespace_pos = -1
+            for sep in (" ", "\n", "\r", "\t"):
+                pos = text.rfind(sep, i, end_index)
+                if pos > whitespace_pos:
+                    whitespace_pos = pos
+
+            # If we found whitespace in the chunk, break there
+            if whitespace_pos != -1 and whitespace_pos >= i:
+                candidate_break = whitespace_pos
+        if candidate_break == i:
+            candidate_break = end_index
+
+        chunk = text[i:candidate_break]
+        chunks.append(chunk)
+
+        i = candidate_break
+
+        while i < n and text[i].isspace():
+            i += 1
+
+    return chunks
 
 class RulesCommand(commands.Cog):
     def __init__(self, bot):
@@ -19,8 +62,8 @@ class RulesCommand(commands.Cog):
         rule_names = [
             f[:-5] for f in os.listdir(RULES_DIRECTORY) if f.endswith(".json")
         ]
-        
-        # Filter rules to those that contain the current input as a substring (case insensitive)
+
+        # Filter rules to those that contain the current input as a substring (case-insensitive)
         suggestions = [
             app_commands.Choice(name=rule, value=rule)
             for rule in rule_names
@@ -34,7 +77,7 @@ class RulesCommand(commands.Cog):
     @app_commands.autocomplete(name=autocomplete_rule)
     async def rules(self, interaction: discord.Interaction, name: str):
         # Load the rule data from JSON file
-        rule = load_rule(name)  # Use a helper function to load rule data
+        rule = load_rule(name)
         if rule is None:
             await interaction.response.send_message(
                 content=f"Unable to find a rule named **{name}**, sorry! If that wasn't a typo, maybe it isn't implemented yet?",
@@ -49,13 +92,18 @@ class RulesCommand(commands.Cog):
 
 {rule['text']}
 """
-
-        # Optionally add the "example" field if it is not empty
         if rule.get("example"):
             response += f"**Example**: {rule['example']}\n"
 
-        # Send the message as plain text, formatted with Markdown
-        await interaction.response.send_message(response)
+        # Split the response in a way that preserves all formatting
+        chunks = chunk_message_preserve_formatting(response, MAX_DISCORD_MESSAGE_LENGTH)
+
+        # Send the first chunk with interaction.response
+        await interaction.response.send_message(chunks[0])
+
+        # Send remaining chunks via followup
+        for chunk in chunks[1:]:
+            await interaction.followup.send(chunk)
 
 async def setup(bot):
     await bot.add_cog(RulesCommand(bot))
