@@ -2,6 +2,6 @@
   "name": "Paralysis",
   "description": "Your muscles are cramped and you can hardly move!",
   "resist": "Can’t be resisted.",
-  "effect": "The afflicted character's Dexterity is halved (rounded down) for the purposes of Initiative. Before using a move, roll 1d6. On a 1, you fail to execute it. Electric-type Pokèmon are immune.",
+  "effect": "The afflicted character's Dexterity is halved (rounded down) for the purposes of Initiative. Before using a move, roll 1d6. On a 1, you fail to execute it. Electric-type Pokémon are immune.",
   "duration": "24 hours."
 }
