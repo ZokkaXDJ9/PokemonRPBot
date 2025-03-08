@@ -1,0 +1,14 @@
+{
+  "number": 0,
+  "name": "Pokemon Name",
+  "moves": {
+    "bronze": ["A", "B", "..."],
+    "silver": ["A", "B", "..."],
+    "gold": ["A", "B", "..."],
+    "platinum": ["A", "B", "..."],
+    "diamond": [],
+    "tm": ["A", "B", "C"],
+    "egg": ["D", "E", "F"],
+    "tutor": ["G", "H", "I"]
+  }
+}
