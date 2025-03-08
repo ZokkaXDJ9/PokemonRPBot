@@ -1,87 +1,149 @@
 import discord
 from discord import app_commands
 from discord.ext import commands
-from data_loader import load_pokemon_data, get_pokemon_moves, get_additional_moves, pokemon_base_data
+import json
+import os
 
-class MoveRanks:
-    RANKS = {
-        "Bronze": "<:badgebronze:1272532685197152349>",
-        "Silver": "<:badgesilver:1272533590697185391>",
-        "Gold": "<:badgegold:1272532681992962068>",
-        "Platinum": "<:badgeplatinum:1272533593750507570>",
-        "Diamond": "<:badgediamond:1272532683431481445>"
-    }
+# Helper function to join moves with the pipe separator.
+def format_moves(moves_list: list) -> str:
+    return "  |  ".join(moves_list) if moves_list else "None"
 
-    @classmethod
-    def get_rank_emoji(cls, rank):
-        return cls.RANKS.get(rank, "")
+class LearnMovesView(discord.ui.View):
+    def __init__(self, pokemon_data: dict, author: discord.User):
+        super().__init__(timeout=180)  # timeout in seconds
+        self.pokemon_data = pokemon_data
+        self.author = author
 
-
-class LearnsCommand(commands.Cog):
-    def __init__(self, bot):
-        self.bot = bot
-
-    async def autocomplete_pokemon(
-        self, interaction: discord.Interaction, current: str
-    ) -> list[app_commands.Choice[str]]:
-        pokemon_names = [data["name"] for data in pokemon_base_data.values()]
-        suggestions = [
-            app_commands.Choice(name=name, value=name)
-            for name in sorted(pokemon_names)
-            if current.lower() in name.lower()
-        ]
-        return suggestions[:25]
-
-    @app_commands.command(name="learns", description="Display moves a Pokémon can learn.")
-    @app_commands.autocomplete(pokemon_name=autocomplete_pokemon)
-    async def learns(self, interaction: discord.Interaction, pokemon_name: str):
-        pokemon_data = load_pokemon_data(pokemon_name)
-        if not pokemon_data:
-            await interaction.response.send_message(
-                content=f"Unable to find a Pokémon named **{pokemon_name}**.",
-                ephemeral=True
-            )
+    @discord.ui.button(label="Show all learnable Moves", style=discord.ButtonStyle.primary)
+    async def show_all_moves(self, interaction: discord.Interaction, button: discord.ui.Button):
+        # Restrict button usage to the command author.
+        if interaction.user.id != self.author.id:
+            await interaction.response.send_message("You did not invoke this command.", ephemeral=True)
             return
 
-        # Build the moves display text
-        learnable_moves_text = self.build_moves_by_rank(pokemon_name, pokemon_data)
+        # Disable the button (grey it out) on the original message.
+        for child in self.children:
+            child.disabled = True
+        await interaction.response.edit_message(view=self)
 
-        # Button to show additional moves
-        view = discord.ui.View()
-        button = discord.ui.Button(label="Show Additional Moves", style=discord.ButtonStyle.primary)
-        view.add_item(button)
+        # Prepare header and sections for TM, Egg, and Tutor moves.
+        header = f"### {self.pokemon_data.get('name', 'Unknown')} [#{self.pokemon_data.get('number', '?')}]"
+        moves = self.pokemon_data.get("moves", {})
 
-        # Define and add a callback for the button
-        async def button_callback(interaction: discord.Interaction):
-            await self.show_additional_moves_callback(interaction, pokemon_data)
-        button.callback = button_callback
+        tm_moves = format_moves(moves.get("tm", []))
+        egg_moves = format_moves(moves.get("egg", []))
+        tutor_moves = format_moves(moves.get("tutor", []))
 
-        await interaction.response.send_message(content=learnable_moves_text, view=view)
+        # Build each section as a complete unit.
+        sections = [
+            (":cd: **TM Moves**", tm_moves),
+            (":egg: **Egg Moves**", egg_moves),
+            (":teacher: **Tutor**", tutor_moves)
+        ]
 
-    def build_moves_by_rank(self, pokemon_name, pokemon_data):
-        """Builds the moves text grouped by rank."""
-        moves_text = f"### {pokemon_name} [#{pokemon_data['number']}]\n"
-        moves = pokemon_data.get("moves", {})
-        for rank, emoji in MoveRanks.RANKS.items():
-            rank_moves = moves.get(rank, [])
-            if rank_moves:
-                moves_text += f"{emoji} **{rank}**\n" + " | ".join(sorted(rank_moves)) + "\n\n"
-        return moves_text
+        # Pack sections into messages, ensuring none exceeds 2000 characters.
+        messages = []
+        current_message = header  # start with header in every message
+        for title, content in sections:
+            section_text = f"{title}\n{content}"
+            # If adding this section would exceed 2000 characters, start a new message.
+            if len(current_message) + 2 + len(section_text) > 2000:
+                messages.append(current_message)
+                current_message = header + "\n\n" + section_text
+            else:
+                current_message += "\n\n" + section_text
+        messages.append(current_message)
 
-    async def show_additional_moves_callback(self, interaction, pokemon_data):
-        """Displays all moves for a Pokémon using `get_additional_moves`."""
-        # Properly defer and handle the follow-up response
-        await interaction.response.defer()
-    
-        # Use get_additional_moves to fetch the full list of moves for this Pokémon
-        pokemon_name = pokemon_data["name"]
-        message_parts = get_additional_moves(pokemon_name)
-    
-        # Send each part individually if there are multiple messages
-        for part in message_parts:
-            await interaction.followup.send(content=part)
+        # Send each message as a follow-up reply.
+        for msg in messages:
+            await interaction.followup.send(msg, ephemeral=False)
 
+class MovesCog(commands.Cog):
+    def __init__(self, bot: commands.Bot):
+        self.bot = bot
 
-# Register the cog
-async def setup(bot):
-    await bot.add_cog(LearnsCommand(bot))
+    @app_commands.command(name="learns", description="Show move list info for a Pokémon")
+    async def learns(self, interaction: discord.Interaction, pokemon: str):
+        """
+        Displays a Pokémon’s move list as defined in a JSON file.
+        
+        The JSON file should be in data/movelists/<pokemon_name>.json with the structure:
+        {
+          "number": 0,
+          "name": "Pokemon Name",
+          "moves": {
+            "bronze": ["A", "B", "..."],
+            "silver": ["A", "B", "..."],
+            "gold": ["A", "B", "..."],
+            "platinum": ["A", "B", "..."],
+            "diamond": [],
+            "tm": ["A", "B", "C"],
+            "egg": ["D", "E", "F"],
+            "tutor": ["G", "H", "I"]
+          }
+        }
+        """
+        filename = os.path.join("data", "movelists", f"{pokemon.lower()}.json")
+        if not os.path.exists(filename):
+            await interaction.response.send_message(f"Could not find data for Pokémon **{pokemon}**.", ephemeral=True)
+            return
+
+        try:
+            with open(filename, "r", encoding="utf-8") as f:
+                data = json.load(f)
+        except Exception as e:
+            await interaction.response.send_message("Error loading the Pokémon data.", ephemeral=True)
+            print(f"Error loading {filename}: {e}")
+            return
+
+        moves = data.get("moves", {})
+        header = f"### {data.get('name', 'Unknown')} [#{data.get('number', '?')}]"
+        bronze_moves = format_moves(moves.get("bronze", []))
+        silver_moves = format_moves(moves.get("silver", []))
+        gold_moves = format_moves(moves.get("gold", []))
+        platinum_moves = format_moves(moves.get("platinum", []))
+
+        # Build the initial message text by including only non-empty rank sections.
+        rank_sections = []
+        rank_data = [
+            ("<:badgebronze:1272532685197152349> **Bronze**", bronze_moves),
+            ("<:badgesilver:1272533590697185391> **Silver**", silver_moves),
+            ("<:badgegold:1272532681992962068> **Gold**", gold_moves),
+            ("<:badgeplatinum:1272533593750507570> **Platinum**", platinum_moves)
+        ]
+        for rank_title, moves_text in rank_data:
+            if moves_text != "None":
+                rank_sections.append(f"{rank_title}\n{moves_text}")
+
+        initial_text = header
+        if rank_sections:
+            initial_text += "\n\n" + "\n\n".join(rank_sections)
+
+        view = LearnMovesView(pokemon_data=data, author=interaction.user)
+        await interaction.response.send_message(initial_text, view=view)
+
+    @learns.autocomplete("pokemon")
+    async def pokemon_autocomplete(self, interaction: discord.Interaction, current: str):
+        """
+        Autocomplete callback for the 'pokemon' argument.
+        It scans the data/movelists/ folder for JSON files and suggests Pokémon names that contain
+        the currently typed string.
+        """
+        suggestions = []
+        folder = os.path.join("data", "movelists")
+        if not os.path.exists(folder):
+            return suggestions
+
+        for filename in os.listdir(folder):
+            if filename.endswith(".json"):
+                # Remove the .json extension.
+                pokemon_name = filename[:-5]
+                if current.lower() in pokemon_name.lower():
+                    suggestions.append(app_commands.Choice(name=pokemon_name.capitalize(), value=pokemon_name))
+                    if len(suggestions) >= 25:
+                        break
+        return suggestions
+
+# Setup function to add the cog.
+async def setup(bot: commands.Bot):
+    await bot.add_cog(MovesCog(bot))
