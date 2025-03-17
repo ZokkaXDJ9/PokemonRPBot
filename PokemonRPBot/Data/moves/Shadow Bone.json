@@ -1,27 +1,11 @@
 {
-    "Name": "Shadow Bone",
-    "Type": "Ghost",
-    "Power": 3,
-    "Damage1": "Strength",
-    "Damage2": "",
-    "Accuracy1": "Dexterity",
-    "Accuracy2": "Brawl",
-    "Target": "Foe",
-    "Effect": "Roll 2 Chance Dice to Reduce the Foe's Defense.",
-    "Description": "The bone that this Pokemon uses as a weapon contains a spirit, that spirit may cling onto a victim, creating openings for its master.",
-    "_id": "shadow-bone",
-    "Attributes": {},
-    "AddedEffects": {
-        "StatChanges": [
-            {
-                "Stats": [
-                    "Def"
-                ],
-                "Stages": -1,
-                "ChanceDice": 2,
-                "Affects": "Targets"
-            }
-        ]
-    },
-    "Category": "Physical"
+  "name": "Shadow Bone",
+  "type": "Ghost",
+  "power": 3,
+  "damage": "Strength",
+  "accuracy": "Dexterity",
+  "target": "Foe",
+  "effect": "Ranged. Roll 2 Chance Dice to Reduce the Foe's Defense.",
+  "description": "The bone that this Pokemon uses as a weapon contains a spirit, that spirit may cling onto a victim, creating openings for its master.",
+  "category": "Physical"
 }

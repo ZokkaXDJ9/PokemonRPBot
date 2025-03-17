@@ -1,16 +1,11 @@
 {
-    "Name": "Fire Pledge",
-    "Type": "Fire",
-    "Power": 2,
-    "Damage1": "Special",
-    "Damage2": "",
-    "Accuracy1": "Dexterity",
-    "Accuracy2": "Channel",
-    "Target": "Battlefield and Area",
-    "Effect": "All flammable plants and objects in the battlefield are covered in flames. Roll 1 Dice of Fire Damage at the end of every Round against everyone on the field.",
-    "Description": "The Pokemon chants to invoke the power of Fire. Its pledge is heard, then the flames consume everything around.",
-    "_id": "fire-pledge",
-    "Attributes": {},
-    "AddedEffects": {},
-    "Category": "Special"
+  "name": "Fire Pledge",
+  "type": "Fire",
+  "power": 2,
+  "damage": "Special",
+  "accuracy": "Dexterity",
+  "target": "All Foes",
+  "effect": "All flammable plants and objects in the battlefield are covered in flames.  Deal 1 Fire Damage at the end of every Round against all foes. This effect lasts 4 Rounds.",
+  "description": "The Pokemon chants to invoke the power of Fire. Its pledge is heard, then the flames consume the users enemies.",
+  "category": "Special"
 }

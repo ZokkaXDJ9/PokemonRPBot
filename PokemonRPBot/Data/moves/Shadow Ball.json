@@ -1,27 +1,11 @@
 {
-    "Name": "Shadow Ball",
-    "Type": "Ghost",
-    "Power": 3,
-    "Damage1": "Special",
-    "Damage2": "",
-    "Accuracy1": "Dexterity",
-    "Accuracy2": "Channel",
-    "Target": "Foe",
-    "Effect": "Roll 1 Chance Dice to Reduce foe's Sp. Defense.",
-    "Description": "The Pokemon hurls a sphere made of shadow and dark matter to harm the foe.",
-    "_id": "shadow-ball",
-    "Attributes": {},
-    "AddedEffects": {
-        "StatChanges": [
-            {
-                "Stats": [
-                    "SpDef"
-                ],
-                "Stages": -1,
-                "ChanceDice": 1,
-                "Affects": "Targets"
-            }
-        ]
-    },
-    "Category": "Special"
-}
+    "name": "Shadow Ball",
+    "type": "Ghost",
+    "power": 3,
+    "damage": "Special",
+    "accuracy": "Dexterity",
+    "target": "Foe",
+    "effect": "Roll 2 Chance Dice to reduce foe's Sp. Defense.",
+    "description": "The pokemon hurls a sphere made of shadow and dark matter to harm the foe.",
+    "category": "Special"
+  }

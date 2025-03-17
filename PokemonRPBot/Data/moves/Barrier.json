@@ -1,26 +1,11 @@
 {
-    "Name": "Barrier",
-    "Type": "Psychic",
-    "Power": 0,
-    "Damage1": "",
-    "Damage2": "",
-    "Accuracy1": "Special",
-    "Accuracy2": "Channel",
-    "Target": "Foe",
-    "Effect": "Increase the User's Defense by 2.",
-    "Description": "The user casts a protective field around itself.",
-    "_id": "barrier",
-    "Attributes": {},
-    "AddedEffects": {
-        "StatChanges": [
-            {
-                "Stats": [
-                    "Def"
-                ],
-                "Stages": 2,
-                "Affects": "User"
-            }
-        ]
-    },
-    "Category": "Support"
+  "name": "Barrier",
+  "type": "Psychic",
+  "power": 0,
+  "damage": "",
+  "accuracy": "Special",
+  "target": "User",
+  "effect": "Increase the User's Defense by 2.",
+  "description": "The user casts a protective field around itself.",
+  "category": "Support"
 }

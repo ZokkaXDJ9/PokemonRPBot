@@ -1,19 +1,11 @@
 {
-    "Name": "Focus Punch",
-    "Type": "Fighting",
-    "Power": 6,
-    "Damage1": "Strength",
-    "Damage2": "",
-    "Accuracy1": "Strength",
-    "Accuracy2": "Brawl",
-    "Target": "Foe",
-    "Effect": "Fist Based. Charge Move. The User will flinch if it gets hit before releasing this attack.",
-    "Description": "A brutal punch that requires calm and concentration",
-    "_id": "focus-punch",
-    "Attributes": {
-        "Charge": true,
-        "FistBased": true
-    },
-    "AddedEffects": {},
-    "Category": "Physical"
+  "name": "Focus Punch",
+  "type": "Fighting",
+  "power": 6,
+  "damage": "Strength",
+  "accuracy": "Dexterity",
+  "target": "Foe",
+  "effect": "Priority 6. Fist Based. At the start of the round, the user starts charging. At the end of the round, the move is unleashed. If the user received damage at any point during the round, this move fails",
+  "description": "A brutal punch that requires the user's pure focus. A strike of any kind may result in panic",
+  "category": "Physical"
 }

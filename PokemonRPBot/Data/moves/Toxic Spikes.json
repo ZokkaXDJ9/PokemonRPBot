@@ -1,18 +1,11 @@
 {
-    "Name": "Toxic Spikes",
-    "Type": "Poison",
-    "Power": 0,
-    "Damage1": "",
-    "Damage2": "",
-    "Accuracy1": "Dexterity",
-    "Accuracy2": "Stealth",
-    "Target": "Battlefield",
-    "Effect": "Foe Pokemon that enter the battlefield become Poisoned. Roll 1 Chance Dice for the Poison to become Badly Poisoned instead. Entry Hazard.",
-    "Description": "The user lays a trap of scattered poison spikes that attach to the opponent's feet leaving them with a bad case of fever.",
-    "_id": "toxic-spikes",
-    "Attributes": {},
-    "AddedEffects": {
-        "TerrainEffect": "ToxicSpikes"
-    },
-    "Category": "Support"
+  "name": "Toxic Spikes",
+  "type": "Poison",
+  "power": 0,
+  "damage": "",
+  "accuracy": "Dexterity",
+  "target": "Foe's Battlefield",
+  "effect": "Sets up Poison Spikes on the opponent's battlefield, which triggers every time a victim switches targets from the one they had on the previous turn. When triggered, Poison the victim. This is upgraded to Badly Poisoned if two layers are placed. Has no effect on Flying types, Steel types, Poison Types or Pokemon with the ability Levitate. Poison types may also use an action to instantly clear Toxic Spikes from their side of the battlefield.",
+  "description": "The pokemon sets up a layer of caltrops coated in poison. Accidentally stepping on one serves as a surefire way to get poisoned.",
+  "category": "Support"
 }

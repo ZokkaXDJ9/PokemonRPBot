@@ -1,16 +1,11 @@
 {
-    "Name": "Freeze Dry",
-    "Type": "Ice",
-    "Power": 3,
-    "Damage1": "Special",
-    "Damage2": "",
-    "Accuracy1": "Dexterity",
-    "Accuracy2": "Channel",
-    "Target": "Foe",
-    "Effect": "Water type Pokemon are dealt 2 Extra Damage.",
-    "Description": "The user freezes all moisture in the environment, water type Pokemon suffer greatly.",
-    "_id": "freeze-dry",
-    "Attributes": {},
-    "AddedEffects": {},
-    "Category": "Special"
+  "name": "Freeze Dry",
+  "type": "Ice",
+  "power": 3,
+  "damage": "Special",
+  "accuracy": "Dexterity",
+  "target": "Foe",
+  "effect": "This move deals Super Effective and Wounding damage to Water-types. Roll 1 Chance Dice to apply Frostbite.",
+  "description": "The user freezes all moisture in the air, causing Water-types to suffer.",
+  "category": "Special"
 }

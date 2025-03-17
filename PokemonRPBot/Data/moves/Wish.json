@@ -1,16 +1,11 @@
 {
-    "Name": "Wish",
-    "Type": "Normal",
-    "Power": 0,
-    "Damage1": "",
-    "Damage2": "",
-    "Accuracy1": "Will",
-    "Accuracy2": "Channel",
-    "Target": "User",
-    "Effect": "Basic Heal. If successful spend 1 Will point to activate. The move has its effect at the beginning of the next round.",
-    "Description": "The Pokemon makes a wish with all its might and somehow it becomes true.",
-    "_id": "wish",
-    "Attributes": {},
-    "AddedEffects": {},
-    "Category": "Support"
+  "name": "Wish",
+  "type": "Normal",
+  "power": 0,
+  "damage": "",
+  "accuracy": "Will",
+  "target": "Self or Ally",
+  "effect": "Full Heal. If successful, spend 1 Will point to activate. The target will be healed at the end of next round. When used in combat, enemies may or may not prioritize the target.",
+  "description": "The Pokemon makes a loud wish with all its might - if it gets heard by the right spirits, it might become true.",
+  "category": "Support"
 }

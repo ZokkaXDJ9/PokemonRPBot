@@ -1,0 +1,11 @@
+{
+  "name": "Revival Blessing",
+  "type": "Normal",
+  "power": 0,
+  "damage": "",
+  "accuracy": "Will",
+  "target": "Ally",
+  "effect": "User targets a fainted ally, if successful, they're brought back with 50% HP (rounded up). If successful, spend 3 Will points to activate. Can only be successfully used once per Battle. The initiative of the revived ally is equal to their dexterity, if they haven't acted this round yet.",
+  "description": "The Pokémon bestows a loving blessing, reviving a party Pokémon that has fainted. This leaves it feeling pensive and drained for quite awhile.",
+  "category": "Support"
+}

@@ -1,18 +1,11 @@
 {
-    "Name": "Ally Switch",
-    "Type": "Psychic",
-    "Power": 0,
-    "Damage1": "",
-    "Damage2": "",
-    "Accuracy1": "Special",
-    "Accuracy2": "Channel",
-    "Target": "One Ally",
-    "Effect": "User switches back. Choose another Pokemon to take its place. It will be ready to fight on the next Round. Switcher Move.",
-    "Description": "The user teleports, switching its place with someone.",
-    "_id": "ally-switch",
-    "Attributes": {
-        "SwitcherMove": true
-    },
-    "AddedEffects": {},
-    "Category": "Support"
+  "name": "Ally Switch",
+  "type": "Psychic",
+  "power": 0,
+  "damage": "",
+  "accuracy": "Special",
+  "target": "One Ally and Self",
+  "effect": "Reaction. Switcher Move. When one target is about to be hit by a move, user swaps places with their ally. The user chooses which target needs to be attacked to activate.",
+  "description": "The user teleports, switching it's place with someone.",
+  "category": "Support"
 }
