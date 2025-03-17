@@ -57,12 +57,12 @@ class MoveCommand(commands.Cog):
         name="move", 
         description="Display details of a Pokémon move."
     )
-    @app_commands.autocomplete(move_name=move_name_autocomplete)
-    async def move(self, interaction: discord.Interaction, move_name: str):
-        move = load_move(move_name)
+    @app_commands.autocomplete(move=move_name_autocomplete)
+    async def move(self, interaction: discord.Interaction, move: str):
+        move = load_move(move)
         if move is None:
             await interaction.response.send_message(
-                f"Move '{move_name}' not found.", ephemeral=True
+                f"Move '{move}' not found.", ephemeral=True
             )
             return
 
