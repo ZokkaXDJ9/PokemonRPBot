@@ -1,0 +1,247 @@
+from __future__ import annotations  # Postpone evaluation of annotations
+
+import json
+import os
+from datetime import datetime, timedelta
+from typing import Optional, Dict, List, Tuple
+
+import discord
+from discord import app_commands
+from discord.ext import commands
+
+# --------------------------------------------------------------------------------
+# JSON FILE-BASED OFFSET STORAGE
+# --------------------------------------------------------------------------------
+OFFSET_FILE = "user_offsets.json"
+
+def load_offsets() -> Dict[str, List[int]]:
+    """
+    Load a JSON dict from user_offsets.json, format: { "user_id": [hours, minutes], ... }.
+    """
+    if not os.path.exists(OFFSET_FILE):
+        return {}
+    try:
+        with open(OFFSET_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            return data if isinstance(data, dict) else {}
+    except (json.JSONDecodeError, IOError):
+        return {}
+
+def save_offsets(offsets: Dict[str, List[int]]):
+    """
+    Save the offsets dict to user_offsets.json.
+    """
+    with open(OFFSET_FILE, "w", encoding="utf-8") as f:
+        json.dump(offsets, f)
+
+async def get_user_offset(user_id: int) -> Optional[Tuple[int, int]]:
+    """
+    Return (hours, minutes) if found for the user, else None.
+    We'll store user_id as a string in the JSON.
+    """
+    offsets = load_offsets()
+    data = offsets.get(str(user_id))
+    if data and len(data) == 2:
+        return (data[0], data[1])
+    return None
+
+async def set_user_offset(user_id: int, hours: int, minutes: int):
+    """
+    Save the user's offset as [hours, minutes] in user_offsets.json.
+    """
+    offsets = load_offsets()
+    offsets[str(user_id)] = [hours, minutes]
+    save_offsets(offsets)
+
+# --------------------------------------------------------------------------------
+# HELPER FUNCTIONS
+# --------------------------------------------------------------------------------
+def build_now_with_offset(hours: int, minutes: int) -> datetime:
+    """Return 'local now' by adding (hours, minutes) to UTC now."""
+    utc_now = datetime.utcnow()
+    return utc_now + timedelta(hours=hours, minutes=minutes)
+
+def format_local_time(hours: int, minutes: int) -> str:
+    """Return current local time (MM-DD HH:MM) using the given offset."""
+    local_now = build_now_with_offset(hours, minutes)
+    return local_now.strftime("%m-%d %H:%M")
+
+def build_select_menu_option(hours: int, minutes: int) -> discord.SelectOption:
+    """
+    Creates a select-menu option labeled with date/time in both 24h and 12h format.
+    The option's value is "hours_minutes".
+    """
+    local_now = build_now_with_offset(hours, minutes)
+    label_24h = local_now.strftime("%H:%M")
+    label_12h = local_now.strftime("%I:%M%p")
+    label_date = local_now.strftime("%m-%d")
+    label = f"{label_date}  |  {label_24h} or {label_12h}"
+    value = f"{hours}_{minutes}"
+    return discord.SelectOption(label=label, value=value)
+
+# Negative offsets (UTC–X)
+NEGATIVE_OFFSETS = [
+    (-12, 0), (-11, 0), (-10, 0), (-9, -30), (-9, 0), (-8, 0),
+    (-7, 0), (-6, 0), (-5, 0), (-4, 0), (-3, -30), (-3, 0),
+    (-2, 0), (-1, 0), (0, 0),
+]
+
+# Positive offsets (UTC+X)
+POSITIVE_OFFSETS = [
+    (0, 0), (1, 0), (2, 0), (3, 0), (3, 30), (4, 0), (4, 30),
+    (5, 0), (5, 30), (5, 45), (6, 0), (6, 30), (7, 0),
+    (8, 0), (8, 45), (9, 0), (9, 30), (10, 0), (10, 30),
+    (11, 0), (12, 0), (12, 45), (13, 0), (14, 0),
+]
+
+# --------------------------------------------------------------------------------
+# SELECT MENUS
+# --------------------------------------------------------------------------------
+class UTCMinusSelect(discord.ui.Select):
+    """Dropdown of negative offsets (UTC–X)."""
+    def __init__(self):
+        options = [build_select_menu_option(h, m) for (h, m) in NEGATIVE_OFFSETS]
+        super().__init__(
+            placeholder="Select your local time (UTC-X)",
+            min_values=1,
+            max_values=1,
+            options=options,
+            custom_id="timestamp-offset_UTC-X"
+        )
+
+    async def callback(self, interaction):
+        raw = self.values[0]
+        hours_str, minutes_str = raw.split("_", 1)
+        hours, minutes = int(hours_str), int(minutes_str)
+        await set_user_offset(interaction.user.id, hours, minutes)
+        await interaction.response.send_message(
+            f"Offset set to UTC{hours:+d}:{minutes:02d}.", ephemeral=True
+        )
+
+class UTCPlusSelect(discord.ui.Select):
+    """Dropdown of positive offsets (UTC+X)."""
+    def __init__(self):
+        options = [build_select_menu_option(h, m) for (h, m) in POSITIVE_OFFSETS]
+        super().__init__(
+            placeholder="Select your local time (UTC+X)",
+            min_values=1,
+            max_values=1,
+            options=options,
+            custom_id="timestamp-offset_UTC+X"
+        )
+
+    async def callback(self, interaction):
+        raw = self.values[0]
+        hours_str, minutes_str = raw.split("_", 1)
+        hours, minutes = int(hours_str), int(minutes_str)
+        await set_user_offset(interaction.user.id, hours, minutes)
+        await interaction.response.send_message(
+            f"Offset set to UTC{hours:+d}:{minutes:02d}.", ephemeral=True
+        )
+
+class TimeOffsetView(discord.ui.View):
+    """A view containing both select menus."""
+    def __init__(self):
+        super().__init__(timeout=None)
+        self.add_item(UTCMinusSelect())
+        self.add_item(UTCPlusSelect())
+
+# --------------------------------------------------------------------------------
+# COG
+# --------------------------------------------------------------------------------
+class TimestampCommands(commands.Cog):
+    def __init__(self, bot: commands.Bot):
+        self.bot = bot
+
+    @app_commands.command(name="setting_time_offset", description="Select your local timezone.")
+    async def setting_time_offset(self, interaction):
+        """
+        Opens a dialogue with dropdowns for selecting your local timezone.
+        Stores the chosen offset in user_offsets.json.
+        """
+        user_offset = await get_user_offset(interaction.user.id)
+        if user_offset is not None:
+            hours, minutes = user_offset
+            local_now_str = format_local_time(hours, minutes)
+            content = (
+                f"Your current setting is UTC{hours:+d}:{minutes:02d}, which implies local time is **{local_now_str}** now.\n\n"
+                "If that's wrong, pick your correct local time below."
+            )
+        else:
+            content = (
+                "You haven't set an offset yet. It's assumed UTC+0.\n\n"
+                "Pick your local time below to change it."
+            )
+        view = TimeOffsetView()
+        await interaction.response.send_message(content=content, view=view, ephemeral=True)
+
+    @app_commands.command(name="timestamp", description="Create a timestamp that shows your chosen local time as a Discord timestamp.")
+    @app_commands.describe(
+        minute="Which minute? (0-59). Defaults to your local 'now'.",
+        hour="Which hour (0-23)? Defaults to your local 'now'.",
+        day="Which day (1-31)? Defaults to your local 'now'.",
+        month="Which month (1-12)? Defaults to your local 'now'.",
+        year="Which year? Defaults to your local 'now'."
+    )
+    async def timestamp(
+        self,
+        interaction,
+        minute: Optional[int] = None,
+        hour: Optional[int] = None,
+        day: Optional[int] = None,
+        month: Optional[int] = None,
+        year: Optional[int] = None
+    ):
+        """
+        Uses your input local time (based on your offset) directly to create a Unix timestamp.
+        The resulting timestamp tag will display your chosen local time when viewed in UTC.
+        """
+        await interaction.response.defer(thinking=True)
+        user_offset = await get_user_offset(interaction.user.id)
+        if user_offset is None:
+            utc_now = datetime.utcnow()
+            default_year = utc_now.year
+            default_month = utc_now.month
+            default_day = utc_now.day
+            default_hour = utc_now.hour
+            default_minute = utc_now.minute
+            hint = (
+                "You haven't set your time offset yet! Using UTC for now.\n"
+                f"Right now, **UTC** is {utc_now.strftime('%Y-%m-%d %H:%M')}.\n"
+                "Use `/setting_time_offset` to fix this."
+            )
+            await interaction.followup.send(hint)
+            offset_hours, offset_minutes = 0, 0
+        else:
+            offset_hours, offset_minutes = user_offset
+            local_now = build_now_with_offset(offset_hours, offset_minutes)
+            default_year = local_now.year
+            default_month = local_now.month
+            default_day = local_now.day
+            default_hour = local_now.hour
+            default_minute = local_now.minute
+
+        final_year = year if year is not None else default_year
+        final_month = month if month is not None else default_month
+        final_day = day if day is not None else default_day
+        final_hour = hour if hour is not None else default_hour
+        final_minute = minute if minute is not None else default_minute
+
+        try:
+            local_dt = datetime(final_year, final_month, final_day, final_hour, final_minute, 0)
+        except ValueError as e:
+            await interaction.followup.send(f"Invalid date/time: {e}")
+            return
+
+        # Create a Unix timestamp directly from the chosen local time.
+        # This timestamp will be interpreted as UTC by Discord.
+        unix_ts = int(local_dt.timestamp())
+        formatted_local_time = local_dt.strftime("%Y-%m-%d %H:%M")
+        result_str = (
+            f"<t:{unix_ts}:f> (<t:{unix_ts}:R>)\n```<t:{unix_ts}:f> (<t:{unix_ts}:R>)```"
+        )
+        await interaction.followup.send(result_str)
+
+async def setup(bot: commands.Bot):
+    """Standard async setup function for discord.py cogs."""
+    await bot.add_cog(TimestampCommands(bot))
