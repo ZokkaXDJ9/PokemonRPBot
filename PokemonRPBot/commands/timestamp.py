@@ -175,6 +175,8 @@ class TimestampCommands(commands.Cog):
         view = TimeOffsetView()
         await interaction.response.send_message(content=content, view=view, ephemeral=True)
 
+# The issue is in the timestamp function. Here's the fixed version:
+
     @app_commands.command(name="timestamp", description="Create a timestamp that shows your chosen local time as a Discord timestamp.")
     @app_commands.describe(
         minute="Which minute? (0-59). Defaults to your local 'now'.",
@@ -193,8 +195,8 @@ class TimestampCommands(commands.Cog):
         year: Optional[int] = None
     ):
         """
-        Uses your input local time (based on your offset) directly to create a Unix timestamp.
-        The resulting timestamp tag will display your chosen local time when viewed in UTC.
+        Creates a Discord timestamp for the specified local time.
+        This timestamp will display correctly for all users in their respective timezones.
         """
         await interaction.response.defer(thinking=True)
         user_offset = await get_user_offset(interaction.user.id)
@@ -228,20 +230,45 @@ class TimestampCommands(commands.Cog):
         final_minute = minute if minute is not None else default_minute
 
         try:
+            # COMPLETELY SIMPLIFIED SOLUTION: Work directly with UTC
+
+            # Step 1: Create the user's local datetime
             local_dt = datetime(final_year, final_month, final_day, final_hour, final_minute, 0)
+
+            # Step 2: Convert this to UTC by subtracting the user's offset
+            # This is what UTC time it will be when the user's local time is as specified
+            utc_dt = local_dt - timedelta(hours=offset_hours, minutes=offset_minutes)
+
+            # Step 3: Convert UTC datetime to Unix timestamp
+            # We'll use a method that doesn't depend on system timezone
+            unix_ts = int((utc_dt - datetime(1970, 1, 1)).total_seconds())
+
+            # For debugging
+            utc_display = utc_dt.strftime('%Y-%m-%d %H:%M')
+            local_display = local_dt.strftime('%Y-%m-%d %H:%M')
+
+            # Add detailed debug info
+            debug_info = (
+                f"Debug:\n"
+                f"- User's local time: {local_display}\n"
+                f"- Corresponding UTC time: {utc_display}\n"
+                f"- User offset: UTC{offset_hours:+d}:{offset_minutes:02d}\n"
+                f"- Final Unix timestamp: {unix_ts}\n"
+            )
+
         except ValueError as e:
             await interaction.followup.send(f"Invalid date/time: {e}")
             return
 
-        # Create a Unix timestamp directly from the chosen local time.
-        # This timestamp will be interpreted as UTC by Discord.
-        unix_ts = int(local_dt.timestamp())
         formatted_local_time = local_dt.strftime("%Y-%m-%d %H:%M")
+
         result_str = (
-            f"<t:{unix_ts}:f> (<t:{unix_ts}:R>)\n```<t:{unix_ts}:f> (<t:{unix_ts}:R>)```"
+            f"<t:{unix_ts}:f> (<t:{unix_ts}:R>)\n"
+            f"```<t:{unix_ts}:f> (<t:{unix_ts}:R>)```"
         )
         await interaction.followup.send(result_str)
-
+    
+        
 async def setup(bot: commands.Bot):
     """Standard async setup function for discord.py cogs."""
     await bot.add_cog(TimestampCommands(bot))
