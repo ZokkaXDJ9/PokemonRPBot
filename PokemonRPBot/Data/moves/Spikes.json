@@ -1,16 +1,11 @@
 {
-    "Name": "Spikes",
-    "Type": "Ground",
-    "Power": 0,
-    "Damage1": "",
-    "Damage2": "",
-    "Accuracy1": "Special",
-    "Accuracy2": "Nature",
-    "Target": "Battlefield",
-    "Effect": "Foe Pokemon that enter the battlefield will lose 1 HP, this effect does not stack. Pokemon with the Levitate ability and Flying Type Pokemon are immune to this effect. Entry Hazard.",
-    "Description": "The Pokemon shoots pointy pebbles or thorns around the field that deal damage to anyone coming from that side.",
-    "_id": "spikes",
-    "Attributes": {},
-    "AddedEffects": {},
-    "Category": "Support"
+    "name": "Spikes",
+    "type": "Ground",
+    "power": 0,
+    "damage": "",
+    "accuracy": "Dexterity",
+    "target": "Foe's Battlefield",
+    "effect": "Sets up Spikes on the opponent's battlefield, which triggers every time a victim switches targets from the one they had on the previous turn. When triggered, they deal 1 dice of damage. Add 1 damage dice for every layer of spikes placed. Up to three layers can be placed. Has no effect on Flying types or Pokemon with the ability Levitate.",
+    "description": "The pokemon sets up a layer of sharp caltrops on the field, serving as a sufficient trap to inhibit movement.",
+    "category": "Support"
 }

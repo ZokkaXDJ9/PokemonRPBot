@@ -1,19 +1,11 @@
 {
-    "Name": "Spiky Shield",
-    "Type": "Grass",
-    "Power": 0,
-    "Damage1": "",
-    "Damage2": "",
-    "Accuracy1": "Dexterity",
-    "Accuracy2": "Brawl",
-    "Target": "User",
-    "Effect": "Priority 3. Shield. Reduce 3 Damage from the next attack and deal 2 Damage Dice to the attacker if it used a physical non-ranged Move.",
-    "Description": "The Pokemon covers itself with a thorn filled shell, the foe will be damaged if it hits directly into it.",
-    "_id": "spiky-shield",
-    "Attributes": {
-        "ShieldMove": true,
-        "Priority": 3
-    },
-    "AddedEffects": {},
-    "Category": "Support"
+  "name": "Spiky Shield",
+  "type": "Grass",
+  "power": 0,
+  "damage": "",
+  "accuracy": "Dexterity",
+  "target": "User",
+  "effect": "Reaction. Shield Move. Reduce the damage taken by the user equal to their Rank bonus against the instigating attack. Until end of round, the first time any Foe makes contact with the user, they receive 2 damage, and reduce minimum damage for received attacks by the User to 0 (attacks still benefit from the base damage of type efficiency).",
+  "description": "The Pokemon covers itself with a thorn filled shell, the foe will be damaged if it hits directly into it.",
+  "category": "Support"
 }

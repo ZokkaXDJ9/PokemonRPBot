@@ -1,18 +1,11 @@
 {
-    "Name": "Petal Dance",
-    "Type": "Grass",
-    "Power": 5,
-    "Damage1": "Special",
-    "Damage2": "",
-    "Accuracy1": "Special",
-    "Accuracy2": "Channel",
-    "Target": "Random Foe",
-    "Effect": "Rampage.",
-    "Description": "The Pokemon starts swirling petals around in a true display of nature's power, the petals are guided by the wind to strike the foe.",
-    "_id": "petal-dance",
-    "Attributes": {
-        "Rampage": true
-    },
-    "AddedEffects": {},
-    "Category": "Special"
+  "name": "Petal Dance",
+  "type": "Grass",
+  "power": 5,
+  "damage": "Special",
+  "accuracy": "Special",
+  "target": "Random Foe",
+  "effect": "Makes contact. Rampage",
+  "description": "The Pokemon starts swirling petals around in a true display of nature's power, the petals are guided by the wind to strike the foe.",
+  "category": "Special"
 }

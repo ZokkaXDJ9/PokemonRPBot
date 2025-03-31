@@ -1,27 +1,11 @@
 {
-    "Name": "Gear Up",
-    "Type": "Steel",
-    "Power": 0,
-    "Damage1": "",
-    "Damage2": "",
-    "Accuracy1": "Vitality",
-    "Accuracy2": "Channel",
-    "Target": "One Ally",
-    "Effect": "Increase the Strength and Special of one Steel-Type or Electric-Type Ally.",
-    "Description": "The user engages its gears on an ally to leave the ally's body working like a welloiled machine.",
-    "_id": "gear-up",
-    "Attributes": {},
-    "AddedEffects": {
-        "StatChanges": [
-            {
-                "Stats": [
-                    "Strength",
-                    "Special"
-                ],
-                "Stages": 1,
-                "Affects": "Target"
-            }
-        ]
-    },
-    "Category": "Support"
+  "name": "Gear Up",
+  "type": "Steel",
+  "power": 0,
+  "damage": "",
+  "accuracy": "Vitality",
+  "target": "User and Allies",
+  "effect": " Increase the Strength and Special of the User and its Allies. This boost only applies to targets that have either Steel or Electric typing.",
+  "description": "The user engages its gears on an ally to leave the ally's body working like a well oiled machine.",
+  "category": "Support"
 }

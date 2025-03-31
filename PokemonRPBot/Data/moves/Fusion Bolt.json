@@ -1,18 +1,11 @@
 {
-    "Name": "Fusion Bolt",
-    "Type": "Electric",
-    "Power": 4,
-    "Damage1": "Strength",
-    "Damage2": "",
-    "Accuracy1": "Strength",
-    "Accuracy2": "Channel",
-    "Target": "Foe",
-    "Effect": "Lethal. If the Move \u201cFusion Flare\u201d has already been used by anyone this Round, add 4 Extra Dice to the Damage Pool of this Move.",
-    "Description": "The Pokemon strikes with a devastating electric impact, said impact will grow larger and stronger if there's a special kind of fire nearby.",
-    "_id": "fusion-bolt",
-    "Attributes": {
-        "Lethal": true
-    },
-    "AddedEffects": {},
-    "Category": "Physical"
+  "name": "Fusion Bolt",
+  "type": "Electric",
+  "power": 4,
+  "damage": "Strength",
+  "accuracy": "Strength",
+  "target": "Foe",
+  "effect": "Ranged. Inflicts Wounds. If the Move “Fusion Flare” has already been used by anyone this Round, add 4 Extra Dice to the Damage Pool of this Move.",
+  "description": "The Pokemon strikes with a devastating electric impact, said impact will grow larger and stronger if there's a special kind of fire nearby.",
+  "category": "Physical"
 }

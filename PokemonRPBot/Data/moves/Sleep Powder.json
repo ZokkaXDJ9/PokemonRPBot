@@ -1,25 +1,11 @@
 {
-    "Name": "Sleep Powder",
-    "Type": "Grass",
-    "Power": 0,
-    "Damage1": "",
-    "Damage2": "",
-    "Accuracy1": "Special",
-    "Accuracy2": "Nature",
-    "Target": "Foe",
-    "Effect": "Makes the Target drowsy. -2 Accuracy.",
-    "Description": "The user scatters powder around, anyone who comes in contact with it will fall asleep.",
-    "_id": "sleep-powder",
-    "Attributes": {
-        "AccuracyReduction": 2
-    },
-    "AddedEffects": {
-        "Ailments": [
-            {
-                "Type": "Sleep",
-                "Affects": "Targets"
-            }
-        ]
-    },
-    "Category": "Support"
+  "name": "Sleep Powder",
+  "type": "Grass",
+  "power": 0,
+  "damage": "",
+  "accuracy": "Special",
+  "target": "Foe",
+  "effect": "Makes the Target drowsy. Has no effect on Grass types. -2 Accuracy.",
+  "description": "The user scatters powder around, anyone who comes in contact with it will fall asleep.",
+  "category": "Support"
 }

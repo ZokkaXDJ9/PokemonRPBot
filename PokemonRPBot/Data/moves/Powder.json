@@ -1,23 +1,11 @@
 {
-    "Name": "Powder",
-    "Type": "Bug",
-    "Power": 0,
-    "Damage1": "",
-    "Damage2": "",
-    "Accuracy1": "Insight",
-    "Accuracy2": "Nature",
-    "Target": "Foe",
-    "Effect": "Add 3 Dice of Damage to the next Fire Type attack that hits the target.",
-    "Description": "The foe is fully covered with a flammable powder, a source of fire might ignite it with explosive results.",
-    "_id": "powder",
-    "Attributes": {},
-    "AddedEffects": {
-        "Ailments": [
-            {
-                "Type": "Powder",
-                "Affects": "Targets"
-            }
-        ]
-    },
-    "Category": "Support"
+  "name": "Powder",
+  "type": "Bug",
+  "power": 0,
+  "damage": "",
+  "accuracy": "Insight",
+  "target": "Foe",
+  "effect": "Reaction. This move is used in reaction to a Fire-type attacking move. Redirect the move used back at the user as a Typeless variant with no secondary effect. Has no effect on Grass types.",
+  "description": "The foe is fully covered with a flammable powder, a source of fire might ignite it with explosive results.",
+  "category": "Support"
 }

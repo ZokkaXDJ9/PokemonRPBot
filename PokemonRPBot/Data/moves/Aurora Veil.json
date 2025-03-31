@@ -1,23 +1,11 @@
 {
-    "Name": "Aurora Veil",
-    "Type": "Ice",
-    "Power": 0,
-    "Damage1": "",
-    "Damage2": "",
-    "Accuracy1": "Special",
-    "Accuracy2": "Channel",
-    "Target": "User and Allies",
-    "Effect": "User and Allies will receive 1 less Damage from both Physical and Special Attacks. This move will fail if not performed under Hail Weather. Lasts until Hail Weather is over.",
-    "Description": "Aurora lights and hail spin around the Pokemon and its Allies, deflecting attacks.",
-    "_id": "aurora-veil",
-    "Attributes": {},
-    "AddedEffects": {
-        "Ailments": [
-            {
-                "Type": "AuroraVeil",
-                "Affects": "Targets"
-            }
-        ]
-    },
-    "Category": "Support"
+  "name": "Aurora Veil",
+  "type": "Ice",
+  "power": 0,
+  "damage": "",
+  "accuracy": "Special",
+  "target": "Battlefield",
+  "effect": "Screen Move. User and Allies will receive 1 less Damage from both Physical and Special Attacks. If the user is Platinum Rank or higher, User and Allies instead receive 2 less damage from attacks. This move will fail if not performed under either Hail Weather or Snow Weather. Lasts until Hail Weather or Snow Weather is over.",
+  "description": "Aurora lights and ice spin around the Pokemon and its Allies, deflecting attacks.",
+  "category": "Support"
 }

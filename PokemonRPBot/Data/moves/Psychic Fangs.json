@@ -1,18 +1,11 @@
 {
-    "Name": "Psychic Fangs",
-    "Type": "Psychic",
-    "Power": 3,
-    "Damage1": "Strength",
-    "Damage2": "",
-    "Accuracy1": "Dexterity",
-    "Accuracy2": "Brawl",
-    "Target": "Foe",
-    "Effect": "If a Barrier is in place on the foe's side (ie. Light Screen. Reflect) destroy it.",
-    "Description": "The Pokemon bares its fangs to bite the foe, psychic energy begins piercing before the actual fangs make contact.",
-    "_id": "psychic-fangs",
-    "Attributes": {
-        "DestroyShield": true
-    },
-    "AddedEffects": {},
-    "Category": "Physical"
+  "name": "Psychic Fangs",
+  "type": "Psychic",
+  "power": 3,
+  "damage": "Strength",
+  "accuracy": "Dexterity",
+  "target": "Foe",
+  "effect": "Destroy all active Screens Moves on the target's side of the battlefield. If any are removed add 2 Extra Dice to the Damage Pool.",
+  "description": "The Pokemon bares its fangs to bite the foe, psychic energy begins piercing before the actual fangs make contact.",
+  "category": "Physical"
 }

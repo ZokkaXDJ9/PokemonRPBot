@@ -1,16 +1,11 @@
 {
-    "Name": "Beat Up",
-    "Type": "Dark",
-    "Power": 2,
-    "Damage1": "Strength",
-    "Damage2": "",
-    "Accuracy1": "Dexterity",
-    "Accuracy2": "Brawl",
-    "Target": "Foe",
-    "Effect": "If the attack is successful, add 2 Dice of Damage for every ally Pokemon that spends an action to help the user perform this move. Up to 3 allies may join.",
-    "Description": "The user calls other Pokemon to aid it in battle, together they give a beating to the foe.",
-    "_id": "beat-up",
-    "Attributes": {},
-    "AddedEffects": {},
-    "Category": "Physical"
+  "name": "Beat Up",
+  "type": "Dark",
+  "power": 2,
+  "damage": "Strength",
+  "accuracy": "Dexterity",
+  "target": "Foe",
+  "effect": "Successive actions. This move may hit a number of times equal to the number of active party members, to a maximum of 6. The damage dice for the 1st, 3rd and 5th hits use the highest unmodified Strength stat among all mons active in the party. The damage dice for the 2nd, 4th and 6th hits use the lowest unmodified Strength stat among all mons active in the party.",
+  "description": "The user calls other Pokemon to aid it in battle, together they give a beating to the foe.",
+  "category": "Physical"
 }

@@ -1,25 +1,11 @@
 {
-    "Name": "Poison Powder",
-    "Type": "Poison",
-    "Power": 0,
-    "Damage1": "",
-    "Damage2": "",
-    "Accuracy1": "Special",
-    "Accuracy2": "Channel",
-    "Target": "Foe",
-    "Effect": "Poison the Foe. -2 Accuracy.",
-    "Description": "The user scatters a small cloud of venomous dust that immediately causes coughing and fever.",
-    "_id": "poison-powder",
-    "Attributes": {
-        "AccuracyReduction": 2
-    },
-    "AddedEffects": {
-        "Ailments": [
-            {
-                "Type": "Poison",
-                "Affects": "Targets"
-            }
-        ]
-    },
-    "Category": "Support"
+  "name": "Poison Powder",
+  "type": "Poison",
+  "power": 0,
+  "damage": "",
+  "accuracy": "Special",
+  "target": "Foe",
+  "effect": "Poison the Foe. Has no effect on Grass types. -2 Accuracy.",
+  "description": "The user scatters a small cloud of venomous dust that immediately causes coughing and fever.",
+  "category": "Support"
 }

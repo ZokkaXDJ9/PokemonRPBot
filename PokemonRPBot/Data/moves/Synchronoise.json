@@ -1,18 +1,11 @@
 {
-    "Name": "Synchronoise",
-    "Type": "Psychic",
-    "Power": 5,
-    "Damage1": "Special",
-    "Damage2": "",
-    "Accuracy1": "Special",
-    "Accuracy2": "Perform",
-    "Target": "Area",
-    "Effect": "Sound Based. Choose a Type (Fire, Poison, Steel, etc.) this move only affects those with that Type.",
-    "Description": "The user vibrates with any particular energy Type he chooses. All nearby creatures and objects of that Type are hurt.",
-    "_id": "synchronoise",
-    "Attributes": {
-        "SoundBased": true
-    },
-    "AddedEffects": {},
-    "Category": "Special"
+  "name": "Synchronoise",
+  "type": "Psychic",
+  "power": 5,
+  "damage": "Special",
+  "accuracy": "Special",
+  "target": "Area",
+  "effect": "Sound Based. Can only affect those with the same type(s) as the user.",
+  "description": "The user vibrates with an odd energy matching its type(s). All nearby creatures and objects sharing at least one type with the user are hurt.",
+  "category": "Special"
 }

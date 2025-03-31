@@ -1,19 +1,11 @@
 {
-    "Name": "Roar",
-    "Type": "Normal",
-    "Power": 0,
-    "Damage1": "",
-    "Damage2": "",
-    "Accuracy1": "Tough",
-    "Accuracy2": "Intimidate",
-    "Target": "Foe",
-    "Effect": "Low Priority 6. In the wild the battle ends. In an official fight, the Pokemon switches out. If its the last or only Pokemon the move fails. Switcher Move.",
-    "Description": "A mighty roar that scares the foe.",
-    "_id": "roar",
-    "Attributes": {
-        "SwitcherMove": true,
-        "Priority": -6
-    },
-    "AddedEffects": {},
-    "Category": "Support"
+  "name": "Roar",
+  "type": "Normal",
+  "power": 0,
+  "damage": "",
+  "accuracy": "Tough",
+  "target": "Foe",
+  "effect": "Low Priority 6. The target is forced to the bottom of the turn order next round. Priority moves can't change this. If a priority move would fail because it can't go first, it can't be used.",
+  "description": "A mighty roar that scares the foe.",
+  "category": "Support"
 }

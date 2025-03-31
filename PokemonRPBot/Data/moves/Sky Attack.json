@@ -1,29 +1,11 @@
 {
-    "Name": "Sky Attack",
-    "Type": "Flying",
-    "Power": 6,
-    "Damage1": "Strength",
-    "Damage2": "",
-    "Accuracy1": "Strength",
-    "Accuracy2": "Brawl",
-    "Target": "Foe",
-    "Effect": "Lethal. High Critical. Charge Move. Roll 3 Chance Dice to Flinch the foe. -1 Accuracy.",
-    "Description": "The Pokemon darts from the sky with a graceful and lethal strike, propelling with the wind, crushing the foe to the ground.",
-    "_id": "sky-attack",
-    "Attributes": {
-        "HighCritical": true,
-        "Lethal": true,
-        "Charge": true,
-        "AccuracyReduction": 1
-    },
-    "AddedEffects": {
-        "Ailments": [
-            {
-                "Type": "Flinch",
-                "Affects": "Targets",
-                "ChanceDice": 3
-            }
-        ]
-    },
-    "Category": "Physical"
+  "name": "Sky Attack",
+  "type": "Flying",
+  "power": 6,
+  "damage": "Strength",
+  "accuracy": "Strength",
+  "target": "Foe",
+  "effect": "Ranged. Inflicts Wounds. High Critical. Charge move. On the charge turn, the user raises their Strength by 1. The charge turn can be skipped during Arcane Domain and Strong Winds Weather. Roll 3 Chance Dice to Flinch the foe. -1 Accuracy.",
+  "description": "The Pokemon darts from the sky with a graceful and lethal strike, propelling with the wind, crushing the foe to the ground.",
+  "category": "Physical"
 }

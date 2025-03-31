@@ -1,25 +1,11 @@
 {
-    "Name": "Supersonic",
-    "Type": "Normal",
-    "Power": 0,
-    "Damage1": "",
-    "Damage2": "",
-    "Accuracy1": "Tough",
-    "Accuracy2": "Channel",
-    "Target": "Foe",
-    "Effect": "Confuse the foe. -3 Accuracy.",
-    "Description": "The Pokemon emits a series of ultrasonic waves that make the foe dizzy and disoriented.",
-    "_id": "supersonic",
-    "Attributes": {
-        "AccuracyReduction": 3
-    },
-    "AddedEffects": {
-        "Ailments": [
-            {
-                "Type": "Confuse",
-                "Affects": "Targets"
-            }
-        ]
-    },
-    "Category": "Support"
+  "name": "Supersonic",
+  "type": "Normal",
+  "power": 0,
+  "damage": "",
+  "accuracy": "Clever",
+  "target": "Foe",
+  "effect": "Sound Based. Confuse the foe. -3 Accuracy.",
+  "description": "The Pokemon emits a series of ultrasonic waves which make the foe dizzy and disoriented.",
+  "category": "Support"
 }

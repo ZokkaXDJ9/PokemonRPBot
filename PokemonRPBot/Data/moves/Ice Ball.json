@@ -1,19 +1,11 @@
 {
-    "Name": "Ice Ball",
-    "Type": "Ice",
-    "Power": 1,
-    "Damage1": "Strength",
-    "Damage2": "",
-    "Accuracy1": "Dexterity",
-    "Accuracy2": "Brawl",
-    "Target": "Foe",
-    "Effect": "Successive Actions. Add 1 Extra Dice to the Damage Roll of the last Ice Ball hit the user performes. If the Pokemon used Defense Curl this Round, add 1 Extra Dice to the Damage Roll of every hit. -1 Accuracy.",
-    "Description": "The user curls into a snowball, rolling against the foe. The ball grows bigger as it rolls.",
-    "_id": "ice-ball",
-    "Attributes": {
-        "SuccessiveActions": true,
-        "AccuracyReduction": 1
-    },
-    "AddedEffects": {},
-    "Category": "Physical"
+  "name": "Ice Ball",
+  "type": "Ice",
+  "power": 1,
+  "damage": "Strength",
+  "accuracy": "Dexterity",
+  "target": "Foe",
+  "effect": "Successive Actions. Add Extra Dice equal to the amount of prior hits to the Damage Pool. If the User is under the effect of Defense Curl, add 1 Extra Die to the Damage Pool. -1 Accuracy.",
+  "description": "The user curls into a snowball, rolling against the foe. The ball grows bigger as it rolls.",
+  "category": "Physical"
 }

@@ -1,24 +1,11 @@
 {
-    "Name": "Refresh",
-    "Type": "Normal",
-    "Power": 0,
-    "Damage1": "",
-    "Damage2": "",
-    "Accuracy1": "Will",
-    "Accuracy2": "Channel",
-    "Target": "User",
-    "Effect": "The User cure itself from Poison, Burn, or Paralysis.",
-    "Description": "The Pokemon takes a few seconds to cool down and get back in the game.",
-    "_id": "refresh",
-    "Attributes": {},
-    "AddedEffects": {
-        "AilmentHeal": [
-            "Burn1",
-            "Burn2",
-            "Burn3",
-            "Paralysis",
-            "Poison"
-        ]
-    },
-    "Category": "Support"
+  "name": "Refresh",
+  "type": "Normal",
+  "power": 0,
+  "damage": "",
+  "accuracy": "Will",
+  "target": "Self",
+  "effect": "The User cures itself from Poison, Burn, Frostbite or Paralysis.",
+  "description": "The Pokemon takes a few seconds to cool down and get back into shape.",
+  "category": "Support"
 }

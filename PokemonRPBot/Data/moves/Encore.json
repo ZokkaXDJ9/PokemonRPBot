@@ -1,18 +1,11 @@
 {
-    "Name": "Encore",
-    "Type": "Normal",
-    "Power": 0,
-    "Damage1": "",
-    "Damage2": "",
-    "Accuracy1": "Cool",
-    "Accuracy2": "Allure",
-    "Target": "Foe",
-    "Effect": "For the duration of this effect, the target will repeat the exact same action sequence it had this round. Target must have had an action sequence. Last 4 Rounds. Priority 3.",
-    "Description": "The user claps and cheers at the target to encourage it to repeat what it just did.",
-    "_id": "encore",
-    "Attributes": {
-        "Priority": 3
-    },
-    "AddedEffects": {},
-    "Category": "Support"
+  "name": "Encore",
+  "type": "Normal",
+  "power": 0,
+  "damage": "",
+  "accuracy": "Cool",
+  "target": "Foe",
+  "effect": "Reaction. For the duration of this effect at the start of round before rolling for initiative, the target rolls 1 dice. On a 1-3 the target will repeat the same action that instigated Encore. For the purposes of support moves and stat increases their action is treated as a separate move (allowing for encored support/status moves to stack with themselves once). On a 4-6 the target may act as normal. Last 4 Rounds.",
+  "description": "The user claps and cheers at the target to encourage it to repeat what it just did.",
+  "category": "Support"
 }

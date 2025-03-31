@@ -1,16 +1,11 @@
 {
-    "Name": "Help Another",
-    "Type": "Typeless",
-    "Power": 0,
-    "Damage1": "",
-    "Damage2": "",
-    "Accuracy1": "",
-    "Accuracy2": "Varies",
-    "Target": "One Ally",
-    "Effect": "Roll your Accuracy as if it was Chance Dice. If Successful, add one die to the Action of an Ally. Up to 6 dice may be added this way.",
-    "Description": "",
-    "_id": "help-another",
-    "Attributes": {},
-    "AddedEffects": {},
-    "Category": "Support"
+  "name": "Help Another",
+  "type": "Typeless",
+  "power": 0,
+  "damage": "",
+  "accuracy": "",
+  "target": "One Ally",
+  "effect": "Accuracy equals a fitting attribute or trait, without rank. High Critical. Add dice equal to your rank bonus to the target's action. On a critical success, increase the amount of dice added by 2. Can only be used outside of battle.",
+  "description": "The Pokemon assists an ally to help fulfill a task",
+  "category": "Support"
 }

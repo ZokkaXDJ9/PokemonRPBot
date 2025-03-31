@@ -12,7 +12,10 @@ COMMANDS = [
     "commands.roll",
     "commands.rule",
     "commands.weather",
-    "commands.open_box"
+    "commands.open_box",
+    "commands.mtemplate",
+    "commands.timestamp",
+    "commands.timestamp_tracker",
     ]
 
 COMMANDS_NOT_LOADED = [

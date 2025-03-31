@@ -1,16 +1,11 @@
 {
-    "Name": "Stealth Rock",
-    "Type": "Rock",
-    "Power": 0,
-    "Damage1": "",
-    "Damage2": "",
-    "Accuracy1": "Dexterity",
-    "Accuracy2": "Stealth",
-    "Target": "Battlefield",
-    "Effect": "Entry Hazard. Foe Pokemon that enter the battlefield lose 1 HP. This effect does not stack.",
-    "Description": "The Pokemon hides sharp and point rocks all over the foe's side of the battlefield.",
-    "_id": "stealth-rock",
-    "Attributes": {},
-    "AddedEffects": {},
-    "Category": "Support"
+    "name": "Stealth Rock",
+    "type": "Rock",
+    "power": 0,
+    "damage": "",
+    "accuracy": "Dexterity",
+    "target": "Foe's Battlefield",
+    "effect": "Sets up Stealth Rocks on the opponent's battlefield, which triggers every time a victim switches targets from the one they had on the previous turn. When triggered, they deal 2d6 dice of damage. Add or subtract 1d6 for every weakness or resistance the victim has to Rock type, respectively.",
+    "description": "A trap of floating rocks are scattered around the battlefield, making movement difficult without getting hurt.",
+    "category": "Support"
 }
