@@ -1,6 +1,11 @@
 {
     "number": 865,
     "name": "Sirfetch'd",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "First Impression",

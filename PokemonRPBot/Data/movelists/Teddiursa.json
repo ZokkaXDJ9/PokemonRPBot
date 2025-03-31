@@ -1,6 +1,18 @@
 {
     "number": 216,
     "name": "Teddiursa",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Pickup",
+            "Quick Feet"
+        ],
+        "hidden": [
+            "Honey Gather"
+        ]
+    },
     "moves": {
         "bronze": [
             "Baby-Doll Eyes",

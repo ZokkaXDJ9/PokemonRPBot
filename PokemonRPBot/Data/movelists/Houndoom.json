@@ -1,6 +1,19 @@
 {
     "number": 229,
     "name": "Houndoom",
+    "types": [
+        "Dark",
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Early Bird",
+            "Flash Fire"
+        ],
+        "hidden": [
+            "Unnerve"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ember",

@@ -1,6 +1,11 @@
 {
     "number": 550,
     "name": "Basculin",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Aqua Jet",

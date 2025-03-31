@@ -1,6 +1,19 @@
 {
     "number": 452,
     "name": "Drapion",
+    "types": [
+        "Poison",
+        "Dark"
+    ],
+    "abilities": {
+        "normal": [
+            "Battle Armor",
+            "Sniper"
+        ],
+        "hidden": [
+            "Keen Eye"
+        ]
+    },
     "moves": {
         "bronze": [
             "Fell Stinger",

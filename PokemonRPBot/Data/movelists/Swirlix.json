@@ -1,6 +1,17 @@
 {
     "number": 684,
     "name": "Swirlix",
+    "types": [
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Sweet Veil"
+        ],
+        "hidden": [
+            "Unburden"
+        ]
+    },
     "moves": {
         "bronze": [
             "Aromatherapy",

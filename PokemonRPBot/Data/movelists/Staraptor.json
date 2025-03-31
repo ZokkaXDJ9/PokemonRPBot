@@ -1,6 +1,18 @@
 {
     "number": 398,
     "name": "Staraptor",
+    "types": [
+        "Normal",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Intimidate"
+        ],
+        "hidden": [
+            "Reckless"
+        ]
+    },
     "moves": {
         "bronze": [
             "Close Combat",

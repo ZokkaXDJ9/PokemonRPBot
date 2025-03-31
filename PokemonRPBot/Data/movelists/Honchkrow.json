@@ -1,6 +1,19 @@
 {
     "number": 430,
     "name": "Honchkrow",
+    "types": [
+        "Dark",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Insomnia",
+            "Super Luck"
+        ],
+        "hidden": [
+            "Moxie"
+        ]
+    },
     "moves": {
         "bronze": [
             "Air Cutter",

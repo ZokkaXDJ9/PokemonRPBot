@@ -1,6 +1,18 @@
 {
     "number": 110,
     "name": "Weezing",
+    "types": [
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Levitate",
+            "Neutralizing Gas"
+        ],
+        "hidden": [
+            "Stench"
+        ]
+    },
     "moves": {
         "bronze": [
             "Double Hit",

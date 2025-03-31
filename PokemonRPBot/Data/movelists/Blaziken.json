@@ -1,6 +1,18 @@
 {
     "number": 257,
     "name": "Blaziken",
+    "types": [
+        "Fire",
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Blaze"
+        ],
+        "hidden": [
+            "Speed Boost"
+        ]
+    },
     "moves": {
         "bronze": [
             "Brave Bird",

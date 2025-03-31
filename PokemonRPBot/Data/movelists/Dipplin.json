@@ -1,6 +1,19 @@
 {
     "number": 1011,
     "name": "Dipplin",
+    "types": [
+        "Grass",
+        "Dragon"
+    ],
+    "abilities": {
+        "normal": [
+            "Supersweet Syrup",
+            "Gluttony"
+        ],
+        "hidden": [
+            "Sticky Hold"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

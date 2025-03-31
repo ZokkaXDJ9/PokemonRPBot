@@ -1,6 +1,18 @@
 {
     "number": 921,
     "name": "Pawmi",
+    "types": [
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Static",
+            "Natural Cure"
+        ],
+        "hidden": [
+            "Iron Fist"
+        ]
+    },
     "moves": {
         "bronze": [
             "Charge",

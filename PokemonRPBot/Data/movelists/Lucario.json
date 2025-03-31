@@ -1,6 +1,19 @@
 {
     "number": 448,
     "name": "Lucario",
+    "types": [
+        "Fighting",
+        "Steel"
+    ],
+    "abilities": {
+        "normal": [
+            "Steadfast",
+            "Inner Focus"
+        ],
+        "hidden": [
+            "Justified"
+        ]
+    },
     "moves": {
         "bronze": [
             "Aura Sphere",

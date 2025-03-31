@@ -1,6 +1,11 @@
 {
     "number": 492,
     "name": "Shaymin",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Growth",

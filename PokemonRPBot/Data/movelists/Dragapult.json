@@ -1,6 +1,19 @@
 {
     "number": 887,
     "name": "Dragapult",
+    "types": [
+        "Dragon",
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Clear Body",
+            "Infiltrator"
+        ],
+        "hidden": [
+            "Cursed Body"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

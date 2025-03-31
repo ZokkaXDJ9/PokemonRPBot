@@ -1,6 +1,18 @@
 {
     "number": 58,
     "name": "Growlithe",
+    "types": [
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Intimidate",
+            "Flash Fire"
+        ],
+        "hidden": [
+            "Justified"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

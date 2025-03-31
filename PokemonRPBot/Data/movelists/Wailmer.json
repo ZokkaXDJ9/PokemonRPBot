@@ -1,6 +1,18 @@
 {
     "number": 320,
     "name": "Wailmer",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Water Veil",
+            "Oblivious"
+        ],
+        "hidden": [
+            "Pressure"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

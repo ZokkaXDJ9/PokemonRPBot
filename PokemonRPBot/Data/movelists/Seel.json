@@ -1,6 +1,18 @@
 {
     "number": 86,
     "name": "Seel",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Thick Fat",
+            "Hydration"
+        ],
+        "hidden": [
+            "Ice Body"
+        ]
+    },
     "moves": {
         "bronze": [
             "Charm",

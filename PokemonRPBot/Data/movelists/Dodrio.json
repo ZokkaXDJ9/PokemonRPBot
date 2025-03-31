@@ -1,6 +1,19 @@
 {
     "number": 85,
     "name": "Dodrio",
+    "types": [
+        "Normal",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Run Away",
+            "Early Bird"
+        ],
+        "hidden": [
+            "Tangled Feet"
+        ]
+    },
     "moves": {
         "bronze": [
             "Fury Attack",

@@ -1,6 +1,19 @@
 {
     "number": 941,
     "name": "Kilowattrel",
+    "types": [
+        "Electric",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Wind Power",
+            "Volt Absorb"
+        ],
+        "hidden": [
+            "Competitive"
+        ]
+    },
     "moves": {
         "bronze": [
             "Growl",

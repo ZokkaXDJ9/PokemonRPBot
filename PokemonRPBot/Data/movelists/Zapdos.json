@@ -1,6 +1,18 @@
 {
     "number": 145,
     "name": "Zapdos",
+    "types": [
+        "Electric",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Pressure"
+        ],
+        "hidden": [
+            "Static"
+        ]
+    },
     "moves": {
         "bronze": [
             "Drill Peck",

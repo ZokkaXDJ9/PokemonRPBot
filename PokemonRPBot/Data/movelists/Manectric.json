@@ -1,6 +1,18 @@
 {
     "number": 310,
     "name": "Manectric",
+    "types": [
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Static",
+            "Lightning Rod"
+        ],
+        "hidden": [
+            "Minus"
+        ]
+    },
     "moves": {
         "bronze": [
             "Fire Fang",

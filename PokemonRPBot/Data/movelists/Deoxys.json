@@ -1,6 +1,11 @@
 {
     "number": 386,
     "name": "Deoxys",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Leer",

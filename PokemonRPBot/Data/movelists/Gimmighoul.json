@@ -1,6 +1,15 @@
 {
     "number": 999,
     "name": "Gimmighoul",
+    "types": [
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Rattled"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Astonish",

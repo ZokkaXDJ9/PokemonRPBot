@@ -1,6 +1,17 @@
 {
     "number": 864,
     "name": "Cursola",
+    "types": [
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Weak Armor"
+        ],
+        "hidden": [
+            "Perish Body"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

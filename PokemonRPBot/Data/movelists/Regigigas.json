@@ -1,6 +1,15 @@
 {
     "number": 486,
     "name": "Regigigas",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Slow Start"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Confuse Ray",

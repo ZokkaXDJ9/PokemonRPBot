@@ -1,6 +1,18 @@
 {
     "number": 130,
     "name": "Gyarados",
+    "types": [
+        "Water",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Intimidate"
+        ],
+        "hidden": [
+            "Moxie"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

@@ -1,6 +1,18 @@
 {
     "number": 69,
     "name": "Bellsprout",
+    "types": [
+        "Grass",
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Chlorophyll"
+        ],
+        "hidden": [
+            "Gluttony"
+        ]
+    },
     "moves": {
         "bronze": [
             "Growth",

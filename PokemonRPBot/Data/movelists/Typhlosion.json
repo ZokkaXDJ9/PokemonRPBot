@@ -1,6 +1,17 @@
 {
     "number": 157,
     "name": "Typhlosion",
+    "types": [
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Blaze"
+        ],
+        "hidden": [
+            "Flash Fire"
+        ]
+    },
     "moves": {
         "bronze": [
             "Double-Edge",

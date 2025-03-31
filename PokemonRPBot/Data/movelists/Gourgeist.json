@@ -1,6 +1,11 @@
 {
     "number": 711,
     "name": "Gourgeist",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Astonish",

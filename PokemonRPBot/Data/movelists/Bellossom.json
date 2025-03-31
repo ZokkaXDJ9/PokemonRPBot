@@ -1,6 +1,17 @@
 {
     "number": 182,
     "name": "Bellossom",
+    "types": [
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Chlorophyll"
+        ],
+        "hidden": [
+            "Healer"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

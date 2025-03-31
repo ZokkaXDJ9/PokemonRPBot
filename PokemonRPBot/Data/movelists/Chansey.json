@@ -1,6 +1,18 @@
 {
     "number": 113,
     "name": "Chansey",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Natural Cure",
+            "Serene Grace"
+        ],
+        "hidden": [
+            "Healer"
+        ]
+    },
     "moves": {
         "bronze": [
             "Charm",

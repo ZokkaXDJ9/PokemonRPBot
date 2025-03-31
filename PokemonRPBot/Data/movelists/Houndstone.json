@@ -1,6 +1,17 @@
 {
     "number": 972,
     "name": "Houndstone",
+    "types": [
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Sand Rush"
+        ],
+        "hidden": [
+            "Fluffy"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

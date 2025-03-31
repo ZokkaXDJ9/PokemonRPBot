@@ -1,6 +1,11 @@
 {
     "number": 991,
     "name": "Iron Bundle",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Powder Snow",

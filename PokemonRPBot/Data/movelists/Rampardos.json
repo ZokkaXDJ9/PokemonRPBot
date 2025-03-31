@@ -1,6 +1,17 @@
 {
     "number": 409,
     "name": "Rampardos",
+    "types": [
+        "Rock"
+    ],
+    "abilities": {
+        "normal": [
+            "Mold Breaker"
+        ],
+        "hidden": [
+            "Sheer Force"
+        ]
+    },
     "moves": {
         "bronze": [
             "Endeavor",

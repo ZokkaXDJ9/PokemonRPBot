@@ -1,6 +1,19 @@
 {
     "number": 178,
     "name": "Xatu",
+    "types": [
+        "Psychic",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Synchronize",
+            "Early Bird"
+        ],
+        "hidden": [
+            "Magic Bounce"
+        ]
+    },
     "moves": {
         "bronze": [
             "Air Slash",

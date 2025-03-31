@@ -1,0 +1,14 @@
+{
+    "number": 976,
+    "name": "Oinkologne (Male)",
+    "moves": {
+      "bronze": ["Tackle", "Tail Whip", "Disarming Voice", "Echoed Voice"],
+      "silver": ["Mud Shot", "Covet", "Dig", "Headbutt", "Headbutt", "Take Down", "Yawn"],
+      "gold": ["Work Up", "Uproar", "Double-Edge", "Earth Power", "Belch"],
+      "platinum": [],
+      "diamond": [],
+      "tm": ["Agility", "Attract", "Confide", "Curse", "Double Team", "Endure", "Facade", "Frustration", "Headbutt", "Helping Hand", "Hidden Power", "Metronome", "Protect", "Nasty Plot", "Rest", "Return", "Round", "Secret Power", "Sleep Talk", "Snore", "Splash", "Substitute", "Swords Dance", "Take Down", "Tera Blast", "Mud-Slap", "Thief", "Disarming Voice", "Trailblaze", "Chilling Water", "Facade", "Bulldoze", "Mud Shot", "Sunny Day", "Rain Dance", "Dig", "Bullet Seed", "Zen Headbutt", "Body Slam", "Seed Bomb", "Stomping Tantrum", "Body Press", "Iron Head", "Hyper Voice", "Energy Ball", "Play Rough", "Earth Power", "Giga Impact", "Hyper Beam", "Super Fang", "High Horsepower", "Uproar", "Lash Out", "Double-Edge", "Endeavor", "Curse"],
+      "egg": ["Endeavor", "Spit Up", "Stockpile", "Stuff Cheeks", "Swallow"],
+      "tutor": []
+    }
+  }

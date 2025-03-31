@@ -1,6 +1,17 @@
 {
     "number": 355,
     "name": "Duskull",
+    "types": [
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Levitate"
+        ],
+        "hidden": [
+            "Frisk"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

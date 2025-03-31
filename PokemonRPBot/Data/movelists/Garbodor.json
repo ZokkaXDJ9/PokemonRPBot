@@ -1,6 +1,18 @@
 {
     "number": 569,
     "name": "Garbodor",
+    "types": [
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Stench",
+            "Weak Armor"
+        ],
+        "hidden": [
+            "Aftermath"
+        ]
+    },
     "moves": {
         "bronze": [
             "Acid Spray",

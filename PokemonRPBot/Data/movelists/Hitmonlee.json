@@ -1,6 +1,18 @@
 {
     "number": 106,
     "name": "Hitmonlee",
+    "types": [
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Limber",
+            "Reckless"
+        ],
+        "hidden": [
+            "Unburden"
+        ]
+    },
     "moves": {
         "bronze": [
             "Brick Break",

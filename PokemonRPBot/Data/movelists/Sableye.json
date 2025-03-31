@@ -1,6 +1,19 @@
 {
     "number": 302,
     "name": "Sableye",
+    "types": [
+        "Dark",
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Keen Eye",
+            "Stall"
+        ],
+        "hidden": [
+            "Prankster"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

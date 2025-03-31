@@ -1,6 +1,16 @@
 {
     "number": 721,
     "name": "Volcanion",
+    "types": [
+        "Fire",
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Water Absorb"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Fire Spin",

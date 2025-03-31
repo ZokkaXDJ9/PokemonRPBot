@@ -1,6 +1,17 @@
 {
     "number": 854,
     "name": "Sinistea",
+    "types": [
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Weak Armor"
+        ],
+        "hidden": [
+            "Cursed Body"
+        ]
+    },
     "moves": {
         "bronze": [
             "Aromatic Mist",

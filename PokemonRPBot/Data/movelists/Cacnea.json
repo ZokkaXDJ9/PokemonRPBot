@@ -1,6 +1,17 @@
 {
     "number": 331,
     "name": "Cacnea",
+    "types": [
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Sand Veil"
+        ],
+        "hidden": [
+            "Water Absorb"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

@@ -1,6 +1,17 @@
 {
     "number": 729,
     "name": "Brionne",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Torrent"
+        ],
+        "hidden": [
+            "Liquid Voice"
+        ]
+    },
     "moves": {
         "bronze": [
             "Aqua Jet",

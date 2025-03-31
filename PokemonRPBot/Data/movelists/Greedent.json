@@ -1,6 +1,17 @@
 {
     "number": 820,
     "name": "Greedent",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Cheek Pouch"
+        ],
+        "hidden": [
+            "Gluttony"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

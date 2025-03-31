@@ -1,6 +1,18 @@
 {
     "number": 405,
     "name": "Luxray",
+    "types": [
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Rivalry",
+            "Intimidate"
+        ],
+        "hidden": [
+            "Guts"
+        ]
+    },
     "moves": {
         "bronze": [
             "Charge",

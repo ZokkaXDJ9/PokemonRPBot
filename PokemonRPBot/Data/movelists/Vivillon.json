@@ -1,6 +1,19 @@
 {
     "number": 666,
     "name": "Vivillon",
+    "types": [
+        "Bug",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Shield Dust",
+            "Compound Eyes"
+        ],
+        "hidden": [
+            "Friend Guard"
+        ]
+    },
     "moves": {
         "bronze": [
             "Poison Powder",

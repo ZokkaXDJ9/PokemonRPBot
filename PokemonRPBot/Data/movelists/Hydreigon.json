@@ -1,6 +1,16 @@
 {
     "number": 635,
     "name": "Hydreigon",
+    "types": [
+        "Dark",
+        "Dragon"
+    ],
+    "abilities": {
+        "normal": [
+            "Levitate"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Bite",

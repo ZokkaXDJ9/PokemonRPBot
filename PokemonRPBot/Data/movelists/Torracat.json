@@ -1,6 +1,17 @@
 {
     "number": 726,
     "name": "Torracat",
+    "types": [
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Blaze"
+        ],
+        "hidden": [
+            "Intimidate"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ember",

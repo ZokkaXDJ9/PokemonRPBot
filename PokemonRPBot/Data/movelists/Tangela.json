@@ -1,6 +1,18 @@
 {
     "number": 114,
     "name": "Tangela",
+    "types": [
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Chlorophyll",
+            "Leaf Guard"
+        ],
+        "hidden": [
+            "Regenerator"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

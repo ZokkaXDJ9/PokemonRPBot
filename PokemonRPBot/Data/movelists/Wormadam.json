@@ -1,6 +1,11 @@
 {
     "number": 413,
     "name": "Wormadam",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Bug Bite",

@@ -1,6 +1,17 @@
 {
     "number": 370,
     "name": "Luvdisc",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Swift Swim"
+        ],
+        "hidden": [
+            "Hydration"
+        ]
+    },
     "moves": {
         "bronze": [
             "Agility",

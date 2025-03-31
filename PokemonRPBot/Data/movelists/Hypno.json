@@ -1,6 +1,18 @@
 {
     "number": 97,
     "name": "Hypno",
+    "types": [
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Insomnia",
+            "Forewarn"
+        ],
+        "hidden": [
+            "Inner Focus"
+        ]
+    },
     "moves": {
         "bronze": [
             "Confusion",

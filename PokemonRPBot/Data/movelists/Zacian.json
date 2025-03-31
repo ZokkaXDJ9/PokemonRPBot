@@ -1,6 +1,15 @@
 {
     "number": 888,
     "name": "Zacian",
+    "types": [
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Intrepid Sword"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Bite",

@@ -1,6 +1,18 @@
 {
     "number": 996,
     "name": "Frigibax",
+    "types": [
+        "Dragon",
+        "Ice"
+    ],
+    "abilities": {
+        "normal": [
+            "Thermal Exchange"
+        ],
+        "hidden": [
+            "Ice Body"
+        ]
+    },
     "moves": {
         "bronze": [
             "Dragon Tail",

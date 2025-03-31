@@ -1,6 +1,17 @@
 {
     "number": 7,
     "name": "Squirtle",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Torrent"
+        ],
+        "hidden": [
+            "Rain Dish"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bubble",

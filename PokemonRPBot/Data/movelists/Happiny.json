@@ -1,6 +1,18 @@
 {
     "number": 440,
     "name": "Happiny",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Natural Cure",
+            "Serene Grace"
+        ],
+        "hidden": [
+            "Friend Guard"
+        ]
+    },
     "moves": {
         "bronze": [
             "Copycat",

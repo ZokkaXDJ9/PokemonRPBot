@@ -1,6 +1,19 @@
 {
     "number": 18,
     "name": "Pidgeot",
+    "types": [
+        "Normal",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Keen Eye",
+            "Tangled Feet"
+        ],
+        "hidden": [
+            "Big Pecks"
+        ]
+    },
     "moves": {
         "bronze": [
             "Gust",

@@ -1,6 +1,18 @@
 {
     "number": 107,
     "name": "Hitmonchan",
+    "types": [
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Keen Eye",
+            "Iron Fist"
+        ],
+        "hidden": [
+            "Inner Focus"
+        ]
+    },
     "moves": {
         "bronze": [
             "Agility",

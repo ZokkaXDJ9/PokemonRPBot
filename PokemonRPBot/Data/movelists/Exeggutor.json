@@ -1,6 +1,18 @@
 {
     "number": 103,
     "name": "Exeggutor",
+    "types": [
+        "Grass",
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Chlorophyll"
+        ],
+        "hidden": [
+            "Harvest"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

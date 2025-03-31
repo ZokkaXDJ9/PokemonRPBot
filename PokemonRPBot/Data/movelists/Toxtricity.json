@@ -1,6 +1,11 @@
 {
     "number": 849,
     "name": "Toxtricity",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Acid",

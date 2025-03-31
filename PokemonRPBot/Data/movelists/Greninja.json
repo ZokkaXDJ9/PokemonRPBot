@@ -1,6 +1,18 @@
 {
     "number": 658,
     "name": "Greninja",
+    "types": [
+        "Water",
+        "Dark"
+    ],
+    "abilities": {
+        "normal": [
+            "Torrent"
+        ],
+        "hidden": [
+            "Protean"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bubble",

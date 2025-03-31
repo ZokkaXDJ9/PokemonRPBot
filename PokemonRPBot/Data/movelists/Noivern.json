@@ -1,6 +1,19 @@
 {
     "number": 715,
     "name": "Noivern",
+    "types": [
+        "Flying",
+        "Dragon"
+    ],
+    "abilities": {
+        "normal": [
+            "Frisk",
+            "Infiltrator"
+        ],
+        "hidden": [
+            "Telepathy"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

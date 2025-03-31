@@ -1,6 +1,18 @@
 {
     "number": 707,
     "name": "Klefki",
+    "types": [
+        "Steel",
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Prankster"
+        ],
+        "hidden": [
+            "Magician"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

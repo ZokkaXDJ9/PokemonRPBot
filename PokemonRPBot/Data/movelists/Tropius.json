@@ -1,6 +1,19 @@
 {
     "number": 357,
     "name": "Tropius",
+    "types": [
+        "Grass",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Chlorophyll",
+            "Solar Power"
+        ],
+        "hidden": [
+            "Harvest"
+        ]
+    },
     "moves": {
         "bronze": [
             "Growth",

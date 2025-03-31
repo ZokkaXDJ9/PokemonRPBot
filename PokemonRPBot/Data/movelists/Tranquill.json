@@ -1,6 +1,19 @@
 {
     "number": 520,
     "name": "Tranquill",
+    "types": [
+        "Normal",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Big Pecks",
+            "Super Luck"
+        ],
+        "hidden": [
+            "Rivalry"
+        ]
+    },
     "moves": {
         "bronze": [
             "Growl",

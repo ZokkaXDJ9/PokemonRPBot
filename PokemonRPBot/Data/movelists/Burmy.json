@@ -1,6 +1,17 @@
 {
     "number": 412,
     "name": "Burmy",
+    "types": [
+        "Bug"
+    ],
+    "abilities": {
+        "normal": [
+            "Shed Skin"
+        ],
+        "hidden": [
+            "Overcoat"
+        ]
+    },
     "moves": {
         "bronze": [
             "Protect",

@@ -1,6 +1,11 @@
 {
     "number": 772,
     "name": "Type: Null",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Aerial Ace",

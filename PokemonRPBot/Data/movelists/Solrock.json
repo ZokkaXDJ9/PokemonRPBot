@@ -1,6 +1,16 @@
 {
     "number": 338,
     "name": "Solrock",
+    "types": [
+        "Rock",
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Levitate"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Confusion",

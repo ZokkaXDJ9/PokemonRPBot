@@ -1,6 +1,19 @@
 {
     "number": 899,
     "name": "Wyrdeer",
+    "types": [
+        "Normal",
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Intimidate",
+            "Frisk"
+        ],
+        "hidden": [
+            "Sap Sipper"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

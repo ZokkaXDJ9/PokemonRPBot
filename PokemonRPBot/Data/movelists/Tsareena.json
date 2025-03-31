@@ -1,6 +1,18 @@
 {
     "number": 763,
     "name": "Tsareena",
+    "types": [
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Leaf Guard",
+            "Queenly Majesty"
+        ],
+        "hidden": [
+            "Sweet Veil"
+        ]
+    },
     "moves": {
         "bronze": [
             "Flail",

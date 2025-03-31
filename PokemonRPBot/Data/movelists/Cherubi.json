@@ -1,6 +1,15 @@
 {
     "number": 420,
     "name": "Cherubi",
+    "types": [
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Chlorophyll"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Growth",

@@ -1,6 +1,16 @@
 {
     "number": 649,
     "name": "Genesect",
+    "types": [
+        "Bug",
+        "Steel"
+    ],
+    "abilities": {
+        "normal": [
+            "Download"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Fury Cutter",

@@ -1,6 +1,17 @@
 {
     "number": 654,
     "name": "Braixen",
+    "types": [
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Blaze"
+        ],
+        "hidden": [
+            "Magician"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ember",

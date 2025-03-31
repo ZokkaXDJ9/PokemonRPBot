@@ -1,6 +1,18 @@
 {
     "number": 499,
     "name": "Pignite",
+    "types": [
+        "Fire",
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Blaze"
+        ],
+        "hidden": [
+            "Thick Fat"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ember",

@@ -1,6 +1,18 @@
 {
     "number": 118,
     "name": "Goldeen",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Swift Swim",
+            "Water Veil"
+        ],
+        "hidden": [
+            "Lightning Rod"
+        ]
+    },
     "moves": {
         "bronze": [
             "Horn Attack",

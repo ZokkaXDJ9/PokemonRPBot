@@ -1,6 +1,11 @@
 {
     "number": 989,
     "name": "Sandy Shocks",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Electric Terrain",

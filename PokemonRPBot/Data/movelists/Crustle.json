@@ -1,6 +1,19 @@
 {
     "number": 558,
     "name": "Crustle",
+    "types": [
+        "Bug",
+        "Rock"
+    ],
+    "abilities": {
+        "normal": [
+            "Sturdy",
+            "Shell Armor"
+        ],
+        "hidden": [
+            "Weak Armor"
+        ]
+    },
     "moves": {
         "bronze": [
             "Fury Cutter",

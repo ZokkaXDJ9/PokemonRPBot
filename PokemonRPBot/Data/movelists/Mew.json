@@ -1,6 +1,15 @@
 {
     "number": 151,
     "name": "Mew",
+    "types": [
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Synchronize"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Amnesia",

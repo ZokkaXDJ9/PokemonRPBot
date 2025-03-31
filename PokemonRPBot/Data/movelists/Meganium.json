@@ -1,6 +1,17 @@
 {
     "number": 154,
     "name": "Meganium",
+    "types": [
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Overgrow"
+        ],
+        "hidden": [
+            "Leaf Guard"
+        ]
+    },
     "moves": {
         "bronze": [
             "Growl",

@@ -1,6 +1,18 @@
 {
     "number": 205,
     "name": "Forretress",
+    "types": [
+        "Bug",
+        "Steel"
+    ],
+    "abilities": {
+        "normal": [
+            "Sturdy"
+        ],
+        "hidden": [
+            "Overcoat"
+        ]
+    },
     "moves": {
         "bronze": [
             "Autotomize",

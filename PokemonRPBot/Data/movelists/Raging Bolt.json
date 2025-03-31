@@ -1,6 +1,11 @@
 {
     "number": 1021,
     "name": "Raging Bolt",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Charge",

@@ -1,6 +1,19 @@
 {
     "number": 407,
     "name": "Roserade",
+    "types": [
+        "Grass",
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Natural Cure",
+            "Poison Point"
+        ],
+        "hidden": [
+            "Technician"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

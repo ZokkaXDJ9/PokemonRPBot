@@ -1,6 +1,18 @@
 {
     "number": 206,
     "name": "Dunsparce",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Serene Grace",
+            "Run Away"
+        ],
+        "hidden": [
+            "Rattled"
+        ]
+    },
     "moves": {
         "bronze": [
             "Defense Curl",

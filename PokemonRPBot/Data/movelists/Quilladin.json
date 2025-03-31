@@ -1,6 +1,17 @@
 {
     "number": 651,
     "name": "Quilladin",
+    "types": [
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Overgrow"
+        ],
+        "hidden": [
+            "Bulletproof"
+        ]
+    },
     "moves": {
         "bronze": [
             "Growl",

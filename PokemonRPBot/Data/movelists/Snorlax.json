@@ -1,6 +1,18 @@
 {
     "number": 143,
     "name": "Snorlax",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Immunity",
+            "Thick Fat"
+        ],
+        "hidden": [
+            "Gluttony"
+        ]
+    },
     "moves": {
         "bronze": [
             "Amnesia",

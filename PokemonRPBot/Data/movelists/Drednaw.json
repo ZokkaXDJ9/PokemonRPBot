@@ -1,6 +1,19 @@
 {
     "number": 834,
     "name": "Drednaw",
+    "types": [
+        "Water",
+        "Rock"
+    ],
+    "abilities": {
+        "normal": [
+            "Strong Jaw",
+            "Shell Armor"
+        ],
+        "hidden": [
+            "Swift Swim"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

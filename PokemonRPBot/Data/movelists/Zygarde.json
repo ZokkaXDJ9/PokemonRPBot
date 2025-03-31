@@ -1,6 +1,11 @@
 {
     "number": 718,
     "name": "Zygarde",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Bind",

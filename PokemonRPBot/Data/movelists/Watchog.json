@@ -1,6 +1,18 @@
 {
     "number": 505,
     "name": "Watchog",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Illuminate",
+            "Keen Eye"
+        ],
+        "hidden": [
+            "Analytic"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bide",

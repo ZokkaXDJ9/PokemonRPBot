@@ -1,6 +1,15 @@
 {
     "number": 201,
     "name": "Unown",
+    "types": [
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Levitate"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Hidden Power"

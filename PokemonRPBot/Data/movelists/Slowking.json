@@ -1,6 +1,19 @@
 {
     "number": 199,
     "name": "Slowking",
+    "types": [
+        "Water",
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Oblivious",
+            "Own Tempo"
+        ],
+        "hidden": [
+            "Regenerator"
+        ]
+    },
     "moves": {
         "bronze": [
             "Curse",

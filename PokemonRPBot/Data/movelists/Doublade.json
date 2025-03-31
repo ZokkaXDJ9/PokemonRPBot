@@ -1,6 +1,16 @@
 {
     "number": 680,
     "name": "Doublade",
+    "types": [
+        "Steel",
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "No Guard"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Autotomize",

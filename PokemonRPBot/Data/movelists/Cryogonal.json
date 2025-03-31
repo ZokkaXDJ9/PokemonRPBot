@@ -1,6 +1,15 @@
 {
     "number": 615,
     "name": "Cryogonal",
+    "types": [
+        "Ice"
+    ],
+    "abilities": {
+        "normal": [
+            "Levitate"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Bind",

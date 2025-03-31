@@ -1,6 +1,19 @@
 {
     "number": 553,
     "name": "Krookodile",
+    "types": [
+        "Ground",
+        "Dark"
+    ],
+    "abilities": {
+        "normal": [
+            "Intimidate",
+            "Moxie"
+        ],
+        "hidden": [
+            "Anger Point"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

@@ -1,6 +1,18 @@
 {
     "number": 105,
     "name": "Marowak",
+    "types": [
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Rock Head",
+            "Lightning Rod"
+        ],
+        "hidden": [
+            "Battle Armor"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bone Club",

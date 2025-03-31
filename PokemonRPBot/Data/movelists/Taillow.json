@@ -1,6 +1,18 @@
 {
     "number": 276,
     "name": "Taillow",
+    "types": [
+        "Normal",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Guts"
+        ],
+        "hidden": [
+            "Scrappy"
+        ]
+    },
     "moves": {
         "bronze": [
             "Focus Energy",

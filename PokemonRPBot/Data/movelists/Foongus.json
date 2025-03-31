@@ -1,6 +1,18 @@
 {
     "number": 590,
     "name": "Foongus",
+    "types": [
+        "Grass",
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Effect Spore"
+        ],
+        "hidden": [
+            "Regenerator"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

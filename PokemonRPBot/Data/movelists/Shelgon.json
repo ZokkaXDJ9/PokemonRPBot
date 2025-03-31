@@ -1,6 +1,17 @@
 {
     "number": 372,
     "name": "Shelgon",
+    "types": [
+        "Dragon"
+    ],
+    "abilities": {
+        "normal": [
+            "Rock Head"
+        ],
+        "hidden": [
+            "Overcoat"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

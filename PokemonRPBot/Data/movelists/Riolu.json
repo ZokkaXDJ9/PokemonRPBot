@@ -1,6 +1,18 @@
 {
     "number": 447,
     "name": "Riolu",
+    "types": [
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Steadfast",
+            "Inner Focus"
+        ],
+        "hidden": [
+            "Prankster"
+        ]
+    },
     "moves": {
         "bronze": [
             "Counter",

@@ -1,6 +1,18 @@
 {
     "number": 1015,
     "name": "Munkidori",
+    "types": [
+        "Poison",
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Toxic Chain"
+        ],
+        "hidden": [
+            "Frisk"
+        ]
+    },
     "moves": {
         "bronze": [
             "Confusion",

@@ -1,6 +1,11 @@
 {
     "number": 745,
     "name": "Lycanroc",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Accelerock",

@@ -1,6 +1,19 @@
 {
     "number": 860,
     "name": "Morgrem",
+    "types": [
+        "Dark",
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Prankster",
+            "Frisk"
+        ],
+        "hidden": [
+            "Pickpocket"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

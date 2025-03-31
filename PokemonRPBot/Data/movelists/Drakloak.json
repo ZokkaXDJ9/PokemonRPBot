@@ -1,6 +1,19 @@
 {
     "number": 886,
     "name": "Drakloak",
+    "types": [
+        "Dragon",
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Clear Body",
+            "Infiltrator"
+        ],
+        "hidden": [
+            "Cursed Body"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

@@ -1,6 +1,18 @@
 {
     "number": 30,
     "name": "Nidorina",
+    "types": [
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Poison Point",
+            "Rivalry"
+        ],
+        "hidden": [
+            "Hustle"
+        ]
+    },
     "moves": {
         "bronze": [
             "Double Kick",

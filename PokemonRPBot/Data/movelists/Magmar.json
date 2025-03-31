@@ -1,6 +1,17 @@
 {
     "number": 126,
     "name": "Magmar",
+    "types": [
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Flame Body"
+        ],
+        "hidden": [
+            "Vital Spirit"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ember",

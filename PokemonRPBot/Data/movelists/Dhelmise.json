@@ -1,6 +1,16 @@
 {
     "number": 781,
     "name": "Dhelmise",
+    "types": [
+        "Ghost",
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Steelworker"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Absorb",

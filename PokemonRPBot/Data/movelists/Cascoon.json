@@ -1,6 +1,15 @@
 {
     "number": 268,
     "name": "Cascoon",
+    "types": [
+        "Bug"
+    ],
+    "abilities": {
+        "normal": [
+            "Shed Skin"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Harden"

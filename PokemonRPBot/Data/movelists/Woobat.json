@@ -1,6 +1,19 @@
 {
     "number": 527,
     "name": "Woobat",
+    "types": [
+        "Psychic",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Unaware",
+            "Klutz"
+        ],
+        "hidden": [
+            "Simple"
+        ]
+    },
     "moves": {
         "bronze": [
             "Attract",

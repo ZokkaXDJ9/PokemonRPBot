@@ -1,6 +1,17 @@
 {
     "number": 181,
     "name": "Ampharos",
+    "types": [
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Static"
+        ],
+        "hidden": [
+            "Plus"
+        ]
+    },
     "moves": {
         "bronze": [
             "Dragon Pulse",

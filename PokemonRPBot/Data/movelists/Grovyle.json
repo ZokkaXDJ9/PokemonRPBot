@@ -1,6 +1,17 @@
 {
     "number": 253,
     "name": "Grovyle",
+    "types": [
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Overgrow"
+        ],
+        "hidden": [
+            "Unburden"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

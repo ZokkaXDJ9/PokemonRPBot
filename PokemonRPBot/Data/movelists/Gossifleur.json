@@ -1,6 +1,18 @@
 {
     "number": 829,
     "name": "Gossifleur",
+    "types": [
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Cotton Down",
+            "Regenerator"
+        ],
+        "hidden": [
+            "Effect Spore"
+        ]
+    },
     "moves": {
         "bronze": [
             "Leafage",

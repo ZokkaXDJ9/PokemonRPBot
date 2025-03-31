@@ -1,6 +1,19 @@
 {
     "number": 880,
     "name": "Dracozolt",
+    "types": [
+        "Electric",
+        "Dragon"
+    ],
+    "abilities": {
+        "normal": [
+            "Volt Absorb",
+            "Hustle"
+        ],
+        "hidden": [
+            "Sand Rush"
+        ]
+    },
     "moves": {
         "bronze": [
             "Charge",

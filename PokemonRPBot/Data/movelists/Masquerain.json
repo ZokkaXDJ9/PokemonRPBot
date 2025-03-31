@@ -1,6 +1,18 @@
 {
     "number": 284,
     "name": "Masquerain",
+    "types": [
+        "Bug",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Intimidate"
+        ],
+        "hidden": [
+            "Unnerve"
+        ]
+    },
     "moves": {
         "bronze": [
             "Agility",

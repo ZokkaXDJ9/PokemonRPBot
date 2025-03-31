@@ -1,6 +1,18 @@
 {
     "number": 575,
     "name": "Gothorita",
+    "types": [
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Frisk",
+            "Competitive"
+        ],
+        "hidden": [
+            "Shadow Tag"
+        ]
+    },
     "moves": {
         "bronze": [
             "Confusion",

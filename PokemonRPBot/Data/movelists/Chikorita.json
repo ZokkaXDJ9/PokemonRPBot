@@ -1,6 +1,17 @@
 {
     "number": 152,
     "name": "Chikorita",
+    "types": [
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Overgrow"
+        ],
+        "hidden": [
+            "Leaf Guard"
+        ]
+    },
     "moves": {
         "bronze": [
             "Growl",

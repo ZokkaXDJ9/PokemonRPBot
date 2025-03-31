@@ -1,6 +1,18 @@
 {
     "number": 599,
     "name": "Klink",
+    "types": [
+        "Steel"
+    ],
+    "abilities": {
+        "normal": [
+            "Plus",
+            "Minus"
+        ],
+        "hidden": [
+            "Clear Body"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bind",

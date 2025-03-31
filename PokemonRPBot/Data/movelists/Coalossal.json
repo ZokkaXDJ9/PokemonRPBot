@@ -1,6 +1,19 @@
 {
     "number": 839,
     "name": "Coalossal",
+    "types": [
+        "Rock",
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Steam Engine",
+            "Flame Body"
+        ],
+        "hidden": [
+            "Flash Fire"
+        ]
+    },
     "moves": {
         "bronze": [
             "Flame Charge",

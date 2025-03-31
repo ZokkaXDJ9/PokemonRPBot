@@ -1,6 +1,16 @@
 {
     "number": 646,
     "name": "Kyurem",
+    "types": [
+        "Dragon",
+        "Ice"
+    ],
+    "abilities": {
+        "normal": [
+            "Pressure"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Ancient Power",

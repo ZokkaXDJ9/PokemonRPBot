@@ -1,6 +1,18 @@
 {
     "number": 712,
     "name": "Bergmite",
+    "types": [
+        "Ice"
+    ],
+    "abilities": {
+        "normal": [
+            "Own Tempo",
+            "Ice Body"
+        ],
+        "hidden": [
+            "Sturdy"
+        ]
+    },
     "moves": {
         "bronze": [
             "Curse",

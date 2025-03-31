@@ -1,6 +1,19 @@
 {
     "number": 622,
     "name": "Golett",
+    "types": [
+        "Ground",
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Iron Fist",
+            "Klutz"
+        ],
+        "hidden": [
+            "No Guard"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

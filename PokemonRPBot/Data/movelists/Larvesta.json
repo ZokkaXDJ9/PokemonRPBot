@@ -1,6 +1,18 @@
 {
     "number": 636,
     "name": "Larvesta",
+    "types": [
+        "Bug",
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Flame Body"
+        ],
+        "hidden": [
+            "Swarm"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

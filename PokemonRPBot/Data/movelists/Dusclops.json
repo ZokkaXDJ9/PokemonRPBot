@@ -1,6 +1,17 @@
 {
     "number": 356,
     "name": "Dusclops",
+    "types": [
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Pressure"
+        ],
+        "hidden": [
+            "Frisk"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

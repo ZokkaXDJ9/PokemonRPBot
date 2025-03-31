@@ -1,6 +1,18 @@
 {
     "number": 662,
     "name": "Fletchinder",
+    "types": [
+        "Fire",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Flame Body"
+        ],
+        "hidden": [
+            "Gale Wings"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ember",

@@ -1,6 +1,18 @@
 {
     "number": 410,
     "name": "Shieldon",
+    "types": [
+        "Rock",
+        "Steel"
+    ],
+    "abilities": {
+        "normal": [
+            "Sturdy"
+        ],
+        "hidden": [
+            "Soundproof"
+        ]
+    },
     "moves": {
         "bronze": [
             "Metal Sound",

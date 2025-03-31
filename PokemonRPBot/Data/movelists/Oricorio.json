@@ -1,6 +1,11 @@
 {
     "number": 741,
     "name": "Oricorio",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Growl",

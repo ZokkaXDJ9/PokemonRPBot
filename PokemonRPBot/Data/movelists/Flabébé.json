@@ -1,6 +1,11 @@
 {
     "number": 669,
-    "name": "Flabébé",
+    "name": "Flab\u00c3\u00a9b\u00c3\u00a9",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Fairy Wind",

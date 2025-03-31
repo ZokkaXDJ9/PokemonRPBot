@@ -1,6 +1,17 @@
 {
     "number": 265,
     "name": "Wurmple",
+    "types": [
+        "Bug"
+    ],
+    "abilities": {
+        "normal": [
+            "Shield Dust"
+        ],
+        "hidden": [
+            "Run Away"
+        ]
+    },
     "moves": {
         "bronze": [
             "Poison Sting",

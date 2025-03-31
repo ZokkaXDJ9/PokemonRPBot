@@ -1,6 +1,18 @@
 {
     "number": 757,
     "name": "Salandit",
+    "types": [
+        "Poison",
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Corrosion"
+        ],
+        "hidden": [
+            "Oblivious"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ember",

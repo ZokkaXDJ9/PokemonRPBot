@@ -1,6 +1,17 @@
 {
     "number": 513,
     "name": "Pansear",
+    "types": [
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Gluttony"
+        ],
+        "hidden": [
+            "Blaze"
+        ]
+    },
     "moves": {
         "bronze": [
             "Incinerate",

@@ -1,6 +1,15 @@
 {
     "number": 692,
     "name": "Clauncher",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Mega Launcher"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Flail",

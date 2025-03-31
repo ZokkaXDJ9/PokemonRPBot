@@ -1,6 +1,17 @@
 {
     "number": 125,
     "name": "Electabuzz",
+    "types": [
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Static"
+        ],
+        "hidden": [
+            "Vital Spirit"
+        ]
+    },
     "moves": {
         "bronze": [
             "Charge",

@@ -1,6 +1,18 @@
 {
     "number": 395,
     "name": "Empoleon",
+    "types": [
+        "Water",
+        "Steel"
+    ],
+    "abilities": {
+        "normal": [
+            "Torrent"
+        ],
+        "hidden": [
+            "Competitive"
+        ]
+    },
     "moves": {
         "bronze": [
             "Aqua Jet",

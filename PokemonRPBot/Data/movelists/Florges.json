@@ -1,6 +1,17 @@
 {
     "number": 671,
     "name": "Florges",
+    "types": [
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Flower Veil"
+        ],
+        "hidden": [
+            "Symbiosis"
+        ]
+    },
     "moves": {
         "bronze": [
             "Disarming Voice",

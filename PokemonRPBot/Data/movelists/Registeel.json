@@ -1,6 +1,17 @@
 {
     "number": 379,
     "name": "Registeel",
+    "types": [
+        "Steel"
+    ],
+    "abilities": {
+        "normal": [
+            "Clear Body"
+        ],
+        "hidden": [
+            "Light Metal"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bulldoze",

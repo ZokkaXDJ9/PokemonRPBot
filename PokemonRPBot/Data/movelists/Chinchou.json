@@ -1,6 +1,19 @@
 {
     "number": 170,
     "name": "Chinchou",
+    "types": [
+        "Water",
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Volt Absorb",
+            "Illuminate"
+        ],
+        "hidden": [
+            "Water Absorb"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bubble",

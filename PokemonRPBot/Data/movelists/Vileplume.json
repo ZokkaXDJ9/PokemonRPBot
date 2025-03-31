@@ -1,6 +1,18 @@
 {
     "number": 45,
     "name": "Vileplume",
+    "types": [
+        "Grass",
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Chlorophyll"
+        ],
+        "hidden": [
+            "Effect Spore"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

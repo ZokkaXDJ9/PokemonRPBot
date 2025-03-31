@@ -1,6 +1,11 @@
 {
     "number": 787,
     "name": "Tapu Bulu",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Disable",

@@ -1,6 +1,11 @@
 {
     "number": 710,
     "name": "Pumpkaboo",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Astonish",

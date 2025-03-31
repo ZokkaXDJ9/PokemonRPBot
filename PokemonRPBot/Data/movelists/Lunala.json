@@ -1,6 +1,16 @@
 {
     "number": 792,
     "name": "Lunala",
+    "types": [
+        "Psychic",
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Shadow Shield"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Confusion",

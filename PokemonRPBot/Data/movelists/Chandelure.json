@@ -1,6 +1,19 @@
 {
     "number": 609,
     "name": "Chandelure",
+    "types": [
+        "Ghost",
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Flash Fire",
+            "Flame Body"
+        ],
+        "hidden": [
+            "Infiltrator"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

@@ -1,6 +1,19 @@
 {
     "number": 230,
     "name": "Kingdra",
+    "types": [
+        "Water",
+        "Dragon"
+    ],
+    "abilities": {
+        "normal": [
+            "Swift Swim",
+            "Sniper"
+        ],
+        "hidden": [
+            "Damp"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bubble",

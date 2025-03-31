@@ -1,6 +1,18 @@
 {
     "number": 241,
     "name": "Miltank",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Thick Fat",
+            "Scrappy"
+        ],
+        "hidden": [
+            "Sap Sipper"
+        ]
+    },
     "moves": {
         "bronze": [
             "Defense Curl",

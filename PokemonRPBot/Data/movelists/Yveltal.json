@@ -1,6 +1,16 @@
 {
     "number": 717,
     "name": "Yveltal",
+    "types": [
+        "Dark",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Dark Aura"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Air Slash",

@@ -1,6 +1,18 @@
 {
     "number": 857,
     "name": "Hattrem",
+    "types": [
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Healer",
+            "Anticipation"
+        ],
+        "hidden": [
+            "Magic Bounce"
+        ]
+    },
     "moves": {
         "bronze": [
             "Brutal Swing",

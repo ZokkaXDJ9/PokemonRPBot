@@ -1,6 +1,19 @@
 {
     "number": 779,
     "name": "Bruxish",
+    "types": [
+        "Water",
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Dazzling",
+            "Strong Jaw"
+        ],
+        "hidden": [
+            "Wonder Skin"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

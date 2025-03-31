@@ -1,6 +1,19 @@
 {
     "number": 49,
     "name": "Venomoth",
+    "types": [
+        "Bug",
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Shield Dust",
+            "Tinted Lens"
+        ],
+        "hidden": [
+            "Wonder Skin"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bug Buzz",

@@ -1,6 +1,18 @@
 {
     "number": 175,
     "name": "Togepi",
+    "types": [
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Hustle",
+            "Serene Grace"
+        ],
+        "hidden": [
+            "Super Luck"
+        ]
+    },
     "moves": {
         "bronze": [
             "Charm",

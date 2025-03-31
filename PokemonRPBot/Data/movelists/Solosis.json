@@ -1,6 +1,18 @@
 {
     "number": 577,
     "name": "Solosis",
+    "types": [
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Overcoat",
+            "Magic Guard"
+        ],
+        "hidden": [
+            "Regenerator"
+        ]
+    },
     "moves": {
         "bronze": [
             "Confusion",

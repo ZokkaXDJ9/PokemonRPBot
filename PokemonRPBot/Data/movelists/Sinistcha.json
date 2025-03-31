@@ -1,6 +1,18 @@
 {
     "number": 1013,
     "name": "Sinistcha",
+    "types": [
+        "Grass",
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Hospitality"
+        ],
+        "hidden": [
+            "Heatproof"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

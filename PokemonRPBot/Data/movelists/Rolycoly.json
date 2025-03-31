@@ -1,6 +1,18 @@
 {
     "number": 837,
     "name": "Rolycoly",
+    "types": [
+        "Rock"
+    ],
+    "abilities": {
+        "normal": [
+            "Steam Engine",
+            "Heatproof"
+        ],
+        "hidden": [
+            "Flash Fire"
+        ]
+    },
     "moves": {
         "bronze": [
             "Rapid Spin",

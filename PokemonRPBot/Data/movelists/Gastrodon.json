@@ -1,6 +1,19 @@
 {
     "number": 423,
     "name": "Gastrodon",
+    "types": [
+        "Water",
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Sticky Hold",
+            "Storm Drain"
+        ],
+        "hidden": [
+            "Sand Force"
+        ]
+    },
     "moves": {
         "bronze": [
             "Harden",

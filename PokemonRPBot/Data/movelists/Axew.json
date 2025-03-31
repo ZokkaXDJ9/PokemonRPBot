@@ -1,6 +1,18 @@
 {
     "number": 610,
     "name": "Axew",
+    "types": [
+        "Dragon"
+    ],
+    "abilities": {
+        "normal": [
+            "Rivalry",
+            "Mold Breaker"
+        ],
+        "hidden": [
+            "Unnerve"
+        ]
+    },
     "moves": {
         "bronze": [
             "Assurance",

@@ -1,6 +1,18 @@
 {
     "number": 744,
     "name": "Rockruff",
+    "types": [
+        "Rock"
+    ],
+    "abilities": {
+        "normal": [
+            "Keen Eye",
+            "Vital Spirit"
+        ],
+        "hidden": [
+            "Steadfast"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

@@ -1,6 +1,11 @@
 {
     "number": 877,
     "name": "Morpeko",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Leer",

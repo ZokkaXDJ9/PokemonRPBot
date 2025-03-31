@@ -1,6 +1,16 @@
 {
     "number": 1003,
     "name": "Ting-Lu",
+    "types": [
+        "Dark",
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Vessel of Ruin"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Mean Look",

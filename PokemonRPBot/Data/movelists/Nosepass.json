@@ -1,6 +1,18 @@
 {
     "number": 299,
     "name": "Nosepass",
+    "types": [
+        "Rock"
+    ],
+    "abilities": {
+        "normal": [
+            "Sturdy",
+            "Magnet Pull"
+        ],
+        "hidden": [
+            "Sand Force"
+        ]
+    },
     "moves": {
         "bronze": [
             "Block",

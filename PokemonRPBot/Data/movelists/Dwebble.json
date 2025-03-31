@@ -1,6 +1,19 @@
 {
     "number": 557,
     "name": "Dwebble",
+    "types": [
+        "Bug",
+        "Rock"
+    ],
+    "abilities": {
+        "normal": [
+            "Sturdy",
+            "Shell Armor"
+        ],
+        "hidden": [
+            "Weak Armor"
+        ]
+    },
     "moves": {
         "bronze": [
             "Fury Cutter",

@@ -1,6 +1,11 @@
 {
     "number": 746,
     "name": "Wishiwashi",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Beat Up",

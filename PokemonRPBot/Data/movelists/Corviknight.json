@@ -1,6 +1,19 @@
 {
     "number": 823,
     "name": "Corviknight",
+    "types": [
+        "Flying",
+        "Steel"
+    ],
+    "abilities": {
+        "normal": [
+            "Pressure",
+            "Unnerve"
+        ],
+        "hidden": [
+            "Mirror Armor"
+        ]
+    },
     "moves": {
         "bronze": [
             "Hone Claws",

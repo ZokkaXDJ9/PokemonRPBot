@@ -1,6 +1,18 @@
 {
     "number": 568,
     "name": "Trubbish",
+    "types": [
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Stench",
+            "Sticky Hold"
+        ],
+        "hidden": [
+            "Aftermath"
+        ]
+    },
     "moves": {
         "bronze": [
             "Acid Spray",

@@ -1,6 +1,16 @@
 {
     "number": 806,
     "name": "Blacephalon",
+    "types": [
+        "Fire",
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Beast Boost"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Astonish",

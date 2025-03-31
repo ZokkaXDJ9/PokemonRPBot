@@ -1,6 +1,19 @@
 {
     "number": 547,
     "name": "Whimsicott",
+    "types": [
+        "Grass",
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Prankster",
+            "Infiltrator"
+        ],
+        "hidden": [
+            "Chlorophyll"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

@@ -1,6 +1,11 @@
 {
     "number": 487,
     "name": "Giratina",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Ancient Power",

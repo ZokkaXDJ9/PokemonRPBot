@@ -1,6 +1,19 @@
 {
     "number": 945,
     "name": "Grafaiai",
+    "types": [
+        "Poison",
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Unburden",
+            "Poison Touch"
+        ],
+        "hidden": [
+            "Prankster"
+        ]
+    },
     "moves": {
         "bronze": [
             "Acid Spray",

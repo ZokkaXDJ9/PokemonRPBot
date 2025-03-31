@@ -1,6 +1,18 @@
 {
     "number": 19,
     "name": "Rattata",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Run Away",
+            "Guts"
+        ],
+        "hidden": [
+            "Hustle"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

@@ -1,6 +1,19 @@
 {
     "number": 365,
     "name": "Walrein",
+    "types": [
+        "Ice",
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Thick Fat",
+            "Ice Body"
+        ],
+        "hidden": [
+            "Oblivious"
+        ]
+    },
     "moves": {
         "bronze": [
             "Crunch",

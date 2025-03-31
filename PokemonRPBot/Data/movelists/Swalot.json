@@ -1,6 +1,18 @@
 {
     "number": 317,
     "name": "Swalot",
+    "types": [
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Liquid Ooze",
+            "Sticky Hold"
+        ],
+        "hidden": [
+            "Gluttony"
+        ]
+    },
     "moves": {
         "bronze": [
             "Body Slam",

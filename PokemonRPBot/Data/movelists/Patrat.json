@@ -1,6 +1,18 @@
 {
     "number": 504,
     "name": "Patrat",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Run Away",
+            "Keen Eye"
+        ],
+        "hidden": [
+            "Analytic"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bide",

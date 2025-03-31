@@ -1,6 +1,19 @@
 {
     "number": 742,
     "name": "Cutiefly",
+    "types": [
+        "Bug",
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Honey Gather",
+            "Shield Dust"
+        ],
+        "hidden": [
+            "Sweet Veil"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

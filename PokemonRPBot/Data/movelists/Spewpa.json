@@ -1,6 +1,17 @@
 {
     "number": 665,
     "name": "Spewpa",
+    "types": [
+        "Bug"
+    ],
+    "abilities": {
+        "normal": [
+            "Shed Skin"
+        ],
+        "hidden": [
+            "Friend Guard"
+        ]
+    },
     "moves": {
         "bronze": [
             "Harden",

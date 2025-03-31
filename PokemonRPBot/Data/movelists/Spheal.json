@@ -1,6 +1,19 @@
 {
     "number": 363,
     "name": "Spheal",
+    "types": [
+        "Ice",
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Thick Fat",
+            "Ice Body"
+        ],
+        "hidden": [
+            "Oblivious"
+        ]
+    },
     "moves": {
         "bronze": [
             "Defense Curl",

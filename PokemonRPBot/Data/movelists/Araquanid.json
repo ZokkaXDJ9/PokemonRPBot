@@ -1,6 +1,18 @@
 {
     "number": 752,
     "name": "Araquanid",
+    "types": [
+        "Water",
+        "Bug"
+    ],
+    "abilities": {
+        "normal": [
+            "Water Bubble"
+        ],
+        "hidden": [
+            "Water Absorb"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

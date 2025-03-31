@@ -1,6 +1,15 @@
 {
     "number": 716,
     "name": "Xerneas",
+    "types": [
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Fairy Aura"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Aurora Beam",

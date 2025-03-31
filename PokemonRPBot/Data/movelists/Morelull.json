@@ -1,6 +1,19 @@
 {
     "number": 755,
     "name": "Morelull",
+    "types": [
+        "Grass",
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Illuminate",
+            "Effect Spore"
+        ],
+        "hidden": [
+            "Rain Dish"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

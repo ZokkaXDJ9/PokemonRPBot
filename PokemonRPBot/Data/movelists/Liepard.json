@@ -1,6 +1,18 @@
 {
     "number": 510,
     "name": "Liepard",
+    "types": [
+        "Dark"
+    ],
+    "abilities": {
+        "normal": [
+            "Limber",
+            "Unburden"
+        ],
+        "hidden": [
+            "Prankster"
+        ]
+    },
     "moves": {
         "bronze": [
             "Assist",

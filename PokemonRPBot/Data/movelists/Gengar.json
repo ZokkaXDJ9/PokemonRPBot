@@ -1,6 +1,16 @@
 {
     "number": 94,
     "name": "Gengar",
+    "types": [
+        "Ghost",
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Cursed Body"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Confuse Ray",

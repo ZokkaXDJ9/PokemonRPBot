@@ -1,6 +1,19 @@
 {
     "number": 784,
     "name": "Kommo-o",
+    "types": [
+        "Dragon",
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Bulletproof",
+            "Soundproof"
+        ],
+        "hidden": [
+            "Overcoat"
+        ]
+    },
     "moves": {
         "bronze": [
             "Autotomize",

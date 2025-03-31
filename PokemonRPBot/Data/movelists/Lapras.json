@@ -1,6 +1,19 @@
 {
     "number": 131,
     "name": "Lapras",
+    "types": [
+        "Water",
+        "Ice"
+    ],
+    "abilities": {
+        "normal": [
+            "Water Absorb",
+            "Shell Armor"
+        ],
+        "hidden": [
+            "Hydration"
+        ]
+    },
     "moves": {
         "bronze": [
             "Confuse Ray",

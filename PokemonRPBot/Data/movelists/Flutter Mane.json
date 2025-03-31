@@ -1,6 +1,11 @@
 {
     "number": 987,
     "name": "Flutter Mane",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Astonish",

@@ -1,6 +1,18 @@
 {
     "number": 44,
     "name": "Gloom",
+    "types": [
+        "Grass",
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Chlorophyll"
+        ],
+        "hidden": [
+            "Stench"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

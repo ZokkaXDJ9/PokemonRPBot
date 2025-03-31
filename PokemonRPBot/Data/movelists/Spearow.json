@@ -1,6 +1,18 @@
 {
     "number": 21,
     "name": "Spearow",
+    "types": [
+        "Normal",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Keen Eye"
+        ],
+        "hidden": [
+            "Sniper"
+        ]
+    },
     "moves": {
         "bronze": [
             "Assurance",

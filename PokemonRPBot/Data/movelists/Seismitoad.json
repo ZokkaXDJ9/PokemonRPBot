@@ -1,6 +1,19 @@
 {
     "number": 537,
     "name": "Seismitoad",
+    "types": [
+        "Water",
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Swift Swim",
+            "Poison Touch"
+        ],
+        "hidden": [
+            "Water Absorb"
+        ]
+    },
     "moves": {
         "bronze": [
             "Acid",

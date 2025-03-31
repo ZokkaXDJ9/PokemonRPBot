@@ -1,6 +1,18 @@
 {
     "number": 404,
     "name": "Luxio",
+    "types": [
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Rivalry",
+            "Intimidate"
+        ],
+        "hidden": [
+            "Guts"
+        ]
+    },
     "moves": {
         "bronze": [
             "Charge",

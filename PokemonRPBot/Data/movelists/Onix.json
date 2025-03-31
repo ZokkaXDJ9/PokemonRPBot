@@ -1,6 +1,19 @@
 {
     "number": 95,
     "name": "Onix",
+    "types": [
+        "Rock",
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Rock Head",
+            "Sturdy"
+        ],
+        "hidden": [
+            "Weak Armor"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bind",

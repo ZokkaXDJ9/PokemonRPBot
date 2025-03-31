@@ -1,6 +1,16 @@
 {
     "number": 890,
     "name": "Eternatus",
+    "types": [
+        "Poison",
+        "Dragon"
+    ],
+    "abilities": {
+        "normal": [
+            "Pressure"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Agility",

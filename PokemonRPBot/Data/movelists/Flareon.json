@@ -1,6 +1,17 @@
 {
     "number": 136,
     "name": "Flareon",
+    "types": [
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Flash Fire"
+        ],
+        "hidden": [
+            "Guts"
+        ]
+    },
     "moves": {
         "bronze": [
             "Baby-Doll Eyes",

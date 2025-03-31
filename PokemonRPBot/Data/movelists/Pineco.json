@@ -1,6 +1,17 @@
 {
     "number": 204,
     "name": "Pineco",
+    "types": [
+        "Bug"
+    ],
+    "abilities": {
+        "normal": [
+            "Sturdy"
+        ],
+        "hidden": [
+            "Overcoat"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bug Bite",

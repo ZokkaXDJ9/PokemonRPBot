@@ -1,6 +1,18 @@
 {
     "number": 956,
     "name": "Espathra",
+    "types": [
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Opportunist",
+            "Frisk"
+        ],
+        "hidden": [
+            "Speed Boost"
+        ]
+    },
     "moves": {
         "bronze": [
             "Baby-Doll Eyes",

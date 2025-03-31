@@ -1,6 +1,18 @@
 {
     "number": 456,
     "name": "Finneon",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Swift Swim",
+            "Storm Drain"
+        ],
+        "hidden": [
+            "Water Veil"
+        ]
+    },
     "moves": {
         "bronze": [
             "Attract",

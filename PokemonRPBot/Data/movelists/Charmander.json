@@ -1,6 +1,17 @@
 {
     "number": 4,
     "name": "Charmander",
+    "types": [
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Blaze"
+        ],
+        "hidden": [
+            "Solar Power"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ember",

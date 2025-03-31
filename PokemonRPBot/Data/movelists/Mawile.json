@@ -1,6 +1,19 @@
 {
     "number": 303,
     "name": "Mawile",
+    "types": [
+        "Steel",
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Hyper Cutter",
+            "Intimidate"
+        ],
+        "hidden": [
+            "Sheer Force"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

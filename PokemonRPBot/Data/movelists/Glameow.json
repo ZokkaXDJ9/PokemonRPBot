@@ -1,6 +1,18 @@
 {
     "number": 431,
     "name": "Glameow",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Limber",
+            "Own Tempo"
+        ],
+        "hidden": [
+            "Keen Eye"
+        ]
+    },
     "moves": {
         "bronze": [
             "Fake Out",

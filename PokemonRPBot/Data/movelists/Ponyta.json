@@ -1,6 +1,18 @@
 {
     "number": 77,
     "name": "Ponyta",
+    "types": [
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Run Away",
+            "Flash Fire"
+        ],
+        "hidden": [
+            "Flame Body"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ember",

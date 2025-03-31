@@ -1,6 +1,18 @@
 {
     "number": 960,
     "name": "Wiglett",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Gooey",
+            "Rattled"
+        ],
+        "hidden": [
+            "Sand Veil"
+        ]
+    },
     "moves": {
         "bronze": [
             "Mud-Slap",

@@ -1,6 +1,17 @@
 {
     "number": 243,
     "name": "Raikou",
+    "types": [
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Pressure"
+        ],
+        "hidden": [
+            "Inner Focus"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

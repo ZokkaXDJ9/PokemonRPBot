@@ -1,6 +1,19 @@
 {
     "number": 46,
     "name": "Paras",
+    "types": [
+        "Bug",
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Effect Spore",
+            "Dry Skin"
+        ],
+        "hidden": [
+            "Damp"
+        ]
+    },
     "moves": {
         "bronze": [
             "Poison Powder",

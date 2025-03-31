@@ -1,6 +1,19 @@
 {
     "number": 618,
     "name": "Stunfisk",
+    "types": [
+        "Ground",
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Static",
+            "Limber"
+        ],
+        "hidden": [
+            "Sand Veil"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bide",

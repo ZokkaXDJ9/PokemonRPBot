@@ -1,6 +1,16 @@
 {
     "number": 867,
     "name": "Runerigus",
+    "types": [
+        "Ground",
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Wandering Spirit"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Astonish",

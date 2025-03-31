@@ -1,6 +1,17 @@
 {
     "number": 685,
     "name": "Slurpuff",
+    "types": [
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Sweet Veil"
+        ],
+        "hidden": [
+            "Unburden"
+        ]
+    },
     "moves": {
         "bronze": [
             "Aromatherapy",

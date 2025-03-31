@@ -1,6 +1,19 @@
 {
     "number": 270,
     "name": "Lotad",
+    "types": [
+        "Water",
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Swift Swim",
+            "Rain Dish"
+        ],
+        "hidden": [
+            "Own Tempo"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

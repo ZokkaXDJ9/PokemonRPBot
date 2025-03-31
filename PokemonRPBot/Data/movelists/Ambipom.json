@@ -1,6 +1,18 @@
 {
     "number": 424,
     "name": "Ambipom",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Technician",
+            "Pickup"
+        ],
+        "hidden": [
+            "Skill Link"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

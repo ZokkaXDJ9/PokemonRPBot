@@ -1,6 +1,11 @@
 {
     "number": 1009,
     "name": "Walking Wake",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Aqua Jet",

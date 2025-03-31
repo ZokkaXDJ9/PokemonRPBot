@@ -1,6 +1,18 @@
 {
     "number": 56,
     "name": "Mankey",
+    "types": [
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Vital Spirit",
+            "Anger Point"
+        ],
+        "hidden": [
+            "Defiant"
+        ]
+    },
     "moves": {
         "bronze": [
             "Covet",

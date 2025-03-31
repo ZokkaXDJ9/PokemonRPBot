@@ -1,6 +1,18 @@
 {
     "number": 297,
     "name": "Hariyama",
+    "types": [
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Thick Fat",
+            "Guts"
+        ],
+        "hidden": [
+            "Sheer Force"
+        ]
+    },
     "moves": {
         "bronze": [
             "Arm Thrust",

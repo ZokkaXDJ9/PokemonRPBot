@@ -1,6 +1,16 @@
 {
     "number": 1004,
     "name": "Chi-Yu",
+    "types": [
+        "Dark",
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Beads of Ruin"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Ember",

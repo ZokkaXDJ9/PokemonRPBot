@@ -1,6 +1,11 @@
 {
     "number": 916,
     "name": "Oinkologne",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Disarming Voice",

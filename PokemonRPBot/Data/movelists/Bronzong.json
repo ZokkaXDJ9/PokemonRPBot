@@ -1,6 +1,19 @@
 {
     "number": 437,
     "name": "Bronzong",
+    "types": [
+        "Steel",
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Levitate",
+            "Heatproof"
+        ],
+        "hidden": [
+            "Heavy Metal"
+        ]
+    },
     "moves": {
         "bronze": [
             "Block",

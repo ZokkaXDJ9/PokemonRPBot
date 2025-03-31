@@ -1,6 +1,19 @@
 {
     "number": 473,
     "name": "Mamoswine",
+    "types": [
+        "Ice",
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Oblivious",
+            "Snow Cloak"
+        ],
+        "hidden": [
+            "Thick Fat"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ancient Power",

@@ -1,6 +1,18 @@
 {
     "number": 932,
     "name": "Nacli",
+    "types": [
+        "Rock"
+    ],
+    "abilities": {
+        "normal": [
+            "Purifying Salt",
+            "Sturdy"
+        ],
+        "hidden": [
+            "Clear Body"
+        ]
+    },
     "moves": {
         "bronze": [
             "Harden",

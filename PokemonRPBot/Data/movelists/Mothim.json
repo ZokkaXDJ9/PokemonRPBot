@@ -1,6 +1,18 @@
 {
     "number": 414,
     "name": "Mothim",
+    "types": [
+        "Bug",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Swarm"
+        ],
+        "hidden": [
+            "Tinted Lens"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bug Bite",

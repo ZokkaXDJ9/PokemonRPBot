@@ -1,6 +1,16 @@
 {
     "number": 793,
     "name": "Nihilego",
+    "types": [
+        "Rock",
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Beast Boost"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Acid",

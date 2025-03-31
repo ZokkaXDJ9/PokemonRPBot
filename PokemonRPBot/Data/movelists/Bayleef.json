@@ -1,6 +1,17 @@
 {
     "number": 153,
     "name": "Bayleef",
+    "types": [
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Overgrow"
+        ],
+        "hidden": [
+            "Leaf Guard"
+        ]
+    },
     "moves": {
         "bronze": [
             "Growl",

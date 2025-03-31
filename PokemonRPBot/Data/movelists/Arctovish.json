@@ -1,6 +1,19 @@
 {
     "number": 883,
     "name": "Arctovish",
+    "types": [
+        "Water",
+        "Ice"
+    ],
+    "abilities": {
+        "normal": [
+            "Water Absorb",
+            "Ice Body"
+        ],
+        "hidden": [
+            "Slush Rush"
+        ]
+    },
     "moves": {
         "bronze": [
             "Powder Snow",

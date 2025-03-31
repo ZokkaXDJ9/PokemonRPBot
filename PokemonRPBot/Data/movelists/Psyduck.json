@@ -1,6 +1,18 @@
 {
     "number": 54,
     "name": "Psyduck",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Damp",
+            "Cloud Nine"
+        ],
+        "hidden": [
+            "Swift Swim"
+        ]
+    },
     "moves": {
         "bronze": [
             "Confusion",

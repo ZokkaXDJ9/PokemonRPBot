@@ -1,6 +1,18 @@
 {
     "number": 442,
     "name": "Spiritomb",
+    "types": [
+        "Ghost",
+        "Dark"
+    ],
+    "abilities": {
+        "normal": [
+            "Pressure"
+        ],
+        "hidden": [
+            "Infiltrator"
+        ]
+    },
     "moves": {
         "bronze": [
             "Confuse Ray",

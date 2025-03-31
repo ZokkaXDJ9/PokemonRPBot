@@ -1,6 +1,16 @@
 {
     "number": 638,
     "name": "Cobalion",
+    "types": [
+        "Steel",
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Justified"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Double Kick",

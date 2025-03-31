@@ -1,6 +1,18 @@
 {
     "number": 976,
     "name": "Veluza",
+    "types": [
+        "Water",
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Mold Breaker"
+        ],
+        "hidden": [
+            "Sharpness"
+        ]
+    },
     "moves": {
         "bronze": [
             "Aqua Jet",

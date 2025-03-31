@@ -1,6 +1,17 @@
 {
     "number": 240,
     "name": "Magby",
+    "types": [
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Flame Body"
+        ],
+        "hidden": [
+            "Vital Spirit"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ember",

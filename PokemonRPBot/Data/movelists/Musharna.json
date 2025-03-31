@@ -1,6 +1,18 @@
 {
     "number": 518,
     "name": "Musharna",
+    "types": [
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Forewarn",
+            "Synchronize"
+        ],
+        "hidden": [
+            "Telepathy"
+        ]
+    },
     "moves": {
         "bronze": [
             "Calm Mind",

@@ -1,6 +1,19 @@
 {
     "number": 189,
     "name": "Jumpluff",
+    "types": [
+        "Grass",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Chlorophyll",
+            "Leaf Guard"
+        ],
+        "hidden": [
+            "Infiltrator"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

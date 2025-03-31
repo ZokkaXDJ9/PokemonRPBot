@@ -1,6 +1,17 @@
 {
     "number": 202,
     "name": "Wobbuffet",
+    "types": [
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Shadow Tag"
+        ],
+        "hidden": [
+            "Telepathy"
+        ]
+    },
     "moves": {
         "bronze": [
             "Amnesia",

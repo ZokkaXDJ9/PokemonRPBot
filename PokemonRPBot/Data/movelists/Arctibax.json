@@ -1,6 +1,18 @@
 {
     "number": 997,
     "name": "Arctibax",
+    "types": [
+        "Dragon",
+        "Ice"
+    ],
+    "abilities": {
+        "normal": [
+            "Thermal Exchange"
+        ],
+        "hidden": [
+            "Ice Body"
+        ]
+    },
     "moves": {
         "bronze": [
             "Dragon Tail",

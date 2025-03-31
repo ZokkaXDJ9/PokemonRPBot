@@ -1,6 +1,19 @@
 {
     "number": 1019,
     "name": "Hydrapple",
+    "types": [
+        "Grass",
+        "Dragon"
+    ],
+    "abilities": {
+        "normal": [
+            "Supersweet Syrup",
+            "Regenerator"
+        ],
+        "hidden": [
+            "Sticky Hold"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

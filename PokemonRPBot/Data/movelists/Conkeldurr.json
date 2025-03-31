@@ -1,6 +1,18 @@
 {
     "number": 534,
     "name": "Conkeldurr",
+    "types": [
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Guts",
+            "Sheer Force"
+        ],
+        "hidden": [
+            "Iron Fist"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bide",

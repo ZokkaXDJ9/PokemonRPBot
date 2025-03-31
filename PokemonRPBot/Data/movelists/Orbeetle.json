@@ -1,6 +1,19 @@
 {
     "number": 826,
     "name": "Orbeetle",
+    "types": [
+        "Bug",
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Swarm",
+            "Frisk"
+        ],
+        "hidden": [
+            "Telepathy"
+        ]
+    },
     "moves": {
         "bronze": [
             "Confuse Ray",

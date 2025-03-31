@@ -1,6 +1,19 @@
 {
     "number": 174,
     "name": "Igglybuff",
+    "types": [
+        "Normal",
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Cute Charm",
+            "Competitive"
+        ],
+        "hidden": [
+            "Friend Guard"
+        ]
+    },
     "moves": {
         "bronze": [
             "Charm",

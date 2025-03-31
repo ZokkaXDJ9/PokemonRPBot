@@ -1,6 +1,19 @@
 {
     "number": 468,
     "name": "Togekiss",
+    "types": [
+        "Fairy",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Hustle",
+            "Serene Grace"
+        ],
+        "hidden": [
+            "Super Luck"
+        ]
+    },
     "moves": {
         "bronze": [
             "After You",

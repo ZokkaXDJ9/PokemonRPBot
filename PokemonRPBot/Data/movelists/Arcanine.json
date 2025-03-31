@@ -1,6 +1,18 @@
 {
     "number": 59,
     "name": "Arcanine",
+    "types": [
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Intimidate",
+            "Flash Fire"
+        ],
+        "hidden": [
+            "Justified"
+        ]
+    },
     "moves": {
         "bronze": [
             "Agility",

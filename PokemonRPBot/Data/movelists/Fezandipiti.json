@@ -1,6 +1,18 @@
 {
     "number": 1016,
     "name": "Fezandipiti",
+    "types": [
+        "Poison",
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Toxic Chain"
+        ],
+        "hidden": [
+            "Technician"
+        ]
+    },
     "moves": {
         "bronze": [
             "Disarming Voice",

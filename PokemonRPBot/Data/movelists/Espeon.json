@@ -1,6 +1,17 @@
 {
     "number": 196,
     "name": "Espeon",
+    "types": [
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Synchronize"
+        ],
+        "hidden": [
+            "Magic Bounce"
+        ]
+    },
     "moves": {
         "bronze": [
             "Baby-Doll Eyes",

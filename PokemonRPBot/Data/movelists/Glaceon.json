@@ -1,6 +1,17 @@
 {
     "number": 471,
     "name": "Glaceon",
+    "types": [
+        "Ice"
+    ],
+    "abilities": {
+        "normal": [
+            "Snow Cloak"
+        ],
+        "hidden": [
+            "Ice Body"
+        ]
+    },
     "moves": {
         "bronze": [
             "Baby-Doll Eyes",

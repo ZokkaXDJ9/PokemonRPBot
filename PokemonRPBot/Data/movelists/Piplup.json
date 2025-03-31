@@ -1,6 +1,17 @@
 {
     "number": 393,
     "name": "Piplup",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Torrent"
+        ],
+        "hidden": [
+            "Competitive"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bubble",

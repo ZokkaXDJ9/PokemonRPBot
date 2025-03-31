@@ -1,6 +1,19 @@
 {
     "number": 406,
     "name": "Budew",
+    "types": [
+        "Grass",
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Natural Cure",
+            "Poison Point"
+        ],
+        "hidden": [
+            "Leaf Guard"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

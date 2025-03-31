@@ -1,6 +1,18 @@
 {
     "number": 261,
     "name": "Poochyena",
+    "types": [
+        "Dark"
+    ],
+    "abilities": {
+        "normal": [
+            "Run Away",
+            "Quick Feet"
+        ],
+        "hidden": [
+            "Rattled"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

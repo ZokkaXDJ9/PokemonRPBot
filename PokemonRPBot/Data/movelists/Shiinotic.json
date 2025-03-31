@@ -1,6 +1,19 @@
 {
     "number": 756,
     "name": "Shiinotic",
+    "types": [
+        "Grass",
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Illuminate",
+            "Effect Spore"
+        ],
+        "hidden": [
+            "Rain Dish"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

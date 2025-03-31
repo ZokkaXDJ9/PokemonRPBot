@@ -1,6 +1,19 @@
 {
     "number": 625,
     "name": "Bisharp",
+    "types": [
+        "Dark",
+        "Steel"
+    ],
+    "abilities": {
+        "normal": [
+            "Defiant",
+            "Inner Focus"
+        ],
+        "hidden": [
+            "Pressure"
+        ]
+    },
     "moves": {
         "bronze": [
             "Fury Cutter",

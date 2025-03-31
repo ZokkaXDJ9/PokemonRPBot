@@ -1,6 +1,17 @@
 {
     "number": 812,
     "name": "Rillaboom",
+    "types": [
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Overgrow"
+        ],
+        "hidden": [
+            "Grassy Surge"
+        ]
+    },
     "moves": {
         "bronze": [
             "Branch Poke",

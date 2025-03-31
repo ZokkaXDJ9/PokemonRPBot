@@ -1,6 +1,19 @@
 {
     "number": 544,
     "name": "Whirlipede",
+    "types": [
+        "Bug",
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Poison Point",
+            "Swarm"
+        ],
+        "hidden": [
+            "Speed Boost"
+        ]
+    },
     "moves": {
         "bronze": [
             "Defense Curl",

@@ -1,6 +1,17 @@
 {
     "number": 971,
     "name": "Greavard",
+    "types": [
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Pickup"
+        ],
+        "hidden": [
+            "Fluffy"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

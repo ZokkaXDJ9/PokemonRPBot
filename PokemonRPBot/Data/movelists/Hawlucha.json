@@ -1,6 +1,19 @@
 {
     "number": 701,
     "name": "Hawlucha",
+    "types": [
+        "Fighting",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Limber",
+            "Unburden"
+        ],
+        "hidden": [
+            "Mold Breaker"
+        ]
+    },
     "moves": {
         "bronze": [
             "Detect",

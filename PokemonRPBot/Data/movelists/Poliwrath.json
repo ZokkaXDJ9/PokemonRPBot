@@ -1,6 +1,19 @@
 {
     "number": 62,
     "name": "Poliwrath",
+    "types": [
+        "Water",
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Water Absorb",
+            "Damp"
+        ],
+        "hidden": [
+            "Swift Swim"
+        ]
+    },
     "moves": {
         "bronze": [
             "Belly Drum",

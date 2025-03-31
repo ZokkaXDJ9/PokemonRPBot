@@ -1,6 +1,17 @@
 {
     "number": 470,
     "name": "Leafeon",
+    "types": [
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Leaf Guard"
+        ],
+        "hidden": [
+            "Chlorophyll"
+        ]
+    },
     "moves": {
         "bronze": [
             "Baby-Doll Eyes",

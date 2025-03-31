@@ -1,6 +1,19 @@
 {
     "number": 585,
     "name": "Deerling",
+    "types": [
+        "Normal",
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Chlorophyll",
+            "Sap Sipper"
+        ],
+        "hidden": [
+            "Serene Grace"
+        ]
+    },
     "moves": {
         "bronze": [
             "Double Kick",

@@ -1,6 +1,19 @@
 {
     "number": 436,
     "name": "Bronzor",
+    "types": [
+        "Steel",
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Levitate",
+            "Heatproof"
+        ],
+        "hidden": [
+            "Heavy Metal"
+        ]
+    },
     "moves": {
         "bronze": [
             "Confuse Ray",

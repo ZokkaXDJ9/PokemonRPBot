@@ -1,6 +1,15 @@
 {
     "number": 602,
     "name": "Tynamo",
+    "types": [
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Levitate"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Charge Beam",

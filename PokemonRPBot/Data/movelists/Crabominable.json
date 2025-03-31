@@ -1,6 +1,19 @@
 {
     "number": 740,
     "name": "Crabominable",
+    "types": [
+        "Fighting",
+        "Ice"
+    ],
+    "abilities": {
+        "normal": [
+            "Hyper Cutter",
+            "Iron Fist"
+        ],
+        "hidden": [
+            "Anger Point"
+        ]
+    },
     "moves": {
         "bronze": [
             "Leer",

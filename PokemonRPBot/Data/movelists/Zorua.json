@@ -1,6 +1,15 @@
 {
     "number": 570,
     "name": "Zorua",
+    "types": [
+        "Dark"
+    ],
+    "abilities": {
+        "normal": [
+            "Illusion"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Fake Tears",

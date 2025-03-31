@@ -1,6 +1,19 @@
 {
     "number": 141,
     "name": "Kabutops",
+    "types": [
+        "Rock",
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Swift Swim",
+            "Battle Armor"
+        ],
+        "hidden": [
+            "Weak Armor"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

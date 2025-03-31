@@ -1,6 +1,18 @@
 {
     "number": 117,
     "name": "Seadra",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Poison Point",
+            "Sniper"
+        ],
+        "hidden": [
+            "Damp"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bubble",

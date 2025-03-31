@@ -1,6 +1,18 @@
 {
     "number": 529,
     "name": "Drilbur",
+    "types": [
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Sand Rush",
+            "Sand Force"
+        ],
+        "hidden": [
+            "Mold Breaker"
+        ]
+    },
     "moves": {
         "bronze": [
             "Hone Claws",

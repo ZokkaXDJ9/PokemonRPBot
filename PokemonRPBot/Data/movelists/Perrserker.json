@@ -1,6 +1,18 @@
 {
     "number": 863,
     "name": "Perrserker",
+    "types": [
+        "Steel"
+    ],
+    "abilities": {
+        "normal": [
+            "Battle Armor",
+            "Tough Claws"
+        ],
+        "hidden": [
+            "Steely Spirit"
+        ]
+    },
     "moves": {
         "bronze": [
             "Fake Out",

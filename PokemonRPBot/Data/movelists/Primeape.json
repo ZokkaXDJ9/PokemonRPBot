@@ -1,6 +1,18 @@
 {
     "number": 57,
     "name": "Primeape",
+    "types": [
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Vital Spirit",
+            "Anger Point"
+        ],
+        "hidden": [
+            "Defiant"
+        ]
+    },
     "moves": {
         "bronze": [
             "Covet",

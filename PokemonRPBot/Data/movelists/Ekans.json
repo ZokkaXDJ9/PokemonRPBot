@@ -1,6 +1,18 @@
 {
     "number": 23,
     "name": "Ekans",
+    "types": [
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Intimidate",
+            "Shed Skin"
+        ],
+        "hidden": [
+            "Unnerve"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

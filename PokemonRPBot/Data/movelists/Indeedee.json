@@ -1,6 +1,11 @@
 {
     "number": 876,
     "name": "Indeedee",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Disarming Voice",

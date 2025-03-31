@@ -1,6 +1,18 @@
 {
     "number": 584,
     "name": "Vanilluxe",
+    "types": [
+        "Ice"
+    ],
+    "abilities": {
+        "normal": [
+            "Ice Body",
+            "Snow Warning"
+        ],
+        "hidden": [
+            "Weak Armor"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

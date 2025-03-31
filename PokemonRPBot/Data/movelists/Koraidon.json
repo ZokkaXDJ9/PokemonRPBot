@@ -1,6 +1,16 @@
 {
     "number": 1007,
     "name": "Koraidon",
+    "types": [
+        "Fighting",
+        "Dragon"
+    ],
+    "abilities": {
+        "normal": [
+            "Orichalcum Pulse"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Breaking Swipe",

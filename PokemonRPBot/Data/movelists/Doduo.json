@@ -1,6 +1,19 @@
 {
     "number": 84,
     "name": "Doduo",
+    "types": [
+        "Normal",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Run Away",
+            "Early Bird"
+        ],
+        "hidden": [
+            "Tangled Feet"
+        ]
+    },
     "moves": {
         "bronze": [
             "Fury Attack",

@@ -1,6 +1,19 @@
 {
     "number": 842,
     "name": "Appletun",
+    "types": [
+        "Grass",
+        "Dragon"
+    ],
+    "abilities": {
+        "normal": [
+            "Ripen",
+            "Gluttony"
+        ],
+        "hidden": [
+            "Thick Fat"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

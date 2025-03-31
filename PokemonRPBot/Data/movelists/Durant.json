@@ -1,6 +1,19 @@
 {
     "number": 632,
     "name": "Durant",
+    "types": [
+        "Bug",
+        "Steel"
+    ],
+    "abilities": {
+        "normal": [
+            "Swarm",
+            "Hustle"
+        ],
+        "hidden": [
+            "Truant"
+        ]
+    },
     "moves": {
         "bronze": [
             "Agility",

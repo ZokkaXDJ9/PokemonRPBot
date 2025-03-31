@@ -1,6 +1,17 @@
 {
     "number": 871,
     "name": "Pincurchin",
+    "types": [
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Lightning Rod"
+        ],
+        "hidden": [
+            "Electric Surge"
+        ]
+    },
     "moves": {
         "bronze": [
             "Charge",

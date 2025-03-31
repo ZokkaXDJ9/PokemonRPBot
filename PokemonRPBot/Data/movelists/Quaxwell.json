@@ -1,6 +1,17 @@
 {
     "number": 913,
     "name": "Quaxwell",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Torrent"
+        ],
+        "hidden": [
+            "Moxie"
+        ]
+    },
     "moves": {
         "bronze": [
             "Double Hit",

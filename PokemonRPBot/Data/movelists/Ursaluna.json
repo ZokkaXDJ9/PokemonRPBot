@@ -1,6 +1,19 @@
 {
     "number": 901,
     "name": "Ursaluna",
+    "types": [
+        "Ground",
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Guts",
+            "Bulletproof"
+        ],
+        "hidden": [
+            "Unnerve"
+        ]
+    },
     "moves": {
         "bronze": [
             "Baby-Doll Eyes",

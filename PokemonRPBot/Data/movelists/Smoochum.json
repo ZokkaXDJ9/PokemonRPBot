@@ -1,6 +1,19 @@
 {
     "number": 238,
     "name": "Smoochum",
+    "types": [
+        "Ice",
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Oblivious",
+            "Forewarn"
+        ],
+        "hidden": [
+            "Hydration"
+        ]
+    },
     "moves": {
         "bronze": [
             "Copycat",

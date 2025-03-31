@@ -1,6 +1,18 @@
 {
     "number": 506,
     "name": "Lillipup",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Vital Spirit",
+            "Pickup"
+        ],
+        "hidden": [
+            "Run Away"
+        ]
+    },
     "moves": {
         "bronze": [
             "Baby-Doll Eyes",

@@ -1,6 +1,18 @@
 {
     "number": 444,
     "name": "Gabite",
+    "types": [
+        "Dragon",
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Sand Veil"
+        ],
+        "hidden": [
+            "Rough Skin"
+        ]
+    },
     "moves": {
         "bronze": [
             "Dragon Breath",

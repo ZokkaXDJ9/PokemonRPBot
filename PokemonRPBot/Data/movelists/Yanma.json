@@ -1,6 +1,19 @@
 {
     "number": 193,
     "name": "Yanma",
+    "types": [
+        "Bug",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Speed Boost",
+            "Compound Eyes"
+        ],
+        "hidden": [
+            "Frisk"
+        ]
+    },
     "moves": {
         "bronze": [
             "Foresight",

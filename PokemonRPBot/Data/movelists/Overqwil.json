@@ -1,6 +1,19 @@
 {
     "number": 904,
     "name": "Overqwil",
+    "types": [
+        "Dark",
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Poison Point",
+            "Swift Swim"
+        ],
+        "hidden": [
+            "Intimidate"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

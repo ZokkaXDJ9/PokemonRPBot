@@ -1,6 +1,19 @@
 {
     "number": 228,
     "name": "Houndour",
+    "types": [
+        "Dark",
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Early Bird",
+            "Flash Fire"
+        ],
+        "hidden": [
+            "Unnerve"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ember",

@@ -1,6 +1,19 @@
 {
     "number": 339,
     "name": "Barboach",
+    "types": [
+        "Water",
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Oblivious",
+            "Anticipation"
+        ],
+        "hidden": [
+            "Hydration"
+        ]
+    },
     "moves": {
         "bronze": [
             "Mud Sport",

@@ -1,6 +1,19 @@
 {
     "number": 747,
     "name": "Mareanie",
+    "types": [
+        "Poison",
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Merciless",
+            "Limber"
+        ],
+        "hidden": [
+            "Regenerator"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

@@ -1,6 +1,16 @@
 {
     "number": 1008,
     "name": "Miraidon",
+    "types": [
+        "Electric",
+        "Dragon"
+    ],
+    "abilities": {
+        "normal": [
+            "Hadron Engine"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Dragon Breath",

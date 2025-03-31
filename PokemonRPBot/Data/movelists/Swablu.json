@@ -1,6 +1,18 @@
 {
     "number": 333,
     "name": "Swablu",
+    "types": [
+        "Normal",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Natural Cure"
+        ],
+        "hidden": [
+            "Cloud Nine"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

@@ -1,6 +1,17 @@
 {
     "number": 906,
     "name": "Sprigatito",
+    "types": [
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Overgrow"
+        ],
+        "hidden": [
+            "Protean"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

@@ -1,6 +1,17 @@
 {
     "number": 150,
     "name": "Mewtwo",
+    "types": [
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Pressure"
+        ],
+        "hidden": [
+            "Unnerve"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ancient Power",

@@ -1,6 +1,19 @@
 {
     "number": 286,
     "name": "Breloom",
+    "types": [
+        "Grass",
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Effect Spore",
+            "Poison Heal"
+        ],
+        "hidden": [
+            "Technician"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

@@ -1,6 +1,17 @@
 {
     "number": 835,
     "name": "Yamper",
+    "types": [
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Ball Fetch"
+        ],
+        "hidden": [
+            "Rattled"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

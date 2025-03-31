@@ -1,6 +1,19 @@
 {
     "number": 188,
     "name": "Skiploom",
+    "types": [
+        "Grass",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Chlorophyll",
+            "Leaf Guard"
+        ],
+        "hidden": [
+            "Infiltrator"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

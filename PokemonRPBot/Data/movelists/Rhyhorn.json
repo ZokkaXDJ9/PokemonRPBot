@@ -1,6 +1,19 @@
 {
     "number": 111,
     "name": "Rhyhorn",
+    "types": [
+        "Ground",
+        "Rock"
+    ],
+    "abilities": {
+        "normal": [
+            "Lightning Rod",
+            "Rock Head"
+        ],
+        "hidden": [
+            "Reckless"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bulldoze",

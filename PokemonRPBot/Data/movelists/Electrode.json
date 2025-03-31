@@ -1,6 +1,18 @@
 {
     "number": 101,
     "name": "Electrode",
+    "types": [
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Soundproof",
+            "Static"
+        ],
+        "hidden": [
+            "Aftermath"
+        ]
+    },
     "moves": {
         "bronze": [
             "Charge",

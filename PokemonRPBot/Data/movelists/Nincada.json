@@ -1,6 +1,18 @@
 {
     "number": 290,
     "name": "Nincada",
+    "types": [
+        "Bug",
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Compound Eyes"
+        ],
+        "hidden": [
+            "Run Away"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

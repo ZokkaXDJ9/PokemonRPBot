@@ -1,6 +1,18 @@
 {
     "number": 655,
     "name": "Delphox",
+    "types": [
+        "Fire",
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Blaze"
+        ],
+        "hidden": [
+            "Magician"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ember",

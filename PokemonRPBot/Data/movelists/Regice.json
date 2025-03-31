@@ -1,6 +1,17 @@
 {
     "number": 378,
     "name": "Regice",
+    "types": [
+        "Ice"
+    ],
+    "abilities": {
+        "normal": [
+            "Clear Body"
+        ],
+        "hidden": [
+            "Ice Body"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bulldoze",

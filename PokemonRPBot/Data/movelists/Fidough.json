@@ -1,6 +1,17 @@
 {
     "number": 926,
     "name": "Fidough",
+    "types": [
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Own Tempo"
+        ],
+        "hidden": [
+            "Klutz"
+        ]
+    },
     "moves": {
         "bronze": [
             "Covet",

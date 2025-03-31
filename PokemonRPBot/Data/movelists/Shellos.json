@@ -1,6 +1,18 @@
 {
     "number": 422,
     "name": "Shellos",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Sticky Hold",
+            "Storm Drain"
+        ],
+        "hidden": [
+            "Sand Force"
+        ]
+    },
     "moves": {
         "bronze": [
             "Harden",

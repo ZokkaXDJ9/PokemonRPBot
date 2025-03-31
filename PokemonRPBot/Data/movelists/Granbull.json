@@ -1,6 +1,18 @@
 {
     "number": 210,
     "name": "Granbull",
+    "types": [
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Intimidate",
+            "Quick Feet"
+        ],
+        "hidden": [
+            "Rattled"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

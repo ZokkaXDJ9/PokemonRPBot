@@ -1,6 +1,17 @@
 {
     "number": 8,
     "name": "Wartortle",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Torrent"
+        ],
+        "hidden": [
+            "Rain Dish"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bubble",

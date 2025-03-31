@@ -1,6 +1,11 @@
 {
     "number": 994,
     "name": "Iron Moth",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Acid Spray",

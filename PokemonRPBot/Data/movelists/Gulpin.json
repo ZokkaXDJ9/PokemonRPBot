@@ -1,6 +1,18 @@
 {
     "number": 316,
     "name": "Gulpin",
+    "types": [
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Liquid Ooze",
+            "Sticky Hold"
+        ],
+        "hidden": [
+            "Gluttony"
+        ]
+    },
     "moves": {
         "bronze": [
             "Poison Gas",

@@ -1,6 +1,18 @@
 {
     "number": 51,
     "name": "Dugtrio",
+    "types": [
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Sand Veil",
+            "Arena Trap"
+        ],
+        "hidden": [
+            "Sand Force"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

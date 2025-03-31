@@ -1,6 +1,17 @@
 {
     "number": 501,
     "name": "Oshawott",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Torrent"
+        ],
+        "hidden": [
+            "Shell Armor"
+        ]
+    },
     "moves": {
         "bronze": [
             "Aqua Jet",

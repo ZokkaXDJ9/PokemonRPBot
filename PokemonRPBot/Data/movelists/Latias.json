@@ -1,6 +1,16 @@
 {
     "number": 380,
     "name": "Latias",
+    "types": [
+        "Dragon",
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Levitate"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Charm",

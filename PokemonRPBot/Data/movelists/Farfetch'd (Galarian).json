@@ -1,0 +1,94 @@
+{
+    "number": 83,
+    "name": "Galarian Farfetch'd",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
+    "moves": {
+        "bronze": [
+            "Peck",
+            "Sand Attack",
+            "Leer",
+            "Fury Cutter"
+        ],
+        "silver": [
+            "Rock Smash",
+            "Brutal Swing",
+            "Detect",
+            "Knock Off"
+        ],
+        "gold": [
+            "Defog",
+            "Brick Break",
+            "Swords Dance",
+            "Slam",
+            "Leaf Blade",
+            "Final Gambit",
+            "Brave Bird"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Agility",
+            "Attract",
+            "Confide",
+            "Curse",
+            "Double Team",
+            "Endure",
+            "Facade",
+            "Frustration",
+            "Headbutt",
+            "Helping Hand",
+            "Hidden Power",
+            "Metronome",
+            "Protect",
+            "Nasty Plot",
+            "Rest",
+            "Return",
+            "Round",
+            "Secret Power",
+            "Sleep Talk",
+            "Snore",
+            "Splash",
+            "Substitute",
+            "Swords Dance",
+            "Take Down",
+            "Tera Blast",
+            "Solar Blade",
+            "Steel Wing",
+            "Sunny Day",
+            "Revenge",
+            "Brick Break",
+            "Assurance",
+            "Retaliate",
+            "Brutal Swing",
+            "Body Slam",
+            "Focus Energy",
+            "Superpower",
+            "Leaf Blade",
+            "Close Combat",
+            "Poison Jab",
+            "Brave Bird",
+            "Work Up",
+            "Throat Chop"
+        ],
+        "egg": [
+            "Counter",
+            "Covet",
+            "Curse",
+            "Double-Edge",
+            "Feint",
+            "Flail",
+            "Night Slash",
+            "Quick Attack",
+            "Quick Guard",
+            "Simple Beam",
+            "Sky Attack"
+        ],
+        "tutor": [
+            "Dual Wingbeat"
+        ]
+    }
+}

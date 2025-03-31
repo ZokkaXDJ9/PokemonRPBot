@@ -1,6 +1,19 @@
 {
     "number": 881,
     "name": "Arctozolt",
+    "types": [
+        "Electric",
+        "Ice"
+    ],
+    "abilities": {
+        "normal": [
+            "Volt Absorb",
+            "Static"
+        ],
+        "hidden": [
+            "Slush Rush"
+        ]
+    },
     "moves": {
         "bronze": [
             "Charge",

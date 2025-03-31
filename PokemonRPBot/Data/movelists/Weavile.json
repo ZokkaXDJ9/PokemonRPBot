@@ -1,6 +1,18 @@
 {
     "number": 461,
     "name": "Weavile",
+    "types": [
+        "Dark",
+        "Ice"
+    ],
+    "abilities": {
+        "normal": [
+            "Pressure"
+        ],
+        "hidden": [
+            "Pickpocket"
+        ]
+    },
     "moves": {
         "bronze": [
             "Agility",

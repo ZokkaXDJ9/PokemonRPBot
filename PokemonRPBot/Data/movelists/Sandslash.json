@@ -1,6 +1,17 @@
 {
     "number": 28,
     "name": "Sandslash",
+    "types": [
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Sand Veil"
+        ],
+        "hidden": [
+            "Sand Rush"
+        ]
+    },
     "moves": {
         "bronze": [
             "Crush Claw",

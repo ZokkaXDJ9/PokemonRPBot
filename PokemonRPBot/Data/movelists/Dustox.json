@@ -1,6 +1,18 @@
 {
     "number": 269,
     "name": "Dustox",
+    "types": [
+        "Bug",
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Shield Dust"
+        ],
+        "hidden": [
+            "Compound Eyes"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bug Bite",

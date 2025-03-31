@@ -1,6 +1,18 @@
 {
     "number": 309,
     "name": "Electrike",
+    "types": [
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Static",
+            "Lightning Rod"
+        ],
+        "hidden": [
+            "Minus"
+        ]
+    },
     "moves": {
         "bronze": [
             "Howl",

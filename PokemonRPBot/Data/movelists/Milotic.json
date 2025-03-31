@@ -1,6 +1,18 @@
 {
     "number": 350,
     "name": "Milotic",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Marvel Scale",
+            "Competitive"
+        ],
+        "hidden": [
+            "Cute Charm"
+        ]
+    },
     "moves": {
         "bronze": [
             "Disarming Voice",

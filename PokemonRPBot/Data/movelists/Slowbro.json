@@ -1,6 +1,19 @@
 {
     "number": 80,
     "name": "Slowbro",
+    "types": [
+        "Water",
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Oblivious",
+            "Own Tempo"
+        ],
+        "hidden": [
+            "Regenerator"
+        ]
+    },
     "moves": {
         "bronze": [
             "Confusion",

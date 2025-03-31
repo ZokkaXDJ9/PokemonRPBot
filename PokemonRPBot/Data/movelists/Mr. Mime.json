@@ -1,6 +1,11 @@
 {
     "number": 122,
     "name": "Mr. Mime",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Barrier",

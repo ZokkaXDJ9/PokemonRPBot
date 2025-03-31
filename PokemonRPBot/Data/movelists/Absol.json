@@ -1,6 +1,18 @@
 {
     "number": 359,
     "name": "Absol",
+    "types": [
+        "Dark"
+    ],
+    "abilities": {
+        "normal": [
+            "Pressure",
+            "Super Luck"
+        ],
+        "hidden": [
+            "Justified"
+        ]
+    },
     "moves": {
         "bronze": [
             "Double Team",

@@ -1,6 +1,18 @@
 {
     "number": 173,
     "name": "Cleffa",
+    "types": [
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Cute Charm",
+            "Magic Guard"
+        ],
+        "hidden": [
+            "Friend Guard"
+        ]
+    },
     "moves": {
         "bronze": [
             "Charm",

@@ -1,6 +1,19 @@
 {
     "number": 275,
     "name": "Shiftry",
+    "types": [
+        "Grass",
+        "Dark"
+    ],
+    "abilities": {
+        "normal": [
+            "Chlorophyll",
+            "Wind Rider"
+        ],
+        "hidden": [
+            "Pickpocket"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

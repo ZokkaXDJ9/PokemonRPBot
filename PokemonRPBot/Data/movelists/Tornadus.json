@@ -1,6 +1,11 @@
 {
     "number": 641,
     "name": "Tornadus",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Astonish",

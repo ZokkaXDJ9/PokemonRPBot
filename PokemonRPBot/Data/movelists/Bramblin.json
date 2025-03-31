@@ -1,6 +1,18 @@
 {
     "number": 946,
     "name": "Bramblin",
+    "types": [
+        "Grass",
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Wind Rider"
+        ],
+        "hidden": [
+            "Infiltrator"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

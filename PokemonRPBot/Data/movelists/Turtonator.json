@@ -1,6 +1,16 @@
 {
     "number": 776,
     "name": "Turtonator",
+    "types": [
+        "Fire",
+        "Dragon"
+    ],
+    "abilities": {
+        "normal": [
+            "Shell Armor"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Ember",

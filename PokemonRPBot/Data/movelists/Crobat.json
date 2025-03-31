@@ -1,6 +1,18 @@
 {
     "number": 169,
     "name": "Crobat",
+    "types": [
+        "Poison",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Inner Focus"
+        ],
+        "hidden": [
+            "Infiltrator"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

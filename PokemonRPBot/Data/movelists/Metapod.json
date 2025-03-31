@@ -1,6 +1,15 @@
 {
     "number": 11,
     "name": "Metapod",
+    "types": [
+        "Bug"
+    ],
+    "abilities": {
+        "normal": [
+            "Shed Skin"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Harden"

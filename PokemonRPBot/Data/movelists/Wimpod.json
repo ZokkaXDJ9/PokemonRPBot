@@ -1,6 +1,16 @@
 {
     "number": 767,
     "name": "Wimpod",
+    "types": [
+        "Bug",
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Wimp Out"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Defense Curl",

@@ -1,6 +1,19 @@
 {
     "number": 451,
     "name": "Skorupi",
+    "types": [
+        "Poison",
+        "Bug"
+    ],
+    "abilities": {
+        "normal": [
+            "Battle Armor",
+            "Sniper"
+        ],
+        "hidden": [
+            "Keen Eye"
+        ]
+    },
     "moves": {
         "bronze": [
             "Fell Stinger",

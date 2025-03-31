@@ -1,6 +1,18 @@
 {
     "number": 389,
     "name": "Torterra",
+    "types": [
+        "Grass",
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Overgrow"
+        ],
+        "hidden": [
+            "Shell Armor"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

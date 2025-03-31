@@ -1,6 +1,18 @@
 {
     "number": 399,
     "name": "Bidoof",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Simple",
+            "Unaware"
+        ],
+        "hidden": [
+            "Moody"
+        ]
+    },
     "moves": {
         "bronze": [
             "Defense Curl",

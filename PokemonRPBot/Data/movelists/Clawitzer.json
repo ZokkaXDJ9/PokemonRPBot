@@ -1,6 +1,15 @@
 {
     "number": 693,
     "name": "Clawitzer",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Mega Launcher"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Dark Pulse",

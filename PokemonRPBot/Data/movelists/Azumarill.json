@@ -1,6 +1,19 @@
 {
     "number": 184,
     "name": "Azumarill",
+    "types": [
+        "Water",
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Thick Fat",
+            "Huge Power"
+        ],
+        "hidden": [
+            "Sap Sipper"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bubble",

@@ -1,6 +1,19 @@
 {
     "number": 623,
     "name": "Golurk",
+    "types": [
+        "Ground",
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Iron Fist",
+            "Klutz"
+        ],
+        "hidden": [
+            "No Guard"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

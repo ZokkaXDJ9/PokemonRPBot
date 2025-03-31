@@ -1,6 +1,17 @@
 {
     "number": 148,
     "name": "Dragonair",
+    "types": [
+        "Dragon"
+    ],
+    "abilities": {
+        "normal": [
+            "Shed Skin"
+        ],
+        "hidden": [
+            "Marvel Scale"
+        ]
+    },
     "moves": {
         "bronze": [
             "Leer",

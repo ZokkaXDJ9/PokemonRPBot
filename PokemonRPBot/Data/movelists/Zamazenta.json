@@ -1,6 +1,15 @@
 {
     "number": 889,
     "name": "Zamazenta",
+    "types": [
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Dauntless Shield"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Bite",

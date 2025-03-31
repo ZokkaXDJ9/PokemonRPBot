@@ -1,6 +1,15 @@
 {
     "number": 429,
     "name": "Mismagius",
+    "types": [
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Levitate"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Astonish",

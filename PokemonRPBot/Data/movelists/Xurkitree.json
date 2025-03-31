@@ -1,6 +1,15 @@
 {
     "number": 796,
     "name": "Xurkitree",
+    "types": [
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Beast Boost"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Charge",

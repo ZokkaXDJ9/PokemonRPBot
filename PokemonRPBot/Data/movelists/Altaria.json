@@ -1,6 +1,18 @@
 {
     "number": 334,
     "name": "Altaria",
+    "types": [
+        "Dragon",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Natural Cure"
+        ],
+        "hidden": [
+            "Cloud Nine"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

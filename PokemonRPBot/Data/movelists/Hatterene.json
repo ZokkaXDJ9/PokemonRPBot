@@ -1,6 +1,19 @@
 {
     "number": 858,
     "name": "Hatterene",
+    "types": [
+        "Psychic",
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Healer",
+            "Anticipation"
+        ],
+        "hidden": [
+            "Magic Bounce"
+        ]
+    },
     "moves": {
         "bronze": [
             "Brutal Swing",

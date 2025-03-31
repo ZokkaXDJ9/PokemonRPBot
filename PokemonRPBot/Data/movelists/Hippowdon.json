@@ -1,6 +1,17 @@
 {
     "number": 450,
     "name": "Hippowdon",
+    "types": [
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Sand Stream"
+        ],
+        "hidden": [
+            "Sand Force"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

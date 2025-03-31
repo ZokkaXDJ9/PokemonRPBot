@@ -1,6 +1,18 @@
 {
     "number": 764,
     "name": "Comfey",
+    "types": [
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Flower Veil",
+            "Triage"
+        ],
+        "hidden": [
+            "Natural Cure"
+        ]
+    },
     "moves": {
         "bronze": [
             "Draining Kiss",

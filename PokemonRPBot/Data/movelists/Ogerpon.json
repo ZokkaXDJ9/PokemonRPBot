@@ -1,6 +1,15 @@
 {
     "number": 1017,
     "name": "Ogerpon",
+    "types": [
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Defiant"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Focus Energy",

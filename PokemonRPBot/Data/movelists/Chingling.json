@@ -1,6 +1,15 @@
 {
     "number": 433,
     "name": "Chingling",
+    "types": [
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Levitate"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Astonish",

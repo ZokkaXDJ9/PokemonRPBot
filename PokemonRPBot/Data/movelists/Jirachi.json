@@ -1,6 +1,16 @@
 {
     "number": 385,
     "name": "Jirachi",
+    "types": [
+        "Steel",
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Serene Grace"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Confusion",

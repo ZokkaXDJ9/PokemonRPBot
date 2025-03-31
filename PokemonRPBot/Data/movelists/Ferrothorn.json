@@ -1,6 +1,18 @@
 {
     "number": 598,
     "name": "Ferrothorn",
+    "types": [
+        "Grass",
+        "Steel"
+    ],
+    "abilities": {
+        "normal": [
+            "Iron Barbs"
+        ],
+        "hidden": [
+            "Anticipation"
+        ]
+    },
     "moves": {
         "bronze": [
             "Curse",

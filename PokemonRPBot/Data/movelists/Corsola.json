@@ -1,6 +1,19 @@
 {
     "number": 222,
     "name": "Corsola",
+    "types": [
+        "Water",
+        "Rock"
+    ],
+    "abilities": {
+        "normal": [
+            "Hustle",
+            "Natural Cure"
+        ],
+        "hidden": [
+            "Regenerator"
+        ]
+    },
     "moves": {
         "bronze": [
             "Aqua Ring",

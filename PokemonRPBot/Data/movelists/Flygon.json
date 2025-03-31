@@ -1,6 +1,16 @@
 {
     "number": 330,
     "name": "Flygon",
+    "types": [
+        "Ground",
+        "Dragon"
+    ],
+    "abilities": {
+        "normal": [
+            "Levitate"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Astonish",

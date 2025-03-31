@@ -1,6 +1,17 @@
 {
     "number": 814,
     "name": "Raboot",
+    "types": [
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Blaze"
+        ],
+        "hidden": [
+            "Libero"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ember",

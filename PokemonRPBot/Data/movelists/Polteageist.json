@@ -1,6 +1,17 @@
 {
     "number": 855,
     "name": "Polteageist",
+    "types": [
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Weak Armor"
+        ],
+        "hidden": [
+            "Cursed Body"
+        ]
+    },
     "moves": {
         "bronze": [
             "Aromatic Mist",

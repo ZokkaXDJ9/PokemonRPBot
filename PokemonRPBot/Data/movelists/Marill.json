@@ -1,6 +1,19 @@
 {
     "number": 183,
     "name": "Marill",
+    "types": [
+        "Water",
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Thick Fat",
+            "Huge Power"
+        ],
+        "hidden": [
+            "Sap Sipper"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bubble",

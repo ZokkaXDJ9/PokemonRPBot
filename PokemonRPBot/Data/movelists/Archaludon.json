@@ -1,6 +1,19 @@
 {
     "number": 1018,
     "name": "Archaludon",
+    "types": [
+        "Steel",
+        "Dragon"
+    ],
+    "abilities": {
+        "normal": [
+            "Stamina",
+            "Sturdy"
+        ],
+        "hidden": [
+            "Stalwart"
+        ]
+    },
     "moves": {
         "bronze": [
             "Leer",

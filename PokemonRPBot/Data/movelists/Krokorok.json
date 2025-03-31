@@ -1,6 +1,19 @@
 {
     "number": 552,
     "name": "Krokorok",
+    "types": [
+        "Ground",
+        "Dark"
+    ],
+    "abilities": {
+        "normal": [
+            "Intimidate",
+            "Moxie"
+        ],
+        "hidden": [
+            "Anger Point"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

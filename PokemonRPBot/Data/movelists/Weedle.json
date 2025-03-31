@@ -1,6 +1,18 @@
 {
     "number": 13,
     "name": "Weedle",
+    "types": [
+        "Bug",
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Shield Dust"
+        ],
+        "hidden": [
+            "Run Away"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bug Bite",

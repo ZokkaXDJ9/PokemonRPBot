@@ -1,6 +1,18 @@
 {
     "number": 616,
     "name": "Shelmet",
+    "types": [
+        "Bug"
+    ],
+    "abilities": {
+        "normal": [
+            "Hydration",
+            "Shell Armor"
+        ],
+        "hidden": [
+            "Overcoat"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

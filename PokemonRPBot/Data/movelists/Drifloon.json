@@ -1,6 +1,19 @@
 {
     "number": 425,
     "name": "Drifloon",
+    "types": [
+        "Ghost",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Aftermath",
+            "Unburden"
+        ],
+        "hidden": [
+            "Flare Boost"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

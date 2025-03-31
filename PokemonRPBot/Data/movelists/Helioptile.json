@@ -1,6 +1,19 @@
 {
     "number": 694,
     "name": "Helioptile",
+    "types": [
+        "Electric",
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Dry Skin",
+            "Sand Veil"
+        ],
+        "hidden": [
+            "Solar Power"
+        ]
+    },
     "moves": {
         "bronze": [
             "Mud-Slap",

@@ -1,6 +1,18 @@
 {
     "number": 102,
     "name": "Exeggcute",
+    "types": [
+        "Grass",
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Chlorophyll"
+        ],
+        "hidden": [
+            "Harvest"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

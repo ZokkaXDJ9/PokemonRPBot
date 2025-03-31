@@ -1,6 +1,18 @@
 {
     "number": 325,
     "name": "Spoink",
+    "types": [
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Thick Fat",
+            "Own Tempo"
+        ],
+        "hidden": [
+            "Gluttony"
+        ]
+    },
     "moves": {
         "bronze": [
             "Confusion",

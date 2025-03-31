@@ -1,6 +1,18 @@
 {
     "number": 67,
     "name": "Machoke",
+    "types": [
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Guts",
+            "No Guard"
+        ],
+        "hidden": [
+            "Steadfast"
+        ]
+    },
     "moves": {
         "bronze": [
             "Focus Energy",

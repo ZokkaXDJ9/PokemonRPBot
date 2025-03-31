@@ -1,6 +1,17 @@
 {
     "number": 503,
     "name": "Samurott",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Torrent"
+        ],
+        "hidden": [
+            "Shell Armor"
+        ]
+    },
     "moves": {
         "bronze": [
             "Aqua Jet",

@@ -1,6 +1,18 @@
 {
     "number": 948,
     "name": "Toedscool",
+    "types": [
+        "Ground",
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Mycelium Might"
+        ],
+        "hidden": [
+            "Mycelium Might"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

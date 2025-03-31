@@ -1,6 +1,16 @@
 {
     "number": 804,
     "name": "Naganadel",
+    "types": [
+        "Poison",
+        "Dragon"
+    ],
+    "abilities": {
+        "normal": [
+            "Beast Boost"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Acid",

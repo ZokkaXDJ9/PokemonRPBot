@@ -1,6 +1,18 @@
 {
     "number": 730,
     "name": "Primarina",
+    "types": [
+        "Water",
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Torrent"
+        ],
+        "hidden": [
+            "Liquid Voice"
+        ]
+    },
     "moves": {
         "bronze": [
             "Aqua Jet",

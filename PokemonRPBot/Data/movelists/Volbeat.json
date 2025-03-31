@@ -1,6 +1,18 @@
 {
     "number": 313,
     "name": "Volbeat",
+    "types": [
+        "Bug"
+    ],
+    "abilities": {
+        "normal": [
+            "Illuminate",
+            "Swarm"
+        ],
+        "hidden": [
+            "Prankster"
+        ]
+    },
     "moves": {
         "bronze": [
             "Confuse Ray",

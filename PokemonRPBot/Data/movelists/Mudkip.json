@@ -1,6 +1,17 @@
 {
     "number": 258,
     "name": "Mudkip",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Torrent"
+        ],
+        "hidden": [
+            "Damp"
+        ]
+    },
     "moves": {
         "bronze": [
             "Growl",

@@ -1,6 +1,18 @@
 {
     "number": 376,
     "name": "Metagross",
+    "types": [
+        "Steel",
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Clear Body"
+        ],
+        "hidden": [
+            "Light Metal"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bullet Punch",

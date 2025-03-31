@@ -1,6 +1,18 @@
 {
     "number": 63,
     "name": "Abra",
+    "types": [
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Synchronize",
+            "Inner Focus"
+        ],
+        "hidden": [
+            "Magic Guard"
+        ]
+    },
     "moves": {
         "bronze": [
             "Teleport"

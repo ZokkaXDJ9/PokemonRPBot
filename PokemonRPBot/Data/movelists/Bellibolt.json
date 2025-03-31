@@ -1,6 +1,18 @@
 {
     "number": 939,
     "name": "Bellibolt",
+    "types": [
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Electromorphosis",
+            "Static"
+        ],
+        "hidden": [
+            "Damp"
+        ]
+    },
     "moves": {
         "bronze": [
             "Mud-Slap",

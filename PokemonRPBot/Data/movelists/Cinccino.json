@@ -1,6 +1,18 @@
 {
     "number": 573,
     "name": "Cinccino",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Cute Charm",
+            "Technician"
+        ],
+        "hidden": [
+            "Skill Link"
+        ]
+    },
     "moves": {
         "bronze": [
             "After You",

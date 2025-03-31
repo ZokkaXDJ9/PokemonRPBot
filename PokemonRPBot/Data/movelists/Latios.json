@@ -1,6 +1,16 @@
 {
     "number": 381,
     "name": "Latios",
+    "types": [
+        "Dragon",
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Levitate"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Dragon Dance",

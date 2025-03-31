@@ -1,6 +1,18 @@
 {
     "number": 674,
     "name": "Pancham",
+    "types": [
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Iron Fist",
+            "Mold Breaker"
+        ],
+        "hidden": [
+            "Scrappy"
+        ]
+    },
     "moves": {
         "bronze": [
             "Arm Thrust",

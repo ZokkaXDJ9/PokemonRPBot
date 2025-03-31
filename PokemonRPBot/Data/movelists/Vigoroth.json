@@ -1,6 +1,15 @@
 {
     "number": 288,
     "name": "Vigoroth",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Vital Spirit"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Amnesia",

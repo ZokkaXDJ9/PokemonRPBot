@@ -1,6 +1,19 @@
 {
     "number": 903,
     "name": "Sneasler",
+    "types": [
+        "Fighting",
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Pressure",
+            "Unburden"
+        ],
+        "hidden": [
+            "Poison Touch"
+        ]
+    },
     "moves": {
         "bronze": [
             "Fling",

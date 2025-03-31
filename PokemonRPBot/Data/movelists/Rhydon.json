@@ -1,6 +1,19 @@
 {
     "number": 112,
     "name": "Rhydon",
+    "types": [
+        "Ground",
+        "Rock"
+    ],
+    "abilities": {
+        "normal": [
+            "Lightning Rod",
+            "Rock Head"
+        ],
+        "hidden": [
+            "Reckless"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bulldoze",

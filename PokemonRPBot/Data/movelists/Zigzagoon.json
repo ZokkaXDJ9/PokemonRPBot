@@ -1,6 +1,18 @@
 {
     "number": 263,
     "name": "Zigzagoon",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Pickup",
+            "Gluttony"
+        ],
+        "hidden": [
+            "Quick Feet"
+        ]
+    },
     "moves": {
         "bronze": [
             "Covet",

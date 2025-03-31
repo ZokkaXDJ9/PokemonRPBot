@@ -1,6 +1,17 @@
 {
     "number": 160,
     "name": "Feraligatr",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Torrent"
+        ],
+        "hidden": [
+            "Sheer Force"
+        ]
+    },
     "moves": {
         "bronze": [
             "Agility",

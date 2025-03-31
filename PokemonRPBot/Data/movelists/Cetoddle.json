@@ -1,6 +1,18 @@
 {
     "number": 974,
     "name": "Cetoddle",
+    "types": [
+        "Ice"
+    ],
+    "abilities": {
+        "normal": [
+            "Thick Fat",
+            "Snow Cloak"
+        ],
+        "hidden": [
+            "Sheer Force"
+        ]
+    },
     "moves": {
         "bronze": [
             "Echoed Voice",

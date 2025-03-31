@@ -1,6 +1,18 @@
 {
     "number": 301,
     "name": "Delcatty",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Cute Charm",
+            "Normalize"
+        ],
+        "hidden": [
+            "Wonder Skin"
+        ]
+    },
     "moves": {
         "bronze": [
             "Attract",

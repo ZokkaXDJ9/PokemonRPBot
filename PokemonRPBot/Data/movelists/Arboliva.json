@@ -1,6 +1,18 @@
 {
     "number": 930,
     "name": "Arboliva",
+    "types": [
+        "Grass",
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Seed Sower"
+        ],
+        "hidden": [
+            "Harvest"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

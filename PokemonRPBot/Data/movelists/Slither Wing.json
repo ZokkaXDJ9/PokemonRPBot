@@ -1,6 +1,11 @@
 {
     "number": 988,
     "name": "Slither Wing",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Bug Bite",

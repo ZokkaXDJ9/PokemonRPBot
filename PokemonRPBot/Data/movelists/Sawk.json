@@ -1,6 +1,18 @@
 {
     "number": 539,
     "name": "Sawk",
+    "types": [
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Sturdy",
+            "Inner Focus"
+        ],
+        "hidden": [
+            "Mold Breaker"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bide",

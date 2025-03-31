@@ -1,6 +1,16 @@
 {
     "number": 719,
     "name": "Diancie",
+    "types": [
+        "Rock",
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Clear Body"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Diamond Storm",

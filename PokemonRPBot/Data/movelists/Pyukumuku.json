@@ -1,6 +1,17 @@
 {
     "number": 771,
     "name": "Pyukumuku",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Innards Out"
+        ],
+        "hidden": [
+            "Unaware"
+        ]
+    },
     "moves": {
         "bronze": [
             "Baton Pass",

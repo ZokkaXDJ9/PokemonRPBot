@@ -1,6 +1,16 @@
 {
     "number": 639,
     "name": "Terrakion",
+    "types": [
+        "Rock",
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Justified"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Double Kick",

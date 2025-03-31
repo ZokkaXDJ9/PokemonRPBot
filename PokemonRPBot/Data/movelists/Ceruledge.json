@@ -1,6 +1,18 @@
 {
     "number": 937,
     "name": "Ceruledge",
+    "types": [
+        "Fire",
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Flash Fire"
+        ],
+        "hidden": [
+            "Weak Armor"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

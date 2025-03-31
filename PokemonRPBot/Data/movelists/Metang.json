@@ -1,6 +1,18 @@
 {
     "number": 375,
     "name": "Metang",
+    "types": [
+        "Steel",
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Clear Body"
+        ],
+        "hidden": [
+            "Light Metal"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bullet Punch",

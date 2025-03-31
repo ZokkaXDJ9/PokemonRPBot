@@ -1,6 +1,18 @@
 {
     "number": 526,
     "name": "Gigalith",
+    "types": [
+        "Rock"
+    ],
+    "abilities": {
+        "normal": [
+            "Sturdy",
+            "Sand Stream"
+        ],
+        "hidden": [
+            "Sand Force"
+        ]
+    },
     "moves": {
         "bronze": [
             "Harden",

@@ -1,6 +1,17 @@
 {
     "number": 846,
     "name": "Arrokuda",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Swift Swim"
+        ],
+        "hidden": [
+            "Propeller Tail"
+        ]
+    },
     "moves": {
         "bronze": [
             "Aqua Jet",

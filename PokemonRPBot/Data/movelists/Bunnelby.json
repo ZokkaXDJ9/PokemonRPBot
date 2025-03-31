@@ -1,6 +1,18 @@
 {
     "number": 659,
     "name": "Bunnelby",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Pickup",
+            "Cheek Pouch"
+        ],
+        "hidden": [
+            "Huge Power"
+        ]
+    },
     "moves": {
         "bronze": [
             "Double Slap",

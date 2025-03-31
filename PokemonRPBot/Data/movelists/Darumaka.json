@@ -1,6 +1,17 @@
 {
     "number": 554,
     "name": "Darumaka",
+    "types": [
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Hustle"
+        ],
+        "hidden": [
+            "Inner Focus"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

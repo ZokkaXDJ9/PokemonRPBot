@@ -1,6 +1,15 @@
 {
     "number": 563,
     "name": "Cofagrigus",
+    "types": [
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Mummy"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Astonish",

@@ -1,6 +1,17 @@
 {
     "number": 231,
     "name": "Phanpy",
+    "types": [
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Pickup"
+        ],
+        "hidden": [
+            "Sand Veil"
+        ]
+    },
     "moves": {
         "bronze": [
             "Defense Curl",

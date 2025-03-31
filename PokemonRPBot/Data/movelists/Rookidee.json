@@ -1,6 +1,18 @@
 {
     "number": 821,
     "name": "Rookidee",
+    "types": [
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Keen Eye",
+            "Unnerve"
+        ],
+        "hidden": [
+            "Big Pecks"
+        ]
+    },
     "moves": {
         "bronze": [
             "Hone Claws",

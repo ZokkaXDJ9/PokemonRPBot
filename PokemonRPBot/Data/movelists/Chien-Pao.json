@@ -1,6 +1,16 @@
 {
     "number": 1002,
     "name": "Chien-Pao",
+    "types": [
+        "Dark",
+        "Ice"
+    ],
+    "abilities": {
+        "normal": [
+            "Sword of Ruin"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Icy Wind",

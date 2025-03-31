@@ -1,6 +1,18 @@
 {
     "number": 942,
     "name": "Maschiff",
+    "types": [
+        "Dark"
+    ],
+    "abilities": {
+        "normal": [
+            "Intimidate",
+            "Run Away"
+        ],
+        "hidden": [
+            "Stakeout"
+        ]
+    },
     "moves": {
         "bronze": [
             "Hone Claws",

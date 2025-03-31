@@ -1,6 +1,11 @@
 {
     "number": 1010,
     "name": "Iron Leaves",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Helping Hand",

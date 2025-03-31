@@ -1,6 +1,18 @@
 {
     "number": 950,
     "name": "Klawf",
+    "types": [
+        "Rock"
+    ],
+    "abilities": {
+        "normal": [
+            "Anger Shell",
+            "Shell Armor"
+        ],
+        "hidden": [
+            "Regenerator"
+        ]
+    },
     "moves": {
         "bronze": [
             "Harden",

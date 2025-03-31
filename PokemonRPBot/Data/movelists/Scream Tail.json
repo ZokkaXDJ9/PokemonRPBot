@@ -1,6 +1,11 @@
 {
     "number": 985,
     "name": "Scream Tail",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Disable",

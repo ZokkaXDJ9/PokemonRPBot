@@ -1,6 +1,11 @@
 {
     "number": 905,
     "name": "Enamorus",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Astonish",

@@ -1,6 +1,17 @@
 {
     "number": 672,
     "name": "Skiddo",
+    "types": [
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Sap Sipper"
+        ],
+        "hidden": [
+            "Grass Pelt"
+        ]
+    },
     "moves": {
         "bronze": [
             "Growth",

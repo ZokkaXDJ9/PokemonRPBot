@@ -1,6 +1,18 @@
 {
     "number": 416,
     "name": "Vespiquen",
+    "types": [
+        "Bug",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Pressure"
+        ],
+        "hidden": [
+            "Unnerve"
+        ]
+    },
     "moves": {
         "bronze": [
             "Aromatic Mist",

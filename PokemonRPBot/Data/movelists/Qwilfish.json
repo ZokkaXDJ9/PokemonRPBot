@@ -1,6 +1,19 @@
 {
     "number": 211,
     "name": "Qwilfish",
+    "types": [
+        "Water",
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Poison Point",
+            "Swift Swim"
+        ],
+        "hidden": [
+            "Intimidate"
+        ]
+    },
     "moves": {
         "bronze": [
             "Harden",

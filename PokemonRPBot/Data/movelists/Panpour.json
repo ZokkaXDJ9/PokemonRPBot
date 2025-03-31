@@ -1,6 +1,17 @@
 {
     "number": 515,
     "name": "Panpour",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Gluttony"
+        ],
+        "hidden": [
+            "Torrent"
+        ]
+    },
     "moves": {
         "bronze": [
             "Leer",

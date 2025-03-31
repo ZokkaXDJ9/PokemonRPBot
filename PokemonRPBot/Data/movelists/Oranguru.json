@@ -1,6 +1,19 @@
 {
     "number": 765,
     "name": "Oranguru",
+    "types": [
+        "Normal",
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Inner Focus",
+            "Telepathy"
+        ],
+        "hidden": [
+            "Symbiosis"
+        ]
+    },
     "moves": {
         "bronze": [
             "After You",

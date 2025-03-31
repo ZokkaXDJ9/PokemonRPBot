@@ -1,6 +1,15 @@
 {
     "number": 891,
     "name": "Kubfu",
+    "types": [
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Inner Focus"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Endure",

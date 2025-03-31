@@ -1,6 +1,19 @@
 {
     "number": 212,
     "name": "Scizor",
+    "types": [
+        "Bug",
+        "Steel"
+    ],
+    "abilities": {
+        "normal": [
+            "Swarm",
+            "Technician"
+        ],
+        "hidden": [
+            "Light Metal"
+        ]
+    },
     "moves": {
         "bronze": [
             "Agility",

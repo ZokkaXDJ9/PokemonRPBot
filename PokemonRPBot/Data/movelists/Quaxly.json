@@ -1,6 +1,17 @@
 {
     "number": 912,
     "name": "Quaxly",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Torrent"
+        ],
+        "hidden": [
+            "Moxie"
+        ]
+    },
     "moves": {
         "bronze": [
             "Growl",

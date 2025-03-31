@@ -1,6 +1,11 @@
 {
     "number": 642,
     "name": "Thundurus",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Astonish",

@@ -1,6 +1,17 @@
 {
     "number": 239,
     "name": "Elekid",
+    "types": [
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Static"
+        ],
+        "hidden": [
+            "Vital Spirit"
+        ]
+    },
     "moves": {
         "bronze": [
             "Charge",

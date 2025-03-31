@@ -1,6 +1,18 @@
 {
     "number": 1014,
     "name": "Okidogi",
+    "types": [
+        "Poison",
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Toxic Chain"
+        ],
+        "hidden": [
+            "Guard Dog"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

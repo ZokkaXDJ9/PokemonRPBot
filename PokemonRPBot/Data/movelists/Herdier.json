@@ -1,6 +1,18 @@
 {
     "number": 507,
     "name": "Herdier",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Intimidate",
+            "Sand Rush"
+        ],
+        "hidden": [
+            "Scrappy"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

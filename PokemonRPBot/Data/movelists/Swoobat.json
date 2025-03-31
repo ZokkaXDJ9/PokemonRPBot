@@ -1,6 +1,19 @@
 {
     "number": 528,
     "name": "Swoobat",
+    "types": [
+        "Psychic",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Unaware",
+            "Klutz"
+        ],
+        "hidden": [
+            "Simple"
+        ]
+    },
     "moves": {
         "bronze": [
             "Attract",

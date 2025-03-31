@@ -1,6 +1,17 @@
 {
     "number": 670,
     "name": "Floette",
+    "types": [
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Flower Veil"
+        ],
+        "hidden": [
+            "Symbiosis"
+        ]
+    },
     "moves": {
         "bronze": [
             "Fairy Wind",

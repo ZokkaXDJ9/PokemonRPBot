@@ -1,6 +1,11 @@
 {
     "number": 555,
     "name": "Darmanitan",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Bite",

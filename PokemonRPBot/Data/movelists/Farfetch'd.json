@@ -1,6 +1,11 @@
 {
     "number": 83,
     "name": "Farfetch'd",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Aerial Ace",

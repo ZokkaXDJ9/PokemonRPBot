@@ -1,6 +1,19 @@
 {
     "number": 861,
     "name": "Grimmsnarl",
+    "types": [
+        "Dark",
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Prankster",
+            "Frisk"
+        ],
+        "hidden": [
+            "Pickpocket"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

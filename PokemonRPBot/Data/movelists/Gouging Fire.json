@@ -1,6 +1,11 @@
 {
     "number": 1020,
     "name": "Gouging Fire",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Fire Fang",

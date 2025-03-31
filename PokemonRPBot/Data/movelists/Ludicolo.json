@@ -1,6 +1,19 @@
 {
     "number": 272,
     "name": "Ludicolo",
+    "types": [
+        "Water",
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Swift Swim",
+            "Rain Dish"
+        ],
+        "hidden": [
+            "Own Tempo"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

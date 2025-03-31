@@ -1,6 +1,19 @@
 {
     "number": 561,
     "name": "Sigilyph",
+    "types": [
+        "Psychic",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Wonder Skin",
+            "Magic Guard"
+        ],
+        "hidden": [
+            "Tinted Lens"
+        ]
+    },
     "moves": {
         "bronze": [
             "Confusion",

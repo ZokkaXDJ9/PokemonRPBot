@@ -1,6 +1,18 @@
 {
     "number": 727,
     "name": "Incineroar",
+    "types": [
+        "Fire",
+        "Dark"
+    ],
+    "abilities": {
+        "normal": [
+            "Blaze"
+        ],
+        "hidden": [
+            "Intimidate"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bulk Up",

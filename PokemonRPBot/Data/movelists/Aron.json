@@ -1,6 +1,19 @@
 {
     "number": 304,
     "name": "Aron",
+    "types": [
+        "Steel",
+        "Rock"
+    ],
+    "abilities": {
+        "normal": [
+            "Sturdy",
+            "Rock Head"
+        ],
+        "hidden": [
+            "Heavy Metal"
+        ]
+    },
     "moves": {
         "bronze": [
             "Harden",

@@ -1,6 +1,19 @@
 {
     "number": 564,
     "name": "Tirtouga",
+    "types": [
+        "Water",
+        "Rock"
+    ],
+    "abilities": {
+        "normal": [
+            "Solid Rock",
+            "Sturdy"
+        ],
+        "hidden": [
+            "Swift Swim"
+        ]
+    },
     "moves": {
         "bronze": [
             "Aqua Jet",

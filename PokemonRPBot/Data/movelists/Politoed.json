@@ -1,6 +1,18 @@
 {
     "number": 186,
     "name": "Politoed",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Water Absorb",
+            "Damp"
+        ],
+        "hidden": [
+            "Drizzle"
+        ]
+    },
     "moves": {
         "bronze": [
             "Belly Drum",

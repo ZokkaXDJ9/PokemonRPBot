@@ -1,6 +1,18 @@
 {
     "number": 619,
     "name": "Mienfoo",
+    "types": [
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Inner Focus",
+            "Regenerator"
+        ],
+        "hidden": [
+            "Reckless"
+        ]
+    },
     "moves": {
         "bronze": [
             "Detect",

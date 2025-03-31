@@ -1,6 +1,19 @@
 {
     "number": 221,
     "name": "Piloswine",
+    "types": [
+        "Ice",
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Oblivious",
+            "Snow Cloak"
+        ],
+        "hidden": [
+            "Thick Fat"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ancient Power",

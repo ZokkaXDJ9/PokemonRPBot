@@ -1,6 +1,18 @@
 {
     "number": 517,
     "name": "Munna",
+    "types": [
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Forewarn",
+            "Synchronize"
+        ],
+        "hidden": [
+            "Telepathy"
+        ]
+    },
     "moves": {
         "bronze": [
             "Defense Curl",

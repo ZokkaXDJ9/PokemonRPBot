@@ -1,6 +1,11 @@
 {
     "number": 32,
     "name": "Nidoran (male)",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Double Kick",

@@ -1,6 +1,17 @@
 {
     "number": 27,
     "name": "Sandshrew",
+    "types": [
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Sand Veil"
+        ],
+        "hidden": [
+            "Sand Rush"
+        ]
+    },
     "moves": {
         "bronze": [
             "Defense Curl",

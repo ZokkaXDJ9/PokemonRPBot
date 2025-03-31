@@ -1,6 +1,15 @@
 {
     "number": 491,
     "name": "Darkrai",
+    "types": [
+        "Dark"
+    ],
+    "abilities": {
+        "normal": [
+            "Bad Dreams"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Confuse Ray",

@@ -1,0 +1,14 @@
+{
+    "number": 618,
+    "name": "Galarian Stunfisk",
+    "moves": {
+      "bronze": ["Metal Claw", "Mud-Slap", "Tackle", "Water Gun", "Endure", "Mud Shot"],
+      "silver": ["Revenge", "Metal Sound", "Sucker Punch", "Iron Defense"],
+      "gold": ["Bounce", "Muddy Water", "Snap Trap", "Flail", "Fissure"],
+      "platinum": [],
+      "diamond": [],
+      "tm": ["Agility", "Attract", "Confide", "Curse", "Double Team", "Endure", "Facade", "Frustration", "Headbutt", "Helping Hand", "Hidden Power", "Metronome", "Protect", "Nasty Plot", "Rest", "Return", "Round", "Secret Power", "Sleep Talk", "Snore", "Splash", "Substitute", "Swords Dance", "Take Down", "Tera Blast", "Thunder Wave", "Dig", "Screech", "Rock Slide", "Sandstorm", "Rain Dance", "Revenge", "Rock Tomb", "Bounce", "Mud Shot", "Payback", "Ice Fang", "Bulldoze", "Stomping Tantrum", "Surf", "Earthquake", "Sludge Bomb", "Crunch", "Uproar", "Muddy Water", "Iron Defense", "Earth Power", "Flash Cannon", "Stone Edge", "Stealth Rock", "Sludge Wave", "Foul Play", "Scald"],
+      "egg": ["Astonish", "Bind", "Counter", "Curse", "Pain Split", "Reflect Type", "Spite", "Yawn"],
+      "tutor": ["Lash Out", "Terrain Pulse"]
+    }
+  }

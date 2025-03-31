@@ -1,6 +1,18 @@
 {
     "number": 703,
     "name": "Carbink",
+    "types": [
+        "Rock",
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Clear Body"
+        ],
+        "hidden": [
+            "Sturdy"
+        ]
+    },
     "moves": {
         "bronze": [
             "Guard Split",

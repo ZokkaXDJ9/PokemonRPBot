@@ -1,6 +1,17 @@
 {
     "number": 156,
     "name": "Quilava",
+    "types": [
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Blaze"
+        ],
+        "hidden": [
+            "Flash Fire"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ember",

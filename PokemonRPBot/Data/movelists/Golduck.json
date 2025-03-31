@@ -1,6 +1,18 @@
 {
     "number": 55,
     "name": "Golduck",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Damp",
+            "Cloud Nine"
+        ],
+        "hidden": [
+            "Swift Swim"
+        ]
+    },
     "moves": {
         "bronze": [
             "Aqua Jet",

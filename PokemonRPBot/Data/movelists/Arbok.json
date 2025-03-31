@@ -1,6 +1,18 @@
 {
     "number": 24,
     "name": "Arbok",
+    "types": [
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Intimidate",
+            "Shed Skin"
+        ],
+        "hidden": [
+            "Unnerve"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

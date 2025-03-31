@@ -1,6 +1,18 @@
 {
     "number": 328,
     "name": "Trapinch",
+    "types": [
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Hyper Cutter",
+            "Arena Trap"
+        ],
+        "hidden": [
+            "Sheer Force"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

@@ -1,6 +1,15 @@
 {
     "number": 736,
     "name": "Grubbin",
+    "types": [
+        "Bug"
+    ],
+    "abilities": {
+        "normal": [
+            "Swarm"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Bite",

@@ -1,6 +1,19 @@
 {
     "number": 862,
     "name": "Obstagoon",
+    "types": [
+        "Dark",
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Reckless",
+            "Guts"
+        ],
+        "hidden": [
+            "Defiant"
+        ]
+    },
     "moves": {
         "bronze": [
             "Baby-Doll Eyes",

@@ -1,6 +1,11 @@
 {
     "number": 647,
     "name": "Keldeo",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Aqua Jet",

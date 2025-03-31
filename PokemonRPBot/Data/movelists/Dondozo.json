@@ -1,6 +1,18 @@
 {
     "number": 977,
     "name": "Dondozo",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Unaware",
+            "Oblivious"
+        ],
+        "hidden": [
+            "Water Veil"
+        ]
+    },
     "moves": {
         "bronze": [
             "Flail",

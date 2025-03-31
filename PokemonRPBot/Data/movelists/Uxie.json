@@ -1,6 +1,15 @@
 {
     "number": 480,
     "name": "Uxie",
+    "types": [
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Levitate"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Confusion",

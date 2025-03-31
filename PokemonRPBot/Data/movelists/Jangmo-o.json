@@ -1,6 +1,18 @@
 {
     "number": 782,
     "name": "Jangmo-o",
+    "types": [
+        "Dragon"
+    ],
+    "abilities": {
+        "normal": [
+            "Bulletproof",
+            "Soundproof"
+        ],
+        "hidden": [
+            "Overcoat"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bide",

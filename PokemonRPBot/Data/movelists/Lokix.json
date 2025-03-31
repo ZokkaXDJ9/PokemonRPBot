@@ -1,6 +1,18 @@
 {
     "number": 920,
     "name": "Lokix",
+    "types": [
+        "Bug",
+        "Dark"
+    ],
+    "abilities": {
+        "normal": [
+            "Swarm"
+        ],
+        "hidden": [
+            "Tinted Lens"
+        ]
+    },
     "moves": {
         "bronze": [
             "Assurance",

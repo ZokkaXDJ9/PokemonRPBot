@@ -1,6 +1,19 @@
 {
     "number": 530,
     "name": "Excadrill",
+    "types": [
+        "Ground",
+        "Steel"
+    ],
+    "abilities": {
+        "normal": [
+            "Sand Rush",
+            "Sand Force"
+        ],
+        "hidden": [
+            "Mold Breaker"
+        ]
+    },
     "moves": {
         "bronze": [
             "Hone Claws",

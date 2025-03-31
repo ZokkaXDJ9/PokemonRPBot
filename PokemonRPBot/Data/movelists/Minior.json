@@ -1,6 +1,11 @@
 {
     "number": 774,
     "name": "Minior",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Confuse Ray",

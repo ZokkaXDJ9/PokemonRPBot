@@ -1,6 +1,17 @@
 {
     "number": 377,
     "name": "Regirock",
+    "types": [
+        "Rock"
+    ],
+    "abilities": {
+        "normal": [
+            "Clear Body"
+        ],
+        "hidden": [
+            "Sturdy"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bulldoze",

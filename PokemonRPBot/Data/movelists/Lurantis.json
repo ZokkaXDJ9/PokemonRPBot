@@ -1,6 +1,17 @@
 {
     "number": 754,
     "name": "Lurantis",
+    "types": [
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Leaf Guard"
+        ],
+        "hidden": [
+            "Contrary"
+        ]
+    },
     "moves": {
         "bronze": [
             "Dual Chop",

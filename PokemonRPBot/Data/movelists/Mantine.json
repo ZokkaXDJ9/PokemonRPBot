@@ -1,6 +1,19 @@
 {
     "number": 226,
     "name": "Mantine",
+    "types": [
+        "Water",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Swift Swim",
+            "Water Absorb"
+        ],
+        "hidden": [
+            "Water Veil"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bubble",

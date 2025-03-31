@@ -1,6 +1,15 @@
 {
     "number": 807,
     "name": "Zeraora",
+    "types": [
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Volt Absorb"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Fake Out",

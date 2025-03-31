@@ -1,6 +1,18 @@
 {
     "number": 478,
     "name": "Froslass",
+    "types": [
+        "Ice",
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Snow Cloak"
+        ],
+        "hidden": [
+            "Cursed Body"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

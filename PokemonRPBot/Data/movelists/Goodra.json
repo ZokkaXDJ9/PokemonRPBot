@@ -1,6 +1,18 @@
 {
     "number": 706,
     "name": "Goodra",
+    "types": [
+        "Dragon"
+    ],
+    "abilities": {
+        "normal": [
+            "Sap Sipper",
+            "Hydration"
+        ],
+        "hidden": [
+            "Gooey"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

@@ -1,6 +1,18 @@
 {
     "number": 236,
     "name": "Tyrogue",
+    "types": [
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Guts",
+            "Steadfast"
+        ],
+        "hidden": [
+            "Vital Spirit"
+        ]
+    },
     "moves": {
         "bronze": [
             "Fake Out",

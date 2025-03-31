@@ -1,6 +1,18 @@
 {
     "number": 574,
     "name": "Gothita",
+    "types": [
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Frisk",
+            "Competitive"
+        ],
+        "hidden": [
+            "Shadow Tag"
+        ]
+    },
     "moves": {
         "bronze": [
             "Confusion",

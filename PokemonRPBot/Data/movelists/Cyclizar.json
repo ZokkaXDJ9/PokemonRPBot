@@ -1,6 +1,18 @@
 {
     "number": 967,
     "name": "Cyclizar",
+    "types": [
+        "Dragon",
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Shed Skin"
+        ],
+        "hidden": [
+            "Regenerator"
+        ]
+    },
     "moves": {
         "bronze": [
             "Growl",

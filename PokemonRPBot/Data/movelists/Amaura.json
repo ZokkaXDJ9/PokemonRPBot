@@ -1,6 +1,18 @@
 {
     "number": 698,
     "name": "Amaura",
+    "types": [
+        "Rock",
+        "Ice"
+    ],
+    "abilities": {
+        "normal": [
+            "Refrigerate"
+        ],
+        "hidden": [
+            "Snow Warning"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ancient Power",

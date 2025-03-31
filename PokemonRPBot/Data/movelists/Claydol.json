@@ -1,6 +1,16 @@
 {
     "number": 344,
     "name": "Claydol",
+    "types": [
+        "Ground",
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Levitate"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Confusion",

@@ -1,6 +1,18 @@
 {
     "number": 970,
     "name": "Glimmora",
+    "types": [
+        "Rock",
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Toxic Debris"
+        ],
+        "hidden": [
+            "Corrosion"
+        ]
+    },
     "moves": {
         "bronze": [
             "Acid Spray",

@@ -1,6 +1,17 @@
 {
     "number": 514,
     "name": "Simisear",
+    "types": [
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Gluttony"
+        ],
+        "hidden": [
+            "Blaze"
+        ]
+    },
     "moves": {
         "bronze": [],
         "silver": [],

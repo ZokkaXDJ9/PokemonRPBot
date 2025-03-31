@@ -1,6 +1,15 @@
 {
     "number": 895,
     "name": "Regidrago",
+    "types": [
+        "Dragon"
+    ],
+    "abilities": {
+        "normal": [
+            "Dragon\u2019s Maw"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Bite",

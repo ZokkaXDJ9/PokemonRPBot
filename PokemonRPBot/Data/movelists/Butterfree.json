@@ -1,6 +1,18 @@
 {
     "number": 12,
     "name": "Butterfree",
+    "types": [
+        "Bug",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Compound Eyes"
+        ],
+        "hidden": [
+            "Tinted Lens"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bug Bite",

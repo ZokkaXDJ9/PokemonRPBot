@@ -1,6 +1,18 @@
 {
     "number": 353,
     "name": "Shuppet",
+    "types": [
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Insomnia",
+            "Frisk"
+        ],
+        "hidden": [
+            "Cursed Body"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

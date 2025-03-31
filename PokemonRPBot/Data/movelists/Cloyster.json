@@ -1,6 +1,19 @@
 {
     "number": 91,
     "name": "Cloyster",
+    "types": [
+        "Water",
+        "Ice"
+    ],
+    "abilities": {
+        "normal": [
+            "Shell Armor",
+            "Skill Link"
+        ],
+        "hidden": [
+            "Overcoat"
+        ]
+    },
     "moves": {
         "bronze": [
             "Aurora Beam",

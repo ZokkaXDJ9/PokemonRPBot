@@ -1,6 +1,17 @@
 {
     "number": 810,
     "name": "Grookey",
+    "types": [
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Overgrow"
+        ],
+        "hidden": [
+            "Grassy Surge"
+        ]
+    },
     "moves": {
         "bronze": [
             "Branch Poke",

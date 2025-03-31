@@ -1,6 +1,18 @@
 {
     "number": 248,
     "name": "Tyranitar",
+    "types": [
+        "Rock",
+        "Dark"
+    ],
+    "abilities": {
+        "normal": [
+            "Sand Stream"
+        ],
+        "hidden": [
+            "Unnerve"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

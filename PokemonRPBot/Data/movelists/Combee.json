@@ -1,6 +1,18 @@
 {
     "number": 415,
     "name": "Combee",
+    "types": [
+        "Bug",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Honey Gather"
+        ],
+        "hidden": [
+            "Hustle"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bug Bite",

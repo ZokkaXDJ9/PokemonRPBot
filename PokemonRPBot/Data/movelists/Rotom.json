@@ -1,6 +1,16 @@
 {
     "number": 479,
     "name": "Rotom",
+    "types": [
+        "Electric",
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Levitate"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Astonish",

@@ -1,6 +1,15 @@
 {
     "number": 603,
     "name": "Eelektrik",
+    "types": [
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Levitate"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Bind",

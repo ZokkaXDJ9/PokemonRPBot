@@ -1,6 +1,18 @@
 {
     "number": 724,
     "name": "Decidueye",
+    "types": [
+        "Grass",
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Overgrow"
+        ],
+        "hidden": [
+            "Long Reach"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

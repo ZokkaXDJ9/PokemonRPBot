@@ -1,6 +1,19 @@
 {
     "number": 702,
     "name": "Dedenne",
+    "types": [
+        "Electric",
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Cheek Pouch",
+            "Pickup"
+        ],
+        "hidden": [
+            "Plus"
+        ]
+    },
     "moves": {
         "bronze": [
             "Charge",

@@ -1,6 +1,19 @@
 {
     "number": 274,
     "name": "Nuzleaf",
+    "types": [
+        "Grass",
+        "Dark"
+    ],
+    "abilities": {
+        "normal": [
+            "Chlorophyll",
+            "Early Bird"
+        ],
+        "hidden": [
+            "Pickpocket"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

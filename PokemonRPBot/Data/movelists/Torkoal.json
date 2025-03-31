@@ -1,6 +1,18 @@
 {
     "number": 324,
     "name": "Torkoal",
+    "types": [
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "White Smoke",
+            "Drought"
+        ],
+        "hidden": [
+            "Shell Armor"
+        ]
+    },
     "moves": {
         "bronze": [
             "Curse",

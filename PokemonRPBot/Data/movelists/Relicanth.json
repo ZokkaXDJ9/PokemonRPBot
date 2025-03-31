@@ -1,6 +1,19 @@
 {
     "number": 369,
     "name": "Relicanth",
+    "types": [
+        "Water",
+        "Rock"
+    ],
+    "abilities": {
+        "normal": [
+            "Swift Swim",
+            "Rock Head"
+        ],
+        "hidden": [
+            "Sturdy"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ancient Power",

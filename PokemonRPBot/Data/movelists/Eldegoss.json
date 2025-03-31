@@ -1,6 +1,18 @@
 {
     "number": 830,
     "name": "Eldegoss",
+    "types": [
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Cotton Down",
+            "Regenerator"
+        ],
+        "hidden": [
+            "Effect Spore"
+        ]
+    },
     "moves": {
         "bronze": [
             "Cotton Spore",

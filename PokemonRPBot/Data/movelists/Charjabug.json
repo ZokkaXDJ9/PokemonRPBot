@@ -1,6 +1,16 @@
 {
     "number": 737,
     "name": "Charjabug",
+    "types": [
+        "Bug",
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Battery"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Bite",

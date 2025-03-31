@@ -1,6 +1,16 @@
 {
     "number": 801,
     "name": "Magearna",
+    "types": [
+        "Steel",
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Soul-Heart"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Defense Curl",

@@ -1,6 +1,18 @@
 {
     "number": 936,
     "name": "Armarouge",
+    "types": [
+        "Fire",
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Flash Fire"
+        ],
+        "hidden": [
+            "Weak Armor"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

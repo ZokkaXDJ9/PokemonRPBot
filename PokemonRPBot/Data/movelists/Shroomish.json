@@ -1,6 +1,18 @@
 {
     "number": 285,
     "name": "Shroomish",
+    "types": [
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Effect Spore",
+            "Poison Heal"
+        ],
+        "hidden": [
+            "Quick Feet"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

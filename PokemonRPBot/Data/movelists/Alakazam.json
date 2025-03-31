@@ -1,6 +1,18 @@
 {
     "number": 65,
     "name": "Alakazam",
+    "types": [
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Synchronize",
+            "Inner Focus"
+        ],
+        "hidden": [
+            "Magic Guard"
+        ]
+    },
     "moves": {
         "bronze": [
             "Confusion",

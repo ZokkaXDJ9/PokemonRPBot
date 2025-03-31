@@ -1,6 +1,19 @@
 {
     "number": 280,
     "name": "Ralts",
+    "types": [
+        "Psychic",
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Synchronize",
+            "Trace"
+        ],
+        "hidden": [
+            "Telepathy"
+        ]
+    },
     "moves": {
         "bronze": [
             "Confusion",

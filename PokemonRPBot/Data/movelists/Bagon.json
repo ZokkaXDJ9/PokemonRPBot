@@ -1,6 +1,17 @@
 {
     "number": 371,
     "name": "Bagon",
+    "types": [
+        "Dragon"
+    ],
+    "abilities": {
+        "normal": [
+            "Rock Head"
+        ],
+        "hidden": [
+            "Sheer Force"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

@@ -1,6 +1,15 @@
 {
     "number": 775,
     "name": "Komala",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Comatose"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Defense Curl",

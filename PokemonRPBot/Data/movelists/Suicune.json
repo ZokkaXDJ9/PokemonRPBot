@@ -1,6 +1,17 @@
 {
     "number": 245,
     "name": "Suicune",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Pressure"
+        ],
+        "hidden": [
+            "Inner Focus"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",
