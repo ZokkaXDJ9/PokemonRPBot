@@ -1,6 +1,18 @@
 {
     "number": 872,
     "name": "Snom",
+    "types": [
+        "Ice",
+        "Bug"
+    ],
+    "abilities": {
+        "normal": [
+            "Shield Dust"
+        ],
+        "hidden": [
+            "Ice Scales"
+        ]
+    },
     "moves": {
         "bronze": [
             "Powder Snow",

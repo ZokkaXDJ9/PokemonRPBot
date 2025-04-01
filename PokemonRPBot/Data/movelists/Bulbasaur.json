@@ -1,6 +1,18 @@
 {
     "number": 1,
     "name": "Bulbasaur",
+    "types": [
+        "Grass",
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Overgrow"
+        ],
+        "hidden": [
+            "Chlorophyll"
+        ]
+    },
     "moves": {
         "bronze": [
             "Growl",

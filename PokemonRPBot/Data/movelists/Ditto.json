@@ -1,6 +1,17 @@
 {
     "number": 132,
     "name": "Ditto",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Limber"
+        ],
+        "hidden": [
+            "Imposter"
+        ]
+    },
     "moves": {
         "bronze": [
             "Transform"

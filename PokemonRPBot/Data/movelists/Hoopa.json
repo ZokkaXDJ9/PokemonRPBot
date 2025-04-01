@@ -1,6 +1,16 @@
 {
     "number": 720,
     "name": "Hoopa",
+    "types": [
+        "Psychic",
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Magician"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Ally Switch",

@@ -1,6 +1,16 @@
 {
     "number": 791,
     "name": "Solgaleo",
+    "types": [
+        "Psychic",
+        "Steel"
+    ],
+    "abilities": {
+        "normal": [
+            "Full Metal Body"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Cosmic Power",

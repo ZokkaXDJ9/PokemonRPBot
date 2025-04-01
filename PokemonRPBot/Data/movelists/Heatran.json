@@ -1,6 +1,18 @@
 {
     "number": 485,
     "name": "Heatran",
+    "types": [
+        "Fire",
+        "Steel"
+    ],
+    "abilities": {
+        "normal": [
+            "Flash Fire"
+        ],
+        "hidden": [
+            "Flame Body"
+        ]
+    },
     "moves": {
         "bronze": [
             "Fire Spin",

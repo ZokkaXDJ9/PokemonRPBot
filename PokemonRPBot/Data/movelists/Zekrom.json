@@ -1,6 +1,16 @@
 {
     "number": 644,
     "name": "Zekrom",
+    "types": [
+        "Dragon",
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Teravolt"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Ancient Power",

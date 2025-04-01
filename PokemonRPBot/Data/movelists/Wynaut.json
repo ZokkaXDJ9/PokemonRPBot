@@ -1,6 +1,17 @@
 {
     "number": 360,
     "name": "Wynaut",
+    "types": [
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Shadow Tag"
+        ],
+        "hidden": [
+            "Telepathy"
+        ]
+    },
     "moves": {
         "bronze": [
             "Amnesia",

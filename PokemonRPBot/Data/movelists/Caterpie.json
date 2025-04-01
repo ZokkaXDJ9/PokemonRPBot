@@ -1,6 +1,17 @@
 {
     "number": 10,
     "name": "Caterpie",
+    "types": [
+        "Bug"
+    ],
+    "abilities": {
+        "normal": [
+            "Shield Dust"
+        ],
+        "hidden": [
+            "Run Away"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bug Bite",

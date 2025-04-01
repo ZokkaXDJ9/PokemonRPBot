@@ -1,6 +1,19 @@
 {
     "number": 668,
     "name": "Pyroar",
+    "types": [
+        "Fire",
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Rivalry",
+            "Unnerve"
+        ],
+        "hidden": [
+            "Moxie"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ember",

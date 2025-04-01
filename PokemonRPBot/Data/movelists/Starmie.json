@@ -1,6 +1,19 @@
 {
     "number": 121,
     "name": "Starmie",
+    "types": [
+        "Water",
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Illuminate",
+            "Natural Cure"
+        ],
+        "hidden": [
+            "Analytic"
+        ]
+    },
     "moves": {
         "bronze": [
             "Brine",

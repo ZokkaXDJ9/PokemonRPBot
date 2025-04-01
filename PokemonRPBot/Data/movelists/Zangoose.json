@@ -1,6 +1,17 @@
 {
     "number": 335,
     "name": "Zangoose",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Immunity"
+        ],
+        "hidden": [
+            "Toxic Boost"
+        ]
+    },
     "moves": {
         "bronze": [
             "Fury Cutter",

@@ -1,6 +1,18 @@
 {
     "number": 856,
     "name": "Hatenna",
+    "types": [
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Healer",
+            "Anticipation"
+        ],
+        "hidden": [
+            "Magic Bounce"
+        ]
+    },
     "moves": {
         "bronze": [
             "Confusion",

@@ -1,6 +1,19 @@
 {
     "number": 139,
     "name": "Omastar",
+    "types": [
+        "Rock",
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Swift Swim",
+            "Shell Armor"
+        ],
+        "hidden": [
+            "Weak Armor"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bind",

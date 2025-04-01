@@ -1,6 +1,19 @@
 {
     "number": 695,
     "name": "Heliolisk",
+    "types": [
+        "Electric",
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Dry Skin",
+            "Sand Veil"
+        ],
+        "hidden": [
+            "Solar Power"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bulldoze",

@@ -1,6 +1,19 @@
 {
     "number": 74,
     "name": "Geodude",
+    "types": [
+        "Rock",
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Rock Head",
+            "Sturdy"
+        ],
+        "hidden": [
+            "Sand Veil"
+        ]
+    },
     "moves": {
         "bronze": [
             "Defense Curl",

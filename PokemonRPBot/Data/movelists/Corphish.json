@@ -1,6 +1,18 @@
 {
     "number": 341,
     "name": "Corphish",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Hyper Cutter",
+            "Shell Armor"
+        ],
+        "hidden": [
+            "Adaptability"
+        ]
+    },
     "moves": {
         "bronze": [
             "Harden",

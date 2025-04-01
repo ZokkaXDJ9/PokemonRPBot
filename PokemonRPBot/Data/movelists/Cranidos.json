@@ -1,6 +1,17 @@
 {
     "number": 408,
     "name": "Cranidos",
+    "types": [
+        "Rock"
+    ],
+    "abilities": {
+        "normal": [
+            "Mold Breaker"
+        ],
+        "hidden": [
+            "Sheer Force"
+        ]
+    },
     "moves": {
         "bronze": [
             "Focus Energy",

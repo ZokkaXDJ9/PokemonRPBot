@@ -1,6 +1,19 @@
 {
     "number": 580,
     "name": "Ducklett",
+    "types": [
+        "Water",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Keen Eye",
+            "Big Pecks"
+        ],
+        "hidden": [
+            "Hydration"
+        ]
+    },
     "moves": {
         "bronze": [
             "Defog",

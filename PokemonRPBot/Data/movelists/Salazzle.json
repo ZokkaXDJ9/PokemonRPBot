@@ -1,6 +1,18 @@
 {
     "number": 758,
     "name": "Salazzle",
+    "types": [
+        "Poison",
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Corrosion"
+        ],
+        "hidden": [
+            "Oblivious"
+        ]
+    },
     "moves": {
         "bronze": [
             "Disable",

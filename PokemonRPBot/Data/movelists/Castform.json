@@ -1,6 +1,15 @@
 {
     "number": 351,
     "name": "Castform",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Forecast"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Ember",

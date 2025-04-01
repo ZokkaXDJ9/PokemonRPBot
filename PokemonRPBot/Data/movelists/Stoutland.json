@@ -1,6 +1,18 @@
 {
     "number": 508,
     "name": "Stoutland",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Intimidate",
+            "Sand Rush"
+        ],
+        "hidden": [
+            "Scrappy"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

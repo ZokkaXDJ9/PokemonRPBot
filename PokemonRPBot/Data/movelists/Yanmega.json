@@ -1,6 +1,19 @@
 {
     "number": 469,
     "name": "Yanmega",
+    "types": [
+        "Bug",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Speed Boost",
+            "Tinted Lens"
+        ],
+        "hidden": [
+            "Frisk"
+        ]
+    },
     "moves": {
         "bronze": [
             "Air Slash",

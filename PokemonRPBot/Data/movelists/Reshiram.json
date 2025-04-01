@@ -1,6 +1,16 @@
 {
     "number": 643,
     "name": "Reshiram",
+    "types": [
+        "Dragon",
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Turboblaze"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Ancient Power",

@@ -1,6 +1,19 @@
 {
     "number": 760,
     "name": "Bewear",
+    "types": [
+        "Normal",
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Fluffy",
+            "Klutz"
+        ],
+        "hidden": [
+            "Unnerve"
+        ]
+    },
     "moves": {
         "bronze": [
             "Baby-Doll Eyes",

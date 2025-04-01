@@ -1,6 +1,18 @@
 {
     "number": 321,
     "name": "Wailord",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Water Veil",
+            "Oblivious"
+        ],
+        "hidden": [
+            "Pressure"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

@@ -1,6 +1,18 @@
 {
     "number": 234,
     "name": "Stantler",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Intimidate",
+            "Frisk"
+        ],
+        "hidden": [
+            "Sap Sipper"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

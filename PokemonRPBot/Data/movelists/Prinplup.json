@@ -1,6 +1,17 @@
 {
     "number": 394,
     "name": "Prinplup",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Torrent"
+        ],
+        "hidden": [
+            "Competitive"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bubble",

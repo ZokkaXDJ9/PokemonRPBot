@@ -1,6 +1,19 @@
 {
     "number": 840,
     "name": "Applin",
+    "types": [
+        "Grass",
+        "Dragon"
+    ],
+    "abilities": {
+        "normal": [
+            "Ripen",
+            "Gluttony"
+        ],
+        "hidden": [
+            "Bulletproof"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

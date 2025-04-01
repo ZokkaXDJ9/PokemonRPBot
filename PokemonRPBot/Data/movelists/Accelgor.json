@@ -1,6 +1,18 @@
 {
     "number": 617,
     "name": "Accelgor",
+    "types": [
+        "Bug"
+    ],
+    "abilities": {
+        "normal": [
+            "Hydration",
+            "Sticky Hold"
+        ],
+        "hidden": [
+            "Unburden"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

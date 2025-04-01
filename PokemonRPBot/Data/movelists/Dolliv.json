@@ -1,6 +1,18 @@
 {
     "number": 929,
     "name": "Dolliv",
+    "types": [
+        "Grass",
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Early Bird"
+        ],
+        "hidden": [
+            "Harvest"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

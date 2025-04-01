@@ -1,6 +1,19 @@
 {
     "number": 959,
     "name": "Tinkaton",
+    "types": [
+        "Fairy",
+        "Steel"
+    ],
+    "abilities": {
+        "normal": [
+            "Mold Breaker",
+            "Own Tempo"
+        ],
+        "hidden": [
+            "Pickpocket"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

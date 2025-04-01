@@ -1,6 +1,18 @@
 {
     "number": 345,
     "name": "Lileep",
+    "types": [
+        "Rock",
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Suction Cups"
+        ],
+        "hidden": [
+            "Storm Drain"
+        ]
+    },
     "moves": {
         "bronze": [
             "Acid",

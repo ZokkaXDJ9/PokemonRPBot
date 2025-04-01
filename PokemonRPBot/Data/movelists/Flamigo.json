@@ -1,6 +1,19 @@
 {
     "number": 973,
     "name": "Flamigo",
+    "types": [
+        "Flying",
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Scrappy",
+            "Tangled Feet"
+        ],
+        "hidden": [
+            "Costar"
+        ]
+    },
     "moves": {
         "bronze": [
             "Copycat",

@@ -1,6 +1,17 @@
 {
     "number": 907,
     "name": "Floragato",
+    "types": [
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Overgrow"
+        ],
+        "hidden": [
+            "Protean"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

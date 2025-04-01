@@ -1,6 +1,15 @@
 {
     "number": 676,
     "name": "Furfrou",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Fur Coat"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Baby-Doll Eyes",

@@ -1,6 +1,19 @@
 {
     "number": 278,
     "name": "Wingull",
+    "types": [
+        "Water",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Keen Eye",
+            "Hydration"
+        ],
+        "hidden": [
+            "Rain Dish"
+        ]
+    },
     "moves": {
         "bronze": [
             "Growl",

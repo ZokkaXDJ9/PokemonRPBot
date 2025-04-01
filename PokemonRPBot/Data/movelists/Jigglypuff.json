@@ -1,6 +1,19 @@
 {
     "number": 39,
     "name": "Jigglypuff",
+    "types": [
+        "Normal",
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Cute Charm",
+            "Competitive"
+        ],
+        "hidden": [
+            "Friend Guard"
+        ]
+    },
     "moves": {
         "bronze": [
             "Charm",

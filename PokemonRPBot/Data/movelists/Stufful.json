@@ -1,6 +1,19 @@
 {
     "number": 759,
     "name": "Stufful",
+    "types": [
+        "Normal",
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Fluffy",
+            "Klutz"
+        ],
+        "hidden": [
+            "Cute Charm"
+        ]
+    },
     "moves": {
         "bronze": [
             "Baby-Doll Eyes",

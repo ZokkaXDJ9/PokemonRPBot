@@ -1,6 +1,11 @@
 {
     "number": 785,
     "name": "Tapu Koko",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Fairy Wind",

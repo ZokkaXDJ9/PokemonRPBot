@@ -1,6 +1,11 @@
 {
     "number": 778,
     "name": "Mimikyu",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Astonish",

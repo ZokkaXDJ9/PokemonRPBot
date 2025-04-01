@@ -1,6 +1,19 @@
 {
     "number": 859,
     "name": "Impidimp",
+    "types": [
+        "Dark",
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Prankster",
+            "Frisk"
+        ],
+        "hidden": [
+            "Pickpocket"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

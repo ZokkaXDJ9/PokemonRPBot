@@ -1,6 +1,19 @@
 {
     "number": 900,
     "name": "Kleavor",
+    "types": [
+        "Bug",
+        "Rock"
+    ],
+    "abilities": {
+        "normal": [
+            "Swarm",
+            "Sheer Force"
+        ],
+        "hidden": [
+            "Sharpness"
+        ]
+    },
     "moves": {
         "bronze": [
             "False Swipe",

@@ -1,6 +1,17 @@
 {
     "number": 255,
     "name": "Torchic",
+    "types": [
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Blaze"
+        ],
+        "hidden": [
+            "Speed Boost"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ember",

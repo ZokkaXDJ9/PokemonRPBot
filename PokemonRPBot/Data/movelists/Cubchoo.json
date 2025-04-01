@@ -1,6 +1,18 @@
 {
     "number": 613,
     "name": "Cubchoo",
+    "types": [
+        "Ice"
+    ],
+    "abilities": {
+        "normal": [
+            "Snow Cloak",
+            "Slush Rush"
+        ],
+        "hidden": [
+            "Rattled"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bide",

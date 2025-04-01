@@ -1,6 +1,19 @@
 {
     "number": 884,
     "name": "Duraludon",
+    "types": [
+        "Steel",
+        "Dragon"
+    ],
+    "abilities": {
+        "normal": [
+            "Light Metal",
+            "Heavy Metal"
+        ],
+        "hidden": [
+            "Stalwart"
+        ]
+    },
     "moves": {
         "bronze": [
             "Leer",

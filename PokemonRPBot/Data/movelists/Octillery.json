@@ -1,6 +1,18 @@
 {
     "number": 224,
     "name": "Octillery",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Suction Cups",
+            "Sniper"
+        ],
+        "hidden": [
+            "Moody"
+        ]
+    },
     "moves": {
         "bronze": [
             "Constrict",

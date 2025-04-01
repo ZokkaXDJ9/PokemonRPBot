@@ -1,6 +1,17 @@
 {
     "number": 819,
     "name": "Skwovet",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Cheek Pouch"
+        ],
+        "hidden": [
+            "Gluttony"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

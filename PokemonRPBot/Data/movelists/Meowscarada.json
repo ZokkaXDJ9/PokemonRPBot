@@ -1,6 +1,18 @@
 {
     "number": 908,
     "name": "Meowscarada",
+    "types": [
+        "Grass",
+        "Dark"
+    ],
+    "abilities": {
+        "normal": [
+            "Overgrow"
+        ],
+        "hidden": [
+            "Protean"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

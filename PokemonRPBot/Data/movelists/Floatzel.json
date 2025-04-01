@@ -1,6 +1,17 @@
 {
     "number": 419,
     "name": "Floatzel",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Swift Swim"
+        ],
+        "hidden": [
+            "Water Veil"
+        ]
+    },
     "moves": {
         "bronze": [
             "Crunch",

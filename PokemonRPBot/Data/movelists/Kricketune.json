@@ -1,6 +1,17 @@
 {
     "number": 402,
     "name": "Kricketune",
+    "types": [
+        "Bug"
+    ],
+    "abilities": {
+        "normal": [
+            "Swarm"
+        ],
+        "hidden": [
+            "Technician"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bug Bite",

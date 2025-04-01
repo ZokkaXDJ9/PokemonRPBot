@@ -1,6 +1,18 @@
 {
     "number": 53,
     "name": "Persian",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Limber",
+            "Technician"
+        ],
+        "hidden": [
+            "Unnerve"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

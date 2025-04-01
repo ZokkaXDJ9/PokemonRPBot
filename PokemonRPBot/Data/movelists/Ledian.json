@@ -1,6 +1,19 @@
 {
     "number": 166,
     "name": "Ledian",
+    "types": [
+        "Bug",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Swarm",
+            "Early Bird"
+        ],
+        "hidden": [
+            "Iron Fist"
+        ]
+    },
     "moves": {
         "bronze": [
             "Comet Punch",

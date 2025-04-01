@@ -1,6 +1,19 @@
 {
     "number": 783,
     "name": "Hakamo-o",
+    "types": [
+        "Dragon",
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Bulletproof",
+            "Soundproof"
+        ],
+        "hidden": [
+            "Overcoat"
+        ]
+    },
     "moves": {
         "bronze": [
             "Autotomize",

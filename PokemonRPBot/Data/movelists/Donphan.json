@@ -1,6 +1,17 @@
 {
     "number": 232,
     "name": "Donphan",
+    "types": [
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Sturdy"
+        ],
+        "hidden": [
+            "Sand Veil"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bulldoze",

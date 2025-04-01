@@ -1,6 +1,18 @@
 {
     "number": 924,
     "name": "Tandemaus",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Run Away",
+            "Pickup"
+        ],
+        "hidden": [
+            "Own Tempo"
+        ]
+    },
     "moves": {
         "bronze": [
             "Baby-Doll Eyes",

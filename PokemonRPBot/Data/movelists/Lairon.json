@@ -1,6 +1,19 @@
 {
     "number": 305,
     "name": "Lairon",
+    "types": [
+        "Steel",
+        "Rock"
+    ],
+    "abilities": {
+        "normal": [
+            "Sturdy",
+            "Rock Head"
+        ],
+        "hidden": [
+            "Heavy Metal"
+        ]
+    },
     "moves": {
         "bronze": [
             "Harden",

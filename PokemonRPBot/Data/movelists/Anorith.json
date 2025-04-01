@@ -1,6 +1,18 @@
 {
     "number": 347,
     "name": "Anorith",
+    "types": [
+        "Rock",
+        "Bug"
+    ],
+    "abilities": {
+        "normal": [
+            "Battle Armor"
+        ],
+        "hidden": [
+            "Swift Swim"
+        ]
+    },
     "moves": {
         "bronze": [
             "Fury Cutter",

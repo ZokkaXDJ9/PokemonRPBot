@@ -1,6 +1,19 @@
 {
     "number": 983,
     "name": "Kingambit",
+    "types": [
+        "Dark",
+        "Steel"
+    ],
+    "abilities": {
+        "normal": [
+            "Defiant",
+            "Supreme Overlord"
+        ],
+        "hidden": [
+            "Pressure"
+        ]
+    },
     "moves": {
         "bronze": [
             "Fury Cutter",

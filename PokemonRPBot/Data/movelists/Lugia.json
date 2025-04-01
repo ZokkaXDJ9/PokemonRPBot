@@ -1,6 +1,18 @@
 {
     "number": 249,
     "name": "Lugia",
+    "types": [
+        "Psychic",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Pressure"
+        ],
+        "hidden": [
+            "Multiscale"
+        ]
+    },
     "moves": {
         "bronze": [
             "Aeroblast",

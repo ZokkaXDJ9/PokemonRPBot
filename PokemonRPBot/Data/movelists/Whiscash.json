@@ -1,6 +1,19 @@
 {
     "number": 340,
     "name": "Whiscash",
+    "types": [
+        "Water",
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Oblivious",
+            "Anticipation"
+        ],
+        "hidden": [
+            "Hydration"
+        ]
+    },
     "moves": {
         "bronze": [
             "Belch",

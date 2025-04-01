@@ -1,6 +1,17 @@
 {
     "number": 5,
     "name": "Charmeleon",
+    "types": [
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Blaze"
+        ],
+        "hidden": [
+            "Solar Power"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ember",

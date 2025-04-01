@@ -1,6 +1,18 @@
 {
     "number": 262,
     "name": "Mightyena",
+    "types": [
+        "Dark"
+    ],
+    "abilities": {
+        "normal": [
+            "Intimidate",
+            "Quick Feet"
+        ],
+        "hidden": [
+            "Moxie"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

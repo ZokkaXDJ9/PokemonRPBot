@@ -1,6 +1,17 @@
 {
     "number": 129,
     "name": "Magikarp",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Swift Swim"
+        ],
+        "hidden": [
+            "Rattled"
+        ]
+    },
     "moves": {
         "bronze": [
             "Splash"

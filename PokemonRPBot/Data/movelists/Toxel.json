@@ -1,6 +1,19 @@
 {
     "number": 848,
     "name": "Toxel",
+    "types": [
+        "Electric",
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Rattled",
+            "Static"
+        ],
+        "hidden": [
+            "Klutz"
+        ]
+    },
     "moves": {
         "bronze": [
             "Acid",

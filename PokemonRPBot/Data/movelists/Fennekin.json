@@ -1,6 +1,17 @@
 {
     "number": 653,
     "name": "Fennekin",
+    "types": [
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Blaze"
+        ],
+        "hidden": [
+            "Magician"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ember",

@@ -1,6 +1,18 @@
 {
     "number": 100,
     "name": "Voltorb",
+    "types": [
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Soundproof",
+            "Static"
+        ],
+        "hidden": [
+            "Aftermath"
+        ]
+    },
     "moves": {
         "bronze": [
             "Charge",

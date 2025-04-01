@@ -1,6 +1,19 @@
 {
     "number": 187,
     "name": "Hoppip",
+    "types": [
+        "Grass",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Chlorophyll",
+            "Leaf Guard"
+        ],
+        "hidden": [
+            "Infiltrator"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

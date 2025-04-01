@@ -1,6 +1,17 @@
 {
     "number": 367,
     "name": "Huntail",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Swift Swim"
+        ],
+        "hidden": [
+            "Water Veil"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

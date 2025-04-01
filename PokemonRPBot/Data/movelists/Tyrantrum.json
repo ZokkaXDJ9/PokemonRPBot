@@ -1,6 +1,18 @@
 {
     "number": 697,
     "name": "Tyrantrum",
+    "types": [
+        "Rock",
+        "Dragon"
+    ],
+    "abilities": {
+        "normal": [
+            "Strong Jaw"
+        ],
+        "hidden": [
+            "Rock Head"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ancient Power",

@@ -1,6 +1,17 @@
 {
     "number": 953,
     "name": "Rellor",
+    "types": [
+        "Bug"
+    ],
+    "abilities": {
+        "normal": [
+            "Compound Eyes"
+        ],
+        "hidden": [
+            "Shed Skin"
+        ]
+    },
     "moves": {
         "bronze": [
             "Defense Curl",

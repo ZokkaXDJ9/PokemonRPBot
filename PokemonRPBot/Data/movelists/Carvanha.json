@@ -1,6 +1,18 @@
 {
     "number": 318,
     "name": "Carvanha",
+    "types": [
+        "Water",
+        "Dark"
+    ],
+    "abilities": {
+        "normal": [
+            "Rough Skin"
+        ],
+        "hidden": [
+            "Speed Boost"
+        ]
+    },
     "moves": {
         "bronze": [
             "Aqua Jet",

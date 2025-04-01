@@ -1,6 +1,18 @@
 {
     "number": 250,
     "name": "Ho-oh",
+    "types": [
+        "Fire",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Pressure"
+        ],
+        "hidden": [
+            "Regenerator"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ancient Power",

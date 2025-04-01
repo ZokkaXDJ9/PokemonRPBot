@@ -1,6 +1,18 @@
 {
     "number": 99,
     "name": "Kingler",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Hyper Cutter",
+            "Shell Armor"
+        ],
+        "hidden": [
+            "Sheer Force"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bubble",

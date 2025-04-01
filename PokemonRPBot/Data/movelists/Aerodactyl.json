@@ -1,6 +1,19 @@
 {
     "number": 142,
     "name": "Aerodactyl",
+    "types": [
+        "Rock",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Rock Head",
+            "Pressure"
+        ],
+        "hidden": [
+            "Unnerve"
+        ]
+    },
     "moves": {
         "bronze": [
             "Agility",

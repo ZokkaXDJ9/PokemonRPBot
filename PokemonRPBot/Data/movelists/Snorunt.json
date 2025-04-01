@@ -1,6 +1,18 @@
 {
     "number": 361,
     "name": "Snorunt",
+    "types": [
+        "Ice"
+    ],
+    "abilities": {
+        "normal": [
+            "Inner Focus",
+            "Ice Body"
+        ],
+        "hidden": [
+            "Moody"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

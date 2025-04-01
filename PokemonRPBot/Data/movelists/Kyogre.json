@@ -1,6 +1,15 @@
 {
     "number": 382,
     "name": "Kyogre",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Drizzle"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Ancient Power",

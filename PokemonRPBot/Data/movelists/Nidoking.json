@@ -1,6 +1,19 @@
 {
     "number": 34,
     "name": "Nidoking",
+    "types": [
+        "Poison",
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Poison Point",
+            "Rivalry"
+        ],
+        "hidden": [
+            "Sheer Force"
+        ]
+    },
     "moves": {
         "bronze": [
             "Double Kick",

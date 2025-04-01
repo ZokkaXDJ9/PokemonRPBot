@@ -1,6 +1,18 @@
 {
     "number": 631,
     "name": "Heatmor",
+    "types": [
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Gluttony",
+            "Flash Fire"
+        ],
+        "hidden": [
+            "White Smoke"
+        ]
+    },
     "moves": {
         "bronze": [
             "Fury Swipes",

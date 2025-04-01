@@ -1,6 +1,16 @@
 {
     "number": 1025,
     "name": "Pecharunt",
+    "types": [
+        "Poison",
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Poison Puppeteer"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Astonish",

@@ -1,6 +1,17 @@
 {
     "number": 869,
     "name": "Alcremie",
+    "types": [
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Sweet Veil"
+        ],
+        "hidden": [
+            "Aroma Veil"
+        ]
+    },
     "moves": {
         "bronze": [
             "Aromatic Mist",

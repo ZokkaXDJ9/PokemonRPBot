@@ -1,6 +1,18 @@
 {
     "number": 267,
     "name": "Beautifly",
+    "types": [
+        "Bug",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Swarm"
+        ],
+        "hidden": [
+            "Rivalry"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

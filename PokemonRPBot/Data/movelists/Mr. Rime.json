@@ -1,6 +1,11 @@
 {
     "number": 866,
     "name": "Mr. Rime",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "After You",

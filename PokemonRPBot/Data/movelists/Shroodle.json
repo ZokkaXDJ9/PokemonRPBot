@@ -1,6 +1,19 @@
 {
     "number": 944,
     "name": "Shroodle",
+    "types": [
+        "Poison",
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Unburden",
+            "Pickpocket"
+        ],
+        "hidden": [
+            "Prankster"
+        ]
+    },
     "moves": {
         "bronze": [
             "Acid Spray",

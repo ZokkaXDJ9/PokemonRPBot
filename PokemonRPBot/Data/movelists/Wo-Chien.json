@@ -1,6 +1,16 @@
 {
     "number": 1001,
     "name": "Wo-Chien",
+    "types": [
+        "Dark",
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Tablets of Ruin"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Absorb",

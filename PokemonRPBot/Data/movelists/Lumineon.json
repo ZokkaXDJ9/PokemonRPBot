@@ -1,6 +1,18 @@
 {
     "number": 457,
     "name": "Lumineon",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Swift Swim",
+            "Storm Drain"
+        ],
+        "hidden": [
+            "Water Veil"
+        ]
+    },
     "moves": {
         "bronze": [
             "Attract",

@@ -1,6 +1,18 @@
 {
     "number": 237,
     "name": "Hitmontop",
+    "types": [
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Intimidate",
+            "Technician"
+        ],
+        "hidden": [
+            "Steadfast"
+        ]
+    },
     "moves": {
         "bronze": [
             "Fake Out",

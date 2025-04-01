@@ -1,6 +1,16 @@
 {
     "number": 251,
     "name": "Celebi",
+    "types": [
+        "Psychic",
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Natural Cure"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Confusion",

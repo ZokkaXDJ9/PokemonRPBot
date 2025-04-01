@@ -1,6 +1,19 @@
 {
     "number": 521,
     "name": "Unfezant",
+    "types": [
+        "Normal",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Big Pecks",
+            "Super Luck"
+        ],
+        "hidden": [
+            "Rivalry"
+        ]
+    },
     "moves": {
         "bronze": [
             "Growl",

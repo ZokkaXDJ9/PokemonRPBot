@@ -1,6 +1,18 @@
 {
     "number": 556,
     "name": "Maractus",
+    "types": [
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Water Absorb",
+            "Chlorophyll"
+        ],
+        "hidden": [
+            "Storm Drain"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

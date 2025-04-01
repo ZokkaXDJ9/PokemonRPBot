@@ -1,6 +1,18 @@
 {
     "number": 70,
     "name": "Weepinbell",
+    "types": [
+        "Grass",
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Chlorophyll"
+        ],
+        "hidden": [
+            "Gluttony"
+        ]
+    },
     "moves": {
         "bronze": [
             "Growth",

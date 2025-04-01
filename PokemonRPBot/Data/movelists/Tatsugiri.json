@@ -1,6 +1,11 @@
 {
     "number": 978,
     "name": "Tatsugiri",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Harden",

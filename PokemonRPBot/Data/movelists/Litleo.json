@@ -1,6 +1,19 @@
 {
     "number": 667,
     "name": "Litleo",
+    "types": [
+        "Fire",
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Rivalry",
+            "Unnerve"
+        ],
+        "hidden": [
+            "Moxie"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ember",

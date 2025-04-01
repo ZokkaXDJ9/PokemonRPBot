@@ -1,6 +1,19 @@
 {
     "number": 123,
     "name": "Scyther",
+    "types": [
+        "Bug",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Swarm",
+            "Technician"
+        ],
+        "hidden": [
+            "Steadfast"
+        ]
+    },
     "moves": {
         "bronze": [
             "False Swipe",

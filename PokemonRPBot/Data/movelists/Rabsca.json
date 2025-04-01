@@ -1,6 +1,18 @@
 {
     "number": 954,
     "name": "Rabsca",
+    "types": [
+        "Bug",
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Synchronize"
+        ],
+        "hidden": [
+            "Telepathy"
+        ]
+    },
     "moves": {
         "bronze": [
             "Confusion",

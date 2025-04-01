@@ -1,6 +1,11 @@
 {
     "number": 678,
     "name": "Meowstic",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Confusion",

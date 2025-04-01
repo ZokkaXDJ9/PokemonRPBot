@@ -1,6 +1,18 @@
 {
     "number": 235,
     "name": "Smeargle",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Own Tempo",
+            "Technician"
+        ],
+        "hidden": [
+            "Moody"
+        ]
+    },
     "moves": {
         "bronze": [
             "Sketch"

@@ -1,6 +1,19 @@
 {
     "number": 708,
     "name": "Phantump",
+    "types": [
+        "Ghost",
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Natural Cure",
+            "Frisk"
+        ],
+        "hidden": [
+            "Harvest"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

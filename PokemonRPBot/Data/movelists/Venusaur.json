@@ -1,6 +1,18 @@
 {
     "number": 3,
     "name": "Venusaur",
+    "types": [
+        "Grass",
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Overgrow"
+        ],
+        "hidden": [
+            "Chlorophyll"
+        ]
+    },
     "moves": {
         "bronze": [
             "Growl",

@@ -1,6 +1,16 @@
 {
     "number": 384,
     "name": "Rayquaza",
+    "types": [
+        "Dragon",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Air Lock"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Air Slash",

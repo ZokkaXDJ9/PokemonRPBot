@@ -1,6 +1,19 @@
 {
     "number": 714,
     "name": "Noibat",
+    "types": [
+        "Flying",
+        "Dragon"
+    ],
+    "abilities": {
+        "normal": [
+            "Frisk",
+            "Infiltrator"
+        ],
+        "hidden": [
+            "Telepathy"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

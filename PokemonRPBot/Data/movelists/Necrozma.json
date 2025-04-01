@@ -1,6 +1,15 @@
 {
     "number": 800,
     "name": "Necrozma",
+    "types": [
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Prism Armor"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Charge Beam",

@@ -1,6 +1,18 @@
 {
     "number": 696,
     "name": "Tyrunt",
+    "types": [
+        "Rock",
+        "Dragon"
+    ],
+    "abilities": {
+        "normal": [
+            "Strong Jaw"
+        ],
+        "hidden": [
+            "Sturdy"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ancient Power",

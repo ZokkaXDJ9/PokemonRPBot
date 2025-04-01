@@ -1,6 +1,19 @@
 {
     "number": 777,
     "name": "Togedemaru",
+    "types": [
+        "Electric",
+        "Steel"
+    ],
+    "abilities": {
+        "normal": [
+            "Iron Barbs",
+            "Lightning Rod"
+        ],
+        "hidden": [
+            "Sturdy"
+        ]
+    },
     "moves": {
         "bronze": [
             "Charge",

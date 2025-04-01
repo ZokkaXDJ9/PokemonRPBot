@@ -1,6 +1,15 @@
 {
     "number": 809,
     "name": "Melmetal",
+    "types": [
+        "Steel"
+    ],
+    "abilities": {
+        "normal": [
+            "Iron Fist"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Harden",

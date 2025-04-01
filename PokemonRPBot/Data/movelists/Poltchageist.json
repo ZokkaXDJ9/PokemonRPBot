@@ -1,6 +1,18 @@
 {
     "number": 1012,
     "name": "Poltchageist",
+    "types": [
+        "Grass",
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Hospitality"
+        ],
+        "hidden": [
+            "Heatproof"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

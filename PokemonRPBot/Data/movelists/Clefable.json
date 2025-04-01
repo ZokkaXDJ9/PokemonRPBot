@@ -1,6 +1,18 @@
 {
     "number": 36,
     "name": "Clefable",
+    "types": [
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Cute Charm",
+            "Magic Guard"
+        ],
+        "hidden": [
+            "Unaware"
+        ]
+    },
     "moves": {
         "bronze": [
             "After You",

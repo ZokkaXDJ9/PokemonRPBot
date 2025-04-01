@@ -1,6 +1,19 @@
 {
     "number": 660,
     "name": "Diggersby",
+    "types": [
+        "Normal",
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Pickup",
+            "Cheek Pouch"
+        ],
+        "hidden": [
+            "Huge Power"
+        ]
+    },
     "moves": {
         "bronze": [
             "Laser Focus",

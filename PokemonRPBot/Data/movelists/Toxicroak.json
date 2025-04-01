@@ -1,6 +1,19 @@
 {
     "number": 454,
     "name": "Toxicroak",
+    "types": [
+        "Poison",
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Anticipation",
+            "Dry Skin"
+        ],
+        "hidden": [
+            "Poison Touch"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

@@ -1,6 +1,19 @@
 {
     "number": 441,
     "name": "Chatot",
+    "types": [
+        "Normal",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Keen Eye",
+            "Tangled Feet"
+        ],
+        "hidden": [
+            "Big Pecks"
+        ]
+    },
     "moves": {
         "bronze": [
             "Chatter",

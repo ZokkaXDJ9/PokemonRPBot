@@ -1,6 +1,17 @@
 {
     "number": 683,
     "name": "Aromatisse",
+    "types": [
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Healer"
+        ],
+        "hidden": [
+            "Aroma Veil"
+        ]
+    },
     "moves": {
         "bronze": [
             "Aromatic Mist",

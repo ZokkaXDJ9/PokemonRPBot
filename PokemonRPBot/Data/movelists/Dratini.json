@@ -1,6 +1,17 @@
 {
     "number": 147,
     "name": "Dratini",
+    "types": [
+        "Dragon"
+    ],
+    "abilities": {
+        "normal": [
+            "Shed Skin"
+        ],
+        "hidden": [
+            "Marvel Scale"
+        ]
+    },
     "moves": {
         "bronze": [
             "Leer",

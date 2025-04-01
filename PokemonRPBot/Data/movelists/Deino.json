@@ -1,6 +1,16 @@
 {
     "number": 633,
     "name": "Deino",
+    "types": [
+        "Dark",
+        "Dragon"
+    ],
+    "abilities": {
+        "normal": [
+            "Hustle"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Bite",

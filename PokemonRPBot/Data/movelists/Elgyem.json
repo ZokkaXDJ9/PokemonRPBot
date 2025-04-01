@@ -1,6 +1,18 @@
 {
     "number": 605,
     "name": "Elgyem",
+    "types": [
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Telepathy",
+            "Synchronize"
+        ],
+        "hidden": [
+            "Analytic"
+        ]
+    },
     "moves": {
         "bronze": [
             "Confusion",

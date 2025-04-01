@@ -1,6 +1,17 @@
 {
     "number": 847,
     "name": "Barraskewda",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Swift Swim"
+        ],
+        "hidden": [
+            "Propeller Tail"
+        ]
+    },
     "moves": {
         "bronze": [
             "Aqua Jet",

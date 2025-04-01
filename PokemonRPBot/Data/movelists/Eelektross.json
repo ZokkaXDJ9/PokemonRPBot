@@ -1,6 +1,15 @@
 {
     "number": 604,
     "name": "Eelektross",
+    "types": [
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Levitate"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Acid",

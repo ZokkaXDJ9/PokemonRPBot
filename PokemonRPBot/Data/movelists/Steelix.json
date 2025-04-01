@@ -1,6 +1,19 @@
 {
     "number": 208,
     "name": "Steelix",
+    "types": [
+        "Steel",
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Rock Head",
+            "Sturdy"
+        ],
+        "hidden": [
+            "Sheer Force"
+        ]
+    },
     "moves": {
         "bronze": [
             "Autotomize",

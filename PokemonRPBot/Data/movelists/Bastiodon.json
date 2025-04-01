@@ -1,6 +1,18 @@
 {
     "number": 411,
     "name": "Bastiodon",
+    "types": [
+        "Rock",
+        "Steel"
+    ],
+    "abilities": {
+        "normal": [
+            "Sturdy"
+        ],
+        "hidden": [
+            "Soundproof"
+        ]
+    },
     "moves": {
         "bronze": [
             "Block",

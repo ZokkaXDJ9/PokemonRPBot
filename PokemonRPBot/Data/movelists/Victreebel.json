@@ -1,6 +1,18 @@
 {
     "number": 71,
     "name": "Victreebel",
+    "types": [
+        "Grass",
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Chlorophyll"
+        ],
+        "hidden": [
+            "Gluttony"
+        ]
+    },
     "moves": {
         "bronze": [
             "Acid",

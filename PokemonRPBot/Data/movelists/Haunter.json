@@ -1,6 +1,16 @@
 {
     "number": 93,
     "name": "Haunter",
+    "types": [
+        "Ghost",
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Levitate"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Confuse Ray",

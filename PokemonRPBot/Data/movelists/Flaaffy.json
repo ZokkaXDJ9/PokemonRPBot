@@ -1,6 +1,17 @@
 {
     "number": 180,
     "name": "Flaaffy",
+    "types": [
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Static"
+        ],
+        "hidden": [
+            "Plus"
+        ]
+    },
     "moves": {
         "bronze": [
             "Growl",

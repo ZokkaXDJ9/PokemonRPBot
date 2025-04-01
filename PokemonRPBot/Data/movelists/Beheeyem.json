@@ -1,6 +1,18 @@
 {
     "number": 606,
     "name": "Beheeyem",
+    "types": [
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Telepathy",
+            "Synchronize"
+        ],
+        "hidden": [
+            "Analytic"
+        ]
+    },
     "moves": {
         "bronze": [
             "Confusion",

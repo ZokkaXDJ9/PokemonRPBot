@@ -1,6 +1,19 @@
 {
     "number": 298,
     "name": "Azurill",
+    "types": [
+        "Normal",
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Thick Fat",
+            "Huge Power"
+        ],
+        "hidden": [
+            "Sap Sipper"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bubble",

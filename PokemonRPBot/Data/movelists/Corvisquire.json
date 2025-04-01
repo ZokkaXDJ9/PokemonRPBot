@@ -1,6 +1,18 @@
 {
     "number": 822,
     "name": "Corvisquire",
+    "types": [
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Keen Eye",
+            "Unnerve"
+        ],
+        "hidden": [
+            "Big Pecks"
+        ]
+    },
     "moves": {
         "bronze": [
             "Hone Claws",

@@ -1,6 +1,18 @@
 {
     "number": 827,
     "name": "Nickit",
+    "types": [
+        "Dark"
+    ],
+    "abilities": {
+        "normal": [
+            "Run Away",
+            "Unburden"
+        ],
+        "hidden": [
+            "Stakeout"
+        ]
+    },
     "moves": {
         "bronze": [
             "Beat Up",

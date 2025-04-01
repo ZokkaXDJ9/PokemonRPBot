@@ -1,6 +1,17 @@
 {
     "number": 682,
     "name": "Spritzee",
+    "types": [
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Healer"
+        ],
+        "hidden": [
+            "Aroma Veil"
+        ]
+    },
     "moves": {
         "bronze": [
             "Draining Kiss",

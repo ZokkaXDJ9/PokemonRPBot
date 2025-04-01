@@ -1,6 +1,18 @@
 {
     "number": 61,
     "name": "Poliwhirl",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Water Absorb",
+            "Damp"
+        ],
+        "hidden": [
+            "Swift Swim"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bubble",

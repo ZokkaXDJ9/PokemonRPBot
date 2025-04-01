@@ -1,6 +1,18 @@
 {
     "number": 531,
     "name": "Audino",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Healer",
+            "Regenerator"
+        ],
+        "hidden": [
+            "Klutz"
+        ]
+    },
     "moves": {
         "bronze": [
             "Baby-Doll Eyes",

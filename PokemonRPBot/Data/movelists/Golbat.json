@@ -1,6 +1,18 @@
 {
     "number": 42,
     "name": "Golbat",
+    "types": [
+        "Poison",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Inner Focus"
+        ],
+        "hidden": [
+            "Infiltrator"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

@@ -1,6 +1,19 @@
 {
     "number": 980,
     "name": "Clodsire",
+    "types": [
+        "Poison",
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Poison Point",
+            "Water Absorb"
+        ],
+        "hidden": [
+            "Unaware"
+        ]
+    },
     "moves": {
         "bronze": [
             "Mud Shot",

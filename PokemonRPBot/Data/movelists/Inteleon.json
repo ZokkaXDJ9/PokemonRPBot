@@ -1,6 +1,17 @@
 {
     "number": 818,
     "name": "Inteleon",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Torrent"
+        ],
+        "hidden": [
+            "Sniper"
+        ]
+    },
     "moves": {
         "bronze": [
             "Acrobatics",

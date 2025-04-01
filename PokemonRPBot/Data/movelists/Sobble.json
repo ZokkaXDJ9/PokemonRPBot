@@ -1,6 +1,17 @@
 {
     "number": 816,
     "name": "Sobble",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Torrent"
+        ],
+        "hidden": [
+            "Sniper"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bind",

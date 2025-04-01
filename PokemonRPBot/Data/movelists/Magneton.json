@@ -1,6 +1,19 @@
 {
     "number": 82,
     "name": "Magneton",
+    "types": [
+        "Electric",
+        "Steel"
+    ],
+    "abilities": {
+        "normal": [
+            "Magnet Pull",
+            "Sturdy"
+        ],
+        "hidden": [
+            "Analytic"
+        ]
+    },
     "moves": {
         "bronze": [
             "Electric Terrain",

@@ -1,6 +1,15 @@
 {
     "number": 808,
     "name": "Meltan",
+    "types": [
+        "Steel"
+    ],
+    "abilities": {
+        "normal": [
+            "Magnet Pull"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Harden",

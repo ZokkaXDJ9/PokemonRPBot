@@ -1,6 +1,19 @@
 {
     "number": 628,
     "name": "Braviary",
+    "types": [
+        "Normal",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Keen Eye",
+            "Sheer Force"
+        ],
+        "hidden": [
+            "Defiant"
+        ]
+    },
     "moves": {
         "bronze": [
             "Fury Attack",

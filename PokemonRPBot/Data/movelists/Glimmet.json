@@ -1,6 +1,18 @@
 {
     "number": 969,
     "name": "Glimmet",
+    "types": [
+        "Rock",
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Toxic Debris"
+        ],
+        "hidden": [
+            "Corrosion"
+        ]
+    },
     "moves": {
         "bronze": [
             "Acid Spray",

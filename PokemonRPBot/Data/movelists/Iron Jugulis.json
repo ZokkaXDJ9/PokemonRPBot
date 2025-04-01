@@ -1,6 +1,11 @@
 {
     "number": 993,
     "name": "Iron Jugulis",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Air Cutter",

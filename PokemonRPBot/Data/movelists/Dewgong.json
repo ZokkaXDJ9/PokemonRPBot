@@ -1,6 +1,19 @@
 {
     "number": 87,
     "name": "Dewgong",
+    "types": [
+        "Water",
+        "Ice"
+    ],
+    "abilities": {
+        "normal": [
+            "Thick Fat",
+            "Hydration"
+        ],
+        "hidden": [
+            "Ice Body"
+        ]
+    },
     "moves": {
         "bronze": [
             "Aurora Beam",

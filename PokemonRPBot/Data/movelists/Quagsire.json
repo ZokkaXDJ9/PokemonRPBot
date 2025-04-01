@@ -1,6 +1,19 @@
 {
     "number": 195,
     "name": "Quagsire",
+    "types": [
+        "Water",
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Damp",
+            "Water Absorb"
+        ],
+        "hidden": [
+            "Unaware"
+        ]
+    },
     "moves": {
         "bronze": [
             "Mud Shot",

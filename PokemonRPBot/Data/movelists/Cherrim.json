@@ -1,6 +1,15 @@
 {
     "number": 421,
     "name": "Cherrim",
+    "types": [
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Flower Gift"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Flower Shield",

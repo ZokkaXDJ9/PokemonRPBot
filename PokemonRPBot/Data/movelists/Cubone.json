@@ -1,6 +1,18 @@
 {
     "number": 104,
     "name": "Cubone",
+    "types": [
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Rock Head",
+            "Lightning Rod"
+        ],
+        "hidden": [
+            "Battle Armor"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bone Club",

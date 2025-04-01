@@ -1,6 +1,18 @@
 {
     "number": 443,
     "name": "Gible",
+    "types": [
+        "Dragon",
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Sand Veil"
+        ],
+        "hidden": [
+            "Rough Skin"
+        ]
+    },
     "moves": {
         "bronze": [
             "Dragon Rage",

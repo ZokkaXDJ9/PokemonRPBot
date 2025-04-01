@@ -1,6 +1,18 @@
 {
     "number": 951,
     "name": "Capsakid",
+    "types": [
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Chlorophyll",
+            "Insomnia"
+        ],
+        "hidden": [
+            "Klutz"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

@@ -1,6 +1,16 @@
 {
     "number": 494,
     "name": "Victini",
+    "types": [
+        "Psychic",
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Victory Star"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Confusion",

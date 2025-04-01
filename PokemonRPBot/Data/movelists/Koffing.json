@@ -1,6 +1,18 @@
 {
     "number": 109,
     "name": "Koffing",
+    "types": [
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Levitate",
+            "Neutralizing Gas"
+        ],
+        "hidden": [
+            "Stench"
+        ]
+    },
     "moves": {
         "bronze": [
             "Poison Gas",

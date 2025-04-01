@@ -1,6 +1,15 @@
 {
     "number": 897,
     "name": "Spectrier",
+    "types": [
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Grim Neigh"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Double Kick",

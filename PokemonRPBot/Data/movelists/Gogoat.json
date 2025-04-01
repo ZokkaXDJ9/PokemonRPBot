@@ -1,6 +1,17 @@
 {
     "number": 673,
     "name": "Gogoat",
+    "types": [
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Sap Sipper"
+        ],
+        "hidden": [
+            "Grass Pelt"
+        ]
+    },
     "moves": {
         "bronze": [
             "Earthquake",

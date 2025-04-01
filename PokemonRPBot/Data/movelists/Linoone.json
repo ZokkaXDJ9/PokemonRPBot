@@ -1,6 +1,18 @@
 {
     "number": 264,
     "name": "Linoone",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Pickup",
+            "Gluttony"
+        ],
+        "hidden": [
+            "Quick Feet"
+        ]
+    },
     "moves": {
         "bronze": [
             "Baby-Doll Eyes",

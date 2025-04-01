@@ -1,6 +1,18 @@
 {
     "number": 594,
     "name": "Alomomola",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Healer",
+            "Hydration"
+        ],
+        "hidden": [
+            "Regenerator"
+        ]
+    },
     "moves": {
         "bronze": [
             "Aqua Jet",

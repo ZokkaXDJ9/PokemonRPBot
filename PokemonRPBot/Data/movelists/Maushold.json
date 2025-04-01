@@ -1,6 +1,11 @@
 {
     "number": 925,
     "name": "Maushold",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Baby-Doll Eyes",

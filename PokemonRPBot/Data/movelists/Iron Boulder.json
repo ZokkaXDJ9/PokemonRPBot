@@ -1,6 +1,11 @@
 {
     "number": 1022,
     "name": "Iron Boulder",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Electric Terrain",

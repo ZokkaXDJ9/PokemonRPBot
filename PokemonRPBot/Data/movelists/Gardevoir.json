@@ -1,6 +1,19 @@
 {
     "number": 282,
     "name": "Gardevoir",
+    "types": [
+        "Psychic",
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Synchronize",
+            "Trace"
+        ],
+        "hidden": [
+            "Telepathy"
+        ]
+    },
     "moves": {
         "bronze": [
             "Charm",

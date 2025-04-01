@@ -1,6 +1,19 @@
 {
     "number": 885,
     "name": "Dreepy",
+    "types": [
+        "Dragon",
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Clear Body",
+            "Infiltrator"
+        ],
+        "hidden": [
+            "Cursed Body"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

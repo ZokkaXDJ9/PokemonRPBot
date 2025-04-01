@@ -1,6 +1,18 @@
 {
     "number": 66,
     "name": "Machop",
+    "types": [
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Guts",
+            "No Guard"
+        ],
+        "hidden": [
+            "Steadfast"
+        ]
+    },
     "moves": {
         "bronze": [
             "Focus Energy",

@@ -1,6 +1,18 @@
 {
     "number": 52,
     "name": "Meowth",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Pickup",
+            "Technician"
+        ],
+        "hidden": [
+            "Unnerve"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

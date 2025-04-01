@@ -1,6 +1,18 @@
 {
     "number": 761,
     "name": "Bounsweet",
+    "types": [
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Leaf Guard",
+            "Oblivious"
+        ],
+        "hidden": [
+            "Sweet Veil"
+        ]
+    },
     "moves": {
         "bronze": [
             "Play Nice",

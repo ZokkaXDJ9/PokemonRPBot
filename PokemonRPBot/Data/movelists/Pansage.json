@@ -1,6 +1,17 @@
 {
     "number": 511,
     "name": "Pansage",
+    "types": [
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Gluttony"
+        ],
+        "hidden": [
+            "Overgrow"
+        ]
+    },
     "moves": {
         "bronze": [
             "Leer",

@@ -1,6 +1,18 @@
 {
     "number": 739,
     "name": "Crabrawler",
+    "types": [
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Hyper Cutter",
+            "Iron Fist"
+        ],
+        "hidden": [
+            "Anger Point"
+        ]
+    },
     "moves": {
         "bronze": [
             "Leer",

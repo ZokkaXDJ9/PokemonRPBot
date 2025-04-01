@@ -1,6 +1,18 @@
 {
     "number": 824,
     "name": "Blipbug",
+    "types": [
+        "Bug"
+    ],
+    "abilities": {
+        "normal": [
+            "Swarm",
+            "Compound Eyes"
+        ],
+        "hidden": [
+            "Telepathy"
+        ]
+    },
     "moves": {
         "bronze": [
             "Struggle Bug"

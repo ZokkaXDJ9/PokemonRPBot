@@ -1,0 +1,14 @@
+{
+    "number": 194,
+    "name": "Palden Wooper",
+    "moves": {
+      "bronze": ["Tail Whip", "Water Gun", "Rain Dance", "Mud Shot"],
+      "silver": ["Haze", "Mist", "Slam", "Yawn", "Aqua Tail", "Muddy Water", "Amnesia"],
+      "gold": ["Toxic", "Earthquake"],
+      "platinum": [],
+      "diamond": [],
+      "tm": ["Agility", "Attract", "Confide", "Curse", "Double Team", "Endure", "Facade", "Frustration", "Headbutt", "Helping Hand", "Hidden Power", "Metronome", "Protect", "Nasty Plot", "Rest", "Return", "Round", "Secret Power", "Sleep Talk", "Snore", "Splash", "Substitute", "Swords Dance", "Take Down", "Tera Blast", "Mud-Slap", "Water Pulse", "Acid Spray", "Trailblaze", "Chilling Water", "Bulldoze", "Icy Wind", "Mud Shot", "Rock Tomb", "Avalanche", "Rain Dance", "Sandstorm", "Snowscape", "Dig", "Body Slam", "Waterfall", "Stomping Tantrum", "Rock Slide", "Spikes", "Liquidation", "Stealth Rock", "Surf", "Encore", "Amnesia", "Earth Power", "Ice Beam", "Hydro Pump", "Blizzard", "Sludge Bomb", "Earthquake", "Stone Edge", "Haze", "Toxic", "Double-Edge", "Whirlpool", "Muddy Water", "Sludge Wave", "Curse"],
+      "egg": ["Acid Spray", "After You", "Ancient Power", "Counter", "Curse", "Double Kick", "Recover", "Spit Up", "Stockpile", "Swallow"],
+      "tutor": []
+    }
+  }

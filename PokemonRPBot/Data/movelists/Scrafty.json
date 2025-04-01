@@ -1,6 +1,19 @@
 {
     "number": 560,
     "name": "Scrafty",
+    "types": [
+        "Dark",
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Shed Skin",
+            "Moxie"
+        ],
+        "hidden": [
+            "Intimidate"
+        ]
+    },
     "moves": {
         "bronze": [
             "Faint Attack",

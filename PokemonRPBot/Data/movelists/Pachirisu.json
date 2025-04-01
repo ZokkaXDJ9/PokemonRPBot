@@ -1,6 +1,18 @@
 {
     "number": 417,
     "name": "Pachirisu",
+    "types": [
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Run Away",
+            "Pickup"
+        ],
+        "hidden": [
+            "Volt Absorb"
+        ]
+    },
     "moves": {
         "bronze": [
             "Baby-Doll Eyes",

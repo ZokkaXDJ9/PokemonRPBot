@@ -1,6 +1,19 @@
 {
     "number": 426,
     "name": "Drifblim",
+    "types": [
+        "Ghost",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Aftermath",
+            "Unburden"
+        ],
+        "hidden": [
+            "Flare Boost"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

@@ -1,6 +1,18 @@
 {
     "number": 108,
     "name": "Lickitung",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Own Tempo",
+            "Oblivious"
+        ],
+        "hidden": [
+            "Cloud Nine"
+        ]
+    },
     "moves": {
         "bronze": [
             "Defense Curl",

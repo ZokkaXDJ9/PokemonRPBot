@@ -1,6 +1,18 @@
 {
     "number": 483,
     "name": "Dialga",
+    "types": [
+        "Steel",
+        "Dragon"
+    ],
+    "abilities": {
+        "normal": [
+            "Pressure"
+        ],
+        "hidden": [
+            "Telepathy"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ancient Power",

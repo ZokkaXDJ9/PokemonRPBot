@@ -1,6 +1,18 @@
 {
     "number": 427,
     "name": "Buneary",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Run Away",
+            "Klutz"
+        ],
+        "hidden": [
+            "Limber"
+        ]
+    },
     "moves": {
         "bronze": [
             "Baby-Doll Eyes",

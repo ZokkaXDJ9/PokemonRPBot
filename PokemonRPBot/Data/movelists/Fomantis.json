@@ -1,6 +1,17 @@
 {
     "number": 753,
     "name": "Fomantis",
+    "types": [
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Leaf Guard"
+        ],
+        "hidden": [
+            "Contrary"
+        ]
+    },
     "moves": {
         "bronze": [
             "Fury Cutter",

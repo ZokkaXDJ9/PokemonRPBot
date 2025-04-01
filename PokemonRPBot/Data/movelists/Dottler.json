@@ -1,6 +1,19 @@
 {
     "number": 825,
     "name": "Dottler",
+    "types": [
+        "Bug",
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Swarm",
+            "Compound Eyes"
+        ],
+        "hidden": [
+            "Telepathy"
+        ]
+    },
     "moves": {
         "bronze": [
             "Confusion",

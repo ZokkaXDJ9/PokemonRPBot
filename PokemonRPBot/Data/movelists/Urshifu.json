@@ -1,6 +1,11 @@
 {
     "number": 892,
     "name": "Urshifu",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Endure",

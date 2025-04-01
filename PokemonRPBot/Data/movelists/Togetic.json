@@ -1,6 +1,19 @@
 {
     "number": 176,
     "name": "Togetic",
+    "types": [
+        "Fairy",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Hustle",
+            "Serene Grace"
+        ],
+        "hidden": [
+            "Super Luck"
+        ]
+    },
     "moves": {
         "bronze": [
             "Charm",

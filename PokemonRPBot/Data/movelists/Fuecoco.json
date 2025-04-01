@@ -1,6 +1,17 @@
 {
     "number": 909,
     "name": "Fuecoco",
+    "types": [
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Blaze"
+        ],
+        "hidden": [
+            "Unaware"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ember",

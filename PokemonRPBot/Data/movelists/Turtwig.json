@@ -1,6 +1,17 @@
 {
     "number": 387,
     "name": "Turtwig",
+    "types": [
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Overgrow"
+        ],
+        "hidden": [
+            "Shell Armor"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

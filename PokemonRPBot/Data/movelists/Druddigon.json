@@ -1,6 +1,18 @@
 {
     "number": 621,
     "name": "Druddigon",
+    "types": [
+        "Dragon"
+    ],
+    "abilities": {
+        "normal": [
+            "Rough Skin",
+            "Sheer Force"
+        ],
+        "hidden": [
+            "Mold Breaker"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

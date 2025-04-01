@@ -1,6 +1,18 @@
 {
     "number": 463,
     "name": "Lickilicky",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Own Tempo",
+            "Oblivious"
+        ],
+        "hidden": [
+            "Cloud Nine"
+        ]
+    },
     "moves": {
         "bronze": [
             "Defense Curl",

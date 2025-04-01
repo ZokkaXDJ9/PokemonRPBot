@@ -1,6 +1,18 @@
 {
     "number": 149,
     "name": "Dragonite",
+    "types": [
+        "Dragon",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Inner Focus"
+        ],
+        "hidden": [
+            "Multiscale"
+        ]
+    },
     "moves": {
         "bronze": [
             "Agility",

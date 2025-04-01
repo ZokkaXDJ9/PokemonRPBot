@@ -1,6 +1,18 @@
 {
     "number": 314,
     "name": "Illumise",
+    "types": [
+        "Bug"
+    ],
+    "abilities": {
+        "normal": [
+            "Oblivious",
+            "Tinted Lens"
+        ],
+        "hidden": [
+            "Prankster"
+        ]
+    },
     "moves": {
         "bronze": [
             "Charm",

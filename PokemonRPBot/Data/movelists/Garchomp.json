@@ -1,6 +1,18 @@
 {
     "number": 445,
     "name": "Garchomp",
+    "types": [
+        "Dragon",
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Sand Veil"
+        ],
+        "hidden": [
+            "Rough Skin"
+        ]
+    },
     "moves": {
         "bronze": [
             "Crunch",

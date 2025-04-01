@@ -1,6 +1,18 @@
 {
     "number": 578,
     "name": "Duosion",
+    "types": [
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Overcoat",
+            "Magic Guard"
+        ],
+        "hidden": [
+            "Regenerator"
+        ]
+    },
     "moves": {
         "bronze": [
             "Confusion",

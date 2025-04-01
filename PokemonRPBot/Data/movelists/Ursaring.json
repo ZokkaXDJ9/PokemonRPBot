@@ -1,6 +1,18 @@
 {
     "number": 217,
     "name": "Ursaring",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Guts",
+            "Quick Feet"
+        ],
+        "hidden": [
+            "Unnerve"
+        ]
+    },
     "moves": {
         "bronze": [
             "Baby-Doll Eyes",

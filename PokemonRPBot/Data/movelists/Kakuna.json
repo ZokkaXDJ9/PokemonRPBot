@@ -1,6 +1,16 @@
 {
     "number": 14,
     "name": "Kakuna",
+    "types": [
+        "Bug",
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Shed Skin"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Harden"

@@ -1,6 +1,19 @@
 {
     "number": 686,
     "name": "Inkay",
+    "types": [
+        "Dark",
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Contrary",
+            "Suction Cups"
+        ],
+        "hidden": [
+            "Infiltrator"
+        ]
+    },
     "moves": {
         "bronze": [
             "Foul Play",

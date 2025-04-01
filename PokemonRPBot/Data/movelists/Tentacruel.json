@@ -1,6 +1,19 @@
 {
     "number": 73,
     "name": "Tentacruel",
+    "types": [
+        "Water",
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Clear Body",
+            "Liquid Ooze"
+        ],
+        "hidden": [
+            "Rain Dish"
+        ]
+    },
     "moves": {
         "bronze": [
             "Acid",

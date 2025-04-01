@@ -1,6 +1,19 @@
 {
     "number": 546,
     "name": "Cottonee",
+    "types": [
+        "Grass",
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Prankster",
+            "Infiltrator"
+        ],
+        "hidden": [
+            "Chlorophyll"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

@@ -1,6 +1,15 @@
 {
     "number": 562,
     "name": "Yamask",
+    "types": [
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Mummy"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Astonish",

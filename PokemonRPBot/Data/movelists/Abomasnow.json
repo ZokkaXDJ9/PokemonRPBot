@@ -1,6 +1,18 @@
 {
     "number": 460,
     "name": "Abomasnow",
+    "types": [
+        "Grass",
+        "Ice"
+    ],
+    "abilities": {
+        "normal": [
+            "Snow Warning"
+        ],
+        "hidden": [
+            "Soundproof"
+        ]
+    },
     "moves": {
         "bronze": [
             "Aurora Veil",

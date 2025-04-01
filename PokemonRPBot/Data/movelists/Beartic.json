@@ -1,6 +1,18 @@
 {
     "number": 614,
     "name": "Beartic",
+    "types": [
+        "Ice"
+    ],
+    "abilities": {
+        "normal": [
+            "Snow Cloak",
+            "Slush Rush"
+        ],
+        "hidden": [
+            "Swift Swim"
+        ]
+    },
     "moves": {
         "bronze": [
             "Aqua Jet",

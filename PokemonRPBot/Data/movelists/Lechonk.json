@@ -1,6 +1,18 @@
 {
     "number": 915,
     "name": "Lechonk",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Aroma Veil",
+            "Gluttony"
+        ],
+        "hidden": [
+            "Thick Fat"
+        ]
+    },
     "moves": {
         "bronze": [
             "Disarming Voice",

@@ -1,6 +1,18 @@
 {
     "number": 146,
     "name": "Moltres",
+    "types": [
+        "Fire",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Pressure"
+        ],
+        "hidden": [
+            "Flame Body"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ember",

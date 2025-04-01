@@ -1,6 +1,19 @@
 {
     "number": 691,
     "name": "Dragalge",
+    "types": [
+        "Poison",
+        "Dragon"
+    ],
+    "abilities": {
+        "normal": [
+            "Poison Point",
+            "Poison Touch"
+        ],
+        "hidden": [
+            "Adaptability"
+        ]
+    },
     "moves": {
         "bronze": [
             "Acid",

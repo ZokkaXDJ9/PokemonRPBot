@@ -1,6 +1,18 @@
 {
     "number": 750,
     "name": "Mudsdale",
+    "types": [
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Own Tempo",
+            "Stamina"
+        ],
+        "hidden": [
+            "Inner Focus"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bulldoze",

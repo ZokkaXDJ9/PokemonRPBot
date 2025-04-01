@@ -1,6 +1,11 @@
 {
     "number": 645,
     "name": "Landorus",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Block",

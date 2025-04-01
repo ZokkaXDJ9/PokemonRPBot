@@ -1,6 +1,16 @@
 {
     "number": 679,
     "name": "Honedge",
+    "types": [
+        "Steel",
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "No Guard"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Autotomize",

@@ -1,6 +1,11 @@
 {
     "number": 29,
     "name": "Nidoran (female)",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Double Kick",

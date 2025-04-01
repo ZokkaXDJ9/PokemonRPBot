@@ -1,6 +1,19 @@
 {
     "number": 220,
     "name": "Swinub",
+    "types": [
+        "Ice",
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Oblivious",
+            "Snow Cloak"
+        ],
+        "hidden": [
+            "Thick Fat"
+        ]
+    },
     "moves": {
         "bronze": [
             "Flail",

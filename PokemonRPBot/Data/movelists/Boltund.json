@@ -1,6 +1,17 @@
 {
     "number": 836,
     "name": "Boltund",
+    "types": [
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Strong Jaw"
+        ],
+        "hidden": [
+            "Competitive"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

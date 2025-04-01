@@ -1,6 +1,18 @@
 {
     "number": 549,
     "name": "Lilligant",
+    "types": [
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Chlorophyll",
+            "Own Tempo"
+        ],
+        "hidden": [
+            "Leaf Guard"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

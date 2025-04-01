@@ -1,6 +1,18 @@
 {
     "number": 533,
     "name": "Gurdurr",
+    "types": [
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Guts",
+            "Sheer Force"
+        ],
+        "hidden": [
+            "Iron Fist"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bide",

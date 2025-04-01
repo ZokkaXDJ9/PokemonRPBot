@@ -1,6 +1,18 @@
 {
     "number": 78,
     "name": "Rapidash",
+    "types": [
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Run Away",
+            "Flash Fire"
+        ],
+        "hidden": [
+            "Flame Body"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ember",

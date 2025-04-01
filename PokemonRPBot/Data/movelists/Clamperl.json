@@ -1,6 +1,17 @@
 {
     "number": 366,
     "name": "Clamperl",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Shell Armor"
+        ],
+        "hidden": [
+            "Rattled"
+        ]
+    },
     "moves": {
         "bronze": [
             "Iron Defense",

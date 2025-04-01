@@ -1,6 +1,19 @@
 {
     "number": 519,
     "name": "Pidove",
+    "types": [
+        "Normal",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Big Pecks",
+            "Super Luck"
+        ],
+        "hidden": [
+            "Rivalry"
+        ]
+    },
     "moves": {
         "bronze": [
             "Growl",

@@ -1,6 +1,19 @@
 {
     "number": 47,
     "name": "Parasect",
+    "types": [
+        "Bug",
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Effect Spore",
+            "Dry Skin"
+        ],
+        "hidden": [
+            "Damp"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

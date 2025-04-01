@@ -1,6 +1,11 @@
 {
     "number": 681,
     "name": "Aegislash",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Aerial Ace",

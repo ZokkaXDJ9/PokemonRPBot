@@ -1,6 +1,11 @@
 {
     "number": 1023,
     "name": "Iron Crown",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Confusion",

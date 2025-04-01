@@ -1,6 +1,19 @@
 {
     "number": 841,
     "name": "Flapple",
+    "types": [
+        "Grass",
+        "Dragon"
+    ],
+    "abilities": {
+        "normal": [
+            "Ripen",
+            "Gluttony"
+        ],
+        "hidden": [
+            "Hustle"
+        ]
+    },
     "moves": {
         "bronze": [
             "Acid Spray",

@@ -1,6 +1,19 @@
 {
     "number": 981,
     "name": "Farigiraf",
+    "types": [
+        "Normal",
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Cud Chew",
+            "Armor Tail"
+        ],
+        "hidden": [
+            "Sap Sipper"
+        ]
+    },
     "moves": {
         "bronze": [
             "Assurance",

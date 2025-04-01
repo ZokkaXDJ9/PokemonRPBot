@@ -1,6 +1,16 @@
 {
     "number": 898,
     "name": "Calyrex",
+    "types": [
+        "Psychic",
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Unnerve"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Confusion",

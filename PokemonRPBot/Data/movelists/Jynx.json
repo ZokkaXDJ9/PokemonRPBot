@@ -1,6 +1,19 @@
 {
     "number": 124,
     "name": "Jynx",
+    "types": [
+        "Ice",
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Oblivious",
+            "Forewarn"
+        ],
+        "hidden": [
+            "Dry Skin"
+        ]
+    },
     "moves": {
         "bronze": [
             "Copycat",

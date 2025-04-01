@@ -1,6 +1,17 @@
 {
     "number": 179,
     "name": "Mareep",
+    "types": [
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Static"
+        ],
+        "hidden": [
+            "Plus"
+        ]
+    },
     "moves": {
         "bronze": [
             "Growl",

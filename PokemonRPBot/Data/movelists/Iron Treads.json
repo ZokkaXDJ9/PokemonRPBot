@@ -1,6 +1,11 @@
 {
     "number": 990,
     "name": "Iron Treads",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Bulldoze",

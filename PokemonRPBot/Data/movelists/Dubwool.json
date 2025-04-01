@@ -1,6 +1,18 @@
 {
     "number": 832,
     "name": "Dubwool",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Fluffy",
+            "Steadfast"
+        ],
+        "hidden": [
+            "Bulletproof"
+        ]
+    },
     "moves": {
         "bronze": [
             "Copycat",

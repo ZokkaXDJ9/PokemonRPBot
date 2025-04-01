@@ -1,6 +1,17 @@
 {
     "number": 336,
     "name": "Seviper",
+    "types": [
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Shed Skin"
+        ],
+        "hidden": [
+            "Infiltrator"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

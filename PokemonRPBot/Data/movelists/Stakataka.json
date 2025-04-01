@@ -1,6 +1,16 @@
 {
     "number": 805,
     "name": "Stakataka",
+    "types": [
+        "Rock",
+        "Steel"
+    ],
+    "abilities": {
+        "normal": [
+            "Beast Boost"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Harden",

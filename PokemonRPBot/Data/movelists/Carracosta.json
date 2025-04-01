@@ -1,6 +1,19 @@
 {
     "number": 565,
     "name": "Carracosta",
+    "types": [
+        "Water",
+        "Rock"
+    ],
+    "abilities": {
+        "normal": [
+            "Solid Rock",
+            "Sturdy"
+        ],
+        "hidden": [
+            "Swift Swim"
+        ]
+    },
     "moves": {
         "bronze": [
             "Aqua Jet",

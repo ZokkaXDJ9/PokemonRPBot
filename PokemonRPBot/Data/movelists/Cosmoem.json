@@ -1,6 +1,15 @@
 {
     "number": 790,
     "name": "Cosmoem",
+    "types": [
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Sturdy"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Cosmic Power",

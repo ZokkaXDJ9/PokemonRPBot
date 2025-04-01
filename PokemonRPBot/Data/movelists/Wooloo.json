@@ -1,6 +1,18 @@
 {
     "number": 831,
     "name": "Wooloo",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Fluffy",
+            "Run Away"
+        ],
+        "hidden": [
+            "Bulletproof"
+        ]
+    },
     "moves": {
         "bronze": [
             "Copycat",

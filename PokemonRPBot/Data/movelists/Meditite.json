@@ -1,6 +1,18 @@
 {
     "number": 307,
     "name": "Meditite",
+    "types": [
+        "Fighting",
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Pure Power"
+        ],
+        "hidden": [
+            "Telepathy"
+        ]
+    },
     "moves": {
         "bronze": [
             "Confusion",

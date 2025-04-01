@@ -1,6 +1,17 @@
 {
     "number": 368,
     "name": "Gorebyss",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Swift Swim"
+        ],
+        "hidden": [
+            "Hydration"
+        ]
+    },
     "moves": {
         "bronze": [
             "Agility",

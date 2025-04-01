@@ -1,6 +1,19 @@
 {
     "number": 731,
     "name": "Pikipek",
+    "types": [
+        "Normal",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Keen Eye",
+            "Skill Link"
+        ],
+        "hidden": [
+            "Pickup"
+        ]
+    },
     "moves": {
         "bronze": [
             "Echoed Voice",

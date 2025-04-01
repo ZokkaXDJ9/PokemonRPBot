@@ -1,6 +1,17 @@
 {
     "number": 870,
     "name": "Falinks",
+    "types": [
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Battle Armor"
+        ],
+        "hidden": [
+            "Defiant"
+        ]
+    },
     "moves": {
         "bronze": [
             "Focus Energy",

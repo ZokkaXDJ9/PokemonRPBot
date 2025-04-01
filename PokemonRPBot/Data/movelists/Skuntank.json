@@ -1,6 +1,19 @@
 {
     "number": 435,
     "name": "Skuntank",
+    "types": [
+        "Poison",
+        "Dark"
+    ],
+    "abilities": {
+        "normal": [
+            "Stench",
+            "Aftermath"
+        ],
+        "hidden": [
+            "Keen Eye"
+        ]
+    },
     "moves": {
         "bronze": [
             "Acid Spray",

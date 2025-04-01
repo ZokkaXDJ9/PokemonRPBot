@@ -1,6 +1,18 @@
 {
     "number": 144,
     "name": "Articuno",
+    "types": [
+        "Ice",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Pressure"
+        ],
+        "hidden": [
+            "Snow Cloak"
+        ]
+    },
     "moves": {
         "bronze": [
             "Gust",

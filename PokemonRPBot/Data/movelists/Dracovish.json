@@ -1,6 +1,19 @@
 {
     "number": 882,
     "name": "Dracovish",
+    "types": [
+        "Water",
+        "Dragon"
+    ],
+    "abilities": {
+        "normal": [
+            "Water Absorb",
+            "Strong Jaw"
+        ],
+        "hidden": [
+            "Sand Rush"
+        ]
+    },
     "moves": {
         "bronze": [
             "Protect",

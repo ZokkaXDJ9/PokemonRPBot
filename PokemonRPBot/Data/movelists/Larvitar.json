@@ -1,6 +1,18 @@
 {
     "number": 246,
     "name": "Larvitar",
+    "types": [
+        "Rock",
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Guts"
+        ],
+        "hidden": [
+            "Sand Veil"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

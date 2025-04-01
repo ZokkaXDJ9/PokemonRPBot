@@ -1,6 +1,11 @@
 {
     "number": 875,
     "name": "Eiscue",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Mist",

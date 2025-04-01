@@ -1,6 +1,19 @@
 {
     "number": 203,
     "name": "Girafarig",
+    "types": [
+        "Normal",
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Inner Focus",
+            "Early Bird"
+        ],
+        "hidden": [
+            "Sap Sipper"
+        ]
+    },
     "moves": {
         "bronze": [
             "Assurance",

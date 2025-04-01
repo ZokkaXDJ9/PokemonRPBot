@@ -1,6 +1,17 @@
 {
     "number": 657,
     "name": "Frogadier",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Torrent"
+        ],
+        "hidden": [
+            "Protean"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bubble",

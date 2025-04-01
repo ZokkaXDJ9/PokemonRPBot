@@ -1,6 +1,17 @@
 {
     "number": 197,
     "name": "Umbreon",
+    "types": [
+        "Dark"
+    ],
+    "abilities": {
+        "normal": [
+            "Synchronize"
+        ],
+        "hidden": [
+            "Inner Focus"
+        ]
+    },
     "moves": {
         "bronze": [
             "Baby-Doll Eyes",

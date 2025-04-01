@@ -1,6 +1,17 @@
 {
     "number": 927,
     "name": "Dachsbun",
+    "types": [
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Well-Baked Body"
+        ],
+        "hidden": [
+            "Aroma Veil"
+        ]
+    },
     "moves": {
         "bronze": [
             "Covet",

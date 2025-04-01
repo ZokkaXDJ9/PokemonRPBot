@@ -1,6 +1,19 @@
 {
     "number": 207,
     "name": "Gligar",
+    "types": [
+        "Ground",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Hyper Cutter",
+            "Sand Veil"
+        ],
+        "hidden": [
+            "Immunity"
+        ]
+    },
     "moves": {
         "bronze": [
             "Harden",

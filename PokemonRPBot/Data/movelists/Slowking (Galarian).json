@@ -1,0 +1,14 @@
+{
+    "number": 199,
+    "name": "Galarian Slowking",
+    "moves": {
+      "bronze": ["Curse", "Tackle", "Growl", "Acid", "Yawn", "Water Gun", "Eerie Spell", "Power Gem", "Nasty Plot", "Swagger"],
+      "silver": ["Confusion", "Disable", "Water Pulse", "Headbutt", "Zen Headbutt", "Amnesia", "Surf", "Slack Off"],
+      "gold": ["Psychic", "Psych Up", "Rain Dance", "Heal Pulse"],
+      "platinum": [],
+      "diamond": [],
+      "tm": ["Agility", "Attract", "Confide", "Curse", "Double Team", "Endure", "Facade", "Frustration", "Headbutt", "Helping Hand", "Hidden Power", "Metronome", "Protect", "Nasty Plot", "Rest", "Return", "Round", "Secret Power", "Sleep Talk", "Snore", "Splash", "Substitute", "Swords Dance", "Take Down", "Tera Blast", "Pay Day", "Thunder Wave", "Dig", "Light Screen", "Safeguard", "Icy Wind", "Rain Dance", "Sunny Day", "Hail", "Whirlpool", "Swift", "Imprison", "Dive", "Weather Ball", "Mud Shot", "Brine", "Trick Room", "Wonder Room", "Bulldoze", "Psychic Terrain", "Body Slam", "Flamethrower", "Hydro Pump", "Surf", "Ice Beam", "Blizzard", "Earthquake", "Psychic", "Fire Blast", "Amnesia", "Tri Attack", "Psyshock", "Iron Tail", "Shadow Ball", "Future Sight", "Trick", "Skill Swap", "Calm Mind", "Zen Headbutt", "Grass Knot", "Foul Play", "Stored Power", "Scald", "Liquidation", "Chilling Water", "Water Pulse", "Avalanche", "Snowscape", "Expanding Force", "Mega Punch", "Mega Kick", "Ice Punch", "Hyper Beam", "Giga Impact", "Brick Break", "Fling", "Drain Punch", "Venoshock", "Venom Drench", "Scary Face", "Acid Spray", "Psybeam", "Low Sweep", "Fire Punch", "Thunder Punch", "Drain Punch", "Waterfall", "Stomping Tantrum", "Poison Jab", "Taunt", "Toxic Spikes", "Gunk Shot", "Power Gem", "Iron Defense", "Sludge Bomb", "Focus Blast", "Muddy Water", "Sludge Wave", "Psychic Noise"],
+      "egg": ["Belch", "Belly Drum", "Block", "Stomp"],
+      "tutor": ["Expanding Force"]
+    }
+  }

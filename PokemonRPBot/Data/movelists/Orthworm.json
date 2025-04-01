@@ -1,6 +1,17 @@
 {
     "number": 968,
     "name": "Orthworm",
+    "types": [
+        "Steel"
+    ],
+    "abilities": {
+        "normal": [
+            "Earth Eater"
+        ],
+        "hidden": [
+            "Sand Veil"
+        ]
+    },
     "moves": {
         "bronze": [
             "Harden",

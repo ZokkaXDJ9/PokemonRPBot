@@ -1,6 +1,19 @@
 {
     "number": 163,
     "name": "Hoothoot",
+    "types": [
+        "Normal",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Insomnia",
+            "Keen Eye"
+        ],
+        "hidden": [
+            "Tinted Lens"
+        ]
+    },
     "moves": {
         "bronze": [
             "Confusion",

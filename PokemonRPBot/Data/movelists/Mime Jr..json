@@ -1,6 +1,11 @@
 {
     "number": 439,
     "name": "Mime Jr.",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Baton Pass",

@@ -1,6 +1,18 @@
 {
     "number": 699,
     "name": "Aurorus",
+    "types": [
+        "Rock",
+        "Ice"
+    ],
+    "abilities": {
+        "normal": [
+            "Refrigerate"
+        ],
+        "hidden": [
+            "Snow Warning"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ancient Power",

@@ -1,6 +1,19 @@
 {
     "number": 213,
     "name": "Shuckle",
+    "types": [
+        "Bug",
+        "Rock"
+    ],
+    "abilities": {
+        "normal": [
+            "Sturdy",
+            "Gluttony"
+        ],
+        "hidden": [
+            "Contrary"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bide",

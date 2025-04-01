@@ -1,6 +1,15 @@
 {
     "number": 803,
     "name": "Poipole",
+    "types": [
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Beast Boost"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Acid",

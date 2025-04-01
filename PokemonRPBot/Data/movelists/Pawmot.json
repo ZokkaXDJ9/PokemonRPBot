@@ -1,6 +1,19 @@
 {
     "number": 923,
     "name": "Pawmot",
+    "types": [
+        "Electric",
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Volt Absorb",
+            "Natural Cure"
+        ],
+        "hidden": [
+            "Iron Fist"
+        ]
+    },
     "moves": {
         "bronze": [
             "Charge",

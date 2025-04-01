@@ -1,6 +1,19 @@
 {
     "number": 219,
     "name": "Magcargo",
+    "types": [
+        "Fire",
+        "Rock"
+    ],
+    "abilities": {
+        "normal": [
+            "Magma Armor",
+            "Flame Body"
+        ],
+        "hidden": [
+            "Weak Armor"
+        ]
+    },
     "moves": {
         "bronze": [
             "Earth Power",

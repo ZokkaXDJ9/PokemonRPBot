@@ -1,6 +1,15 @@
 {
     "number": 896,
     "name": "Glastrier",
+    "types": [
+        "Ice"
+    ],
+    "abilities": {
+        "normal": [
+            "Chilling Neigh"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Double Kick",

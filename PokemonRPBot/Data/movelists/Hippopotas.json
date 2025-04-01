@@ -1,6 +1,17 @@
 {
     "number": 449,
     "name": "Hippopotas",
+    "types": [
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Sand Stream"
+        ],
+        "hidden": [
+            "Sand Force"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

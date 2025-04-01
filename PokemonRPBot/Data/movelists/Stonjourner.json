@@ -1,6 +1,15 @@
 {
     "number": 874,
     "name": "Stonjourner",
+    "types": [
+        "Rock"
+    ],
+    "abilities": {
+        "normal": [
+            "Power Spot"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Block",

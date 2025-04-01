@@ -1,6 +1,18 @@
 {
     "number": 291,
     "name": "Ninjask",
+    "types": [
+        "Bug",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Speed Boost"
+        ],
+        "hidden": [
+            "Infiltrator"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

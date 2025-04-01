@@ -1,6 +1,18 @@
 {
     "number": 943,
     "name": "Mabosstiff",
+    "types": [
+        "Dark"
+    ],
+    "abilities": {
+        "normal": [
+            "Intimidate",
+            "Guard Dog"
+        ],
+        "hidden": [
+            "Stakeout"
+        ]
+    },
     "moves": {
         "bronze": [
             "Hone Claws",

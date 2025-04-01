@@ -1,6 +1,18 @@
 {
     "number": 509,
     "name": "Purrloin",
+    "types": [
+        "Dark"
+    ],
+    "abilities": {
+        "normal": [
+            "Limber",
+            "Unburden"
+        ],
+        "hidden": [
+            "Prankster"
+        ]
+    },
     "moves": {
         "bronze": [
             "Assist",

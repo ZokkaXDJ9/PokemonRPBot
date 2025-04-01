@@ -1,6 +1,19 @@
 {
     "number": 48,
     "name": "Venonat",
+    "types": [
+        "Bug",
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Compound Eyes",
+            "Tinted Lens"
+        ],
+        "hidden": [
+            "Run Away"
+        ]
+    },
     "moves": {
         "bronze": [
             "Disable",

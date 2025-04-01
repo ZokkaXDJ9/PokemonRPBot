@@ -1,6 +1,19 @@
 {
     "number": 629,
     "name": "Vullaby",
+    "types": [
+        "Dark",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Big Pecks",
+            "Overcoat"
+        ],
+        "hidden": [
+            "Weak Armor"
+        ]
+    },
     "moves": {
         "bronze": [
             "Flatter",

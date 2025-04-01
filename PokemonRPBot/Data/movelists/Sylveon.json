@@ -1,6 +1,17 @@
 {
     "number": 700,
     "name": "Sylveon",
+    "types": [
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Cute Charm"
+        ],
+        "hidden": [
+            "Pixilate"
+        ]
+    },
     "moves": {
         "bronze": [
             "Baby-Doll Eyes",

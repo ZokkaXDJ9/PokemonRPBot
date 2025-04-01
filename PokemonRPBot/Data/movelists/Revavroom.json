@@ -1,6 +1,18 @@
 {
     "number": 966,
     "name": "Revavroom",
+    "types": [
+        "Steel",
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Overcoat"
+        ],
+        "hidden": [
+            "Filter"
+        ]
+    },
     "moves": {
         "bronze": [
             "Assurance",

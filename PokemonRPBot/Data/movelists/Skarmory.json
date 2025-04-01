@@ -1,6 +1,19 @@
 {
     "number": 227,
     "name": "Skarmory",
+    "types": [
+        "Steel",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Keen Eye",
+            "Sturdy"
+        ],
+        "hidden": [
+            "Weak Armor"
+        ]
+    },
     "moves": {
         "bronze": [
             "Fury Attack",

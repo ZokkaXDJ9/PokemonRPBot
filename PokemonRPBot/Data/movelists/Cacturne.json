@@ -1,6 +1,18 @@
 {
     "number": 332,
     "name": "Cacturne",
+    "types": [
+        "Grass",
+        "Dark"
+    ],
+    "abilities": {
+        "normal": [
+            "Sand Veil"
+        ],
+        "hidden": [
+            "Water Absorb"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

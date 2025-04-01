@@ -1,6 +1,17 @@
 {
     "number": 254,
     "name": "Sceptile",
+    "types": [
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Overgrow"
+        ],
+        "hidden": [
+            "Unburden"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

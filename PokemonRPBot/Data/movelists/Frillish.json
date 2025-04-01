@@ -1,6 +1,19 @@
 {
     "number": 592,
     "name": "Frillish",
+    "types": [
+        "Water",
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Water Absorb",
+            "Cursed Body"
+        ],
+        "hidden": [
+            "Damp"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

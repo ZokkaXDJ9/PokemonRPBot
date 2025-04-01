@@ -1,6 +1,17 @@
 {
     "number": 919,
     "name": "Nymble",
+    "types": [
+        "Bug"
+    ],
+    "abilities": {
+        "normal": [
+            "Swarm"
+        ],
+        "hidden": [
+            "Tinted Lens"
+        ]
+    },
     "moves": {
         "bronze": [
             "Assurance",

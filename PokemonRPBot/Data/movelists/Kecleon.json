@@ -1,6 +1,17 @@
 {
     "number": 352,
     "name": "Kecleon",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Color Change"
+        ],
+        "hidden": [
+            "Protean"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

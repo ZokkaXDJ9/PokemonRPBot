@@ -1,6 +1,19 @@
 {
     "number": 342,
     "name": "Crawdaunt",
+    "types": [
+        "Water",
+        "Dark"
+    ],
+    "abilities": {
+        "normal": [
+            "Hyper Cutter",
+            "Shell Armor"
+        ],
+        "hidden": [
+            "Adaptability"
+        ]
+    },
     "moves": {
         "bronze": [
             "Harden",

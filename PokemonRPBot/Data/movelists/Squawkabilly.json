@@ -1,6 +1,11 @@
 {
     "number": 931,
     "name": "Squawkabilly",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Growl",

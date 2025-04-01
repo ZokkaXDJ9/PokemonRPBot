@@ -1,6 +1,15 @@
 {
     "number": 894,
     "name": "Regieleki",
+    "types": [
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Transistor"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Electroweb",

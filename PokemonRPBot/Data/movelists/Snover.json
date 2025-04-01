@@ -1,6 +1,18 @@
 {
     "number": 459,
     "name": "Snover",
+    "types": [
+        "Grass",
+        "Ice"
+    ],
+    "abilities": {
+        "normal": [
+            "Snow Warning"
+        ],
+        "hidden": [
+            "Soundproof"
+        ]
+    },
     "moves": {
         "bronze": [
             "Icy Wind",

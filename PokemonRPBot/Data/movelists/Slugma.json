@@ -1,6 +1,18 @@
 {
     "number": 218,
     "name": "Slugma",
+    "types": [
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Magma Armor",
+            "Flame Body"
+        ],
+        "hidden": [
+            "Weak Armor"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ember",

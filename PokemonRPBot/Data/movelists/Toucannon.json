@@ -1,6 +1,19 @@
 {
     "number": 733,
     "name": "Toucannon",
+    "types": [
+        "Normal",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Keen Eye",
+            "Skill Link"
+        ],
+        "hidden": [
+            "Sheer Force"
+        ]
+    },
     "moves": {
         "bronze": [
             "Echoed Voice",

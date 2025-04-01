@@ -1,6 +1,18 @@
 {
     "number": 664,
     "name": "Scatterbug",
+    "types": [
+        "Bug"
+    ],
+    "abilities": {
+        "normal": [
+            "Shield Dust",
+            "Compound Eyes"
+        ],
+        "hidden": [
+            "Friend Guard"
+        ]
+    },
     "moves": {
         "bronze": [
             "String Shot",

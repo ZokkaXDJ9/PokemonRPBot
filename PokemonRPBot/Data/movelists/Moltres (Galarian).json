@@ -1,0 +1,101 @@
+{
+    "number": 146,
+    "name": "Galarian Moltres",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
+    "moves": {
+        "bronze": [
+            "Gust",
+            "Leer",
+            "Payback",
+            "Safeguard"
+        ],
+        "silver": [
+            "Wing Attack",
+            "Agility",
+            "Ancient Power",
+            "Sucker Punch"
+        ],
+        "gold": [
+            "Air Slash",
+            "After You",
+            "Fiery Wrath",
+            "Nasty Plot",
+            "Hurricane",
+            "Endure",
+            "Memento",
+            "Sky Attack"
+        ],
+        "platinum": [],
+        "diamond": [],
+        "tm": [
+            "Agility",
+            "Attract",
+            "Confide",
+            "Curse",
+            "Double Team",
+            "Endure",
+            "Facade",
+            "Frustration",
+            "Headbutt",
+            "Helping Hand",
+            "Hidden Power",
+            "Metronome",
+            "Protect",
+            "Nasty Plot",
+            "Rest",
+            "Return",
+            "Round",
+            "Secret Power",
+            "Sleep Talk",
+            "Snore",
+            "Splash",
+            "Substitute",
+            "Swords Dance",
+            "Take Down",
+            "Tera Blast",
+            "Fly",
+            "Hyper Beam",
+            "Giga Impact",
+            "Scary Face",
+            "Steel Wing",
+            "Swift",
+            "Imprison",
+            "U-turn",
+            "Payback",
+            "Assurance",
+            "Hex",
+            "Snarl",
+            "Air Slash",
+            "Shadow Ball",
+            "Taunt",
+            "Hyper Voice",
+            "Dark Pulse",
+            "Brave Bird",
+            "Nasty Plot",
+            "Foul Play",
+            "Hurricane",
+            "Thief",
+            "Aerial Ace",
+            "Hex",
+            "Sunny Day",
+            "Rain Dance",
+            "Sandstorm",
+            "Tailwind",
+            "Spite",
+            "Dual Wingbeat",
+            "Lash Out",
+            "Pain Split"
+        ],
+        "egg": [
+            ""
+        ],
+        "tutor": [
+            "Dual Wingbeat",
+            "Lash Out"
+        ]
+    }
+}

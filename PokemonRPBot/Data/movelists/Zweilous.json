@@ -1,6 +1,16 @@
 {
     "number": 634,
     "name": "Zweilous",
+    "types": [
+        "Dark",
+        "Dragon"
+    ],
+    "abilities": {
+        "normal": [
+            "Hustle"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Bite",

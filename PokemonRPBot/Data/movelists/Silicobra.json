@@ -1,6 +1,18 @@
 {
     "number": 843,
     "name": "Silicobra",
+    "types": [
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Sand Spit",
+            "Shed Skin"
+        ],
+        "hidden": [
+            "Sand Veil"
+        ]
+    },
     "moves": {
         "bronze": [
             "Brutal Swing",

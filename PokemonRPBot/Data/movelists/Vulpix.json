@@ -1,6 +1,17 @@
 {
     "number": 37,
     "name": "Vulpix",
+    "types": [
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Flash Fire"
+        ],
+        "hidden": [
+            "Drought"
+        ]
+    },
     "moves": {
         "bronze": [
             "Baby-Doll Eyes",

@@ -1,6 +1,17 @@
 {
     "number": 963,
     "name": "Finizen",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Water Veil"
+        ],
+        "hidden": [
+            "Water Veil"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

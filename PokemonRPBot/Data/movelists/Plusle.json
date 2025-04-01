@@ -1,6 +1,17 @@
 {
     "number": 311,
     "name": "Plusle",
+    "types": [
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Plus"
+        ],
+        "hidden": [
+            "Lightning Rod"
+        ]
+    },
     "moves": {
         "bronze": [
             "Encore",

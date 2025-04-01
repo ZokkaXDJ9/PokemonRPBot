@@ -1,6 +1,17 @@
 {
     "number": 868,
     "name": "Milcery",
+    "types": [
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Sweet Veil"
+        ],
+        "hidden": [
+            "Aroma Veil"
+        ]
+    },
     "moves": {
         "bronze": [
             "Aromatic Mist",

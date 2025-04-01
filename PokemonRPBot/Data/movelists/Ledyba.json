@@ -1,6 +1,19 @@
 {
     "number": 165,
     "name": "Ledyba",
+    "types": [
+        "Bug",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Swarm",
+            "Early Bird"
+        ],
+        "hidden": [
+            "Rattled"
+        ]
+    },
     "moves": {
         "bronze": [
             "Comet Punch",

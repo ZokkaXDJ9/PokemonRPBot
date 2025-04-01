@@ -1,6 +1,16 @@
 {
     "number": 567,
     "name": "Archeops",
+    "types": [
+        "Rock",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Defeatist"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Double Team",

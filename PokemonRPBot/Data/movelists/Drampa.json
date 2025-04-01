@@ -1,6 +1,19 @@
 {
     "number": 780,
     "name": "Drampa",
+    "types": [
+        "Normal",
+        "Dragon"
+    ],
+    "abilities": {
+        "normal": [
+            "Berserk",
+            "Sap Sipper"
+        ],
+        "hidden": [
+            "Cloud Nine"
+        ]
+    },
     "moves": {
         "bronze": [
             "Echoed Voice",

@@ -1,6 +1,18 @@
 {
     "number": 115,
     "name": "Kangaskhan",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Early Bird",
+            "Scrappy"
+        ],
+        "hidden": [
+            "Inner Focus"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

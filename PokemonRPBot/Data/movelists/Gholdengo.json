@@ -1,6 +1,16 @@
 {
     "number": 1000,
     "name": "Gholdengo",
+    "types": [
+        "Steel",
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Good as Gold"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Astonish",

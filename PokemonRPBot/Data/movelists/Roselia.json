@@ -1,6 +1,19 @@
 {
     "number": 315,
     "name": "Roselia",
+    "types": [
+        "Grass",
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Natural Cure",
+            "Poison Point"
+        ],
+        "hidden": [
+            "Leaf Guard"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

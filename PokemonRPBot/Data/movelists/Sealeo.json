@@ -1,6 +1,19 @@
 {
     "number": 364,
     "name": "Sealeo",
+    "types": [
+        "Ice",
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Thick Fat",
+            "Ice Body"
+        ],
+        "hidden": [
+            "Oblivious"
+        ]
+    },
     "moves": {
         "bronze": [
             "Defense Curl",

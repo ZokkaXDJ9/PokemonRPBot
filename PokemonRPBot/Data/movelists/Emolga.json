@@ -1,6 +1,18 @@
 {
     "number": 587,
     "name": "Emolga",
+    "types": [
+        "Electric",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Static"
+        ],
+        "hidden": [
+            "Motor Drive"
+        ]
+    },
     "moves": {
         "bronze": [
             "Charge",

@@ -1,6 +1,16 @@
 {
     "number": 794,
     "name": "Buzzwole",
+    "types": [
+        "Bug",
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Beast Boost"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Comet Punch",

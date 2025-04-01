@@ -1,6 +1,17 @@
 {
     "number": 9,
     "name": "Blastoise",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Torrent"
+        ],
+        "hidden": [
+            "Rain Dish"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bubble",

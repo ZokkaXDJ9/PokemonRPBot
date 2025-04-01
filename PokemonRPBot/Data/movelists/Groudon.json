@@ -1,6 +1,15 @@
 {
     "number": 383,
     "name": "Groudon",
+    "types": [
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Drought"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Ancient Power",

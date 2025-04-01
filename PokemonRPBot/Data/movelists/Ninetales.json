@@ -1,6 +1,17 @@
 {
     "number": 38,
     "name": "Ninetales",
+    "types": [
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Flash Fire"
+        ],
+        "hidden": [
+            "Drought"
+        ]
+    },
     "moves": {
         "bronze": [
             "Confuse Ray",

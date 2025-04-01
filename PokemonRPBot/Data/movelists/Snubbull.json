@@ -1,6 +1,18 @@
 {
     "number": 209,
     "name": "Snubbull",
+    "types": [
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Intimidate",
+            "Run Away"
+        ],
+        "hidden": [
+            "Rattled"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

@@ -1,6 +1,19 @@
 {
     "number": 851,
     "name": "Centiskorch",
+    "types": [
+        "Fire",
+        "Bug"
+    ],
+    "abilities": {
+        "normal": [
+            "Flash Fire",
+            "White Smoke"
+        ],
+        "hidden": [
+            "Flame Body"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

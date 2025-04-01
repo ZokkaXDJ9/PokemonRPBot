@@ -1,6 +1,15 @@
 {
     "number": 1024,
     "name": "Terapagos",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Tera Shift"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Ancient Power",

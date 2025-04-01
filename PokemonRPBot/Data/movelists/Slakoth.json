@@ -1,6 +1,15 @@
 {
     "number": 287,
     "name": "Slakoth",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Truant"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Encore",

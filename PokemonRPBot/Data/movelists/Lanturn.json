@@ -1,6 +1,19 @@
 {
     "number": 171,
     "name": "Lanturn",
+    "types": [
+        "Water",
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Volt Absorb",
+            "Illuminate"
+        ],
+        "hidden": [
+            "Water Absorb"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bubble",

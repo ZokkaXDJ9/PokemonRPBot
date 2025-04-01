@@ -1,6 +1,18 @@
 {
     "number": 428,
     "name": "Lopunny",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Cute Charm",
+            "Klutz"
+        ],
+        "hidden": [
+            "Limber"
+        ]
+    },
     "moves": {
         "bronze": [
             "Baby-Doll Eyes",

@@ -1,6 +1,17 @@
 {
     "number": 852,
     "name": "Clobbopus",
+    "types": [
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Limber"
+        ],
+        "hidden": [
+            "Technician"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bind",

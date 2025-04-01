@@ -1,6 +1,16 @@
 {
     "number": 845,
     "name": "Cramorant",
+    "types": [
+        "Flying",
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Gulp Missile"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Belch",

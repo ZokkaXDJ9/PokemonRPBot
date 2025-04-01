@@ -1,6 +1,11 @@
 {
     "number": 648,
     "name": "Meloetta",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Confusion",

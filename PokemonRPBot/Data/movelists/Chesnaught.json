@@ -1,6 +1,18 @@
 {
     "number": 652,
     "name": "Chesnaught",
+    "types": [
+        "Grass",
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Overgrow"
+        ],
+        "hidden": [
+            "Bulletproof"
+        ]
+    },
     "moves": {
         "bronze": [
             "Feint",

@@ -1,6 +1,19 @@
 {
     "number": 595,
     "name": "Joltik",
+    "types": [
+        "Bug",
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Compound Eyes",
+            "Unnerve"
+        ],
+        "hidden": [
+            "Swarm"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

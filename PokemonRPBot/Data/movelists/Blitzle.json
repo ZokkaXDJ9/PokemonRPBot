@@ -1,6 +1,18 @@
 {
     "number": 522,
     "name": "Blitzle",
+    "types": [
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Lightning Rod",
+            "Motor Drive"
+        ],
+        "hidden": [
+            "Sap Sipper"
+        ]
+    },
     "moves": {
         "bronze": [
             "Charge",

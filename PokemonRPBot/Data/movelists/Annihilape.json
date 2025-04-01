@@ -1,6 +1,19 @@
 {
     "number": 979,
     "name": "Annihilape",
+    "types": [
+        "Fighting",
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Vital Spirit",
+            "Inner Focus"
+        ],
+        "hidden": [
+            "Defiant"
+        ]
+    },
     "moves": {
         "bronze": [
             "Counter",

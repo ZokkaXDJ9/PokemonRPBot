@@ -1,6 +1,18 @@
 {
     "number": 588,
     "name": "Karrablast",
+    "types": [
+        "Bug"
+    ],
+    "abilities": {
+        "normal": [
+            "Swarm",
+            "Shed Skin"
+        ],
+        "hidden": [
+            "No Guard"
+        ]
+    },
     "moves": {
         "bronze": [
             "Endure",

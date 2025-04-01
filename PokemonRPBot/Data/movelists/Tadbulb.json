@@ -1,6 +1,18 @@
 {
     "number": 938,
     "name": "Tadbulb",
+    "types": [
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Own Tempo",
+            "Static"
+        ],
+        "hidden": [
+            "Damp"
+        ]
+    },
     "moves": {
         "bronze": [
             "Mud-Slap",

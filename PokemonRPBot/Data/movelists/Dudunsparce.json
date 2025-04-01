@@ -1,6 +1,11 @@
 {
     "number": 982,
     "name": "Dudunsparce",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Defense Curl",

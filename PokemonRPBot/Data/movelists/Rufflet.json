@@ -1,6 +1,19 @@
 {
     "number": 627,
     "name": "Rufflet",
+    "types": [
+        "Normal",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Keen Eye",
+            "Sheer Force"
+        ],
+        "hidden": [
+            "Hustle"
+        ]
+    },
     "moves": {
         "bronze": [
             "Fury Attack",

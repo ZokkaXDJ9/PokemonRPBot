@@ -1,6 +1,18 @@
 {
     "number": 751,
     "name": "Dewpider",
+    "types": [
+        "Water",
+        "Bug"
+    ],
+    "abilities": {
+        "normal": [
+            "Water Bubble"
+        ],
+        "hidden": [
+            "Water Absorb"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

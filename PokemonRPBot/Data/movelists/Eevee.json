@@ -1,6 +1,18 @@
 {
     "number": 133,
     "name": "Eevee",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Run Away",
+            "Adaptability"
+        ],
+        "hidden": [
+            "Anticipation"
+        ]
+    },
     "moves": {
         "bronze": [
             "Baby-Doll Eyes",

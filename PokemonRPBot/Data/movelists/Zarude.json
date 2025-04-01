@@ -1,6 +1,16 @@
 {
     "number": 893,
     "name": "Zarude",
+    "types": [
+        "Dark",
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Leaf Guard"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Bind",

@@ -1,6 +1,11 @@
 {
     "number": 992,
     "name": "Iron Hands",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Arm Thrust",

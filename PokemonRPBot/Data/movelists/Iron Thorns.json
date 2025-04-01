@@ -1,6 +1,11 @@
 {
     "number": 995,
     "name": "Iron Thorns",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Fire Fang",

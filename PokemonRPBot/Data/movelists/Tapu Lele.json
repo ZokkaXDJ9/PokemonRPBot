@@ -1,6 +1,11 @@
 {
     "number": 786,
     "name": "Tapu Lele",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Aromatherapy",

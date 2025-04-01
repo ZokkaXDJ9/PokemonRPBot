@@ -1,6 +1,18 @@
 {
     "number": 735,
     "name": "Gumshoos",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Stakeout",
+            "Strong Jaw"
+        ],
+        "hidden": [
+            "Adaptability"
+        ]
+    },
     "moves": {
         "bronze": [
             "Leer",

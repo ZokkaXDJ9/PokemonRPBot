@@ -1,6 +1,19 @@
 {
     "number": 164,
     "name": "Noctowl",
+    "types": [
+        "Normal",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Insomnia",
+            "Keen Eye"
+        ],
+        "hidden": [
+            "Tinted Lens"
+        ]
+    },
     "moves": {
         "bronze": [
             "Confusion",

@@ -1,6 +1,19 @@
 {
     "number": 589,
     "name": "Escavalier",
+    "types": [
+        "Bug",
+        "Steel"
+    ],
+    "abilities": {
+        "normal": [
+            "Swarm",
+            "Shell Armor"
+        ],
+        "hidden": [
+            "Overcoat"
+        ]
+    },
     "moves": {
         "bronze": [
             "Double-Edge",

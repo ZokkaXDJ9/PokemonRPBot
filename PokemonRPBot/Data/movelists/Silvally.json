@@ -1,6 +1,15 @@
 {
     "number": 773,
     "name": "Silvally",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "RKS System"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Aerial Ace",

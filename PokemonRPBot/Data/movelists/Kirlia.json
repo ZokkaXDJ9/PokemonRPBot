@@ -1,6 +1,19 @@
 {
     "number": 281,
     "name": "Kirlia",
+    "types": [
+        "Psychic",
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Synchronize",
+            "Trace"
+        ],
+        "hidden": [
+            "Telepathy"
+        ]
+    },
     "moves": {
         "bronze": [
             "Confusion",

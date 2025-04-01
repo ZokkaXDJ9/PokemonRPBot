@@ -1,6 +1,18 @@
 {
     "number": 223,
     "name": "Remoraid",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Hustle",
+            "Sniper"
+        ],
+        "hidden": [
+            "Moody"
+        ]
+    },
     "moves": {
         "bronze": [
             "Focus Energy",

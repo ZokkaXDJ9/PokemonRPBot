@@ -1,6 +1,17 @@
 {
     "number": 134,
     "name": "Vaporeon",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Water Absorb"
+        ],
+        "hidden": [
+            "Hydration"
+        ]
+    },
     "moves": {
         "bronze": [
             "Baby-Doll Eyes",

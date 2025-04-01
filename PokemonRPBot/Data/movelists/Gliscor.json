@@ -1,6 +1,19 @@
 {
     "number": 472,
     "name": "Gliscor",
+    "types": [
+        "Ground",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Hyper Cutter",
+            "Sand Veil"
+        ],
+        "hidden": [
+            "Poison Heal"
+        ]
+    },
     "moves": {
         "bronze": [
             "Fire Fang",

@@ -1,6 +1,19 @@
 {
     "number": 475,
     "name": "Gallade",
+    "types": [
+        "Psychic",
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Steadfast",
+            "Sharpness"
+        ],
+        "hidden": [
+            "Justified"
+        ]
+    },
     "moves": {
         "bronze": [
             "Aqua Cutter",

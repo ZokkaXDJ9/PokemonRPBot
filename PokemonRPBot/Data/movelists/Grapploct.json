@@ -1,6 +1,17 @@
 {
     "number": 853,
     "name": "Grapploct",
+    "types": [
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Limber"
+        ],
+        "hidden": [
+            "Technician"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bind",

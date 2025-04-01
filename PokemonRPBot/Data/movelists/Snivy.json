@@ -1,6 +1,17 @@
 {
     "number": 495,
     "name": "Snivy",
+    "types": [
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Overgrow"
+        ],
+        "hidden": [
+            "Contrary"
+        ]
+    },
     "moves": {
         "bronze": [
             "Leer",

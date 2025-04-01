@@ -1,6 +1,18 @@
 {
     "number": 661,
     "name": "Fletchling",
+    "types": [
+        "Normal",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Big Pecks"
+        ],
+        "hidden": [
+            "Gale Wings"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ember",

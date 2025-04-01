@@ -1,6 +1,19 @@
 {
     "number": 322,
     "name": "Numel",
+    "types": [
+        "Fire",
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Oblivious",
+            "Simple"
+        ],
+        "hidden": [
+            "Own Tempo"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ember",

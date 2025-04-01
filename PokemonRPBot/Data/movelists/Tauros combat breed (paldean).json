@@ -1,0 +1,14 @@
+{
+    "number": 128,
+    "name": "Paldean Tauros (Combat Breed)",
+    "moves": {
+      "bronze": ["Tackle", "Tail Whip", "Work Up", "Double Kick"],
+      "silver": ["Assurance", "Headbutt", "Scary Face", "Zen Headbutt"],
+      "gold": ["Raging Bull", "Rest", "Swagger", "Thrash", "Double-Edge", "Close Combat"],
+      "platinum": [],
+      "diamond": [],
+      "tm": ["Agility", "Attract", "Confide", "Curse", "Double Team", "Endure", "Facade", "Frustration", "Headbutt", "Helping Hand", "Hidden Power", "Metronome", "Protect", "Nasty Plot", "Rest", "Return", "Round", "Secret Power", "Sleep Talk", "Snore", "Splash", "Substitute", "Swords Dance", "Take Down", "Tera Blast", "Scary Face", "Thief", "Trailblaze", "Bulldoze", "Rock Tomb", "Sunny Day", "Rain Dance", "Sandstorm", "Smart Strike", "Dig", "Zen Headbutt", "Bulk Up", "Body Slam", "Stomping Tantrum", "Rock Slide", "Body Press", "Iron Head", "Drill Run", "Surf", "Reversal", "Wild Charge", "Earthquake", "Stone Edge", "Giga Impact", "Outrage", "Hyper Beam", "Close Combat", "High Horsepower", "Lash Out", "Double-Edge", "Endeavor", "Curse", "Throat Chop"],
+      "egg": ["Curse", "Endeavor"],
+      "tutor": []
+    }
+  }

@@ -1,6 +1,18 @@
 {
     "number": 41,
     "name": "Zubat",
+    "types": [
+        "Poison",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Inner Focus"
+        ],
+        "hidden": [
+            "Infiltrator"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

@@ -1,6 +1,18 @@
 {
     "number": 965,
     "name": "Varoom",
+    "types": [
+        "Steel",
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Overcoat"
+        ],
+        "hidden": [
+            "Slow Start"
+        ]
+    },
     "moves": {
         "bronze": [
             "Assurance",

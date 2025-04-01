@@ -1,6 +1,15 @@
 {
     "number": 482,
     "name": "Azelf",
+    "types": [
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Levitate"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Confusion",

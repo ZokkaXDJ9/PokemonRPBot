@@ -1,6 +1,18 @@
 {
     "number": 259,
     "name": "Marshtomp",
+    "types": [
+        "Water",
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Torrent"
+        ],
+        "hidden": [
+            "Damp"
+        ]
+    },
     "moves": {
         "bronze": [
             "Earthquake",

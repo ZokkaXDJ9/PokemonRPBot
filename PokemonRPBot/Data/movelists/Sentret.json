@@ -1,6 +1,18 @@
 {
     "number": 161,
     "name": "Sentret",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Run Away",
+            "Keen Eye"
+        ],
+        "hidden": [
+            "Frisk"
+        ]
+    },
     "moves": {
         "bronze": [
             "Defense Curl",

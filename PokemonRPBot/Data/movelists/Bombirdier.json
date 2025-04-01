@@ -1,6 +1,19 @@
 {
     "number": 962,
     "name": "Bombirdier",
+    "types": [
+        "Flying",
+        "Dark"
+    ],
+    "abilities": {
+        "normal": [
+            "Big Pecks",
+            "Keen Eye"
+        ],
+        "hidden": [
+            "Rocky Payload"
+        ]
+    },
     "moves": {
         "bronze": [
             "Hone Claws",

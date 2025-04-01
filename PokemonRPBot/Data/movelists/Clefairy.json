@@ -1,6 +1,18 @@
 {
     "number": 35,
     "name": "Clefairy",
+    "types": [
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Cute Charm",
+            "Magic Guard"
+        ],
+        "hidden": [
+            "Friend Guard"
+        ]
+    },
     "moves": {
         "bronze": [
             "Charm",

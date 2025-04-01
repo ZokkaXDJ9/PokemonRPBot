@@ -1,6 +1,18 @@
 {
     "number": 60,
     "name": "Poliwag",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Water Absorb",
+            "Damp"
+        ],
+        "hidden": [
+            "Swift Swim"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bubble",

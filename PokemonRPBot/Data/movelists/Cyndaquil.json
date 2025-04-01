@@ -1,6 +1,17 @@
 {
     "number": 155,
     "name": "Cyndaquil",
+    "types": [
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Blaze"
+        ],
+        "hidden": [
+            "Flash Fire"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ember",

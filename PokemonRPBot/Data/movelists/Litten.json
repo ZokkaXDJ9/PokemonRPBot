@@ -1,6 +1,17 @@
 {
     "number": 725,
     "name": "Litten",
+    "types": [
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Blaze"
+        ],
+        "hidden": [
+            "Intimidate"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ember",

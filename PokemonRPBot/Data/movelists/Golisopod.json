@@ -1,6 +1,16 @@
 {
     "number": 768,
     "name": "Golisopod",
+    "types": [
+        "Bug",
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Emergency Exit"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Bug Bite",

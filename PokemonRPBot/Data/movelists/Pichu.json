@@ -1,6 +1,17 @@
 {
     "number": 172,
     "name": "Pichu",
+    "types": [
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Static"
+        ],
+        "hidden": [
+            "Lightning Rod"
+        ]
+    },
     "moves": {
         "bronze": [
             "Charm",

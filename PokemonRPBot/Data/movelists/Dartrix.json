@@ -1,6 +1,18 @@
 {
     "number": 723,
     "name": "Dartrix",
+    "types": [
+        "Grass",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Overgrow"
+        ],
+        "hidden": [
+            "Long Reach"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

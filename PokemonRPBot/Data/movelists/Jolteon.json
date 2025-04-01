@@ -1,6 +1,17 @@
 {
     "number": 135,
     "name": "Jolteon",
+    "types": [
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Volt Absorb"
+        ],
+        "hidden": [
+            "Quick Feet"
+        ]
+    },
     "moves": {
         "bronze": [
             "Baby-Doll Eyes",

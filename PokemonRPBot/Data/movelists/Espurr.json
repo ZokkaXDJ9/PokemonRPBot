@@ -1,6 +1,18 @@
 {
     "number": 677,
     "name": "Espurr",
+    "types": [
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Keen Eye",
+            "Infiltrator"
+        ],
+        "hidden": [
+            "Own Tempo"
+        ]
+    },
     "moves": {
         "bronze": [
             "Confusion",

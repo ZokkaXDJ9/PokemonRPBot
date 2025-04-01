@@ -1,6 +1,19 @@
 {
     "number": 545,
     "name": "Scolipede",
+    "types": [
+        "Bug",
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Poison Point",
+            "Swarm"
+        ],
+        "hidden": [
+            "Speed Boost"
+        ]
+    },
     "moves": {
         "bronze": [
             "Baton Pass",

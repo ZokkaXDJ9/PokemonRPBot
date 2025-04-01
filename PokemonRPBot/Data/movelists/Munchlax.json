@@ -1,6 +1,18 @@
 {
     "number": 446,
     "name": "Munchlax",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Pickup",
+            "Thick Fat"
+        ],
+        "hidden": [
+            "Gluttony"
+        ]
+    },
     "moves": {
         "bronze": [
             "Amnesia",

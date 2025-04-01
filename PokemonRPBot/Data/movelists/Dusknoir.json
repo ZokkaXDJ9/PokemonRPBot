@@ -1,6 +1,17 @@
 {
     "number": 477,
     "name": "Dusknoir",
+    "types": [
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Pressure"
+        ],
+        "hidden": [
+            "Frisk"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

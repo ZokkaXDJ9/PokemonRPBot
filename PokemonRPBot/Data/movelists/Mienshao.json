@@ -1,6 +1,18 @@
 {
     "number": 620,
     "name": "Mienshao",
+    "types": [
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Inner Focus",
+            "Regenerator"
+        ],
+        "hidden": [
+            "Reckless"
+        ]
+    },
     "moves": {
         "bronze": [
             "Detect",

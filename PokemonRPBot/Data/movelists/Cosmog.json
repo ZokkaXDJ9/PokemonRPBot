@@ -1,6 +1,15 @@
 {
     "number": 789,
     "name": "Cosmog",
+    "types": [
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Unaware"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Splash",

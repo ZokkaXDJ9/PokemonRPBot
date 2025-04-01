@@ -1,6 +1,19 @@
 {
     "number": 748,
     "name": "Toxapex",
+    "types": [
+        "Poison",
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Merciless",
+            "Limber"
+        ],
+        "hidden": [
+            "Regenerator"
+        ]
+    },
     "moves": {
         "bronze": [
             "Baneful Bunker",

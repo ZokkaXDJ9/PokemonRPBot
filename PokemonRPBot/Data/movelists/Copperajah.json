@@ -1,6 +1,17 @@
 {
     "number": 879,
     "name": "Copperajah",
+    "types": [
+        "Steel"
+    ],
+    "abilities": {
+        "normal": [
+            "Sheer Force"
+        ],
+        "hidden": [
+            "Heavy Metal"
+        ]
+    },
     "moves": {
         "bronze": [
             "Growl",

@@ -1,6 +1,18 @@
 {
     "number": 949,
     "name": "Toedscruel",
+    "types": [
+        "Ground",
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Mycelium Might"
+        ],
+        "hidden": [
+            "Mycelium Might"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

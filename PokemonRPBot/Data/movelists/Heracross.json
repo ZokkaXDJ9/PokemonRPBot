@@ -1,6 +1,19 @@
 {
     "number": 214,
     "name": "Heracross",
+    "types": [
+        "Bug",
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Swarm",
+            "Guts"
+        ],
+        "hidden": [
+            "Moxie"
+        ]
+    },
     "moves": {
         "bronze": [
             "Aerial Ace",

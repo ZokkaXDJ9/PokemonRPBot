@@ -1,6 +1,18 @@
 {
     "number": 50,
     "name": "Diglett",
+    "types": [
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Sand Veil",
+            "Arena Trap"
+        ],
+        "hidden": [
+            "Sand Force"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

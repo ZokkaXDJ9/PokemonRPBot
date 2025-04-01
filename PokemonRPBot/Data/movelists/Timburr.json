@@ -1,6 +1,18 @@
 {
     "number": 532,
     "name": "Timburr",
+    "types": [
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Guts",
+            "Sheer Force"
+        ],
+        "hidden": [
+            "Iron Fist"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bide",

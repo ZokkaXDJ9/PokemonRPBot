@@ -1,6 +1,18 @@
 {
     "number": 500,
     "name": "Emboar",
+    "types": [
+        "Fire",
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Blaze"
+        ],
+        "hidden": [
+            "Reckless"
+        ]
+    },
     "moves": {
         "bronze": [
             "Arm Thrust",

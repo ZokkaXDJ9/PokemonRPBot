@@ -1,6 +1,19 @@
 {
     "number": 194,
     "name": "Wooper",
+    "types": [
+        "Water",
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Damp",
+            "Water Absorb"
+        ],
+        "hidden": [
+            "Unaware"
+        ]
+    },
     "moves": {
         "bronze": [
             "Mud Shot",

@@ -1,6 +1,18 @@
 {
     "number": 64,
     "name": "Kadabra",
+    "types": [
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Synchronize",
+            "Inner Focus"
+        ],
+        "hidden": [
+            "Magic Guard"
+        ]
+    },
     "moves": {
         "bronze": [
             "Confusion",

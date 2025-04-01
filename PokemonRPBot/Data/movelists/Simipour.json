@@ -1,6 +1,17 @@
 {
     "number": 516,
     "name": "Simipour",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Gluttony"
+        ],
+        "hidden": [
+            "Torrent"
+        ]
+    },
     "moves": {
         "bronze": [],
         "silver": [],

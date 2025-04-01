@@ -1,6 +1,15 @@
 {
     "number": 289,
     "name": "Slaking",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Truant"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Encore",

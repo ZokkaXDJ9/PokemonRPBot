@@ -1,6 +1,19 @@
 {
     "number": 168,
     "name": "Ariados",
+    "types": [
+        "Bug",
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Swarm",
+            "Insomnia"
+        ],
+        "hidden": [
+            "Sniper"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

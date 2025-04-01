@@ -1,6 +1,18 @@
 {
     "number": 626,
     "name": "Bouffalant",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Reckless",
+            "Sap Sipper"
+        ],
+        "hidden": [
+            "Soundproof"
+        ]
+    },
     "moves": {
         "bronze": [
             "Focus Energy",

@@ -1,6 +1,18 @@
 {
     "number": 961,
     "name": "Wugtrio",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Gooey",
+            "Rattled"
+        ],
+        "hidden": [
+            "Sand Veil"
+        ]
+    },
     "moves": {
         "bronze": [
             "Mud-Slap",

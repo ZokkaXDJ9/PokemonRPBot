@@ -1,6 +1,18 @@
 {
     "number": 68,
     "name": "Machamp",
+    "types": [
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Guts",
+            "No Guard"
+        ],
+        "hidden": [
+            "Steadfast"
+        ]
+    },
     "moves": {
         "bronze": [
             "Focus Energy",

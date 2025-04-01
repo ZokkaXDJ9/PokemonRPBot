@@ -1,6 +1,18 @@
 {
     "number": 749,
     "name": "Mudbray",
+    "types": [
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Own Tempo",
+            "Stamina"
+        ],
+        "hidden": [
+            "Inner Focus"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bulldoze",

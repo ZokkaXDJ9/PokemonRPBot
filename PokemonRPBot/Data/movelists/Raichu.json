@@ -1,6 +1,17 @@
 {
     "number": 26,
     "name": "Raichu",
+    "types": [
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Static"
+        ],
+        "hidden": [
+            "Lightning Rod"
+        ]
+    },
     "moves": {
         "bronze": [
             "Agility",

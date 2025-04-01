@@ -1,6 +1,15 @@
 {
     "number": 200,
     "name": "Misdreavus",
+    "types": [
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Levitate"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Astonish",

@@ -1,6 +1,18 @@
 {
     "number": 192,
     "name": "Sunflora",
+    "types": [
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Chlorophyll",
+            "Solar Power"
+        ],
+        "hidden": [
+            "Early Bird"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

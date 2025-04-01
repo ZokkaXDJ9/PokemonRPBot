@@ -1,6 +1,19 @@
 {
     "number": 198,
     "name": "Murkrow",
+    "types": [
+        "Dark",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Insomnia",
+            "Super Luck"
+        ],
+        "hidden": [
+            "Prankster"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

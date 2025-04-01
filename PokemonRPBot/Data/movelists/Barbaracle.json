@@ -1,6 +1,19 @@
 {
     "number": 689,
     "name": "Barbaracle",
+    "types": [
+        "Rock",
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Tough Claws",
+            "Sniper"
+        ],
+        "hidden": [
+            "Pickpocket"
+        ]
+    },
     "moves": {
         "bronze": [
             "Fury Swipes",

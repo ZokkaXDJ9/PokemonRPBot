@@ -1,6 +1,18 @@
 {
     "number": 127,
     "name": "Pinsir",
+    "types": [
+        "Bug"
+    ],
+    "abilities": {
+        "normal": [
+            "Hyper Cutter",
+            "Mold Breaker"
+        ],
+        "hidden": [
+            "Moxie"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bind",

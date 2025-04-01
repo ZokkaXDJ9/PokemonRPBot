@@ -1,6 +1,18 @@
 {
     "number": 770,
     "name": "Palossand",
+    "types": [
+        "Ghost",
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Water Compaction"
+        ],
+        "hidden": [
+            "Sand Veil"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

@@ -1,6 +1,19 @@
 {
     "number": 690,
     "name": "Skrelp",
+    "types": [
+        "Poison",
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Poison Point",
+            "Poison Touch"
+        ],
+        "hidden": [
+            "Adaptability"
+        ]
+    },
     "moves": {
         "bronze": [
             "Acid",

@@ -1,6 +1,17 @@
 {
     "number": 813,
     "name": "Scorbunny",
+    "types": [
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Blaze"
+        ],
+        "hidden": [
+            "Libero"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ember",

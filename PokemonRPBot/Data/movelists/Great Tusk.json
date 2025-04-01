@@ -1,6 +1,11 @@
 {
     "number": 984,
     "name": "Great Tusk",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Bulldoze",

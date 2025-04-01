@@ -1,6 +1,17 @@
 {
     "number": 766,
     "name": "Passimian",
+    "types": [
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Receiver"
+        ],
+        "hidden": [
+            "Defiant"
+        ]
+    },
     "moves": {
         "bronze": [
             "Focus Energy",

@@ -1,6 +1,18 @@
 {
     "number": 120,
     "name": "Staryu",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Illuminate",
+            "Natural Cure"
+        ],
+        "hidden": [
+            "Analytic"
+        ]
+    },
     "moves": {
         "bronze": [
             "Confuse Ray",

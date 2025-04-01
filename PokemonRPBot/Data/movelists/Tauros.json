@@ -1,6 +1,18 @@
 {
     "number": 128,
     "name": "Tauros",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Intimidate",
+            "Anger Point"
+        ],
+        "hidden": [
+            "Sheer Force"
+        ]
+    },
     "moves": {
         "bronze": [
             "Horn Attack",

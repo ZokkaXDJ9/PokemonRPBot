@@ -1,6 +1,19 @@
 {
     "number": 476,
     "name": "Probopass",
+    "types": [
+        "Rock",
+        "Steel"
+    ],
+    "abilities": {
+        "normal": [
+            "Sturdy",
+            "Magnet Pull"
+        ],
+        "hidden": [
+            "Sand Force"
+        ]
+    },
     "moves": {
         "bronze": [
             "Block",

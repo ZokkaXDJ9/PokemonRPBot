@@ -1,6 +1,18 @@
 {
     "number": 233,
     "name": "Porygon2",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Trace",
+            "Download"
+        ],
+        "hidden": [
+            "Analytic"
+        ]
+    },
     "moves": {
         "bronze": [
             "Agility",

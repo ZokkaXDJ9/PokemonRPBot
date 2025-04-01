@@ -1,6 +1,19 @@
 {
     "number": 536,
     "name": "Palpitoad",
+    "types": [
+        "Water",
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Swift Swim",
+            "Hydration"
+        ],
+        "hidden": [
+            "Water Absorb"
+        ]
+    },
     "moves": {
         "bronze": [
             "Acid",

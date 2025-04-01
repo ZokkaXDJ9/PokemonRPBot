@@ -1,6 +1,18 @@
 {
     "number": 185,
     "name": "Sudowoodo",
+    "types": [
+        "Rock"
+    ],
+    "abilities": {
+        "normal": [
+            "Sturdy",
+            "Rock Head"
+        ],
+        "hidden": [
+            "Rattled"
+        ]
+    },
     "moves": {
         "bronze": [
             "Copycat",

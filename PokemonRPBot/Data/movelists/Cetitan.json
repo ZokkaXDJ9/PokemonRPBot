@@ -1,6 +1,18 @@
 {
     "number": 975,
     "name": "Cetitan",
+    "types": [
+        "Ice"
+    ],
+    "abilities": {
+        "normal": [
+            "Thick Fat",
+            "Slush Rush"
+        ],
+        "hidden": [
+            "Sheer Force"
+        ]
+    },
     "moves": {
         "bronze": [
             "Echoed Voice",

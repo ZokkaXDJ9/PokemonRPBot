@@ -1,6 +1,18 @@
 {
     "number": 582,
     "name": "Vanillite",
+    "types": [
+        "Ice"
+    ],
+    "abilities": {
+        "normal": [
+            "Ice Body",
+            "Snow Cloak"
+        ],
+        "hidden": [
+            "Weak Armor"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

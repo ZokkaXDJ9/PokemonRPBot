@@ -1,6 +1,16 @@
 {
     "number": 292,
     "name": "Shedinja",
+    "types": [
+        "Bug",
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Wonder Guard"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Absorb",

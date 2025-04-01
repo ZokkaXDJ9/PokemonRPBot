@@ -1,6 +1,15 @@
 {
     "number": 489,
     "name": "Phione",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Hydration"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Charm",

@@ -1,6 +1,15 @@
 {
     "number": 571,
     "name": "Zoroark",
+    "types": [
+        "Dark"
+    ],
+    "abilities": {
+        "normal": [
+            "Illusion"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Hone Claws",

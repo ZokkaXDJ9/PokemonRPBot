@@ -1,6 +1,18 @@
 {
     "number": 327,
     "name": "Spinda",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Own Tempo",
+            "Tangled Feet"
+        ],
+        "hidden": [
+            "Contrary"
+        ]
+    },
     "moves": {
         "bronze": [
             "Copycat",

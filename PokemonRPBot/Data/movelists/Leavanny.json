@@ -1,6 +1,19 @@
 {
     "number": 542,
     "name": "Leavanny",
+    "types": [
+        "Bug",
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Swarm",
+            "Chlorophyll"
+        ],
+        "hidden": [
+            "Overcoat"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bug Bite",

@@ -1,6 +1,18 @@
 {
     "number": 162,
     "name": "Furret",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Run Away",
+            "Keen Eye"
+        ],
+        "hidden": [
+            "Frisk"
+        ]
+    },
     "moves": {
         "bronze": [
             "Agility",

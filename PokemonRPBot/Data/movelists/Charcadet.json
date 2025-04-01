@@ -1,6 +1,17 @@
 {
     "number": 935,
     "name": "Charcadet",
+    "types": [
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Flash Fire"
+        ],
+        "hidden": [
+            "Flame Body"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

@@ -1,6 +1,17 @@
 {
     "number": 918,
     "name": "Spidops",
+    "types": [
+        "Bug"
+    ],
+    "abilities": {
+        "normal": [
+            "Insomnia"
+        ],
+        "hidden": [
+            "Stakeout"
+        ]
+    },
     "moves": {
         "bronze": [
             "Assurance",

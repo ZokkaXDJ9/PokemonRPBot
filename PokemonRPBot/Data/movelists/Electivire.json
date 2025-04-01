@@ -1,6 +1,17 @@
 {
     "number": 466,
     "name": "Electivire",
+    "types": [
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Motor Drive"
+        ],
+        "hidden": [
+            "Vital Spirit"
+        ]
+    },
     "moves": {
         "bronze": [
             "Charge",

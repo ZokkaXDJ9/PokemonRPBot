@@ -1,6 +1,17 @@
 {
     "number": 293,
     "name": "Whismur",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Soundproof"
+        ],
+        "hidden": [
+            "Rattled"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

@@ -1,6 +1,11 @@
 {
     "number": 902,
     "name": "Basculegion",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Aqua Jet",

@@ -1,6 +1,19 @@
 {
     "number": 630,
     "name": "Mandibuzz",
+    "types": [
+        "Dark",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Big Pecks",
+            "Overcoat"
+        ],
+        "hidden": [
+            "Weak Armor"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bone Rush",

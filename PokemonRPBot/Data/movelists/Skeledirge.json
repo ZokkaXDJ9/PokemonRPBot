@@ -1,6 +1,18 @@
 {
     "number": 911,
     "name": "Skeledirge",
+    "types": [
+        "Fire",
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Blaze"
+        ],
+        "hidden": [
+            "Unaware"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ember",

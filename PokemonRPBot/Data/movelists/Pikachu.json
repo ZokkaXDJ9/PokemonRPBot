@@ -1,6 +1,17 @@
 {
     "number": 25,
     "name": "Pikachu",
+    "types": [
+        "Electric"
+    ],
+    "abilities": {
+        "normal": [
+            "Static"
+        ],
+        "hidden": [
+            "Lightning Rod"
+        ]
+    },
     "moves": {
         "bronze": [
             "Charm",

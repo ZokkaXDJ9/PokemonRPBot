@@ -1,6 +1,19 @@
 {
     "number": 952,
     "name": "Scovillain",
+    "types": [
+        "Grass",
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Chlorophyll",
+            "Insomnia"
+        ],
+        "hidden": [
+            "Moody"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

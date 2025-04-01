@@ -1,6 +1,19 @@
 {
     "number": 559,
     "name": "Scraggy",
+    "types": [
+        "Dark",
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Shed Skin",
+            "Moxie"
+        ],
+        "hidden": [
+            "Intimidate"
+        ]
+    },
     "moves": {
         "bronze": [
             "Faint Attack",

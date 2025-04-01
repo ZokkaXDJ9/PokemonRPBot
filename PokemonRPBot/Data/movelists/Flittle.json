@@ -1,6 +1,18 @@
 {
     "number": 955,
     "name": "Flittle",
+    "types": [
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Anticipation",
+            "Frisk"
+        ],
+        "hidden": [
+            "Speed Boost"
+        ]
+    },
     "moves": {
         "bronze": [
             "Baby-Doll Eyes",

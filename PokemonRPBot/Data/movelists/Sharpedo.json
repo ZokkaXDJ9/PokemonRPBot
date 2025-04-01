@@ -1,6 +1,18 @@
 {
     "number": 319,
     "name": "Sharpedo",
+    "types": [
+        "Water",
+        "Dark"
+    ],
+    "abilities": {
+        "normal": [
+            "Rough Skin"
+        ],
+        "hidden": [
+            "Speed Boost"
+        ]
+    },
     "moves": {
         "bronze": [
             "Aqua Jet",

@@ -1,6 +1,16 @@
 {
     "number": 798,
     "name": "Kartana",
+    "types": [
+        "Grass",
+        "Steel"
+    ],
+    "abilities": {
+        "normal": [
+            "Beast Boost"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "False Swipe",

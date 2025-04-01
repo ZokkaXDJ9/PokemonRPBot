@@ -1,6 +1,18 @@
 {
     "number": 833,
     "name": "Chewtle",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Strong Jaw",
+            "Shell Armor"
+        ],
+        "hidden": [
+            "Swift Swim"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

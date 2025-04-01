@@ -1,6 +1,18 @@
 {
     "number": 296,
     "name": "Makuhita",
+    "types": [
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Thick Fat",
+            "Guts"
+        ],
+        "hidden": [
+            "Sheer Force"
+        ]
+    },
     "moves": {
         "bronze": [
             "Arm Thrust",

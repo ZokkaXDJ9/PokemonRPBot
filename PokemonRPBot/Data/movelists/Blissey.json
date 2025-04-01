@@ -1,6 +1,18 @@
 {
     "number": 242,
     "name": "Blissey",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Natural Cure",
+            "Serene Grace"
+        ],
+        "hidden": [
+            "Healer"
+        ]
+    },
     "moves": {
         "bronze": [
             "Charm",

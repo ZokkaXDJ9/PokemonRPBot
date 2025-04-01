@@ -1,6 +1,18 @@
 {
     "number": 583,
     "name": "Vanillish",
+    "types": [
+        "Ice"
+    ],
+    "abilities": {
+        "normal": [
+            "Ice Body",
+            "Snow Cloak"
+        ],
+        "hidden": [
+            "Weak Armor"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

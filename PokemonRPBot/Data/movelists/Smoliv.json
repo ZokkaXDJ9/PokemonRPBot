@@ -1,6 +1,18 @@
 {
     "number": 928,
     "name": "Smoliv",
+    "types": [
+        "Grass",
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Early Bird"
+        ],
+        "hidden": [
+            "Harvest"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

@@ -1,6 +1,16 @@
 {
     "number": 343,
     "name": "Baltoy",
+    "types": [
+        "Ground",
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Levitate"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Confusion",

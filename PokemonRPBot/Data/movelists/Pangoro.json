@@ -1,6 +1,19 @@
 {
     "number": 675,
     "name": "Pangoro",
+    "types": [
+        "Fighting",
+        "Dark"
+    ],
+    "abilities": {
+        "normal": [
+            "Iron Fist",
+            "Mold Breaker"
+        ],
+        "hidden": [
+            "Scrappy"
+        ]
+    },
     "moves": {
         "bronze": [
             "Arm Thrust",

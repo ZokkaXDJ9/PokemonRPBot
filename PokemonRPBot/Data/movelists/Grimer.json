@@ -1,6 +1,18 @@
 {
     "number": 88,
     "name": "Grimer",
+    "types": [
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Stench",
+            "Sticky Hold"
+        ],
+        "hidden": [
+            "Poison Touch"
+        ]
+    },
     "moves": {
         "bronze": [
             "Disable",

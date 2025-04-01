@@ -1,6 +1,11 @@
 {
     "number": 1005,
     "name": "Roaring Moon",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Bite",

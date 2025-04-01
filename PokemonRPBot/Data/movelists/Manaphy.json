@@ -1,6 +1,15 @@
 {
     "number": 490,
     "name": "Manaphy",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Hydration"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Charm",

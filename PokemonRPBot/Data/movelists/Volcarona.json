@@ -1,6 +1,18 @@
 {
     "number": 637,
     "name": "Volcarona",
+    "types": [
+        "Bug",
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Flame Body"
+        ],
+        "hidden": [
+            "Swarm"
+        ]
+    },
     "moves": {
         "bronze": [
             "Absorb",

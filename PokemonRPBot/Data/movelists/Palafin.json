@@ -1,6 +1,11 @@
 {
     "number": 964,
     "name": "Palafin",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Astonish",

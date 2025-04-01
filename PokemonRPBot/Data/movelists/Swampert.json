@@ -1,6 +1,18 @@
 {
     "number": 260,
     "name": "Swampert",
+    "types": [
+        "Water",
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Torrent"
+        ],
+        "hidden": [
+            "Damp"
+        ]
+    },
     "moves": {
         "bronze": [
             "Earthquake",

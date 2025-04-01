@@ -1,6 +1,18 @@
 {
     "number": 90,
     "name": "Shellder",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Shell Armor",
+            "Skill Link"
+        ],
+        "hidden": [
+            "Overcoat"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ice Shard",

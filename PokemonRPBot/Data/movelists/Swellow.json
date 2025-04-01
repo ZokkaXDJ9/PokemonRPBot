@@ -1,6 +1,18 @@
 {
     "number": 277,
     "name": "Swellow",
+    "types": [
+        "Normal",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Guts"
+        ],
+        "hidden": [
+            "Scrappy"
+        ]
+    },
     "moves": {
         "bronze": [
             "Air Slash",

@@ -1,6 +1,17 @@
 {
     "number": 295,
     "name": "Exploud",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Soundproof"
+        ],
+        "hidden": [
+            "Scrappy"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

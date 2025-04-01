@@ -1,6 +1,18 @@
 {
     "number": 354,
     "name": "Banette",
+    "types": [
+        "Ghost"
+    ],
+    "abilities": {
+        "normal": [
+            "Insomnia",
+            "Frisk"
+        ],
+        "hidden": [
+            "Cursed Body"
+        ]
+    },
     "moves": {
         "bronze": [
             "Knock Off",

@@ -1,6 +1,19 @@
 {
     "number": 215,
     "name": "Sneasel",
+    "types": [
+        "Dark",
+        "Ice"
+    ],
+    "abilities": {
+        "normal": [
+            "Inner Focus",
+            "Keen Eye"
+        ],
+        "hidden": [
+            "Pickpocket"
+        ]
+    },
     "moves": {
         "bronze": [
             "Feint Attack",

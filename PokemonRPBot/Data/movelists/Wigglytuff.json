@@ -1,6 +1,19 @@
 {
     "number": 40,
     "name": "Wigglytuff",
+    "types": [
+        "Normal",
+        "Fairy"
+    ],
+    "abilities": {
+        "normal": [
+            "Cute Charm",
+            "Competitive"
+        ],
+        "hidden": [
+            "Frisk"
+        ]
+    },
     "moves": {
         "bronze": [
             "Body Slam",

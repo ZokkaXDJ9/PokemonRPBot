@@ -1,6 +1,19 @@
 {
     "number": 31,
     "name": "Nidoqueen",
+    "types": [
+        "Poison",
+        "Ground"
+    ],
+    "abilities": {
+        "normal": [
+            "Poison Point",
+            "Rivalry"
+        ],
+        "hidden": [
+            "Sheer Force"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bite",

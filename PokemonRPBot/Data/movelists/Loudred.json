@@ -1,6 +1,17 @@
 {
     "number": 294,
     "name": "Loudred",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Soundproof"
+        ],
+        "hidden": [
+            "Scrappy"
+        ]
+    },
     "moves": {
         "bronze": [
             "Astonish",

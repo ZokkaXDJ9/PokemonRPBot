@@ -1,6 +1,15 @@
 {
     "number": 493,
     "name": "Arceus",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Multitype"
+        ],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Cosmic Power",

@@ -1,6 +1,11 @@
 {
     "number": 986,
     "name": "Brute Bonnet",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Absorb",

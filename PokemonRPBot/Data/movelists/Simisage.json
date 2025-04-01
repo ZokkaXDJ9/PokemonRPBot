@@ -1,6 +1,17 @@
 {
     "number": 512,
     "name": "Simisage",
+    "types": [
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Gluttony"
+        ],
+        "hidden": [
+            "Overgrow"
+        ]
+    },
     "moves": {
         "bronze": [],
         "silver": [],

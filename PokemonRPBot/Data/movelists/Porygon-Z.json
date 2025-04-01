@@ -1,6 +1,18 @@
 {
     "number": 474,
     "name": "Porygon-Z",
+    "types": [
+        "Normal"
+    ],
+    "abilities": {
+        "normal": [
+            "Adaptability",
+            "Download"
+        ],
+        "hidden": [
+            "Analytic"
+        ]
+    },
     "moves": {
         "bronze": [
             "Conversion",

@@ -1,6 +1,18 @@
 {
     "number": 914,
     "name": "Quaquaval",
+    "types": [
+        "Water",
+        "Fighting"
+    ],
+    "abilities": {
+        "normal": [
+            "Torrent"
+        ],
+        "hidden": [
+            "Moxie"
+        ]
+    },
     "moves": {
         "bronze": [
             "Double Hit",

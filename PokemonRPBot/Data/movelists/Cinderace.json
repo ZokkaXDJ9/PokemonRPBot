@@ -1,6 +1,17 @@
 {
     "number": 815,
     "name": "Cinderace",
+    "types": [
+        "Fire"
+    ],
+    "abilities": {
+        "normal": [
+            "Blaze"
+        ],
+        "hidden": [
+            "Libero"
+        ]
+    },
     "moves": {
         "bronze": [
             "Ember",

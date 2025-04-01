@@ -1,6 +1,18 @@
 {
     "number": 116,
     "name": "Horsea",
+    "types": [
+        "Water"
+    ],
+    "abilities": {
+        "normal": [
+            "Swift Swim",
+            "Sniper"
+        ],
+        "hidden": [
+            "Damp"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bubble",

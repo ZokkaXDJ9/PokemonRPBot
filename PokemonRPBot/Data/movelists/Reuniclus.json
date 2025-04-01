@@ -1,6 +1,18 @@
 {
     "number": 579,
     "name": "Reuniclus",
+    "types": [
+        "Psychic"
+    ],
+    "abilities": {
+        "normal": [
+            "Overcoat",
+            "Magic Guard"
+        ],
+        "hidden": [
+            "Regenerator"
+        ]
+    },
     "moves": {
         "bronze": [
             "Confusion",

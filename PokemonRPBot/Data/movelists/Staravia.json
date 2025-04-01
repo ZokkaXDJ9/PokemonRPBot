@@ -1,6 +1,18 @@
 {
     "number": 397,
     "name": "Staravia",
+    "types": [
+        "Normal",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Intimidate"
+        ],
+        "hidden": [
+            "Reckless"
+        ]
+    },
     "moves": {
         "bronze": [
             "Growl",

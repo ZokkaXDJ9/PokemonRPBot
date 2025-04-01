@@ -1,6 +1,18 @@
 {
     "number": 15,
     "name": "Beedrill",
+    "types": [
+        "Bug",
+        "Poison"
+    ],
+    "abilities": {
+        "normal": [
+            "Swarm"
+        ],
+        "hidden": [
+            "Sniper"
+        ]
+    },
     "moves": {
         "bronze": [
             "Bug Bite",

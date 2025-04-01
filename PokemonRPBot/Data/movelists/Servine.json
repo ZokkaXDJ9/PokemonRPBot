@@ -1,6 +1,17 @@
 {
     "number": 496,
     "name": "Servine",
+    "types": [
+        "Grass"
+    ],
+    "abilities": {
+        "normal": [
+            "Overgrow"
+        ],
+        "hidden": [
+            "Contrary"
+        ]
+    },
     "moves": {
         "bronze": [
             "Leer",

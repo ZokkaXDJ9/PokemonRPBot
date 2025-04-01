@@ -1,6 +1,17 @@
 {
     "number": 401,
     "name": "Kricketot",
+    "types": [
+        "Bug"
+    ],
+    "abilities": {
+        "normal": [
+            "Shed Skin"
+        ],
+        "hidden": [
+            "Run Away"
+        ]
+    },
     "moves": {
         "bronze": [
             "Growl",

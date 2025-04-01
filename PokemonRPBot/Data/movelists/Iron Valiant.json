@@ -1,6 +1,11 @@
 {
     "number": 1006,
     "name": "Iron Valiant",
+    "types": [],
+    "abilities": {
+        "normal": [],
+        "hidden": []
+    },
     "moves": {
         "bronze": [
             "Disable",

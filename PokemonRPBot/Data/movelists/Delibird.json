@@ -1,6 +1,19 @@
 {
     "number": 225,
     "name": "Delibird",
+    "types": [
+        "Ice",
+        "Flying"
+    ],
+    "abilities": {
+        "normal": [
+            "Vital Spirit",
+            "Hustle"
+        ],
+        "hidden": [
+            "Insomnia"
+        ]
+    },
     "moves": {
         "bronze": [
             "Present"
