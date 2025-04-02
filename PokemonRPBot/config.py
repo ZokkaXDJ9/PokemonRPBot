@@ -17,6 +17,7 @@ COMMANDS = [
     "commands.timestamp",
     "commands.timestamp_tracker",
     "commands.minesweeper",
+    "commands.modmail",
     ]
 
 COMMANDS_NOT_LOADED = [

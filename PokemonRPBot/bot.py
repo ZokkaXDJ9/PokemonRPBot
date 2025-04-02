@@ -14,6 +14,7 @@ intents = discord.Intents.default()
 intents.message_content = True  # Enable message content intent
 intents.reactions = True         # Enable reaction intent
 intents.guilds = True            # Enable guilds intent
+intents.members = True  # This enables the members intent
 
 # Initialize bot with the updated intents
 bot = commands.Bot(command_prefix="!", intents=intents)

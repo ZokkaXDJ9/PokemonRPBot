@@ -16,7 +16,7 @@ class CritCommand(commands.Cog):
         self,
         interaction: discord.Interaction,
         damage: int,  # Rolled damage
-        stab: Literal["yes", "no"] = "no",  # Whether STAB is applied
+        stab: Literal["yes", "no", "double"] = "no",  # Whether STAB is applied
         item_bonus: int = 0,               # Items
         weather: int = 0,                  # Weather effects
         stat_boosts: int = 0,              # Stat boosts
@@ -27,7 +27,7 @@ class CritCommand(commands.Cog):
             "not_effective",
             "double_not_effective",
         ] = "neutral",
-        ignore_defense: Literal["yes", "no"] = "no"  # Affects critical multiplier
+        crit_multi: Literal["ignore defense (1.25x)", "normal (1.5x)", "sniper (2x)"] = "normal (1.5x)"  # Affects critical multiplier
     ):
         """
         Final Formula:
@@ -40,6 +40,8 @@ class CritCommand(commands.Cog):
         # Add STAB if applicable
         if stab == "yes":
             base_damage += 1
+        elif stab == "double":
+            base_damage +=2
 
         # Add super/double effective (additive portion)
         if effective == "super_effective":
@@ -54,7 +56,13 @@ class CritCommand(commands.Cog):
         base_damage += weather
 
         # 2. Critical multiplier
-        crit_multiplier = 1.25 if ignore_defense == "yes" else 1.5
+        if crit_multi == "ignore defense (1.25x)":
+            crit_multiplier = 1.25 
+        elif crit_multi == "normal (1.5x)":
+            crit_multiplier = 1.5
+        elif crit_multi == "sniper (2x)":
+            crit_multiplier = 2
+        
         total_damage = math.ceil(base_damage * crit_multiplier)
 
         # 3. Add stat boosts
