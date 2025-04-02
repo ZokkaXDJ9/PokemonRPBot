@@ -1,22 +1,11 @@
 {
-    "Name": "Heal Order",
-    "Type": "Bug",
-    "Power": 0,
-    "Damage1": "",
-    "Damage2": "",
-    "Accuracy1": "Tough",
-    "Accuracy2": "Nature",
-    "Target": "User",
-    "Effect": "Basic Heal.",
-    "Description": "The Pokemon commands its swarm to bring some healing honey.",
-    "_id": "heal-order",
-    "Attributes": {},
-    "AddedEffects": {
-        "Heal": {
-            "Type": "Basic",
-            "Target": "Targets",
-            "WillPointCost": 1
-        }
-    },
-    "Category": "Support"
+  "name": "Heal Order",
+  "type": "Bug",
+  "power": 0,
+  "damage": "",
+  "accuracy": "Tough",
+  "target": "User or Ally",
+  "effect": "Heal 5 HP. If the User has an active Bug-Type ally, Heal 7 HP instead. If successful spend 1 Will to activate.",
+  "description": "The Pokemon commands its swarm to bring some healing honey.",
+  "category": "Support"
 }

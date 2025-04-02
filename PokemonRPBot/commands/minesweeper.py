@@ -68,7 +68,9 @@ class MinesweeperView(discord.ui.View):
         for i in range(rows):
             for j in range(columns):
                 button = MinesweeperButton(i, j)
+                button.row = i  # Set the button's row explicitly
                 self.add_item(button)
+
 
     def generate_board(self):
         # Create an empty board.

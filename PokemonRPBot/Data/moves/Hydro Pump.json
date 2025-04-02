@@ -1,18 +1,11 @@
 {
-    "Name": "Hydro Pump",
-    "Type": "Water",
-    "Power": 5,
-    "Damage1": "Special",
-    "Damage2": "",
-    "Accuracy1": "Special",
-    "Accuracy2": "Channel",
-    "Target": "Foe",
-    "Effect": "-1 Accuracy.",
-    "Description": "The user builds up pressure inside its body and then releases a tremendous amount of water at the target.",
-    "_id": "hydro-pump",
-    "Attributes": {
-        "AccuracyReduction": 1
-    },
-    "AddedEffects": {},
-    "Category": "Special"
+  "name": "Hydro Pump",
+  "type": "Water",
+  "power": 5,
+  "damage": "Special",
+  "accuracy": "Special",
+  "target": "Foe",
+  "effect": "Inflicts Wounds. -2 Accuracy",
+  "description": "The user builds up pressure inside its body and then releases a tremendous amount of water at the target.",
+  "category": "Special"
 }

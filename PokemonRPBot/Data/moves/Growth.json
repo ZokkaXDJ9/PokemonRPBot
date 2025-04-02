@@ -1,27 +1,11 @@
 {
-    "Name": "Growth",
-    "Type": "Normal",
-    "Power": 0,
-    "Damage1": "",
-    "Damage2": "",
-    "Accuracy1": "Special",
-    "Accuracy2": "Nature",
-    "Target": "User",
-    "Effect": "Increase the User's Strength and Special.",
-    "Description": "The Pokemon expands its body. It grows bigger and stronger.",
-    "_id": "growth",
-    "Attributes": {},
-    "AddedEffects": {
-        "StatChanges": [
-            {
-                "Stats": [
-                    "Strength",
-                    "Special"
-                ],
-                "Stages": 1,
-                "Affects": "User"
-            }
-        ]
-    },
-    "Category": "Support"
+  "name": "Growth",
+  "type": "Normal",
+  "power": 0,
+  "damage": "",
+  "accuracy": "Special",
+  "target": "User",
+  "effect": "Increases the User's Strength and Special by 1. If Sunny Weather is in effect, the User's Strength and Special are instead increased by 2.",
+  "description": "The pokemon expands it's body. It grows bigger and stronger",
+  "category": "Support"
 }

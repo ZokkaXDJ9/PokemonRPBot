@@ -16,6 +16,7 @@ COMMANDS = [
     "commands.mtemplate",
     "commands.timestamp",
     "commands.timestamp_tracker",
+    "commands.minesweeper",
     ]
 
 COMMANDS_NOT_LOADED = [
