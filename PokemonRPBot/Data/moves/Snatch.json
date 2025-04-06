@@ -1,16 +1,11 @@
 {
-    "Name": "Snatch",
-    "Type": "Dark",
-    "Power": 0,
-    "Damage1": "",
-    "Damage2": "",
-    "Accuracy1": "Clever",
-    "Accuracy2": "Stealth",
-    "Target": "Foe",
-    "Effect": "Erase any Increase or Decrease on the foe's Traits, and place them on the User instead.",
-    "Description": "The user analyzes the advantages of the foe then makes them their own.",
-    "_id": "snatch",
-    "Attributes": {},
-    "AddedEffects": {},
-    "Category": "Support"
+  "name": "Snatch",
+  "type": "Dark",
+  "power": 0,
+  "damage": "",
+  "accuracy": "Clever",
+  "target": "Foe",
+  "effect": "Reaction. Redirect the effects of one beneficial Support Move that would affect the instigating foe or one or more of their Allies/their side of the battlefield, towards the User/the User's side of the battlefield respectively (ie. The foe used Reflect, with Snatch it will now affect the User's side of the battlefield instead of the target's).",
+  "description": "The user analyzes the advantages of the foe then makes them their own.",
+  "category": "Support"
 }

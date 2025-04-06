@@ -1,23 +1,11 @@
 {
-    "Name": "Ingrain",
-    "Type": "Grass",
-    "Power": 0,
-    "Damage1": "",
-    "Damage2": "",
-    "Accuracy1": "Special",
-    "Accuracy2": "Nature",
-    "Target": "User",
-    "Effect": "User Heals 1 HP at the end of every Round. While this move is active the User is now Blocked.",
-    "Description": "The Pokemon roots itself to the ground, absorbing the nutrients and recovering health.",
-    "_id": "ingrain",
-    "Attributes": {},
-    "AddedEffects": {
-        "Ailments": [
-            {
-                "Type": "Ingrain",
-                "Affects": "Targets"
-            }
-        ]
-    },
-    "Category": "Support"
+  "name": "Ingrain",
+  "type": "Grass",
+  "power": 0,
+  "damage": "",
+  "accuracy": "Special",
+  "target": "User",
+  "effect": "If successful spend 1 Will point to activate. At the end of each Round, recover 2 HP. If Pollen Storm Weather is active recover 3 HP instead. The User's initiative cannot be overwritten by opponent's moves, but the User also cannot Dodge. Lasts 4 Rounds.",
+  "description": "The Pokemon roots itself to the ground, absorbing the nutrients and recovering health.",
+  "category": "Support"
 }

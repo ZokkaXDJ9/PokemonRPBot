@@ -1,26 +1,11 @@
 {
-    "Name": "Flare Blitz",
-    "Type": "Fire",
-    "Power": 5,
-    "Damage1": "Strength",
-    "Damage2": "",
-    "Accuracy1": "Strength",
-    "Accuracy2": "Brawl",
-    "Target": "Foe",
-    "Effect": "Recoil. Roll 1 Chance Dice to Apply Burn to the foe.",
-    "Description": "The user sets itself on fire, recklessly charging against the target with a brutal strike.",
-    "_id": "flare-blitz",
-    "Attributes": {
-        "Recoil": true
-    },
-    "AddedEffects": {
-        "Ailments": [
-            {
-                "Type": "Burn3",
-                "Affects": "Targets",
-                "ChanceDice": 1
-            }
-        ]
-    },
-    "Category": "Physical"
+  "name": "Flare Blitz",
+  "type": "Fire",
+  "power": 5,
+  "damage": "Strength",
+  "accuracy": "Strength",
+  "target": "Foe",
+  "effect": "Recoil. Roll 2 Chance Dice to Apply Burn to the foe. Cures the User of the Frostbite status.",
+  "description": "The user sets itself on fire, recklessly charging against the target with a brutal strike.",
+  "category": "Physical"
 }

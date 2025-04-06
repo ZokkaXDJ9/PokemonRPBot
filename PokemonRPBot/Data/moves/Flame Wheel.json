@@ -1,24 +1,11 @@
 {
-    "Name": "Flame Wheel",
-    "Type": "Fire",
-    "Power": 2,
-    "Damage1": "Strength",
-    "Damage2": "",
-    "Accuracy1": "Dexterity",
-    "Accuracy2": "Brawl",
-    "Target": "Foe",
-    "Effect": "Roll 1 Chance Dice to Burn the foe.",
-    "Description": "The user cloaks itself in flames and rolls to tackle the target.",
-    "_id": "flame-wheel",
-    "Attributes": {},
-    "AddedEffects": {
-        "Ailments": [
-            {
-                "Type": "Burn",
-                "Affects": "Targets",
-                "ChanceDice": 1
-            }
-        ]
-    },
-    "Category": "Physical"
+  "name": "Flame Wheel",
+  "type": "Fire",
+  "power": 2,
+  "damage": "Strength",
+  "accuracy": "Dexterity",
+  "target": "Foe",
+  "effect": "Roll 3 Chance Dice to Burn the foe. Cures the User of the Frostbite status. If Sunny Weather is active add 2 Extra Dice to the Damage Pool.",
+  "description": "The user cloaks itself in flames and rolls to tackle the target.",
+  "category": "Physical"
 }

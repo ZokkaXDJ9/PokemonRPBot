@@ -85,8 +85,8 @@ class ModMail(commands.Cog):
         #   - user_id: (optional) The ID of the user who submitted the mod mail (if not anonymous).
         self.mod_mail_records = {}
         # Configure your moderator role ID and mod notification channel ID here:
-        self.mod_role_id = 1357075993302405160       # Replace with your moderator role ID.
-        self.mod_notification_channel_id = 1357076413211218031  # Replace with your notification channel ID.
+        self.mod_role_id = 1271553707355541594       # Replace with your moderator role ID.
+        self.mod_notification_channel_id = 1357082399044931695  # Replace with your notification channel ID.
 
         self.load_mod_mail_records()
 

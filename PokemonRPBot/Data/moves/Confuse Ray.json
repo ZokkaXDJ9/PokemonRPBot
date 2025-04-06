@@ -1,23 +1,11 @@
 {
-    "Name": "Confuse Ray",
-    "Type": "Ghost",
-    "Power": 0,
-    "Damage1": "",
-    "Damage2": "",
-    "Accuracy1": "Insight",
-    "Accuracy2": "Nature",
-    "Target": "Foe",
-    "Effect": "Confuse the foe.",
-    "Description": "The user flashes a sinister ray of bright light that leaves the target disoriented and confused.",
-    "_id": "confuse-ray",
-    "Attributes": {},
-    "AddedEffects": {
-        "Ailments": [
-            {
-                "Type": "Confuse",
-                "Affects": "Targets"
-            }
-        ]
-    },
-    "Category": "Support"
+  "name": "Confuse Ray",
+  "type": "Ghost",
+  "power": 0,
+  "damage": "",
+  "accuracy": "Insight",
+  "target": "Foe",
+  "effect": "Confuse the Foe. If Eerie Fog Weather is active Burn the Foe.",
+  "description": "The user flashes a sinister ray of bright light that leaves the target disoriented and confused.",
+  "category": "Support"
 }

@@ -1,25 +1,11 @@
 {
-    "Name": "Sweet Kiss",
-    "Type": "Fairy",
-    "Power": 0,
-    "Damage1": "",
-    "Damage2": "",
-    "Accuracy1": "Cute",
-    "Accuracy2": "Allure",
-    "Target": "Foe",
-    "Effect": "Confuse the foe. -2 Accuracy.",
-    "Description": "The Pokemon moves towards the foe and plants a delicate kiss on its cheek, then leaves playfully. The foe struggles to know what it meant.",
-    "_id": "sweet-kiss",
-    "Attributes": {
-        "AccuracyReduction": 2
-    },
-    "AddedEffects": {
-        "Ailments": [
-            {
-                "Type": "Confuse",
-                "Affects": "Targets"
-            }
-        ]
-    },
-    "Category": "Support"
+  "name": "Sweet Kiss",
+  "type": "Fairy",
+  "power": 0,
+  "damage": "",
+  "accuracy": "Cute",
+  "target": "Foe",
+  "effect": "Confuse the foe. -2 Accuracy. If Fairy Dust Weather is active when this move is used, the foe will use it's higher stat from Strength and Special to determine the self damage of Confused.",
+  "description": "The Pokemon moves towards the foe and plants a delicate kiss on its cheek, then leaves playfully. The foe struggles to know what it meant.",
+  "category": "Support"
 }

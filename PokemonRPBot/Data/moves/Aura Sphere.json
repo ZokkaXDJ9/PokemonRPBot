@@ -1,18 +1,11 @@
 {
-    "Name": "Aura Sphere",
-    "Type": "Fighting",
-    "Power": 3,
-    "Damage1": "Special",
-    "Damage2": "",
-    "Accuracy1": "Dexterity",
-    "Accuracy2": "Channel",
-    "Target": "Foe",
-    "Effect": "Never Fail.",
-    "Description": "The user channels its aura and launches this power in the form of a sphere The foe's aura is hit, leaving the target unscratched but deeply hurt.",
-    "_id": "aura-sphere",
-    "Attributes": {
-        "NeverFail": true
-    },
-    "AddedEffects": {},
-    "Category": "Special"
+  "name": "Aura Sphere",
+  "type": "Fighting",
+  "power": 3,
+  "damage": "Special",
+  "accuracy": "Dexterity",
+  "target": "Foe",
+  "effect": "Never Fail. If Aura Field Weather is active add 2 Extra Dice to the Damage Pool.",
+  "description": "The user channels its aura and launches this power in the form of a sphere The foe's aura is hit, leaving the target unscratched but deeply hurt.",
+  "category": "Special"
 }

@@ -1,26 +1,11 @@
 {
-    "Name": "Thunder Punch",
-    "Type": "Electric",
-    "Power": 3,
-    "Damage1": "Strength",
-    "Damage2": "",
-    "Accuracy1": "Dexterity",
-    "Accuracy2": "Brawl",
-    "Target": "Foe",
-    "Effect": "Fist Based. Roll 1 Chance Dice to Paralyze foe.",
-    "Description": "An Electrified punch to deal a shocking blow.",
-    "_id": "thunder-punch",
-    "Attributes": {
-        "FistBased": true
-    },
-    "AddedEffects": {
-        "Ailments": [
-            {
-                "Type": "Paralyze",
-                "Affects": "Targets",
-                "ChanceDice": 1
-            }
-        ]
-    },
-    "Category": "Physical"
+  "name": "Thunder Punch",
+  "type": "Electric",
+  "power": 3,
+  "damage": "Strength",
+  "accuracy": "Dexterity",
+  "target": "Foe",
+  "effect": "Fist Based. Roll 3 Chance Dice to Paralyze the foe.",
+  "description": "An Electrified punch to deal a shocking blow.",
+  "category": "Physical"
 }

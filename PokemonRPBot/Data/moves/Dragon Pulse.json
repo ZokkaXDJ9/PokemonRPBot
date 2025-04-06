@@ -1,16 +1,11 @@
 {
-    "Name": "Dragon Pulse",
-    "Type": "Dragon",
-    "Power": 3,
-    "Damage1": "Special",
-    "Damage2": "",
-    "Accuracy1": "Dexterity",
-    "Accuracy2": "Channel",
-    "Target": "Foe",
-    "Effect": "-",
-    "Description": "The user opens its mouth and sends a powerful wave of energy.",
-    "_id": "dragon-pulse",
-    "Attributes": {},
-    "AddedEffects": {},
-    "Category": "Special"
+  "name": "Dragon Pulse",
+  "type": "Dragon",
+  "power": 3,
+  "damage": "Special",
+  "accuracy": "Dexterity",
+  "target": "Foe",
+  "effect": "If Arcane Domain Weather is active Reduce the Foe's Special Defense.",
+  "description": "The user opens its mouth and sends a powerful wave of energy.",
+  "category": "Special"
 }
