@@ -1,11 +1,23 @@
 {
     "number": 386,
     "name": "Deoxys",
-    "types": ["Psychic"],
+    "types": [
+        "Psychic"
+    ],
     "abilities": {
-        "normal": ["Pressure"],
-        "hidden": ["Alien Genome"]
+        "normal": [
+            "Pressure"
+        ],
+        "hidden": [
+            "Alien Genome"
+        ]
     },
+    "base_hp": 4,
+    "strength": "8/8",
+    "dexterity": "8/8",
+    "vitality": "4/4",
+    "special": "8/8",
+    "insight": "4/4",
     "moves": {
         "bronze": [
             "Leer",

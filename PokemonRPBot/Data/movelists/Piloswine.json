@@ -14,6 +14,12 @@
             "Thick Fat"
         ]
     },
+    "base_hp": 6,
+    "strength": "3/6",
+    "dexterity": "2/4",
+    "vitality": "2/5",
+    "special": "2/4",
+    "insight": "2/4",
     "moves": {
         "bronze": [
             "Ancient Power",

@@ -12,6 +12,12 @@
             "Drought"
         ]
     },
+    "base_hp": 4,
+    "strength": "2/5",
+    "dexterity": "3/6",
+    "vitality": "2/5",
+    "special": "2/5",
+    "insight": "3/6",
     "moves": {
         "bronze": [
             "Confuse Ray",

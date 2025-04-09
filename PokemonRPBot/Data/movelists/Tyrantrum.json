@@ -13,6 +13,12 @@
             "Rock Head"
         ]
     },
+    "base_hp": 5,
+    "strength": "3/7",
+    "dexterity": "2/5",
+    "vitality": "3/7",
+    "special": "2/4",
+    "insight": "2/4",
     "moves": {
         "bronze": [
             "Ancient Power",

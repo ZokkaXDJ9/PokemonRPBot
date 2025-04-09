@@ -11,6 +11,12 @@
         ],
         "hidden": []
     },
+    "base_hp": 4,
+    "strength": "3/7",
+    "dexterity": "2/4",
+    "vitality": "1/3",
+    "special": "2/5",
+    "insight": "1/3",
     "moves": {
         "bronze": [
             "Double Team",

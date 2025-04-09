@@ -1,11 +1,23 @@
 {
     "number": 641,
     "name": "Tornadus",
-    "types": ["Flying"],
+    "types": [
+        "Flying"
+    ],
     "abilities": {
-        "normal": ["Prankster"],
-        "hidden": ["Defiant"]
+        "normal": [
+            "Prankster"
+        ],
+        "hidden": [
+            "Defiant"
+        ]
     },
+    "base_hp": 5,
+    "strength": "7/7",
+    "dexterity": "7/7",
+    "vitality": "4/4",
+    "special": "7/7",
+    "insight": "5/5",
     "moves": {
         "bronze": [
             "Astonish",

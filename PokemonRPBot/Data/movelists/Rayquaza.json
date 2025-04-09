@@ -11,6 +11,12 @@
         ],
         "hidden": []
     },
+    "base_hp": 6,
+    "strength": "9/9",
+    "dexterity": "6/6",
+    "vitality": "5/5",
+    "special": "9/9",
+    "insight": "5/5",
     "moves": {
         "bronze": [
             "Air Slash",

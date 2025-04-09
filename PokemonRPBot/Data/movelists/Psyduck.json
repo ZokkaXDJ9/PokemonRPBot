@@ -13,6 +13,12 @@
             "Swift Swim"
         ]
     },
+    "base_hp": 3,
+    "strength": "2/4",
+    "dexterity": "2/4",
+    "vitality": "1/3",
+    "special": "2/4",
+    "insight": "2/4",
     "moves": {
         "bronze": [
             "Confusion",

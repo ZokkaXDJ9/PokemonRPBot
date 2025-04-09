@@ -10,6 +10,12 @@
         ],
         "hidden": []
     },
+    "base_hp": 9,
+    "strength": "4/9",
+    "dexterity": "3/6",
+    "vitality": "3/6",
+    "special": "3/6",
+    "insight": "2/4",
     "moves": {
         "bronze": [
             "Encore",

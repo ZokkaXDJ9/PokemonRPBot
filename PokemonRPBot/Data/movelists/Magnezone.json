@@ -14,6 +14,12 @@
             "Analytic"
         ]
     },
+    "base_hp": 4,
+    "strength": "2/4",
+    "dexterity": "2/4",
+    "vitality": "3/7",
+    "special": "4/8",
+    "insight": "3/6",
     "moves": {
         "bronze": [
             "Electric Terrain",

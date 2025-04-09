@@ -13,6 +13,12 @@
             "Gooey"
         ]
     },
+    "base_hp": 6,
+    "strength": "3/6",
+    "dexterity": "2/5",
+    "vitality": "2/4",
+    "special": "3/7",
+    "insight": "4/8",
     "moves": {
         "bronze": [
             "Absorb",

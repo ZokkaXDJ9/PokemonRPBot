@@ -10,6 +10,12 @@
         ],
         "hidden": []
     },
+    "base_hp": 3,
+    "strength": "2/2",
+    "dexterity": "3/3",
+    "vitality": "8/8",
+    "special": "3/3",
+    "insight": "8/8",
     "moves": {
         "bronze": [
             "Cosmic Power",

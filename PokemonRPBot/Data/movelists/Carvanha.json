@@ -13,6 +13,12 @@
             "Speed Boost"
         ]
     },
+    "base_hp": 3,
+    "strength": "3/6",
+    "dexterity": "2/4",
+    "vitality": "1/2",
+    "special": "2/4",
+    "insight": "1/2",
     "moves": {
         "bronze": [
             "Aqua Jet",

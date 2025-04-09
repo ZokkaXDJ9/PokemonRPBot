@@ -11,6 +11,12 @@
         ],
         "hidden": []
     },
+    "base_hp": 6,
+    "strength": "4/8",
+    "dexterity": "2/5",
+    "vitality": "4/8",
+    "special": "2/4",
+    "insight": "2/4",
     "moves": {
         "bronze": [
             "Comet Punch",

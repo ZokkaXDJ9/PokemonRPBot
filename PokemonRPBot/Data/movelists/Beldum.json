@@ -13,6 +13,12 @@
             "Light Metal"
         ]
     },
+    "base_hp": 3,
+    "strength": "2/4",
+    "dexterity": "1/2",
+    "vitality": "2/5",
+    "special": "1/3",
+    "insight": "2/4",
     "moves": {
         "bronze": [
             "Tackle"

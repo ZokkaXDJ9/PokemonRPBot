@@ -14,6 +14,12 @@
             "Overcoat"
         ]
     },
+    "base_hp": 5,
+    "strength": "3/7",
+    "dexterity": "2/5",
+    "vitality": "3/7",
+    "special": "3/6",
+    "insight": "3/6",
     "moves": {
         "bronze": [
             "Autotomize",

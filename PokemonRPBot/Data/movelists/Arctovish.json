@@ -14,6 +14,12 @@
             "Slush Rush"
         ]
     },
+    "base_hp": 5,
+    "strength": "3/6",
+    "dexterity": "2/4",
+    "vitality": "3/6",
+    "special": "2/5",
+    "insight": "2/5",
     "moves": {
         "bronze": [
             "Powder Snow",

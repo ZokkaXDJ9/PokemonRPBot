@@ -13,6 +13,12 @@
             "Justified"
         ]
     },
+    "base_hp": 4,
+    "strength": "3/7",
+    "dexterity": "2/5",
+    "vitality": "2/4",
+    "special": "2/5",
+    "insight": "2/4",
     "moves": {
         "bronze": [
             "Double Team",

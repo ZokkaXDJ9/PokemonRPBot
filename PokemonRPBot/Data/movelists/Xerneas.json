@@ -10,6 +10,12 @@
         ],
         "hidden": []
     },
+    "base_hp": 7,
+    "strength": "7/7",
+    "dexterity": "6/6",
+    "vitality": "6/6",
+    "special": "8/8",
+    "insight": "6/6",
     "moves": {
         "bronze": [
             "Aurora Beam",

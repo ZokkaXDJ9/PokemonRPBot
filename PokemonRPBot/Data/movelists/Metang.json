@@ -13,6 +13,12 @@
             "Light Metal"
         ]
     },
+    "base_hp": 4,
+    "strength": "2/5",
+    "dexterity": "1/3",
+    "vitality": "3/6",
+    "special": "2/4",
+    "insight": "2/5",
     "moves": {
         "bronze": [
             "Bullet Punch",

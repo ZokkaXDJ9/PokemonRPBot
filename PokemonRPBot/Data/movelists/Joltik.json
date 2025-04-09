@@ -14,6 +14,12 @@
             "Swarm"
         ]
     },
+    "base_hp": 3,
+    "strength": "1/3",
+    "dexterity": "2/4",
+    "vitality": "2/4",
+    "special": "2/4",
+    "insight": "2/4",
     "moves": {
         "bronze": [
             "Absorb",

@@ -13,6 +13,12 @@
             "Shell Armor"
         ]
     },
+    "base_hp": 5,
+    "strength": "2/5",
+    "dexterity": "1/2",
+    "vitality": "4/8",
+    "special": "2/5",
+    "insight": "2/5",
     "moves": {
         "bronze": [
             "Curse",

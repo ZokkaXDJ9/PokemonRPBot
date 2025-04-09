@@ -13,6 +13,12 @@
             "Lightning Rod"
         ]
     },
+    "base_hp": 5,
+    "strength": "3/6",
+    "dexterity": "2/5",
+    "vitality": "2/4",
+    "special": "2/4",
+    "insight": "2/5",
     "moves": {
         "bronze": [
             "Horn Attack",

@@ -13,6 +13,12 @@
             "Unnerve"
         ]
     },
+    "base_hp": 6,
+    "strength": "4/8",
+    "dexterity": "2/4",
+    "vitality": "3/6",
+    "special": "3/6",
+    "insight": "3/6",
     "moves": {
         "bronze": [
             "Bite",

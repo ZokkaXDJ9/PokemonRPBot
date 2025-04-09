@@ -14,6 +14,12 @@
             "Mold Breaker"
         ]
     },
+    "base_hp": 7,
+    "strength": "4/8",
+    "dexterity": "2/5",
+    "vitality": "2/4",
+    "special": "1/3",
+    "insight": "2/4",
     "moves": {
         "bronze": [
             "Hone Claws",

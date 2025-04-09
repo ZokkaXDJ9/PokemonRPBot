@@ -14,6 +14,12 @@
             "Unnerve"
         ]
     },
+    "base_hp": 5,
+    "strength": "3/6",
+    "dexterity": "3/8",
+    "vitality": "2/4",
+    "special": "2/4",
+    "insight": "2/5",
     "moves": {
         "bronze": [
             "Agility",

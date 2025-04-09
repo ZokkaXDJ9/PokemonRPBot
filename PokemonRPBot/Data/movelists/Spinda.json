@@ -13,6 +13,12 @@
             "Contrary"
         ]
     },
+    "base_hp": 4,
+    "strength": "2/4",
+    "dexterity": "2/4",
+    "vitality": "2/4",
+    "special": "2/4",
+    "insight": "2/4",
     "moves": {
         "bronze": [
             "Copycat",

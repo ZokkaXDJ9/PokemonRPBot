@@ -10,6 +10,12 @@
         ],
         "hidden": []
     },
+    "base_hp": 6,
+    "strength": "6/6",
+    "dexterity": "5/5",
+    "vitality": "6/6",
+    "special": "7/7",
+    "insight": "7/7",
     "moves": {
         "bronze": [
             "Charge Beam",

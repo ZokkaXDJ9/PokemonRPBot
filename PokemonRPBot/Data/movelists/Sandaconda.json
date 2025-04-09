@@ -13,6 +13,12 @@
             "Sand Veil"
         ]
     },
+    "base_hp": 5,
+    "strength": "3/6",
+    "dexterity": "2/5",
+    "vitality": "3/7",
+    "special": "2/4",
+    "insight": "2/5",
     "moves": {
         "bronze": [
             "Brutal Swing",

@@ -14,6 +14,12 @@
             "Swift Swim"
         ]
     },
+    "base_hp": 6,
+    "strength": "3/6",
+    "dexterity": "2/4",
+    "vitality": "3/6",
+    "special": "2/4",
+    "insight": "2/6",
     "moves": {
         "bronze": [
             "Belly Drum",

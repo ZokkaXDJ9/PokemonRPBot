@@ -14,6 +14,12 @@
             "Speed Boost"
         ]
     },
+    "base_hp": 3,
+    "strength": "2/4",
+    "dexterity": "1/3",
+    "vitality": "3/6",
+    "special": "1/3",
+    "insight": "2/5",
     "moves": {
         "bronze": [
             "Defense Curl",

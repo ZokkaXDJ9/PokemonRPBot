@@ -14,6 +14,12 @@
             "Speed Boost"
         ]
     },
+    "base_hp": 4,
+    "strength": "2/6",
+    "dexterity": "3/7",
+    "vitality": "2/5",
+    "special": "2/4",
+    "insight": "2/4",
     "moves": {
         "bronze": [
             "Baton Pass",

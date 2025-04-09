@@ -13,6 +13,12 @@
             "Snow Warning"
         ]
     },
+    "base_hp": 7,
+    "strength": "2/5",
+    "dexterity": "2/4",
+    "vitality": "2/4",
+    "special": "3/6",
+    "insight": "3/6",
     "moves": {
         "bronze": [
             "Ancient Power",

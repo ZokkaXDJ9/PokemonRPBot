@@ -12,6 +12,12 @@
             "Sheer Force"
         ]
     },
+    "base_hp": 6,
+    "strength": "3/6",
+    "dexterity": "2/5",
+    "vitality": "3/6",
+    "special": "2/5",
+    "insight": "2/5",
     "moves": {
         "bronze": [
             "Agility",

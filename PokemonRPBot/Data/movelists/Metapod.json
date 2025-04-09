@@ -10,6 +10,12 @@
         ],
         "hidden": []
     },
+    "base_hp": 4,
+    "strength": "1/2",
+    "dexterity": "1/2",
+    "vitality": "2/4",
+    "special": "1/2",
+    "insight": "1/2",
     "moves": {
         "bronze": [
             "Harden"

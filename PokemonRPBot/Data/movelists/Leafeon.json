@@ -12,6 +12,12 @@
             "Chlorophyll"
         ]
     },
+    "base_hp": 4,
+    "strength": "3/7",
+    "dexterity": "3/6",
+    "vitality": "3/7",
+    "special": "2/4",
+    "insight": "2/4",
     "moves": {
         "bronze": [
             "Baby-Doll Eyes",

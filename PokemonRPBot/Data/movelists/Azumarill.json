@@ -14,6 +14,12 @@
             "Sap Sipper"
         ]
     },
+    "base_hp": 6,
+    "strength": "1/3",
+    "dexterity": "2/4",
+    "vitality": "2/5",
+    "special": "2/4",
+    "insight": "2/5",
     "moves": {
         "bronze": [
             "Bubble",

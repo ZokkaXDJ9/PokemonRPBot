@@ -1,11 +1,25 @@
 {
     "number": 711,
     "name": "Gourgeist",
-    "types": ["Ghost", "Grass"],
+    "types": [
+        "Ghost",
+        "Grass"
+    ],
     "abilities": {
-        "normal": ["Pickup", "Frisk"],
-        "hidden": ["Insomnia"]
+        "normal": [
+            "Pickup",
+            "Frisk"
+        ],
+        "hidden": [
+            "Insomnia"
+        ]
     },
+    "base_hp": 4,
+    "strength": "3/6",
+    "dexterity": "2/5",
+    "vitality": "3/7",
+    "special": "2/4",
+    "insight": "2/5",
     "moves": {
         "bronze": [
             "Astonish",

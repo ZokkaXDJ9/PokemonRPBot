@@ -14,6 +14,12 @@
             "Technician"
         ]
     },
+    "base_hp": 4,
+    "strength": "4/8",
+    "dexterity": "2/4",
+    "vitality": "2/5",
+    "special": "2/4",
+    "insight": "2/4",
     "moves": {
         "bronze": [
             "Absorb",

@@ -12,6 +12,12 @@
             "Unaware"
         ]
     },
+    "base_hp": 4,
+    "strength": "2/4",
+    "dexterity": "1/1",
+    "vitality": "4/8",
+    "special": "1/2",
+    "insight": "4/8",
     "moves": {
         "bronze": [
             "Baton Pass",

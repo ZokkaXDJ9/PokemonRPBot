@@ -13,6 +13,12 @@
             "Soundproof"
         ]
     },
+    "base_hp": 5,
+    "strength": "3/6",
+    "dexterity": "2/4",
+    "vitality": "2/5",
+    "special": "3/6",
+    "insight": "2/5",
     "moves": {
         "bronze": [
             "Aurora Veil",

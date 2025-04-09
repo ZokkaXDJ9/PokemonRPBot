@@ -1,11 +1,25 @@
 {
     "number": 59,
     "name": "Arcanine (Hisuian)",
-    "types": ["Fire", "Rock"],
+    "types": [
+        "Fire",
+        "Rock"
+    ],
     "abilities": {
-        "normal": ["Intimidate", "Flash Fire"],
-        "hidden": ["Rock Head"]
+        "normal": [
+            "Intimidate",
+            "Flash Fire"
+        ],
+        "hidden": [
+            "Rock Head"
+        ]
     },
+    "base_hp": 6,
+    "strength": "3/7",
+    "dexterity": "2/5",
+    "vitality": "2/5",
+    "special": "3/6",
+    "insight": "2/5",
     "moves": {
         "bronze": [
             "Tackle",

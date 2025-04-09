@@ -13,6 +13,12 @@
             "Cursed Body"
         ]
     },
+    "base_hp": 4,
+    "strength": "3/7",
+    "dexterity": "2/4",
+    "vitality": "2/5",
+    "special": "2/5",
+    "insight": "2/4",
     "moves": {
         "bronze": [
             "Knock Off",

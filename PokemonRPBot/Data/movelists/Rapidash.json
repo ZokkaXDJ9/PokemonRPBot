@@ -13,6 +13,12 @@
             "Flame Body"
         ]
     },
+    "base_hp": 4,
+    "strength": "3/6",
+    "dexterity": "3/6",
+    "vitality": "2/5",
+    "special": "2/5",
+    "insight": "2/5",
     "moves": {
         "bronze": [
             "Ember",

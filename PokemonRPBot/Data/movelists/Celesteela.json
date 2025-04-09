@@ -11,6 +11,12 @@
         ],
         "hidden": []
     },
+    "base_hp": 9,
+    "strength": "3/6",
+    "dexterity": "2/4",
+    "vitality": "3/6",
+    "special": "3/6",
+    "insight": "3/6",
     "moves": {
         "bronze": [
             "Absorb",

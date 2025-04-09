@@ -13,6 +13,12 @@
             "Analytic"
         ]
     },
+    "base_hp": 2,
+    "strength": "1/3",
+    "dexterity": "2/5",
+    "vitality": "2/4",
+    "special": "2/5",
+    "insight": "2/4",
     "moves": {
         "bronze": [
             "Confuse Ray",

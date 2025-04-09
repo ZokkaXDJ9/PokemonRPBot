@@ -1,11 +1,23 @@
 {
     "number": 865,
     "name": "Sirfetch'd",
-    "types": ["Fighting"],
+    "types": [
+        "Fighting"
+    ],
     "abilities": {
-        "normal": ["Steadfast"],
-        "hidden": ["Scrappy"]
+        "normal": [
+            "Steadfast"
+        ],
+        "hidden": [
+            "Scrappy"
+        ]
     },
+    "base_hp": 4,
+    "strength": "4/8",
+    "dexterity": "2/4",
+    "vitality": "3/6",
+    "special": "2/4",
+    "insight": "2/5",
     "moves": {
         "bronze": [
             "First Impression",

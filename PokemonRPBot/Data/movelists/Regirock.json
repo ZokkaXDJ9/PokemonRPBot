@@ -12,6 +12,12 @@
             "Sturdy"
         ]
     },
+    "base_hp": 5,
+    "strength": "6/6",
+    "dexterity": "4/4",
+    "vitality": "10/10",
+    "special": "4/4",
+    "insight": "6/6",
     "moves": {
         "bronze": [
             "Bulldoze",

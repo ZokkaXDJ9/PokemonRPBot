@@ -14,6 +14,12 @@
             "Stalwart"
         ]
     },
+    "base_hp": 4,
+    "strength": "3/6",
+    "dexterity": "2/5",
+    "vitality": "3/7",
+    "special": "3/7",
+    "insight": "2/4",
     "moves": {
         "bronze": [
             "Leer",

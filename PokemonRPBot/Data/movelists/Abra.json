@@ -13,6 +13,12 @@
             "Magic Guard"
         ]
     },
+    "base_hp": 2,
+    "strength": "1/2",
+    "dexterity": "3/6",
+    "vitality": "1/2",
+    "special": "3/6",
+    "insight": "2/4",
     "moves": {
         "bronze": [
             "Teleport"

@@ -14,6 +14,12 @@
             "Sheer Force"
         ]
     },
+    "base_hp": 6,
+    "strength": "3/6",
+    "dexterity": "2/5",
+    "vitality": "2/5",
+    "special": "2/4",
+    "insight": "2/5",
     "moves": {
         "bronze": [
             "Bite",

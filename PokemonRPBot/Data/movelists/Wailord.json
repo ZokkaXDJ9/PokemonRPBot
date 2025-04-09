@@ -13,6 +13,12 @@
             "Pressure"
         ]
     },
+    "base_hp": 9,
+    "strength": "3/6",
+    "dexterity": "2/4",
+    "vitality": "1/3",
+    "special": "3/6",
+    "insight": "1/3",
     "moves": {
         "bronze": [
             "Astonish",

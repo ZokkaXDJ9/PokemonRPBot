@@ -14,6 +14,12 @@
             "Leaf Guard"
         ]
     },
+    "base_hp": 4,
+    "strength": "2/4",
+    "dexterity": "2/4",
+    "vitality": "1/3",
+    "special": "3/6",
+    "insight": "2/5",
     "moves": {
         "bronze": [
             "Absorb",

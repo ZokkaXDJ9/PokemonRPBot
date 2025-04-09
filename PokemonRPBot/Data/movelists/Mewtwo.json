@@ -12,6 +12,12 @@
             "Unnerve"
         ]
     },
+    "base_hp": 6,
+    "strength": "7/7",
+    "dexterity": "8/8",
+    "vitality": "5/5",
+    "special": "9/9",
+    "insight": "5/5",
     "moves": {
         "bronze": [
             "Ancient Power",

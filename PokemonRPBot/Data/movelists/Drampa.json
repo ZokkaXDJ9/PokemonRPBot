@@ -14,6 +14,12 @@
             "Cloud Nine"
         ]
     },
+    "base_hp": 5,
+    "strength": "2/4",
+    "dexterity": "1/3",
+    "vitality": "2/5",
+    "special": "4/8",
+    "insight": "2/5",
     "moves": {
         "bronze": [
             "Echoed Voice",

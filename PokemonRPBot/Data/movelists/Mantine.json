@@ -14,6 +14,12 @@
             "Water Veil"
         ]
     },
+    "base_hp": 5,
+    "strength": "1/3",
+    "dexterity": "2/5",
+    "vitality": "2/4",
+    "special": "2/5",
+    "insight": "4/8",
     "moves": {
         "bronze": [
             "Bubble",

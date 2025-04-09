@@ -1,11 +1,22 @@
 {
     "number": 681,
     "name": "Aegislash (Blade Form)",
-    "types": ["Steel", "Ghost"],
+    "types": [
+        "Steel",
+        "Ghost"
+    ],
     "abilities": {
-        "normal": ["Stance Change"],
+        "normal": [
+            "Stance Change"
+        ],
         "hidden": []
     },
+    "base_hp": 4,
+    "strength": "4/8",
+    "dexterity": "2/4",
+    "vitality": "2/4",
+    "special": "4/8",
+    "insight": "1/3",
     "moves": {
         "bronze": [
             "Aerial Ace",

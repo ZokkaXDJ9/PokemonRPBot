@@ -13,6 +13,12 @@
             "Flame Body"
         ]
     },
+    "base_hp": 6,
+    "strength": "5/5",
+    "dexterity": "5/5",
+    "vitality": "6/6",
+    "special": "8/8",
+    "insight": "6/6",
     "moves": {
         "bronze": [
             "Fire Spin",

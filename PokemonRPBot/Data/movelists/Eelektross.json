@@ -10,6 +10,12 @@
         ],
         "hidden": []
     },
+    "base_hp": 5,
+    "strength": "3/7",
+    "dexterity": "2/4",
+    "vitality": "2/5",
+    "special": "3/6",
+    "insight": "2/5",
     "moves": {
         "bronze": [
             "Acid",

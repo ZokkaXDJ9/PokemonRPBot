@@ -12,6 +12,12 @@
             "Electric Surge"
         ]
     },
+    "base_hp": 3,
+    "strength": "3/6",
+    "dexterity": "1/2",
+    "vitality": "3/6",
+    "special": "3/6",
+    "insight": "2/5",
     "moves": {
         "bronze": [
             "Charge",

@@ -12,6 +12,12 @@
             "Defiant"
         ]
     },
+    "base_hp": 4,
+    "strength": "3/6",
+    "dexterity": "2/5",
+    "vitality": "3/6",
+    "special": "2/5",
+    "insight": "2/4",
     "moves": {
         "bronze": [
             "Focus Energy",

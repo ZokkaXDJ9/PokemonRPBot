@@ -12,6 +12,12 @@
             "Aroma Veil"
         ]
     },
+    "base_hp": 3,
+    "strength": "1/3",
+    "dexterity": "1/3",
+    "vitality": "1/3",
+    "special": "2/4",
+    "insight": "2/4",
     "moves": {
         "bronze": [
             "Aromatic Mist",

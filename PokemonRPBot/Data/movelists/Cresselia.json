@@ -10,6 +10,12 @@
         ],
         "hidden": []
     },
+    "base_hp": 7,
+    "strength": "4/4",
+    "dexterity": "5/5",
+    "vitality": "7/7",
+    "special": "5/5",
+    "insight": "7/7",
     "moves": {
         "bronze": [
             "Confusion",

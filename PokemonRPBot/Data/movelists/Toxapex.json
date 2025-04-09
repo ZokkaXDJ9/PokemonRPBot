@@ -14,6 +14,12 @@
             "Regenerator"
         ]
     },
+    "base_hp": 3,
+    "strength": "2/4",
+    "dexterity": "1/3",
+    "vitality": "4/9",
+    "special": "2/4",
+    "insight": "4/8",
     "moves": {
         "bronze": [
             "Baneful Bunker",

@@ -12,6 +12,12 @@
             "Grass Pelt"
         ]
     },
+    "base_hp": 7,
+    "strength": "3/6",
+    "dexterity": "2/5",
+    "vitality": "2/4",
+    "special": "3/6",
+    "insight": "2/5",
     "moves": {
         "bronze": [
             "Earthquake",

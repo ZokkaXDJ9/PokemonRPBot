@@ -1,11 +1,25 @@
 {
     "number": 849,
     "name": "Toxtricity (Amped Form)",
-    "types": ["Electric", "Poison"],
+    "types": [
+        "Electric",
+        "Poison"
+    ],
     "abilities": {
-        "normal": ["Punk Rock", "Plus"],
-        "hidden": ["Technician"]
+        "normal": [
+            "Punk Rock",
+            "Plus"
+        ],
+        "hidden": [
+            "Technician"
+        ]
     },
+    "base_hp": 5,
+    "strength": "3/6",
+    "dexterity": "2/5",
+    "vitality": "2/4",
+    "special": "3/7",
+    "insight": "2/4",
     "moves": {
         "bronze": [
             "Acid",

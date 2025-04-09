@@ -13,6 +13,12 @@
             "Sniper"
         ]
     },
+    "base_hp": 3,
+    "strength": "2/4",
+    "dexterity": "2/4",
+    "vitality": "1/2",
+    "special": "1/3",
+    "insight": "1/3",
     "moves": {
         "bronze": [
             "Assurance",

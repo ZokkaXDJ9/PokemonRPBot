@@ -1,11 +1,26 @@
 {
     "number": 550,
     "name": "Basculin",
-    "types": ["Water"],
+    "types": [
+        "Water"
+    ],
     "abilities": {
-        "normal": ["Reckless", "Adaptability", "Rock Head", "Rattled"],
-        "hidden": ["Mold Breaker"]
+        "normal": [
+            "Reckless",
+            "Adaptability",
+            "Rock Head",
+            "Rattled"
+        ],
+        "hidden": [
+            "Mold Breaker"
+        ]
     },
+    "base_hp": 4,
+    "strength": "3/6",
+    "dexterity": "3/6",
+    "vitality": "2/4",
+    "special": "2/5",
+    "insight": "2/4",
     "moves": {
         "bronze": [
             "Aqua Jet",

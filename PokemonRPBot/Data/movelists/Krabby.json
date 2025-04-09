@@ -13,6 +13,12 @@
             "Sheer Force"
         ]
     },
+    "base_hp": 2,
+    "strength": "3/6",
+    "dexterity": "2/4",
+    "vitality": "3/6",
+    "special": "1/2",
+    "insight": "1/2",
     "moves": {
         "bronze": [
             "Bubble",

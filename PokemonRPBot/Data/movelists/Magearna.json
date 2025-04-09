@@ -11,6 +11,12 @@
         ],
         "hidden": []
     },
+    "base_hp": 5,
+    "strength": "6/6",
+    "dexterity": "4/4",
+    "vitality": "7/7",
+    "special": "7/7",
+    "insight": "7/7",
     "moves": {
         "bronze": [
             "Defense Curl",

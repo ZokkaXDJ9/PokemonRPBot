@@ -10,6 +10,12 @@
         ],
         "hidden": []
     },
+    "base_hp": 5,
+    "strength": "7/7",
+    "dexterity": "8/8",
+    "vitality": "5/5",
+    "special": "6/6",
+    "insight": "5/5",
     "moves": {
         "bronze": [
             "Fake Out",

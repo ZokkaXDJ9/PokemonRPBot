@@ -13,6 +13,12 @@
             "Sand Force"
         ]
     },
+    "base_hp": 3,
+    "strength": "3/6",
+    "dexterity": "3/7",
+    "vitality": "2/4",
+    "special": "1/3",
+    "insight": "2/4",
     "moves": {
         "bronze": [
             "Astonish",

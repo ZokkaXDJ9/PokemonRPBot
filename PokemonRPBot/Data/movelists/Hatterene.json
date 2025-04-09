@@ -14,6 +14,12 @@
             "Magic Bounce"
         ]
     },
+    "base_hp": 4,
+    "strength": "3/6",
+    "dexterity": "1/2",
+    "vitality": "3/6",
+    "special": "4/8",
+    "insight": "3/6",
     "moves": {
         "bronze": [
             "Brutal Swing",

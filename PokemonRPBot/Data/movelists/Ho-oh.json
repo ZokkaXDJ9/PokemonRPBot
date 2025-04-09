@@ -13,6 +13,12 @@
             "Regenerator"
         ]
     },
+    "base_hp": 6,
+    "strength": "7/7",
+    "dexterity": "6/6",
+    "vitality": "6/6",
+    "special": "6/6",
+    "insight": "9/9",
     "moves": {
         "bronze": [
             "Ancient Power",

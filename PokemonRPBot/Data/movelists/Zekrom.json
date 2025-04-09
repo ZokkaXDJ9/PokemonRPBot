@@ -11,6 +11,12 @@
         ],
         "hidden": []
     },
+    "base_hp": 6,
+    "strength": "9/9",
+    "dexterity": "5/5",
+    "vitality": "7/7",
+    "special": "7/7",
+    "insight": "6/6",
     "moves": {
         "bronze": [
             "Ancient Power",

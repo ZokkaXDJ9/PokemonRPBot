@@ -12,6 +12,12 @@
             "Perish Body"
         ]
     },
+    "base_hp": 4,
+    "strength": "3/6",
+    "dexterity": "1/2",
+    "vitality": "2/4",
+    "special": "4/8",
+    "insight": "4/8",
     "moves": {
         "bronze": [
             "Astonish",

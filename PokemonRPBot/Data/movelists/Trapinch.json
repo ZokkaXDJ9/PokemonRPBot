@@ -13,6 +13,12 @@
             "Sheer Force"
         ]
     },
+    "base_hp": 3,
+    "strength": "3/6",
+    "dexterity": "1/2",
+    "vitality": "2/4",
+    "special": "1/3",
+    "insight": "1/3",
     "moves": {
         "bronze": [
             "Astonish",

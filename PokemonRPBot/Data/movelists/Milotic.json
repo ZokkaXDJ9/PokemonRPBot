@@ -13,6 +13,12 @@
             "Cute Charm"
         ]
     },
+    "base_hp": 6,
+    "strength": "2/4",
+    "dexterity": "2/5",
+    "vitality": "2/5",
+    "special": "3/6",
+    "insight": "3/7",
     "moves": {
         "bronze": [
             "Disarming Voice",

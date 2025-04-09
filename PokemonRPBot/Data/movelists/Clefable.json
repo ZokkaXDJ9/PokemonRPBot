@@ -13,6 +13,12 @@
             "Unaware"
         ]
     },
+    "base_hp": 6,
+    "strength": "2/4",
+    "dexterity": "2/4",
+    "vitality": "2/5",
+    "special": "3/6",
+    "insight": "2/5",
     "moves": {
         "bronze": [
             "After You",
