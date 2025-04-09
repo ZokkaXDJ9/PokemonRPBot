@@ -2,9 +2,10 @@
     "number": 413,
     "name": "Wormadam (Trash Cloak)",
     "moves": {
-        "bronze": ["Tackle", "Protect", "Quiver Dance", "Sucker Punch", "Struggle Bug", "Gust"],
-        "silver": ["Hidden Power", "Confusion", "Metal Burst", "Metal Sound", "Psybeam", "Bug Bite", "Silver Wind", "Iron Head", "String Shot"],
-        "gold": ["Captivate", "Flail", "Attract", "Psychic", "Bug Buzz", "Infestation"],
+      "bronze": ["Tackle", "Protect", "Quiver Dance", "Sucker Punch", "Struggle Bug", "Gust"],
+      "silver": ["Hidden Power", "Confusion", "Metal Burst", "Metal Sound", "Psybeam", "Bug Bite", "Silver Wind", "Iron Head", "String Shot"],
+      "gold": ["Captivate", "Flail", "Attract", "Psychic", "Bug Buzz", "Infestation"],
+      "platinum": [],
       "diamond": [],
       "tm": ["Agility", "Attract", "Confide", "Curse", "Double Team", "Endure", "Facade", "Frustration", "Headbutt", "Helping Hand", "Hidden Power", "Metronome", "Protect", "Nasty Plot", "Rest", "Return", "Round", "Secret Power", "Sleep Talk", "Snore", "Splash", "Substitute", "Swords Dance", "Take Down", "Tera Blast", "Toxic", "Sunny Day", "Hyper Beam", "Rain Dance", "Psychic", "Shadow Ball", "Facade", "Thief", "Skill Swap", "Giga Impact", "Flash", "Gyro Ball", "Stealth Rock", "Psych Up", "Captivate", "Dream Eater", "Swagger", "Flash Cannon", "Venoshock", "Struggle Bug", "Infestation", "Giga Drain", "Solar Beam", "Dig", "Bug Buzz", "Steel Beam"],
       "egg": [],

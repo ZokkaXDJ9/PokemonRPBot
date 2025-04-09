@@ -1,6 +1,6 @@
 {
     "number": 128,
-    "name": "Paldean Tauros (Combat Breed)",
+    "name": "Tauros (Combat Breed)",
     "moves": {
       "bronze": ["Tackle", "Tail Whip", "Work Up", "Double Kick"],
       "silver": ["Assurance", "Headbutt", "Scary Face", "Zen Headbutt"],

@@ -1,6 +1,6 @@
 {
     "number": 77,
-    "name": "Galarian Ponyta",
+    "name": "Ponyta (Galarian)",
     "moves": {
       "bronze": ["Growl", "Tackle", "Tail Whip", "Confusion"],
       "silver": ["Fairy Wind", "Agility", "Psybeam", "Stomp"],

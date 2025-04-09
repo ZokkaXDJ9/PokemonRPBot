@@ -1,6 +1,6 @@
 {
     "number": 80,
-    "name": "Galarian Slowpoke",
+    "name": "Slowpoke (Galarian)",
     "moves": {
       "bronze": ["Curse", "Tackle", "Growl", "Acid", "Yawn", "Water Gun", "Shell Side Arm", "Withdraw"],
       "silver": ["Confusion", "Disable", "Water Pulse", "Headbutt", "Zen Headbutt", "Amnesia", "Surf", "Slack Off"],

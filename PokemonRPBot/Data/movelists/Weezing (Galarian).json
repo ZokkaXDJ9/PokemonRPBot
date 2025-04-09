@@ -1,6 +1,6 @@
 {
     "number": 110,
-    "name": "Galarian Weezing",
+    "name": "Weezing (Galarian)",
     "moves": {
       "bronze": ["Aromatic Mist", "Defog", "Double Hit", "Fairy Wind", "Haze", "Heat Wave", "Poison Gas", "Smog", "Smokescreen", "Strange Steam", "Tackle"],
       "silver": ["Clear Smog", "Assurance", "Sludge", "Aromatherapy", "Self-Destruct", "Sludge Bomb"],
