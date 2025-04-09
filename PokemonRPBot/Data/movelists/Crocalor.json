@@ -12,6 +12,12 @@
             "Unaware"
         ]
     },
+    "base_hp": 5,
+    "strength": "2/4",
+    "dexterity": "1/3",
+    "vitality": "2/5",
+    "special": "3/6",
+    "insight": "2/4",
     "moves": {
         "bronze": [
             "Ember",

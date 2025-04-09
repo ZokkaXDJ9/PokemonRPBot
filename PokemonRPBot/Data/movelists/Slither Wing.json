@@ -6,6 +6,12 @@
         "normal": [],
         "hidden": []
     },
+    "base_hp": 5,
+    "strength": "4/8",
+    "dexterity": "2/5",
+    "vitality": "2/5",
+    "special": "2/5",
+    "insight": "3/7",
     "moves": {
         "bronze": [
             "Bug Bite",

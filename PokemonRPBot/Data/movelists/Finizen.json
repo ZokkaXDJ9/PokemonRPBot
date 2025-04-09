@@ -12,6 +12,12 @@
             "Water Veil"
         ]
     },
+    "base_hp": 5,
+    "strength": "1/3",
+    "dexterity": "2/5",
+    "vitality": "1/3",
+    "special": "1/3",
+    "insight": "1/3",
     "moves": {
         "bronze": [
             "Astonish",

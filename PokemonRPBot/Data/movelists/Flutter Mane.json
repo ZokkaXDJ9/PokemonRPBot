@@ -6,6 +6,12 @@
         "normal": [],
         "hidden": []
     },
+    "base_hp": 4,
+    "strength": "2/4",
+    "dexterity": "3/7",
+    "vitality": "2/4",
+    "special": "4/8",
+    "insight": "4/8",
     "moves": {
         "bronze": [
             "Astonish",

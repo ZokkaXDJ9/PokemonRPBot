@@ -14,6 +14,12 @@
             "Moody"
         ]
     },
+    "base_hp": 4,
+    "strength": "3/7",
+    "dexterity": "2/5",
+    "vitality": "2/4",
+    "special": "3/6",
+    "insight": "2/4",
     "moves": {
         "bronze": [
             "Bite",

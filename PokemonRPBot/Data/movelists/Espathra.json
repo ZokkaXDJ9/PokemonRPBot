@@ -13,6 +13,12 @@
             "Speed Boost"
         ]
     },
+    "base_hp": 6,
+    "strength": "2/4",
+    "dexterity": "3/6",
+    "vitality": "2/4",
+    "special": "3/6",
+    "insight": "2/4",
     "moves": {
         "bronze": [
             "Baby-Doll Eyes",

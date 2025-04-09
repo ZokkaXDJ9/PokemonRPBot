@@ -6,6 +6,12 @@
         "normal": [],
         "hidden": []
     },
+    "base_hp": 6,
+    "strength": "4/8",
+    "dexterity": "3/6",
+    "vitality": "2/5",
+    "special": "2/5",
+    "insight": "3/6",
     "moves": {
         "bronze": [
             "Helping Hand",

@@ -13,6 +13,12 @@
             "Sand Veil"
         ]
     },
+    "base_hp": 1,
+    "strength": "2/4",
+    "dexterity": "3/6",
+    "vitality": "1/2",
+    "special": "1/3",
+    "insight": "1/2",
     "moves": {
         "bronze": [
             "Mud-Slap",

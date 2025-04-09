@@ -6,6 +6,12 @@
         "normal": [],
         "hidden": []
     },
+    "base_hp": 5,
+    "strength": "4/8",
+    "dexterity": "3/7",
+    "vitality": "2/5",
+    "special": "3/7",
+    "insight": "2/4",
     "moves": {
         "bronze": [
             "Disable",
