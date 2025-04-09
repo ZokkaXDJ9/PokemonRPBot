@@ -1,10 +1,10 @@
 {
     "number": 80,
-    "name": "Slowpoke (Galarian)",
-    "types": [],
+    "name": "Slowbro (Galarian)",
+    "types": ["Poison", "Psychic"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Quick Draw", "Own Tempo"],
+        "hidden": ["Regenerator"]
     },
     "moves": {
         "bronze": [

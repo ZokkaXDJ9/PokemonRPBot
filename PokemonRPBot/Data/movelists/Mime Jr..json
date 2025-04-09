@@ -1,10 +1,10 @@
 {
     "number": 439,
     "name": "Mime Jr.",
-    "types": [],
+    "types": ["Psychic", "Fairy"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Soundproof", "Filter"],
+        "hidden": ["Technician"]
     },
     "moves": {
         "bronze": [

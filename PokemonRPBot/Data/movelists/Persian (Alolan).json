@@ -1,10 +1,10 @@
 {
     "number": 53,
     "name": "Persian (Alolan)",
-    "types": [],
+    "types": ["Dark"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Fur Coat", "Technician"],
+        "hidden": ["Rattled"]
     },
     "moves": {
         "bronze": [

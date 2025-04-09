@@ -1,10 +1,10 @@
 {
     "number": 74,
     "name": "Geodude (Alolan)",
-    "types": [],
+    "types": ["Rock", "Electric"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Magnet Pull", "Sturdy"],
+        "hidden": ["Galvanize"]
     },
     "moves": {
         "bronze": [

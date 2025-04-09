@@ -1,10 +1,10 @@
 {
     "number": 51,
     "name": "Dugtrio (Alolan)",
-    "types": [],
+    "types": ["Ground", "Steel"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Sand Veil", "Tangling Hair"],
+        "hidden": ["Sand Force"]
     },
     "moves": {
         "bronze": [

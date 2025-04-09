@@ -1,9 +1,9 @@
 {
     "number": 778,
     "name": "Mimikyu",
-    "types": [],
+    "types": ["Ghost", "Fairy"],
     "abilities": {
-        "normal": [],
+        "normal": ["Disguise"],
         "hidden": []
     },
     "moves": {

@@ -1,9 +1,9 @@
 {
     "number": 988,
     "name": "Slither Wing",
-    "types": [],
+    "types": ["Bug", "Fighting"],
     "abilities": {
-        "normal": [],
+        "normal": ["Protosynthesis"],
         "hidden": []
     },
     "base_hp": 5,

@@ -1,10 +1,10 @@
 {
     "number": 105,
     "name": "Marowak (Alolan)",
-    "types": [],
+    "types": ["Fire", "Ghost"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Cursed Body", "Lightning Rod"],
+        "hidden": ["Rock Head"]
     },
     "moves": {
         "bronze": [

@@ -1,10 +1,10 @@
 {
     "number": 103,
     "name": "Exeggutor (Alolan)",
-    "types": [],
+    "types": ["Grass", "Dragon"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Frisk"],
+        "hidden": ["Harvest"]
     },
     "moves": {
         "bronze": [

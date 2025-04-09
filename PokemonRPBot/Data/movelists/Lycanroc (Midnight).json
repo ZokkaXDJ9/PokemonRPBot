@@ -1,10 +1,10 @@
 {
     "number": 745,
     "name": "Lycanroc (Midnight)",
-    "types": [],
+    "types": ["Rock"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Keen Eye", "Vital Spirit"],
+        "hidden": ["No Guard"]
     },
     "moves": {
         "bronze": [

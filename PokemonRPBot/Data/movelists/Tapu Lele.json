@@ -1,10 +1,10 @@
 {
     "number": 786,
     "name": "Tapu Lele",
-    "types": [],
+    "types": ["Psychic", "Fairy"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Psychic Surge"],
+        "hidden": ["Telepathy"]
     },
     "moves": {
         "bronze": [

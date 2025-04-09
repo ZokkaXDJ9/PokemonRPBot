@@ -1,10 +1,10 @@
 {
     "number": 52,
     "name": "Meowth (Alolan)",
-    "types": [],
+    "types": ["Dark"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Pickup", "Technician"],
+        "hidden": ["Rattled"]
     },
     "moves": {
         "bronze": [

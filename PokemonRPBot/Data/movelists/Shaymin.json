@@ -1,9 +1,9 @@
 {
     "number": 492,
     "name": "Shaymin",
-    "types": [],
+    "types": ["Grass"],
     "abilities": {
-        "normal": [],
+        "normal": ["Natural Cure"],
         "hidden": []
     },
     "moves": {

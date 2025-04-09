@@ -1,9 +1,9 @@
 {
     "number": 986,
     "name": "Brute Bonnet",
-    "types": [],
+    "types": ["Grass", "Dark"],
     "abilities": {
-        "normal": [],
+        "normal": ["Protosynthesis"],
         "hidden": []
     },
     "base_hp": 7,

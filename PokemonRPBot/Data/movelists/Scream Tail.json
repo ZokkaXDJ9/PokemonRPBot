@@ -1,9 +1,9 @@
 {
     "number": 985,
     "name": "Scream Tail",
-    "types": [],
+    "types": ["Fairy", "Psychic"],
     "abilities": {
-        "normal": [],
+        "normal": ["Protosynthesis"],
         "hidden": []
     },
     "base_hp": 7,

@@ -1,10 +1,10 @@
 {
     "number": 211,
     "name": "Qwilfish (Hisuian)",
-    "types": [],
+    "types": ["Dark", "Poison"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Poison Point", "Swift Swim"],
+        "hidden": ["Intimidate"]
     },
     "base_hp": 4,
     "strength": "3/6",

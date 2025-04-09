@@ -1,10 +1,10 @@
 {
     "number": 555,
     "name": "Darmanitan (Galarian Standard Mode)",
-    "types": [],
+    "types": ["Ice"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Gorilla Tactics"],
+        "hidden": ["Zen-Mode"]
     },
     "moves": {
         "bronze": [

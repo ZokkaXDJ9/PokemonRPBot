@@ -1,10 +1,10 @@
 {
     "number": 849,
     "name": "Toxtricity (Low Key Form)",
-    "types": [],
+    "types": ["Electric", "Poison"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Punk Rock", "Minus"],
+        "hidden": ["Technician"]
     },
     "moves": {
         "bronze": [

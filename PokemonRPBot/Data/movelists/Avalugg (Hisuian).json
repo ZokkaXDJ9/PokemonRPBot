@@ -1,10 +1,10 @@
 {
     "number": 713,
     "name": "Avalugg (Hisuian)",
-    "types": [],
+    "types": ["Ice", "Rock"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Strong Jaw", "Ice Body"],
+        "hidden": ["Sturdy"]
     },
     "base_hp": 6,
     "strength": "3/7",

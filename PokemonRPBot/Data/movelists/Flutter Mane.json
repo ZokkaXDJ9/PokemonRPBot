@@ -1,9 +1,9 @@
 {
     "number": 987,
     "name": "Flutter Mane",
-    "types": [],
+    "types": ["Ghost", "Fairy"],
     "abilities": {
-        "normal": [],
+        "normal": ["Protosynthesis"],
         "hidden": []
     },
     "base_hp": 4,

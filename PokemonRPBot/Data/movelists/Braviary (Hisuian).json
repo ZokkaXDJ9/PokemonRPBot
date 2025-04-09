@@ -1,10 +1,10 @@
 {
     "number": 628,
     "name": "Braviary (Hisuian)",
-    "types": [],
+    "types": ["Psychic", "Flying"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Keen Eye", "Sheer Force"],
+        "hidden": ["Tinted Lens"]
     },
     "base_hp": 6,
     "strength": "2/5",

@@ -1,10 +1,10 @@
 {
     "number": 902,
     "name": "Basculegion (Female)",
-    "types": [],
+    "types": ["Water", "Ghost"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Swift Swim", "Adaptability"],
+        "hidden": ["Mold Breaker"]
     },
     "base_hp": 7,
     "strength": "3/6",

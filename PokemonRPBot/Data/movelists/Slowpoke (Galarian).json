@@ -1,10 +1,10 @@
 {
     "number": 79,
     "name": "Slowpoke (Galarian)",
-    "types": [],
+    "types": ["Psychic"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Gluttony", "Own Tempo"],
+        "hidden": ["Regenerator"]
     },
     "moves": {
         "bronze": [

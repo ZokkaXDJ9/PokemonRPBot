@@ -1,10 +1,10 @@
 {
     "number": 710,
     "name": "Pumpkaboo",
-    "types": [],
+    "types": ["Ghost", "Grass"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Pickup", "Frisk"],
+        "hidden": ["Insomnia"]
     },
     "moves": {
         "bronze": [

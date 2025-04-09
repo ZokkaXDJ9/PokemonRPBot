@@ -1,9 +1,9 @@
 {
     "number": 1005,
     "name": "Roaring Moon",
-    "types": [],
+    "types": ["Dragon", "Dark"],
     "abilities": {
-        "normal": [],
+        "normal": ["Protosynthesis"],
         "hidden": []
     },
     "base_hp": 6,

@@ -1,9 +1,9 @@
 {
     "number": 892,
     "name": "Urshifu (Rapid Strike)",
-    "types": [],
+    "types": ["Fighting", "Water"],
     "abilities": {
-        "normal": [],
+        "normal": ["Unseen Fist"],
         "hidden": []
     },
     "moves": {

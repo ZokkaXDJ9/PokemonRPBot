@@ -1,9 +1,9 @@
 {
     "number": 571,
     "name": "Zoroark (Hisuian)",
-    "types": [],
+    "types": ["Normal", "Ghost"],
     "abilities": {
-        "normal": [],
+        "normal": ["Illusion"],
         "hidden": []
     },
     "base_hp": 4,

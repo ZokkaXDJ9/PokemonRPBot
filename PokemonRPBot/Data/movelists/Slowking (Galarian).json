@@ -1,10 +1,10 @@
 {
     "number": 199,
     "name": "Slowking (Galarian)",
-    "types": [],
+    "types": ["Poison", "Psychic"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Curious Medicine", "Own Tempo"],
+        "hidden": ["Regenerator"]
     },
     "moves": {
         "bronze": [

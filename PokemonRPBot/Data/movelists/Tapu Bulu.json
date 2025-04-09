@@ -1,10 +1,10 @@
 {
     "number": 787,
     "name": "Tapu Bulu",
-    "types": [],
+    "types": ["Grass", "Fairy"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Grassy Surge"],
+        "hidden": ["Telepathy"]
     },
     "moves": {
         "bronze": [

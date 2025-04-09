@@ -1,10 +1,10 @@
 {
     "number": 83,
     "name": "Farfetch'd",
-    "types": [],
+    "types": ["Normal", "Flying"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Keen Eye", "Inner Focus"],
+        "hidden": ["Defiant"]
     },
     "moves": {
         "bronze": [

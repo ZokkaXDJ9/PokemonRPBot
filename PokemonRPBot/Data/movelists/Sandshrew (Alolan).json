@@ -1,10 +1,10 @@
 {
     "number": 27,
     "name": "Sandshrew (Alolan)",
-    "types": [],
+    "types": ["Ice", "Steel"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Snow Cloak"],
+        "hidden": ["Slush Rush"]
     },
     "moves": {
         "bronze": [

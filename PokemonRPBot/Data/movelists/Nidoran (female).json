@@ -1,10 +1,10 @@
 {
     "number": 29,
     "name": "Nidoran (Female)",
-    "types": [],
+    "types": ["Poison"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Poison Point", "Rivalry"],
+        "hidden": ["Hustle"]
     },
     "moves": {
         "bronze": [

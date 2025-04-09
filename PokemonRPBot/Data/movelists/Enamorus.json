@@ -1,10 +1,10 @@
 {
     "number": 905,
     "name": "Enamorus",
-    "types": [],
+    "types": ["Fairy", "Flying"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Cute Charm"],
+        "hidden": ["Contrary"]
     },
     "base_hp": 5,
     "strength": "7/7",

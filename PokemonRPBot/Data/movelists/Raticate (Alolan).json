@@ -1,10 +1,10 @@
 {
     "number": 20,
     "name": "Raticate (Alolan)",
-    "types": [],
+    "types": ["Dark", "Normal"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Gluttony", "Hustle"],
+        "hidden": ["Thick Fat"]
     },
     "moves": {
         "bronze": [

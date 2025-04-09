@@ -1,10 +1,10 @@
 {
     "number": 745,
     "name": "Lycanroc (Midday)",
-    "types": [],
+    "types": ["Rock"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Keen Eye", "Sand Rush"],
+        "hidden": ["Steadfast"]
     },
     "moves": {
         "bronze": [

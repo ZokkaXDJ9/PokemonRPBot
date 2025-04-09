@@ -1,9 +1,9 @@
 {
     "number": 648,
-    "name": "Meloetta",
-    "types": [],
+    "name": "Meloetta (Pirouette Form)",
+    "types": ["Normal", "Fighting"],
     "abilities": {
-        "normal": [],
+        "normal": ["Serene Grace"],
         "hidden": []
     },
     "moves": {

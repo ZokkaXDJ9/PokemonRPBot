@@ -1,9 +1,9 @@
 {
     "number": 772,
     "name": "Type: Null",
-    "types": [],
+    "types": ["Normal"],
     "abilities": {
-        "normal": [],
+        "normal": ["Battle Armor"],
         "hidden": []
     },
     "moves": {

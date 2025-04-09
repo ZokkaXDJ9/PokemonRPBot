@@ -1,9 +1,9 @@
 {
     "number": 1023,
     "name": "Iron Crown",
-    "types": [],
+    "types": ["Steel", "Psychic"],
     "abilities": {
-        "normal": [],
+        "normal": ["Quark Drive"],
         "hidden": []
     },
     "base_hp": 6,

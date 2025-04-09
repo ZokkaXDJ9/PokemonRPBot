@@ -1,9 +1,9 @@
 {
     "number": 1022,
     "name": "Iron Boulder",
-    "types": [],
+    "types": ["Rock", "Psychic"],
     "abilities": {
-        "normal": [],
+        "normal": ["Quark Drive"],
         "hidden": []
     },
     "base_hp": 6,

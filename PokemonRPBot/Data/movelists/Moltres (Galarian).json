@@ -1,9 +1,9 @@
 {
     "number": 146,
     "name": "Moltres (Galarian)",
-    "types": [],
+    "types": ["Dark", "Flying"],
     "abilities": {
-        "normal": [],
+        "normal": ["Berserk"],
         "hidden": []
     },
     "moves": {

@@ -1,9 +1,9 @@
 {
     "number": 145,
     "name": "Zapdos (Galarian)",
-    "types": [],
+    "types": ["Fighting", "Flying"],
     "abilities": {
-        "normal": [],
+        "normal": ["Defiant"],
         "hidden": []
     },
     "moves": {

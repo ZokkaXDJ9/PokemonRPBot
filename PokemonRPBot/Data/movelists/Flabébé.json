@@ -1,10 +1,10 @@
 {
     "number": 669,
-    "name": "Flab\u00c3\u00a9b\u00c3\u00a9",
-    "types": [],
+    "name": "Flabébé",
+    "types": ["Fairy"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Flower Veil"],
+        "hidden": ["Symbiosis"]
     },
     "moves": {
         "bronze": [

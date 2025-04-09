@@ -1,10 +1,10 @@
 {
     "number": 976,
     "name": "Oinkologne (Male)",
-    "types": [],
+    "types": ["Normal"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Lingering Aroma", "Gluttony"],
+        "hidden": ["Thick Fat"]
     },
     "base_hp": 6,
     "strength": "3/6",

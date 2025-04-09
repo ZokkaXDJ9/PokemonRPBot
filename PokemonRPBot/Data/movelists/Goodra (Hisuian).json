@@ -1,10 +1,10 @@
 {
     "number": 706,
     "name": "Goodra (Hisuian)",
-    "types": [],
+    "types": ["Steel", "Dragon"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Sap Sipper", "Shell Armor"],
+        "hidden": ["Gooey"]
     },
     "base_hp": 5,
     "strength": "3/6",

@@ -1,10 +1,10 @@
 {
     "number": 785,
     "name": "Tapu Koko",
-    "types": [],
+    "types": ["Electric", "Fairy"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Electric Surge"],
+        "hidden": ["Telepathy"]
     },
     "moves": {
         "bronze": [

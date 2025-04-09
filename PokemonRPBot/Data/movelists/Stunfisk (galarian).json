@@ -1,9 +1,9 @@
 {
     "number": 618,
     "name": "Stunfisk (Galarian)",
-    "types": [],
+    "types": ["Ground", "Steel"],
     "abilities": {
-        "normal": [],
+        "normal": ["Mimicry"],
         "hidden": []
     },
     "moves": {

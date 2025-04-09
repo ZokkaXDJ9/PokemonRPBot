@@ -1,10 +1,10 @@
 {
     "number": 122,
     "name": "Mr. Mime (Galarian)",
-    "types": [],
+    "types": ["Ice", "Psychic"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Vital Spirit", "Screen Cleaner"],
+        "hidden": ["Ice Body"]
     },
     "moves": {
         "bronze": [

@@ -1,9 +1,9 @@
 {
     "number": 741,
-    "name": "Oricorio",
-    "types": [],
+    "name": "Oricorio (Pa'u Style)",
+    "types": ["Psychic", "Flying"],
     "abilities": {
-        "normal": [],
+        "normal": ["Dancer"],
         "hidden": []
     },
     "moves": {

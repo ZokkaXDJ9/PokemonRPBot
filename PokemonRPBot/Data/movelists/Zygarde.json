@@ -1,9 +1,9 @@
 {
     "number": 718,
     "name": "Zygarde",
-    "types": [],
+    "types": ["Dragon", "Ground"],
     "abilities": {
-        "normal": [],
+        "normal": ["Aura Break", "Power Construct"],
         "hidden": []
     },
     "moves": {

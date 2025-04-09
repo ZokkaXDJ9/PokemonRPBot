@@ -1,10 +1,10 @@
 {
     "number": 386,
     "name": "Deoxys",
-    "types": [],
+    "types": ["Psychic"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Pressure"],
+        "hidden": ["Alien Genome"]
     },
     "moves": {
         "bronze": [

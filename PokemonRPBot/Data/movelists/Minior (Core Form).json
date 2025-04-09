@@ -1,9 +1,9 @@
 {
     "number": 774,
-    "name": "Minior",
-    "types": [],
+    "name": "Minior (Core Form)",
+    "types": ["Rock", "Flying"],
     "abilities": {
-        "normal": [],
+        "normal": ["Shields Down"],
         "hidden": []
     },
     "moves": {

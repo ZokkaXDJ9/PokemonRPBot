@@ -1,10 +1,10 @@
 {
     "number": 849,
     "name": "Toxtricity (Amped Form)",
-    "types": [],
+    "types": ["Electric", "Poison"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Punk Rock", "Plus"],
+        "hidden": ["Technician"]
     },
     "moves": {
         "bronze": [

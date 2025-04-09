@@ -1,9 +1,9 @@
 {
     "number": 990,
     "name": "Iron Treads",
-    "types": [],
+    "types": ["Ground", "Steel"],
     "abilities": {
-        "normal": [],
+        "normal": ["Quark Drive"],
         "hidden": []
     },
     "base_hp": 5,

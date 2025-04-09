@@ -1,10 +1,10 @@
 {
     "number": 645,
     "name": "Landorus",
-    "types": [],
+    "types": ["Ground", "Flying"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Sand Force"],
+        "hidden": ["Sheer Force"]
     },
     "moves": {
         "bronze": [

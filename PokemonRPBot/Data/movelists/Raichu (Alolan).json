@@ -1,9 +1,9 @@
 {
     "number": 26,
     "name": "Raichu (Alolan)",
-    "types": [],
+    "types": ["Electric", "Psychic"],
     "abilities": {
-        "normal": [],
+        "normal": ["Surge Surfer"],
         "hidden": []
     },
     "moves": {

@@ -1,9 +1,9 @@
 {
     "number": 745,
     "name": "Lycanroc (Dusk)",
-    "types": [],
+    "types": ["Rock"],
     "abilities": {
-        "normal": [],
+        "normal": ["Tough Claws"],
         "hidden": []
     },
     "moves": {

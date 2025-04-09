@@ -1,10 +1,10 @@
 {
     "number": 711,
     "name": "Gourgeist",
-    "types": [],
+    "types": ["Ghost", "Grass"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Pickup", "Frisk"],
+        "hidden": ["Insomnia"]
     },
     "moves": {
         "bronze": [

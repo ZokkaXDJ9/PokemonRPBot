@@ -1,10 +1,10 @@
 {
     "number": 550,
     "name": "Basculin",
-    "types": [],
+    "types": ["Water"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Reckless", "Adaptability", "Rock Head", "Rattled"],
+        "hidden": ["Mold Breaker"]
     },
     "moves": {
         "bronze": [

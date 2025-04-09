@@ -1,10 +1,10 @@
 {
     "number": 413,
     "name": "Wormadam (Sandy Cloak)",
-    "types": [],
+    "types": ["Bug", "Ground"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Anticipation"],
+        "hidden": ["Overcoat"]
     },
     "moves": {
         "bronze": [

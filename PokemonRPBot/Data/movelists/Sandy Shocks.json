@@ -1,9 +1,9 @@
 {
     "number": 989,
     "name": "Sandy Shocks",
-    "types": [],
+    "types": ["Electric", "Ground"],
     "abilities": {
-        "normal": [],
+        "normal": ["Protosynthesis"],
         "hidden": []
     },
     "base_hp": 5,

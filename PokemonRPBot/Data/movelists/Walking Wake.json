@@ -1,9 +1,9 @@
 {
     "number": 1009,
     "name": "Walking Wake",
-    "types": [],
+    "types": ["Water", "Dragon"],
     "abilities": {
-        "normal": [],
+        "normal": ["Protosynthesis"],
         "hidden": []
     },
     "base_hp": 6,

@@ -1,10 +1,10 @@
 {
     "number": 554,
     "name": "Darumaka (Galarian)",
-    "types": [],
+    "types": ["Ice"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Hustle"],
+        "hidden": ["Inner Focus"]
     },
     "moves": {
         "bronze": [

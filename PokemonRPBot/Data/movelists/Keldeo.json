@@ -1,9 +1,9 @@
 {
     "number": 647,
     "name": "Keldeo",
-    "types": [],
+    "types": ["Water", "Fighting"],
     "abilities": {
-        "normal": [],
+        "normal": ["Justified"],
         "hidden": []
     },
     "moves": {

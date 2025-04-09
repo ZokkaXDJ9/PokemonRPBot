@@ -1,10 +1,10 @@
 {
     "number": 641,
     "name": "Tornadus",
-    "types": [],
+    "types": ["Flying"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Prankster"],
+        "hidden": ["Defiant"]
     },
     "moves": {
         "bronze": [

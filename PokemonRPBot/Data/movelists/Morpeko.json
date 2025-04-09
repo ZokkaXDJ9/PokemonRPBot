@@ -1,9 +1,9 @@
 {
     "number": 877,
     "name": "Morpeko",
-    "types": [],
+    "types": ["Electric", "Dark"],
     "abilities": {
-        "normal": [],
+        "normal": ["Hunger Switch"],
         "hidden": []
     },
     "moves": {

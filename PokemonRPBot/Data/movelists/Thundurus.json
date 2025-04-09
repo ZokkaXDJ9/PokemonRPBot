@@ -1,10 +1,10 @@
 {
     "number": 642,
     "name": "Thundurus",
-    "types": [],
+    "types": ["Electric", "Flying"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Prankster"],
+        "hidden": ["Defiant"]
     },
     "moves": {
         "bronze": [

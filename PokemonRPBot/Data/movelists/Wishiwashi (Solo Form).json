@@ -1,9 +1,9 @@
 {
     "number": 746,
-    "name": "Wishiwashi",
-    "types": [],
+    "name": "Wishiwashi (Solo Form)",
+    "types": ["Water"],
     "abilities": {
-        "normal": [],
+        "normal": ["Schooling"],
         "hidden": []
     },
     "moves": {

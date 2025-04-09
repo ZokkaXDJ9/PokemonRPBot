@@ -1,9 +1,9 @@
 {
     "number": 905,
     "name": "Enamorus (Therian)",
-    "types": [],
+    "types": ["Fairy", "Flying"],
     "abilities": {
-        "normal": [],
+        "normal": ["Overcoat"],
         "hidden": []
     },
     "base_hp": 5,

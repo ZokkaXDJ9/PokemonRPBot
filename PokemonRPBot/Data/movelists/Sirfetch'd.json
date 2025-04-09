@@ -1,10 +1,10 @@
 {
     "number": 865,
     "name": "Sirfetch'd",
-    "types": [],
+    "types": ["Fighting"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Steadfast"],
+        "hidden": ["Scrappy"]
     },
     "moves": {
         "bronze": [

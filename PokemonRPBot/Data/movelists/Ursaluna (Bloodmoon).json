@@ -1,9 +1,9 @@
 {
     "number": 901,
     "name": "Ursaluna (Bloodmoon)",
-    "types": [],
+    "types": ["Ground", "Normal"],
     "abilities": {
-        "normal": [],
+        "normal": ["Mind's Eye"],
         "hidden": []
     },
     "base_hp": 7,

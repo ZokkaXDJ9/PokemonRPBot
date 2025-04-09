@@ -1,10 +1,10 @@
 {
     "number": 788,
     "name": "Tapu Fini",
-    "types": [],
+    "types": ["Water", "Fairy"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Misty Surge"],
+        "hidden": ["Telepathy"]
     },
     "moves": {
         "bronze": [

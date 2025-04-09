@@ -1,10 +1,10 @@
 {
     "number": 88,
     "name": "Grimer (Alolan)",
-    "types": [],
+    "types": ["Poison", "Dark"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Poison Touch", "Gluttony"],
+        "hidden": ["Power of Alchemy"]
     },
     "moves": {
         "bronze": [

@@ -1,10 +1,10 @@
 {
     "number": 876,
     "name": "Indeedee (Male)",
-    "types": [],
+    "types": ["Psychic", "Normal"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Inner Focus", "Synchronize"],
+        "hidden": ["Psychic Surge"]
     },
     "moves": {
         "bronze": [

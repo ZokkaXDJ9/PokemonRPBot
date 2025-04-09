@@ -1,10 +1,10 @@
 {
     "number": 866,
     "name": "Mr. Rime",
-    "types": [],
+    "types": ["Ice", "Psychic"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Tangled Feet", "Screen Cleaner"],
+        "hidden": ["Ice Body"]
     },
     "moves": {
         "bronze": [

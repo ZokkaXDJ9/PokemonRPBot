@@ -1,10 +1,10 @@
 {
     "number": 264,
     "name": "Linoone (Galarian)",
-    "types": [],
+    "types": ["Dark", "Normal"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Pickup", "Gluttony"],
+        "hidden": ["Quick Feet"]
     },
     "moves": {
         "bronze": [

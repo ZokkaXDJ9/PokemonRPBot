@@ -1,10 +1,10 @@
 {
     "number": 52,
     "name": "Meowth (Galarian)",
-    "types": [],
+    "types": ["Steel"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Pickup", "Tough Claws"],
+        "hidden": ["Unnerve"]
     },
     "moves": {
         "bronze": [

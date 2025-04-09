@@ -1,9 +1,9 @@
 {
     "number": 993,
     "name": "Iron Jugulis",
-    "types": [],
+    "types": ["Dark", "Flying"],
     "abilities": {
-        "normal": [],
+        "normal": ["Quark Drive"],
         "hidden": []
     },
     "base_hp": 6,

@@ -1,9 +1,9 @@
 {
     "number": 487,
     "name": "Giratina",
-    "types": [],
+    "types": ["Ghost", "Dragon"],
     "abilities": {
-        "normal": [],
+        "normal": ["Levitate"],
         "hidden": []
     },
     "moves": {

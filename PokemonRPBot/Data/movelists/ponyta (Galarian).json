@@ -1,10 +1,10 @@
 {
     "number": 77,
     "name": "Ponyta (Galarian)",
-    "types": [],
+    "types": ["Psychic"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Run Away", "Pastel Veil"],
+        "hidden": ["Anticipation"]
     },
     "moves": {
         "bronze": [

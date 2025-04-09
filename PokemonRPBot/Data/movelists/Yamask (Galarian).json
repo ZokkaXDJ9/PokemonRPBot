@@ -1,9 +1,9 @@
 {
     "number": 562,
     "name": "Yamask (Galarian)",
-    "types": [],
+    "types": ["Ground", "Ghost"],
     "abilities": {
-        "normal": [],
+        "normal": ["Wandering Spirit"],
         "hidden": []
     },
     "moves": {

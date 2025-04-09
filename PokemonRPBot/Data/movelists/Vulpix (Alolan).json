@@ -1,10 +1,10 @@
 {
     "number": 37,
     "name": "Vulpix (Alolan)",
-    "types": [],
+    "types": ["Ice"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Snow Cloak"],
+        "hidden": ["Snow Warning"]
     },
     "moves": {
         "bronze": [

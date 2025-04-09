@@ -1,10 +1,10 @@
 {
     "number": 78,
     "name": "Rapidash (Galarian)",
-    "types": [],
+    "types": ["Psychic", "Fairy"],
     "abilities": {
-        "normal": [],
-        "hidden": []
+        "normal": ["Run Away", "Pastel Veil"],
+        "hidden": ["Anticipation"]
     },
     "moves": {
         "bronze": [
