@@ -1,11 +1,25 @@
 {
     "number": 20,
     "name": "Raticate (Alolan)",
-    "types": ["Dark", "Normal"],
+    "types": [
+        "Dark",
+        "Normal"
+    ],
     "abilities": {
-        "normal": ["Gluttony", "Hustle"],
-        "hidden": ["Thick Fat"]
+        "normal": [
+            "Gluttony",
+            "Hustle"
+        ],
+        "hidden": [
+            "Thick Fat"
+        ]
     },
+    "base_hp": 5,
+    "strength": "2/4",
+    "dexterity": "2/5",
+    "vitality": "2/5",
+    "special": "1/3",
+    "insight": "2/5",
     "moves": {
         "bronze": [
             "Tackle",

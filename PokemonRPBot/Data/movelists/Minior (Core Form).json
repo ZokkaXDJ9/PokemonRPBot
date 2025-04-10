@@ -6,6 +6,12 @@
         "normal": ["Shields Down"],
         "hidden": []
     },
+    "base_hp": 4,
+    "strength": "3/6",
+    "dexterity": "3/7",
+    "vitality": "2/4",
+    "special": "3/6",
+    "insight": "2/4",
     "moves": {
         "bronze": [
             "Confuse Ray",

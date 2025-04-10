@@ -1,11 +1,23 @@
 {
     "number": 83,
     "name": "Farfetch'd (Galarian)",
-    "types": ["Fighting"],
+    "types": [
+        "Fighting"
+    ],
     "abilities": {
-        "normal": ["Steadfast"],
-        "hidden": ["Scrappy"]
+        "normal": [
+            "Steadfast"
+        ],
+        "hidden": [
+            "Scrappy"
+        ]
     },
+    "base_hp": 4,
+    "strength": "3/6",
+    "dexterity": "1/3",
+    "vitality": "2/4",
+    "special": "2/4",
+    "insight": "2/4",
     "moves": {
         "bronze": [
             "Peck",

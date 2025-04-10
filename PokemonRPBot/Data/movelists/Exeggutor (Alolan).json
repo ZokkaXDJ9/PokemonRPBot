@@ -1,11 +1,24 @@
 {
     "number": 103,
     "name": "Exeggutor (Alolan)",
-    "types": ["Grass", "Dragon"],
+    "types": [
+        "Grass",
+        "Dragon"
+    ],
     "abilities": {
-        "normal": ["Frisk"],
-        "hidden": ["Harvest"]
+        "normal": [
+            "Frisk"
+        ],
+        "hidden": [
+            "Harvest"
+        ]
     },
+    "base_hp": 6,
+    "strength": "3/6",
+    "dexterity": "2/4",
+    "vitality": "2/5",
+    "special": "3/7",
+    "insight": "2/5",
     "moves": {
         "bronze": [
             "Barrage",

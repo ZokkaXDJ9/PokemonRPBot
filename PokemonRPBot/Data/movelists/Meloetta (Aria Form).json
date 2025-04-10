@@ -6,6 +6,12 @@
         "normal": ["Serene Grace"],
         "hidden": []
     },
+    "base_hp": 6,
+    "strength": "5/5",
+    "dexterity": "6/6",
+    "vitality": "5/5",
+    "special": "7/7",
+    "insight": "7/7",
     "moves": {
         "bronze": [
             "Confusion",

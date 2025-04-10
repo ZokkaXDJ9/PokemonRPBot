@@ -6,6 +6,12 @@
         "normal": ["Gorilla Tactics"],
         "hidden": ["Zen-Mode"]
     },
+    "base_hp": 6,
+    "strength": "4/9",
+    "dexterity": "4/8",
+    "vitality": "2/4",
+    "special": "1/2",
+    "insight": "2/4",
     "moves": {
         "bronze": [
             "Powder Snow",

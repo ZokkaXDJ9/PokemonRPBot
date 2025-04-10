@@ -6,6 +6,12 @@
         "normal": ["Soundproof", "Filter"],
         "hidden": ["Technician"]
     },
+    "base_hp": 2,
+    "strength": "1/2",
+    "dexterity": "2/4",
+    "vitality": "1/3",
+    "special": "2/5",
+    "insight": "3/6",
     "moves": {
         "bronze": [
             "Baton Pass",

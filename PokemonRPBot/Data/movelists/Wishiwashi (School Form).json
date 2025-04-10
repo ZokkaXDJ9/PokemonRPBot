@@ -6,6 +6,12 @@
         "normal": ["Schooling"],
         "hidden": []
     },
+    "base_hp": 3,
+    "strength": "3/8",
+    "dexterity": "1/2",
+    "vitality": "4/8",
+    "special": "4/8",
+    "insight": "4/8",
     "moves": {
         "bronze": [
             "Beat Up",

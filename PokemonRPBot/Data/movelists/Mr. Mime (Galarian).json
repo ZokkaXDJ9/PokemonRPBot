@@ -1,11 +1,25 @@
 {
     "number": 122,
     "name": "Mr. Mime (Galarian)",
-    "types": ["Ice", "Psychic"],
+    "types": [
+        "Ice",
+        "Psychic"
+    ],
     "abilities": {
-        "normal": ["Vital Spirit", "Screen Cleaner"],
-        "hidden": ["Ice Body"]
+        "normal": [
+            "Vital Spirit",
+            "Screen Cleaner"
+        ],
+        "hidden": [
+            "Ice Body"
+        ]
     },
+    "base_hp": 3,
+    "strength": "2/4",
+    "dexterity": "3/6",
+    "vitality": "2/4",
+    "special": "3/6",
+    "insight": "3/6",
     "moves": {
         "bronze": [
             "Baton Pass",

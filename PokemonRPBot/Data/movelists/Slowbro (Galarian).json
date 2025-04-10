@@ -1,11 +1,25 @@
 {
     "number": 80,
     "name": "Slowbro (Galarian)",
-    "types": ["Poison", "Psychic"],
+    "types": [
+        "Poison",
+        "Psychic"
+    ],
     "abilities": {
-        "normal": ["Quick Draw", "Own Tempo"],
-        "hidden": ["Regenerator"]
+        "normal": [
+            "Quick Draw",
+            "Own Tempo"
+        ],
+        "hidden": [
+            "Regenerator"
+        ]
     },
+    "base_hp": 6,
+    "strength": "3/6",
+    "dexterity": "1/2",
+    "vitality": "3/6",
+    "special": "3/6",
+    "insight": "2/5",
     "moves": {
         "bronze": [
             "Curse",
