@@ -13,12 +13,12 @@
             "Telepathy"
         ]
     },
-    "base_hp": 8,
-    "strength": "7/7",
-    "dexterity": "6/6",
-    "vitality": "6/6",
-    "special": "7/7",
-    "insight": "6/6",
+    "base_hp": 7,
+    "strength": "3/7",
+    "dexterity": "2/5",
+    "vitality": "2/5",
+    "special": "3/7",
+    "insight": "2/5",
     "moves": {
         "bronze": [
             "Ancient Power",
