@@ -1,11 +1,23 @@
 {
     "number": 554,
     "name": "Darumaka (Galarian)",
-    "types": ["Ice"],
+    "types": [
+        "Ice"
+    ],
     "abilities": {
-        "normal": ["Hustle"],
-        "hidden": ["Inner Focus"]
+        "normal": [
+            "Hustle"
+        ],
+        "hidden": [
+            "Inner Focus"
+        ]
     },
+    "base_hp": 5,
+    "strength": "3/6",
+    "dexterity": "1/3",
+    "vitality": "1/3",
+    "special": "1/2",
+    "insight": "1/3",
     "moves": {
         "bronze": [
             "Powder Snow",

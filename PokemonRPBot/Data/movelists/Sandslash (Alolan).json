@@ -1,11 +1,24 @@
 {
     "number": 28,
     "name": "Sandslash (Alolan)",
-    "types": ["Ice", "Steel"],
+    "types": [
+        "Ice",
+        "Steel"
+    ],
     "abilities": {
-        "normal": ["Snow Cloak"],
-        "hidden": ["Slush Rush"]
+        "normal": [
+            "Snow Cloak"
+        ],
+        "hidden": [
+            "Slush Rush"
+        ]
     },
+    "base_hp": 5,
+    "strength": "3/6",
+    "dexterity": "2/4",
+    "vitality": "3/7",
+    "special": "1/3",
+    "insight": "2/4",
     "moves": {
         "bronze": [
             "Defense Curl",

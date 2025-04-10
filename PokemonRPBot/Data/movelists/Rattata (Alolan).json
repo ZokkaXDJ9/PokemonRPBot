@@ -1,11 +1,25 @@
 {
     "number": 19,
     "name": "Rattata (Alolan)",
-    "types": ["Dark", "Normal"],
+    "types": [
+        "Dark",
+        "Normal"
+    ],
     "abilities": {
-        "normal": ["Gluttony", "Hustle"],
-        "hidden": ["Thick Fat"]
+        "normal": [
+            "Gluttony",
+            "Hustle"
+        ],
+        "hidden": [
+            "Thick Fat"
+        ]
     },
+    "base_hp": 2,
+    "strength": "2/4",
+    "dexterity": "2/5",
+    "vitality": "1/3",
+    "special": "1/2",
+    "insight": "1/3",
     "moves": {
         "bronze": [
             "Tackle",

@@ -1,11 +1,22 @@
 {
     "number": 642,
     "name": "Thundurus (Therian)",
-    "types": ["Electric", "Flying"],
+    "types": [
+        "Electric",
+        "Flying"
+    ],
     "abilities": {
-        "normal": ["Volt Absorb"],
+        "normal": [
+            "Volt Absorb"
+        ],
         "hidden": []
     },
+    "base_hp": 5,
+    "strength": "6/6",
+    "dexterity": "6/6",
+    "vitality": "5/5",
+    "special": "8/8",
+    "insight": "5/5",
     "moves": {
         "bronze": [
             "Astonish",

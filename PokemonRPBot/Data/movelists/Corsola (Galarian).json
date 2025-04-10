@@ -1,11 +1,23 @@
 {
     "number": 222,
     "name": "Corsola (Galarian)",
-    "types": ["Ghost"],
+    "types": [
+        "Ghost"
+    ],
     "abilities": {
-        "normal": ["Weak Armor"],
-        "hidden": ["Cursed Body"]
+        "normal": [
+            "Weak Armor"
+        ],
+        "hidden": [
+            "Cursed Body"
+        ]
     },
+    "base_hp": 4,
+    "strength": "2/4",
+    "dexterity": "1/3",
+    "vitality": "3/6",
+    "special": "2/4",
+    "insight": "3/6",
     "moves": {
         "bronze": [
             "Harden",

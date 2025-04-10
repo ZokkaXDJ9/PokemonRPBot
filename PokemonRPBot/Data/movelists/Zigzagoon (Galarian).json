@@ -1,11 +1,25 @@
 {
     "number": 263,
     "name": "Zigzagoon (Galarian)",
-    "types": ["Dark", "Normal"],
+    "types": [
+        "Dark",
+        "Normal"
+    ],
     "abilities": {
-        "normal": ["Pickup", "Gluttony"],
-        "hidden": ["Quick Feet"]
+        "normal": [
+            "Pickup",
+            "Gluttony"
+        ],
+        "hidden": [
+            "Quick Feet"
+        ]
     },
+    "base_hp": 3,
+    "strength": "1/3",
+    "dexterity": "2/4",
+    "vitality": "1/3",
+    "special": "1/2",
+    "insight": "1/3",
     "moves": {
         "bronze": [
             "Leer",

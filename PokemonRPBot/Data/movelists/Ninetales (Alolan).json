@@ -1,11 +1,24 @@
 {
     "number": 38,
     "name": "Ninetales (Alolan)",
-    "types": ["Ice", "Fairy"],
+    "types": [
+        "Ice",
+        "Fairy"
+    ],
     "abilities": {
-        "normal": ["Snow Cloak"],
-        "hidden": ["Snow Warning"]
+        "normal": [
+            "Snow Cloak"
+        ],
+        "hidden": [
+            "Snow Warning"
+        ]
     },
+    "base_hp": 5,
+    "strength": "2/4",
+    "dexterity": "3/6",
+    "vitality": "2/5",
+    "special": "2/5",
+    "insight": "3/6",
     "moves": {
         "bronze": [
             "Powder Snow",

@@ -1,11 +1,25 @@
 {
     "number": 50,
     "name": "Diglett (Alolan)",
-    "types": ["Ground", "Steel"],
+    "types": [
+        "Ground",
+        "Steel"
+    ],
     "abilities": {
-        "normal": ["Sand Veil", "Tangling Hair"],
-        "hidden": ["Sand Force"]
+        "normal": [
+            "Sand Veil",
+            "Tangling Hair"
+        ],
+        "hidden": [
+            "Sand Force"
+        ]
     },
+    "base_hp": 2,
+    "strength": "2/4",
+    "dexterity": "2/5",
+    "vitality": "1/3",
+    "special": "1/2",
+    "insight": "1/3",
     "moves": {
         "bronze": [
             "Metal Claw",

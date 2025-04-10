@@ -1,11 +1,24 @@
 {
     "number": 53,
     "name": "Persian (Alolan)",
-    "types": ["Dark"],
+    "types": [
+        "Dark"
+    ],
     "abilities": {
-        "normal": ["Fur Coat", "Technician"],
-        "hidden": ["Rattled"]
+        "normal": [
+            "Fur Coat",
+            "Technician"
+        ],
+        "hidden": [
+            "Rattled"
+        ]
     },
+    "base_hp": 4,
+    "strength": "2/4",
+    "dexterity": "3/7",
+    "vitality": "2/4",
+    "special": "2/5",
+    "insight": "2/4",
     "moves": {
         "bronze": [
             "Growl",

@@ -13,11 +13,11 @@
         ]
     },
     "base_hp": 4,
-    "strength": "8/8",
-    "dexterity": "8/8",
-    "vitality": "4/4",
-    "special": "8/8",
-    "insight": "4/4",
+    "strength": "4/8",
+    "dexterity": "4/8",
+    "vitality": "2/4",
+    "special": "4/8",
+    "insight": "2/4",
     "moves": {
         "bronze": [
             "Leer",

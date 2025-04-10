@@ -1,11 +1,25 @@
 {
     "number": 110,
     "name": "Weezing (Galarian)",
-    "types": ["Poison", "Fairy"],
+    "types": [
+        "Poison",
+        "Fairy"
+    ],
     "abilities": {
-        "normal": ["Levitate", "Neutralizing Gas"],
-        "hidden": ["Misty Surge"]
+        "normal": [
+            "Levitate",
+            "Neutralizing Gas"
+        ],
+        "hidden": [
+            "Misty Surge"
+        ]
     },
+    "base_hp": 4,
+    "strength": "3/6",
+    "dexterity": "2/4",
+    "vitality": "3/7",
+    "special": "2/5",
+    "insight": "2/5",
     "moves": {
         "bronze": [
             "Aromatic Mist",
