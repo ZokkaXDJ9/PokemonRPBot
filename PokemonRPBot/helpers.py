@@ -148,3 +148,30 @@ def load_weather(weather_name):
             return json.load(f)
     except FileNotFoundError:
         return None  # Return None if the file does not exist
+
+def load_item(item_name):
+    """Load an item from a JSON file based on the item name."""
+    file_path = os.path.join(os.path.dirname(__file__), "Data", "items", f"{item_name}.json")
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return None  # Return None if the file does not exist
+
+def load_potion(potion_name):
+    """Load a potion from a JSON file based on the potion name."""
+    file_path = os.path.join(os.path.dirname(__file__), "Data", "potions", f"{potion_name}.json")
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return None  # Return None if the file does not exist
+
+def load_z_move(zmove_name):
+    """Load a Z‑Move from a JSON file based on the z‑move name."""
+    file_path = os.path.join(os.path.dirname(__file__), "Data", "z_moves", f"{zmove_name}.json")
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return None  # Return None if the file does not exist
