@@ -1,9 +1,13 @@
 {
     "number": 746,
     "name": "Wishiwashi (School Form)",
-    "types": ["Water"],
+    "types": [
+        "Water"
+    ],
     "abilities": {
-        "normal": ["Schooling"],
+        "normal": [
+            "Schooling"
+        ],
         "hidden": []
     },
     "base_hp": 3,

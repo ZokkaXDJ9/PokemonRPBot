@@ -1,10 +1,17 @@
 {
     "number": 976,
     "name": "Oinkologne (Female)",
-    "types": ["Normal"],
+    "types": [
+        "Normal"
+    ],
     "abilities": {
-        "normal": ["Aroma Veil", "Gluttony"],
-        "hidden": ["Thick Fat"]
+        "normal": [
+            "Aroma Veil",
+            "Gluttony"
+        ],
+        "hidden": [
+            "Thick Fat"
+        ]
     },
     "base_hp": 6,
     "strength": "3/6",

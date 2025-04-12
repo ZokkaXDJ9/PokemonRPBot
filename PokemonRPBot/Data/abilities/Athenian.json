@@ -1,6 +1,6 @@
 {
-  "name": "Athenian",
-  "effect": "This Pokemon has a permanent increase of 1 point to its Special attribute.",
-  "description": "",
-  "_id": "athenian"
+    "Name": "Athenian",
+    "Effect": "This Pokemon has a permanent increase of 1 point to its Special attribute.",
+    "Description": "",
+    "_id": "athenian"
 }

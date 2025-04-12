@@ -11,6 +11,12 @@
         ],
         "hidden": []
     },
+    "base_hp": 6,
+    "strength": "3/7",
+    "dexterity": "3/6",
+    "vitality": "3/6",
+    "special": "2/5",
+    "insight": "3/6",
     "moves": {
         "bronze": [
             "Bind",

@@ -1,9 +1,14 @@
 {
     "number": 741,
     "name": "Oricorio (Baile Style)",
-    "types": ["Fire", "Flying"],
+    "types": [
+        "Fire",
+        "Flying"
+    ],
     "abilities": {
-        "normal": ["Dancer"],
+        "normal": [
+            "Dancer"
+        ],
         "hidden": []
     },
     "base_hp": 5,

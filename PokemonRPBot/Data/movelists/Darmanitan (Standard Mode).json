@@ -1,10 +1,16 @@
 {
     "number": 555,
     "name": "Darmanitan (Standard Mode)",
-    "types": ["Fire"],
+    "types": [
+        "Fire"
+    ],
     "abilities": {
-        "normal": ["Sheer Force"],
-        "hidden": ["Zen-Mode"]
+        "normal": [
+            "Sheer Force"
+        ],
+        "hidden": [
+            "Zen-Mode"
+        ]
     },
     "base_hp": 6,
     "strength": "4/8",

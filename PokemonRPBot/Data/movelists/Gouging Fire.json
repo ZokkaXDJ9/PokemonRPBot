@@ -1,9 +1,14 @@
 {
     "number": 1020,
     "name": "Gouging Fire",
-    "types": ["Fire", "Dragon"],
+    "types": [
+        "Fire",
+        "Dragon"
+    ],
     "abilities": {
-        "normal": ["Protosynthesis"],
+        "normal": [
+            "Protosynthesis"
+        ],
         "hidden": []
     },
     "base_hp": 6,

@@ -1,6 +1,5 @@
 {
   "name": "Sand Stream",
-  "effect": "When this Pokemon comes out, it automatically starts the effects of Sandstorm Weather. The effects end when the Pokemon leaves the battle. (In case of stalemate the Pokemon with higher Will, might keep the dominant weather)",
   "description": "The Pokemon can activate a raging sandstorm around itself that will last for as long as it wants.",
-  "_id": "sand-stream"
+  "effect": "This pokemon can start either Sandstorm or Duststorm Weather at the start of the Round, once per battle. If the User is Ground Type, they instead start either Sandstorm or Quaking Ground Weather. If the User is Steel Type, they instead start either Sandstorm or Ferromagnetic Storm Weather. The effects end when the User faints, or leaves the battle. (In case of stalemate, the Pokemon with higher Will might keep the dominant weather)"
 }

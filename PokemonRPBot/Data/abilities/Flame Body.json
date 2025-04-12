@@ -1,6 +1,5 @@
 {
   "name": "Flame Body",
-  "effect": "When hit by a Non-Ranged Physical Attack, this Pokemon rolls 3 Chance Dice to burn the foe.",
   "description": "This Pokemon can willingly ignite its body on fire, receiving no harm from it. Objects that come into contact with this Pokemon may catch fire.",
-  "_id": "flame-body"
+  "effect": "If a foe makes contact with this Pokemon with an attack, roll 3 Chance Dice to Burn the foe."
 }

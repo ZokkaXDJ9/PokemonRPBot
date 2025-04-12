@@ -1,10 +1,18 @@
 {
     "number": 549,
     "name": "Lilligant (Hisuian)",
-    "types": ["Grass", "Fighting"],
+    "types": [
+        "Grass",
+        "Fighting"
+    ],
     "abilities": {
-        "normal": ["Chlorophyll", "Hustle"],
-        "hidden": ["Leaf Guard"]
+        "normal": [
+            "Chlorophyll",
+            "Hustle"
+        ],
+        "hidden": [
+            "Leaf Guard"
+        ]
     },
     "base_hp": 5,
     "strength": "3/6",

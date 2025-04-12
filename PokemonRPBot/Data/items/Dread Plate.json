@@ -1,0 +1,12 @@
+{
+    "Name": "Dread Plate",
+    "_id": "dread-plate",
+    "Source": "Homebrew",
+    "Author": "Hexa#6969",
+    "PMD": false,
+    "Pocket": "HeldItems",
+    "Category": "TypeBoosting",
+    "Description": "Cannot be used, unless held by Arceus. Adds 2 flat damage to Dark type attacks. When held by Arceus, change it's type to Dark.",
+    "OneUse": false,
+    "TrainerPrice": ""
+}

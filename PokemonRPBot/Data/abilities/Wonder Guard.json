@@ -1,6 +1,5 @@
 {
   "name": "Wonder Guard",
-  "effect": "This Pokemon only receives damage from Status Conditions, and from Moves that deal Super Effective damage against it. This Pokemon is immune to damage from other sources like weather conditions and entry hazards.",
   "description": "This Pokemon's body is protected by an incredible otherworldly aura. Most things get through as if nothing was there.",
-  "_id": "wonder-guard"
+  "effect": "This Pokemon ignores all damage from attacks that would hit for neutral or ineffective damage (Regardless of damage Calculation). Typeless attacks (such as struggle) ignore this restriction. Damage from Status Conditions, Hazards, Recoil, Items and Weather resolve normally."
 }

@@ -1,10 +1,18 @@
 {
     "number": 215,
     "name": "Sneasel (Hisuian)",
-    "types": ["Fighting", "Poison"],
+    "types": [
+        "Fighting",
+        "Poison"
+    ],
     "abilities": {
-        "normal": ["Inner Focus", "Keen Eye"],
-        "hidden": ["Pickpocket"]
+        "normal": [
+            "Inner Focus",
+            "Keen Eye"
+        ],
+        "hidden": [
+            "Pickpocket"
+        ]
     },
     "base_hp": 4,
     "strength": "3/6",

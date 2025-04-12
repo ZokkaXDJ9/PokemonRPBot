@@ -1,6 +1,5 @@
 {
   "name": "Early Bird",
-  "effect": "The time this Pokemon would be drowsy is reduced by half, it will only need to score 2 successes on its Insight roll to wake up in battle. This effect does not apply for the move \u201cRest\u201d",
-  "description": "Pokemon with this ability are light sleepers that will easily rise from slumber. They wake up full of energy with just a couple hours of sleep.",
-  "_id": "early-bird"
+  "description": "This Pokémon us a light sleeper that will easily rise from slumber. They feel energized even with only a few hours of sleep.",
+  "effect": "This pokemon may use their bonus action for the round to cure themself of the Drowsy status, or to ignore the 'Sleeping' turn from the move Rest. "
 }

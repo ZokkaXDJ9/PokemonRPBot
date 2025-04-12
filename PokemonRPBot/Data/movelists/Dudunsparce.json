@@ -1,10 +1,17 @@
 {
     "number": 982,
     "name": "Dudunsparce",
-    "types": ["Normal"],
+    "types": [
+        "Normal"
+    ],
     "abilities": {
-        "normal": ["Serene Grace", "Run Away"],
-        "hidden": ["Rattled"]
+        "normal": [
+            "Serene Grace",
+            "Run Away"
+        ],
+        "hidden": [
+            "Rattled"
+        ]
     },
     "base_hp": 7,
     "strength": "3/6",

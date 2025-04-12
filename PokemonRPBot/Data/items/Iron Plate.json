@@ -1,0 +1,12 @@
+{
+    "Name": "Iron Plate",
+    "_id": "iron-plate",
+    "Source": "Homebrew",
+    "Author": "Hexa#6969",
+    "PMD": false,
+    "Pocket": "HeldItems",
+    "Category": "TypeBoosting",
+    "Description": "Cannot be used, unless held by Arceus. Adds 2 flat damage to Steel type attacks. When held by Arceus, change it's type to Steel.",
+    "OneUse": false,
+    "TrainerPrice": ""
+}

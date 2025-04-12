@@ -1,9 +1,14 @@
 {
     "number": 994,
     "name": "Iron Moth",
-    "types": ["Fire", "Poison"],
+    "types": [
+        "Fire",
+        "Poison"
+    ],
     "abilities": {
-        "normal": ["Quark Drive"],
+        "normal": [
+            "Quark Drive"
+        ],
         "hidden": []
     },
     "base_hp": 5,

@@ -1,9 +1,14 @@
 {
     "number": 984,
     "name": "Great Tusk",
-    "types": ["Ground", "Fighting"],
+    "types": [
+        "Ground",
+        "Fighting"
+    ],
     "abilities": {
-        "normal": ["Protosynthesis"],
+        "normal": [
+            "Protosynthesis"
+        ],
         "hidden": []
     },
     "base_hp": 7,

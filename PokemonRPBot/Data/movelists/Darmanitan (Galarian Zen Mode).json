@@ -1,10 +1,17 @@
 {
     "number": 555,
     "name": "Darmanitan (Galarian Zen Mode)",
-    "types": ["Ice", "Fire"],
+    "types": [
+        "Ice",
+        "Fire"
+    ],
     "abilities": {
-        "normal": ["Gorilla Tactics"],
-        "hidden": ["Zen-Mode"]
+        "normal": [
+            "Gorilla Tactics"
+        ],
+        "hidden": [
+            "Zen-Mode"
+        ]
     },
     "base_hp": 6,
     "strength": "4/9",

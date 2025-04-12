@@ -1,6 +1,6 @@
 {
-  "name": "Quick Draw",
-  "effect": "(provisional) Enables the Pokemon to move first occasionally. (1 Chance Die)",
-  "description": "",
-  "_id": "quick-draw"
+    "Name": "Quick Draw",
+    "Effect": "(provisional) Enables the Pokemon to move first occasionally. (1 Chance Die)",
+    "Description": "",
+    "_id": "quick-draw"
 }

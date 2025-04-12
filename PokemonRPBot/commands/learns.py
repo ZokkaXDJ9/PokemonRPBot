@@ -241,7 +241,7 @@ class MovesCog(commands.Cog):
             if filename.endswith(".json"):
                 pokemon_name = filename[:-5]
                 if current.lower() in pokemon_name.lower():
-                    suggestions.append(app_commands.Choice(name=pokemon_name.capitalize(), value=pokemon_name))
+                    suggestions.append(app_commands.Choice(name=pokemon_name, value=pokemon_name))
                     if len(suggestions) >= 25:
                         break
         return suggestions

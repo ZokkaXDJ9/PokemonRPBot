@@ -1,6 +1,6 @@
 {
-  "name": "Fur Coat",
-  "effect": "Reduce by 2 the Damage dealt to this Pokemon by All Physical Attacks.",
-  "description": "This Pokemon's fluffy exterior is cuddly, soft, hypoallergenic, and also serves as a cushin against powerful blows.",
-  "_id": "fur-coat"
+    "Name": "Fur Coat",
+    "Effect": "Reduce by 2 the Damage dealt to this Pokemon by All Physical Attacks.",
+    "Description": "This Pokemon's fluffy exterior is cuddly, soft, hypoallergenic, and also serves as a cushin against powerful blows.",
+    "_id": "fur-coat"
 }

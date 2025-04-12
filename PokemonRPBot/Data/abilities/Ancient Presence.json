@@ -1,6 +1,6 @@
 {
-  "name": "Ancient Presence",
-  "effect": "The user's moves becomes typeless and will always hit regardless of abilities.",
-  "description": "",
-  "_id": "ancient-presence"
+    "Name": "Ancient Presence",
+    "Effect": "The user's moves becomes typeless and will always hit regardless of abilities.",
+    "Description": "",
+    "_id": "ancient-presence"
 }

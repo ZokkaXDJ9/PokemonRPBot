@@ -1,9 +1,14 @@
 {
     "number": 774,
     "name": "Minior (Meteor Form)",
-    "types": ["Rock", "Flying"],
+    "types": [
+        "Rock",
+        "Flying"
+    ],
     "abilities": {
-        "normal": ["Shields Down"],
+        "normal": [
+            "Shields Down"
+        ],
         "hidden": []
     },
     "base_hp": 4,

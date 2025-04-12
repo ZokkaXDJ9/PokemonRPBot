@@ -1,6 +1,5 @@
 {
   "name": "Poison Touch",
-  "effect": "If this Pokemon hits its foe with a Non-Ranged Physical Attack, Roll 2 Chance Dice to Poison the foe.",
   "description": "Venomous substances will ooze through the body of this Pokemon, you'll become very sick if it touches you.",
-  "_id": "poison-touch"
+  "effect": "If this Pokemon makes contact with a foe with an attack, roll 3 Chance Dice to Poison the foe."
 }

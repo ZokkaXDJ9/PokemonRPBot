@@ -1,6 +1,6 @@
 {
-  "name": "Sweet Veil",
-  "effect": "The Pokemon and its allies are immune to the drowsy status. Increase random encounters with Wild Pokemon.",
-  "description": "This Pokemon's delicious aroma will wake the appetite of all Pokemon nearby.",
-  "_id": "sweet-veil"
+    "Name": "Sweet Veil",
+    "Effect": "The Pokemon and its allies are immune to the drowsy status. Increase random encounters with Wild Pokemon.",
+    "Description": "This Pokemon's delicious aroma will wake the appetite of all Pokemon nearby.",
+    "_id": "sweet-veil"
 }

@@ -1,10 +1,18 @@
 {
     "number": 876,
     "name": "Indeedee (Female)",
-    "types": ["Psychic", "Normal"],
+    "types": [
+        "Psychic",
+        "Normal"
+    ],
     "abilities": {
-        "normal": ["Own Tempo", "Synchronize"],
-        "hidden": ["Psychic Surge"]
+        "normal": [
+            "Own Tempo",
+            "Synchronize"
+        ],
+        "hidden": [
+            "Psychic Surge"
+        ]
     },
     "moves": {
         "bronze": [

@@ -12,11 +12,11 @@
         "hidden": []
     },
     "base_hp": 5,
-    "strength": "8/8",
-    "dexterity": "6/6",
-    "vitality": "6/6",
-    "special": "6/6",
-    "insight": "5/5",
+    "strength": "4/8",
+    "dexterity": "3/6",
+    "vitality": "3/6",
+    "special": "3/6",
+    "insight": "2/5",
     "moves": {
         "bronze": [
             "Block",

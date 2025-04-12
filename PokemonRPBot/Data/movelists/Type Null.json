@@ -1,9 +1,13 @@
 {
     "number": 772,
     "name": "Type: Null",
-    "types": ["Normal"],
+    "types": [
+        "Normal"
+    ],
     "abilities": {
-        "normal": ["Battle Armor"],
+        "normal": [
+            "Battle Armor"
+        ],
         "hidden": []
     },
     "base_hp": 5,

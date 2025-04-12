@@ -11,7 +11,7 @@ import re
 
 def normalize_name(name: str) -> str:
     """
-    Converts a Pokémon (or ability) name to a normalized form:
+    Converts a Pokémon name to a normalized form:
       - Lowercase
       - Replace non-alphanumeric characters with hyphens
       - Merge multiple hyphens and trim leading/trailing hyphens.
@@ -26,7 +26,7 @@ def normalize_name(name: str) -> str:
 def find_movelist_filename(normalized: str, folder: str = os.path.join("data", "movelists")) -> str:
     """
     Given a normalized Pokémon name, returns the full filename of the movelist JSON file.
-    It first checks for an exact match; if not found, it attempts a fuzzy match.
+    Checks for an exact match first, then does a fuzzy check.
     """
     exact_path = os.path.join(folder, f"{normalized}.json")
     if os.path.exists(exact_path):
@@ -35,19 +35,18 @@ def find_movelist_filename(normalized: str, folder: str = os.path.join("data", "
     target_nohyphen = normalized.replace("-", "")
     for filename in os.listdir(folder):
         if filename.endswith(".json"):
-            candidate = filename[:-5]  # remove .json extension
+            candidate = filename[:-5]  # Remove .json extension
             candidate_norm = normalize_name(candidate)
             candidate_nohyphen = candidate_norm.replace("-", "")
             if candidate_nohyphen == target_nohyphen:
                 return os.path.join(folder, filename)
-            # Extra fuzzy check: one is a substring of the other.
             if candidate_nohyphen in target_nohyphen or target_nohyphen in candidate_nohyphen:
                 return os.path.join(folder, filename)
     return None
 
 def format_stat_bar(stat: str) -> str:
     """
-    Given a stat string (e.g. "3/6"), returns a visual representation such as "⬤⬤⬤⭘⭘⭘".
+    Given a stat string (e.g. "3/6"), returns a visual bar (like "⬤⬤⬤⭘⭘⭘").
     """
     try:
         filled, total = stat.split('/')
@@ -59,156 +58,142 @@ def format_stat_bar(stat: str) -> str:
 
 def format_moves(moves_list: list) -> str:
     """
-    Joins a list of moves with a separator. Returns 'None' if the list is empty.
+    Joins a list of moves with "  |  " or returns "None" if empty.
     """
     return "  |  ".join(moves_list) if moves_list else "None"
 
-# A simple mapping for type emojis (add more as needed)
+# A mapping for type emojis.
 TYPE_EMOJIS = {
     "Psychic": "<:typepsychic:1272535970897592330>",
-    # Example:
-    # "Fire": "<:typefire:123456789012345678>",
-    # "Water": "<:typewater:123456789012345678>",
+    # Add more as needed.
 }
 
-# ------------------------------
-# View classes for interactions
-# ------------------------------
+# Load ability data exactly by its given name (no normalization)
+def load_ability(ability_name: str, folder: str = os.path.join("data", "abilities")) -> dict:
+    file_path = os.path.join(folder, f"{ability_name}.json")
+    if os.path.exists(file_path):
+        try:
+            with open(file_path, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"Error loading ability {ability_name}: {e}")
+    return None
 
-class LearnMovesView(discord.ui.View):
-    """
-    This view displays a button to show all learnable moves (TM, Egg, Tutor moves)
-    exactly like your /learns command.
-    """
-    def __init__(self, pokemon_data: dict, author: discord.User):
-        super().__init__(timeout=180)
-        self.pokemon_data = pokemon_data
-        self.author = author
+# ------------------------------
+# Persistent view classes (no user check)
+# ------------------------------
+# Each button’s custom_id encodes the Pokémon’s normalized name.
+# Format: "pokemon:<action>:<normalized>"
+# (We no longer restrict by invoker.)
 
-    @discord.ui.button(label="Show all learnable Moves", style=discord.ButtonStyle.primary)
-    async def show_all_moves(self, interaction: discord.Interaction, button: discord.ui.Button):
-        if interaction.user.id != self.author.id:
-            await interaction.response.send_message("You did not invoke this command.", ephemeral=True)
+class PersistentPokemonAbilitiesButton(discord.ui.Button):
+    def __init__(self, normalized: str):
+        custom_id = f"pokemon:abilities:{normalized}"
+        super().__init__(label="Abilities", style=discord.ButtonStyle.primary, custom_id=custom_id)
+    
+    async def callback(self, interaction: discord.Interaction):
+        self.disabled = True
+        await interaction.response.edit_message(view=self.view)
+        try:
+            _, action, normalized = self.custom_id.split(":")
+        except Exception:
+            await interaction.followup.send("Internal error in button data.")
             return
 
-        # Disable the button once pressed.
-        for child in self.children:
-            child.disabled = True
-        await interaction.response.edit_message(view=self)
-
-        header = f"### {self.pokemon_data.get('name', 'Unknown')} [#{self.pokemon_data.get('number', '?')}]"
-        moves = self.pokemon_data.get("moves", {})
-
-        tm_moves = format_moves(moves.get("tm", []))
-        egg_moves = format_moves(moves.get("egg", []))
-        tutor_moves = format_moves(moves.get("tutor", []))
-
-        sections = [
-            (":cd: **TM Moves**", tm_moves),
-            (":egg: **Egg Moves**", egg_moves),
-            (":teacher: **Tutor Moves**", tutor_moves)
-        ]
-
-        messages = []
-        current_message = header
-        for title, content in sections:
-            section_text = f"{title}\n{content}"
-            if len(current_message) + 2 + len(section_text) > 2000:
-                messages.append(current_message)
-                current_message = header + "\n\n" + section_text
-            else:
-                current_message += "\n\n" + section_text
-        messages.append(current_message)
-
-        for msg in messages:
-            await interaction.followup.send(msg, ephemeral=False)
-
-class PokemonView(discord.ui.View):
-    """
-    This view displays interactive buttons for a Pokémon's details:
-    - Abilities (loads ability data from the abilities folder)
-    - Type Effectiveness (placeholder for now)
-    - Moves (displays rank moves exactly as in the /learns command and attaches LearnMovesView)
-    """
-    def __init__(self, pokemon_data: dict, invoker: discord.User):
-        super().__init__(timeout=180)
-        self.pokemon_data = pokemon_data
-        self.invoker = invoker
-
-    def load_ability(self, ability_name: str, folder: str = os.path.join("data", "abilities")) -> dict:
-        """
-        Loads an ability's JSON file (if it exists) from the abilities folder.
-        """
-        normalized = normalize_name(ability_name)
-        file_path = os.path.join(folder, f"{normalized}.json")
-        if os.path.exists(file_path):
-            try:
-                with open(file_path, "r", encoding="utf-8") as f:
-                    return json.load(f)
-            except Exception as e:
-                print(f"Error loading ability {ability_name}: {e}")
-        return None
-
-    @discord.ui.button(label="Abilities", style=discord.ButtonStyle.primary)
-    async def abilities_button(self, interaction: discord.Interaction, button: discord.ui.Button):
-        # Restrict interaction to the invoking user.
-        if interaction.user.id != self.invoker.id:
-            await interaction.response.send_message("You did not invoke this command.", ephemeral=True)
+        folder = os.path.join("data", "movelists")
+        filename = find_movelist_filename(normalized, folder)
+        if not filename:
+            await interaction.followup.send("Could not find Pokémon data.")
+            return
+        try:
+            with open(filename, "r", encoding="utf-8") as f:
+                data = json.load(f)
+        except Exception:
+            await interaction.followup.send("Error loading Pokémon data.")
             return
 
-        abilities = self.pokemon_data.get("abilities", {})
-        message = f"## {self.pokemon_data.get('name', 'Unknown')} Abilities\n"
-        
-        # Normal abilities:
+        abilities = data.get("abilities", {})
+        message = f"## {data.get('name', 'Unknown')} Abilities\n"
         for ability in abilities.get("normal", []):
-            ability_data = self.load_ability(ability)
+            ability_data = load_ability(ability)
             message += f"\n### {ability}\n"
             if ability_data:
                 message += f"{ability_data.get('effect', 'No effect description.')}\n"
                 message += f"*{ability_data.get('description', 'No detailed description.')}*\n"
             else:
                 message += "No data found for this ability.\n"
-        
-        # Hidden abilities:
         for ability in abilities.get("hidden", []):
-            ability_data = self.load_ability(ability)
+            ability_data = load_ability(ability)
             message += f"\n### {ability} (Hidden)\n"
             if ability_data:
                 message += f"{ability_data.get('effect', 'No effect description.')}\n"
                 message += f"*{ability_data.get('description', 'No detailed description.')}*\n"
             else:
                 message += "No data found for this ability.\n"
-        
-        await interaction.response.send_message(message, ephemeral=False)
+        await interaction.followup.send(message)
 
-    @discord.ui.button(label="Type Effectiveness", style=discord.ButtonStyle.primary)
-    async def type_effectiveness_button(self, interaction: discord.Interaction, button: discord.ui.Button):
-        # Restrict interaction to the invoking user.
-        if interaction.user.id != self.invoker.id:
-            await interaction.response.send_message("You did not invoke this command.", ephemeral=True)
-            return
-        
-        types_list = self.pokemon_data.get("types", [])
-        # Placeholder for type effectiveness.
-        effectiveness_message = f"Type effectiveness for {', '.join(types_list)} is not implemented yet."
-        await interaction.response.send_message(effectiveness_message, ephemeral=False)
-
-    @discord.ui.button(label="Moves", style=discord.ButtonStyle.primary)
-    async def moves_button(self, interaction: discord.Interaction, button: discord.ui.Button):
-        # Restrict interaction to the invoking user.
-        if interaction.user.id != self.invoker.id:
-            await interaction.response.send_message("You did not invoke this command.", ephemeral=True)
-            return
+class PersistentPokemonTypeEffectivenessButton(discord.ui.Button):
+    def __init__(self, normalized: str):
+        custom_id = f"pokemon:te:{normalized}"
+        super().__init__(label="Type Effectiveness", style=discord.ButtonStyle.primary, custom_id=custom_id)
     
-        # Build header and rank move sections as in the /learns command.
-        header = f"### {self.pokemon_data.get('name', 'Unknown')} [#{self.pokemon_data.get('number', '?')}]"
-        moves = self.pokemon_data.get("moves", {})
+    async def callback(self, interaction: discord.Interaction):
+        self.disabled = True
+        await interaction.response.edit_message(view=self.view)
+        try:
+            _, action, normalized = self.custom_id.split(":")
+        except Exception:
+            await interaction.followup.send("Internal error in button data.")
+            return
 
+        folder = os.path.join("data", "movelists")
+        filename = find_movelist_filename(normalize_name(normalized), folder)
+        if not filename:
+            await interaction.followup.send("Could not find Pokémon data.")
+            return
+        try:
+            with open(filename, "r", encoding="utf-8") as f:
+                data = json.load(f)
+        except Exception:
+            await interaction.followup.send("Error loading Pokémon data.")
+            return
+        
+        types_list = data.get("types", [])
+        effectiveness_message = f"Type effectiveness for {', '.join(types_list)} is not implemented yet."
+        await interaction.followup.send(effectiveness_message)
+
+class PersistentPokemonMovesButton(discord.ui.Button):
+    def __init__(self, normalized: str):
+        custom_id = f"pokemon:moves:{normalized}"
+        super().__init__(label="Moves", style=discord.ButtonStyle.primary, custom_id=custom_id)
+    
+    async def callback(self, interaction: discord.Interaction):
+        self.disabled = True
+        await interaction.response.edit_message(view=self.view)
+        try:
+            _, action, normalized = self.custom_id.split(":")
+        except Exception:
+            await interaction.followup.send("Internal error in button data.")
+            return
+
+        folder = os.path.join("data", "movelists")
+        filename = find_movelist_filename(normalized, folder)
+        if not filename:
+            await interaction.followup.send("Could not find Pokémon data.")
+            return
+        try:
+            with open(filename, "r", encoding="utf-8") as f:
+                data = json.load(f)
+        except Exception:
+            await interaction.followup.send("Error loading Pokémon data.")
+            return
+
+        header = f"### {data.get('name', 'Unknown')} [#{data.get('number', '?')}]"
+        moves = data.get("moves", {})
         bronze_moves = format_moves(moves.get("bronze", []))
         silver_moves = format_moves(moves.get("silver", []))
         gold_moves = format_moves(moves.get("gold", []))
         platinum_moves = format_moves(moves.get("platinum", []))
-
         rank_sections = []
         rank_data = [
             ("<:badgebronze:1272532685197152349> **Bronze**", bronze_moves),
@@ -223,10 +208,77 @@ class PokemonView(discord.ui.View):
         initial_text = header
         if rank_sections:
             initial_text += "\n\n" + "\n\n".join(rank_sections)
+    
+        # Attach the persistent learn moves view.
+        view = PersistentLearnMovesView(normalized)
+        await interaction.followup.send(initial_text, view=view)
 
-        # Attach the LearnMovesView as a button for showing TM, Egg and Tutor moves.
-        view = LearnMovesView(pokemon_data=self.pokemon_data, author=interaction.user)
-        await interaction.response.send_message(initial_text, view=view)
+class PersistentLearnMovesView(discord.ui.View):
+    """
+    A persistent view with a single button "Show all learnable Moves"
+    that expands the move list (TM, Egg, Tutor moves).
+    """
+    def __init__(self, normalized: str):
+        super().__init__(timeout=None)
+        self.normalized = normalized
+        custom_id = f"pokemon:learnmoves:{normalized}"
+        button = discord.ui.Button(label="Show all learnable Moves", style=discord.ButtonStyle.primary, custom_id=custom_id)
+        button.callback = self.learn_moves_callback
+        self.add_item(button)
+
+    async def learn_moves_callback(self, interaction: discord.Interaction):
+        for item in self.children:
+            item.disabled = True
+        await interaction.response.edit_message(view=self)
+        try:
+            _, action, normalized = interaction.data.get("custom_id", "").split(":")
+        except Exception:
+            await interaction.followup.send("Internal error in button data.")
+            return
+
+        folder = os.path.join("data", "movelists")
+        filename = find_movelist_filename(normalized, folder)
+        if not filename:
+            await interaction.followup.send("Could not find Pokémon data.")
+            return
+        try:
+            with open(filename, "r", encoding="utf-8") as f:
+                data = json.load(f)
+        except Exception:
+            await interaction.followup.send("Error loading Pokémon data.")
+            return
+
+        header = f"### {data.get('name', 'Unknown')} [#{data.get('number', '?')}]"
+        moves = data.get("moves", {})
+        tm_moves = format_moves(moves.get("tm", []))
+        egg_moves = format_moves(moves.get("egg", []))
+        tutor_moves = format_moves(moves.get("tutor", []))
+        
+        sections = [
+            (":cd: **TM Moves**", tm_moves),
+            (":egg: **Egg Moves**", egg_moves),
+            (":teacher: **Tutor Moves**", tutor_moves)
+        ]
+        messages = []
+        current_message = header
+        for title, content in sections:
+            section_text = f"{title}\n{content}"
+            if len(current_message) + 2 + len(section_text) > 2000:
+                messages.append(current_message)
+                current_message = header + "\n\n" + section_text
+            else:
+                current_message += "\n\n" + section_text
+        messages.append(current_message)
+        for msg in messages:
+            await interaction.followup.send(msg)
+
+# Bundle the persistent buttons in one persistent view.
+class PersistentPokemonView(discord.ui.View):
+    def __init__(self, normalized: str):
+        super().__init__(timeout=None)
+        self.add_item(PersistentPokemonAbilitiesButton(normalized))
+        self.add_item(PersistentPokemonTypeEffectivenessButton(normalized))
+        self.add_item(PersistentPokemonMovesButton(normalized))
 
 # ------------------------------
 # The main Pokémon cog
@@ -258,44 +310,33 @@ class PokemonCog(commands.Cog):
             return
 
         # Build the Pokémon display message.
-        output = f"### {data.get('name', 'Unknown')} [#{data.get('number', '?')}]\n"
-        # Optionally include height/weight if available.
+        output = f"### {data.get('name', 'Unknown')} [#{data.get('number', '?')}]"
         if all(key in data for key in ("height_m", "height_ft", "weight_kg", "weight_lb")):
-            output += f"{data['height_m']}m / {data['height_ft']}ft   |   {data['weight_kg']}kg / {data['weight_lb']}lbs\n"
+            output += f"\n{data['height_m']}m / {data['height_ft']}ft   |   {data['weight_kg']}kg / {data['weight_lb']}lbs"
         else:
             output += "\n"
-        # Display type(s) using emoji mapping if available.
         types_list = data.get("types", [])
         type_str = " / ".join([f"{TYPE_EMOJIS.get(t, '')} {t}".strip() for t in types_list])
-        output += f"**Type**: {type_str}\n"
-
-        # Display Base HP and stat bars.
-        output += f"**Base HP**: {data.get('base_hp', '?')}\n"
-        output += f"**Strength**: {format_stat_bar(data.get('strength', ''))} `{data.get('strength', '')}`\n"
-        output += f"**Dexterity**: {format_stat_bar(data.get('dexterity', ''))} `{data.get('dexterity', '')}`\n"
-        output += f"**Vitality**: {format_stat_bar(data.get('vitality', ''))} `{data.get('vitality', '')}`\n"
-        output += f"**Special**: {format_stat_bar(data.get('special', ''))} `{data.get('special', '')}`\n"
-        output += f"**Insight**: {format_stat_bar(data.get('insight', ''))} `{data.get('insight', '')}`\n"
-
-        # Format abilities (normal and hidden).
+        output += f"\n**Type**: {type_str}"
+        output += f"\n**Base HP**: {data.get('base_hp', '?')}"
+        output += f"\n**Strength**: {format_stat_bar(data.get('strength', ''))} `{data.get('strength', '')}`"
+        output += f"\n**Dexterity**: {format_stat_bar(data.get('dexterity', ''))} `{data.get('dexterity', '')}`"
+        output += f"\n**Vitality**: {format_stat_bar(data.get('vitality', ''))} `{data.get('vitality', '')}`"
+        output += f"\n**Special**: {format_stat_bar(data.get('special', ''))} `{data.get('special', '')}`"
+        output += f"\n**Insight**: {format_stat_bar(data.get('insight', ''))} `{data.get('insight', '')}`"
         abilities = data.get("abilities", {})
         normal_abilities = abilities.get("normal", [])
         hidden_abilities = abilities.get("hidden", [])
         abilities_str = " / ".join(normal_abilities)
         if hidden_abilities:
             abilities_str += " (" + " / ".join(hidden_abilities) + ")"
-        output += f"**Ability**: {abilities_str}\n"
-
-        # Create a view instance and send the message.
-        view = PokemonView(pokemon_data=data, invoker=interaction.user)
+        output += f"\n**Ability**: {abilities_str}"
+        view = PersistentPokemonView(norm_pokemon)
         await interaction.response.send_message(output, view=view)
+        self.bot.add_view(view)
 
     @pokemon.autocomplete("pokemon")
     async def pokemon_autocomplete(self, interaction: discord.Interaction, current: str):
-        """
-        Returns autocomplete suggestions by scanning the movelists folder for JSON files
-        whose names include the current input.
-        """
         suggestions = []
         folder = os.path.join("data", "movelists")
         if not os.path.exists(folder):
@@ -303,7 +344,7 @@ class PokemonCog(commands.Cog):
 
         for filename in os.listdir(folder):
             if filename.endswith(".json"):
-                pokemon_name = filename[:-5]  # Remove the .json extension.
+                pokemon_name = filename[:-5]
                 if current.lower() in pokemon_name.lower():
                     suggestions.append(app_commands.Choice(name=pokemon_name, value=pokemon_name))
                     if len(suggestions) >= 25:

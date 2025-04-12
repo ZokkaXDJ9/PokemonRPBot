@@ -1,9 +1,13 @@
 {
     "number": 964,
     "name": "Palafin",
-    "types": ["Water"],
+    "types": [
+        "Water"
+    ],
     "abilities": {
-        "normal": ["Zero to Hero"],
+        "normal": [
+            "Zero to Hero"
+        ],
         "hidden": []
     },
     "base_hp": 6,

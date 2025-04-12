@@ -1,10 +1,17 @@
 {
     "number": 555,
     "name": "Darmanitan (Zen Mode)",
-    "types": ["Fire", "Psychic"],
+    "types": [
+        "Fire",
+        "Psychic"
+    ],
     "abilities": {
-        "normal": ["Sheer Force"],
-        "hidden": ["Zen-Mode"]
+        "normal": [
+            "Sheer Force"
+        ],
+        "hidden": [
+            "Zen-Mode"
+        ]
     },
     "base_hp": 6,
     "strength": "1/3",

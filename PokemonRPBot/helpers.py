@@ -75,6 +75,19 @@ class ParsedRollQuery:
 
         return text
 
+# Load a specific legendary move from a JSON file
+def load_legend_move(move_name):
+    """Load a move from a JSON file based on the move name."""
+    # Construct the file path
+    file_path = os.path.join(os.path.dirname(__file__), "Data", "legend_moves", f"{move_name}.json")
+    
+    # Try to load the JSON file
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return None  # Return None if the file does not exist
+
 # Load a specific move from a JSON file
 def load_move(move_name):
     """Load a move from a JSON file based on the move name."""

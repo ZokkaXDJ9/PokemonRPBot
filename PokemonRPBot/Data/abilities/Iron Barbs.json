@@ -1,6 +1,5 @@
 {
   "name": "Iron Barbs",
-  "effect": "Whenever this Pokemon is hit with a Non- Ranged Physical Attack, Roll 1 Die of Damage against the attacker.",
-  "description": "This Pokemon is covered with sharp steel quils that hurt anyone who may touch them carelessly",
-  "_id": "iron-barbs"
+  "description": "This Pokemon is covered with sharp steel quills that hurt anyone who may touch them carelessly.",
+  "effect": "Whenever a foe makes contact with this pokemon, they take 1 damage."
 }

@@ -1,10 +1,18 @@
 {
     "number": 194,
     "name": "Wooper (Paldean)",
-    "types": ["Poison", "Ground"],
+    "types": [
+        "Poison",
+        "Ground"
+    ],
     "abilities": {
-        "normal": ["Poison Point", "Water Absorb"],
-        "hidden": ["Unaware"]
+        "normal": [
+            "Poison Point",
+            "Water Absorb"
+        ],
+        "hidden": [
+            "Unaware"
+        ]
     },
     "base_hp": 4,
     "strength": "1/3",

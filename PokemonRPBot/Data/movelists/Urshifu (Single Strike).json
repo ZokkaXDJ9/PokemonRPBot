@@ -1,11 +1,22 @@
 {
     "number": 892,
     "name": "Urshifu (Single Strike)",
-    "types": ["Fighting", "Dark"],
+    "types": [
+        "Fighting",
+        "Dark"
+    ],
     "abilities": {
-        "normal": ["Unseen Fist"],
+        "normal": [
+            "Unseen Fist"
+        ],
         "hidden": []
     },
+    "base_hp": 6,
+    "strength": "4/8",
+    "dexterity": "3/6",
+    "vitality": "3/6",
+    "special": "2/4",
+    "insight": "2/4",
     "moves": {
         "bronze": [
             "Endure",

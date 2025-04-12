@@ -1,10 +1,17 @@
 {
     "number": 503,
     "name": "Samurott (Hisuian)",
-    "types": ["Water", "Dark"],
+    "types": [
+        "Water",
+        "Dark"
+    ],
     "abilities": {
-        "normal": ["Torrent"],
-        "hidden": ["Sharpness"]
+        "normal": [
+            "Torrent"
+        ],
+        "hidden": [
+            "Sharpness"
+        ]
     },
     "base_hp": 6,
     "strength": "3/6",

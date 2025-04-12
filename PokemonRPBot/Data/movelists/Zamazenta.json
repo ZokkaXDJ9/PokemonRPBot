@@ -11,11 +11,11 @@
         "hidden": []
     },
     "base_hp": 5,
-    "strength": "7/7",
-    "dexterity": "8/8",
-    "vitality": "7/7",
-    "special": "5/5",
-    "insight": "7/7",
+    "strength": "3/6",
+    "dexterity": "3/7",
+    "vitality": "3/7",
+    "special": "2/5",
+    "insight": "3/6",
     "moves": {
         "bronze": [
             "Bite",

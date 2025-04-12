@@ -1,0 +1,12 @@
+{
+    "Name": "Wise Glasses",
+    "_id": "wise-glasses",
+    "Source": "Homebrew",
+    "Author": "Hexa#6969",
+    "PMD": false,
+    "Pocket": "HeldItems",
+    "Category": "BattleItem",
+    "Description": "Adds 1 damage die to the User's Special moves.",
+    "OneUse": false,
+    "TrainerPrice": ""
+}

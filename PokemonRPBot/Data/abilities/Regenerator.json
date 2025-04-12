@@ -1,6 +1,5 @@
 {
   "name": "Regenerator",
-  "effect": "This Pokemon may Heal up to 4 Damage or up to 2 Lethal Damage on its own every day. The Pokemon must be out of combat to benefit from this effect.",
   "description": "The body of this Pokemon will regenerate from damage really quick, wounds that would take days to heal will get better in a few hours.",
-  "_id": "regenerator"
+  "effect": "This Pokemon may Heal up to 2 Damage or 1 Wound Damage after performing an Alternative Action (Including dodges granted by evasion), once per round. The user may activate this ability while in combat a number of times equal to their rank bonus +1, per quest"
 }

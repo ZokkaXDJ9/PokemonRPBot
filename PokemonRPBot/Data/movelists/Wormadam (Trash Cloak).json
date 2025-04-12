@@ -1,10 +1,17 @@
 {
     "number": 413,
     "name": "Wormadam (Trash Cloak)",
-    "types": ["Bug", "Steel"],
+    "types": [
+        "Bug",
+        "Steel"
+    ],
     "abilities": {
-        "normal": ["Anticipation"],
-        "hidden": ["Overcoat"]
+        "normal": [
+            "Anticipation"
+        ],
+        "hidden": [
+            "Overcoat"
+        ]
     },
     "base_hp": 4,
     "strength": "2/4",

@@ -12,11 +12,11 @@
         "hidden": []
     },
     "base_hp": 5,
-    "strength": "6/6",
-    "dexterity": "5/5",
-    "vitality": "4/4",
-    "special": "8/8",
-    "insight": "8/8",
+    "strength": "3/6",
+    "dexterity": "2/5",
+    "vitality": "2/4",
+    "special": "4/8",
+    "insight": "4/8",
     "moves": {
         "bronze": [
             "Ally Switch",

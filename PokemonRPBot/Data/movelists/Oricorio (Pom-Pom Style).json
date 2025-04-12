@@ -1,9 +1,14 @@
 {
     "number": 741,
     "name": "Oricorio (Pom-Pom Style)",
-    "types": ["Electric", "Flying"],
+    "types": [
+        "Electric",
+        "Flying"
+    ],
     "abilities": {
-        "normal": ["Dancer"],
+        "normal": [
+            "Dancer"
+        ],
         "hidden": []
     },
     "base_hp": 5,

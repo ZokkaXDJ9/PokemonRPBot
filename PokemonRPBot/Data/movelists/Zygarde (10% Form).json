@@ -1,11 +1,23 @@
 {
     "number": 718,
-    "name": "Zygarde",
-    "types": ["Dragon", "Ground"],
+    "name": "Zygarde (10% Form)",
+    "types": [
+        "Dragon",
+        "Ground"
+    ],
     "abilities": {
-        "normal": ["Aura Break", "Power Construct"],
+        "normal": [
+            "Aura Break",
+            "Power Construct"
+        ],
         "hidden": []
     },
+    "base_hp": 4,
+    "strength": "3/6",
+    "dexterity": "3/7",
+    "vitality": "2/4",
+    "special": "2/4",
+    "insight": "2/5",
     "moves": {
         "bronze": [
             "Bind",

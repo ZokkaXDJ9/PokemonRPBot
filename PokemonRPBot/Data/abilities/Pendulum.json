@@ -1,6 +1,6 @@
 {
-  "name": "Pendulum",
-  "effect": "Increases the damage pool of moves by 1 when used consecutively up to 3 times.",
-  "description": "",
-  "_id": "pendulum"
+    "Name": "Pendulum",
+    "Effect": "Increases the damage pool of moves by 1 when used consecutively up to 3 times.",
+    "Description": "",
+    "_id": "pendulum"
 }

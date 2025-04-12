@@ -1,9 +1,14 @@
 {
     "number": 991,
     "name": "Iron Bundle",
-    "types": ["Ice", "Water"],
+    "types": [
+        "Ice",
+        "Water"
+    ],
     "abilities": {
-        "normal": ["Quark Drive"],
+        "normal": [
+            "Quark Drive"
+        ],
         "hidden": []
     },
     "base_hp": 4,

@@ -12,11 +12,11 @@
         "hidden": []
     },
     "base_hp": 4,
-    "strength": "6/6",
-    "dexterity": "4/4",
-    "vitality": "8/8",
-    "special": "6/6",
-    "insight": "8/8",
+    "strength": "3/6",
+    "dexterity": "2/4",
+    "vitality": "4/8",
+    "special": "3/6",
+    "insight": "4/8",
     "moves": {
         "bronze": [
             "Diamond Storm",

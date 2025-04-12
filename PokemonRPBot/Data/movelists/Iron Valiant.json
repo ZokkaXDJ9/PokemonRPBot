@@ -1,9 +1,14 @@
 {
     "number": 1006,
     "name": "Iron Valiant",
-    "types": ["Fairy", "Fighting"],
+    "types": [
+        "Fairy",
+        "Fighting"
+    ],
     "abilities": {
-        "normal": ["Quark Drive"],
+        "normal": [
+            "Quark Drive"
+        ],
         "hidden": []
     },
     "base_hp": 5,

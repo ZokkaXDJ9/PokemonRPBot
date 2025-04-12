@@ -1,10 +1,17 @@
 {
     "number": 978,
     "name": "Tatsugiri",
-    "types": ["Dragon", "Water"],
+    "types": [
+        "Dragon",
+        "Water"
+    ],
     "abilities": {
-        "normal": ["Commander"],
-        "hidden": ["Storm Drain"]
+        "normal": [
+            "Commander"
+        ],
+        "hidden": [
+            "Storm Drain"
+        ]
     },
     "base_hp": 4,
     "strength": "2/4",

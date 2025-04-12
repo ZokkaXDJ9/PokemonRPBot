@@ -1,10 +1,17 @@
 {
     "number": 724,
     "name": "Decidueye (Hisuian)",
-    "types": ["Grass", "Fighting"],
+    "types": [
+        "Grass",
+        "Fighting"
+    ],
     "abilities": {
-        "normal": ["Overgrow"],
-        "hidden": ["Scrappy"]
+        "normal": [
+            "Overgrow"
+        ],
+        "hidden": [
+            "Scrappy"
+        ]
     },
     "base_hp": 5,
     "strength": "3/7",

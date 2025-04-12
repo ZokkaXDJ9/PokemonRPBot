@@ -1,6 +1,5 @@
 {
   "name": "Aftermath",
-  "effect": "If this Pokemon faints due to a Non-Ranged Physical Attack , the user of that attack is dealt 2 Damage.",
   "description": "When hurt or upset, the Pokemon will prepare to burst. If hit hard enough, it will explode on contact",
-  "_id": "aftermath"
+  "effect": "If this Pokemon faints due to a contact move, the attacker is dealt damage equal to the user's Vitality."
 }

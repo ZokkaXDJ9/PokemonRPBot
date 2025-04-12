@@ -1,6 +1,5 @@
 {
   "name": "Drought",
-  "effect": "When this Pokemon comes out, it automatically starts the effects of Sunny Weather. The effects end when the Pokemon leaves the battle. (In case of stalemate the Pokemon with higher Will might keep the dominant weather)",
   "description": "The Sunlight will be harsly bright, and the heat will increase in the field for as long as this Pokemon wants to.",
-  "_id": "drought"
+  "effect": "This Pokemon can start Sunny Weather at the start of the Round, once per battle. The effects end when the User faints, or leaves the battle. (In case of stalemate, the Pokemon with higher Will might keep the dominant weather)"
 }

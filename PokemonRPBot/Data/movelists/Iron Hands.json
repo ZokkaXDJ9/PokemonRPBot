@@ -1,9 +1,14 @@
 {
     "number": 992,
     "name": "Iron Hands",
-    "types": ["Fighting", "Electric"],
+    "types": [
+        "Fighting",
+        "Electric"
+    ],
     "abilities": {
-        "normal": ["Quark Drive"],
+        "normal": [
+            "Quark Drive"
+        ],
         "hidden": []
     },
     "base_hp": 9,

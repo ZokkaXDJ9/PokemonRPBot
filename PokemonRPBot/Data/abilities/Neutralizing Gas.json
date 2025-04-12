@@ -1,6 +1,5 @@
 {
   "name": "Neutralizing Gas",
-  "effect": "Foe Pokemon in range will have their Abilities effects negated as long as this Pokemon is out.",
-  "description": "The Pokemon is surrounded by a sweet-smelling but noxious gas. Most poeple and Pokemon can't help but to stop and smell it, though.",
-  "_id": "neutralizing-gas"
+  "description": "The Pokemon is surrounded by a sweet-smelling but noxious gas. Most people and Pokemon can't help but to stop and smell it, though.",
+  "effect": "At the start of each round the User may declare all other Pokemon in range will have their Abilities negated until the end of the round, or as long as this Pokemon is out."
 }

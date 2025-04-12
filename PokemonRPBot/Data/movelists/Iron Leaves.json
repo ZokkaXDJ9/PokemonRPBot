@@ -1,9 +1,14 @@
 {
     "number": 1010,
     "name": "Iron Leaves",
-    "types": ["Grass", "Psychic"],
+    "types": [
+        "Grass",
+        "Psychic"
+    ],
     "abilities": {
-        "normal": ["Quark Drive"],
+        "normal": [
+            "Quark Drive"
+        ],
         "hidden": []
     },
     "base_hp": 6,

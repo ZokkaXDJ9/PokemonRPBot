@@ -1,9 +1,14 @@
 {
     "number": 741,
     "name": "Oricorio (Sensu Style)",
-    "types": ["Ghost", "Flying"],
+    "types": [
+        "Ghost",
+        "Flying"
+    ],
     "abilities": {
-        "normal": ["Dancer"],
+        "normal": [
+            "Dancer"
+        ],
         "hidden": []
     },
     "base_hp": 5,

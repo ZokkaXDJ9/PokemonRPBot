@@ -1,10 +1,17 @@
 {
     "number": 32,
     "name": "Nidoran (Male)",
-    "types": ["Poison"],
+    "types": [
+        "Poison"
+    ],
     "abilities": {
-        "normal": ["Poison Point", "Rivalry"],
-        "hidden": ["Hustle"]
+        "normal": [
+            "Poison Point",
+            "Rivalry"
+        ],
+        "hidden": [
+            "Hustle"
+        ]
     },
     "base_hp": 3,
     "strength": "2/4",

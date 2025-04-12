@@ -1,6 +1,6 @@
 {
-  "name": "Vital Spirit",
-  "effect": "The Pokemon is immune to the Drowsy status.",
-  "description": "The Pokemon is incredibly active and energetic. It needs constant activity and exercise or else it will act destructive. It never sleeps.",
-  "_id": "vital-spirit"
+    "Name": "Vital Spirit",
+    "Effect": "The Pokemon is immune to the Drowsy status.",
+    "Description": "The Pokemon is incredibly active and energetic. It needs constant activity and exercise or else it will act destructive. It never sleeps.",
+    "_id": "vital-spirit"
 }

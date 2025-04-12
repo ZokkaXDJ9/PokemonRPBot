@@ -1,9 +1,14 @@
 {
     "number": 570,
     "name": "Zorua (Hisuian)",
-    "types": ["Normal", "Ghost"],
+    "types": [
+        "Normal",
+        "Ghost"
+    ],
     "abilities": {
-        "normal": ["Illusion"],
+        "normal": [
+            "Illusion"
+        ],
         "hidden": []
     },
     "base_hp": 3,

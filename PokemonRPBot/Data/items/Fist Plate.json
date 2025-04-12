@@ -1,0 +1,12 @@
+{
+    "Name": "Fist Plate",
+    "_id": "fist-plate",
+    "Source": "Homebrew",
+    "Author": "Hexa#6969",
+    "PMD": false,
+    "Pocket": "HeldItems",
+    "Category": "TypeBoosting",
+    "Description": "Cannot be used, unless held by Arceus. Adds 2 flat damage to Fighting type attacks. When held by Arceus, change it's type to Fighting.",
+    "OneUse": false,
+    "TrainerPrice": ""
+}

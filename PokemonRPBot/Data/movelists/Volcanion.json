@@ -12,11 +12,11 @@
         "hidden": []
     },
     "base_hp": 5,
-    "strength": "6/6",
-    "dexterity": "5/5",
-    "vitality": "7/7",
-    "special": "7/7",
-    "insight": "6/6",
+    "strength": "3/6",
+    "dexterity": "2/5",
+    "vitality": "3/7",
+    "special": "3/7",
+    "insight": "3/6",
     "moves": {
         "bronze": [
             "Fire Spin",

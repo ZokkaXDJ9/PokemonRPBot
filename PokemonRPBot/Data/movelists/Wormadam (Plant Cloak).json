@@ -1,10 +1,17 @@
 {
     "number": 413,
     "name": "Wormadam (Plant Cloak)",
-    "types": ["Bug", "Grass"],
+    "types": [
+        "Bug",
+        "Grass"
+    ],
     "abilities": {
-        "normal": ["Anticipation"],
-        "hidden": ["Overcoat"]
+        "normal": [
+            "Anticipation"
+        ],
+        "hidden": [
+            "Overcoat"
+        ]
     },
     "base_hp": 4,
     "strength": "2/4",

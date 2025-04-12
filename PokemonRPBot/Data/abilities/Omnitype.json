@@ -1,6 +1,6 @@
 {
-  "name": "Omnitype",
-  "effect": "The user is considered all types when defending.",
-  "description": "",
-  "_id": "omnitype"
+    "Name": "Omnitype",
+    "Effect": "The user is considered all types when defending.",
+    "Description": "",
+    "_id": "omnitype"
 }

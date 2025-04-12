@@ -1,9 +1,14 @@
 {
     "number": 681,
     "name": "Aegislash (Shield Form)",
-    "types": ["Steel", "Ghost"],
+    "types": [
+        "Steel",
+        "Ghost"
+    ],
     "abilities": {
-        "normal": ["Stance Change"],
+        "normal": [
+            "Stance Change"
+        ],
         "hidden": []
     },
     "base_hp": 4,

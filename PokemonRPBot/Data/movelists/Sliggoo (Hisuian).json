@@ -1,10 +1,18 @@
 {
     "number": 705,
     "name": "Sliggoo (Hisuian)",
-    "types": ["Steel", "Dragon"],
+    "types": [
+        "Steel",
+        "Dragon"
+    ],
     "abilities": {
-        "normal": ["Sap Sipper", "Shell Armor"],
-        "hidden": ["Gooey"]
+        "normal": [
+            "Sap Sipper",
+            "Shell Armor"
+        ],
+        "hidden": [
+            "Gooey"
+        ]
     },
     "base_hp": 4,
     "strength": "2/5",

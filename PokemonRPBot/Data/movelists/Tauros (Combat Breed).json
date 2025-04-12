@@ -1,10 +1,17 @@
 {
     "number": 128,
     "name": "Tauros (Combat Breed)",
-    "types": ["Fighting"],
+    "types": [
+        "Fighting"
+    ],
     "abilities": {
-        "normal": ["Intimidate", "Anger Point"],
-        "hidden": ["Cud Chew"]
+        "normal": [
+            "Intimidate",
+            "Anger Point"
+        ],
+        "hidden": [
+            "Cud Chew"
+        ]
     },
     "base_hp": 5,
     "strength": "3/7",
