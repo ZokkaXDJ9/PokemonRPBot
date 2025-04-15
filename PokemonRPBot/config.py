@@ -25,11 +25,11 @@ COMMANDS = [
     "commands.item",
     "commands.metronome",
     "commands.typechart",
-    "commands.legend_move"
+    "commands.legend_move",
+    "commands.stats"
     ]
 
 COMMANDS_NOT_LOADED = [
     "commands.suggest",
     "commands.create_character",
-    "commands.stats",
 ]
