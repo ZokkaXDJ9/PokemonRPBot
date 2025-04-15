@@ -23,8 +23,7 @@
             "Growl",
             "Tackle",
             "Thunder Shock",
-            "Thunder Wave",
-            "ThunderShock"
+            "Thunder Wave"
         ],
         "silver": [
             "Charge",
@@ -64,7 +63,7 @@
             "Discharge",
             "Double Team",
             "Double-Edge",
-            "DynamicPunch",
+            "Dynamic Punch",
             "Echoed Voice",
             "Eerie Impulse",
             "Electric Terrain",
@@ -114,7 +113,6 @@
             "Thunder Punch",
             "Thunder Shock",
             "Thunder Wave",
-            "ThunderPunch",
             "Thunderbolt",
             "Toxic",
             "Trailblaze",
@@ -148,8 +146,6 @@
             "Thunder Punch",
             "Thunder Shock",
             "Thunder Wave",
-            "ThunderPunch",
-            "ThunderShock",
             "Thunderbolt"
         ],
         "egg": [
@@ -173,7 +169,6 @@
         "level1_g3_7": [
             "Growl",
             "Tackle",
-            "ThunderShock",
             "Thunder Shock",
             "Thunder Wave"
         ]

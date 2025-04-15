@@ -28,7 +28,6 @@
             "Heat Wave",
             "Leer",
             "Scratch",
-            "SmokeScreen",
             "Smokescreen"
         ],
         "silver": [
@@ -81,8 +80,8 @@
             "Dragon Pulse",
             "Dragon Rage",
             "Dragon Tail",
-            "DragonBreath",
-            "DynamicPunch",
+            "Dragon Breath",
+            "Dynamic Punch",
             "Earthquake",
             "Echoed Voice",
             "Endure",
@@ -145,7 +144,6 @@
             "Sleep Talk",
             "Snore",
             "Solar Beam",
-            "SolarBeam",
             "Steel Wing",
             "Strength",
             "Submission",
@@ -186,7 +184,6 @@
             "Scratch",
             "Seismic Toss",
             "Shadow Claw",
-            "SmokeScreen",
             "Smokescreen",
             "Substitute",
             "Swords Dance",
@@ -217,13 +214,12 @@
             "Ember",
             "Growl",
             "Scratch",
-            "SmokeScreen",
+            "Smokescreen",
             "Air Slash",
             "Dragon Claw",
             "Shadow Claw",
             "Flare Blitz",
             "Heat Wave",
-            "Smokescreen",
             "Wing Attack"
         ]
     }

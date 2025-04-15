@@ -105,7 +105,6 @@
             "Sleep Talk",
             "Snore",
             "Solar Beam",
-            "SolarBeam",
             "Stealth Rock",
             "Steel Beam",
             "Stomping Tantrum",
@@ -124,7 +123,6 @@
         ],
         "tutor": [
             "Ancient Power",
-            "AncientPower",
             "Bug Bite",
             "Burning Jealousy",
             "Dark Pulse",
@@ -146,7 +144,6 @@
         ],
         "egg": [],
         "level1_g3_7": [
-            "AncientPower",
             "Ancient Power",
             "Earth Power",
             "Fire Spin",

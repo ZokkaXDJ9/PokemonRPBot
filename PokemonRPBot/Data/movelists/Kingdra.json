@@ -24,7 +24,6 @@
         "bronze": [
             "Bubble",
             "Leer",
-            "SmokeScreen",
             "Smokescreen",
             "Twister",
             "Water Gun",
@@ -35,7 +34,6 @@
             "Agility",
             "Brine",
             "Bubble Beam",
-            "BubbleBeam",
             "Dragon Breath",
             "Focus Energy"
         ],
@@ -68,7 +66,7 @@
             "Draco Meteor",
             "Dragon Dance",
             "Dragon Pulse",
-            "DragonBreath",
+            "Dragon Breath",
             "Endure",
             "Facade",
             "Flash Cannon",
@@ -126,7 +124,6 @@
             "Leer",
             "Mimic",
             "Scale Shot",
-            "SmokeScreen",
             "Smokescreen",
             "Substitute",
             "Water Gun",
@@ -150,11 +147,10 @@
         "level1_g3_7": [
             "Bubble",
             "Leer",
-            "SmokeScreen",
+            "Smokescreen",
             "Water Gun",
             "Yawn",
             "Dragon Pulse",
-            "Smokescreen",
             "Hydro Pump"
         ]
     }

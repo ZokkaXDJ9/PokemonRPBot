@@ -39,7 +39,6 @@
         ],
         "silver": [
             "Dragon Breath",
-            "DragonBreath",
             "Gyro Ball",
             "Rage",
             "Rock Slide",
@@ -76,7 +75,7 @@
             "Dragon Dance",
             "Dragon Pulse",
             "Dragon Tail",
-            "DragonBreath",
+            "Dragon Breath",
             "Drill Run",
             "Earth Power",
             "Earthquake",
@@ -137,7 +136,7 @@
             "Toxic"
         ],
         "tutor": [
-            "AncientPower",
+            "Ancient Power",
             "Aqua Tail",
             "Bind",
             "Block",

@@ -124,7 +124,6 @@
         ],
         "tutor": [
             "Ancient Power",
-            "AncientPower",
             "Baby-Doll Eyes",
             "Block",
             "Bulldoze",
@@ -173,12 +172,11 @@
             "Take Down"
         ],
         "level1_g3_7": [
-            "AncientPower",
+            "Ancient Power",
             "Mud Sport",
             "Odor Sleuth",
             "Peck",
             "Powder Snow",
-            "Ancient Power",
             "Scary Face",
             "Fury Attack"
         ]

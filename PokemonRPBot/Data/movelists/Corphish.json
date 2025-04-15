@@ -30,7 +30,6 @@
         ],
         "silver": [
             "Bubble Beam",
-            "BubbleBeam",
             "Double Hit",
             "Knock Off",
             "Night Slash",
@@ -112,7 +111,7 @@
             "X-Scissor"
         ],
         "tutor": [
-            "AncientPower",
+            "Ancient Power",
             "Body Slam",
             "Bubble",
             "Counter",

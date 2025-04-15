@@ -32,7 +32,6 @@
         "silver": [
             "Amnesia",
             "Ancient Power",
-            "AncientPower",
             "Clear Smog",
             "Flame Burst",
             "Harden",
@@ -114,7 +113,6 @@
             "Smog",
             "Snore",
             "Solar Beam",
-            "SolarBeam",
             "Stealth Rock",
             "Stomping Tantrum",
             "Stone Edge",
@@ -131,7 +129,7 @@
         ],
         "tutor": [
             "After You",
-            "AncientPower",
+            "Ancient Power",
             "Body Slam",
             "Double-Edge",
             "Earth Power",

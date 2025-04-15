@@ -39,7 +39,7 @@
             "Sand-Attack"
         ],
         "gold": [
-            "AncientPower",
+            "Ancient Power",
             "Brine",
             "Hydro Pump",
             "Leech Life",
@@ -60,7 +60,7 @@
             "Body Slam",
             "Brick Break",
             "Brine",
-            "BubbleBeam",
+            "Bubble Beam",
             "Captivate",
             "Confide",
             "Cross Poison",
@@ -139,7 +139,7 @@
         ],
         "tutor": [
             "Absorb",
-            "AncientPower",
+            "Ancient Power",
             "Aqua Tail",
             "Body Slam",
             "Dive",

@@ -125,7 +125,6 @@
             "Telekinesis",
             "Thunder Shock",
             "Thunder Wave",
-            "ThunderShock",
             "Trick",
             "Uproar"
         ],
@@ -133,12 +132,11 @@
         "level1_g3_7": [
             "Astonish",
             "Confuse Ray",
-            "ThunderShock",
+            "Thunder Shock",
             "Thunder Wave",
             "Trick",
             "Charge",
-            "Discharge",
-            "Thunder Shock"
+            "Discharge"
         ]
     }
 }

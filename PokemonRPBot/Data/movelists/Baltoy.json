@@ -28,7 +28,6 @@
         ],
         "silver": [
             "Ancient Power",
-            "AncientPower",
             "Cosmic Power",
             "Earth Power",
             "Extrasensory",
@@ -101,7 +100,6 @@
             "Smack Down",
             "Snore",
             "Solar Beam",
-            "SolarBeam",
             "Stealth Rock",
             "Substitute",
             "Sunny Day",
@@ -115,7 +113,7 @@
         ],
         "tutor": [
             "Ally Switch",
-            "AncientPower",
+            "Ancient Power",
             "Confusion",
             "Double-Edge",
             "Dream Eater",

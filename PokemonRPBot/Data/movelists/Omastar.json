@@ -39,7 +39,7 @@
             "Mud Shot"
         ],
         "gold": [
-            "AncientPower",
+            "Ancient Power",
             "Hydro Pump",
             "Protect",
             "Rock Blast",
@@ -56,7 +56,7 @@
             "Blizzard",
             "Body Slam",
             "Brine",
-            "BubbleBeam",
+            "Bubble Beam",
             "Captivate",
             "Confide",
             "Crunch",
@@ -124,7 +124,7 @@
             "Whirlpool"
         ],
         "tutor": [
-            "AncientPower",
+            "Ancient Power",
             "Bind",
             "Bite",
             "Body Slam",

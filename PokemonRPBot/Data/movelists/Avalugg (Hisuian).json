@@ -27,7 +27,6 @@
             "Powder Snow",
             "Ice Shard",
             "Harden",
-            "Powder Snow",
             "Rapid Spin",
             "Wide Guard",
             "Curse"
@@ -41,7 +40,6 @@
             "Protect",
             "Avalanche",
             "Ice Fang",
-            "Iron Defense",
             "Recover"
         ],
         "gold": [
@@ -49,9 +47,7 @@
             "Mountain Gale",
             "Double-Edge",
             "Take Down",
-            "Blizzard",
-            "Stone Edge",
-            "Mountain Gale"
+            "Stone Edge"
         ],
         "platinum": [],
         "diamond": [],
@@ -114,7 +110,6 @@
             "Icicle Spear",
             "Double-Edge",
             "Meteor Beam",
-            "Curse",
             "Hard Press"
         ],
         "egg": [

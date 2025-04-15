@@ -25,7 +25,6 @@
             "Eruption",
             "Gyro Ball",
             "Leer",
-            "SmokeScreen",
             "Smokescreen",
             "Tackle"
         ],
@@ -64,7 +63,7 @@
             "Dig",
             "Double Team",
             "Double-Edge",
-            "DynamicPunch",
+            "Dynamic Punch",
             "Earthquake",
             "Ember",
             "Endeavor",
@@ -125,7 +124,6 @@
             "Smokescreen",
             "Snore",
             "Solar Beam",
-            "SolarBeam",
             "Stomping Tantrum",
             "Strength",
             "Substitute",
@@ -138,7 +136,6 @@
             "Tera Blast",
             "Throat Chop",
             "Thunder Punch",
-            "ThunderPunch",
             "Toxic",
             "Wild Charge",
             "Will-O-Wisp",
@@ -161,7 +158,6 @@
             "Mimic",
             "Rock Slide",
             "Seismic Toss",
-            "SmokeScreen",
             "Smokescreen",
             "Substitute",
             "Tackle"
@@ -187,12 +183,11 @@
         "level1_g3_7": [
             "Ember",
             "Leer",
-            "SmokeScreen",
+            "Smokescreen",
             "Tackle",
             "Gyro Ball",
             "Double-Edge",
-            "Eruption",
-            "Smokescreen"
+            "Eruption"
         ]
     }
 }

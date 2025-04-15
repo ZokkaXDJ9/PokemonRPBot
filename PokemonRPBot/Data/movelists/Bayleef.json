@@ -41,8 +41,7 @@
             "Giga Drain",
             "Light Screen",
             "Safeguard",
-            "Solar Beam",
-            "SolarBeam"
+            "Solar Beam"
         ],
         "platinum": [],
         "diamond": [],
@@ -100,7 +99,6 @@
             "Snore",
             "Solar Beam",
             "Solar Blade",
-            "SolarBeam",
             "Stomping Tantrum",
             "Strength",
             "Substitute",
@@ -117,7 +115,7 @@
             "Work Up"
         ],
         "tutor": [
-            "AncientPower",
+            "Ancient Power",
             "Body Slam",
             "Counter",
             "Double-Edge",

@@ -43,7 +43,7 @@
             "Slash"
         ],
         "gold": [
-            "AncientPower",
+            "Ancient Power",
             "Foul Play",
             "Substitute",
             "Sucker Punch",
@@ -112,7 +112,6 @@
             "Sleep Talk",
             "Snatch",
             "Solar Beam",
-            "SolarBeam",
             "Stealth Rock",
             "Strength",
             "Substitute",
@@ -132,7 +131,6 @@
         "tutor": [
             "After You",
             "Ancient Power",
-            "AncientPower",
             "Aqua Tail",
             "Astonish",
             "Bind",
@@ -177,7 +175,6 @@
             "Thief",
             "Thunder Punch",
             "Thunder Wave",
-            "ThunderPunch",
             "Trick",
             "Water Pulse",
             "Wonder Room"

@@ -44,7 +44,7 @@
         ],
         "gold": [
             "Air Slash",
-            "AncientPower",
+            "Ancient Power",
             "Double-Edge",
             "Dragon Rush",
             "Endeavor",
@@ -127,7 +127,6 @@
             "Smart Strike",
             "Snore",
             "Solar Beam",
-            "SolarBeam",
             "Spite",
             "Stealth Rock",
             "Stomping Tantrum",
@@ -151,7 +150,7 @@
             "Zen Headbutt"
         ],
         "tutor": [
-            "AncientPower",
+            "Ancient Power",
             "Aqua Tail",
             "Bind",
             "Body Slam",

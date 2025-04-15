@@ -25,8 +25,7 @@
             "Low Kick",
             "Quick Attack",
             "Thunder Shock",
-            "ThunderPunch",
-            "ThunderShock"
+            "Thunder Punch"
         ],
         "silver": [
             "Electro Ball",
@@ -60,7 +59,7 @@
             "Detect",
             "Double Team",
             "Double-Edge",
-            "DynamicPunch",
+            "Dynamic Punch",
             "Eerie Impulse",
             "Electric Terrain",
             "Electro Ball",
@@ -124,7 +123,6 @@
             "Thunder",
             "Thunder Punch",
             "Thunder Wave",
-            "ThunderPunch",
             "Thunderbolt",
             "Toxic",
             "Trailblaze",
@@ -164,8 +162,6 @@
             "Thunder Punch",
             "Thunder Shock",
             "Thunder Wave",
-            "ThunderPunch",
-            "ThunderShock",
             "Thunderbolt"
         ],
         "egg": [
@@ -184,8 +180,7 @@
         "level1_g3_7": [
             "Leer",
             "Quick Attack",
-            "ThunderPunch",
-            "ThunderShock",
+            "Thunder Punch",
             "Thunder Shock"
         ]
     }

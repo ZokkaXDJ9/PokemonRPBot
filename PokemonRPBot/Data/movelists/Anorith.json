@@ -29,7 +29,6 @@
         ],
         "silver": [
             "Ancient Power",
-            "AncientPower",
             "Brine",
             "Bug Bite",
             "Crush Claw",
@@ -91,7 +90,7 @@
             "X-Scissor"
         ],
         "tutor": [
-            "AncientPower",
+            "Ancient Power",
             "Body Slam",
             "Bug Bite",
             "Double-Edge",

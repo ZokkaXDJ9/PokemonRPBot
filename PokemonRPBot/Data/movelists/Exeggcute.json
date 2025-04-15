@@ -45,7 +45,6 @@
             "Natural Gift",
             "Psychic",
             "Solar Beam",
-            "SolarBeam",
             "Uproar"
         ],
         "platinum": [],
@@ -104,7 +103,6 @@
             "Sludge Bomb",
             "Snore",
             "Solar Beam",
-            "SolarBeam",
             "Stored Power",
             "Strength",
             "Substitute",
@@ -123,7 +121,7 @@
             "Zen Headbutt"
         ],
         "tutor": [
-            "AncientPower",
+            "Ancient Power",
             "Barrage",
             "Block",
             "Double-Edge",

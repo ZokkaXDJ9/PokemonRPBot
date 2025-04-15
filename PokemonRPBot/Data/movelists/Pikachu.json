@@ -30,8 +30,7 @@
             "Sweet Kiss",
             "Tail Whip",
             "Thunder Shock",
-            "Thunder Wave",
-            "ThunderShock"
+            "Thunder Wave"
         ],
         "silver": [
             "Agility",
@@ -71,7 +70,7 @@
             "Double Team",
             "Double-Edge",
             "Draining Kiss",
-            "DynamicPunch",
+            "Dynamic Punch",
             "Echoed Voice",
             "Eerie Impulse",
             "Electric Terrain",
@@ -129,7 +128,6 @@
             "Thunder",
             "Thunder Punch",
             "Thunder Wave",
-            "ThunderPunch",
             "Thunderbolt",
             "Toxic",
             "Trailblaze",
@@ -168,8 +166,6 @@
             "Thunder Punch",
             "Thunder Shock",
             "Thunder Wave",
-            "ThunderPunch",
-            "ThunderShock",
             "Thunderbolt",
             "Volt Tackle"
         ],
@@ -193,9 +189,8 @@
         ],
         "level1_g3_7": [
             "Growl",
-            "ThunderShock",
-            "Tail Whip",
-            "Thunder Shock"
+            "Thunder Shock",
+            "Tail Whip"
         ]
     }
 }

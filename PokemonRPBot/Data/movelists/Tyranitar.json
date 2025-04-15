@@ -77,8 +77,8 @@
             "Dragon Dance",
             "Dragon Pulse",
             "Dragon Tail",
-            "DragonBreath",
-            "DynamicPunch",
+            "Dragon Breath",
+            "Dynamic Punch",
             "Earth Power",
             "Earthquake",
             "Endure",
@@ -176,7 +176,7 @@
             "Whirlpool"
         ],
         "tutor": [
-            "AncientPower",
+            "Ancient Power",
             "Aqua Tail",
             "Bite",
             "Block",
@@ -221,7 +221,6 @@
             "Thunder Fang",
             "Thunder Punch",
             "Thunder Wave",
-            "ThunderPunch",
             "Thunderbolt",
             "Uproar",
             "Water Pulse"

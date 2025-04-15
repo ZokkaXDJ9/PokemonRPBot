@@ -29,7 +29,6 @@
         ],
         "silver": [
             "Ancient Power",
-            "AncientPower",
             "Iron Defense",
             "Swagger",
             "Take Down"
@@ -123,7 +122,7 @@
             "Trailblaze"
         ],
         "tutor": [
-            "AncientPower",
+            "Ancient Power",
             "Block",
             "Bulldoze",
             "Earth Power",

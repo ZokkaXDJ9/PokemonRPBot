@@ -31,7 +31,6 @@
         "silver": [
             "Agility",
             "Ancient Power",
-            "AncientPower",
             "Ice Shard",
             "Mind Reader",
             "Tailwind"
@@ -58,7 +57,7 @@
             "Bide",
             "Blizzard",
             "Brave Bird",
-            "BubbleBeam",
+            "Bubble Beam",
             "Confide",
             "Curse",
             "Defog",
@@ -124,7 +123,7 @@
         ],
         "tutor": [
             "Air Cutter",
-            "AncientPower",
+            "Ancient Power",
             "Defog",
             "Double-Edge",
             "Dual Wingbeat",

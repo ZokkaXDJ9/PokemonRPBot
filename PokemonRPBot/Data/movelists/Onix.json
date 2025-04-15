@@ -34,7 +34,6 @@
         ],
         "silver": [
             "Dragon Breath",
-            "DragonBreath",
             "Gyro Ball",
             "Rage",
             "Rock Slide",
@@ -126,7 +125,7 @@
             "Toxic"
         ],
         "tutor": [
-            "AncientPower",
+            "Ancient Power",
             "Bind",
             "Block",
             "Body Slam",

@@ -24,7 +24,6 @@
         "bronze": [
             "Bubble",
             "Bubble Beam",
-            "BubbleBeam",
             "Bullet Seed",
             "Psybeam",
             "Roost",
@@ -119,7 +118,6 @@
             "Bounce",
             "Bubble",
             "Bubble Beam",
-            "BubbleBeam",
             "Bullet Seed",
             "Defog",
             "Dive",
@@ -165,12 +163,11 @@
         "level1_g3_7": [
             "Bubble",
             "Tackle",
-            "BubbleBeam",
+            "Bubble Beam",
             "Bullet Seed",
             "Psybeam",
             "Signal Beam",
             "Supersonic",
-            "Bubble Beam",
             "Roost"
         ]
     }

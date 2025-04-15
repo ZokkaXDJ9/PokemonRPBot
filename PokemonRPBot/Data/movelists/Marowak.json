@@ -53,7 +53,7 @@
             "Body Slam",
             "Brick Break",
             "Brutal Swing",
-            "BubbleBeam",
+            "Bubble Beam",
             "Bulldoze",
             "Captivate",
             "Confide",
@@ -63,7 +63,7 @@
             "Dig",
             "Double Team",
             "Double-Edge",
-            "DynamicPunch",
+            "Dynamic Punch",
             "Earth Power",
             "Earthquake",
             "Echoed Voice",
@@ -129,7 +129,6 @@
             "Thief",
             "Throat Chop",
             "Thunder Punch",
-            "ThunderPunch",
             "Toxic",
             "Uproar",
             "Water Gun"
@@ -172,7 +171,6 @@
             "Tail Whip",
             "Throat Chop",
             "Thunder Punch",
-            "ThunderPunch",
             "Uproar"
         ],
         "egg": [

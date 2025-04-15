@@ -31,7 +31,6 @@
         ],
         "silver": [
             "Ancient Power",
-            "AncientPower",
             "Giga Drain",
             "Knock Off",
             "Mega Drain",
@@ -101,7 +100,6 @@
             "Snore",
             "Solar Beam",
             "Solar Blade",
-            "SolarBeam",
             "Stomping Tantrum",
             "Strength",
             "Substitute",
@@ -112,7 +110,7 @@
             "Toxic"
         ],
         "tutor": [
-            "AncientPower",
+            "Ancient Power",
             "Bind",
             "Block",
             "Constrict",

@@ -125,7 +125,6 @@
             "Smart Strike",
             "Snore",
             "Solar Beam",
-            "SolarBeam",
             "Stealth Rock",
             "Stomping Tantrum",
             "Stone Edge",
@@ -146,7 +145,7 @@
             "Whirlpool"
         ],
         "tutor": [
-            "AncientPower",
+            "Ancient Power",
             "Aqua Tail",
             "Block",
             "Body Slam",
@@ -189,7 +188,6 @@
             "Tackle",
             "Thunder Punch",
             "Thunder Wave",
-            "ThunderPunch",
             "Uproar",
             "Water Pulse"
         ],

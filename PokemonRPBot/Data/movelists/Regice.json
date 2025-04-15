@@ -26,7 +26,6 @@
         ],
         "silver": [
             "Ancient Power",
-            "AncientPower",
             "Curse",
             "Ice Beam",
             "Stomp",
@@ -113,7 +112,7 @@
             "Toxic"
         ],
         "tutor": [
-            "AncientPower",
+            "Ancient Power",
             "Block",
             "Body Slam",
             "Bulldoze",
@@ -145,7 +144,6 @@
             "Superpower",
             "Thunder Punch",
             "Thunder Wave",
-            "ThunderPunch",
             "Zap Cannon"
         ],
         "egg": [],

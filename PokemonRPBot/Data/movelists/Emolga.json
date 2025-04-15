@@ -108,8 +108,7 @@
             "Sleep Talk",
             "Snore",
             "Tailwind",
-            "Thunder Shock",
-            "ThunderShock"
+            "Thunder Shock"
         ],
         "egg": [
             "Air Slash",
@@ -126,7 +125,6 @@
             "Tickle"
         ],
         "level1_g3_7": [
-            "ThunderShock",
             "Thunder Shock"
         ]
     }

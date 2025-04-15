@@ -32,9 +32,8 @@
         ],
         "silver": [
             "Ancient Power",
-            "AncientPower",
             "Brine",
-            "BubbleBeam",
+            "Bubble Beam",
             "Endure",
             "Flail",
             "Iron Defense",
@@ -121,7 +120,7 @@
             "Whirlpool"
         ],
         "tutor": [
-            "AncientPower",
+            "Ancient Power",
             "Body Slam",
             "Double-Edge",
             "Earth Power",

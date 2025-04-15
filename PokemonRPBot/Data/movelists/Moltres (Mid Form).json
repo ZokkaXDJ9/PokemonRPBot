@@ -32,7 +32,6 @@
         "silver": [
             "Agility",
             "Ancient Power",
-            "AncientPower",
             "Endure",
             "Incinerate"
         ],
@@ -46,7 +45,6 @@
             "Roost",
             "Sky Attack",
             "Solar Beam",
-            "SolarBeam",
             "Sunny Day"
         ],
         "platinum": [],
@@ -109,7 +107,6 @@
             "Sleep Talk",
             "Snore",
             "Solar Beam",
-            "SolarBeam",
             "Steel Wing",
             "Substitute",
             "Sunny Day",
@@ -127,7 +124,7 @@
         ],
         "tutor": [
             "Air Cutter",
-            "AncientPower",
+            "Ancient Power",
             "Burning Jealousy",
             "Defog",
             "Double-Edge",

@@ -22,7 +22,6 @@
         "bronze": [
             "Ember",
             "Leer",
-            "SmokeScreen",
             "Smokescreen",
             "Tackle"
         ],
@@ -134,7 +133,6 @@
             "Rest",
             "Rock Smash",
             "Rollout",
-            "SmokeScreen",
             "Smokescreen",
             "Snore",
             "Substitute",
@@ -162,9 +160,8 @@
         ],
         "level1_g3_7": [
             "Leer",
-            "SmokeScreen",
-            "Tackle",
-            "Smokescreen"
+            "Smokescreen",
+            "Tackle"
         ]
     }
 }

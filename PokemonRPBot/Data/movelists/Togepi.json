@@ -31,7 +31,6 @@
         "silver": [
             "After You",
             "Ancient Power",
-            "AncientPower",
             "Bestow",
             "Double-Edge",
             "Encore",
@@ -103,7 +102,6 @@
             "Sleep Talk",
             "Snore",
             "Solar Beam",
-            "SolarBeam",
             "Stored Power",
             "Substitute",
             "Sunny Day",
@@ -122,7 +120,7 @@
         ],
         "tutor": [
             "After You",
-            "AncientPower",
+            "Ancient Power",
             "Baby-Doll Eyes",
             "Body Slam",
             "Calm Mind",

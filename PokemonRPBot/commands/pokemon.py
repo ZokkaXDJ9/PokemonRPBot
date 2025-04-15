@@ -1,9 +1,12 @@
+import math
 import discord
 from discord.ext import commands
 from discord import app_commands
 import os
 import json
 import re
+
+from emojis import get_type_emoji
 
 # ------------------------------
 # Helper functions & constants
@@ -22,6 +25,70 @@ def normalize_name(name: str) -> str:
     normalized = re.sub(r'-+', '-', normalized)
     normalized = normalized.strip('-')
     return normalized
+
+def load_defensive_chart():
+    r"""
+    Load the defensive type interaction chart from a JSON file.
+    The JSON file is located at:
+    PokemonRPBot/PokemonRPBot/Data/typechart.json
+    """
+    file_path = os.path.join(os.path.dirname(__file__), "..", "Data", "typechart.json")
+    with open(file_path, "r", encoding="utf-8") as f:
+        return json.load(f)
+    
+DEFENSIVE_CHART = load_defensive_chart()
+
+def normalize_type(t: str) -> str:
+    """
+    Normalize the input type string to match one of the keys in DEFENSIVE_CHART.
+    This function compares the lowercase of the input to the lowercase of each key
+    and returns the properly cased key if found. Otherwise, it returns the input.
+    """
+    t_normalized = t.lower()
+    for key in DEFENSIVE_CHART.keys():
+        if key.lower() == t_normalized:
+            return key
+    return t
+
+def get_effectiveness_category(multiplier: float) -> str:
+    """
+    Convert the combined multiplier into a text category using base-2 logarithms:
+      - log₂(4) = 2    → "Super Effective (+2)"
+      - log₂(2) = 1    → "Effective (+1)"
+      - log₂(0.5) = -1 → "Ineffective (-1)"
+      - log₂(0.25) = -2→ "Super Ineffective (-2)"
+      - 0 multiplier  → "Immune (No Damage)"
+    """
+    if multiplier == 0:
+        return "Immune (No Damage)"
+    shift = round(math.log(multiplier, 2))
+    if shift == 0:
+        return "Neutral (0)"
+    elif shift == 1:
+        return "Effective (+1)"
+    elif shift == 2:
+        return "Super Effective (+2)"
+    elif shift == -1:
+        return "Ineffective (-1)"
+    elif shift == -2:
+        return "Super Ineffective (-2)"
+    elif shift > 2:
+        return f"Ultra Effective (+{shift})"
+    elif shift < -2:
+        return f"Ultra Ineffective ({shift})"
+    return f"Multiplier {multiplier}"
+
+def sort_key(category: str) -> float:
+    """
+    Extract a numeric key from the category string by searching for the numeric value
+    within parentheses (e.g., '(+2)'). "Immune (No Damage)" is forced to a low value.
+    """
+    if category == "Immune (No Damage)":
+        return -999
+    m = re.search(r'\(([-+]\d+)\)', category)
+    if m:
+        return int(m.group(1))
+    return 0
 
 def find_movelist_filename(normalized: str, folder: str = os.path.join("data", "movelists")) -> str:
     """
@@ -69,7 +136,9 @@ TYPE_EMOJIS = {
 }
 
 # Load ability data exactly by its given name (no normalization)
-def load_ability(ability_name: str, folder: str = os.path.join("data", "abilities")) -> dict:
+def load_ability(ability_name: str, folder: str = None) -> dict:
+    if folder is None:
+        folder = os.path.join(os.path.dirname(__file__), "..", "Data", "abilities")
     file_path = os.path.join(folder, f"{ability_name}.json")
     if os.path.exists(file_path):
         try:
@@ -78,6 +147,7 @@ def load_ability(ability_name: str, folder: str = os.path.join("data", "abilitie
         except Exception as e:
             print(f"Error loading ability {ability_name}: {e}")
     return None
+
 
 # ------------------------------
 # Persistent view classes (no user check)
@@ -140,6 +210,7 @@ class PersistentPokemonTypeEffectivenessButton(discord.ui.Button):
     async def callback(self, interaction: discord.Interaction):
         self.disabled = True
         await interaction.response.edit_message(view=self.view)
+        
         try:
             _, action, normalized = self.custom_id.split(":")
         except Exception:
@@ -158,9 +229,37 @@ class PersistentPokemonTypeEffectivenessButton(discord.ui.Button):
             await interaction.followup.send("Error loading Pokémon data.")
             return
         
-        types_list = data.get("types", [])
-        effectiveness_message = f"Type effectiveness for {', '.join(types_list)} is not implemented yet."
-        await interaction.followup.send(effectiveness_message)
+        # Retrieve the Pokémon's name and its types from the JSON data.
+        pokemon_name = data.get("name", "Unknown")
+        defender_types = data.get("types", [])
+        defender_types = [normalize_type(t) for t in defender_types]
+        
+        # Calculate overall effectiveness for each attacking type.
+        results = {}
+        for attack_type in DEFENSIVE_CHART.keys():
+            multiplier = 1.0
+            for def_type in defender_types:
+                multiplier *= DEFENSIVE_CHART[def_type][attack_type]
+            if multiplier == 1:
+                continue
+            category = get_effectiveness_category(multiplier)
+            if category == "Neutral (0)":
+                continue
+            results.setdefault(category, []).append(attack_type)
+        
+        # Sort the categories using their numeric value (extracted from the category string)
+        sorted_categories = sorted(results.keys(), key=sort_key, reverse=True)
+        
+        # Build a plain text message with a header containing the Pokémon's name.
+        message_lines = [f"## Type Chart for {pokemon_name}"]
+        for category in sorted_categories:
+            types_list = results[category]
+            types_str = "  |  ".join(f"{get_type_emoji(t)} {t}" for t in types_list)
+            message_lines.append(f"### {category}")
+            message_lines.append(types_str)
+        
+        message = "\n".join(message_lines)
+        await interaction.followup.send(message)
 
 class PersistentPokemonMovesButton(discord.ui.Button):
     def __init__(self, normalized: str):
@@ -316,7 +415,8 @@ class PokemonCog(commands.Cog):
         else:
             output += "\n"
         types_list = data.get("types", [])
-        type_str = " / ".join([f"{TYPE_EMOJIS.get(t, '')} {t}".strip() for t in types_list])
+        # Use the imported get_type_emoji function to retrieve each type's emoji.
+        type_str = " / ".join([f"{get_type_emoji(t)} {t}" for t in types_list])
         output += f"\n**Type**: {type_str}"
         output += f"\n**Base HP**: {data.get('base_hp', '?')}"
         output += f"\n**Strength**: {format_stat_bar(data.get('strength', ''))} `{data.get('strength', '')}`"

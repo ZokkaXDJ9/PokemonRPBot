@@ -29,7 +29,6 @@
             "Tackle",
             "Thunder Shock",
             "Thunder Wave",
-            "ThunderShock",
             "Tri Attack"
         ],
         "silver": [
@@ -142,7 +141,6 @@
             "Tackle",
             "Thunder Shock",
             "Thunder Wave",
-            "ThunderShock",
             "Thunderbolt",
             "Tri Attack",
             "Zap Cannon"
@@ -155,10 +153,9 @@
             "Metal Sound",
             "Supersonic",
             "Tackle",
-            "ThunderShock",
+            "Thunder Shock",
             "Tri Attack",
             "Sonic Boom",
-            "Thunder Shock",
             "Zap Cannon",
             "Electric Terrain",
             "Magnet Bomb"

@@ -23,7 +23,6 @@
             "Ember",
             "Leer",
             "Smog",
-            "SmokeScreen",
             "Smokescreen"
         ],
         "silver": [
@@ -59,7 +58,7 @@
             "Detect",
             "Double Team",
             "Double-Edge",
-            "DynamicPunch",
+            "Dynamic Punch",
             "Endure",
             "Facade",
             "Fire Blast",
@@ -106,7 +105,6 @@
             "Tera Blast",
             "Thief",
             "Thunder Punch",
-            "ThunderPunch",
             "Toxic",
             "Uproar",
             "Will-O-Wisp"
@@ -139,7 +137,6 @@
             "Snore",
             "Substitute",
             "Thunder Punch",
-            "ThunderPunch",
             "Uproar"
         ],
         "egg": [],

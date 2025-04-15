@@ -29,7 +29,6 @@
         "silver": [
             "Amnesia",
             "Ancient Power",
-            "AncientPower",
             "Clear Smog",
             "Flame Burst",
             "Harden",
@@ -116,7 +115,7 @@
         ],
         "tutor": [
             "After You",
-            "AncientPower",
+            "Ancient Power",
             "Body Slam",
             "Double-Edge",
             "Earth Power",

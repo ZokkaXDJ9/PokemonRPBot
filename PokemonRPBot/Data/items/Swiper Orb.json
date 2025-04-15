@@ -1,0 +1,6 @@
+{
+  "name": "Swiper Orb",
+  "description": "Erase all Stat Changes from one target. Those Stat Changes are then applied to the User and cannot exceed the standard +/- 3 limit.",
+  "category": "Orb",
+  "single_use": true
+}

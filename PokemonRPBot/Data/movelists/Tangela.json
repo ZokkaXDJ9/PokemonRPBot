@@ -31,7 +31,6 @@
         ],
         "silver": [
             "Ancient Power",
-            "AncientPower",
             "Giga Drain",
             "Knock Off",
             "Mega Drain",
@@ -97,7 +96,6 @@
             "Sludge Bomb",
             "Snore",
             "Solar Beam",
-            "SolarBeam",
             "Substitute",
             "Sunny Day",
             "Swagger",
@@ -108,7 +106,7 @@
             "Toxic"
         ],
         "tutor": [
-            "AncientPower",
+            "Ancient Power",
             "Bind",
             "Body Slam",
             "Constrict",

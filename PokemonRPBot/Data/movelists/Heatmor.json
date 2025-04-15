@@ -89,7 +89,6 @@
             "Sleep Talk",
             "Snore",
             "Solar Beam",
-            "SolarBeam",
             "Stomping Tantrum",
             "Substitute",
             "Sunny Day",
@@ -126,8 +125,7 @@
             "Superpower",
             "Tackle",
             "Throat Chop",
-            "Thunder Punch",
-            "ThunderPunch"
+            "Thunder Punch"
         ],
         "egg": [
             "Belch",

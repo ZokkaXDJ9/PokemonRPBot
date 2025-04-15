@@ -33,7 +33,6 @@
         ],
         "silver": [
             "Bubble Beam",
-            "BubbleBeam",
             "Flail",
             "Guillotine",
             "Mud Shot",
@@ -60,7 +59,7 @@
             "Brick Break",
             "Brine",
             "Brutal Swing",
-            "BubbleBeam",
+            "Bubble Beam",
             "Captivate",
             "Confide",
             "Curse",
@@ -122,7 +121,7 @@
         ],
         "tutor": [
             "Ally Switch",
-            "AncientPower",
+            "Ancient Power",
             "Body Slam",
             "Bubble",
             "Dive",

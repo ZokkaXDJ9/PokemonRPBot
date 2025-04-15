@@ -62,7 +62,7 @@
             "Disable",
             "Double Team",
             "Drain Punch",
-            "DynamicPunch",
+            "Dynamic Punch",
             "Endure",
             "Explosion",
             "Facade",
@@ -127,7 +127,6 @@
             "Thief",
             "Thunder",
             "Thunder Punch",
-            "ThunderPunch",
             "Thunderbolt",
             "Torment",
             "Toxic",
@@ -153,7 +152,6 @@
             "Snore",
             "Substitute",
             "Thunder Punch",
-            "ThunderPunch",
             "Thunderbolt"
         ],
         "egg": [

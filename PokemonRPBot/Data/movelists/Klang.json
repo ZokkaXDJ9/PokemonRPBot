@@ -33,7 +33,7 @@
             "Gear Grind",
             "Metal Sound",
             "Screech",
-            "ThunderShock"
+            "Thunder Shock"
         ],
         "gold": [
             "Hyper Beam",
@@ -95,7 +95,6 @@
             "Steel Roller",
             "Telekinesis",
             "Thunder Shock",
-            "ThunderShock",
             "Uproar",
             "Vice Grip",
             "ViceGrip"
@@ -104,9 +103,8 @@
         "level1_g3_7": [
             "Charge",
             "Gear Grind",
-            "ThunderShock",
-            "ViceGrip",
             "Thunder Shock",
+            "ViceGrip",
             "Vice Grip"
         ]
     }

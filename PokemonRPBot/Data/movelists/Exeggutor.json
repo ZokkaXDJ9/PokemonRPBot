@@ -116,7 +116,6 @@
             "Sludge Bomb",
             "Snore",
             "Solar Beam",
-            "SolarBeam",
             "Stomping Tantrum",
             "Stored Power",
             "Strength",
@@ -136,7 +135,7 @@
             "Zen Headbutt"
         ],
         "tutor": [
-            "AncientPower",
+            "Ancient Power",
             "Barrage",
             "Block",
             "Confusion",

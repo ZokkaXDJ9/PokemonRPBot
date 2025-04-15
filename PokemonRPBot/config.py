@@ -13,19 +13,23 @@ COMMANDS = [
     "commands.rule",
     "commands.weather",
     "commands.open_box",
-    "commands.mtemplate",
+    "commands.templates",
     "commands.timestamp",
     "commands.timestamp_tracker",
     "commands.minesweeper",
+    "commands.learns",
     "commands.modmail",
+    "commands.pokemon",
+    "commands.ability",
+    "commands.move",
+    "commands.item",
+    "commands.metronome",
+    "commands.typechart",
+    "commands.legend_move"
     ]
 
 COMMANDS_NOT_LOADED = [
     "commands.suggest",
     "commands.create_character",
-    "commands.metronome",
     "commands.stats",
-    "commands.learns",
-    "commands.move",
-    "commands.ability",
 ]

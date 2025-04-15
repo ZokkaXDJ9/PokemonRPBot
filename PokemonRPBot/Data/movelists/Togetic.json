@@ -33,7 +33,6 @@
         "silver": [
             "After You",
             "Ancient Power",
-            "AncientPower",
             "Bestow",
             "Double-Edge",
             "Encore",
@@ -120,7 +119,6 @@
             "Smart Strike",
             "Snore",
             "Solar Beam",
-            "SolarBeam",
             "Steel Wing",
             "Stored Power",
             "Substitute",
@@ -141,7 +139,7 @@
         "tutor": [
             "After You",
             "Air Cutter",
-            "AncientPower",
+            "Ancient Power",
             "Body Slam",
             "Charm",
             "Counter",

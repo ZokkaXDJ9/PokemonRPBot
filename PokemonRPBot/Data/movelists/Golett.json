@@ -31,7 +31,6 @@
         "silver": [
             "Curse",
             "Dynamic Punch",
-            "DynamicPunch",
             "Iron Defense",
             "Magnitude",
             "Mega Punch",
@@ -152,8 +151,7 @@
             "Stealth Rock",
             "Superpower",
             "Telekinesis",
-            "Thunder Punch",
-            "ThunderPunch"
+            "Thunder Punch"
         ],
         "egg": [],
         "level1_g3_7": [

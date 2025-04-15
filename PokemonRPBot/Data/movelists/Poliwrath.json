@@ -40,7 +40,7 @@
             "Water Gun"
         ],
         "silver": [
-            "DynamicPunch"
+            "Dynamic Punch"
         ],
         "gold": [],
         "platinum": [],
@@ -53,7 +53,7 @@
             "Blizzard",
             "Body Slam",
             "Brick Break",
-            "BubbleBeam",
+            "Bubble Beam",
             "Bulk Up",
             "Bulldoze",
             "Captivate",
@@ -71,7 +71,7 @@
             "Double Team",
             "Double-Edge",
             "Drain Punch",
-            "DynamicPunch",
+            "Dynamic Punch",
             "Earth Power",
             "Earthquake",
             "Encore",
@@ -156,7 +156,6 @@
         "tutor": [
             "Body Slam",
             "Bubble Beam",
-            "BubbleBeam",
             "Circle Throw",
             "Coaching",
             "Counter",
@@ -207,7 +206,6 @@
             "Hypnosis",
             "Submission",
             "Water Gun",
-            "BubbleBeam",
             "Bubble Beam",
             "Circle Throw",
             "Double Slap"

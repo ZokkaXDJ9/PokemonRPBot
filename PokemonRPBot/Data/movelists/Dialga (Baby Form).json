@@ -22,7 +22,6 @@
     "moves": {
         "bronze": [
             "Ancient Power",
-            "AncientPower",
             "Dragon Breath",
             "Metal Claw",
             "Scary Face"
@@ -129,15 +128,13 @@
         "tutor": [
             "Draco Meteor",
             "Dragon Breath",
-            "DragonBreath",
             "Scale Shot",
             "Scary Face"
         ],
         "egg": [],
         "level1_g3_7": [
-            "DragonBreath",
-            "Scary Face",
-            "Dragon Breath"
+            "Dragon Breath",
+            "Scary Face"
         ]
     }
 }

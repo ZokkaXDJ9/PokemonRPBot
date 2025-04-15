@@ -30,7 +30,6 @@
             "Tackle",
             "Thunder Shock",
             "Thunder Wave",
-            "ThunderShock",
             "Tri Attack"
         ],
         "silver": [
@@ -144,7 +143,6 @@
             "Swift",
             "Tackle",
             "Thunder Shock",
-            "ThunderShock",
             "Tri Attack",
             "Zap Cannon"
         ],
@@ -158,13 +156,12 @@
             "Mirror Coat",
             "Supersonic",
             "Tackle",
-            "ThunderShock",
+            "Thunder Shock",
             "Magnetic Flux",
             "Sonic Boom",
             "Zap Cannon",
             "Electric Terrain",
             "Magnet Bomb",
-            "Thunder Shock",
             "Tri Attack"
         ]
     }

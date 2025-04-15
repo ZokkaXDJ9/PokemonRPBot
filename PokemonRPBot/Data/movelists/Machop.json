@@ -43,8 +43,7 @@
             "Bulk Up",
             "Cross Chop",
             "Double-Edge",
-            "Dynamic Punch",
-            "DynamicPunch"
+            "Dynamic Punch"
         ],
         "platinum": [],
         "diamond": [],
@@ -64,7 +63,7 @@
             "Dig",
             "Double Team",
             "Double-Edge",
-            "DynamicPunch",
+            "Dynamic Punch",
             "Earthquake",
             "Encore",
             "Endure",
@@ -125,7 +124,6 @@
             "Take Down",
             "Thief",
             "Thunder Punch",
-            "ThunderPunch",
             "Toxic",
             "Work Up"
         ],
@@ -156,7 +154,6 @@
             "Substitute",
             "Superpower",
             "Thunder Punch",
-            "ThunderPunch",
             "Vacuum Wave"
         ],
         "egg": [

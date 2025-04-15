@@ -23,7 +23,6 @@
             "Ember",
             "Leer",
             "Smog",
-            "SmokeScreen",
             "Smokescreen"
         ],
         "silver": [
@@ -112,7 +111,6 @@
             "Sleep Talk",
             "Snore",
             "Solar Beam",
-            "SolarBeam",
             "Stomping Tantrum",
             "Strength",
             "Substitute",
@@ -147,12 +145,10 @@
             "Scorching Sands",
             "Sleep Talk",
             "Smog",
-            "SmokeScreen",
             "Smokescreen",
             "Snore",
             "Stomping Tantrum",
-            "Thunder Punch",
-            "ThunderPunch"
+            "Thunder Punch"
         ],
         "egg": [
             "Barrier",
@@ -174,8 +170,6 @@
             "Ember",
             "Leer",
             "Smog",
-            "SmokeScreen",
-            "ThunderPunch",
             "Smokescreen",
             "Thunder Punch"
         ]

@@ -24,8 +24,7 @@
             "Leer",
             "Low Kick",
             "Quick Attack",
-            "Thunder Shock",
-            "ThunderShock"
+            "Thunder Shock"
         ],
         "silver": [
             "Electro Ball",
@@ -34,8 +33,7 @@
             "Shock Wave",
             "Swift",
             "Thunder Punch",
-            "Thunder Wave",
-            "ThunderPunch"
+            "Thunder Wave"
         ],
         "gold": [
             "Discharge",
@@ -152,9 +150,7 @@
             "Stomping Tantrum",
             "Swift",
             "Thunder Punch",
-            "Thunder Shock",
-            "ThunderPunch",
-            "ThunderShock"
+            "Thunder Shock"
         ],
         "egg": [
             "Barrier",
@@ -174,10 +170,9 @@
             "Leer",
             "Low Kick",
             "Quick Attack",
-            "ThunderShock",
+            "Thunder Shock",
             "Electric Terrain",
-            "Ion Deluge",
-            "Thunder Shock"
+            "Ion Deluge"
         ]
     }
 }

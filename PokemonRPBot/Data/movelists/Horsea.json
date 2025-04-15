@@ -23,7 +23,6 @@
         "bronze": [
             "Bubble",
             "Leer",
-            "SmokeScreen",
             "Smokescreen",
             "Twister",
             "Water Gun"
@@ -32,7 +31,6 @@
             "Agility",
             "Brine",
             "Bubble Beam",
-            "BubbleBeam",
             "Dragon Breath",
             "Focus Energy"
         ],
@@ -53,7 +51,7 @@
             "Blizzard",
             "Bounce",
             "Brine",
-            "BubbleBeam",
+            "Bubble Beam",
             "Captivate",
             "Chilling Water",
             "Confide",
@@ -63,7 +61,7 @@
             "Double-Edge",
             "Dragon Dance",
             "Dragon Pulse",
-            "DragonBreath",
+            "Dragon Breath",
             "Endure",
             "Facade",
             "Flash Cannon",

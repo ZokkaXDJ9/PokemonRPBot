@@ -22,7 +22,6 @@
     "moves": {
         "bronze": [
             "Ancient Power",
-            "AncientPower",
             "Defog",
             "Dragon Breath",
             "Ominous Wind",
@@ -131,16 +130,14 @@
         "tutor": [
             "Draco Meteor",
             "Dragon Breath",
-            "DragonBreath",
             "Dual Wingbeat",
             "Poltergeist",
             "Scary Face"
         ],
         "egg": [],
         "level1_g3_7": [
-            "DragonBreath",
-            "Scary Face",
-            "Dragon Breath"
+            "Dragon Breath",
+            "Scary Face"
         ]
     }
 }

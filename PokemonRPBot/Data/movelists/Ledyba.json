@@ -61,7 +61,7 @@
             "Double Team",
             "Double-Edge",
             "Drain Punch",
-            "DynamicPunch",
+            "Dynamic Punch",
             "Endure",
             "Facade",
             "Flash",
@@ -90,7 +90,6 @@
             "Sleep Talk",
             "Snore",
             "Solar Beam",
-            "SolarBeam",
             "Struggle Bug",
             "Substitute",
             "Sunny Day",
@@ -101,7 +100,7 @@
             "Swords Dance",
             "Tackle",
             "Thief",
-            "ThunderPunch",
+            "Thunder Punch",
             "Toxic",
             "U-turn"
         ],
@@ -127,7 +126,6 @@
             "Tackle",
             "Tailwind",
             "Thunder Punch",
-            "ThunderPunch",
             "Uproar"
         ],
         "egg": [

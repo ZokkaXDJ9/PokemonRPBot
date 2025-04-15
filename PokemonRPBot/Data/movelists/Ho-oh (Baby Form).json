@@ -38,7 +38,7 @@
             "Sunny Day"
         ],
         "gold": [
-            "AncientPower",
+            "Ancient Power",
             "Burn Up",
             "Future Sight",
             "Natural Gift",
@@ -64,7 +64,7 @@
             "Detect",
             "Double Team",
             "Double-Edge",
-            "DragonBreath",
+            "Dragon Breath",
             "Dream Eater",
             "Dual Wingbeat",
             "Earth Power",
@@ -120,7 +120,6 @@
             "Sleep Talk",
             "Snore",
             "Solar Beam",
-            "SolarBeam",
             "Steel Wing",
             "Strength",
             "Substitute",
@@ -141,7 +140,7 @@
         ],
         "tutor": [
             "Air Cutter",
-            "AncientPower",
+            "Ancient Power",
             "Defog",
             "Double-Edge",
             "Dream Eater",

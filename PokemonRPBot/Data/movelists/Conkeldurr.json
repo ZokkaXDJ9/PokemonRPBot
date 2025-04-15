@@ -38,7 +38,6 @@
         ],
         "gold": [
             "Dynamic Punch",
-            "DynamicPunch",
             "Focus Punch",
             "Hammer Arm",
             "Stone Edge",
@@ -136,8 +135,7 @@
             "Snore",
             "Stomping Tantrum",
             "Superpower",
-            "Thunder Punch",
-            "ThunderPunch"
+            "Thunder Punch"
         ],
         "egg": [
             "Comet Punch",

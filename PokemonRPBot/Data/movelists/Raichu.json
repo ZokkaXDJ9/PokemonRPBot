@@ -41,7 +41,6 @@
             "Thunder Punch",
             "Thunder Shock",
             "Thunder Wave",
-            "ThunderShock",
             "Thunderbolt"
         ],
         "silver": [],
@@ -69,7 +68,7 @@
             "Double Team",
             "Double-Edge",
             "Draining Kiss",
-            "DynamicPunch",
+            "Dynamic Punch",
             "Echoed Voice",
             "Eerie Impulse",
             "Electric Terrain",
@@ -132,7 +131,6 @@
             "Thunder",
             "Thunder Punch",
             "Thunder Wave",
-            "ThunderPunch",
             "Thunderbolt",
             "Toxic",
             "Trailblaze",
@@ -172,8 +170,6 @@
             "Thunder Punch",
             "Thunder Shock",
             "Thunder Wave",
-            "ThunderPunch",
-            "ThunderShock",
             "Thunderbolt"
         ],
         "egg": [
@@ -197,9 +193,8 @@
         "level1_g3_7": [
             "Quick Attack",
             "Tail Whip",
-            "ThunderShock",
-            "Thunderbolt",
-            "Thunder Shock"
+            "Thunder Shock",
+            "Thunderbolt"
         ]
     }
 }

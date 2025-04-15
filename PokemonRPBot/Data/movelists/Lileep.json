@@ -37,7 +37,7 @@
             "Mega Drain"
         ],
         "gold": [
-            "AncientPower",
+            "Ancient Power",
             "Energy Ball",
             "Spit Up",
             "Stockpile",
@@ -83,7 +83,6 @@
             "Smack Down",
             "Snore",
             "Solar Beam",
-            "SolarBeam",
             "Stealth Rock",
             "Substitute",
             "Sunny Day",
@@ -92,7 +91,7 @@
             "Toxic"
         ],
         "tutor": [
-            "AncientPower",
+            "Ancient Power",
             "Astonish",
             "Bind",
             "Body Slam",

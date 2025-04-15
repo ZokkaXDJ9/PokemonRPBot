@@ -65,7 +65,7 @@
             "Dig",
             "Double Team",
             "Double-Edge",
-            "DynamicPunch",
+            "Dynamic Punch",
             "Earth Power",
             "Earthquake",
             "Endure",
@@ -139,7 +139,7 @@
             "Toxic"
         ],
         "tutor": [
-            "AncientPower",
+            "Ancient Power",
             "Block",
             "Body Slam",
             "Bulldoze",
@@ -179,8 +179,7 @@
             "Sucker Punch",
             "Superpower",
             "Tackle",
-            "Thunder Punch",
-            "ThunderPunch"
+            "Thunder Punch"
         ],
         "egg": [
             "Autotomize",

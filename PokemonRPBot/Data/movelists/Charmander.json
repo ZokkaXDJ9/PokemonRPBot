@@ -23,7 +23,6 @@
             "Ember",
             "Growl",
             "Scratch",
-            "SmokeScreen",
             "Smokescreen"
         ],
         "silver": [
@@ -68,8 +67,8 @@
             "Dragon Pulse",
             "Dragon Rage",
             "Dragon Tail",
-            "DragonBreath",
-            "DynamicPunch",
+            "Dragon Breath",
+            "Dynamic Punch",
             "Echoed Voice",
             "Endure",
             "Facade",
@@ -157,7 +156,7 @@
             "Substitute",
             "Swift",
             "Swords Dance",
-            "ThunderPunch"
+            "Thunder Punch"
         ],
         "egg": [
             "Air Cutter",

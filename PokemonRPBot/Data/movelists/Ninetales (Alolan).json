@@ -40,7 +40,6 @@
             "Aurora Beam",
             "Extrasensory",
             "Spite",
-            "Aurora Beam",
             "Draining Kiss",
             "Ice Fang"
         ],
@@ -171,11 +170,8 @@
             "Hyper Beam",
             "Ice Beam",
             "Ice Fang",
-            "Icy Wind",
-            "Iron Tail",
             "Rest",
-            "Swift",
-            "Zen Headbutt"
+            "Swift"
         ]
     }
 }

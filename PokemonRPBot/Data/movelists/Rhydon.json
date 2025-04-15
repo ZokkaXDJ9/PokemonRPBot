@@ -57,7 +57,7 @@
             "Breaking Swipe",
             "Brick Break",
             "Brutal Swing",
-            "BubbleBeam",
+            "Bubble Beam",
             "Bulldoze",
             "Captivate",
             "Confide",
@@ -71,7 +71,7 @@
             "Dragon Pulse",
             "Dragon Tail",
             "Drill Run",
-            "DynamicPunch",
+            "Dynamic Punch",
             "Earth Power",
             "Earthquake",
             "Endeavor",
@@ -162,7 +162,6 @@
             "Thunder",
             "Thunder Fang",
             "Thunder Punch",
-            "ThunderPunch",
             "Thunderbolt",
             "Toxic",
             "Uproar",
@@ -171,7 +170,7 @@
             "Zap Cannon"
         ],
         "tutor": [
-            "AncientPower",
+            "Ancient Power",
             "Aqua Tail",
             "Block",
             "Body Slam",
@@ -217,7 +216,6 @@
             "Swords Dance",
             "Tail Whip",
             "Thunder Punch",
-            "ThunderPunch",
             "Thunderbolt",
             "Uproar"
         ],

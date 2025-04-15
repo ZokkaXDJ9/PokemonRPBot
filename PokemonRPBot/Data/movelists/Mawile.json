@@ -114,7 +114,6 @@
             "Sludge Bomb",
             "Snore",
             "Solar Beam",
-            "SolarBeam",
             "Stealth Rock",
             "Stone Edge",
             "Strength",
@@ -129,7 +128,7 @@
             "Toxic"
         ],
         "tutor": [
-            "AncientPower",
+            "Ancient Power",
             "Astonish",
             "Body Slam",
             "Counter",
@@ -164,8 +163,7 @@
             "Super Fang",
             "Swords Dance",
             "Taunt",
-            "Thunder Punch",
-            "ThunderPunch"
+            "Thunder Punch"
         ],
         "egg": [
             "Ancient Power",

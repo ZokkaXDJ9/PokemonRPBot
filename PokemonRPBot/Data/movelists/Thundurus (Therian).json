@@ -147,20 +147,17 @@
             "Thrash",
             "Thunder Punch",
             "Thunder Shock",
-            "ThunderPunch",
-            "ThunderShock",
             "Uproar"
         ],
         "egg": [],
         "level1_g3_7": [
             "Astonish",
-            "ThunderShock",
+            "Thunder Shock",
             "Uproar",
             "Charge",
             "Hammer Arm",
             "Nasty Plot",
             "Thrash",
-            "Thunder Shock",
             "Swagger"
         ]
     }

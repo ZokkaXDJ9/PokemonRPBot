@@ -25,8 +25,7 @@
             "Sweet Kiss",
             "Tail Whip",
             "Thunder Shock",
-            "Thunder Wave",
-            "ThunderShock"
+            "Thunder Wave"
         ],
         "silver": [
             "Nasty Plot",
@@ -128,7 +127,6 @@
             "Thunder Punch",
             "Thunder Shock",
             "Thunder Wave",
-            "ThunderShock",
             "Thunderbolt",
             "Uproar",
             "Volt Tackle",
@@ -137,7 +135,6 @@
         "egg": [],
         "level1_g3_7": [
             "Charm",
-            "ThunderShock",
             "Thunder Shock"
         ]
     }

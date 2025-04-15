@@ -35,7 +35,7 @@
             "Gear Grind",
             "Metal Sound",
             "Screech",
-            "ThunderShock"
+            "Thunder Shock"
         ],
         "gold": [
             "Electric Terrain",
@@ -104,7 +104,6 @@
             "Steel Roller",
             "Telekinesis",
             "Thunder Shock",
-            "ThunderShock",
             "Uproar",
             "Vice Grip",
             "ViceGrip",
@@ -114,10 +113,9 @@
         "level1_g3_7": [
             "Charge",
             "Gear Grind",
-            "ThunderShock",
+            "Thunder Shock",
             "ViceGrip",
             "Magnetic Flux",
-            "Thunder Shock",
             "Vice Grip",
             "Zap Cannon",
             "Gear Up"

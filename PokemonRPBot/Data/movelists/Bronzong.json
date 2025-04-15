@@ -119,7 +119,6 @@
             "Sleep Talk",
             "Snore",
             "Solar Beam",
-            "SolarBeam",
             "Speed Swap",
             "Stealth Rock",
             "Steel Beam",
@@ -141,7 +140,7 @@
         ],
         "tutor": [
             "Ally Switch",
-            "AncientPower",
+            "Ancient Power",
             "Block",
             "Confusion",
             "Expanding Force",

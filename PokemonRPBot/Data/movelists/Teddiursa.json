@@ -68,7 +68,7 @@
             "Dig",
             "Double Team",
             "Double-Edge",
-            "DynamicPunch",
+            "Dynamic Punch",
             "Earthquake",
             "Endure",
             "Facade",
@@ -128,7 +128,6 @@
             "Thief",
             "Thrash",
             "Thunder Punch",
-            "ThunderPunch",
             "Torment",
             "Toxic",
             "Trailblaze",
@@ -178,8 +177,7 @@
             "Superpower",
             "Swift",
             "Swords Dance",
-            "Thunder Punch",
-            "ThunderPunch"
+            "Thunder Punch"
         ],
         "egg": [
             "Belly Drum",

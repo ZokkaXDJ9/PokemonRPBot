@@ -41,7 +41,6 @@
         "gold": [
             "Explosion",
             "Solar Beam",
-            "SolarBeam",
             "Stone Edge",
             "Wonder Room"
         ],
@@ -111,7 +110,6 @@
             "Smack Down",
             "Snore",
             "Solar Beam",
-            "SolarBeam",
             "Stealth Rock",
             "Stomping Tantrum",
             "Stone Edge",
@@ -131,7 +129,7 @@
         ],
         "tutor": [
             "Ally Switch",
-            "AncientPower",
+            "Ancient Power",
             "Body Slam",
             "Confusion",
             "Double-Edge",

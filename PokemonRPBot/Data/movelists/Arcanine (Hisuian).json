@@ -45,8 +45,7 @@
             "Flamethrower",
             "Roar",
             "Rock Slide",
-            "Reversal",
-            "Flare Blitz"
+            "Reversal"
         ],
         "platinum": [],
         "diamond": [],
@@ -106,13 +105,8 @@
             "Flamethrower",
             "Helping Hand",
             "Reversal",
-            "Fire Blast",
             "Wild Charge",
             "Stone Edge",
-            "Outrage",
-            "Overheat",
-            "Flare Blitz",
-            "Close Combat",
             "Tera Blast",
             "Roar",
             "Smack Down",
@@ -146,9 +140,7 @@
             "Hyper Beam",
             "Iron Head",
             "Stone Edge",
-            "Swift",
-            "Thunder Fang",
-            "Wild Charge"
+            "Thunder Fang"
         ]
     }
 }

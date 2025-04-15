@@ -24,7 +24,6 @@
         "silver": [
             "Acid Armor",
             "Bubble Beam",
-            "BubbleBeam",
             "Supersonic"
         ],
         "gold": [
@@ -94,7 +93,7 @@
             "Zen Headbutt"
         ],
         "tutor": [
-            "AncientPower",
+            "Ancient Power",
             "Bounce",
             "Bubble",
             "Calm Mind",

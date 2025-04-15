@@ -26,7 +26,7 @@
             "Scary Face"
         ],
         "silver": [
-            "AncientPower",
+            "Ancient Power",
             "Bulk Up",
             "Earthquake",
             "Hammer Arm",
@@ -37,8 +37,7 @@
             "Eruption",
             "Fire Blast",
             "Fissure",
-            "Solar Beam",
-            "SolarBeam"
+            "Solar Beam"
         ],
         "platinum": [],
         "diamond": [],
@@ -115,7 +114,6 @@
             "Smack Down",
             "Snore",
             "Solar Beam",
-            "SolarBeam",
             "Spikes",
             "Stealth Rock",
             "Stomping Tantrum",
@@ -138,7 +136,6 @@
         ],
         "tutor": [
             "Ancient Power",
-            "AncientPower",
             "Block",
             "Body Slam",
             "Counter",
@@ -168,7 +165,6 @@
             "Swords Dance",
             "Thunder Punch",
             "Thunder Wave",
-            "ThunderPunch",
             "Uproar"
         ],
         "egg": [],
