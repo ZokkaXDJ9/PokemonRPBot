@@ -75,7 +75,7 @@ class ZMoveCommand(commands.Cog):
         description_field = get_z_move_field(z_move, "Description")
         target_field = get_z_move_field(z_move, "Target")
         effect_field = get_z_move_field(z_move, "Effect")
-        damage_field = get_z_move_field(z_move, "Damage1", "damage")
+        damage_field = get_z_move_field(z_move, "Damage2", "damage")
         power_field = get_z_move_field(z_move, "Power", "power")
         accuracy_field = get_z_move_field(z_move, "Accuracy1", "accuracy")
 
