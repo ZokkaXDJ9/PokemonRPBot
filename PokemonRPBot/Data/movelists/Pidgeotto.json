@@ -24,7 +24,6 @@
         "bronze": [
             "Gust",
             "Sand Attack",
-            "Sand-Attack",
             "Tackle"
         ],
         "silver": [
@@ -113,7 +112,6 @@
             "Ominous Wind",
             "Roost",
             "Sand Attack",
-            "Sand-Attack",
             "Sky Attack",
             "Sleep Talk",
             "Snore",
@@ -137,9 +135,8 @@
         ],
         "level1_g3_7": [
             "Gust",
-            "Sand-Attack",
-            "Tackle",
-            "Sand Attack"
+            "Sand Attack",
+            "Tackle"
         ]
     }
 }

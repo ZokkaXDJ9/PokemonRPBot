@@ -25,7 +25,6 @@
             "Headbutt",
             "Power Gem",
             "Sand Attack",
-            "Sand-Attack",
             "Stealth Rock",
             "Tackle"
         ],
@@ -103,7 +102,6 @@
             "Meteor Beam",
             "Power Gem",
             "Sand Attack",
-            "Sand-Attack",
             "Sleep Talk",
             "Snore",
             "Stealth Rock",
@@ -126,9 +124,8 @@
         "level1_g3_7": [
             "Harden",
             "Headbutt",
-            "Sand-Attack",
-            "Tackle",
             "Sand Attack",
+            "Tackle",
             "Power Gem"
         ]
     }

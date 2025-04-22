@@ -33,7 +33,6 @@
             "Metal Claw",
             "Mud-Slap",
             "Sand Attack",
-            "Sand-Attack",
             "Scratch",
             "Screech"
         ],
@@ -119,7 +118,6 @@
             "Ominous Wind",
             "Roost",
             "Sand Attack",
-            "Sand-Attack",
             "Scratch",
             "Screech",
             "Skitter Smack",
@@ -145,10 +143,9 @@
         "level1_g3_7": [
             "Harden",
             "Leech Life",
-            "Sand-Attack",
+            "Sand Attack",
             "Scratch",
             "Bug Bite",
-            "Sand Attack",
             "Absorb",
             "Double Team",
             "Fury Cutter",

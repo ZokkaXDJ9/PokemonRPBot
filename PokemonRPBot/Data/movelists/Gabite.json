@@ -26,7 +26,6 @@
             "Dual Chop",
             "Sand Attack",
             "Sand Tomb",
-            "Sand-Attack",
             "Tackle"
         ],
         "silver": [
@@ -118,7 +117,6 @@
             "Dragon Rage",
             "Dual Chop",
             "Sand Attack",
-            "Sand-Attack",
             "Scale Shot",
             "Scorching Sands",
             "Tackle"
@@ -139,9 +137,8 @@
             "Twister"
         ],
         "level1_g3_7": [
-            "Sand-Attack",
-            "Tackle",
             "Sand Attack",
+            "Tackle",
             "Dragon Rage",
             "Dual Chop"
         ]

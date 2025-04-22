@@ -36,7 +36,7 @@
             "Bulldoze",
             "Earth Power",
             "Mud Bomb",
-            "Sand-Attack",
+            "Sand Attack",
             "Sandstorm",
             "Slash",
             "Sucker Punch"
@@ -133,7 +133,6 @@
             "Rototiller",
             "Sand Attack",
             "Sand Tomb",
-            "Sand-Attack",
             "Scorching Sands",
             "Scratch",
             "Sleep Talk",
@@ -164,12 +163,11 @@
         ],
         "level1_g3_7": [
             "Growl",
-            "Sand-Attack",
+            "Sand Attack",
             "Scratch",
             "Tri Attack",
             "Night Slash",
             "Rototiller",
-            "Sand Attack",
             "Sand Tomb"
         ]
     }

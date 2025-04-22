@@ -33,7 +33,7 @@
             "Dig",
             "Earth Power",
             "Mud Bomb",
-            "Sand-Attack",
+            "Sand Attack",
             "Sandstorm",
             "Slash",
             "Sucker Punch"
@@ -121,7 +121,6 @@
             "Mud-Slap",
             "Rock Slide",
             "Sand Attack",
-            "Sand-Attack",
             "Scorching Sands",
             "Scratch",
             "Sleep Talk",
@@ -150,9 +149,8 @@
             "Uproar"
         ],
         "level1_g3_7": [
-            "Sand-Attack",
-            "Scratch",
-            "Sand Attack"
+            "Sand Attack",
+            "Scratch"
         ]
     }
 }

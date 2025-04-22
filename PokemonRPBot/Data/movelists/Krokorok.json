@@ -28,7 +28,6 @@
             "Power Trip",
             "Sand Attack",
             "Sand Tomb",
-            "Sand-Attack",
             "Torment"
         ],
         "silver": [
@@ -147,7 +146,6 @@
             "Low Kick",
             "Rage",
             "Sand Attack",
-            "Sand-Attack",
             "Scorching Sands",
             "Skitter Smack",
             "Sleep Talk",
@@ -177,7 +175,6 @@
             "Bite",
             "Leer",
             "Rage",
-            "Sand-Attack",
             "Sand Attack"
         ]
     }

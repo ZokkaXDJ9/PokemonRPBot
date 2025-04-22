@@ -28,8 +28,7 @@
             "Laser Focus",
             "Mud-Slap",
             "Sand Attack",
-            "Sand Tomb",
-            "Sand-Attack"
+            "Sand Tomb"
         ],
         "silver": [
             "Bide",
@@ -37,7 +36,7 @@
             "Dig",
             "Earth Power",
             "Earthquake",
-            "Faint Attack",
+            "Feint Attack",
             "Feint",
             "Rock Slide",
             "Sandstorm"

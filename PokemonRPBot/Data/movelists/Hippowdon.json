@@ -118,7 +118,6 @@
             "Iron Tail",
             "Mud-Slap",
             "Sand Attack",
-            "Sand-Attack",
             "Scorching Sands",
             "Sleep Talk",
             "Snore",
@@ -146,11 +145,10 @@
             "Bite",
             "Fire Fang",
             "Ice Fang",
-            "Sand-Attack",
+            "Sand Attack",
             "Tackle",
             "Thunder Fang",
-            "Yawn",
-            "Sand Attack"
+            "Yawn"
         ]
     }
 }

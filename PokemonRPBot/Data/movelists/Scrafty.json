@@ -22,14 +22,12 @@
     "insight": "3/7",
     "moves": {
         "bronze": [
-            "Faint Attack",
             "Feint Attack",
             "Headbutt",
             "Leer",
             "Low Kick",
             "Payback",
-            "Sand Attack",
-            "Sand-Attack"
+            "Sand Attack"
         ],
         "silver": [
             "Beat Up",
@@ -152,7 +150,6 @@
             "Dragon Pulse",
             "Drain Punch",
             "Dual Chop",
-            "Faint Attack",
             "Feint Attack",
             "Fire Punch",
             "Focus Punch",
@@ -168,7 +165,6 @@
             "Low Kick",
             "Outrage",
             "Sand Attack",
-            "Sand-Attack",
             "Sleep Talk",
             "Snatch",
             "Snore",
@@ -195,11 +191,9 @@
             "Zen Headbutt"
         ],
         "level1_g3_7": [
-            "Faint Attack",
+            "Feint Attack",
             "Leer",
             "Low Kick",
-            "Sand-Attack",
-            "Feint Attack",
             "Sand Attack",
             "Headbutt"
         ]

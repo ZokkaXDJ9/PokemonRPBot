@@ -31,13 +31,11 @@
             "Poison Jab",
             "Poison Sting",
             "Sand Attack",
-            "Sand-Attack",
             "Slash",
             "Thunder Fang"
         ],
         "silver": [
             "Acrobatics",
-            "Faint Attack",
             "Feint Attack",
             "Fury Cutter",
             "Mud-Slap",
@@ -178,7 +176,6 @@
             "Rock Smash",
             "Roost",
             "Sand Attack",
-            "Sand-Attack",
             "Sky Attack",
             "Sleep Talk",
             "Sludge Bomb",
@@ -214,10 +211,9 @@
             "Ice Fang",
             "Knock Off",
             "Poison Jab",
-            "Sand-Attack",
+            "Sand Attack",
             "Thunder Fang",
-            "Guillotine",
-            "Sand Attack"
+            "Guillotine"
         ]
     }
 }

@@ -26,7 +26,6 @@
             "Fake Out",
             "Focus Energy",
             "Sand Attack",
-            "Sand-Attack",
             "Tackle",
             "Vital Throw"
         ],
@@ -164,7 +163,6 @@
             "Rock Slide",
             "Role Play",
             "Sand Attack",
-            "Sand-Attack",
             "Seismic Toss",
             "Sleep Talk",
             "Snore",
@@ -195,10 +193,9 @@
         "level1_g3_7": [
             "Arm Thrust",
             "Focus Energy",
-            "Sand-Attack",
+            "Sand Attack",
             "Tackle",
-            "Brine",
-            "Sand Attack"
+            "Brine"
         ]
     }
 }

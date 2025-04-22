@@ -22,14 +22,12 @@
     "insight": "2/4",
     "moves": {
         "bronze": [
-            "Faint Attack",
             "Feint Attack",
             "Headbutt",
             "Leer",
             "Low Kick",
             "Payback",
-            "Sand Attack",
-            "Sand-Attack"
+            "Sand Attack"
         ],
         "silver": [
             "Beat Up",

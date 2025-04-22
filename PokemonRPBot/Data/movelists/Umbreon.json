@@ -32,7 +32,6 @@
             "Pursuit",
             "Quick Attack",
             "Sand Attack",
-            "Sand-Attack",
             "Snarl",
             "Swift",
             "Tackle",
@@ -48,7 +47,7 @@
         ],
         "gold": [
             "Dark Pulse",
-            "Faint Attack",
+            "Feint Attack",
             "Guard Swap",
             "Last Resort",
             "Mean Look"

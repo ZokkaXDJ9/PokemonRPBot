@@ -26,7 +26,6 @@
             "Hurricane",
             "Quick Attack",
             "Sand Attack",
-            "Sand-Attack",
             "Tackle"
         ],
         "silver": [
@@ -118,7 +117,6 @@
             "Quick Attack",
             "Roost",
             "Sand Attack",
-            "Sand-Attack",
             "Sky Attack",
             "Sleep Talk",
             "Snore",
@@ -143,10 +141,9 @@
         "level1_g3_7": [
             "Gust",
             "Quick Attack",
-            "Sand-Attack",
+            "Sand Attack",
             "Tackle",
-            "Hurricane",
-            "Sand Attack"
+            "Hurricane"
         ]
     }
 }

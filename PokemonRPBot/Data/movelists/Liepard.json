@@ -25,7 +25,6 @@
             "Fake Out",
             "Growl",
             "Sand Attack",
-            "Sand-Attack",
             "Scratch"
         ],
         "silver": [
@@ -120,7 +119,6 @@
             "Lash Out",
             "Role Play",
             "Sand Attack",
-            "Sand-Attack",
             "Scratch",
             "Seed Bomb",
             "Skitter Smack",
@@ -148,9 +146,8 @@
         "level1_g3_7": [
             "Assist",
             "Growl",
-            "Sand-Attack",
-            "Scratch",
-            "Sand Attack"
+            "Sand Attack",
+            "Scratch"
         ]
     }
 }

@@ -24,7 +24,6 @@
             "Astonish",
             "Dual Chop",
             "Sand Attack",
-            "Sand-Attack",
             "Scratch",
             "Tail Whip"
         ],
@@ -159,7 +158,6 @@
             "Rock Smash",
             "Role Play",
             "Sand Attack",
-            "Sand-Attack",
             "Scratch",
             "Seed Bomb",
             "Shadow Ball",
@@ -195,10 +193,9 @@
         ],
         "level1_g3_7": [
             "Astonish",
-            "Sand-Attack",
+            "Sand Attack",
             "Scratch",
             "Tail Whip",
-            "Sand Attack",
             "Dual Chop"
         ]
     }

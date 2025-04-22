@@ -26,7 +26,6 @@
             "Rapid Spin",
             "Rollout",
             "Sand Attack",
-            "Sand-Attack",
             "Scratch"
         ],
         "silver": [
@@ -157,7 +156,6 @@
             "Rock Slide",
             "Rollout",
             "Sand Attack",
-            "Sand-Attack",
             "Scorching Sands",
             "Scratch",
             "Seismic Toss",
@@ -191,10 +189,9 @@
         ],
         "level1_g3_7": [
             "Defense Curl",
-            "Sand-Attack",
+            "Sand Attack",
             "Scratch",
             "Poison Sting",
-            "Sand Attack",
             "Crush Claw"
         ]
     }

@@ -26,14 +26,12 @@
             "Growl",
             "Megahorn",
             "Sand Attack",
-            "Sand-Attack",
             "Tackle"
         ],
         "silver": [
             "Aromatherapy",
             "Bullet Seed",
             "Energy Ball",
-            "Faint Attack",
             "Feint Attack",
             "Jump Kick",
             "Leech Seed",
@@ -123,7 +121,6 @@
             "Last Resort",
             "Megahorn",
             "Sand Attack",
-            "Sand-Attack",
             "Seed Bomb",
             "Sleep Talk",
             "Snore",
@@ -148,9 +145,8 @@
             "Camouflage",
             "Growl",
             "Megahorn",
-            "Sand-Attack",
-            "Tackle",
             "Sand Attack",
+            "Tackle",
             "Horn Leech"
         ]
     }

@@ -30,12 +30,11 @@
         ],
         "silver": [
             "Bug Bite",
-            "Faint Attack",
             "Feint Attack",
             "Flail",
             "Rock Polish",
             "Rock Slide",
-            "Sand-Attack",
+            "Sand Attack",
             "Slash",
             "Stealth Rock"
         ],
@@ -104,7 +103,6 @@
             "Meteor Beam",
             "Rock Blast",
             "Sand Attack",
-            "Sand-Attack",
             "Shell Smash",
             "Skitter Smack",
             "Sleep Talk",
@@ -128,10 +126,9 @@
         ],
         "level1_g3_7": [
             "Rock Blast",
-            "Sand-Attack",
+            "Sand Attack",
             "Shell Smash",
-            "Withdraw",
-            "Sand Attack"
+            "Withdraw"
         ]
     }
 }

@@ -105,7 +105,6 @@
             "Iron Tail",
             "Mud-Slap",
             "Sand Attack",
-            "Sand-Attack",
             "Scorching Sands",
             "Sleep Talk",
             "Snore",
@@ -128,9 +127,8 @@
             "Whirlwind"
         ],
         "level1_g3_7": [
-            "Sand-Attack",
-            "Tackle",
-            "Sand Attack"
+            "Sand Attack",
+            "Tackle"
         ]
     }
 }

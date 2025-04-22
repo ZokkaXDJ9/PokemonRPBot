@@ -103,7 +103,6 @@
             "Iron Head",
             "Metal Sound",
             "Sand Attack",
-            "Sand-Attack",
             "Skitter Smack",
             "Sleep Talk",
             "Snore",
@@ -125,12 +124,11 @@
             "Thunder Fang"
         ],
         "level1_g3_7": [
-            "Sand-Attack",
+            "Sand Attack",
             "ViceGrip",
             "Guillotine",
             "Iron Defense",
             "Metal Sound",
-            "Sand Attack",
             "Vice Grip",
             "Bite",
             "Fury Cutter"

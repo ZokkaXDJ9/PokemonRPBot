@@ -171,7 +171,6 @@
             "Defog",
             "Double-Edge",
             "Explosion",
-            "Faint Attack",
             "Feint Attack",
             "Foul Play",
             "Fury Cutter",
@@ -229,11 +228,10 @@
             "Harden",
             "Nature Power",
             "Pound",
-            "Faint Attack",
+            "Feint Attack",
             "Nasty Plot",
             "Razor Leaf",
-            "Whirlwind",
-            "Feint Attack"
+            "Whirlwind"
         ]
     }
 }
