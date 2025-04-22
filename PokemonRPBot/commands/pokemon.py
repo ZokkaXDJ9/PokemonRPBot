@@ -26,11 +26,25 @@ def normalize_name(name: str) -> str:
     normalized = normalized.strip('-')
     return normalized
 
+def normalize_keys(obj):
+    """
+    Recursively convert all dictionary keys in the given object to lowercase.
+    If the object is a list, process each element.
+    If it is not a dict or list, return it as-is.
+    """
+    if isinstance(obj, dict):
+        return {k.lower(): normalize_keys(v) for k, v in obj.items()}
+    elif isinstance(obj, list):
+        return [normalize_keys(item) for item in obj]
+    else:
+        return obj
+
 def load_defensive_chart():
     r"""
     Load the defensive type interaction chart from a JSON file.
     The JSON file is located at:
     PokemonRPBot/PokemonRPBot/Data/typechart.json
+    (This file is assumed to have consistent keys and is left unnormalized.)
     """
     file_path = os.path.join(os.path.dirname(__file__), "..", "Data", "typechart.json")
     with open(file_path, "r", encoding="utf-8") as f:
@@ -135,7 +149,7 @@ TYPE_EMOJIS = {
     # Add more as needed.
 }
 
-# Load ability data exactly by its given name (no normalization)
+# Load ability data exactly by its given name (no normalization of the filename)
 def load_ability(ability_name: str, folder: str = None) -> dict:
     if folder is None:
         folder = os.path.join(os.path.dirname(__file__), "..", "Data", "abilities")
@@ -143,11 +157,11 @@ def load_ability(ability_name: str, folder: str = None) -> dict:
     if os.path.exists(file_path):
         try:
             with open(file_path, "r", encoding="utf-8") as f:
-                return json.load(f)
+                # Normalize keys for ability JSON data
+                return normalize_keys(json.load(f))
         except Exception as e:
             print(f"Error loading ability {ability_name}: {e}")
     return None
-
 
 # ------------------------------
 # Persistent view classes (no user check)
@@ -177,7 +191,8 @@ class PersistentPokemonAbilitiesButton(discord.ui.Button):
             return
         try:
             with open(filename, "r", encoding="utf-8") as f:
-                data = json.load(f)
+                # Normalize JSON keys here
+                data = normalize_keys(json.load(f))
         except Exception:
             await interaction.followup.send("Error loading Pokémon data.")
             return
@@ -218,13 +233,14 @@ class PersistentPokemonTypeEffectivenessButton(discord.ui.Button):
             return
 
         folder = os.path.join("data", "movelists")
-        filename = find_movelist_filename(normalize_name(normalized), folder)
+        # Here we use normalized form already.
+        filename = find_movelist_filename(normalized, folder)
         if not filename:
             await interaction.followup.send("Could not find Pokémon data.")
             return
         try:
             with open(filename, "r", encoding="utf-8") as f:
-                data = json.load(f)
+                data = normalize_keys(json.load(f))
         except Exception:
             await interaction.followup.send("Error loading Pokémon data.")
             return
@@ -282,7 +298,7 @@ class PersistentPokemonMovesButton(discord.ui.Button):
             return
         try:
             with open(filename, "r", encoding="utf-8") as f:
-                data = json.load(f)
+                data = normalize_keys(json.load(f))
         except Exception:
             await interaction.followup.send("Error loading Pokémon data.")
             return
@@ -342,7 +358,7 @@ class PersistentLearnMovesView(discord.ui.View):
             return
         try:
             with open(filename, "r", encoding="utf-8") as f:
-                data = json.load(f)
+                data = normalize_keys(json.load(f))
         except Exception:
             await interaction.followup.send("Error loading Pokémon data.")
             return
@@ -402,7 +418,8 @@ class PokemonCog(commands.Cog):
 
         try:
             with open(filename, "r", encoding="utf-8") as f:
-                data = json.load(f)
+                # Normalize JSON keys for the Pokémon data
+                data = normalize_keys(json.load(f))
         except Exception as e:
             await interaction.response.send_message("Error loading the Pokémon data.", ephemeral=True)
             print(f"Error loading {filename}: {e}")

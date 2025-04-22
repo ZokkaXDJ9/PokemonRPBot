@@ -7,6 +7,15 @@ CHARACTERS_DIR = "Characters"
 CRIT = 6
 FAIL_THRESHOLD = 3
 
+def normalize_keys(obj):
+    """Recursively convert all dictionary keys to lowercase."""
+    if isinstance(obj, dict):
+        return {k.lower(): normalize_keys(v) for k, v in obj.items()}
+    elif isinstance(obj, list):
+        return [normalize_keys(i) for i in obj]
+    return obj
+
+
 class ParsedRollQuery:
     def __init__(self, amount: int = 1, sides: int = 6, flat_addition: int = 0):
         self.amount = max(1, min(amount, 100))  # Clamp between 1 and 100
@@ -112,12 +121,12 @@ def get_move(move_name):
 def load_ability(ability_name):
     """Load an ability from a JSON file based on the ability name."""
     file_path = os.path.join(os.path.dirname(__file__), "Data", "abilities", f"{ability_name}.json")
-    
     try:
         with open(file_path, "r", encoding="utf-8") as f:
-            return json.load(f)
+            return normalize_keys(json.load(f))  # Normalize the keys!
     except FileNotFoundError:
-        return None  # Return None if the file does not exist
+        return None
+
     
 def load_rule(rule_name):
     """Load a rule from a JSON file based on the rule name."""
