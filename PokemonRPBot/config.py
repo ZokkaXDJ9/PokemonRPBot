@@ -26,7 +26,8 @@ COMMANDS = [
     "commands.metronome",
     "commands.typechart",
     "commands.legend_move",
-    "commands.stats"
+    "commands.stats",
+    "commands.z_move"
     ]
 
 COMMANDS_NOT_LOADED = [
