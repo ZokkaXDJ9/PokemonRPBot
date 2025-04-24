@@ -1,5 +1,5 @@
 {
   "name": "Quark Drive",
   "description": "Even just a faint trace of energy nearby can overcharge this mechanical mon!",
-  "effect": "If Electric Terrain is active or this pokemon is holding Booster Energy, their highest attribute is increased by 1 unless it's Dexterity in which case, it increases by 2."
+  "effect": "If Pollution Weather or Electric Terrain are active or this pokemon is holding Booster Energy, Increase the base of the User's highest Stat by 1 (In case of ties, select randomly between the mon's highest stats. If the User's highest stat is Vitality or Insight increase the User's Defense or Special Defense respectively). If the User's highest stat is Dexterity, instead increase the base stat by 2."
 }

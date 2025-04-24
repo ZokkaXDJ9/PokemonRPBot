@@ -1,5 +1,5 @@
 {
   "name": "Opportunist",
   "description": "This pokemon can leech off their enemies success! A true corporate ladder climber...",
-  "effect": "Copies all the foe's Attribute increases, save for increases made with the ability Opportunist."
+  "effect": "Copies all foe's positive Stat Changes, save for increases made with the ability Opportunist."
 }

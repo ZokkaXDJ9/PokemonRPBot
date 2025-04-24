@@ -1,6 +1,5 @@
 {
-    "Name": "Weak Armor",
-    "Effect": "The first time this Pokemon is hit by any Physical Attack, Increase 1 Point to its Dexterity Attribute and Reduce 1 Point to its Defense.",
-    "Description": "This Pokemon's protective outer layers can come off, allowing it to move freely and be more agile.",
-    "_id": "weak-armor"
+  "name": "Weak Armor",
+  "description": "This Pokemon's protective outer layers can come off, allowing it to move freely and be more agile.",
+  "effect": "After this Pokemon is hit by any Physical Attack, Increase the User's Dexterity by 2 and Reduce their Defense by 1. This ability is able to stack with itself up to three times (but still subject the standard +/-3 limit for Stat Changes)."
 }

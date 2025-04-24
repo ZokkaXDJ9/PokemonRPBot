@@ -1,6 +1,5 @@
 {
-    "Name": "Rattled",
-    "Effect": "The first time this Pokemon is hit by a Bug, Dark, or Ghost-Type Attack, increase 1 Point to its Dexterity Attribute.",
-    "Description": "When this scaredy Pokemon becomes startled or scared it will make haste to get away from danger.",
-    "_id": "rattled"
+  "name": "Rattled",
+  "description": "When this scaredy Pokemon becomes startled or scared it will make haste to get away from danger.",
+  "effect": "After this Pokemon is hit by a Bug, Dark, or Ghost-Type Attack or affected by the ability Intimidate, Increase the User's Dexterity. This ability is able to stack with itself up to three times (but still subject the standard +/-3 limit for Stat Changes)."
 }

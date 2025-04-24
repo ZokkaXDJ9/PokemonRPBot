@@ -1,6 +1,5 @@
 {
-    "Name": "White Smoke",
-    "Effect": "Foes cannot reduce the Attributes of this Pokemon. However, it can still lower its own Attributes.",
-    "Description": "The Pokemon is constantly releasing fumes of white smoke making it difficult to be seen. It uses the smoke to conceal itself.",
-    "_id": "white-smoke"
+  "name": "White Smoke",
+  "description": "The Pokemon is constantly releasing fumes of white smoke making it difficult to be seen. It uses the smoke to conceal itself.",
+  "effect": "The User is immune to negative Stat Changes inflicted by other pokemon. The User's Stat Changes may still be directly overwritten or transferred (the User is affected normally by effects such as ex: Haze, Baton Pass, Topsy-Turvy)."
 }

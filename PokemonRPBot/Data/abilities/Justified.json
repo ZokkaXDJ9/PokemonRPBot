@@ -1,6 +1,5 @@
 {
-    "Name": "Justified",
-    "Effect": "The first time this Pokemon is hit by a Dark-Type Attack or if it has witnessed something it considers unjust, Increase 1 Point to its Strength Attribute.",
-    "Description": "This Pokemon has an innate sense of justice, wrongdoings will make them really angry.",
-    "_id": "justified"
+  "name": "Justified",
+  "description": "This Pokemon has an innate sense of justice, wrongdoings will make them really angry.",
+  "effect": "The first time an ally is hit by a Critical Strike or an ally's HP drops to 0, Increase the User's Strength."
 }

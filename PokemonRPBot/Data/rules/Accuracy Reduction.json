@@ -1,6 +1,0 @@
-{
-  "name": "Accuracy Reduction",
-  "flavor": "Got a little bit of dirt in your eye?",
-  "text": "- Characters with accuracy reduction (from stat changes or move effects) roll the usual accuracy dice\n- Subtract -X from the number of successes after rolling",
-  "example": ""
-}

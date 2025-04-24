@@ -1,6 +1,5 @@
 {
-    "Name": "Sand Rush",
-    "Effect": "If Sandstorm Weather is in effect, increase 1 Point to the Dexterity Attibute of this Pokemon. The Pokemon is immune to damage from Sandstorm Weather.",
-    "Description": "While sand whips across the battlefield, the Pokemon can paddle through it as if it was water.",
-    "_id": "sand-rush"
+  "name": "Sand Rush",
+  "description": "While sand whips across the battlefield, the Pokemon can paddle through it as if it was water.",
+  "effect": "If Sandstorm Weather is in effect, Increase the User's base dexterity by 2. This Pokemon is immune to damage from Sandstorm Weather. If the User is Ground Type this ability will also activate under Quaking Ground Weather."
 }

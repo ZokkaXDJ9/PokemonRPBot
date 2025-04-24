@@ -1,6 +1,5 @@
 {
-    "Name": "Steadfast",
-    "Effect": "The first time this Pokemon is affected by Flinch, Increase 1 Point to its Dexterity Attribute.",
-    "Description": "This Pokemon becomes even more dependable when adversity strikes.",
-    "_id": "steadfast"
+  "name": "Steadfast",
+  "description": "This Pokemon becomes even more dependable when adversity strikes.",
+  "effect": "Each time this Pokemon is affected by Flinch, Increase its Dexterity by 1. This Stat Change is able to stack with itself (but still subject the standard +/-3 limit)."
 }
