@@ -89,7 +89,6 @@ class RulesCommand(commands.Cog):
         response = f"""
 ### {rule['name']}
 *{rule['flavor']}*
-
 {rule['text']}
 """
         if rule.get("example"):
