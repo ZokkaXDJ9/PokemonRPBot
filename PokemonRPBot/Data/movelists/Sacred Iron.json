@@ -21,24 +21,22 @@
     "insight": "3/7",
     "moves": {
         "bronze": [
-            "Fire Fang", 
-            "Guillotine", 
+            "Fire Fang",
+            "Guillotine",
             "Harden",
             "Ice Fang",
             "Knock Off",
-            "Night Slash", 
+            "Night Slash",
             "Poison Jab",
             "Poison Sting",
             "Sand Attack",
             "Slash",
             "Thunder Fang",
-            "Harden",
             "Headbutt",
             "Metal Claw",
             "Mud-Slap",
             "Rock Tomb",
             "Tackle"
-
         ],
         "silver": [
             "Acrobatics",

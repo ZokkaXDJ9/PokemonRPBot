@@ -9,8 +9,7 @@
         "normal": [
             "Quark Drive"
         ],
-        "hidden": [
-        ]
+        "hidden": []
     },
     "base_hp": 5,
     "strength": "3/6",
@@ -39,7 +38,6 @@
             "Tackle",
             "Teleport",
             "Zen Headbutt"
-
         ],
         "silver": [
             "Calm Mind",

@@ -27,7 +27,6 @@
             "Tackle",
             "Flame Charge",
             "Power-Up-Punch"
-
         ],
         "silver": [
             "Focus Energy",
@@ -137,10 +136,9 @@
             "Wild Charge",
             "Zen Headbutt"
         ],
-        "egg": [
-        ],
+        "egg": [],
         "tutor": [
-            "Coaching", 
+            "Coaching",
             "Liquidation"
         ]
     }
