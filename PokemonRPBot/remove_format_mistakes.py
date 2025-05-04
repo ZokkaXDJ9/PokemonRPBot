@@ -3,8 +3,8 @@ import json
 
 # Define the mapping from the incorrect move strings to the correct ones.
 move_mapping = {
-    "Faint Attack": "Feint Attack",
-    "Sand-Attack": "Sand Attack",
+    "etal Claw": "Metal Claw",
+    "Poison jab": "Poison Jab",
 }
 
 def remove_duplicates_preserve_order(seq):
