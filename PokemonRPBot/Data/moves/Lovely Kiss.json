@@ -1,23 +1,11 @@
 {
-    "Name": "Lovely Kiss",
-    "Type": "Normal",
-    "Power": 0,
-    "Damage1": "",
-    "Damage2": "",
-    "Accuracy1": "Missing beauty",
-    "Accuracy2": "ALLURE",
-    "Target": "Foe",
-    "Effect": "Makes the Target drowsy.",
-    "Description": "The Pokemon approaches the foe with a kiss. Its ugly face and awful smooch make the poor creature faint in terror.",
-    "_id": "lovely-kiss",
-    "Attributes": {},
-    "AddedEffects": {
-        "Ailments": [
-            {
-                "Type": "Sleep",
-                "Affects": "Targets"
-            }
-        ]
-    },
-    "Category": "Support"
+  "name": "Lovely Kiss",
+  "type": "Normal",
+  "power": 0,
+  "damage": "",
+  "accuracy": "Beauty",
+  "target": "Foe",
+  "effect": "Makes the Target Drowsy. Ignores Substitute. On a Critical Strike this move reduces the target's Special Defense by 1 (and receives no other benefits from Critical Strike). -2 Accuracy",
+  "description": "The Pokemon approaches the foe with a kiss. Its ugly face and awful smooch make the poor creature faint in terror.",
+  "category": "Support"
 }

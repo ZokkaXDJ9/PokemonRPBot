@@ -1,24 +1,11 @@
 {
-    "Name": "Bite",
-    "Type": "Dark",
-    "Power": 2,
-    "Damage1": "Strength",
-    "Damage2": "",
-    "Accuracy1": "Dexterity",
-    "Accuracy2": "Brawl",
-    "Target": "Foe",
-    "Effect": "Roll 3 Chance Dice to Flinch the foe.",
-    "Description": "The user lands a vicious bite that may leave an ugly bruise.",
-    "_id": "bite",
-    "Attributes": {},
-    "AddedEffects": {
-        "Ailments": [
-            {
-                "Type": "Flinch",
-                "Affects": "Targets",
-                "ChanceDice": 3
-            }
-        ]
-    },
-    "Category": "Physical"
+  "name": "Bite",
+  "type": "Dark",
+  "power": 2,
+  "damage": "Strength",
+  "accuracy": "Dexterity",
+  "target": "Foe",
+  "effect": "Biting Based. Roll 3 Chance Dice to Flinch the foe.",
+  "description": "The user lands a vicious bite that may leave an ugly bruise.",
+  "category": "Physical"
 }

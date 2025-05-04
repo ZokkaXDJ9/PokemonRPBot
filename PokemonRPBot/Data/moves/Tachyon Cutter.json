@@ -5,7 +5,7 @@
   "damage": "Strength",
   "accuracy": "Dexterity",
   "target": "Foe",
-  "effect": "Double Attack. Never misses.",
-  "description": "The user uses automation to garuntee two slices upon its opposition. Such automation garuntees its moves will hit.",
+  "effect": "Slicing Move. Double Attack. Never misses.",
+  "description": "The user uses automation to guarantee two slices upon its opposition. Such automation guarantees its moves will hit.",
   "category": "Physical"
 }
