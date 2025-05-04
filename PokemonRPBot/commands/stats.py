@@ -9,29 +9,75 @@ import re
 from emojis import get_type_emoji
 
 # ------------------------------
+# Evolution data & helpers
+# ------------------------------
+EVO_FILE = os.path.join(os.path.dirname(__file__), "..", "Data", "pokemon_evolutions.json")
+try:
+    with open(EVO_FILE, "r", encoding="utf-8") as f:
+        EVOLUTION_DATA = json.load(f)
+except Exception:
+    EVOLUTION_DATA = {}
+
+def find_evolution_key(normalized: str, evo_data: dict) -> str:
+    target = normalized.replace("-", "")
+    for key in evo_data:
+        if normalize_name(key).replace("-", "") == target:
+            return key
+    return None
+
+def load_related_data(name: str) -> dict:
+    filename = find_movelist_filename(normalize_name(name))
+    if not filename:
+        return {}
+    with open(filename, "r", encoding="utf-8") as f:
+        return normalize_keys(json.load(f))
+
+def combine_moves(main_data: dict, related_names: list) -> dict:
+    """
+    Combine the main Pokémon's moves with those of pre-evolutions:
+      - For TM/Egg/Tutor and other non-rank categories, union and mark extras with '*'
+      - For badge ranks, merge in progression order and mark extras
+    """
+    combined = {}
+    moves_all = main_data.get("moves", {})
+    ranks = ["bronze", "silver", "gold", "platinum", "diamond"]
+
+    # 1) Non-rank categories: tm, egg, tutor, etc.
+    non_rank_cats = [cat for cat in moves_all if cat not in ranks]
+    for cat in non_rank_cats:
+        main_moves = set(moves_all.get(cat, []))
+        union = set(main_moves)
+        for rel in related_names:
+            union |= set(load_related_data(rel).get("moves", {}).get(cat, []))
+        merged = sorted(union, key=lambda m: m.lower())
+        # mark moves that come only from related forms
+        combined[cat] = [m if m in main_moves else f"{m}*" for m in merged]
+
+    # 2) Ranked categories: preserve progression order, avoid duplicates
+    seen = set()
+    for rank in ranks:
+        main_moves = set(moves_all.get(rank, []))
+        union = set(main_moves)
+        for rel in related_names:
+            union |= set(load_related_data(rel).get("moves", {}).get(rank, []))
+        new_moves = union - seen
+        merged = sorted(new_moves, key=lambda m: m.lower())
+        combined[rank] = [m if m in main_moves else f"{m}*" for m in merged]
+        seen |= union
+
+    return combined
+
+# ------------------------------
 # Helper functions & constants
 # ------------------------------
 
 def normalize_name(name: str) -> str:
-    """
-    Converts a Pokémon name to a normalized form:
-      - Lowercase
-      - Replace non-alphanumeric characters with hyphens
-      - Merge multiple hyphens and trim leading/trailing hyphens.
-    Example: "Sirfetch'd" → "sirfetch-d"
-    """
     normalized = name.lower()
     normalized = re.sub(r'[^a-z0-9]', '-', normalized)
     normalized = re.sub(r'-+', '-', normalized)
-    normalized = normalized.strip('-')
-    return normalized
+    return normalized.strip('-')
 
 def normalize_keys(obj):
-    """
-    Recursively convert all dictionary keys in the given object to lowercase.
-    If the object is a list, process each element.
-    If it is not a dict or list, return it as-is.
-    """
     if isinstance(obj, dict):
         return {k.lower(): normalize_keys(v) for k, v in obj.items()}
     elif isinstance(obj, list):
@@ -40,38 +86,20 @@ def normalize_keys(obj):
         return obj
 
 def load_defensive_chart():
-    """
-    Load the defensive type interaction chart from a JSON file.
-    The JSON file is located at:
-    PokemonRPBot/PokemonRPBot/Data/typechart.json
-    """
     file_path = os.path.join(os.path.dirname(__file__), "..", "Data", "typechart.json")
     with open(file_path, "r", encoding="utf-8") as f:
         return json.load(f)
-    
+
 DEFENSIVE_CHART = load_defensive_chart()
 
 def normalize_type(t: str) -> str:
-    """
-    Normalize the input type string to match one of the keys in DEFENSIVE_CHART.
-    This function compares the lowercase of the input to the lowercase of each key
-    and returns the properly cased key if found. Otherwise, it returns the input.
-    """
-    t_normalized = t.lower()
-    for key in DEFENSIVE_CHART.keys():
-        if key.lower() == t_normalized:
+    t_lower = t.lower()
+    for key in DEFENSIVE_CHART:
+        if key.lower() == t_lower:
             return key
     return t
 
 def get_effectiveness_category(multiplier: float) -> str:
-    """
-    Convert the combined multiplier into a text category using base-2 logarithms:
-      - log₂(4) = 2    → "Super Effective (+2)"
-      - log₂(2) = 1    → "Effective (+1)"
-      - log₂(0.5) = -1 → "Ineffective (-1)"
-      - log₂(0.25) = -2→ "Super Ineffective (-2)"
-      - 0 multiplier  → "Immune (No Damage)"
-    """
     if multiplier == 0:
         return "Immune (No Damage)"
     shift = round(math.log(multiplier, 2))
@@ -87,68 +115,39 @@ def get_effectiveness_category(multiplier: float) -> str:
         return "Super Ineffective (-2)"
     elif shift > 2:
         return f"Ultra Effective (+{shift})"
-    elif shift < -2:
+    else:
         return f"Ultra Ineffective ({shift})"
-    return f"Multiplier {multiplier}"
 
 def sort_key(category: str) -> float:
-    """
-    Extract a numeric key from the category string by searching for the numeric value
-    within parentheses (e.g., '(+2)'). "Immune (No Damage)" is forced to a low value.
-    """
-    if category == "Immune (No Damage)":
+    if category.startswith("Immune"):
         return -999
     m = re.search(r'\(([-+]\d+)\)', category)
-    if m:
-        return int(m.group(1))
-    return 0
+    return int(m.group(1)) if m else 0
 
 def find_movelist_filename(normalized: str, folder: str = os.path.join("data", "movelists")) -> str:
-    """
-    Given a normalized Pokémon name, returns the full filename of the movelist JSON file.
-    Checks for an exact match first, then does a fuzzy check.
-    """
     exact_path = os.path.join(folder, f"{normalized}.json")
     if os.path.exists(exact_path):
         return exact_path
-
-    target_nohyphen = normalized.replace("-", "")
+    target = normalized.replace("-", "")
     for filename in os.listdir(folder):
-        if filename.endswith(".json"):
-            candidate = filename[:-5]  # Remove .json extension
-            candidate_norm = normalize_name(candidate)
-            candidate_nohyphen = candidate_norm.replace("-", "")
-            if candidate_nohyphen == target_nohyphen:
-                return os.path.join(folder, filename)
-            if candidate_nohyphen in target_nohyphen or target_nohyphen in candidate_nohyphen:
-                return os.path.join(folder, filename)
+        if not filename.endswith(".json"):
+            continue
+        base = filename[:-5]
+        norm = normalize_name(base).replace("-", "")
+        if norm == target or norm in target or target in norm:
+            return os.path.join(folder, filename)
     return None
 
 def format_stat_bar(stat: str) -> str:
-    """
-    Given a stat string (e.g. "3/6"), returns a visual bar (like "⬤⬤⬤⭘⭘⭘").
-    """
     try:
-        filled, total = stat.split('/')
-        filled = int(filled)
-        total = int(total)
+        filled, total = map(int, stat.split('/'))
         return "⬤" * filled + "⭘" * (total - filled)
-    except Exception:
+    except:
         return stat
 
 def format_moves(moves_list: list) -> str:
-    """
-    Joins a list of moves with "  |  " or returns "None" if empty.
-    """
     return "  |  ".join(moves_list) if moves_list else "None"
 
-# A mapping for type emojis.
-TYPE_EMOJIS = {
-    "Psychic": "<:typepsychic:1272535970897592330>",
-    # Add more as needed.
-}
-
-# Load ability data exactly by its given name (keys are normalized)
 def load_ability(ability_name: str, folder: str = None) -> dict:
     if folder is None:
         folder = os.path.join(os.path.dirname(__file__), "..", "Data", "abilities")
@@ -157,233 +156,176 @@ def load_ability(ability_name: str, folder: str = None) -> dict:
         try:
             with open(file_path, "r", encoding="utf-8") as f:
                 return normalize_keys(json.load(f))
-        except Exception as e:
-            print(f"Error loading ability {ability_name}: {e}")
+        except Exception:
+            pass
     return None
 
 # ------------------------------
-# Persistent view classes (no user check)
+# Persistent view classes
 # ------------------------------
-# Each button’s custom_id encodes the Pokémon’s normalized name.
-# Format: "pokemon:<action>:<normalized>"
-# (We no longer restrict by invoker.)
 
 class PersistentPokemonAbilitiesButton(discord.ui.Button):
     def __init__(self, normalized: str):
-        custom_id = f"pokemon:abilities:{normalized}"
-        super().__init__(label="Abilities", style=discord.ButtonStyle.primary, custom_id=custom_id)
-    
+        super().__init__(label="Abilities", style=discord.ButtonStyle.primary,
+                         custom_id=f"pokemon:abilities:{normalized}")
+
     async def callback(self, interaction: discord.Interaction):
         self.disabled = True
         await interaction.response.edit_message(view=self.view)
-        try:
-            _, action, normalized = self.custom_id.split(":")
-        except Exception:
-            await interaction.followup.send("Internal error in button data.")
-            return
 
-        folder = os.path.join("data", "movelists")
-        filename = find_movelist_filename(normalized, folder)
-        if not filename:
-            await interaction.followup.send("Could not find Pokémon data.")
-            return
-        try:
-            with open(filename, "r", encoding="utf-8") as f:
-                data = json.load(f)
-        except Exception:
-            await interaction.followup.send("Error loading Pokémon data.")
-            return
+        _, _, norm = self.custom_id.split(":")
+        fn = find_movelist_filename(norm, "data/movelists")
+        if not fn:
+            return await interaction.followup.send("Could not find Pokémon data.")
 
-        abilities = data.get("abilities", {})
-        message = f"## {data.get('name', 'Unknown')} Abilities\n"
-        for ability in abilities.get("normal", []):
-            ability_data = load_ability(ability)
-            message += f"\n### {ability}\n"
-            if ability_data:
-                message += f"{ability_data.get('effect', 'No effect description.')}\n"
-                message += f"*{ability_data.get('description', 'No detailed description.')}*\n"
+        with open(fn, "r", encoding="utf-8") as f:
+            data = normalize_keys(json.load(f))
+
+        msg = f"## {data.get('name','Unknown')} Abilities\n"
+        for a in data.get("abilities", {}).get("normal", []):
+            ad = load_ability(a)
+            if ad:
+                msg += f"\n### {a}\n{ad.get('effect','')}\n*{ad.get('description','')}*\n"
             else:
-                message += "No data found for this ability.\n"
-        for ability in abilities.get("hidden", []):
-            ability_data = load_ability(ability)
-            message += f"\n### {ability} (Hidden)\n"
-            if ability_data:
-                message += f"{ability_data.get('effect', 'No effect description.')}\n"
-                message += f"*{ability_data.get('description', 'No detailed description.')}*\n"
+                msg += f"\n### {a}\nNo data found.\n"
+        for a in data.get("abilities", {}).get("hidden", []):
+            ad = load_ability(a)
+            if ad:
+                msg += f"\n### {a} (Hidden)\n{ad.get('effect','')}\n*{ad.get('description','')}*\n"
             else:
-                message += "No data found for this ability.\n"
-        await interaction.followup.send(message)
+                msg += f"\n### {a} (Hidden)\nNo data found.\n"
+
+        await interaction.followup.send(msg)
 
 class PersistentPokemonTypeEffectivenessButton(discord.ui.Button):
     def __init__(self, normalized: str):
-        custom_id = f"pokemon:te:{normalized}"
-        super().__init__(label="Type Effectiveness", style=discord.ButtonStyle.primary, custom_id=custom_id)
-    
+        super().__init__(label="Type Effectiveness", style=discord.ButtonStyle.primary,
+                         custom_id=f"pokemon:te:{normalized}")
+
     async def callback(self, interaction: discord.Interaction):
         self.disabled = True
         await interaction.response.edit_message(view=self.view)
-        
-        try:
-            _, action, normalized = self.custom_id.split(":")
-        except Exception:
-            await interaction.followup.send("Internal error in button data.")
-            return
 
-        folder = os.path.join("data", "movelists")
-        filename = find_movelist_filename(normalize_name(normalized), folder)
-        if not filename:
-            await interaction.followup.send("Could not find Pokémon data.")
-            return
-        try:
-            with open(filename, "r", encoding="utf-8") as f:
-                data = json.load(f)
-        except Exception:
-            await interaction.followup.send("Error loading Pokémon data.")
-            return
-        
-        # Retrieve the Pokémon's name and its types from the JSON data.
-        pokemon_name = data.get("name", "Unknown")
-        defender_types = data.get("types", [])
-        defender_types = [normalize_type(t) for t in defender_types]
-        
-        # Calculate overall effectiveness for each attacking type.
+        _, _, norm = self.custom_id.split(":")
+        fn = find_movelist_filename(norm, "data/movelists")
+        if not fn:
+            return await interaction.followup.send("Could not find Pokémon data.")
+
+        with open(fn, "r", encoding="utf-8") as f:
+            data = normalize_keys(json.load(f))
+
+        defender_types = [normalize_type(t) for t in data.get("types", [])]
         results = {}
-        for attack_type in DEFENSIVE_CHART.keys():
-            multiplier = 1.0
-            for def_type in defender_types:
-                multiplier *= DEFENSIVE_CHART[def_type][attack_type]
-            if multiplier == 1:
+        for atk in DEFENSIVE_CHART:
+            m = 1.0
+            for dt in defender_types:
+                m *= DEFENSIVE_CHART[dt][atk]
+            if m == 1:
                 continue
-            category = get_effectiveness_category(multiplier)
-            if category == "Neutral (0)":
-                continue
-            results.setdefault(category, []).append(attack_type)
-        
-        # Sort the categories using their numeric value (extracted from the category string)
-        sorted_categories = sorted(results.keys(), key=sort_key, reverse=True)
-        
-        # Build a plain text message with a header containing the Pokémon's name.
-        message_lines = [f"## Type Chart for {pokemon_name}"]
-        for category in sorted_categories:
-            types_list = results[category]
-            types_str = "  |  ".join(f"{get_type_emoji(t)} {t}" for t in types_list)
-            message_lines.append(f"### {category}")
-            message_lines.append(types_str)
-        
-        message = "\n".join(message_lines)
-        await interaction.followup.send(message)
+            cat = get_effectiveness_category(m)
+            if cat != "Neutral (0)":
+                results.setdefault(cat, []).append(atk)
+
+        msg = f"## Type Chart for {data.get('name','Unknown')}\n"
+        for cat in sorted(results, key=sort_key, reverse=True):
+            line = "  |  ".join(f"{get_type_emoji(t)} {t}" for t in results[cat])
+            msg += f"\n### {cat}\n{line}"
+
+        await interaction.followup.send(msg)
 
 class PersistentPokemonMovesButton(discord.ui.Button):
     def __init__(self, normalized: str):
-        custom_id = f"pokemon:moves:{normalized}"
-        super().__init__(label="Moves", style=discord.ButtonStyle.primary, custom_id=custom_id)
-    
+        super().__init__(label="Moves", style=discord.ButtonStyle.primary,
+                         custom_id=f"pokemon:moves:{normalized}")
+
     async def callback(self, interaction: discord.Interaction):
         self.disabled = True
         await interaction.response.edit_message(view=self.view)
-        try:
-            _, action, normalized = self.custom_id.split(":")
-        except Exception:
-            await interaction.followup.send("Internal error in button data.")
-            return
 
-        folder = os.path.join("data", "movelists")
-        filename = find_movelist_filename(normalized, folder)
-        if not filename:
-            await interaction.followup.send("Could not find Pokémon data.")
-            return
-        try:
-            with open(filename, "r", encoding="utf-8") as f:
-                data = json.load(f)
-        except Exception:
-            await interaction.followup.send("Error loading Pokémon data.")
-            return
+        _, _, norm = self.custom_id.split(":")
+        fn = find_movelist_filename(norm, "data/movelists")
+        if not fn:
+            return await interaction.followup.send("Could not find Pokémon data.")
 
-        header = f"### {data.get('name', 'Unknown')} [#{data.get('number', '?')}]"
-        moves = data.get("moves", {})
-        bronze_moves = format_moves(moves.get("bronze", []))
-        silver_moves = format_moves(moves.get("silver", []))
-        gold_moves = format_moves(moves.get("gold", []))
-        platinum_moves = format_moves(moves.get("platinum", []))
-        rank_sections = []
-        rank_data = [
-            ("<:badgebronze:1272532685197152349> **Bronze**", bronze_moves),
-            ("<:badgesilver:1272533590697185391> **Silver**", silver_moves),
-            ("<:badgegold:1272532681992962068> **Gold**", gold_moves),
-            ("<:badgeplatinum:1272533593750507570> **Platinum**", platinum_moves)
-        ]
-        for rank_title, moves_text in rank_data:
+        with open(fn, "r", encoding="utf-8") as f:
+            data = normalize_keys(json.load(f))
+
+        # --- evolution-based move merging ---
+        evo_key = find_evolution_key(norm, EVOLUTION_DATA)
+        if evo_key:
+            data["moves"] = combine_moves(data, EVOLUTION_DATA[evo_key])
+
+        header = f"### {data.get('name','Unknown')} [#{data.get('number','?')}]"
+        mv = data.get("moves", {})
+        sections = []
+        for icon, rank in [
+            ("<:badgebronze:1272532685197152349>", "bronze"),
+            ("<:badgesilver:1272533590697185391>", "silver"),
+            ("<:badgegold:1272532681992962068>", "gold"),
+            ("<:badgeplatinum:1272533593750507570>", "platinum"),
+        ]:
+            moves_text = format_moves(mv.get(rank, []))
             if moves_text != "None":
-                rank_sections.append(f"{rank_title}\n{moves_text}")
-    
-        initial_text = header
-        if rank_sections:
-            initial_text += "\n\n" + "\n\n".join(rank_sections)
-    
-        # Attach the persistent learn moves view.
-        view = PersistentLearnMovesView(normalized)
-        await interaction.followup.send(initial_text, view=view)
+                sections.append(f"{icon} **{rank.title()}**\n{moves_text}")
+
+        msg = header
+        if sections:
+            msg += "\n\n" + "\n\n".join(sections)
+
+        view = PersistentLearnMovesView(norm)
+        await interaction.followup.send(msg, view=view)
 
 class PersistentLearnMovesView(discord.ui.View):
-    """
-    A persistent view with a single button "Show all learnable Moves"
-    that expands the move list (TM, Egg, Tutor moves).
-    """
     def __init__(self, normalized: str):
         super().__init__(timeout=None)
         self.normalized = normalized
-        custom_id = f"pokemon:learnmoves:{normalized}"
-        button = discord.ui.Button(label="Show all learnable Moves", style=discord.ButtonStyle.primary, custom_id=custom_id)
-        button.callback = self.learn_moves_callback
-        self.add_item(button)
+        btn = discord.ui.Button(
+            label="Show all learnable Moves",
+            style=discord.ButtonStyle.primary,
+            custom_id=f"pokemon:learnmoves:{normalized}"
+        )
+        btn.callback = self.learn_moves_callback
+        self.add_item(btn)
 
     async def learn_moves_callback(self, interaction: discord.Interaction):
         for item in self.children:
             item.disabled = True
         await interaction.response.edit_message(view=self)
-        try:
-            _, action, normalized = interaction.data.get("custom_id", "").split(":")
-        except Exception:
-            await interaction.followup.send("Internal error in button data.")
-            return
 
-        folder = os.path.join("data", "movelists")
-        filename = find_movelist_filename(normalized, folder)
-        if not filename:
-            await interaction.followup.send("Could not find Pokémon data.")
-            return
-        try:
-            with open(filename, "r", encoding="utf-8") as f:
-                data = json.load(f)
-        except Exception:
-            await interaction.followup.send("Error loading Pokémon data.")
-            return
+        _, _, norm = interaction.data.get("custom_id", "").split(":")
+        fn = find_movelist_filename(norm, "data/movelists")
+        if not fn:
+            return await interaction.followup.send("Could not find Pokémon data.")
 
-        header = f"### {data.get('name', 'Unknown')} [#{data.get('number', '?')}]"
-        moves = data.get("moves", {})
-        tm_moves = format_moves(moves.get("tm", []))
-        egg_moves = format_moves(moves.get("egg", []))
-        tutor_moves = format_moves(moves.get("tutor", []))
-        
+        with open(fn, "r", encoding="utf-8") as f:
+            data = normalize_keys(json.load(f))
+
+        evo_key = find_evolution_key(norm, EVOLUTION_DATA)
+        if evo_key:
+            data["moves"] = combine_moves(data, EVOLUTION_DATA[evo_key])
+
+        header = f"### {data.get('name','Unknown')} [#{data.get('number','?')}]"
+        mv = data.get("moves", {})
         sections = [
-            (":cd: **TM Moves**", tm_moves),
-            (":egg: **Egg Moves**", egg_moves),
-            (":teacher: **Tutor Moves**", tutor_moves)
+            (":cd: **TM Moves**", format_moves(mv.get("tm", []))),
+            (":egg: **Egg Moves**", format_moves(mv.get("egg", []))),
+            (":teacher: **Tutor Moves**", format_moves(mv.get("tutor", []))),
         ]
-        messages = []
-        current_message = header
-        for title, content in sections:
-            section_text = f"{title}\n{content}"
-            if len(current_message) + 2 + len(section_text) > 2000:
-                messages.append(current_message)
-                current_message = header + "\n\n" + section_text
-            else:
-                current_message += "\n\n" + section_text
-        messages.append(current_message)
-        for msg in messages:
-            await interaction.followup.send(msg)
 
-# Bundle the persistent buttons in one persistent view.
+        messages = []
+        buf = header
+        for title, content in sections:
+            sec = f"{title}\n{content}"
+            if len(buf) + 2 + len(sec) > 2000:
+                messages.append(buf)
+                buf = header + "\n\n" + sec
+            else:
+                buf += "\n\n" + sec
+        messages.append(buf)
+
+        for m in messages:
+            await interaction.followup.send(m)
+
 class PersistentPokemonView(discord.ui.View):
     def __init__(self, normalized: str):
         super().__init__(timeout=None)
@@ -392,7 +334,7 @@ class PersistentPokemonView(discord.ui.View):
         self.add_item(PersistentPokemonMovesButton(normalized))
 
 # ------------------------------
-# The Stats Cog
+# The main Pokémon cog
 # ------------------------------
 
 class StatsCog(commands.Cog):
@@ -401,74 +343,61 @@ class StatsCog(commands.Cog):
 
     @app_commands.command(name="stats", description="Show details for a Pokémon")
     async def pokemon(self, interaction: discord.Interaction, pokemon: str):
-        norm_pokemon = normalize_name(pokemon)
+        norm = normalize_name(pokemon)
         folder = os.path.join("data", "movelists")
         if not os.path.exists(folder):
-            await interaction.response.send_message("Pokémon data folder not found.", ephemeral=True)
-            return
-
-        filename = find_movelist_filename(norm_pokemon, folder)
-        if not filename:
-            await interaction.response.send_message(
+            return await interaction.response.send_message(
+                "Pokémon data folder not found.", ephemeral=True
+            )
+        fn = find_movelist_filename(norm, folder)
+        if not fn:
+            return await interaction.response.send_message(
                 f"Could not find data for Pokémon **{pokemon}**.", ephemeral=True
             )
-            return
 
-        try:
-            with open(filename, "r", encoding="utf-8") as f:
-                # Normalize JSON keys for the Pokémon data
-                data = normalize_keys(json.load(f))
-        except Exception as e:
-            await interaction.response.send_message("Error loading the Pokémon data.", ephemeral=True)
-            print(f"Error loading {filename}: {e}")
-            return
+        with open(fn, "r", encoding="utf-8") as f:
+            data = normalize_keys(json.load(f))
 
-        # Build the Pokémon display message.
-        output = f"### {data.get('name', 'Unknown')} [#{data.get('number', '?')}]"
-        if all(key in data for key in ("height_m", "height_ft", "weight_kg", "weight_lb")):
-            output += f"\n{data['height_m']}m / {data['height_ft']}ft   |   {data['weight_kg']}kg / {data['weight_lb']}lbs"
+        out = f"### {data.get('name','Unknown')} [#{data.get('number','?')}]"
+        if all(k in data for k in ("height_m","height_ft","weight_kg","weight_lb")):
+            out += (
+                f"\n{data['height_m']}m / {data['height_ft']}ft   |   "
+                f"{data['weight_kg']}kg / {data['weight_lb']}lbs"
+            )
         else:
-            output += "\n"
-        types_list = data.get("types", [])
-        type_str = " / ".join([f"{get_type_emoji(t)} {t}" for t in types_list])
-        output += f"\n**Type**: {type_str}"
-        output += f"\n**Base HP**: {data.get('base_hp', '?')}"
-        output += f"\n**Strength**: {format_stat_bar(data.get('strength', ''))} `{data.get('strength', '')}`"
-        output += f"\n**Dexterity**: {format_stat_bar(data.get('dexterity', ''))} `{data.get('dexterity', '')}`"
-        output += f"\n**Vitality**: {format_stat_bar(data.get('vitality', ''))} `{data.get('vitality', '')}`"
-        output += f"\n**Special**: {format_stat_bar(data.get('special', ''))} `{data.get('special', '')}`"
-        output += f"\n**Insight**: {format_stat_bar(data.get('insight', ''))} `{data.get('insight', '')}`"
-        abilities = data.get("abilities", {})
-        normal_abilities = abilities.get("normal", [])
-        hidden_abilities = abilities.get("hidden", [])
-        abilities_str = " / ".join(normal_abilities)
-        if hidden_abilities:
-            abilities_str += " (" + " / ".join(hidden_abilities) + ")"
-        output += f"\n**Ability**: {abilities_str}"
-        
-        view = PersistentPokemonView(norm_pokemon)
-        await interaction.response.send_message(output, view=view)
+            out += "\n"
+
+        type_str = " / ".join(f"{get_type_emoji(t)} {t}" for t in data.get("types", []))
+        out += f"\n**Type**: {type_str}"
+        out += f"\n**Base HP**: {data.get('base_hp','?')}"
+        for stat in ["strength","dexterity","vitality","special","insight"]:
+            val = data.get(stat,"")
+            bar = format_stat_bar(val)
+            out += f"\n**{stat.title()}**: {bar} `{val}`"
+
+        abn = data.get("abilities",{}).get("normal",[])
+        abh = data.get("abilities",{}).get("hidden",[])
+        ab_str = " / ".join(abn)
+        if abh:
+            ab_str += " (" + " / ".join(abh) + ")"
+        out += f"\n**Ability**: {ab_str}"
+
+        view = PersistentPokemonView(norm)
+        await interaction.response.send_message(out, view=view)
         self.bot.add_view(view)
 
     @pokemon.autocomplete("pokemon")
     async def pokemon_autocomplete(self, interaction: discord.Interaction, current: str):
         suggestions = []
         folder = os.path.join("data", "movelists")
-        if not os.path.exists(folder):
-            return suggestions
-
-        for filename in os.listdir(folder):
-            if filename.endswith(".json"):
-                pokemon_name = filename[:-5]
-                if current.lower() in pokemon_name.lower():
-                    suggestions.append(app_commands.Choice(name=pokemon_name, value=pokemon_name))
+        if os.path.exists(folder):
+            for fn in os.listdir(folder):
+                if fn.endswith(".json") and current.lower() in fn.lower():
+                    name = fn[:-5]
+                    suggestions.append(app_commands.Choice(name=name, value=name))
                     if len(suggestions) >= 25:
                         break
         return suggestions
-
-# ------------------------------
-# Cog setup
-# ------------------------------
 
 async def setup(bot: commands.Bot):
     await bot.add_cog(StatsCog(bot))
