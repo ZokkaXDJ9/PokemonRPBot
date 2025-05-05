@@ -3,7 +3,7 @@ from discord import app_commands
 from discord.ext import commands
 
 OWNER_ID = 307627785818603523                 # <-- your Discord user ID
-REPO_DIR = r"C:\Users\Bahamut\Desktop\PokeBotPython\PokemonRPBot"             # <-- folder that has .git
+REPO_DIR = r"C:\Bot\PokemonRPBot"             # <-- folder that has .git
 GREET = {
     "xenoverse-extension": "Welcome to Eldiw!",
     "main": "Welcome back to the Citadel!",
