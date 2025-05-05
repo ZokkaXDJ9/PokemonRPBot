@@ -1,0 +1,11 @@
+{
+  "name": "Wild Dance",
+  "type": "Sound",
+  "power": 5,
+  "damage": "Strength",
+  "accuracy": "Dexterity",
+  "target": "Foe",
+  "effect": "Rampage. Inflicts Wounds.",
+  "description": "The user attacks the target by pushing it to the beat, then gets confused.",
+  "category": "Physical"
+}

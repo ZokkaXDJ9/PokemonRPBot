@@ -1,0 +1,11 @@
+{
+  "name": "Disco Fever",
+  "type": "Sound",
+  "power": 0,
+  "damage": "",
+  "accuracy": "Beauty",
+  "target": "Foe",
+  "effect": "Confuse the target.",
+  "description": "The user sings a fast lively song that confuses the target.",
+  "category": "Support"
+}

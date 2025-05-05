@@ -1,0 +1,11 @@
+{
+  "name": "Blue Note",
+  "type": "Sound",
+  "power": 0,
+  "damage": "",
+  "accuracy": "Tough",
+  "target": "Foe",
+  "effect": "Makes the target drowsy.",
+  "description": "The user plays a relaxing melody that puts the target into a deep slumber.",
+  "category": "Support"
+}

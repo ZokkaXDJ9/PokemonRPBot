@@ -1,0 +1,11 @@
+{
+  "name": "Electro Swing",
+  "type": "Sound",
+  "power": 0,
+  "damage": "",
+  "accuracy": "Cool",
+  "target": "Foe",
+  "effect": "Paralyze the target.",
+  "description": "The user wildly twangs a guitar, hurling bolts that paralyzes the target.",
+  "category": "Support"
+}
