@@ -18,6 +18,7 @@ type_emojis = {
     "Dragon":   "<:typedragon:1272535944804962335>",
     "Dark":     "<:typedark:1272535943060000800>",
     "Fairy":    "<:typefairy:1272535948357537894>",
+    "Sound":    "<:typesound:1368736328287654018>",
     "Shadow":   "",
 }
 
