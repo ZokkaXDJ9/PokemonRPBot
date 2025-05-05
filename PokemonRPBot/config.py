@@ -27,7 +27,8 @@ COMMANDS = [
     "commands.typechart",
     "commands.legend_move",
     "commands.stats",
-    "commands.z_move"
+    "commands.z_move",
+    "commands.switch"
     ]
 
 COMMANDS_NOT_LOADED = [
