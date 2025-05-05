@@ -28,6 +28,7 @@ COMMANDS = [
     "commands.legend_move",
     "commands.stats",
     "commands.z_move",
+    "commands.xenoverse",
     "commands.switch"
     ]
 
