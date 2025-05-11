@@ -1,0 +1,16 @@
+{
+  "Name": "Z-Durante-Superbia",
+  "Type": "Normal",
+  "Power": 0,
+  "Damage1": "",
+  "Damage2": "",
+  "Accuracy1": "Dexterity",
+  "Accuracy2": "Rank",
+  "Target": "One Ally",
+  "Effect": "High Critical. Target Pokemon gets Extra Dice on its next Accuracy and Damage Rolls equal to the User's Rank (minimum 2) +5. The next time the target uses a Z-Move, it won't have a Will cost. Priority 5..",
+  "Description": "Dante channels his power into one of his allies to allow them to perform a very powerful move, at no cost..",
+  "_id": "Helping Hand",
+  "Attributes": {},
+  "AddedEffects": {},
+  "Category": "Support"
+}
