@@ -110,7 +110,18 @@
             "Tera Blast",
             "Toxic",
             "Trick Room",
-            "Wonder Room"
+            "Wonder Room",
+            "Agility",
+            "Amnesia",
+            "Attract",
+            "Curse",
+            "Headbutt",
+            "Helping Hand",
+            "Metronome",
+            "Nasty Plot",
+            "Secret Power",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "After You",

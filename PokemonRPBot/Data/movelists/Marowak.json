@@ -131,7 +131,14 @@
             "Thunder Punch",
             "Toxic",
             "Uproar",
-            "Water Gun"
+            "Water Gun",
+            "Agility",
+            "Amnesia",
+            "Helping Hand",
+            "Metronome",
+            "Nasty Plot",
+            "Splash",
+            "Tera Blast"
         ],
         "tutor": [
             "Body Slam",

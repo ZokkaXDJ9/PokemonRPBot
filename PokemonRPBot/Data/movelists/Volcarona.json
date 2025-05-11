@@ -115,7 +115,17 @@
             "U-turn",
             "Wild Charge",
             "Will-O-Wisp",
-            "Zen Headbutt"
+            "Zen Headbutt",
+            "Agility",
+            "Curse",
+            "Headbutt",
+            "Helping Hand",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Secret Power",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "Absorb",

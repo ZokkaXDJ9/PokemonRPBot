@@ -109,7 +109,15 @@
             "Water Gun",
             "Water Pulse",
             "Waterfall",
-            "Whirlpool"
+            "Whirlpool",
+            "Agility",
+            "Amnesia",
+            "Helping Hand",
+            "Metronome",
+            "Nasty Plot",
+            "Splash",
+            "Swords Dance",
+            "Tera Blast"
         ],
         "tutor": [
             "Ancient Power",

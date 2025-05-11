@@ -123,7 +123,15 @@
             "U-turn",
             "Uproar",
             "Venoshock",
-            "X-Scissor"
+            "X-Scissor",
+            "Amnesia",
+            "Curse",
+            "Headbutt",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "Air Cutter",

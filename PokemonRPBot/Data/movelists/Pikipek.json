@@ -87,7 +87,17 @@
             "Toxic",
             "U-turn",
             "Uproar",
-            "Work Up"
+            "Work Up",
+            "Agility",
+            "Amnesia",
+            "Curse",
+            "Headbutt",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Secret Power",
+            "Snore",
+            "Splash"
         ],
         "tutor": [
             "Defog",

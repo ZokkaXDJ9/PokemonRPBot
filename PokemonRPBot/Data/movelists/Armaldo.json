@@ -101,7 +101,17 @@
             "Swords Dance",
             "Toxic",
             "Water Pulse",
-            "X-Scissor"
+            "X-Scissor",
+            "Agility",
+            "Amnesia",
+            "Curse",
+            "Headbutt",
+            "Helping Hand",
+            "Metronome",
+            "Nasty Plot",
+            "Splash",
+            "Take Down",
+            "Tera Blast"
         ],
         "tutor": [
             "Ancient Power",

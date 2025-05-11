@@ -99,7 +99,16 @@
             "Toxic",
             "Uproar",
             "Work Up",
-            "X-Scissor"
+            "X-Scissor",
+            "Agility",
+            "Amnesia",
+            "Curse",
+            "Headbutt",
+            "Helping Hand",
+            "Metronome",
+            "Nasty Plot",
+            "Secret Power",
+            "Splash"
         ],
         "tutor": [
             "Draco Meteor",

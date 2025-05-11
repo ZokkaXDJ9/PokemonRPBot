@@ -106,7 +106,14 @@
             "Thunder Punch",
             "Toxic",
             "Uproar",
-            "Will-O-Wisp"
+            "Will-O-Wisp",
+            "Agility",
+            "Amnesia",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "Body Slam",

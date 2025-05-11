@@ -126,7 +126,13 @@
             "Venoshock",
             "Water Pulse",
             "Yawn",
-            "Zen Headbutt"
+            "Zen Headbutt",
+            "Agility",
+            "Headbutt",
+            "Iron Defense",
+            "Nasty Plot",
+            "Snore",
+            "Splash"
         ],
         "tutor": [
             "Block",

@@ -134,7 +134,15 @@
             "Tri Attack",
             "Volt Switch",
             "Wide Guard",
-            "Zap Cannon"
+            "Zap Cannon",
+            "Agility",
+            "Amnesia",
+            "Headbutt",
+            "Metronome",
+            "Nasty Plot",
+            "Snore",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "Ally Switch",

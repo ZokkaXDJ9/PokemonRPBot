@@ -133,7 +133,16 @@
             "Taunt",
             "Thunder Fang",
             "Torment",
-            "Toxic"
+            "Toxic",
+            "Agility",
+            "Amnesia",
+            "Helping Hand",
+            "Metronome",
+            "Nasty Plot",
+            "Splash",
+            "Swords Dance",
+            "Take Down",
+            "Tera Blast"
         ],
         "tutor": [
             "Ancient Power",

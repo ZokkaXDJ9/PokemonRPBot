@@ -100,7 +100,17 @@
             "Swords Dance",
             "Taunt",
             "Toxic",
-            "X-Scissor"
+            "X-Scissor",
+            "Amnesia",
+            "Curse",
+            "Headbutt",
+            "Helping Hand",
+            "Metronome",
+            "Nasty Plot",
+            "Secret Power",
+            "Splash",
+            "Take Down",
+            "Tera Blast"
         ],
         "tutor": [
             "Bug Bite",

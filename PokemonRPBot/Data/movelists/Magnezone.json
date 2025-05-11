@@ -114,7 +114,16 @@
             "Toxic",
             "Tri Attack",
             "Volt Switch",
-            "Wild Charge"
+            "Wild Charge",
+            "Agility",
+            "Amnesia",
+            "Attract",
+            "Curse",
+            "Headbutt",
+            "Metronome",
+            "Nasty Plot",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "Ally Switch",

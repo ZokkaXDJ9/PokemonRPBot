@@ -142,7 +142,11 @@
             "Upper Hand",
             "Water Pulse",
             "Whirlpool",
-            "X-Scissor"
+            "X-Scissor",
+            "Amnesia",
+            "Iron Defense",
+            "Metronome",
+            "Splash"
         ],
         "tutor": [
             "Counter",

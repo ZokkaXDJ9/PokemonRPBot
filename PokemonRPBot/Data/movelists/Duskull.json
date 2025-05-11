@@ -107,7 +107,16 @@
             "Trick",
             "Trick Room",
             "Will-O-Wisp",
-            "Wonder Room"
+            "Wonder Room",
+            "Agility",
+            "Amnesia",
+            "Headbutt",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Splash",
+            "Swords Dance",
+            "Take Down"
         ],
         "tutor": [
             "Ally Switch",

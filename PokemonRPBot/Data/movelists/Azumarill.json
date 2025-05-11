@@ -135,7 +135,12 @@
             "Water Pulse",
             "Waterfall",
             "Whirlpool",
-            "Work Up"
+            "Work Up",
+            "Agility",
+            "Iron Defense",
+            "Nasty Plot",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "Aqua Tail",

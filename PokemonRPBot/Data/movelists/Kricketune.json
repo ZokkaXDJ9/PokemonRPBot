@@ -113,7 +113,16 @@
             "Toxic",
             "Trailblaze",
             "Uproar",
-            "X-Scissor"
+            "X-Scissor",
+            "Agility",
+            "Amnesia",
+            "Curse",
+            "Headbutt",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Snore",
+            "Splash"
         ],
         "tutor": [
             "Aerial Ace",

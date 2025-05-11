@@ -129,7 +129,13 @@
             "Venoshock",
             "Water Pulse",
             "Waterfall",
-            "Whirlpool"
+            "Whirlpool",
+            "Amnesia",
+            "Helping Hand",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Splash"
         ],
         "tutor": [
             "Aqua Tail",

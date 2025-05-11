@@ -92,7 +92,23 @@
             "Toxic",
             "Toxic Spikes",
             "Venom Drench",
-            "Venoshock"
+            "Venoshock",
+            "Amnesia",
+            "Attract",
+            "Confide",
+            "Curse",
+            "Double Team",
+            "Frustration",
+            "Headbutt",
+            "Helping Hand",
+            "Hidden Power",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Return",
+            "Secret Power",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "Meteor Beam"

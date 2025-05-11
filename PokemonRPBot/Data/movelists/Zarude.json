@@ -113,7 +113,21 @@
             "Thief",
             "Throat Chop",
             "Trailblaze",
-            "U-turn"
+            "U-turn",
+            "Agility",
+            "Amnesia",
+            "Attract",
+            "Confide",
+            "Curse",
+            "Double Team",
+            "Frustration",
+            "Headbutt",
+            "Hidden Power",
+            "Iron Defense",
+            "Metronome",
+            "Return",
+            "Secret Power",
+            "Splash"
         ],
         "tutor": [
             "Grassy Glide",

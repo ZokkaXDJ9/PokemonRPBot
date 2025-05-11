@@ -107,7 +107,14 @@
             "Water Gun",
             "Water Pulse",
             "Waterfall",
-            "Whirlpool"
+            "Whirlpool",
+            "Agility",
+            "Amnesia",
+            "Headbutt",
+            "Metronome",
+            "Nasty Plot",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "Dive",

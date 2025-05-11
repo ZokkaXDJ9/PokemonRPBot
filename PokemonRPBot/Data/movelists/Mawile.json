@@ -124,7 +124,16 @@
             "Thunder Fang",
             "Thunder Punch",
             "Torment",
-            "Toxic"
+            "Toxic",
+            "Agility",
+            "Amnesia",
+            "Curse",
+            "Headbutt",
+            "Metronome",
+            "Nasty Plot",
+            "Splash",
+            "Take Down",
+            "Tera Blast"
         ],
         "tutor": [
             "Ancient Power",

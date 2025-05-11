@@ -106,7 +106,16 @@
             "Thief",
             "Toxic",
             "Venoshock",
-            "X-Scissor"
+            "X-Scissor",
+            "Agility",
+            "Amnesia",
+            "Headbutt",
+            "Helping Hand",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Splash",
+            "Tera Blast"
         ],
         "tutor": [
             "Aerial Ace",

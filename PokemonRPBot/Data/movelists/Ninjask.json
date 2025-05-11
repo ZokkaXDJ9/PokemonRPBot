@@ -98,7 +98,17 @@
             "Toxic",
             "U-turn",
             "Uproar",
-            "X-Scissor"
+            "X-Scissor",
+            "Amnesia",
+            "Curse",
+            "Headbutt",
+            "Helping Hand",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Splash",
+            "Take Down",
+            "Tera Blast"
         ],
         "tutor": [
             "Absorb",

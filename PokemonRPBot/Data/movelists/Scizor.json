@@ -134,7 +134,11 @@
             "U-turn",
             "Vacuum Wave",
             "Venoshock",
-            "X-Scissor"
+            "X-Scissor",
+            "Amnesia",
+            "Metronome",
+            "Nasty Plot",
+            "Splash"
         ],
         "tutor": [
             "Bug Bite",

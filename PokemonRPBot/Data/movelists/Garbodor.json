@@ -99,7 +99,19 @@
             "Toxic",
             "Toxic Spikes",
             "Venom Drench",
-            "Venoshock"
+            "Venoshock",
+            "Agility",
+            "Curse",
+            "Headbutt",
+            "Helping Hand",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Secret Power",
+            "Splash",
+            "Swords Dance",
+            "Take Down",
+            "Tera Blast"
         ],
         "tutor": [
             "Corrosive Gas",

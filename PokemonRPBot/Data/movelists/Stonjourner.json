@@ -87,7 +87,21 @@
             "Superpower",
             "Take Down",
             "Tera Blast",
-            "Wonder Room"
+            "Wonder Room",
+            "Agility",
+            "Amnesia",
+            "Confide",
+            "Double Team",
+            "Frustration",
+            "Headbutt",
+            "Helping Hand",
+            "Hidden Power",
+            "Metronome",
+            "Nasty Plot",
+            "Return",
+            "Secret Power",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "Meteor Beam"

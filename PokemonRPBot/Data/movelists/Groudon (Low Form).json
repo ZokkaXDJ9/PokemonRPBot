@@ -132,7 +132,16 @@
             "Toxic",
             "Uproar",
             "Will-O-Wisp",
-            "Zen Headbutt"
+            "Zen Headbutt",
+            "Agility",
+            "Amnesia",
+            "Attract",
+            "Curse",
+            "Headbutt",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Splash"
         ],
         "tutor": [
             "Ancient Power",

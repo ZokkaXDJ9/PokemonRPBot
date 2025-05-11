@@ -129,7 +129,13 @@
             "Torment",
             "Toxic",
             "Trailblaze",
-            "Uproar"
+            "Uproar",
+            "Agility",
+            "Amnesia",
+            "Metronome",
+            "Nasty Plot",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "After You",

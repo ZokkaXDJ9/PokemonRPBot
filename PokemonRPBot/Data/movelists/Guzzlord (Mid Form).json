@@ -101,7 +101,20 @@
             "Stone Edge",
             "Substitute",
             "Thief",
-            "Toxic"
+            "Toxic",
+            "Agility",
+            "Attract",
+            "Confide",
+            "Curse",
+            "Headbutt",
+            "Helping Hand",
+            "Metronome",
+            "Nasty Plot",
+            "Secret Power",
+            "Splash",
+            "Swords Dance",
+            "Take Down",
+            "Tera Blast"
         ],
         "tutor": [
             "Belch",

@@ -149,7 +149,11 @@
             "Vacuum Wave",
             "Water Pulse",
             "Work Up",
-            "Zen Headbutt"
+            "Zen Headbutt",
+            "Amnesia",
+            "Curse",
+            "Headbutt",
+            "Splash"
         ],
         "tutor": [
             "Aura Sphere",

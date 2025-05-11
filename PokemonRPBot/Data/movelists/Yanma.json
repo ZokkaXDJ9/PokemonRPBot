@@ -116,7 +116,14 @@
             "Toxic",
             "U-turn",
             "Uproar",
-            "Wing Attack"
+            "Wing Attack",
+            "Agility",
+            "Amnesia",
+            "Helping Hand",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Splash"
         ],
         "tutor": [
             "Air Cutter",

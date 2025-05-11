@@ -167,7 +167,12 @@
             "Uproar",
             "Water Gun",
             "Whirlpool",
-            "Zap Cannon"
+            "Zap Cannon",
+            "Agility",
+            "Amnesia",
+            "Metronome",
+            "Nasty Plot",
+            "Splash"
         ],
         "tutor": [
             "Ancient Power",

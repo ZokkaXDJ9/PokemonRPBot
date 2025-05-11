@@ -105,7 +105,20 @@
             "Tri Attack",
             "U-turn",
             "X-Scissor",
-            "Zen Headbutt"
+            "Zen Headbutt",
+            "Agility",
+            "Amnesia",
+            "Attract",
+            "Curse",
+            "Headbutt",
+            "Helping Hand",
+            "Metronome",
+            "Nasty Plot",
+            "Secret Power",
+            "Splash",
+            "Swords Dance",
+            "Take Down",
+            "Tera Blast"
         ],
         "tutor": [
             "Ally Switch",

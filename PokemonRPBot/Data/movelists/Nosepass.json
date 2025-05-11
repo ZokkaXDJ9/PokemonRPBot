@@ -114,7 +114,15 @@
             "Torment",
             "Toxic",
             "Volt Switch",
-            "Zap Cannon"
+            "Zap Cannon",
+            "Agility",
+            "Amnesia",
+            "Headbutt",
+            "Metronome",
+            "Nasty Plot",
+            "Snore",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "Ancient Power",

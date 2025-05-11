@@ -139,7 +139,13 @@
             "Torment",
             "Toxic",
             "Trailblaze",
-            "Will-O-Wisp"
+            "Will-O-Wisp",
+            "Agility",
+            "Amnesia",
+            "Iron Defense",
+            "Metronome",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "Body Slam",

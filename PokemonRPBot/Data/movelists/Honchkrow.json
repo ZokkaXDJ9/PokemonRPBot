@@ -131,7 +131,16 @@
             "Toxic",
             "U-turn",
             "Uproar",
-            "Wing Attack"
+            "Wing Attack",
+            "Agility",
+            "Amnesia",
+            "Curse",
+            "Headbutt",
+            "Iron Defense",
+            "Metronome",
+            "Snore",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "Aerial Ace",

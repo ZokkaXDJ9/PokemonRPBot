@@ -127,7 +127,14 @@
             "Water Pulse",
             "Waterfall",
             "Whirlpool",
-            "X-Scissor"
+            "X-Scissor",
+            "Agility",
+            "Amnesia",
+            "Curse",
+            "Headbutt",
+            "Helping Hand",
+            "Metronome",
+            "Splash"
         ],
         "tutor": [
             "Ancient Power",

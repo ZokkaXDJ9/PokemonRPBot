@@ -86,7 +86,18 @@
             "Swift",
             "Taunt",
             "Tera Blast",
-            "Toxic"
+            "Toxic",
+            "Agility",
+            "Amnesia",
+            "Curse",
+            "Headbutt",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Secret Power",
+            "Splash",
+            "Swords Dance",
+            "Take Down"
         ],
         "tutor": [
             "Absorb",

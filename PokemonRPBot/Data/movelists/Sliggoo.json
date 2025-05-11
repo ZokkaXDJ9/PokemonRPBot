@@ -84,7 +84,17 @@
             "Thunder",
             "Thunderbolt",
             "Toxic",
-            "Water Pulse"
+            "Water Pulse",
+            "Agility",
+            "Amnesia",
+            "Headbutt",
+            "Helping Hand",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Secret Power",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "Absorb",

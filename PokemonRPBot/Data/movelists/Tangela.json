@@ -103,7 +103,14 @@
             "Swords Dance",
             "Take Down",
             "Thief",
-            "Toxic"
+            "Toxic",
+            "Agility",
+            "Helping Hand",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Splash",
+            "Tera Blast"
         ],
         "tutor": [
             "Ancient Power",
