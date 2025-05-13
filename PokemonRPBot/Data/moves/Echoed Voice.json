@@ -1,6 +1,6 @@
 {
   "name": "Echoed Voice",
-  "type": "Normal",
+  "type": "Sound",
   "power": 1,
   "damage": "Special",
   "accuracy": "Dexterity",

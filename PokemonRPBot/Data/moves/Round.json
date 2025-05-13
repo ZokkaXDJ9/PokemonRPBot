@@ -1,6 +1,6 @@
 {
   "name": "Round",
-  "type": "Normal",
+  "type": "Sound",
   "power": 2,
   "damage": "Special",
   "accuracy": "Special",

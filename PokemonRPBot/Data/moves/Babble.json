@@ -1,0 +1,11 @@
+{
+  "name": "Babble",
+  "type": "Sound",
+  "power": 2,
+  "damage": "Special",
+  "accuracy": "Dexterity",
+  "target": "Foe",
+  "effect": "Sound Based.",
+  "description": "The user attacks the target by shouting at it.",
+  "category": "Special"
+}
