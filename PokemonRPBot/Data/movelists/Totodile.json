@@ -128,7 +128,14 @@
             "Water Pulse",
             "Waterfall",
             "Whirlpool",
-            "Work Up"
+            "Work Up",
+            "Agility",
+            "Amnesia",
+            "Helping Hand",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Splash"
         ],
         "tutor": [
             "Ancient Power",

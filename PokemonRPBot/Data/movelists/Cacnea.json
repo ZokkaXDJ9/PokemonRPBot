@@ -126,7 +126,14 @@
             "Toxic",
             "Toxic Spikes",
             "Trailblaze",
-            "Venoshock"
+            "Venoshock",
+            "Agility",
+            "Amnesia",
+            "Headbutt",
+            "Iron Defense",
+            "Metronome",
+            "Snore",
+            "Splash"
         ],
         "tutor": [
             "Block",

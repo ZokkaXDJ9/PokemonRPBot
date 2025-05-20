@@ -136,7 +136,13 @@
             "Take Down",
             "Tera Blast",
             "Thunder Punch",
-            "Toxic"
+            "Toxic",
+            "Agility",
+            "Amnesia",
+            "Helping Hand",
+            "Nasty Plot",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "Ancient Power",

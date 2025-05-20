@@ -111,7 +111,17 @@
             "Vacuum Wave",
             "Water Pulse",
             "Work Up",
-            "X-Scissor"
+            "X-Scissor",
+            "Agility",
+            "Amnesia",
+            "Attract",
+            "Curse",
+            "Headbutt",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Secret Power",
+            "Splash"
         ],
         "tutor": [
             "Aqua Jet",

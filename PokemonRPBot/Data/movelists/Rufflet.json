@@ -101,7 +101,16 @@
             "Toxic",
             "U-turn",
             "Work Up",
-            "Zen Headbutt"
+            "Zen Headbutt",
+            "Amnesia",
+            "Curse",
+            "Headbutt",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Secret Power",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "Defog",

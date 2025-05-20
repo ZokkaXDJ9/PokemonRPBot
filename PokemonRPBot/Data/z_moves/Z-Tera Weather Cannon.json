@@ -1,0 +1,16 @@
+{
+  "Name": "Z-Tera Weather Cannon",
+  "Type": "Normal",
+  "Power": 10,
+  "Damage1": "",
+  "Damage2": "Strength/Special",
+  "Accuracy1": "Dexterity",
+  "Accuracy2": "Rank",
+  "Target": "Foe",
+  "Effect": "Effect: The User can choose whether this uses Strength or Special. If the User is terastallized, set the weather of the associated Tera-Type for 2 Rounds before attacking and this move's type becomes the same type.",
+  "Description": "Lily plugs her weather machine into her Tera Cannon and overcharges it to such a massive shot, that even the weather around her bends to its energy.",
+  "_id": "Tera Blast",
+  "Attributes": {},
+  "AddedEffects": {},
+  "Category": "Physical/Special"
+}

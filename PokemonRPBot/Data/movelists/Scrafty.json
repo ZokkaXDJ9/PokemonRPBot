@@ -142,7 +142,12 @@
             "Upper Hand",
             "Uproar",
             "Work Up",
-            "Zen Headbutt"
+            "Zen Headbutt",
+            "Agility",
+            "Headbutt",
+            "Nasty Plot",
+            "Secret Power",
+            "Splash"
         ],
         "tutor": [
             "Coaching",

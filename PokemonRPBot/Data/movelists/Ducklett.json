@@ -89,7 +89,19 @@
             "Toxic",
             "Trailblaze",
             "Water Pulse",
-            "Whirlpool"
+            "Whirlpool",
+            "Agility",
+            "Amnesia",
+            "Curse",
+            "Headbutt",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Secret Power",
+            "Snore",
+            "Splash",
+            "Swords Dance",
+            "Take Down"
         ],
         "tutor": [
             "Defog",

@@ -86,7 +86,16 @@
             "Water Pulse",
             "Waterfall",
             "Whirlpool",
-            "Work Up"
+            "Work Up",
+            "Agility",
+            "Amnesia",
+            "Curse",
+            "Headbutt",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "Body Slam",

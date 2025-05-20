@@ -112,7 +112,19 @@
             "U-turn",
             "Work Up",
             "X-Scissor",
-            "Zen Headbutt"
+            "Zen Headbutt",
+            "Agility",
+            "Amnesia",
+            "Attract",
+            "Curse",
+            "Headbutt",
+            "Helping Hand",
+            "Metronome",
+            "Nasty Plot",
+            "Secret Power",
+            "Splash",
+            "Take Down",
+            "Tera Blast"
         ],
         "tutor": [
             "Draco Meteor",

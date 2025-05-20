@@ -89,7 +89,16 @@
             "Toxic",
             "U-turn",
             "Will-O-Wisp",
-            "Work Up"
+            "Work Up",
+            "Amnesia",
+            "Curse",
+            "Headbutt",
+            "Helping Hand",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Secret Power",
+            "Splash"
         ],
         "tutor": [
             "Defog",

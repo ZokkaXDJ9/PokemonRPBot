@@ -116,7 +116,16 @@
             "Torment",
             "Toxic",
             "U-turn",
-            "Uproar"
+            "Uproar",
+            "Agility",
+            "Amnesia",
+            "Curse",
+            "Headbutt",
+            "Helping Hand",
+            "Metronome",
+            "Secret Power",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "Block",

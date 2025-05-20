@@ -133,7 +133,15 @@
             "Venom Drench",
             "Venoshock",
             "Work Up",
-            "X-Scissor"
+            "X-Scissor",
+            "Agility",
+            "Amnesia",
+            "Curse",
+            "Headbutt",
+            "Iron Defense",
+            "Metronome",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "Astonish",

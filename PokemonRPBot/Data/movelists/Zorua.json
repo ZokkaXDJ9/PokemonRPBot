@@ -110,7 +110,14 @@
             "Toxic",
             "Trick",
             "U-turn",
-            "Uproar"
+            "Uproar",
+            "Amnesia",
+            "Curse",
+            "Headbutt",
+            "Iron Defense",
+            "Metronome",
+            "Secret Power",
+            "Splash"
         ],
         "tutor": [
             "Bounce",

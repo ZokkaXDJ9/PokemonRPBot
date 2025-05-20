@@ -100,7 +100,18 @@
             "Thief",
             "Toxic",
             "Trick Room",
-            "U-turn"
+            "U-turn",
+            "Agility",
+            "Amnesia",
+            "Curse",
+            "Headbutt",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Secret Power",
+            "Splash",
+            "Swords Dance",
+            "Take Down"
         ],
         "tutor": [
             "Cotton Spore",

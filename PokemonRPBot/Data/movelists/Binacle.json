@@ -110,7 +110,17 @@
             "Torment",
             "Toxic",
             "Uproar",
-            "X-Scissor"
+            "X-Scissor",
+            "Agility",
+            "Amnesia",
+            "Curse",
+            "Headbutt",
+            "Metronome",
+            "Nasty Plot",
+            "Secret Power",
+            "Splash",
+            "Take Down",
+            "Tera Blast"
         ],
         "tutor": [
             "Dual Chop",

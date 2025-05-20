@@ -139,7 +139,13 @@
             "Toxic Spikes",
             "Venoshock",
             "Volt Switch",
-            "Zap Cannon"
+            "Zap Cannon",
+            "Agility",
+            "Amnesia",
+            "Metronome",
+            "Nasty Plot",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "Ally Switch",

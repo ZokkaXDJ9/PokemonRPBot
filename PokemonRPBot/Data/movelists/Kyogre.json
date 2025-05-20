@@ -101,7 +101,17 @@
             "Uproar",
             "Water Pulse",
             "Waterfall",
-            "Whirlpool"
+            "Whirlpool",
+            "Agility",
+            "Amnesia",
+            "Attract",
+            "Curse",
+            "Headbutt",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "Ancient Power",

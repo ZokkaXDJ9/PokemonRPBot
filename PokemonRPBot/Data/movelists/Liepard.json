@@ -102,7 +102,19 @@
             "Torment",
             "Toxic",
             "Trick",
-            "U-turn"
+            "U-turn",
+            "Agility",
+            "Amnesia",
+            "Curse",
+            "Headbutt",
+            "Helping Hand",
+            "Iron Defense",
+            "Metronome",
+            "Secret Power",
+            "Splash",
+            "Swords Dance",
+            "Take Down",
+            "Tera Blast"
         ],
         "tutor": [
             "Assist",

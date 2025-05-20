@@ -111,7 +111,14 @@
             "Tera Blast",
             "Toxic",
             "Will-O-Wisp",
-            "Yawn"
+            "Yawn",
+            "Agility",
+            "Headbutt",
+            "Helping Hand",
+            "Metronome",
+            "Nasty Plot",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "After You",

@@ -269,7 +269,8 @@
   "scolipede": ["venipede", "whirlipede"],
   "whimsicott": ["cottonee"],
   "lilligant": ["petilil"],
-  "basculegion": ["basculin"],
+  "basculegion-male": ["basculin"],
+  "basculegion-female": ["basculin"],
   "krokorok": ["sandile"],
   "krookodile": ["sandile", "krokorok"],
   "darmanitan-standard-mode": ["darumaka"],
@@ -523,5 +524,5 @@
   "toxtricity-low-key": ["toxel"],
   "urshifu-single-strike": ["kubfu"],
   "clodsire": ["wooper-paldean"],
-  "mizutsune": ["basculegion", "basculin"]
+  "mizutsune": ["basculegion-male", "basculin"]
 }

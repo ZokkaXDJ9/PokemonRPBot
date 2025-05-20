@@ -130,7 +130,12 @@
             "Upper Hand",
             "Vacuum Wave",
             "Venoshock",
-            "Work Up"
+            "Work Up",
+            "Agility",
+            "Amnesia",
+            "Metronome",
+            "Nasty Plot",
+            "Splash"
         ],
         "tutor": [
             "Arm Thrust",

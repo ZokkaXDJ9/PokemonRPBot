@@ -109,7 +109,18 @@
             "Venoshock",
             "Water Pulse",
             "Waterfall",
-            "Whirlpool"
+            "Whirlpool",
+            "Agility",
+            "Amnesia",
+            "Curse",
+            "Headbutt",
+            "Helping Hand",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Secret Power",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "Draco Meteor",

@@ -114,7 +114,13 @@
             "Thief",
             "Throat Chop",
             "Toxic",
-            "X-Scissor"
+            "X-Scissor",
+            "Agility",
+            "Amnesia",
+            "Metronome",
+            "Nasty Plot",
+            "Splash",
+            "Tera Blast"
         ],
         "tutor": [
             "Bind",

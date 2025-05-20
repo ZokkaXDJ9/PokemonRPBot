@@ -113,7 +113,15 @@
             "Toxic",
             "Trailblaze",
             "Uproar",
-            "Yawn"
+            "Yawn",
+            "Agility",
+            "Amnesia",
+            "Curse",
+            "Iron Defense",
+            "Metronome",
+            "Snore",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "Body Slam",

@@ -113,7 +113,16 @@
             "Tera Blast",
             "Toxic",
             "U-turn",
-            "Weather Ball"
+            "Weather Ball",
+            "Agility",
+            "Amnesia",
+            "Curse",
+            "Headbutt",
+            "Helping Hand",
+            "Iron Defense",
+            "Metronome",
+            "Secret Power",
+            "Splash"
         ],
         "tutor": [
             "Block",

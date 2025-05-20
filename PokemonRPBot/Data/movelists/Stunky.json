@@ -120,7 +120,15 @@
             "Toxic Spikes",
             "Trailblaze",
             "Venom Drench",
-            "Venoshock"
+            "Venoshock",
+            "Agility",
+            "Amnesia",
+            "Curse",
+            "Headbutt",
+            "Iron Defense",
+            "Metronome",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "Corrosive Gas",

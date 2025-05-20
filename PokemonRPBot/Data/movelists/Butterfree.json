@@ -115,7 +115,16 @@
             "Toxic",
             "U-turn",
             "Venoshock",
-            "Whirlwind"
+            "Whirlwind",
+            "Agility",
+            "Amnesia",
+            "Headbutt",
+            "Helping Hand",
+            "Metronome",
+            "Nasty Plot",
+            "Splash",
+            "Swords Dance",
+            "Tera Blast"
         ],
         "tutor": [
             "Air Cutter",

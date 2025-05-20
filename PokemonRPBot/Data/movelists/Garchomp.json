@@ -122,7 +122,15 @@
             "Tera Blast",
             "Thunder Fang",
             "Toxic",
-            "Whirlpool"
+            "Whirlpool",
+            "Agility",
+            "Amnesia",
+            "Curse",
+            "Headbutt",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Splash"
         ],
         "tutor": [
             "Crunch",

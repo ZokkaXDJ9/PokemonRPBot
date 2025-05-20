@@ -109,7 +109,17 @@
             "Torment",
             "Toxic",
             "Trick",
-            "Trick Room"
+            "Trick Room",
+            "Agility",
+            "Amnesia",
+            "Curse",
+            "Headbutt",
+            "Iron Defense",
+            "Metronome",
+            "Secret Power",
+            "Splash",
+            "Swords Dance",
+            "Take Down"
         ],
         "tutor": [
             "Ally Switch",

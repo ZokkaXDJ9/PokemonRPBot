@@ -136,7 +136,16 @@
             "Water Pulse",
             "Waterfall",
             "Whirlpool",
-            "Wild Charge"
+            "Wild Charge",
+            "Agility",
+            "Amnesia",
+            "Attract",
+            "Curse",
+            "Headbutt",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Splash"
         ],
         "tutor": [
             "Body Slam",

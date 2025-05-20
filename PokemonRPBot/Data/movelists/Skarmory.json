@@ -121,7 +121,13 @@
             "Thief",
             "Torment",
             "Toxic",
-            "X-Scissor"
+            "X-Scissor",
+            "Amnesia",
+            "Headbutt",
+            "Helping Hand",
+            "Metronome",
+            "Nasty Plot",
+            "Splash"
         ],
         "tutor": [
             "Air Cutter",

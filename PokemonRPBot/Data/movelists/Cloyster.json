@@ -122,7 +122,14 @@
             "Water Pulse",
             "Waterfall",
             "Weather Ball",
-            "Whirlpool"
+            "Whirlpool",
+            "Agility",
+            "Amnesia",
+            "Headbutt",
+            "Metronome",
+            "Nasty Plot",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "Aurora Beam",

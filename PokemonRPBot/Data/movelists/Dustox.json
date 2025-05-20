@@ -100,7 +100,20 @@
             "Toxic",
             "U-turn",
             "Venoshock",
-            "Whirlwind"
+            "Whirlwind",
+            "Agility",
+            "Amnesia",
+            "Curse",
+            "Headbutt",
+            "Helping Hand",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Snore",
+            "Splash",
+            "Swords Dance",
+            "Take Down",
+            "Tera Blast"
         ],
         "tutor": [
             "Aerial Ace",

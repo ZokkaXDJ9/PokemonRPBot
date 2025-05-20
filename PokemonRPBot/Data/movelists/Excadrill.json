@@ -108,7 +108,14 @@
             "Tera Blast",
             "Throat Chop",
             "Toxic",
-            "X-Scissor"
+            "X-Scissor",
+            "Agility",
+            "Amnesia",
+            "Headbutt",
+            "Metronome",
+            "Nasty Plot",
+            "Secret Power",
+            "Splash"
         ],
         "tutor": [
             "Drill Run",

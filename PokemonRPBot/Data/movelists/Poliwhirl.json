@@ -126,7 +126,12 @@
             "Water Pulse",
             "Waterfall",
             "Weather Ball",
-            "Whirlpool"
+            "Whirlpool",
+            "Agility",
+            "Iron Defense",
+            "Nasty Plot",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "Body Slam",

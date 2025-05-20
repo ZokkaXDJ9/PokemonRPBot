@@ -84,7 +84,19 @@
             "Toxic",
             "U-turn",
             "Volt Switch",
-            "Wild Charge"
+            "Wild Charge",
+            "Agility",
+            "Amnesia",
+            "Curse",
+            "Headbutt",
+            "Helping Hand",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Secret Power",
+            "Snore",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "Aqua Tail",

@@ -134,7 +134,15 @@
             "U-turn",
             "Uproar",
             "Water Pulse",
-            "Zen Headbutt"
+            "Zen Headbutt",
+            "Agility",
+            "Attract",
+            "Curse",
+            "Headbutt",
+            "Nasty Plot",
+            "Splash",
+            "Swords Dance",
+            "Take Down"
         ],
         "tutor": [
             "Ancient Power",

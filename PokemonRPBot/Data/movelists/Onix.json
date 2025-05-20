@@ -122,7 +122,16 @@
             "Take Down",
             "Taunt",
             "Torment",
-            "Toxic"
+            "Toxic",
+            "Agility",
+            "Amnesia",
+            "Helping Hand",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Splash",
+            "Swords Dance",
+            "Tera Blast"
         ],
         "tutor": [
             "Ancient Power",

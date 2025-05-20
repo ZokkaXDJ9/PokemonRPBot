@@ -88,7 +88,19 @@
             "Toxic",
             "U-turn",
             "Volt Switch",
-            "Wild Charge"
+            "Wild Charge",
+            "Amnesia",
+            "Curse",
+            "Headbutt",
+            "Helping Hand",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Secret Power",
+            "Splash",
+            "Swords Dance",
+            "Take Down",
+            "Tera Blast"
         ],
         "tutor": [
             "Ally Switch",

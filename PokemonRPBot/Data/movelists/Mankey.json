@@ -155,7 +155,13 @@
             "Toxic",
             "U-turn",
             "Uproar",
-            "Work Up"
+            "Work Up",
+            "Agility",
+            "Amnesia",
+            "Iron Defense",
+            "Nasty Plot",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "Body Slam",

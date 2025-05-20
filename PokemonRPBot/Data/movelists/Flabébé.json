@@ -1,6 +1,6 @@
 {
     "number": 669,
-    "name": "Flab\u00e9b\u00e9",
+    "name": "Flabébé",
     "types": [
         "Fairy"
     ],
@@ -90,7 +90,19 @@
             "Swift",
             "Tera Blast",
             "Toxic",
-            "Trailblaze"
+            "Trailblaze",
+            "Agility",
+            "Amnesia",
+            "Curse",
+            "Headbutt",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Secret Power",
+            "Snore",
+            "Splash",
+            "Swords Dance",
+            "Take Down"
         ],
         "tutor": [
             "After You",

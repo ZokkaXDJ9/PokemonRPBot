@@ -5,7 +5,7 @@
   "damage": "",
   "accuracy": "Tough",
   "target": "Foe",
-  "effect": "Sound Based. Reduce foe's Strength and Special. The user switches out, the new Pokemon arrives ready to fight. Roll for its initiative. Switcher Move.",
+  "effect": "Sound Based. Switcher Move. Reduce foe's Strength and Special.",
   "description": "The user threatens the foe, leaving it too scared to pursuit the user or overwhelm the ally that just switched in the battlefield.",
   "category": "Support"
 }

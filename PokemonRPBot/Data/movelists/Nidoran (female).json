@@ -105,7 +105,15 @@
             "Toxic Spikes",
             "Venom Drench",
             "Venoshock",
-            "Water Pulse"
+            "Water Pulse",
+            "Agility",
+            "Amnesia",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Splash",
+            "Swords Dance",
+            "Tera Blast"
         ],
         "tutor": [
             "Body Slam",

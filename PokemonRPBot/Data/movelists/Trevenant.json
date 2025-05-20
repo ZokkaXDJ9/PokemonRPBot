@@ -126,7 +126,17 @@
             "Trick Room",
             "Venom Drench",
             "Will-O-Wisp",
-            "X-Scissor"
+            "X-Scissor",
+            "Agility",
+            "Amnesia",
+            "Headbutt",
+            "Helping Hand",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Secret Power",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "Ally Switch",

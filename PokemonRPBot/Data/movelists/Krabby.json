@@ -108,7 +108,13 @@
             "Water Gun",
             "Water Pulse",
             "Whirlpool",
-            "X-Scissor"
+            "X-Scissor",
+            "Headbutt",
+            "Helping Hand",
+            "Metronome",
+            "Nasty Plot",
+            "Splash",
+            "Tera Blast"
         ],
         "tutor": [
             "Ally Switch",

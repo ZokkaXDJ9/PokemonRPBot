@@ -110,7 +110,15 @@
             "Take Down",
             "Tera Blast",
             "Thunder Fang",
-            "Toxic"
+            "Toxic",
+            "Agility",
+            "Amnesia",
+            "Curse",
+            "Headbutt",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Splash"
         ],
         "tutor": [
             "Draco Meteor",

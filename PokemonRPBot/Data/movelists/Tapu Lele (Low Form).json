@@ -100,7 +100,20 @@
             "Thunderbolt",
             "Torment",
             "Toxic",
-            "Wonder Room"
+            "Wonder Room",
+            "Agility",
+            "Amnesia",
+            "Attract",
+            "Curse",
+            "Headbutt",
+            "Helping Hand",
+            "Metronome",
+            "Nasty Plot",
+            "Secret Power",
+            "Splash",
+            "Swords Dance",
+            "Take Down",
+            "Tera Blast"
         ],
         "tutor": [
             "Ally Switch",

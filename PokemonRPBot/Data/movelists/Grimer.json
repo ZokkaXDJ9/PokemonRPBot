@@ -132,7 +132,14 @@
             "Toxic",
             "Venoshock",
             "Zap Cannon",
-            "Zen Headbutt"
+            "Zen Headbutt",
+            "Agility",
+            "Amnesia",
+            "Headbutt",
+            "Iron Defense",
+            "Nasty Plot",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "Body Slam",

@@ -115,7 +115,13 @@
             "Tera Blast",
             "Toxic",
             "Toxic Spikes",
-            "Venoshock"
+            "Venoshock",
+            "Agility",
+            "Amnesia",
+            "Metronome",
+            "Nasty Plot",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "Body Slam",

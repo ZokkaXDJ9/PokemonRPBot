@@ -142,7 +142,18 @@
             "Toxic",
             "Uproar",
             "Water Pulse",
-            "Whirlpool"
+            "Whirlpool",
+            "Agility",
+            "Amnesia",
+            "Curse",
+            "Headbutt",
+            "Helping Hand",
+            "Metronome",
+            "Nasty Plot",
+            "Splash",
+            "Swords Dance",
+            "Take Down",
+            "Tera Blast"
         ],
         "tutor": [
             "Ancient Power",

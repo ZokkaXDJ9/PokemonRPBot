@@ -84,7 +84,19 @@
             "Tri Attack",
             "U-turn",
             "Work Up",
-            "X-Scissor"
+            "X-Scissor",
+            "Agility",
+            "Amnesia",
+            "Attract",
+            "Curse",
+            "Headbutt",
+            "Helping Hand",
+            "Metronome",
+            "Nasty Plot",
+            "Secret Power",
+            "Splash",
+            "Take Down",
+            "Tera Blast"
         ],
         "tutor": [
             "Icy Wind",

@@ -114,7 +114,15 @@
             "Tri Attack",
             "Volt Switch",
             "Wild Charge",
-            "Zap Cannon"
+            "Zap Cannon",
+            "Agility",
+            "Amnesia",
+            "Attract",
+            "Headbutt",
+            "Metronome",
+            "Nasty Plot",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "Double-Edge",

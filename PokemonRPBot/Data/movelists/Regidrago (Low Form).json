@@ -6,7 +6,7 @@
     ],
     "abilities": {
         "normal": [
-            "Dragon\u2019s Maw"
+            "Dragon’s Maw"
         ],
         "hidden": []
     },
@@ -73,7 +73,24 @@
             "Swift",
             "Take Down",
             "Tera Blast",
-            "Thunder Fang"
+            "Thunder Fang",
+            "Agility",
+            "Amnesia",
+            "Attract",
+            "Confide",
+            "Curse",
+            "Double Team",
+            "Frustration",
+            "Headbutt",
+            "Helping Hand",
+            "Hidden Power",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Return",
+            "Secret Power",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "Scale Shot"

@@ -118,7 +118,18 @@
             "Thunder Wave",
             "Toxic",
             "Trick Room",
-            "X-Scissor"
+            "X-Scissor",
+            "Agility",
+            "Amnesia",
+            "Attract",
+            "Curse",
+            "Headbutt",
+            "Helping Hand",
+            "Metronome",
+            "Nasty Plot",
+            "Secret Power",
+            "Splash",
+            "Take Down"
         ],
         "tutor": [
             "Ally Switch",

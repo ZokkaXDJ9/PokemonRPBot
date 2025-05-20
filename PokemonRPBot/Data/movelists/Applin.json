@@ -32,7 +32,32 @@
         "tm": [
             "Attract",
             "Pounce",
-            "Tera Blast"
+            "Tera Blast",
+            "Agility",
+            "Amnesia",
+            "Confide",
+            "Curse",
+            "Double Team",
+            "Endure",
+            "Facade",
+            "Frustration",
+            "Headbutt",
+            "Helping Hand",
+            "Hidden Power",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Protect",
+            "Rest",
+            "Return",
+            "Round",
+            "Secret Power",
+            "Sleep Talk",
+            "Snore",
+            "Splash",
+            "Substitute",
+            "Swords Dance",
+            "Take Down"
         ],
         "tutor": [
             "Grassy Glide"

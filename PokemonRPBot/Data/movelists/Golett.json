@@ -124,7 +124,16 @@
             "Tera Blast",
             "Thief",
             "Thunder Punch",
-            "Toxic"
+            "Toxic",
+            "Agility",
+            "Amnesia",
+            "Attract",
+            "Headbutt",
+            "Metronome",
+            "Nasty Plot",
+            "Secret Power",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "Ally Switch",

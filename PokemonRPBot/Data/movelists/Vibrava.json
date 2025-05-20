@@ -123,7 +123,17 @@
             "Throat Chop",
             "Toxic",
             "U-turn",
-            "Uproar"
+            "Uproar",
+            "Agility",
+            "Amnesia",
+            "Curse",
+            "Headbutt",
+            "Helping Hand",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "Bide",

@@ -114,7 +114,16 @@
             "Thunder Punch",
             "Thunder Wave",
             "Thunderbolt",
-            "Toxic"
+            "Toxic",
+            "Agility",
+            "Amnesia",
+            "Attract",
+            "Headbutt",
+            "Helping Hand",
+            "Metronome",
+            "Nasty Plot",
+            "Splash",
+            "Swords Dance"
         ],
         "tutor": [
             "Ancient Power",

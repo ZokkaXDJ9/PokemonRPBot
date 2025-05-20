@@ -155,7 +155,13 @@
             "Thunderbolt",
             "Toxic",
             "Uproar",
-            "Whirlpool"
+            "Whirlpool",
+            "Agility",
+            "Amnesia",
+            "Headbutt",
+            "Metronome",
+            "Nasty Plot",
+            "Splash"
         ],
         "tutor": [
             "Ancient Power",

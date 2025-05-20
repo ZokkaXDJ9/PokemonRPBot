@@ -113,7 +113,14 @@
             "Toxic Spikes",
             "Venoshock",
             "Water Pulse",
-            "Yawn"
+            "Yawn",
+            "Agility",
+            "Headbutt",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Snore",
+            "Splash"
         ],
         "tutor": [
             "Body Slam",

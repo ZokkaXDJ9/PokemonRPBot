@@ -126,7 +126,17 @@
             "Toxic",
             "Trick",
             "Will-O-Wisp",
-            "X-Scissor"
+            "X-Scissor",
+            "Agility",
+            "Amnesia",
+            "Attract",
+            "Headbutt",
+            "Helping Hand",
+            "Iron Defense",
+            "Metronome",
+            "Snore",
+            "Splash",
+            "Take Down"
         ],
         "tutor": [
             "Aerial Ace",

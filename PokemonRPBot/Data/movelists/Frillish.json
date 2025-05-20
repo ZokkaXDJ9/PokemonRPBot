@@ -92,7 +92,20 @@
             "Trick Room",
             "Waterfall",
             "Whirlpool",
-            "Will-O-Wisp"
+            "Will-O-Wisp",
+            "Agility",
+            "Amnesia",
+            "Curse",
+            "Headbutt",
+            "Helping Hand",
+            "Iron Defense",
+            "Metronome",
+            "Nasty Plot",
+            "Secret Power",
+            "Splash",
+            "Swords Dance",
+            "Take Down",
+            "Tera Blast"
         ],
         "tutor": [
             "Bind",
