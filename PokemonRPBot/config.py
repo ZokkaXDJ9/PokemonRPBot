@@ -2,9 +2,8 @@
 COMMANDS = [
     "commands.bonk",
     "commands.crit",
-    "commands.edit_questgiver",
+
     "commands.remind",
-    "commands.setup_questgiver",
     "commands.successive",
     "commands.moody",
     "commands.status",
@@ -28,10 +27,14 @@ COMMANDS = [
     "commands.legend_move",
     "commands.stats",
     "commands.z_move",
-    "commands.switch"
+    "commands.switch",
+    "commands.quest_reminder",
+    "commands.gm_time"
     ]
 
 COMMANDS_NOT_LOADED = [
     "commands.suggest",
     "commands.create_character",
+    "commands.edit_questgiver",
+    "commands.setup_questgiver",
 ]
