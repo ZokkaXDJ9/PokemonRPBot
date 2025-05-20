@@ -1,0 +1,9 @@
+{
+    "quest_givers": [
+        {
+            "name": "Vince",
+            "role": "Guard",
+            "description": "a tall, but quite relaxed pangoro"
+        }
+    ]
+}

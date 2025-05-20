@@ -14,6 +14,11 @@
             "name": "Amaterasu",
             "role": "Guildmaster from the Past",
             "description": "Amaterasu is the past guildmaster that sends quests from a strange time paradox to the guild like it is today. He doesnt know that they are in the past but he thinks that the group is actually in his timeline of the citadel. His quests are always something that the citadel went through in the past. Thats also how the group experiences the story how the citadel was created and why it became how it is today."
+        },
+        {
+            "name": "The Administrator",
+            "role": "Server Administrator of the Citadel and the one who is posting the most \"general\" quests",
+            "description": "A male Porygon-Z with a strange love to Computers and Server. In charge of the technical things of the citadel and basically acts like the \"Head\" of the Citadel in the time where there is no official Guildmaster."
         }
     ]
 }
